@@ -1,0 +1,2556 @@
+{
+    "bank_id": "d121325c-da90-44e5-ab73-bb9e60b541d2",
+    "bank_name": "DS-GROUP-IT-SECURITY",
+    "questions": [
+        {
+            "id": "5cf9862a-f831-4f97-8669-8a6e24693445",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an enterprise, threat hunting typically involves",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Waiting for IDS/IPS alerts and reacting",
+                    "type": "A"
+                },
+                {
+                    "body": "Actively searching for threats not detected by automated security tools",
+                    "type": "B"
+                },
+                {
+                    "body": "Configuring firewall access rules",
+                    "type": "C"
+                },
+                {
+                    "body": "Updating software patches",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f466a862-cf1a-4bc1-b55d-edfb52111f3f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of security control is a biometric fingerprint scanner",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Administrative",
+                    "type": "A"
+                },
+                {
+                    "body": "Physical",
+                    "type": "B"
+                },
+                {
+                    "body": "Technical (Logical)",
+                    "type": "C"
+                },
+                {
+                    "body": "Compensating",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "0ac126ac-0492-4e69-8e26-ad418e6d851d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does two-factor authentication (2F[KEY=A] combine to enhance security",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Two passwords",
+                    "type": "A"
+                },
+                {
+                    "body": "Password and security question",
+                    "type": "B"
+                },
+                {
+                    "body": "Something the user knows + Something the user has/possesses",
+                    "type": "C"
+                },
+                {
+                    "body": "Antivirus and firewall",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "e2315e80-8fe2-45ef-a0e3-89c0ad411b0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A user clicks on a link that causes their browser to perform unintended actions on a website where they are authenticated. This attack is called",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "XSS (Cross-Site Scripting)",
+                    "type": "A"
+                },
+                {
+                    "body": "CSRF (Cross-Site Request Forgery)",
+                    "type": "B"
+                },
+                {
+                    "body": "Clickjacking",
+                    "type": "C"
+                },
+                {
+                    "body": "Session Hijacking",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d26acc3e-e05c-4a36-92d3-6245c665556d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of malware disguises itself as legitimate software",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ransomware",
+                    "type": "A"
+                },
+                {
+                    "body": "Trojan Horse",
+                    "type": "B"
+                },
+                {
+                    "body": "Worm",
+                    "type": "C"
+                },
+                {
+                    "body": "Rootkit",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "5a869a0a-c8a4-40e6-a71e-d842b14a4350",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which security concept ensures that data remains unaltered during transit",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Confidentiality",
+                    "type": "A"
+                },
+                {
+                    "body": "Authentication",
+                    "type": "B"
+                },
+                {
+                    "body": "Integrity",
+                    "type": "C"
+                },
+                {
+                    "body": "Availability",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1ad37bc9-0262-455a-8152-6b96d627464f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of a honeypot in cybersecurity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Protect sensitive systems directly",
+                    "type": "A"
+                },
+                {
+                    "body": "Attract and analyze attackers&#39; behavior",
+                    "type": "B"
+                },
+                {
+                    "body": "Encrypt web traffic",
+                    "type": "C"
+                },
+                {
+                    "body": "Detect open ports on the network",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "2ceaba93-0f07-4d85-b58e-a9e4e37a376b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these protocols provides mutual authentication and encryption for email transfer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "POP3",
+                    "type": "A"
+                },
+                {
+                    "body": "IMAP",
+                    "type": "B"
+                },
+                {
+                    "body": "SMTP",
+                    "type": "C"
+                },
+                {
+                    "body": "S/MIME",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "124f2cc0-503d-4811-83d9-9107e76c9fb9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In cryptography, what is key stretching used for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Decrypting faster",
+                    "type": "A"
+                },
+                {
+                    "body": "Increasing password strength by making brute-force attacks slower",
+                    "type": "B"
+                },
+                {
+                    "body": "Compressing encryption keys",
+                    "type": "C"
+                },
+                {
+                    "body": "Transmitting keys over insecure channels",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "507cec37-41d1-4ff3-bab9-bb0520f851f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is most difficult to detect by a firewall alone",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Port scanning",
+                    "type": "A"
+                },
+                {
+                    "body": "SQL Injection in HTTPS traffic",
+                    "type": "B"
+                },
+                {
+                    "body": "Denial-of-Service attacks",
+                    "type": "C"
+                },
+                {
+                    "body": "Unauthorized SSH login attempts",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1e6198f5-5455-47d1-94bc-c3bc605e3882",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Zero-Day exploit refers to:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "An attack that happens after a system reboot",
+                    "type": "A"
+                },
+                {
+                    "body": "Malware with no digital signature",
+                    "type": "B"
+                },
+                {
+                    "body": "Exploitation of a vulnerability unknown to the vendor or public",
+                    "type": "C"
+                },
+                {
+                    "body": "Phishing emails delivered on the same day",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6d06356f-293b-4010-a2c9-20041ddbf10a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "(Advance[key=D] In the OSI model, where would SSL/TLS encryption and compression algorithms (e.g., JPEG compression) logically fit",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network and Transport Layers respectively",
+                    "type": "A"
+                },
+                {
+                    "body": "Presentation Layer for both",
+                    "type": "B"
+                },
+                {
+                    "body": "Session Layer for encryption, Presentation Layer for compression",
+                    "type": "C"
+                },
+                {
+                    "body": "Application Layer for encryption, Transport Layer for compression",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f95c8428-07a6-43a9-9647-305c72e3600f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which framework helps organizations identify, protect, detect, respond, and recover from cybersecurity incidents",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "PCI DSS",
+                    "type": "A"
+                },
+                {
+                    "body": "ISO 9001",
+                    "type": "B"
+                },
+                {
+                    "body": "NIST Cybersecurity Framework",
+                    "type": "C"
+                },
+                {
+                    "body": "GDPR",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "2e08a838-7c88-42fc-93d2-1879e34c32a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of attack vector does a Man-in-the-Middle (MITM) attack primarily target",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Authentication tokens",
+                    "type": "A"
+                },
+                {
+                    "body": "Network communication",
+                    "type": "B"
+                },
+                {
+                    "body": "System privileges",
+                    "type": "C"
+                },
+                {
+                    "body": "Application source code",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "9296a5f3-7ee7-47fa-a4a1-db8827fac838",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a SQL Injection attack, what is the attacker primarily exploiting",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Buffer overflow in the database",
+                    "type": "A"
+                },
+                {
+                    "body": "Weak encryption in transmission",
+                    "type": "B"
+                },
+                {
+                    "body": "Improper input validation of user-supplied data in SQL queries",
+                    "type": "C"
+                },
+                {
+                    "body": "File permissions on the server",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "15dc20d0-2af2-4476-aec1-b8ec506c66de",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following cryptographic algorithms is used for digital signatures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "AES",
+                    "type": "A"
+                },
+                {
+                    "body": "SHA-256",
+                    "type": "B"
+                },
+                {
+                    "body": "RSA",
+                    "type": "C"
+                },
+                {
+                    "body": "MD5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "fa6c1285-0076-4ff2-83b5-1e33d33a5d36",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "After configuring inter-VLAN routing on a Layer 3 switch, traffic between VLANs still fails. Which misconfiguration is most likely",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "IP addresses missing on VLAN interfaces (SVIs)",
+                    "type": "A"
+                },
+                {
+                    "body": "DHCP pool misconfigured",
+                    "type": "B"
+                },
+                {
+                    "body": "Incorrect DNS server configured",
+                    "type": "C"
+                },
+                {
+                    "body": "Default gateway missing on clients",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "6e826fef-3f9a-49f4-a6f5-f54b823343e4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "After deploying a firewall, internal users can&#39;t access external websites. What should be checked first",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Outbound NAT rules",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF neighbor states",
+                    "type": "B"
+                },
+                {
+                    "body": "VLAN trunking on switches",
+                    "type": "C"
+                },
+                {
+                    "body": "SSL certificates on workstations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "1df0347f-738f-4c8d-bf72-92639104553d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A network team observes intermittent packet drops between two data centers after a link upgrade. Which tool would best help diagnose this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "nslookup",
+                    "type": "A"
+                },
+                {
+                    "body": "ping with TTL 1",
+                    "type": "B"
+                },
+                {
+                    "body": "Path MTU Discovery or traceroute with packet size increment",
+                    "type": "C"
+                },
+                {
+                    "body": "ipconfig",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "c2d5eb34-e156-471a-aa20-6c771481afd2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When migrating to a new subnet, the network is unreachable from external sources despite correct routing. Which step might be missing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Adding a static route in internal switches",
+                    "type": "A"
+                },
+                {
+                    "body": "Advertising the new subnet on the edge router",
+                    "type": "B"
+                },
+                {
+                    "body": "Changing the VLAN tag on the cable",
+                    "type": "C"
+                },
+                {
+                    "body": "Increasing the MTU size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "53b19dda-53a7-4077-b9f9-67c5f92113ca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "After configuring a new DHCP server, users still retain old IP addresses and fail to get new ones. What might resolve this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reboot the router",
+                    "type": "A"
+                },
+                {
+                    "body": "Clear the ARP cache on all switches",
+                    "type": "B"
+                },
+                {
+                    "body": "Release and renew IP leases on client devices",
+                    "type": "C"
+                },
+                {
+                    "body": "Reconfigure the DNS zone",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "a1442276-06e2-4aa3-9497-d4dc550c0fb7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Post-deployment, users report that they can’t access an external FTP server, but web browsing works fine. What is the most likely cause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Firewall blocking TCP port 21",
+                    "type": "A"
+                },
+                {
+                    "body": "DNS misconfiguration",
+                    "type": "B"
+                },
+                {
+                    "body": "Incorrect IP addressing",
+                    "type": "C"
+                },
+                {
+                    "body": "VLAN mismatch",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "a3e0f500-9bd3-4e47-b82f-3bc8854958f2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "During deployment, a network engineer finds that OSPF neighbors are not forming on one router. Which is the most probable reason",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Incorrect default gateway",
+                    "type": "A"
+                },
+                {
+                    "body": "Different OSPF area IDs on the interfaces",
+                    "type": "B"
+                },
+                {
+                    "body": "Expired DNS lease",
+                    "type": "C"
+                },
+                {
+                    "body": "VLAN tagging misconfiguration",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "8492202d-b17b-4c7f-9919-3a923d48d997",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A newly installed wireless access point is not allowing any clients to connect. All wired connections work fine. What should you check first",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Firewall rules on the core router",
+                    "type": "A"
+                },
+                {
+                    "body": "SSID broadcast and wireless security settings",
+                    "type": "B"
+                },
+                {
+                    "body": "VLAN trunking on the data center firewall",
+                    "type": "C"
+                },
+                {
+                    "body": "DNS zone transfers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "ddd504b7-2d0a-4ccf-9b73-7d7da217d6ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "After replacing a core switch, you observe duplicate MAC addresses appearing on different ports. What is the probable cause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Incorrect spanning tree configuration leading to loops",
+                    "type": "A"
+                },
+                {
+                    "body": "DHCP exhaustion",
+                    "type": "B"
+                },
+                {
+                    "body": "Incorrect NAT configuration",
+                    "type": "C"
+                },
+                {
+                    "body": "VPN tunnel misconfiguration",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "e1d1f1dc-f597-4d3e-b698-b52f725fa529",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "During a network deployment, some users in a VLAN cannot reach the default gateway, while others can. The most likely cause is:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Incorrect subnet mask on client machines",
+                    "type": "A"
+                },
+                {
+                    "body": "DHCP server failure",
+                    "type": "B"
+                },
+                {
+                    "body": "DNS misconfiguration",
+                    "type": "C"
+                },
+                {
+                    "body": "Router&#39;s default route missing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "8b40e76f-2547-4a74-a231-2c62f71b50e1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the subnet mask for a network with 512 possible IP addresses (including network &amp; broadcast)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "255.255.255.128",
+                    "type": "A"
+                },
+                {
+                    "body": "255.255.254.0",
+                    "type": "B"
+                },
+                {
+                    "body": "255.255.255.0",
+                    "type": "C"
+                },
+                {
+                    "body": "255.255.252.0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b42d9cd0-414e-44af-af1f-a89bcd10278f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A router drops fragmented packets due to exceeding the MTU. At which OSI layer does this problem primarily occur",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transport",
+                    "type": "A"
+                },
+                {
+                    "body": "Network",
+                    "type": "B"
+                },
+                {
+                    "body": "Session",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Link",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b40b228c-3167-427e-8f64-2af7e9f6ddf1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A device needs to perform flow control, error recovery, and ensure complete data delivery. At which OSI layer is this handled, and which protocol can you associate with it",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transport Layer - TCP",
+                    "type": "A"
+                },
+                {
+                    "body": "Network Layer - IP",
+                    "type": "B"
+                },
+                {
+                    "body": "Session Layer - HTTP",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Link Layer - ARP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "a8227289-e6cb-40d3-9421-59db90c3e4bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In ISO 27001, the process of evaluating and treating risks is part of",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Physical security",
+                    "type": "A"
+                },
+                {
+                    "body": "Network architecture",
+                    "type": "B"
+                },
+                {
+                    "body": "Risk Management Framework",
+                    "type": "C"
+                },
+                {
+                    "body": "Operating System patching",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "0ba1ac6b-1c48-4c07-8c12-6ac2cce32faf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a mandatory requirement for ISO 27001 compliance",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use of a specific antivirus vendor",
+                    "type": "A"
+                },
+                {
+                    "body": "Documented security policies and continuous risk assessment",
+                    "type": "B"
+                },
+                {
+                    "body": "Firewalls with packet filtering",
+                    "type": "C"
+                },
+                {
+                    "body": "ISO certified employees",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4b75fbb1-162b-4084-adf3-6ff7f8abbe50",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "ISO/IEC 27001 primarily focuses on:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Quality Management",
+                    "type": "A"
+                },
+                {
+                    "body": "Environmental Safety",
+                    "type": "B"
+                },
+                {
+                    "body": "Information Security Management Systems (ISMS)",
+                    "type": "C"
+                },
+                {
+                    "body": "Business Process Modeling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "7a0f39b6-d7e3-446b-8703-121091dfc1d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT typically part of an endpoint protection suite",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Antivirus",
+                    "type": "A"
+                },
+                {
+                    "body": "Firewall",
+                    "type": "B"
+                },
+                {
+                    "body": "Router configuration",
+                    "type": "C"
+                },
+                {
+                    "body": "Device control",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "687843b1-eb15-489a-a629-e8a7899c3210",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which component is most critical in an endpoint protection platform to detect zero-day malware",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Traditional signature scanning",
+                    "type": "A"
+                },
+                {
+                    "body": "Heuristic and behavioral analysis",
+                    "type": "B"
+                },
+                {
+                    "body": "Manual virus definitions",
+                    "type": "C"
+                },
+                {
+                    "body": "Port scanning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "af063fb6-c208-4a94-a503-3deb6d5d7616",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of an endpoint protection solution",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To provide high-speed networking",
+                    "type": "A"
+                },
+                {
+                    "body": "To protect individual devices from malware, ransomware, and unauthorized access",
+                    "type": "B"
+                },
+                {
+                    "body": "To speed up web browsing",
+                    "type": "C"
+                },
+                {
+                    "body": "To block internet access",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f6705d4e-9139-4763-bc4b-2f6757150a7c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which security feature of a VPN prevents intercepted packets from being readable by unauthorized parties",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "NAT translation",
+                    "type": "A"
+                },
+                {
+                    "body": "Traffic filtering",
+                    "type": "B"
+                },
+                {
+                    "body": "Encryption",
+                    "type": "C"
+                },
+                {
+                    "body": "Load balancing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "87af1caa-7101-4543-b8e1-4f824a1d8ed8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which VPN type allows users to connect securely to the enterprise network from remote locations",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Site-to-Site VPN",
+                    "type": "A"
+                },
+                {
+                    "body": "SSL VPN",
+                    "type": "B"
+                },
+                {
+                    "body": "Static VPN",
+                    "type": "C"
+                },
+                {
+                    "body": "LAN VPN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "870fc503-17d6-4b29-951b-7b17a345cb05",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is commonly used to establish secure VPN connections",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "HTTP",
+                    "type": "A"
+                },
+                {
+                    "body": "FTP",
+                    "type": "B"
+                },
+                {
+                    "body": "IPSec",
+                    "type": "C"
+                },
+                {
+                    "body": "DHCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "9ffd790e-bdd8-48b7-a37f-9837fa01ea10",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a VPN (Virtual Private Network)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A virus protection mechanism",
+                    "type": "A"
+                },
+                {
+                    "body": "A tool to physically secure a computer",
+                    "type": "B"
+                },
+                {
+                    "body": "A secure encrypted tunnel between two networks or devices",
+                    "type": "C"
+                },
+                {
+                    "body": "A web browser for secure surfing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "95946353-8fc1-411f-bc5f-5198416d768b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol and port should be blocked to prevent unauthorized remote login through SSH",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "HTTPS, Port 443",
+                    "type": "A"
+                },
+                {
+                    "body": "FTP, Port 21",
+                    "type": "B"
+                },
+                {
+                    "body": "SSH, Port 22",
+                    "type": "C"
+                },
+                {
+                    "body": "SMTP, Port 25",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "ee649af4-e680-467d-a12f-e00f10f5b654",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an enterprise network, which zone is typically protected behind a firewall and contains public-facing servers like web and email servers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Trusted Zone",
+                    "type": "A"
+                },
+                {
+                    "body": "DMZ (Demilitarized Zone)",
+                    "type": "B"
+                },
+                {
+                    "body": "Private Zone",
+                    "type": "C"
+                },
+                {
+                    "body": "Management Zone",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "774d0624-ed24-40cf-b519-199bb3dabee8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which firewall type inspects the contents of packets at the application layer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Packet Filtering Firewall",
+                    "type": "A"
+                },
+                {
+                    "body": "NAT Firewall",
+                    "type": "B"
+                },
+                {
+                    "body": "Application Proxy Firewall",
+                    "type": "C"
+                },
+                {
+                    "body": "Circuit-level Gateway",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3b7e0c18-7827-48fb-9e0e-5c5b34ced51c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A stateful firewall differs from a stateless firewall because it:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ignores traffic patterns",
+                    "type": "A"
+                },
+                {
+                    "body": "Maintains session information and connection states",
+                    "type": "B"
+                },
+                {
+                    "body": "Blocks all outbound traffic",
+                    "type": "C"
+                },
+                {
+                    "body": "Requires manual configuration for each packet",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "384b0d0e-44ea-4fae-a052-8f234c866ae1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of firewall filters traffic based on source/destination IP addresses and port numbers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Application-layer Firewall",
+                    "type": "A"
+                },
+                {
+                    "body": "Stateful Firewall",
+                    "type": "B"
+                },
+                {
+                    "body": "Packet-filtering Firewall",
+                    "type": "C"
+                },
+                {
+                    "body": "Proxy Firewall",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "656d7a7d-5e19-4628-a781-2df4938a46e9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Scenario:\nA user reports &#34;Limited Connectivity&#34; and has an IP address in the 169.254.x.x range.\nQuestion:\nWhat is the most likely cause?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Static IP is incorrectly configured",
+                    "type": "A"
+                },
+                {
+                    "body": "DHCP server is unreachable or misconfigured",
+                    "type": "B"
+                },
+                {
+                    "body": "The default gateway is down",
+                    "type": "C"
+                },
+                {
+                    "body": "DNS settings are incorrect",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "34b1c050-f587-4b19-8160-898d77cc4a3e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Scenario:\nTwo computers connected to the same switch cannot communicate, although their IP addresses are in the same subnet. On checking, the ports are configured for different VLANs.\nQuestion:\nWhat should the administrator do to restore communication?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Assign the ports to the same VLAN",
+                    "type": "A"
+                },
+                {
+                    "body": "Change the subnet mask on both devices",
+                    "type": "B"
+                },
+                {
+                    "body": "Increase the MTU size",
+                    "type": "C"
+                },
+                {
+                    "body": "Reboot the switch",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "11de9db1-f90c-48d6-b533-073c6b7513b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Scenario:\nUsers are experiencing high latency when accessing an internal web application hosted in a different data center. Other internet websites load quickly.\nQuestion:\nWhich tool will help identify where the delay is occurring in the network path?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "nslookup",
+                    "type": "A"
+                },
+                {
+                    "body": "ping",
+                    "type": "B"
+                },
+                {
+                    "body": "tracert / traceroute",
+                    "type": "C"
+                },
+                {
+                    "body": "ipconfig",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "7d53fefc-faa5-473a-996d-9b61f24e27c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Scenario:\nA network administrator applied an ACL to a router interface to block HTTP traffic (port 80). After applying the ACL, users are unable to access secure websites (HTTPS) as well.\nQuestion:\nWhat is the most probable reason for this?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The ACL has incorrectly blocked port 443",
+                    "type": "A"
+                },
+                {
+                    "body": "DNS server stopped working",
+                    "type": "B"
+                },
+                {
+                    "body": "HTTPS uses port 80 instead of 443",
+                    "type": "C"
+                },
+                {
+                    "body": "Routing protocol failed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "80ee02ac-971e-4bec-a264-6fb5e22e2201",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Scenario:\nAn engineer cannot ping a remote server but can ping the default gateway. The tracert command fails after the second hop. The IP configuration looks correct.\nQuestion:\nWhat is the most likely cause of the issue?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Incorrect default gateway configuration on the local machine",
+                    "type": "A"
+                },
+                {
+                    "body": "Firewall blocking ICMP packets beyond the internal network",
+                    "type": "B"
+                },
+                {
+                    "body": "DNS resolution failure",
+                    "type": "C"
+                },
+                {
+                    "body": "Physical cable unplugged",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "c82865f2-8d93-46d3-95f7-5009a06e4cc2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a company network, users in different floors need to be isolated from each other but still use the same switch infrastructure. What should the network administrator configure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "NAT",
+                    "type": "A"
+                },
+                {
+                    "body": "VLANs",
+                    "type": "B"
+                },
+                {
+                    "body": "VPN",
+                    "type": "C"
+                },
+                {
+                    "body": "DHCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "082ffe5b-9b49-4abb-a5cf-d0e50ad1c5a8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which address type is used for one-to-many communication in IPv4",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Broadcast",
+                    "type": "A"
+                },
+                {
+                    "body": "Unicast",
+                    "type": "B"
+                },
+                {
+                    "body": "Multicast",
+                    "type": "C"
+                },
+                {
+                    "body": "Anycast",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "5c416242-7fc3-4cca-a506-d8508d3234c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol supports VLSM (Variable Length Subnet Masking)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP v1",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF",
+                    "type": "B"
+                },
+                {
+                    "body": "Static routing",
+                    "type": "C"
+                },
+                {
+                    "body": "Both B and C",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "7a75ecb9-9df1-49af-9ebe-81d947267f5a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "BGP is primarily used for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Internal routing within an organization",
+                    "type": "A"
+                },
+                {
+                    "body": "Routing between VLANs",
+                    "type": "B"
+                },
+                {
+                    "body": "Routing between Autonomous Systems on the Internet",
+                    "type": "C"
+                },
+                {
+                    "body": "Load balancing in a single LAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "c664da64-e8a3-4461-b452-2e2e02c99c1f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the administrative distance of directly connected routes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0",
+                    "type": "A"
+                },
+                {
+                    "body": "1",
+                    "type": "B"
+                },
+                {
+                    "body": "90",
+                    "type": "C"
+                },
+                {
+                    "body": "110",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "4cf798ff-3e57-43ea-966a-bde5110aa14a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which routing protocol uses Dijkstra&#39;s algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF",
+                    "type": "B"
+                },
+                {
+                    "body": "BGP",
+                    "type": "C"
+                },
+                {
+                    "body": "IGRP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "debf4ed4-a230-4a21-a434-f2809d1d780b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a distance-vector routing protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "OSPF",
+                    "type": "A"
+                },
+                {
+                    "body": "RIP",
+                    "type": "B"
+                },
+                {
+                    "body": "IS-IS",
+                    "type": "C"
+                },
+                {
+                    "body": "EIGRP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "c1e72340-cee4-4069-9411-74d8de6382ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which device breaks broadcast domains in a network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Switch",
+                    "type": "A"
+                },
+                {
+                    "body": "Hub",
+                    "type": "B"
+                },
+                {
+                    "body": "Router",
+                    "type": "C"
+                },
+                {
+                    "body": "Bridge",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6ab01e50-6cc1-4f4f-9015-4f5aa27f52fa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What protocol is used for VLAN trunking between switches",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF",
+                    "type": "B"
+                },
+                {
+                    "body": "STP",
+                    "type": "C"
+                },
+                {
+                    "body": "IEEE 802.1Q",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "46edbb2e-96d7-47bc-9498-6c281bc08e3c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many usable host addresses are there in a /26 subnet",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "62",
+                    "type": "A"
+                },
+                {
+                    "body": "64",
+                    "type": "B"
+                },
+                {
+                    "body": "30",
+                    "type": "C"
+                },
+                {
+                    "body": "32",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "01e9f8b7-f069-4073-bf2c-29d1b3944fbf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a valid IPv4 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "300.168.1.1",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.0.256",
+                    "type": "B"
+                },
+                {
+                    "body": "172.16.10.5",
+                    "type": "C"
+                },
+                {
+                    "body": "1200.1.1.1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "d61fdfb9-2029-4fb7-b8a2-4ca9af0c06a8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Identify the correct sequence of OSI layers from top to bottom in the context of an HTTP request traversing a network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Application, Presentation, Session, Transport, Network, Data Link, Physical",
+                    "type": "A"
+                },
+                {
+                    "body": "Application, Session, Presentation, Transport, Network, Data Link, Physical",
+                    "type": "B"
+                },
+                {
+                    "body": "Application, Presentation, Transport, Session, Network, Data Link, Physical",
+                    "type": "C"
+                },
+                {
+                    "body": "Presentation, Application, Session, Transport, Network, Data Link, Physical",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "5ad7fd02-c269-4f79-a357-2936e89ddce8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a correct pairing of an OSI layer with its typical protocol or functionality",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network Layer - Routing and Logical Addressing",
+                    "type": "A"
+                },
+                {
+                    "body": "Presentation Layer - Data Encryption and Compression",
+                    "type": "B"
+                },
+                {
+                    "body": "Transport Layer - Frame Delimiting",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Link Layer - MAC Addressing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "4c01dfdc-3c45-41a5-88f2-a143483ba6ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default port number for HTTPS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "21",
+                    "type": "A"
+                },
+                {
+                    "body": "25",
+                    "type": "B"
+                },
+                {
+                    "body": "80",
+                    "type": "C"
+                },
+                {
+                    "body": "443",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "ec65c5cd-b670-4c3f-a1bb-d0173d84cb59",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which command would you use in Windows to test the path to a remote server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ping",
+                    "type": "A"
+                },
+                {
+                    "body": "ipconfig",
+                    "type": "B"
+                },
+                {
+                    "body": "tracert",
+                    "type": "C"
+                },
+                {
+                    "body": "nslookup",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b21cc4cc-2db6-466b-9360-d1cac1b85407",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of switch port is associated with a single VLAN",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Trunk port",
+                    "type": "A"
+                },
+                {
+                    "body": "Access port",
+                    "type": "B"
+                },
+                {
+                    "body": "Dynamic port",
+                    "type": "C"
+                },
+                {
+                    "body": "Management port",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "e1aa1f02-ce18-41e3-b599-841c8c035fc4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of VLANs in a network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To assign IP addresses",
+                    "type": "A"
+                },
+                {
+                    "body": "To physically divide the network",
+                    "type": "B"
+                },
+                {
+                    "body": "To logically segment the network into isolated groups",
+                    "type": "C"
+                },
+                {
+                    "body": "To encrypt network traffic",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6ab9982a-1b39-4434-98e4-c5ece3a31c1f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which DHCP message is sent by a client to find available DHCP servers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DHCPREQUEST",
+                    "type": "A"
+                },
+                {
+                    "body": "DHCPACK",
+                    "type": "B"
+                },
+                {
+                    "body": "DHCPDISCOVER",
+                    "type": "C"
+                },
+                {
+                    "body": "DHCPOFFER",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "06b70d64-112a-4377-9b85-39357a24509c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default lease time of an IP address in a DHCP server, unless changed",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1 hour",
+                    "type": "A"
+                },
+                {
+                    "body": "1 day",
+                    "type": "B"
+                },
+                {
+                    "body": "7 days",
+                    "type": "C"
+                },
+                {
+                    "body": "30 days",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "da91b14c-febf-441a-9e6a-12d9cc49fa61",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "DHCP operates at which layers of the OSI model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Application and Transport",
+                    "type": "A"
+                },
+                {
+                    "body": "Network and Data Link",
+                    "type": "B"
+                },
+                {
+                    "body": "Transport and Network",
+                    "type": "C"
+                },
+                {
+                    "body": "Application and Network",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "80beff0e-49ca-43e9-b023-d9e1d507c23b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of DNS record is used to map a hostname to an IP address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MX",
+                    "type": "A"
+                },
+                {
+                    "body": "CNAME",
+                    "type": "B"
+                },
+                {
+                    "body": "A",
+                    "type": "C"
+                },
+                {
+                    "body": "PTR",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "4420daa3-e19a-4319-b608-8d036011c92d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary role of DNS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Assign IP addresses dynamically",
+                    "type": "A"
+                },
+                {
+                    "body": "Provide secure tunneling",
+                    "type": "B"
+                },
+                {
+                    "body": "Translate domain names to IP addresses",
+                    "type": "C"
+                },
+                {
+                    "body": "Manage VLAN configurations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "2b87e0ed-3c54-4f85-90ea-2f678c713c21",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which address range belongs to a private IP address space",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "8.8.8.8 - 8.8.8.255",
+                    "type": "A"
+                },
+                {
+                    "body": "172.16.0.0 - 172.31.255.255",
+                    "type": "B"
+                },
+                {
+                    "body": "192.169.0.0 - 192.169.255.255",
+                    "type": "C"
+                },
+                {
+                    "body": "11.0.0.0 - 11.255.255.255",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "41207c29-d342-4498-9bd8-b55ab9548372",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of address is 255.255.255.255 in IPv4",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Broadcast",
+                    "type": "A"
+                },
+                {
+                    "body": "Multicast",
+                    "type": "B"
+                },
+                {
+                    "body": "Unicast",
+                    "type": "C"
+                },
+                {
+                    "body": "Private",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "3c6257a4-3e2b-4634-9dfc-5a46840d75ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which part of an IP address identifies the specific device in a network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network ID",
+                    "type": "A"
+                },
+                {
+                    "body": "Subnet mask",
+                    "type": "B"
+                },
+                {
+                    "body": "Host ID",
+                    "type": "C"
+                },
+                {
+                    "body": "Gateway",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "901f810f-f729-4e8c-8907-00763041b916",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default subnet mask for a Class C IP address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "255.0.0.0",
+                    "type": "A"
+                },
+                {
+                    "body": "255.255.0.0",
+                    "type": "B"
+                },
+                {
+                    "body": "255.255.255.0",
+                    "type": "C"
+                },
+                {
+                    "body": "255.255.255.255",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        }
+    ]
+}

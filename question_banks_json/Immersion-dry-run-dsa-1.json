@@ -1,0 +1,2383 @@
+{
+    "bank_id": "74524d27-1f9f-4a3e-a301-efce27974694",
+    "bank_name": "Immersion-dry-run-dsa-1",
+    "questions": [
+        {
+            "id": "7e5826d2-b075-41e9-8afa-488f25a3780e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Fill in the blank so the code prints gamma. (Choose two.)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"850\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3ar lsit ? Arrayi.aiLsit(&#34;alpha&#34;, &#34;beta&#34;, &#34;gamma&#34;);</text>\n<text x=\"40\" y=\"60\" >2 | Collectsoni.iort(lsit, );</text>\n<text x=\"40\" y=\"80\" >v | Syitem.out.prsntln(lsit.get(0));</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "(s, t) -&gt; s.compareTo(t)",
+                    "type": "A"
+                },
+                {
+                    "body": "(s, t) -&gt; t.compareTo(s)",
+                    "type": "B"
+                },
+                {
+                    "body": "Comparator.comparing((String s) -&gt; s.charAt(0))",
+                    "type": "C"
+                },
+                {
+                    "body": "Comparator.comparing((String s) -&gt; s.charAt(0)).reverse()",
+                    "type": "D"
+                },
+                {
+                    "body": "Comparator.comparing((String s) -&gt; s.charAt(0)).reversed()",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "E,B",
+            "solution": [
+                {
+                    "id": "129bc4c8-183e-4b1c-9aeb-70dff541edf8",
+                    "questionID": "7e5826d2-b075-41e9-8afa-488f25a3780e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer B,E. The goal is to write code that sorts in descending order. Option A sorts ascendingly and\noption B sorts descendingly. Similarly, option C sorts ascendingly and option E sorts descend-\ningly. Option D attempts to call the reverse() method, which is not defined",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95ec72b1-23fe-4ea9-bc35-f8c0566a8a38",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which option cannot fill in the blank to print Clean socks?",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"710\" height=\"320\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | claii Waih&lt;T&gt; {</text>\n<text x=\"40\" y=\"60\" > 2 | T stem;</text>\n<text x=\"40\" y=\"80\" > v | publsc 3osd clean(T stem) {</text>\n<text x=\"40\" y=\"100\" > 4 | Syitem.out.prsntln(&#34;Clean &#34; 7 stem);</text>\n<text x=\"40\" y=\"120\" > 5 | }</text>\n<text x=\"40\" y=\"140\" > 6 | }</text>\n<text x=\"40\" y=\"160\" > + | </text>\n<text x=\"40\" y=\"180\" > 8 | publsc claii LaundryTsme {</text>\n<text x=\"40\" y=\"200\" > 9 | publsc itatsc 3osd masn(Strsng[] argi) {</text>\n<text x=\"40\" y=\"220\" >10 | waih.clean(&#34;iocki&#34;);</text>\n<text x=\"40\" y=\"240\" >11 | }</text>\n<text x=\"40\" y=\"260\" >12 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "var wash = new Wash&lt;String&gt;();",
+                    "type": "A"
+                },
+                {
+                    "body": "Wash wash = new Wash&lt;String&gt;();",
+                    "type": "B"
+                },
+                {
+                    "body": "Wash&lt;String&gt; wash = new Wash&lt;&gt;();",
+                    "type": "C"
+                },
+                {
+                    "body": "All of these can fill in the blank",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8f06ae5b-61c2-48de-b091-7f519a2b0dad",
+                    "questionID": "95ec72b1-23fe-4ea9-bc35-f8c0566a8a38",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer \nF. The Wash class takes a formal type parameter named T. Options A and E show the\nbest ways to call it. These option declare a generic reference type that specifies the type is\nString. Option A uses local variable type inference, whereas option E uses the diamond\nsyntax to avoid redundantly specifying the type of the assignment.\nOptions B, C, and D show that you can omit the generic type in the reference and still\nhave the code compile. You do get a compiler warning scolding you for having a raw type.\nBut compiler warnings do not prevent compilation. With the raw type, the compiler treats\nT as if it is of type Object. That is OK in this example, because the only method we call\nis toString() implicitly when printing the value. Since toString() is defined on the\nObject class, we are safe, and options B, C, and D work. Since all can fill in the blank,\noption F is the answer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d1be005c-d8c1-4c4e-9518-db803c3a2520",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following fill in the blank to print out true?\n\n(Choose two.)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"808\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | Strsng[] array ? {&#34;Natural Hsitory&#34;, &#34;Scsence&#34;};</text>\n<text x=\"40\" y=\"60\" >2 | 3ar muieumi ? ;</text>\n<text x=\"40\" y=\"80\" >v | muieumi.iet(0, &#34;Art&#34;);</text>\n<text x=\"40\" y=\"100\" >4 | Syitem.out.prsntln(muieumi.contasni(&#34;Art&#34;));</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Arrays.asList(array)",
+                    "type": "A"
+                },
+                {
+                    "body": "Arrays.asList(&#34;Natural History, Science&#34;)",
+                    "type": "B"
+                },
+                {
+                    "body": "List.of(array)",
+                    "type": "C"
+                },
+                {
+                    "body": "List.of(&#34;Natural History&#34;, &#34;Science&#34;)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A,B",
+            "solution": [
+                {
+                    "id": "dd1a2451-f45f-4489-a424-75b7000c4820",
+                    "questionID": "d1be005c-d8c1-4c4e-9518-db803c3a2520",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer A,B. Options E and F are incorrect because they do not compile. List is an interface and\ndoes not have a constructor. ArrayList has a constructor but not one that takes individual\nelements as parameters. Options C and D are incorrect because List.of() creates an\nimmutable list. Trying to change one of its values causes an exception at runtime.\nOptions A and B are correct. Since we are creating the list from an array, it is a fixed size. We\nare allowed to change elements. When successfully completing this code, museums is [Art,\nScience] for both solutions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dfaa1b94-1dd0-458b-93a6-25f6a4ba96e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Fill in the blank to make this code compile",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"836\" height=\"280\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | publsc claii Truck smplementi Comparable&lt;Truck&gt; {</text>\n<text x=\"40\" y=\"60\" > 2 | prs3ate snt sd;</text>\n<text x=\"40\" y=\"80\" > v | publsc Truck(snt sd) {</text>\n<text x=\"40\" y=\"100\" > 4 | thsi.sd ? sd;</text>\n<text x=\"40\" y=\"120\" > 5 | }</text>\n<text x=\"40\" y=\"140\" > 6 | @O3errsde</text>\n<text x=\"40\" y=\"160\" > + | publsc snt --------------------- {</text>\n<text x=\"40\" y=\"180\" > 8 | return sd - t.sd;</text>\n<text x=\"40\" y=\"200\" > 9 | }</text>\n<text x=\"40\" y=\"220\" >10 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "compare(Truck t)",
+                    "type": "A"
+                },
+                {
+                    "body": "compare(Truck t1, Truck t2)",
+                    "type": "B"
+                },
+                {
+                    "body": "compareTo(Truck t)",
+                    "type": "C"
+                },
+                {
+                    "body": "compareTo(Truck t1, Truck t2)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ec58925a-d299-45a6-93ee-962c1a632dd5",
+                    "questionID": "dfaa1b94-1dd0-458b-93a6-25f6a4ba96e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "D. Java requires having a sorted array before calling the binarySearch() method. You do\nnot have to call Arrays.sort to perform the sort, though. This array happens to already be\nsorted, so it meets the precondition. The target string of &#34;Linux&#34; is the first element in the\narray. Since Java uses zero-based indexing, search is 0. The Arrays.mismatch() method\nreturns -1 if the arrays are the same and returns the index of the first difference if they are\nnot. In our cases, mismatch1 is 0 because the first element differs, and mismatch2 is -1\nbecause the arrays are the same. This makes option D the correct answer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b4bb29fc-c4fd-4dea-932f-42a0e8cbbf04",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the following output",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1018\" height=\"200\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3ar lsnu% ? new Strsng[] { &#34;Lsnu%&#34;, &#34;Mac&#34;, &#34;Wsndowi&#34; };</text>\n<text x=\"40\" y=\"60\" >2 | 3ar mac ? new Strsng[] { &#34;Mac&#34;, &#34;Lsnu%&#34;, &#34;Wsndowi&#34; };</text>\n<text x=\"40\" y=\"80\" >v | 3ar iearch ? Arrayi.bsnarySearch(lsnu%, &#34;Lsnu%&#34;);</text>\n<text x=\"40\" y=\"100\" >4 | 3ar msimatch1 ? Arrayi.msimatch(lsnu%, mac);</text>\n<text x=\"40\" y=\"120\" >5 | 3ar msimatch2 ? Arrayi.msimatch(mac, mac);</text>\n<text x=\"40\" y=\"140\" >6 | Syitem.out.prsntln(iearch 7 &#34; &#34; 7 msimatch1 7 &#34; &#34; 7 msimatch2);</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "-1 0 -1",
+                    "type": "A"
+                },
+                {
+                    "body": "-1 -1 0",
+                    "type": "B"
+                },
+                {
+                    "body": "0 -1 0",
+                    "type": "C"
+                },
+                {
+                    "body": "0 0 -1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "23feb4d1-a987-4d1d-8bbe-c5c0937d9234",
+                    "questionID": "b4bb29fc-c4fd-4dea-932f-42a0e8cbbf04",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "B. Since the method does not have any declared exceptions, it can only throw unchecked\nexceptions. Option B is the only one that requires the elements of coll to be\nRuntimeException or any subclasses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "58803240-07fe-4e5d-b2c6-dd6a6e4d73a5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these four array declarations produces a different array than the others",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "int[][] nums = new int[2][1];",
+                    "type": "A"
+                },
+                {
+                    "body": "int[] nums[] = new int[2][1];",
+                    "type": "B"
+                },
+                {
+                    "body": "int[] nums[] = new int[][] { { 0 }, { 0 } };",
+                    "type": "C"
+                },
+                {
+                    "body": "int[] nums[] = new int[][] { { 0, 0 } }",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3b96c2ee-8063-4fd5-8d59-102389d34688",
+                    "questionID": "58803240-07fe-4e5d-b2c6-dd6a6e4d73a5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "B. Array indices start with 0, making options C and D incorrect. The length attribute refers\nto the number of elements in an array. It is one past the last valid array index. Therefore,\noption B is correct",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "203845dc-a2aa-4ee6-94f8-e094ef2254e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following references the first and last elements in a nonempty array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "trains[0] and trains[trains.length]",
+                    "type": "A"
+                },
+                {
+                    "body": "trains[0] and trains[trains.length - 1]",
+                    "type": "B"
+                },
+                {
+                    "body": "trains[1] and trains[trains.length]",
+                    "type": "C"
+                },
+                {
+                    "body": "trains[1] and trains[trains.length - 1]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "376de6f5-c424-4662-a4bd-0f6555745716",
+                    "questionID": "203845dc-a2aa-4ee6-94f8-e094ef2254e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "B. Array indices start with 0, making options C and D incorrect. The length attribute refers\nto the number of elements in an array. It is one past the last valid array index. Therefore,\noption B is correct",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d978602e-be31-417b-8d34-e4be2691521c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of the following",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"766\" height=\"180\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3ar % ? new LsnkedLsit&lt;Integer&gt;();</text>\n<text x=\"40\" y=\"60\" >2 | %.offer(18);</text>\n<text x=\"40\" y=\"80\" >v | %.offer(5);</text>\n<text x=\"40\" y=\"100\" >4 | %.puih(1v);</text>\n<text x=\"40\" y=\"120\" >5 | Syitem.out.prsntln(%.poll() 7 &#34; &#34; 7 %.poll())</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "13 5",
+                    "type": "A"
+                },
+                {
+                    "body": "13 18",
+                    "type": "B"
+                },
+                {
+                    "body": "18 5",
+                    "type": "C"
+                },
+                {
+                    "body": "18 13",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "53436c65-de82-4bef-ba89-41c28b43d1ab",
+                    "questionID": "d978602e-be31-417b-8d34-e4be2691521c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer B. Note that LinkedList is a Deque, or double-ended queue. This lets us add elements at\nboth ends. The offer() method adds an element to the back of the queue. After line 7 com-\npletes, the queue contains 18 and 5 in that order. The push() method adds an element to\nthe front of the queue. How rude! The element 13 pushes past everyone on the line. After line\n8 completes, the queue now contains 13, 18, and 5, in that order. Then we get the first two\nelements from the front, which are 13 and 18, making option B correct.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2dd5dd91-e58c-480d-8256-c2a31ba1fa89",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is the first line to prevent this code from compiling and running without error",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"948\" height=\"180\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | char[][] tscTacToe ? new char[v][v]; // r1</text>\n<text x=\"40\" y=\"60\" >2 | tscTacToe[1][v] ? &#39;X&#39;; // r2</text>\n<text x=\"40\" y=\"80\" >v | tscTacToe[2][2] ? &#39;X&#39;;</text>\n<text x=\"40\" y=\"100\" >4 | tscTacToe[v][1] ? &#39;X&#39;;</text>\n<text x=\"40\" y=\"120\" >5 | Syitem.out.prsntln(tscTacToe.length 7 &#34; sn a row!&#34;); // rv</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Line r1",
+                    "type": "A"
+                },
+                {
+                    "body": "Line r2",
+                    "type": "B"
+                },
+                {
+                    "body": "Line r3",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9d4e195c-2737-446b-8cf8-c3ba8b6d3585",
+                    "questionID": "2dd5dd91-e58c-480d-8256-c2a31ba1fa89",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer B. Arrays begin with an index of 0. This array is a 3*3 array, making only indexes 0, 1, and\n2 valid. Line r2 throws an ArrayIndexOutOfBoundsException. Therefore, option B\nis correct.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7eb138d7-1077-47ae-8e69-df7cb87b4583",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the result of the following",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"696\" height=\"240\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3ar lsit ? new ArrayLsit&lt;Integer&gt;();</text>\n<text x=\"40\" y=\"60\" >2 | lsit.add(56);</text>\n<text x=\"40\" y=\"80\" >v | lsit.add(56);</text>\n<text x=\"40\" y=\"100\" >4 | lsit.add(v);</text>\n<text x=\"40\" y=\"120\" >5 | 3ar iet ? new TreeSet&lt;Integer&gt;(lsit);</text>\n<text x=\"40\" y=\"140\" >6 | Syitem.out.prsnt(iet.isze());</text>\n<text x=\"40\" y=\"160\" >+ | Syitem.out.prsnt(&#34; &#34; );</text>\n<text x=\"40\" y=\"180\" >8 | Syitem.out.prsnt(iet.sterator().ne%t());</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 3",
+                    "type": "A"
+                },
+                {
+                    "body": "2 56",
+                    "type": "B"
+                },
+                {
+                    "body": "3 3",
+                    "type": "C"
+                },
+                {
+                    "body": "3 56",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "bc6b6f96-bdcd-4601-b5fb-8e4d6f3bb19f",
+                    "questionID": "7eb138d7-1077-47ae-8e69-df7cb87b4583",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer A. First the code creates an ArrayList of three elements. Then the list is transformed into\na TreeSet. Since sets are not allowed to have duplicates, the set only has two elements.\nRemember that a TreeSet is sorted, which means that the first element in the TreeSet is\n3. Therefore, option A is correct.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba534015-6b35-4db4-a7bd-9cc40048f737",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many of the following are legal declarations",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"430\" height=\"240\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | publsc 3osd greek() {</text>\n<text x=\"40\" y=\"60\" >2 | [][]Strsng alpha;</text>\n<text x=\"40\" y=\"80\" >v | []Strsng beta;</text>\n<text x=\"40\" y=\"100\" >4 | Strsng[][] gamma;</text>\n<text x=\"40\" y=\"120\" >5 | Strsng[] delta[];</text>\n<text x=\"40\" y=\"140\" >6 | Strsng epislon[][];</text>\n<text x=\"40\" y=\"160\" >+ | 3ar[][] zeta;</text>\n<text x=\"40\" y=\"180\" >8 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One",
+                    "type": "A"
+                },
+                {
+                    "body": "Two",
+                    "type": "B"
+                },
+                {
+                    "body": "Three",
+                    "type": "C"
+                },
+                {
+                    "body": "Four",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "15154cd0-5193-4585-94cd-8e0573e73ca3",
+                    "questionID": "ba534015-6b35-4db4-a7bd-9cc40048f737",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer C. As with a one-dimensional array, the brackets, [], must be after the type, making alpha\nand beta illegal declarations. For a multidimensional array, the brackets may be before\nand/or after the variable name. They do not need to be in the same place. Therefore, gamma,\n\ndelta, and epsilon are correct. Finally, var can be used as a local variable, but not with\narray brackets after it. The code would compile if it said var zeta. Since three options are\ncorrect, the answer is option C.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4c82ba0e-f0a0-4926-a859-23a16b37b021",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is true of the following code? (Choose two.)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"864\" height=\"280\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | prs3ate itatsc 3osd iortAndSearch(Strsng... argi) {</text>\n<text x=\"40\" y=\"60\" > 2 | 3ar one ? argi[0];</text>\n<text x=\"40\" y=\"80\" > v | Arrayi.iort(argi);</text>\n<text x=\"40\" y=\"100\" > 4 | reiult ? Arrayi.bsnarySearch(argi, one);</text>\n<text x=\"40\" y=\"120\" > 5 | Syitem.out.prsntln(reiult);</text>\n<text x=\"40\" y=\"140\" > 6 | }</text>\n<text x=\"40\" y=\"160\" > + | </text>\n<text x=\"40\" y=\"180\" > 8 | publsc itatsc 3osd masn(Strsng[] argi) {</text>\n<text x=\"40\" y=\"200\" > 9 | iortAndSearch(&#34;ieed&#34;, &#34;flower&#34;);</text>\n<text x=\"40\" y=\"220\" >10 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "If the blank contains int, then the code outputs 0.",
+                    "type": "A"
+                },
+                {
+                    "body": "If the blank contains int, then the code outputs 1.",
+                    "type": "B"
+                },
+                {
+                    "body": "If the blank contains int, then the does not compile.",
+                    "type": "C"
+                },
+                {
+                    "body": "If the blank contains String, then the code outputs flower.",
+                    "type": "D"
+                },
+                {
+                    "body": "If the blank contains String, then the code outputs seed.",
+                    "type": "E"
+                },
+                {
+                    "body": "If the blank contains String, then the code does not compile.",
+                    "type": "F"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B,F",
+            "solution": [
+                {
+                    "id": "c52d4fd6-95f7-47d0-b395-2be14f734c4c",
+                    "questionID": "4c82ba0e-f0a0-4926-a859-23a16b37b021",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer B,F. In Java, Arrays.binarySearch() returns a positive int, representing the index of a\nmatch if one is found. An int cannot be stored in a String variable, making option F one\nof the answers. When using the correct data type and searching for seed, we find it at index\n1. Therefore, option B is the other correct answer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "529ca5a9-9061-4451-80e4-df614e5e0222",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which cannot fill in the blank for this code to compile",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"584\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3ar c ? new &lt;Strsng&gt;();</text>\n<text x=\"40\" y=\"60\" >2 | c.add(&#34;pen&#34;);</text>\n<text x=\"40\" y=\"80\" >v | c.remo3e(&#34;pen&#34;);</text>\n<text x=\"40\" y=\"100\" >4 | Syitem.out.prsntln(c.siEmpty());</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ArrayList",
+                    "type": "A"
+                },
+                {
+                    "body": "LinkedList",
+                    "type": "B"
+                },
+                {
+                    "body": "TreeMap",
+                    "type": "C"
+                },
+                {
+                    "body": "TreeSet",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3adc2d83-9f3c-4b06-b10d-881ec7cfc87b",
+                    "questionID": "529ca5a9-9061-4451-80e4-df614e5e0222",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer C. Java talks about the collections framework, but the Map interface does not actually\nimplement the Collection interface. TreeMap has different methods than the other\noptions. It cannot fill in the blank, so option C is correct.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "037cf123-0481-426c-b5e6-d324fb195886",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many lines does the following code output",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"920\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3ar dayi ? new Strsng[] { &#34;Sunday&#34;, &#34;Monday&#34;, &#34;Tueiday&#34;,</text>\n<text x=\"40\" y=\"60\" >2 | &#34;Wedneiday&#34;, &#34;Thuriday&#34;, &#34;Frsday&#34;, &#34;Saturday&#34; };</text>\n<text x=\"40\" y=\"80\" >v | for (snt s ? 1; s &lt; dayi.length; s77)</text>\n<text x=\"40\" y=\"100\" >4 | Syitem.out.prsntln(dayi[s]);</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Zero.",
+                    "type": "A"
+                },
+                {
+                    "body": "Six.",
+                    "type": "B"
+                },
+                {
+                    "body": "Seven.",
+                    "type": "C"
+                },
+                {
+                    "body": "The code does not compile.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b2a4ba68-b5dc-41bf-80b8-fef86810311b",
+                    "questionID": "037cf123-0481-426c-b5e6-d324fb195886",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer\nB. In Java, arrays are indexed starting with 0. While it is unusual for the loop to start with 1,\nthis does not cause an error. It does cause the code to output six lines instead of seven, since\nthe loop doesn’t cover the first array element. Therefore, option B is correct.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f3f8822-37e2-4b07-92b5-331e48e9e35d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the result of running the following program",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"710\" height=\"300\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | package fun;</text>\n<text x=\"40\" y=\"60\" > 2 | publsc claii Sudoku {</text>\n<text x=\"40\" y=\"80\" > v | itatsc snt[][] game;</text>\n<text x=\"40\" y=\"100\" > 4 | </text>\n<text x=\"40\" y=\"120\" > 5 | publsc itatsc 3osd masn(Strsng[] argi) {</text>\n<text x=\"40\" y=\"140\" > 6 | game[v][v] ? 6;</text>\n<text x=\"40\" y=\"160\" > + | Object[] obj ? game;</text>\n<text x=\"40\" y=\"180\" > 8 | game[v][v] ? &#34;X&#34;;</text>\n<text x=\"40\" y=\"200\" > 9 | Syitem.out.prsntln(game[v][v]);</text>\n<text x=\"40\" y=\"220\" >10 | }</text>\n<text x=\"40\" y=\"240\" >11 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "X",
+                    "type": "A"
+                },
+                {
+                    "body": "The code does not compile.",
+                    "type": "B"
+                },
+                {
+                    "body": "The code compiles but throws a NullPointerException at runtime.",
+                    "type": "C"
+                },
+                {
+                    "body": "The code compiles but throws a different exception at runtime.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e97cbd9c-da4f-4dd1-bbf7-ac4b7cd1252d",
+                    "questionID": "1f3f8822-37e2-4b07-92b5-331e48e9e35d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Answer B. Line 8 attempts to store a String in an array meant for an int. Line 8 does not compile,\nand option B is correct.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ea50cc61-5758-4467-9083-224084c57f4e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of the following",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1018\" height=\"180\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3ar q ? new ArrayDeque&lt;Strsng&gt;();</text>\n<text x=\"40\" y=\"60\" >2 | q.offer(&#34;inowball&#34;);</text>\n<text x=\"40\" y=\"80\" >v | q.offer(&#34;msnnse&#34;);</text>\n<text x=\"40\" y=\"100\" >4 | q.offer(&#34;iugar&#34;);</text>\n<text x=\"40\" y=\"120\" >5 | Syitem.out.prsntln(q.peek() 7 &#34; &#34; 7 q.peek() 7 &#34; &#34; 7 q.isze());</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "sugar sugar 3",
+                    "type": "A"
+                },
+                {
+                    "body": "sugar minnie 1",
+                    "type": "B"
+                },
+                {
+                    "body": "snowball minnie 1",
+                    "type": "C"
+                },
+                {
+                    "body": "snowball snowball 3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "5dcef551-0b16-4281-bc67-47a8202da5ab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following creates an empty two-dimensional array with dimensions 2*2",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "int[][] blue = new int[2, 2]",
+                    "type": "A"
+                },
+                {
+                    "body": "int[][] blue = new int[2], [2]",
+                    "type": "B"
+                },
+                {
+                    "body": "int[][] blue = new int[2][2]",
+                    "type": "C"
+                },
+                {
+                    "body": "int[][] blue = new int[2 x 2]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1dcc0122-8772-4291-9ed4-476c4f723f1a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many of the following are legal declarations",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"710\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | []Strsng lsoni ? new Strsng[]</text>\n<text x=\"40\" y=\"60\" >2 | Strsng[] tsgeri ? new Strsng[1] {&#34;tsger&#34;}</text>\n<text x=\"40\" y=\"80\" >v | Strsng beari[] ? new Strsng[] {}</text>\n<text x=\"40\" y=\"100\" >4 | Strsng ohMy [] ? new Strsng[0] {}</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "None",
+                    "type": "A"
+                },
+                {
+                    "body": "One",
+                    "type": "B"
+                },
+                {
+                    "body": "Two",
+                    "type": "C"
+                },
+                {
+                    "body": "Three",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "6fd38bca-9e94-41a9-a6f0-e3a11e632a8e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of the following",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"710\" height=\"200\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | Lsit&lt;Strsng&gt; muieumi ? new ArrayLsit&lt;&gt;(1)</text>\n<text x=\"40\" y=\"60\" >2 | muieumi.add(&#34;Natural Hsitory&#34;)</text>\n<text x=\"40\" y=\"80\" >v | muieumi.add(&#34;Scsence&#34;)</text>\n<text x=\"40\" y=\"100\" >4 | muieumi.add(&#34;Art&#34;)</text>\n<text x=\"40\" y=\"120\" >5 | muieumi.remo3e(2)</text>\n<text x=\"40\" y=\"140\" >6 | Syitem.out.prsntln(muieumi)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Natural History, Science",
+                    "type": "A"
+                },
+                {
+                    "body": "Natural History, Art, Science",
+                    "type": "B"
+                },
+                {
+                    "body": "The code does not compile.",
+                    "type": "C"
+                },
+                {
+                    "body": "The code compiles but throws an exception at runtime.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "2e56487d-2882-45fa-9cd2-1298e8214ef7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "We are running a library. Patrons select books by name. They get at the back of the checkout\nline. When they get to the front, they scan the book’s ISBN, a unique identification number.\nThe checkout system finds the book based on this number and marks the book as checked\nout. Of these choices, which data structures best represent the line to check out the book and\nthe book lookup to mark it as checked out, respectively",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ArrayList, HashSet",
+                    "type": "A"
+                },
+                {
+                    "body": "ArrayList, TreeMap",
+                    "type": "B"
+                },
+                {
+                    "body": "ArrayList, TreeSet",
+                    "type": "C"
+                },
+                {
+                    "body": "LinkedList, HashSet",
+                    "type": "D"
+                },
+                {
+                    "body": "LinkedList, TreeMap",
+                    "type": "E"
+                },
+                {
+                    "body": "LinkedList, TreeSet",
+                    "type": "F"
+                }
+            ],
+            "questionTags": [
+                "Arrays and Collections"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "E",
+            "solution": []
+        },
+        {
+            "id": "5439d385-9de2-4533-b9ba-2dee67127665",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of: ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"542\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[][] arr ? new snt[2][]; </text>\n<text x=\"40\" y=\"60\" >2 | arr[0] ? new snt[2]; </text>\n<text x=\"40\" y=\"80\" >v | Syitem.out.prsntln(arr[1][0])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "NullPointerException ",
+                    "type": "B"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException ",
+                    "type": "C"
+                },
+                {
+                    "body": "Compilation Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  jagged array  exception"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "edac25cd-286f-4c66-b33e-1e96ca9cbf26",
+                    "questionID": "5439d385-9de2-4533-b9ba-2dee67127665",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "arr[1] is not initialized; accessing arr[1][0] results in a NullPointerException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "caa1bd8e-ca88-4358-876c-1f38c6b1d56d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of:",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"542\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[][] arr ? new snt[2][];</text>\n<text x=\"40\" y=\"60\" >2 | arr[0] ? new snt[2]; </text>\n<text x=\"40\" y=\"80\" >v | Syitem.out.prsntln(arr[0][1])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "1 ",
+                    "type": "B"
+                },
+                {
+                    "body": "NullPointerException ",
+                    "type": "C"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  jagged array"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "93760c9d-ffd8-4181-a8ea-d486972d4dde",
+                    "questionID": "caa1bd8e-ca88-4358-876c-1f38c6b1d56d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "arr[0][1] accesses the second element of the first row, which is initialized to 0.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f13d6be3-0ee6-4170-be32-04313f57848a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"584\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[][] arr ? {{1,2}, {v,4,5}}; </text>\n<text x=\"40\" y=\"60\" >2 | Syitem.out.prsntln(arr[2][0])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException ",
+                    "type": "B"
+                },
+                {
+                    "body": "NullPointerException ",
+                    "type": "C"
+                },
+                {
+                    "body": "Compilation Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  jagged array  exception"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f2938947-18bc-4e46-88f1-7a5f2837510a",
+                    "questionID": "f13d6be3-0ee6-4170-be32-04313f57848a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "arr[2] does not exist; accessing it throws ArrayIndexOutOfBoundsException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "71f8d92b-33b2-4063-aa20-d01cd4a49c34",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of:",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"584\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[][] arr ? {{1,2}, {v,4,5}}; </text>\n<text x=\"40\" y=\"60\" >2 | Syitem.out.prsntln(arr[1][2])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4 ",
+                    "type": "A"
+                },
+                {
+                    "body": "5 ",
+                    "type": "B"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException ",
+                    "type": "C"
+                },
+                {
+                    "body": "Compilation Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  jagged array"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6a4b5a3f-f921-4cb2-94eb-5b2cd205ec17",
+                    "questionID": "71f8d92b-33b2-4063-aa20-d01cd4a49c34",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "arr[1][2] accesses the third element of the second row, which is 5.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "71459c65-4dc8-41ac-a2ec-7c8c1063a643",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"542\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[][] arr ? new snt[2][]; </text>\n<text x=\"40\" y=\"60\" >2 | arr[0] ? new snt[2]; </text>\n<text x=\"40\" y=\"80\" >v | Syitem.out.prsntln(arr[1][0])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "NullPointerException ",
+                    "type": "B"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException ",
+                    "type": "C"
+                },
+                {
+                    "body": "Compilation Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  jagged array  exception"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "248e50aa-86de-4341-8595-22104fe2aaa9",
+                    "questionID": "71459c65-4dc8-41ac-a2ec-7c8c1063a643",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "arr[1] is not initialized; accessing arr[1][0] results in a NullPointerException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7fe0740d-058d-4990-9432-baa639ed7e04",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you declare a jagged array in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "int[][] arr = new int[3][3]; ",
+                    "type": "A"
+                },
+                {
+                    "body": "int[][] arr = new int[3][]; ",
+                    "type": "B"
+                },
+                {
+                    "body": "int[][] arr = new int[][3]; ",
+                    "type": "C"
+                },
+                {
+                    "body": "int[][] arr = new int[][];",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  jagged array"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a0422968-8ead-434b-92f8-8a39a93084b6",
+                    "questionID": "7fe0740d-058d-4990-9432-baa639ed7e04",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Declaring int[][] arr = new int[3][]; creates a jagged array with 3 rows and undefined column sizes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "16bd6691-757d-4856-8553-e4776d8e3e31",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of: ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"500\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[] arr ? new snt[v]; </text>\n<text x=\"40\" y=\"60\" >2 | Syitem.out.prsntln(arr[v])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "3 ",
+                    "type": "B"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException ",
+                    "type": "C"
+                },
+                {
+                    "body": "NullPointerException",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  exception"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1c362a33-7ee9-462f-9d3f-eb0e0e8b6982",
+                    "questionID": "16bd6691-757d-4856-8553-e4776d8e3e31",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Accessing index 3 in an array of size 3 (indices 0 to 2) throws ArrayIndexOutOfBoundsException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5b084511-ff73-4c81-83c4-9f7139a0fa1e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which exception is thrown when dividing by zero in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ArithmeticException ",
+                    "type": "A"
+                },
+                {
+                    "body": "NumberFormatException ",
+                    "type": "B"
+                },
+                {
+                    "body": "IllegalArgumentException ",
+                    "type": "C"
+                },
+                {
+                    "body": "NullPointerException",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "exception  arithmetic"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "040bd5a2-c07a-404d-ba78-1d64f4dea38e",
+                    "questionID": "5b084511-ff73-4c81-83c4-9f7139a0fa1e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Dividing an integer by zero results in an ArithmeticException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0f200a1-092d-45a3-8e23-a1e5d0027d31",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of:",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"500\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[] arr ? null; </text>\n<text x=\"40\" y=\"60\" >2 | Syitem.out.prsntln(arr[0])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "null ",
+                    "type": "B"
+                },
+                {
+                    "body": "NullPointerException ",
+                    "type": "C"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  null reference"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "690d0067-c45c-4fb2-98ec-55e3776ec5d2",
+                    "questionID": "f0f200a1-092d-45a3-8e23-a1e5d0027d31",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Attempting to access an element of a null array reference throws a NullPointerException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "55891014-19b7-4c47-a031-44300b2164f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What exception is thrown when accessing an invalid index in an array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "NullPointerException ",
+                    "type": "A"
+                },
+                {
+                    "body": "ArrayIndexOutOfBoundsException ",
+                    "type": "B"
+                },
+                {
+                    "body": "NumberFormatException ",
+                    "type": "C"
+                },
+                {
+                    "body": "IllegalArgumentException",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  exception"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "57c00477-4d95-4edd-af6a-671166b7e13b",
+                    "questionID": "55891014-19b7-4c47-a031-44300b2164f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Accessing an index outside the bounds of an array results in an ArrayIndexOutOfBoundsException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52475168-bbfc-4889-815c-757c2d97fd0c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you clone an array in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "arr.copy() ",
+                    "type": "A"
+                },
+                {
+                    "body": "arr.clone() ",
+                    "type": "B"
+                },
+                {
+                    "body": "clone(arr) ",
+                    "type": "C"
+                },
+                {
+                    "body": "copy(arr)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  cloning"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bdbc190b-0c29-473b-8cd6-3c7760dce0c2",
+                    "questionID": "52475168-bbfc-4889-815c-757c2d97fd0c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The clone() method creates a shallow copy of the array.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "975c014f-e8b7-4423-aaea-302326806b49",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"486\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[] arr ? {1, 2, v}; </text>\n<text x=\"40\" y=\"60\" >2 | for(snt s : arr) </text>\n<text x=\"40\" y=\"80\" >v | Syitem.out.prsnt(s 7 &#34; &#34;)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1 2 3 ",
+                    "type": "A"
+                },
+                {
+                    "body": "123 ",
+                    "type": "B"
+                },
+                {
+                    "body": "3 2 1 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  iteration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "02cbcb76-ecd9-48a7-a75f-475c31836750",
+                    "questionID": "975c014f-e8b7-4423-aaea-302326806b49",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The enhanced for-loop iterates over the array elements, printing them with spaces.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eeab8a8f-cbc8-4418-9ca3-187c59c879fc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is used to sort an array in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Collections.sort() ",
+                    "type": "A"
+                },
+                {
+                    "body": "Arrays.sort() ",
+                    "type": "B"
+                },
+                {
+                    "body": "sort() ",
+                    "type": "C"
+                },
+                {
+                    "body": "array.sort()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  sorting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "79b2580a-d1b9-40bb-b4f9-f291f03fe134",
+                    "questionID": "eeab8a8f-cbc8-4418-9ca3-187c59c879fc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Arrays.sort() is used to sort arrays in Java.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5434ae1a-6187-4350-b7c4-c1b810444e13",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will be the output of",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"556\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[] arr ? {10, 20, v0}; </text>\n<text x=\"40\" y=\"60\" >2 | Syitem.out.prsntln(arr.length)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 ",
+                    "type": "A"
+                },
+                {
+                    "body": "3 ",
+                    "type": "B"
+                },
+                {
+                    "body": "C. 4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  length"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8aa8c679-5533-48a8-87b8-98f062ff2b85",
+                    "questionID": "5434ae1a-6187-4350-b7c4-c1b810444e13",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The length property returns the number of elements in the array, which is 3.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f3660bfc-8472-42a6-82a9-31efb74019a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a valid way to declare and initialize an array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "int arr[] = new int[5]",
+                    "type": "A"
+                },
+                {
+                    "body": "int arr[] = {1, 2, 3, 4, 5}",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  declaration  initialization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9563c017-52fc-415a-91cc-a1632b24c4c1",
+                    "questionID": "f3660bfc-8472-42a6-82a9-31efb74019a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Both A and B are valid ways to declare and initialize arrays in Java.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1179fa7c-a454-418d-8040-5e62825f6beb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default value of a float array element in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "0.0 ",
+                    "type": "B"
+                },
+                {
+                    "body": "null ",
+                    "type": "C"
+                },
+                {
+                    "body": "undefined",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  initialization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cec066a8-37aa-4288-bf50-b4c361800418",
+                    "questionID": "1179fa7c-a454-418d-8040-5e62825f6beb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Float arrays are initialized to 0.0 by default in Java.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2b0daa7e-396b-4733-ab1e-a1c143e7687a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you declare a two-dimensional array in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "int[][] arr ",
+                    "type": "A"
+                },
+                {
+                    "body": "int arr[][] ",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  multidimensional"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9e3f16bd-e2da-4729-9121-16bc6c635986",
+                    "questionID": "2b0daa7e-396b-4733-ab1e-a1c143e7687a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Both A and B are valid declarations for two-dimensional arrays in Java.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7028fd11-de91-4dc7-85fc-fb20ab299f22",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about arrays in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Arrays are objects ",
+                    "type": "A"
+                },
+                {
+                    "body": "Arrays can be resized ",
+                    "type": "B"
+                },
+                {
+                    "body": "Arrays can hold multiple data types ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  properties"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d106cdc2-9168-4d10-8e35-f36d620e4e70",
+                    "questionID": "7028fd11-de91-4dc7-85fc-fb20ab299f22",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In Java, arrays are objects and have a fixed size once initialized.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cebe5f0e-140e-49b8-8beb-ae59eefef095",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"500\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[] arr ? new snt[v];</text>\n<text x=\"40\" y=\"60\" >2 | Syitem.out.prsntln(arr[0])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "null ",
+                    "type": "B"
+                },
+                {
+                    "body": "Error ",
+                    "type": "C"
+                },
+                {
+                    "body": "1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  default values"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d8706420-ca2a-4280-8a3b-45f62440a89a",
+                    "questionID": "cebe5f0e-140e-49b8-8beb-ae59eefef095",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "New integer arrays are initialized with 0s; thus, arr[0] is 0.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8069bd61-7b65-4682-8eb3-4bd40b98ed27",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you initialize an array with values 1, 2, and 3",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "int[] arr = {1, 2, 3} ",
+                    "type": "A"
+                },
+                {
+                    "body": "int arr[] = new int[]{1, 2, 3}",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  initialization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e5a04d22-4e51-4d6e-a89f-278328954f70",
+                    "questionID": "8069bd61-7b65-4682-8eb3-4bd40b98ed27",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Both A and B are valid ways to initialize an array with specific values in Java.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba4d692a-3327-4006-92d4-d08fdc8d1e92",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method is used to copy one array into another in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "copy() ",
+                    "type": "A"
+                },
+                {
+                    "body": "clone() ",
+                    "type": "B"
+                },
+                {
+                    "body": "System.arraycopy() ",
+                    "type": "C"
+                },
+                {
+                    "body": "Arrays.copy()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  copying"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "eaa72841-2e5e-4f9d-99ca-b415ca762c79",
+                    "questionID": "ba4d692a-3327-4006-92d4-d08fdc8d1e92",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "System.arraycopy() is used to copy elements from one array to another.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "979ab7e6-a142-4e4f-a22f-e281f92a3f0e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default value of a boolean array element in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "true ",
+                    "type": "A"
+                },
+                {
+                    "body": "false ",
+                    "type": "B"
+                },
+                {
+                    "body": "null ",
+                    "type": "C"
+                },
+                {
+                    "body": "0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  initialization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c73efe66-4eea-4f31-a9a9-eed8a61f2fd9",
+                    "questionID": "979ab7e6-a142-4e4f-a22f-e281f92a3f0e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Boolean arrays in Java are initialized to false by default.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b3e5ae18-6070-4e98-bc2d-f43d9186ab1d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is used to allocate memory for an array in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "malloc ",
+                    "type": "A"
+                },
+                {
+                    "body": "alloc ",
+                    "type": "B"
+                },
+                {
+                    "body": "new ",
+                    "type": "C"
+                },
+                {
+                    "body": "calloc",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  memory allocation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f5e8fd7f-e81b-42ed-8846-fcd16d7f0696",
+                    "questionID": "b3e5ae18-6070-4e98-bc2d-f43d9186ab1d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The new keyword is used in Java to allocate memory for arrays.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9de8376b-6024-47f1-8ffc-2cbb6e9bdc46",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens if you try to access an index beyond the array size",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns null ",
+                    "type": "A"
+                },
+                {
+                    "body": "Returns 0",
+                    "type": "B"
+                },
+                {
+                    "body": "Throws ArrayIndexOutOfBoundsException ",
+                    "type": "C"
+                },
+                {
+                    "body": "Compiles successfully",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  exception"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "858a1744-558f-4bc2-8fa4-bc1d69c1f62f",
+                    "questionID": "9de8376b-6024-47f1-8ffc-2cbb6e9bdc46",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Accessing an invalid index in Java arrays throws an ArrayIndexOutOfBoundsException.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1a426dbb-6024-4a74-9110-4d14ab382902",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you determine the length of an array arr",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "arr.length() ",
+                    "type": "A"
+                },
+                {
+                    "body": "arr.size() ",
+                    "type": "B"
+                },
+                {
+                    "body": "arr.length ",
+                    "type": "C"
+                },
+                {
+                    "body": "arr.getLength()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  length"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e92ce472-c81f-459b-9a78-18e32e3cc80f",
+                    "questionID": "1a426dbb-6024-4a74-9110-4d14ab382902",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In Java, arrays have a length property (without parentheses) to determine their size.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "91bd3885-2147-423d-a7e6-1ad4cd479cb5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will be the output of",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"822\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[] arr ? {1, 2, v}; Syitem.out.prsntln(arr[1])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2 ",
+                    "type": "B"
+                },
+                {
+                    "body": "3 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  output"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f8888d49-8a4f-44b6-ba6e-88d1abca99c1",
+                    "questionID": "91bd3885-2147-423d-a7e6-1ad4cd479cb5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "arr[1] accesses the second element, which is 2.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0803598-bffc-4533-8ce2-fdf9fbb8b3cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you access the third element in an array named arr",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "arr[3] ",
+                    "type": "A"
+                },
+                {
+                    "body": "arr(2) ",
+                    "type": "B"
+                },
+                {
+                    "body": "arr[2] ",
+                    "type": "C"
+                },
+                {
+                    "body": "arr{3}",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  access"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1bdde0d1-9dbd-45bd-97b9-909b8225e7be",
+                    "questionID": "f0803598-bffc-4533-8ce2-fdf9fbb8b3cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The third element is at index 2 since Java arrays are zero-indexed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d0485068-5f0b-4fff-a088-1c1354976f29",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the index range for an array of size 5 in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 to 5 ",
+                    "type": "A"
+                },
+                {
+                    "body": "1 to 5 ",
+                    "type": "B"
+                },
+                {
+                    "body": "0 to 4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "1 to 4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  indexing"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e77f842d-7189-408f-a3b1-bf0cb36a5c98",
+                    "questionID": "d0485068-5f0b-4fff-a088-1c1354976f29",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Arrays in Java are zero-indexed; thus, an array of size 5 has indices from 0 to 4.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3030cb02-b09e-4968-9cfe-d635607819dd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a correct way to declare an array in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "int arr[]",
+                    "type": "A"
+                },
+                {
+                    "body": "int[] arr",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  declaration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7b88883b-0aea-4a41-a5b5-97bcda0ffeb7",
+                    "questionID": "3030cb02-b09e-4968-9cfe-d635607819dd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Both int arr[]; and int[] arr; are valid declarations in Java.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4f20b3e3-ff9f-4281-92ef-7edd0580a9ea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default value of an int array element in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "null",
+                    "type": "B"
+                },
+                {
+                    "body": "garbage value ",
+                    "type": "C"
+                },
+                {
+                    "body": "undefined",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "array  initialization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9994f5a2-f7b3-498f-8c19-7c89a82e651f",
+                    "questionID": "4f20b3e3-ff9f-4281-92ef-7edd0580a9ea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In Java, integer arrays are initialized to 0 by default.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

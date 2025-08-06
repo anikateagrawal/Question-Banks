@@ -1,0 +1,4044 @@
+{
+    "bank_id": "c9eadac4-5e75-4341-ba85-001c3c0dbe0e",
+    "bank_name": "cn-week-4-faculty",
+    "questions": [
+        {
+            "id": "1ef6c982-ae23-4c6c-b91e-67ec5b1bbaf6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Time before TCP sequence number wraps around for 1 Gbps session",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "34 ",
+                    "type": "A"
+                },
+                {
+                    "body": "4.30 ",
+                    "type": "B"
+                },
+                {
+                    "body": "43 ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "64b27fcf-11ae-4439-b088-57b206638b6d",
+                    "questionID": "1ef6c982-ae23-4c6c-b91e-67ec5b1bbaf6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Wrap-around time = (2^32 * 8) / 1e9 = ~34.35 seconds ? 34 seconds.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f3cc6a72-d808-4a3e-9c29-c8460642738d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "TCP- Seq 230 (60B) lost, next is 290 received. ACK number sent is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "60, 290 ",
+                    "type": "A"
+                },
+                {
+                    "body": "230, 291 ",
+                    "type": "B"
+                },
+                {
+                    "body": "60, 231 ",
+                    "type": "C"
+                },
+                {
+                    "body": "60, 230",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "3f4dcc15-7b3c-4aa5-8c04-7e90139651e7",
+                    "questionID": "f3cc6a72-d808-4a3e-9c29-c8460642738d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Since first 60B (230-289) lost, ACK for 230 is sent.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "281982e0-b86d-47ba-8071-eda9a2803b81",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Go-Back-N - 8000km, 500Mbps, 107-bit packet. Seq # bits needed",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 ",
+                    "type": "A"
+                },
+                {
+                    "body": "4 ",
+                    "type": "B"
+                },
+                {
+                    "body": "8 ",
+                    "type": "C"
+                },
+                {
+                    "body": "16",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "26b2f343-fe09-41b7-9c7b-93798edbf733",
+                    "questionID": "281982e0-b86d-47ba-8071-eda9a2803b81",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "200 packets can be in-flight -&gt; need 201 seq #s -&gt; needs 8 bits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e1f1be51-8a0d-481e-aef8-47cdede15ba7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Stop-and-wait with 106 bps, 1000B packets. Efficiency = 25%. One-way delay =",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4ms ",
+                    "type": "A"
+                },
+                {
+                    "body": "8ms ",
+                    "type": "B"
+                },
+                {
+                    "body": "12ms ",
+                    "type": "C"
+                },
+                {
+                    "body": "16ms",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "93cca97d-08ef-4af5-a36f-fc864afd1e2f",
+                    "questionID": "e1f1be51-8a0d-481e-aef8-47cdede15ba7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "8ms trans time; total = 32ms; 2x + 8 = 32 -&gt; x = 12ms.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf5cec32-6ed4-425d-8fcf-c0ff5a47038b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If segment with Seq=230 (60B) is lost, and next segment (Seq=290) is received. ACK sent is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "60, 290 ",
+                    "type": "A"
+                },
+                {
+                    "body": "230, 291 ",
+                    "type": "B"
+                },
+                {
+                    "body": "60, 231 ",
+                    "type": "C"
+                },
+                {
+                    "body": "60, 230",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a3d64e9a-9569-4cc4-b4db-6b0b3e90b906",
+                    "questionID": "cf5cec32-6ed4-425d-8fcf-c0ff5a47038b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP sends ACK for expected byte -&gt; 230.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "963d5883-1a15-42b7-8393-f490d4ea704e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, if LastByteSent=10240 and LastByteAcked=8192, cwnd=4KB, advertised window=6KB. Sender window",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2048 ",
+                    "type": "A"
+                },
+                {
+                    "body": "4096 ",
+                    "type": "B"
+                },
+                {
+                    "body": "6144 ",
+                    "type": "C"
+                },
+                {
+                    "body": "8192",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bace2fd7-ae73-42a0-948c-2d34badd194d",
+                    "questionID": "963d5883-1a15-42b7-8393-f490d4ea704e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sender window = min(cwnd, awnd) - (sent - acked) = 4096 - 2048 = 2048.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eb0971b1-5fc0-4c65-b108-d030f625a75a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If cwnd=32KB, MSS=2KB, RTT=100ms. Time to regain cwnd after timeout",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1100-1300 ",
+                    "type": "A"
+                },
+                {
+                    "body": "800-1000 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1400-1600 ",
+                    "type": "C"
+                },
+                {
+                    "body": "1500-1700",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fed7c9e7-e31d-4871-b1bf-5d2a3b422efc",
+                    "questionID": "eb0971b1-5fc0-4c65-b108-d030f625a75a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Takes ~11 RTTs to grow from 1 MSS to 32KB again.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a3e68c4a-88cb-434a-b76a-1811beb4180f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In AIMD, if timeout occurs during 5th transmission, what is cwnd at 10th transmission",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "8 MSS ",
+                    "type": "A"
+                },
+                {
+                    "body": "14 MSS ",
+                    "type": "B"
+                },
+                {
+                    "body": "7 MSS ",
+                    "type": "C"
+                },
+                {
+                    "body": "12 MSS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1085cd12-6b8f-45c5-b18a-513dda56add1",
+                    "questionID": "a3e68c4a-88cb-434a-b76a-1811beb4180f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "After timeout, slow start resets and cwnd grows linearly.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5c415a37-6d96-4996-b030-c90ba7b0ab49",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which one of the following is a version of UDP with congestion control",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Datagram Congestion Control Protocol ",
+                    "type": "A"
+                },
+                {
+                    "body": "Stream Control Transmission Protocol ",
+                    "type": "B"
+                },
+                {
+                    "body": "Structured Stream Transport ",
+                    "type": "C"
+                },
+                {
+                    "body": "User Congestion Control Protocol",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "99f3ef58-3ea6-4add-9c0d-9ebedce5a82b",
+                    "questionID": "5c415a37-6d96-4996-b030-c90ba7b0ab49",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DCCP (Datagram Congestion Control Protocol) adds congestion control to UDP-like functionality.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf91b06c-c9e8-49dc-8edd-91349ed00505",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "cwnd growth after slow start follows a saw tooth pattern called ____________________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Exponential increase, additive decrease ",
+                    "type": "A"
+                },
+                {
+                    "body": "Additive increase, exponential decrease ",
+                    "type": "B"
+                },
+                {
+                    "body": "Multiplicative increase, additive decrease ",
+                    "type": "C"
+                },
+                {
+                    "body": "Additive increase, multiplicative decrease",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "09f4b555-06a7-4f62-be13-04c1146a5100",
+                    "questionID": "cf91b06c-c9e8-49dc-8edd-91349ed00505",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP follows AIMD-additive increase, multiplicative decrease-for efficient and fair congestion control.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6585d70b-ce3e-4391-9b2a-ea3dde106001",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A later version of TCP, called ______ TCP, made an extra optimization on the _______ TCP",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "New Reno; Reno ",
+                    "type": "A"
+                },
+                {
+                    "body": "New Taho; Taho ",
+                    "type": "B"
+                },
+                {
+                    "body": "New Reno; Taho ",
+                    "type": "C"
+                },
+                {
+                    "body": "New Taho; Reno",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b07f8031-1b99-46a2-a089-a1ed65d80aa8",
+                    "questionID": "6585d70b-ce3e-4391-9b2a-ea3dde106001",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "New Reno TCP enhanced Reno&#39;s fast recovery for multiple packet losses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9f2403a4-27d6-48d8-a765-3d55495dfd20",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Reno TCP, on receiving a new (non-duplicate) ACK in fast recovery, TCP __________________________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stays in this state, cwnd grows additively ",
+                    "type": "A"
+                },
+                {
+                    "body": "Stays in this state, cwnd grows exponentially ",
+                    "type": "B"
+                },
+                {
+                    "body": "Moves to slow start ",
+                    "type": "C"
+                },
+                {
+                    "body": "Moves to congestion avoidance, deflating cwnd to ssthresh",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "63c72108-5b1b-4798-956d-f531c305d18c",
+                    "questionID": "9f2403a4-27d6-48d8-a765-3d55495dfd20",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reno exits fast recovery and enters congestion avoidance after new ACK.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2bdee5ee-d108-442e-93f4-fbd3509ba06f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Reno TCP, if a timeout occurs during fast recovery, TCP _____________________________________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stays in this state, cwnd grows additively ",
+                    "type": "A"
+                },
+                {
+                    "body": "Stays in this state, cwnd grows exponentially ",
+                    "type": "B"
+                },
+                {
+                    "body": "Moves to slow start ",
+                    "type": "C"
+                },
+                {
+                    "body": "Moves to congestion avoidance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8e850e65-9cf9-4836-a236-90c8a34dc8a4",
+                    "questionID": "2bdee5ee-d108-442e-93f4-fbd3509ba06f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Timeout indicates severe congestion; TCP resets and enters slow start.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "60ff6726-2cb6-4859-98c3-92c3f61216b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Reno TCP, if duplicate ACKs continue in fast recovery, TCP _____________________________________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stays in this state, cwnd grows additively ",
+                    "type": "A"
+                },
+                {
+                    "body": "Stays in this state, cwnd grows exponentially ",
+                    "type": "B"
+                },
+                {
+                    "body": "Moves to slow start ",
+                    "type": "C"
+                },
+                {
+                    "body": "Moves to congestion avoidance, deflating cwnd to ssthresh",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ff2e6ecb-4163-4b3c-adb3-5e938ba19c95",
+                    "questionID": "60ff6726-2cb6-4859-98c3-92c3f61216b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In fast recovery, Reno increases cwnd by one MSS for each duplicate ACK-exponential growth.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d30695ae-ae33-43dd-afa7-5c3f6e3a78e7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The ___________ treated timeout and arrival of 3 duplicate ACKs differently",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Taho TCP ",
+                    "type": "A"
+                },
+                {
+                    "body": "Reno TCP ",
+                    "type": "B"
+                },
+                {
+                    "body": "New Reno TCP ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "08e7e273-3854-4b42-a7ce-052201d2caa6",
+                    "questionID": "d30695ae-ae33-43dd-afa7-5c3f6e3a78e7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reno TCP reduces cwnd to ssthresh on duplicate ACKs but resets to 1 MSS on timeout.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "010644ae-770f-4e18-8e2f-0d46770917b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The ___________ added a new state to the congestion control FSM, called the fast recovery state",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Taho TCP",
+                    "type": "A"
+                },
+                {
+                    "body": "Reno TCP",
+                    "type": "B"
+                },
+                {
+                    "body": "New Reno TCP",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2809dfc4-1953-48c1-bd6a-f7ddf3b8eb38",
+                    "questionID": "010644ae-770f-4e18-8e2f-0d46770917b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "New Reno TCP improves recovery from multiple losses by entering fast recovery.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3033b63c-f0c1-4368-8622-90990d03f2cb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In ______ TCP, slow start begins with cwnd = 1 MSS and ssthresh to a preset value (e.g., 64 KB)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Taho TCP",
+                    "type": "A"
+                },
+                {
+                    "body": "Reno TCP",
+                    "type": "B"
+                },
+                {
+                    "body": "New Reno TCP",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5f70c733-f259-457e-8802-4146b65f7d77",
+                    "questionID": "3033b63c-f0c1-4368-8622-90990d03f2cb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reno TCP sets ssthresh to a threshold and begins with slow start phase.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9b4af7c5-2d15-42a8-ac3d-2258764b20fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "________ treats the two signs of congestion detections, timeout and three duplicate ACKs, in the same way",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Taho TCP",
+                    "type": "A"
+                },
+                {
+                    "body": "Reno TCP",
+                    "type": "B"
+                },
+                {
+                    "body": "New Reno TCP",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "24be5647-6309-4bdc-945a-3423c64f225c",
+                    "questionID": "9b4af7c5-2d15-42a8-ac3d-2258764b20fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Tahoe TCP resets congestion window to 1 MSS after both timeout and duplicate ACKs, treating them similarly.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9d22ea9f-e4b1-46a3-9a14-fd477b150d56",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP&#39;s ______ algorithm, congestion window increases additively until congestion is detected",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Congestion avoidance",
+                    "type": "A"
+                },
+                {
+                    "body": "Congestion detection",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow start",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cbb427c1-709e-438d-9b55-bd4bfc793ee4",
+                    "questionID": "9d22ea9f-e4b1-46a3-9a14-fd477b150d56",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Congestion avoidance increases window linearly after reaching the threshold.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ea291645-21b6-4b4b-ba73-af162c15fb15",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP&#39;s _______ algorithm, the congestion window grows exponentially until a threshold",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Congestion avoidance",
+                    "type": "A"
+                },
+                {
+                    "body": "Congestion detection",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow start",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "97ab1963-04fd-4797-a3bf-cf9d69626735",
+                    "questionID": "ea291645-21b6-4b4b-ba73-af162c15fb15",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Slow start increases cwnd exponentially to probe network capacity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a0b84720-2d62-4f5f-a96d-53a51dfc8d02",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, a probe segment is sent when the _______ timer goes off",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transmission",
+                    "type": "A"
+                },
+                {
+                    "body": "Persistence",
+                    "type": "B"
+                },
+                {
+                    "body": "Keepalive",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0456ec9d-4d43-4152-be09-4d246abb00f7",
+                    "questionID": "a0b84720-2d62-4f5f-a96d-53a51dfc8d02",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Persist timer sends probe to check if window has reopened.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "be0bd380-b078-4e32-a15e-4add7f8d332a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, Karn&#39;s algorithm is used for _______ timer calculations",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Retransmission",
+                    "type": "A"
+                },
+                {
+                    "body": "Persistence",
+                    "type": "B"
+                },
+                {
+                    "body": "Keepalive",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0641ce8d-285b-437c-a09b-4eb7b9585cd6",
+                    "questionID": "be0bd380-b078-4e32-a15e-4add7f8d332a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Karn&#39;s algorithm avoids ambiguity in RTT for retransmitted segments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9d77559d-11fb-4890-9a63-cd8df680dd13",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, the _______ timer is needed to handle zero window-size advertisement",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Retransmission",
+                    "type": "A"
+                },
+                {
+                    "body": "Persistence",
+                    "type": "B"
+                },
+                {
+                    "body": "Keepalive",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d94eeecc-4603-401d-ae23-dcde2c4e8ef5",
+                    "questionID": "9d77559d-11fb-4890-9a63-cd8df680dd13",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Persist timer is used to probe receiver when window size is zero.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "59b34807-f3ae-42fc-ad52-18710185ba7f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, the _______ timer prevents a long idle connection",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Retransmission",
+                    "type": "A"
+                },
+                {
+                    "body": "Persistence",
+                    "type": "B"
+                },
+                {
+                    "body": "Keepalive[\nkey=D] \nNone",
+                    "type": "C"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d1195de6-037c-4af6-b190-2462ba61802e",
+                    "questionID": "59b34807-f3ae-42fc-ad52-18710185ba7f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Keepalive detects broken connections that are idle.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "088da1aa-f4d7-4c9d-90d0-b95553c234ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, urgent data requires URG bit set in the _______ field",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Control",
+                    "type": "A"
+                },
+                {
+                    "body": "Offset",
+                    "type": "B"
+                },
+                {
+                    "body": "Sequence number",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9965032b-cbf4-4f53-a19b-2b89513d07b5",
+                    "questionID": "088da1aa-f4d7-4c9d-90d0-b95553c234ad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The URG bit is part of the Control field and enables the urgent pointer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f2eec97-3b43-4843-bb80-47a5e088b4ec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Multiply the TCP header length field by _______ to find header size in bytes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2",
+                    "type": "A"
+                },
+                {
+                    "body": "4",
+                    "type": "B"
+                },
+                {
+                    "body": "6",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0cab2be9-1aae-4518-b56d-970779c6b366",
+                    "questionID": "1f2eec97-3b43-4843-bb80-47a5e088b4ec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP header length is in 32-bit words; multiply by 4 to convert to bytes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1a8ea4db-9f15-4f69-8c16-bc310aa09135",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, there can be ______ RTT measurement(s) in progress at a time",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Two",
+                    "type": "A"
+                },
+                {
+                    "body": "Only one",
+                    "type": "B"
+                },
+                {
+                    "body": "Several",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "314068da-9324-40db-9796-e4dbb2f04856",
+                    "questionID": "1a8ea4db-9f15-4f69-8c16-bc310aa09135",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Multiple RTT measurements may occur for multiple outstanding segments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0b35a96d-b9da-453f-b241-60d7f9e0838f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In modern TCP, retransmission occurs if timer expires or ______ duplicate ACKs are received",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One",
+                    "type": "A"
+                },
+                {
+                    "body": "Two",
+                    "type": "B"
+                },
+                {
+                    "body": "Three",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "97d2f3f2-df37-4b4d-9c5e-1e118c70103c",
+                    "questionID": "0b35a96d-b9da-453f-b241-60d7f9e0838f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Fast retransmit triggers on three duplicate ACKs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fe4caa17-f300-4720-992c-fd3033ad6300",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Clark&#39;s solution can solve the silly window syndrome created by the ________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sender",
+                    "type": "A"
+                },
+                {
+                    "body": "Receiver",
+                    "type": "B"
+                },
+                {
+                    "body": "Both",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4ea61c26-caaf-4219-a5ed-d6e3e0f93ca9",
+                    "questionID": "fe4caa17-f300-4720-992c-fd3033ad6300",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Clark&#39;s solution prevents the receiver from advertising small window sizes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4b64991b-8119-4ea8-bc26-02a57d76525b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Nagle&#39;s algorithm can solve the silly window syndrome created by the _________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sender",
+                    "type": "A"
+                },
+                {
+                    "body": "Receiver",
+                    "type": "B"
+                },
+                {
+                    "body": "Both sender and receiver",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7acff4e7-54be-45a1-8f75-9e0c36ff5662",
+                    "questionID": "4b64991b-8119-4ea8-bc26-02a57d76525b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Nagle&#39;s algorithm reduces small packet transmission caused by the sender.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c6fc7462-f341-4d84-8e83-1b2e23623029",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, the window should not be _________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Opened ",
+                    "type": "A"
+                },
+                {
+                    "body": "Closed ",
+                    "type": "B"
+                },
+                {
+                    "body": "Shrunk ",
+                    "type": "C"
+                },
+                {
+                    "body": "Slide",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ae50f52a-e2b7-4562-9eae-20ec4cfaa1a3",
+                    "questionID": "c6fc7462-f341-4d84-8e83-1b2e23623029",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shrinking the TCP window may confuse sender and cause data loss.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c2556ed4-9606-42a7-8e92-580f81e357ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In stop-and-wait, send and receive window sizes are ______",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1; 1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2^m � 1; 1 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1; 2^m ",
+                    "type": "C"
+                },
+                {
+                    "body": "2^m; 2^m",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "520dcfec-91be-46c8-b0d8-d7b0c589d32f",
+                    "questionID": "c2556ed4-9606-42a7-8e92-580f81e357ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Only one frame is sent and acknowledged at a time in Stop-and-Wait.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7b4f9b90-c91b-45cb-bc71-878d7a5dcb8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, size of send window is the ________ of rwnd and cwnd",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Maximum ",
+                    "type": "A"
+                },
+                {
+                    "body": "Sum ",
+                    "type": "B"
+                },
+                {
+                    "body": "Minimum ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ec278e33-e7f5-4b44-b985-935ca00d835b",
+                    "questionID": "7b4f9b90-c91b-45cb-bc71-878d7a5dcb8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sender window = min(receiver window, congestion window).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "579e8a66-abd8-4366-89b9-2ae59611660f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, one end can stop sending while still receiving. This is called a ______ termination",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Half-close ",
+                    "type": "A"
+                },
+                {
+                    "body": "Half-open ",
+                    "type": "B"
+                },
+                {
+                    "body": "Full-close ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a2b7b2ef-15ea-4d2c-98b5-776efdebdebc",
+                    "questionID": "579e8a66-abd8-4366-89b9-2ae59611660f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Half-close allows TCP connection to terminate sending but keep receiving.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "041cd0e9-7499-4115-9a4e-b07d3ca47838",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, a FIN + ACK segment consumes _____ sequence number(s) if it does not carry data",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Two ",
+                    "type": "A"
+                },
+                {
+                    "body": "Three ",
+                    "type": "B"
+                },
+                {
+                    "body": "One ",
+                    "type": "C"
+                },
+                {
+                    "body": "No",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6e2a9840-1796-4c1e-b9e0-240dd7e2099a",
+                    "questionID": "041cd0e9-7499-4115-9a4e-b07d3ca47838",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FIN+ACK consumes one sequence number (for FIN only).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1b336681-3191-4214-a544-964c0972b410",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, a FIN segment consumes ____ sequence numbers if it does not carry data",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Two ",
+                    "type": "A"
+                },
+                {
+                    "body": "Three ",
+                    "type": "B"
+                },
+                {
+                    "body": "No ",
+                    "type": "C"
+                },
+                {
+                    "body": "One",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "84311971-47c3-4c85-a299-fd2e5c1af91d",
+                    "questionID": "1b336681-3191-4214-a544-964c0972b410",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A FIN segment consumes one sequence number even without data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "16ed5a50-d068-4ffe-a528-75ccbbe507b6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The connection establishment procedure in TCP is susceptible to a serious security problem called the ___",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ACK flooding ",
+                    "type": "A"
+                },
+                {
+                    "body": "FIN flooding ",
+                    "type": "B"
+                },
+                {
+                    "body": "SYN flooding ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "089184b2-89ff-4e36-b0e9-931003d007d9",
+                    "questionID": "16ed5a50-d068-4ffe-a528-75ccbbe507b6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SYN flooding is a common DoS attack exploiting TCP handshake.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0ff8a0f0-ae57-4260-99d1-b9cc8540d994",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, an ACK segment, if carrying no data, consumes ______ sequence number(s)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "no ",
+                    "type": "A"
+                },
+                {
+                    "body": "one ",
+                    "type": "B"
+                },
+                {
+                    "body": "two ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e48b80ba-4e7e-48f7-8de2-ca38e016dc0d",
+                    "questionID": "0ff8a0f0-ae57-4260-99d1-b9cc8540d994",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ACK without data does not consume sequence number.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f1f8c30-d85a-428b-b1eb-a29e0fbf0dca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, a SYN + ACK segment consumes _____ sequence numbers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "no ",
+                    "type": "A"
+                },
+                {
+                    "body": "three ",
+                    "type": "B"
+                },
+                {
+                    "body": "two ",
+                    "type": "C"
+                },
+                {
+                    "body": "one",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b71a58c1-d05a-4a99-aa35-c71b9998c240",
+                    "questionID": "2f1f8c30-d85a-428b-b1eb-a29e0fbf0dca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SYN+ACK consumes two sequence numbers: one for SYN and one for ACK.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d930b77-de41-4980-bf68-aac6d5671dd1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, a SYN segment consumes _____ sequence number(s)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "no ",
+                    "type": "A"
+                },
+                {
+                    "body": "one ",
+                    "type": "B"
+                },
+                {
+                    "body": "two ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "40083112-711d-4640-bffa-964c5aac4b78",
+                    "questionID": "4d930b77-de41-4980-bf68-aac6d5671dd1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SYN segment consumes one sequence number to initiate the connection.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "81cc72c4-2a93-4b94-ae6b-a280be3ea1c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "TCP ACK number defines the sequence of the ______ byte expected",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "First ",
+                    "type": "A"
+                },
+                {
+                    "body": "Last ",
+                    "type": "B"
+                },
+                {
+                    "body": "Next ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "91147a24-4ba8-47aa-9bf1-c98fdc10df93",
+                    "questionID": "81cc72c4-2a93-4b94-ae6b-a280be3ea1c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP acknowledges the next expected byte.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "effd180c-e412-429e-aa6d-11676cfe5e2c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A link transmits 4000 frames/sec, each slot 8 bits. TDM rate",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "64 Kbps ",
+                    "type": "A"
+                },
+                {
+                    "body": "32 Mbps ",
+                    "type": "B"
+                },
+                {
+                    "body": "32 Kbps ",
+                    "type": "C"
+                },
+                {
+                    "body": "64 Mbps",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f7334d41-a197-4bc6-9624-9cde35a7752b",
+                    "questionID": "effd180c-e412-429e-aa6d-11676cfe5e2c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rate = 4000 * 8 = 32,000 bps = 32 Kbps.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f6f00c01-ec92-476a-89e3-e5400df7cc33",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Station A uses 32B packets, RTT = 40ms, bandwidth = 64 kbps. Optimal window size",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "5 ",
+                    "type": "A"
+                },
+                {
+                    "body": "10 ",
+                    "type": "B"
+                },
+                {
+                    "body": "40 ",
+                    "type": "C"
+                },
+                {
+                    "body": "80",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "20e24790-3ab4-41f4-b401-3957c4a2d8a5",
+                    "questionID": "f6f00c01-ec92-476a-89e3-e5400df7cc33",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "From utilization formula, window size ? 11, closest option is 10.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fda08df7-fb14-4c5c-9971-051695586199",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following statements are TRUE about TCP 3-way handshake",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "S2 and S3 only ... ",
+                    "type": "A"
+                },
+                {
+                    "body": "S1 and S4",
+                    "type": "B"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "598db503-8039-4425-80d4-cfa1bda47960",
+                    "questionID": "fda08df7-fb14-4c5c-9971-051695586199",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Server transitions LISTEN -&gt; SYN_RCVD -&gt; ESTABLISHED; SYN+ACK loss breaks connection.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f106b861-cf10-4e11-9665-5fa356027cfc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statements are TRUE? TCP handles flow &amp; congestion, etc",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "S1, S2, S3 ",
+                    "type": "A"
+                },
+                {
+                    "body": "S1 &amp; S3 ",
+                    "type": "B"
+                },
+                {
+                    "body": "S3 &amp; S4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "S1, S3, S4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c986730c-2ace-4cf9-bc9c-27d8f6468e0a",
+                    "questionID": "f106b861-cf10-4e11-9665-5fa356027cfc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP handles both; UDP doesn&#39;t; Fast Retransmit, Slow Start for congestion too.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc5a42cf-3403-496b-ae64-bc2ebd2e50b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Token bucket- 1MB cap, 10MB/s rate, max 20MB/s. Time to send 12MB",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1.1s ",
+                    "type": "A"
+                },
+                {
+                    "body": "0.1s ",
+                    "type": "B"
+                },
+                {
+                    "body": "2.1s ",
+                    "type": "C"
+                },
+                {
+                    "body": "2.0s",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ab0ffe1b-5e6e-4edf-9744-dcdb9f1c88ec",
+                    "questionID": "fc5a42cf-3403-496b-ae64-bc2ebd2e50b4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1MB sent instantly; 11MB at 10MB/s = 1.1s.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "43410efe-4cf6-4b02-93d2-3b4ce8540f83",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "On TCP connection- cwnd=4KB, awnd=6KB, LastSent=10240, LastAcked=8192. Window size",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2048 ",
+                    "type": "A"
+                },
+                {
+                    "body": "4096 ",
+                    "type": "B"
+                },
+                {
+                    "body": "6144 ",
+                    "type": "C"
+                },
+                {
+                    "body": "8192",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e35ffd23-2e7e-45a7-b609-a1cbe2d4d483",
+                    "questionID": "43410efe-4cf6-4b02-93d2-3b4ce8540f83",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bytes in flight = 2048; window = min(4096, 6144) - 2048 = 2048.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dc94e810-0543-4f2d-b6e4-08e0289ff9a3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Max size of data application layer can pass to TCP layer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Any size ",
+                    "type": "A"
+                },
+                {
+                    "body": "2�?�TCP header ",
+                    "type": "B"
+                },
+                {
+                    "body": "2�? ",
+                    "type": "C"
+                },
+                {
+                    "body": "1500",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "910ec3aa-d82b-4f6f-8fe4-a579d85b92cd",
+                    "questionID": "dc94e810-0543-4f2d-b6e4-08e0289ff9a3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP can segment large data, so application can pass arbitrarily large payload.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "855492fb-bfa7-4d96-8b5a-f6d63d88724e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statements are TRUE TCP handles both flow and congestion, etc",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "S1, S2, S3 ",
+                    "type": "A"
+                },
+                {
+                    "body": "S1 &amp; S3 ",
+                    "type": "B"
+                },
+                {
+                    "body": "S3 &amp; S4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "S1, S3 &amp; S4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "94def11f-a544-48b8-b60a-51dd3e18cd28",
+                    "questionID": "855492fb-bfa7-4d96-8b5a-f6d63d88724e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP handles both; UDP doesn&#39;t; Fast Retransmit is for congestion; Slow Start is for congestion only.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fcf47b67-2f8d-437b-8388-9f44c435c233",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is true about TCP timeout value",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Set once during connection ",
+                    "type": "A"
+                },
+                {
+                    "body": "Uses RTT estimate ",
+                    "type": "B"
+                },
+                {
+                    "body": "Always = 2�prop delay ",
+                    "type": "C"
+                },
+                {
+                    "body": "All false",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1c9898c3-1709-4ba5-8733-de1397f2516e",
+                    "questionID": "fcf47b67-2f8d-437b-8388-9f44c435c233",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP dynamically estimates RTT for adaptive timeout.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94c6f3cf-1987-497f-8331-3d95cd61232e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A token bucket has 1MB capacity. Max rate = 20MB/s. Tokens arrive to sustain 10MB/s. Time for 12MB send",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1.1s ",
+                    "type": "A"
+                },
+                {
+                    "body": "0.1s ",
+                    "type": "B"
+                },
+                {
+                    "body": "2.1s ",
+                    "type": "C"
+                },
+                {
+                    "body": "2.0s",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9582f58e-c417-44b9-a35d-88f679238d3a",
+                    "questionID": "94c6f3cf-1987-497f-8331-3d95cd61232e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1MB sent instantly, 11MB at 10MB/s ? 1.1s.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1125fd05-ecbd-46c0-8374-af8d894ff996",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Packets of same session may be routed differently in",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "TCP only ",
+                    "type": "A"
+                },
+                {
+                    "body": "TCP and UDP ",
+                    "type": "B"
+                },
+                {
+                    "body": "UDP only ",
+                    "type": "C"
+                },
+                {
+                    "body": "Neither",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2879ed2d-a500-42df-8b7d-bac49f92e16b",
+                    "questionID": "1125fd05-ecbd-46c0-8374-af8d894ff996",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Both TCP and UDP use IP - routes may differ.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "76a43317-0cf0-4611-938e-6e609bb61247",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call sends the SYN packet in TCP",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "socket ",
+                    "type": "A"
+                },
+                {
+                    "body": "bind ",
+                    "type": "B"
+                },
+                {
+                    "body": "listen ",
+                    "type": "C"
+                },
+                {
+                    "body": "connect",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "3360bc73-210c-489f-ad78-20ae1359c5d0",
+                    "questionID": "76a43317-0cf0-4611-938e-6e609bb61247",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "connect() starts the 3-way handshake by sending a SYN.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bb39846b-edd8-45f2-88e1-02d9cd13379b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A layer-4 firewall CANNOT",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "block HTTP by time ",
+                    "type": "A"
+                },
+                {
+                    "body": "block ICMP ",
+                    "type": "B"
+                },
+                {
+                    "body": "stop incoming from IP ",
+                    "type": "C"
+                },
+                {
+                    "body": "block TCP by user",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "3f05dc8e-2380-4065-8aaa-883830c59295",
+                    "questionID": "bb39846b-edd8-45f2-88e1-02d9cd13379b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "L4 firewall can&#39;t filter based on user identity - that&#39;s L7&#39;s job.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "84db3b78-dfe4-440d-a8c9-0d9d5b4d6b94",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a transport layer protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stream Control Transmission Protocol ",
+                    "type": "A"
+                },
+                {
+                    "body": "Internet Control Message Protocol ",
+                    "type": "B"
+                },
+                {
+                    "body": "Neighbor Discovery Protocol ",
+                    "type": "C"
+                },
+                {
+                    "body": "DHCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "99e143af-3113-464c-9d24-54fc8659ed35",
+                    "questionID": "84db3b78-dfe4-440d-a8c9-0d9d5b4d6b94",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SCTP is a transport layer protocol used for reliable, message-oriented communication.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a8bd1a5b-cada-4ad4-a06c-4160fb3c5588",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Socket-style API for Windows is called ____________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "wsock ",
+                    "type": "A"
+                },
+                {
+                    "body": "winsock ",
+                    "type": "B"
+                },
+                {
+                    "body": "wins ",
+                    "type": "C"
+                },
+                {
+                    "body": "sockwi",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "eddcbe79-2fcf-4363-83a5-de807e4a85ae",
+                    "questionID": "a8bd1a5b-cada-4ad4-a06c-4160fb3c5588",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Winsock is the Windows implementation of the socket API.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9d771d15-8294-41cd-9735-faebacafc27d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An endpoint of an inter-process communication flow across a computer network is called __________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "socket ",
+                    "type": "A"
+                },
+                {
+                    "body": "pipe ",
+                    "type": "B"
+                },
+                {
+                    "body": "port ",
+                    "type": "C"
+                },
+                {
+                    "body": "machine",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d2d17945-2e47-4f30-b6e2-62974674d5fd",
+                    "questionID": "9d771d15-8294-41cd-9735-faebacafc27d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A socket is one endpoint in a two-way communication link.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3d3580d0-5ac8-4126-a663-d2b887075afc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Transmission Control Protocol __________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "is a connection-oriented protocol ",
+                    "type": "A"
+                },
+                {
+                    "body": "uses 3-way handshake ",
+                    "type": "B"
+                },
+                {
+                    "body": "receives data as a single stream ",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the mentioned",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4817c0de-8960-4c2b-8f43-b6231c768097",
+                    "questionID": "3d3580d0-5ac8-4126-a663-d2b887075afc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP provides reliable, ordered delivery, uses a 3-way handshake, and treats data as a byte stream.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9fe57e83-54fa-439f-b81f-9718f14406b1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The __________ state in Reno TCP is between slow start and congestion avoidance",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Congestion avoidance ",
+                    "type": "A"
+                },
+                {
+                    "body": "Congestion detection ",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow recovery ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "14c8813c-5ead-468f-8e30-0e5bcd72fd87",
+                    "questionID": "9fe57e83-54fa-439f-b81f-9718f14406b1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Congestion avoidance begins after slow start threshold is reached.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "250fe023-a9b0-4648-802f-b2eea13f95e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In congestion avoidance, cwnd grows ______________ until congestion is detected",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Exponentially; threshold ",
+                    "type": "A"
+                },
+                {
+                    "body": "Exponentially; congestion ",
+                    "type": "B"
+                },
+                {
+                    "body": "Additively; threshold ",
+                    "type": "C"
+                },
+                {
+                    "body": "Additively; congestion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2058d9b4-9c1c-412c-942e-61a5bb447b47",
+                    "questionID": "250fe023-a9b0-4648-802f-b2eea13f95e0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Linear growth until packet loss indicates congestion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b456de19-383a-4a13-b82f-dbd791a99ac1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the slow start algorithm, cwnd grows ______________ until ___________________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Exponentially; threshold ",
+                    "type": "A"
+                },
+                {
+                    "body": "Exponentially; congestion ",
+                    "type": "B"
+                },
+                {
+                    "body": "Additively; threshold ",
+                    "type": "C"
+                },
+                {
+                    "body": "Additively; congestion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "bd25bd13-6ad0-4700-bca5-70905a453ec2",
+                    "questionID": "b456de19-383a-4a13-b82f-dbd791a99ac1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "cwnd doubles each RTT until it reaches ssthresh, then switches to congestion avoidance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dcf069b8-5b55-408f-8a8c-b7adb7e02ef5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "________ control prevents overloading the network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Flow",
+                    "type": "A"
+                },
+                {
+                    "body": "Error",
+                    "type": "B"
+                },
+                {
+                    "body": "Congestion",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c68a6085-210e-4f26-b6f5-ec465d7c9831",
+                    "questionID": "dcf069b8-5b55-408f-8a8c-b7adb7e02ef5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Congestion control keeps traffic below capacity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "19ccf53e-f2c0-4d99-a12b-292750eee69a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, if ACK value is 200, then byte _______ has been received successfully",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "199",
+                    "type": "A"
+                },
+                {
+                    "body": "200",
+                    "type": "B"
+                },
+                {
+                    "body": "201",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a9651de4-ecaf-4458-b2c2-c6525a7a6510",
+                    "questionID": "19ccf53e-f2c0-4d99-a12b-292750eee69a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ACK indicates the next expected byte; so all bytes up to 199 are received.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6abcccc-56fe-4f94-ace2-987980d353c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, a retransmission timer is set for ______ segments",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One",
+                    "type": "A"
+                },
+                {
+                    "body": "A previous",
+                    "type": "B"
+                },
+                {
+                    "body": "No",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "cdbeddbc-c9e4-41ab-81b8-9d5dd0d091c1",
+                    "questionID": "d6abcccc-56fe-4f94-ace2-987980d353c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Timers are for data segments, not ACKs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0f9bbb75-7364-4087-921e-b7797ee56465",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP, an ACK segment carrying no data consumes ______ sequence number(s)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "No",
+                    "type": "A"
+                },
+                {
+                    "body": "One",
+                    "type": "B"
+                },
+                {
+                    "body": "Two",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6e54365b-8b2d-47d4-89d0-d9b0415bf010",
+                    "questionID": "0f9bbb75-7364-4087-921e-b7797ee56465",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ACK without data does not use sequence numbers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "236a2f0e-7fc1-48c1-9a3a-ac07df2845c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "UDP is an acronym for _______",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "User Delivery Protocol",
+                    "type": "A"
+                },
+                {
+                    "body": "User Datagram Procedure",
+                    "type": "B"
+                },
+                {
+                    "body": "User Datagram Protocol",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b7ca597a-f575-41da-98f2-01d416b8ba61",
+                    "questionID": "236a2f0e-7fc1-48c1-9a3a-ac07df2845c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP stands for User Datagram Protocol.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "24558153-70a3-4e29-aca6-e440107b3a8b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "________ means producer delivers items when produced; ______ means consumer takes items when ready",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pushing; Pulling ",
+                    "type": "A"
+                },
+                {
+                    "body": "Pulling; Pushing ",
+                    "type": "B"
+                },
+                {
+                    "body": "Forwarding; Accepting ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "088c8705-d1c4-440f-853b-e78052f4c614",
+                    "questionID": "24558153-70a3-4e29-aca6-e440107b3a8b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Push/pull terms describe data flow direction between producer and consumer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "396d8646-80e0-4504-8ddf-696ffc5dd4a5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "TCP sliding windows are __________ oriented",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Packet ",
+                    "type": "A"
+                },
+                {
+                    "body": "Segment ",
+                    "type": "B"
+                },
+                {
+                    "body": "Byte ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ccbe9a82-d900-4990-8d5b-f33679e075e8",
+                    "questionID": "396d8646-80e0-4504-8ddf-696ffc5dd4a5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP windows use byte-based sequence numbers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "650d9798-4f42-4394-94c4-f8b49965d0d7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "__________ means accepting items from multiple sources. __________ means delivering to multiple sources",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Demultiplexing; Multiplexing ",
+                    "type": "A"
+                },
+                {
+                    "body": "Multiplexing; Demultiplexing ",
+                    "type": "B"
+                },
+                {
+                    "body": "Encapsulation; Decapsulation ",
+                    "type": "C"
+                },
+                {
+                    "body": "Pulling; Pushing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "384702f0-aa0c-405a-a068-cf67a107f9bc",
+                    "questionID": "650d9798-4f42-4394-94c4-f8b49965d0d7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Multiplexing- many sources to one; Demultiplexing- one to many destinations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fda214e3-5198-4057-9015-fbe8992db78f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A socket address is a combination of __________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MAC + Logical ",
+                    "type": "A"
+                },
+                {
+                    "body": "MAC + Port ",
+                    "type": "B"
+                },
+                {
+                    "body": "User + Logical ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "231af9bb-3b74-4754-a58a-d1a9abbe8881",
+                    "questionID": "fda214e3-5198-4057-9015-fbe8992db78f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A socket = IP address + Port Number, not MAC or user addresses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "41203bc8-0635-40fe-9e27-92f54bbb9b42",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A client program normally uses ____________ port number. A server program uses __________ port number",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Well-known; Ephemeral ",
+                    "type": "A"
+                },
+                {
+                    "body": "Ephemeral; Well-known ",
+                    "type": "B"
+                },
+                {
+                    "body": "Private; Well-known ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e8bd50ee-6018-4a50-8018-66f3a577a6af",
+                    "questionID": "41203bc8-0635-40fe-9e27-92f54bbb9b42",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Clients use dynamic (ephemeral) ports, servers use well-known ones.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f8ccca61-0b71-4763-ab9a-9aeeb53a7af4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "One of the main duties of the transport layer is to provide ____________ communication",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Node-to-node ",
+                    "type": "A"
+                },
+                {
+                    "body": "Host-to-host ",
+                    "type": "B"
+                },
+                {
+                    "body": "Process-to-process ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bb1db029-b64c-4d43-b750-e91d5a102761",
+                    "questionID": "f8ccca61-0b71-4763-ab9a-9aeeb53a7af4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Transport layer enables process-to-process communication.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ffdf6be5-7e58-4258-a2ba-4c014162ee44",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The SYN flooding attack belongs to which type of attack",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Denial of service ",
+                    "type": "A"
+                },
+                {
+                    "body": "Replay ",
+                    "type": "B"
+                },
+                {
+                    "body": "Man-in-the-middle ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "76695619-6c59-4126-9a6f-52b3cf630264",
+                    "questionID": "ffdf6be5-7e58-4258-a2ba-4c014162ee44",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SYN Flood is a classic example of Denial of Service attack.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f95dc0e-f7fb-433a-9011-16cfb0d635b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The inclusion of the checksum in TCP segment is ________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Optional ",
+                    "type": "A"
+                },
+                {
+                    "body": "Mandatory ",
+                    "type": "B"
+                },
+                {
+                    "body": "Depends ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6bbd6bc5-b598-4f30-9804-446097c4034d",
+                    "questionID": "1f95dc0e-f7fb-433a-9011-16cfb0d635b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Checksum is mandatory in TCP for error detection.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "45b9a259-4647-443d-b1bc-62fd8c478079",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the protocol data unit for the transport layer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Segment ",
+                    "type": "A"
+                },
+                {
+                    "body": "Message ",
+                    "type": "B"
+                },
+                {
+                    "body": "Datagram ",
+                    "type": "C"
+                },
+                {
+                    "body": "Frame",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ac23468b-c66e-4c51-aee5-1a44ffb22724",
+                    "questionID": "45b9a259-4647-443d-b1bc-62fd8c478079",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Segment is used at transport layer (TCP); datagram in UDP context.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f39bbbc8-4133-4ce6-ac63-05c271b2d000",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What protocol and port are used when browsing the web",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UDP,80 ",
+                    "type": "A"
+                },
+                {
+                    "body": "TCP,80 ",
+                    "type": "B"
+                },
+                {
+                    "body": "TCP,25 ",
+                    "type": "C"
+                },
+                {
+                    "body": "UDP,25",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "acf77bba-196a-4a05-8c14-a33e93e23dc9",
+                    "questionID": "f39bbbc8-4133-4ce6-ac63-05c271b2d000",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Browsers use HTTP over TCP, and port 80 is standard for HTTP.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "783fe441-ec54-44a3-8dad-8ad9e628d40f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An ACK number of 1000 in TCP means",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "999 bytes received ",
+                    "type": "A"
+                },
+                {
+                    "body": "1000 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1001 ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1b7911f4-db7c-4d4b-b321-6d0f31e845d3",
+                    "questionID": "783fe441-ec54-44a3-8dad-8ad9e628d40f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ACK 1000 means next expected byte = 1000 ? 999 received.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fa698df7-6005-4154-a8fc-9f22fe24d385",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "DNS uses UDP because",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UDP is slower ",
+                    "type": "A"
+                },
+                {
+                    "body": "Keep connections ",
+                    "type": "B"
+                },
+                {
+                    "body": "Small requests ",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4108918d-3a32-4e2f-a8af-010699df20d5",
+                    "questionID": "fa698df7-6005-4154-a8fc-9f22fe24d385",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DNS requests are small and fast; UDP is suitable unless TCP is needed for large responses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9c956be6-4461-4f09-b60e-929186831411",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of the OSI model is also called the end-to-end layer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network ",
+                    "type": "A"
+                },
+                {
+                    "body": "Data Link ",
+                    "type": "B"
+                },
+                {
+                    "body": "Session ",
+                    "type": "C"
+                },
+                {
+                    "body": "Transport",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "258a85ac-694d-4db8-8b1a-54b598c7c9f2",
+                    "questionID": "9c956be6-4461-4f09-b60e-929186831411",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Transport layer enables end-to-end process communication.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b29f0ef8-1c84-485d-b9c4-1f92de472b5d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is TRUE? TCP connections are full duplex, etc",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only I ",
+                    "type": "A"
+                },
+                {
+                    "body": "I &amp; II ",
+                    "type": "B"
+                },
+                {
+                    "body": "II &amp; III ",
+                    "type": "C"
+                },
+                {
+                    "body": "All",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6567bfd4-d111-4925-b267-10f65595a9f1",
+                    "questionID": "b29f0ef8-1c84-485d-b9c4-1f92de472b5d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP is full duplex, has SACK, and is byte-stream not message-stream.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9d1bb2ac-f272-45b2-ad01-31f1727ae3e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which socket API call makes a TCP socket passive",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "connect ",
+                    "type": "A"
+                },
+                {
+                    "body": "bind ",
+                    "type": "B"
+                },
+                {
+                    "body": "listen ",
+                    "type": "C"
+                },
+                {
+                    "body": "accept",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b717c57a-b170-4170-abca-959cf88c6a57",
+                    "questionID": "9d1bb2ac-f272-45b2-ad01-31f1727ae3e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "listen() prepares the socket to accept connections.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f871d906-1f8b-4bd2-88c5-2f4be2de58c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which one uses UDP as the transport protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "HTTP ",
+                    "type": "A"
+                },
+                {
+                    "body": "Telnet ",
+                    "type": "B"
+                },
+                {
+                    "body": "DNS ",
+                    "type": "C"
+                },
+                {
+                    "body": "SMTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "75f868ea-5467-4825-93db-899dbd9163eb",
+                    "questionID": "f871d906-1f8b-4bd2-88c5-2f4be2de58c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DNS uses UDP for faster, stateless queries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5673029a-f9d3-4a30-a9b4-01bcb1bf0455",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In TCP slow start phase, the congestion window size",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "doesn&#39;t increase ",
+                    "type": "A"
+                },
+                {
+                    "body": "increases linearly ",
+                    "type": "B"
+                },
+                {
+                    "body": "quadratically ",
+                    "type": "C"
+                },
+                {
+                    "body": "exponentially",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4c80940d-95d0-4d95-9973-fd75fb662efc",
+                    "questionID": "5673029a-f9d3-4a30-a9b4-01bcb1bf0455",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In slow start, cwnd doubles each RTT.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9297638c-96f4-456d-b720-742b7c3dea9d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following transport layer protocols is used for email",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SMTP ",
+                    "type": "A"
+                },
+                {
+                    "body": "IP ",
+                    "type": "B"
+                },
+                {
+                    "body": "TCP ",
+                    "type": "C"
+                },
+                {
+                    "body": "UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "257aa1f9-a989-4d6d-a194-f4c58cc86c36",
+                    "questionID": "9297638c-96f4-456d-b720-742b7c3dea9d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SMTP runs over TCP for reliable delivery.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "03ec0abb-68db-4b0d-bfa9-93ec16189b0c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The transport layer protocols used for real time multimedia, file transfer, DNS and email are",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "TCP, UDP, UDP, TCP ",
+                    "type": "A"
+                },
+                {
+                    "body": "UDP, TCP, TCP, UDP ",
+                    "type": "B"
+                },
+                {
+                    "body": "UDP, TCP, UDP, TCP ",
+                    "type": "C"
+                },
+                {
+                    "body": "TCP, UDP, TCP, UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "513ef1a0-8d99-46fc-8c3f-a80b47ccf024",
+                    "questionID": "03ec0abb-68db-4b0d-bfa9-93ec16189b0c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP is used where speed matters (real-time, DNS); TCP where reliability matters (file transfer, email).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8ac2fd3b-5bc8-4be7-a48a-d1dc420797db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Transport layer protocols deal with ____________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "application to application ",
+                    "type": "A"
+                },
+                {
+                    "body": "process to process ",
+                    "type": "B"
+                },
+                {
+                    "body": "node to node ",
+                    "type": "C"
+                },
+                {
+                    "body": "man to man",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "598c8ad6-ac1e-4f6b-8e05-1e3979a7fe5f",
+                    "questionID": "8ac2fd3b-5bc8-4be7-a48a-d1dc420797db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The transport layer enables logical communication between processes on different hosts.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b8039d68-5c8d-4585-9871-b932817e5c41",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A _____ is a TCP name for a transport service access point",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "port ",
+                    "type": "A"
+                },
+                {
+                    "body": "pipe ",
+                    "type": "B"
+                },
+                {
+                    "body": "node ",
+                    "type": "C"
+                },
+                {
+                    "body": "protocol",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "66a24dd3-7602-49a6-a494-b807b23b28fb",
+                    "questionID": "b8039d68-5c8d-4585-9871-b932817e5c41",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Port numbers are used to identify service endpoints in TCP.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ee28ce54-f291-48bc-921b-811f1c017ed9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "User Datagram Protocol is called connectionless because _____________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "all UDP packets are treated independently ",
+                    "type": "A"
+                },
+                {
+                    "body": "it sends data as a stream ",
+                    "type": "B"
+                },
+                {
+                    "body": "received in order ",
+                    "type": "C"
+                },
+                {
+                    "body": "sends data quickly",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fa65e33d-8e88-4505-8ea9-26469da7edd9",
+                    "questionID": "ee28ce54-f291-48bc-921b-811f1c017ed9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP packets are independent, and there is no connection setup, making it a connectionless protocol.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9711ca39-3bf9-4885-a6e2-faa7b4f69530",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following are transport layer protocols used in networking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "TCP and FTP ",
+                    "type": "A"
+                },
+                {
+                    "body": "UDP and HTTP ",
+                    "type": "B"
+                },
+                {
+                    "body": "TCP and UDP ",
+                    "type": "C"
+                },
+                {
+                    "body": "HTTP and FTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4052da68-d2ac-4344-a965-501534d9deb9",
+                    "questionID": "9711ca39-3bf9-4885-a6e2-faa7b4f69530",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP and UDP are transport layer protocols. FTP and HTTP are application layer protocols.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "81a6de8e-0161-4179-bb79-15f956abf307",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Transport layer aggregates data from different applications into a single stream before passing it to _____________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "network layer ",
+                    "type": "A"
+                },
+                {
+                    "body": "data link layer ",
+                    "type": "B"
+                },
+                {
+                    "body": "application layer ",
+                    "type": "C"
+                },
+                {
+                    "body": "physical layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d2f74694-1368-4aa3-8712-d8d51137cde5",
+                    "questionID": "81a6de8e-0161-4179-bb79-15f956abf307",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In the OSI model, the transport layer passes data to the network layer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

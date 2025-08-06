@@ -1,0 +1,1150 @@
+{
+    "bank_id": "d0dd3417-6261-49f6-93c1-1f6faeead5b1",
+    "bank_name": "qvl week 2 day 1",
+    "questions": [
+        {
+            "id": "c5412aec-2594-415b-90f3-850e3e1c71c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Please read the passage carefully and answer the questions that follow: </p><p>Kangaroo mother care (KMC) or the intervention where babies are placed in skin-to-skin contact with their mothers and exclusively breast fed has been recommended worldwide for stable low-birthweight newborns. Stable babies are defined as babies who do not need respiratory support or intravenous fluids and can accept oral feeds. Though previous studies have shown that keeping the baby in contact with the mother improves survival in babies (less than 2 kg weight at birth) when compared to standard hospital care, global data show that barely 5% receive such care. Also, there is no much evidence on kangaroo mother care impact when initiated at homes in India. To understand this, a team of researchers carried out a study in Haryana. The results recently published in The Lancet show that kangaroo mother care improved survival by 30% and 25%, in babies till 28 days and six months of age, respectively. The paper adds that such care for all infants with low birthweight could substantially reduce neonatal and infant mortality. About 97% of the world’s low-weight babies are born in developing countries, and India accounts for about 40% of this, implying an urgent need of effective interventions. Sarmila Mazumder, lead author of the study says, “In developing countries, even today, babies are born at home or even if born in hospitals, are discharged too soon without kangaroo mother care initiation. It is imperative therefore that such care is initiated at home.” For the study, over 8,000 stable low-birthweight babies weighing less than 2.25 kg, were enrolled from two districts in Haryana, during 2015-2018 and randomly assigned to intervention and control groups. Kangaroo mother care intervention was initiated at home, at an average age of 33 hours and delivered during the first month of life, through home visits. The enrolled babies were followed up at one, three and six months of age. Dr. Mazumder adds that kangaroo mother care benefits are much beyond preventing hypothermia. “The care improves exclusive breast feeding, duration of breast feeding, and also reduces infections. It also promotes growth and development of the child and increases mother child bonding, and also reduces stress in both mother and baby,” she explains. When asked how long babies need to be kept in such care, Dr. Mazumder explained that in the study, mothers were advised to keep the babies as long as possible, preferably 24 hours in day and night and till 28 days of age. An average of 11 hours of skin-to-skin contact was achieved, and mothers reported giving kangaroo mother care till 27 days of baby’s age. WHO recommends that it be continued till baby attains a weight of 2.5 kg or till babies wriggle out, indicating that they do not need kangaroo mother care any further. Dr. Mazumder added that an implementation research was also conducted by the same team with the Haryana Government to scale up kangaroo mother care across 16 districts of the state. The paper adds that kangaroo mother care has the ______________ to prevent thousands of neonatal deaths in our country if 90% coverage can be achieved</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "9c5fc3c1-bbba-4234-8238-fa41ae5d4458",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Pollution in Delhi is increasing day by day; try to cover so many of your head as you can. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>as many of your head as </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>as much of your head as</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>so much of your head as </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>as much of your head so </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "baf76052-ba5d-45c2-bd00-aa241d00b2c8",
+                    "questionID": "9c5fc3c1-bbba-4234-8238-fa41ae5d4458",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER:B</strong></p><p><br></p><p>A person can only have one head.</p><p>Hence, the usage of ‘many’ in front of ‘head’ is erroneous. The sentence talks</p><p>about covering head / part of head due to pollution. Hence the expression “as</p><p>much as” is perfect in the context. “As much of your head as you can” makes</p><p>perfect sense both grammatically and contextually. Besides, “as much as” is a</p><p>standard expression. It cannot be changed whimsically. “As” cannot be</p><p>substituted with “so”. Hence, option B is the correct answer</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a62b98d-cb81-4b49-8a5c-dfde2376c183",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The student performed in the examination quiet well; his face beamed with joy. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A. quiet good</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>&nbsp;B. quiet better</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C. quite well </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D. quite better</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bc0c07ac-3135-4e16-b678-37a6d976b497",
+                    "questionID": "5a62b98d-cb81-4b49-8a5c-dfde2376c183",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER:C</strong></p><p><br></p><p>“Quiet” means ‘making little or no</p><p>noise; silent; still; hushed”. It makes no sense whatsoever in the given</p><p>context. This eliminates option A and option B. “Quite” means ‘to the utmost or</p><p>most absolute extent or degree; absolutely; completely’. But “quite better” is</p><p>an incorrect expression here. “Better” is used to make comparison. But no</p><p>comparison is made in the given sentence. Hence, it also gets eliminated.</p><p>“Quite well” is absolutely correct in the given context and replaces ‘quiet</p><p>well’ aptly. Hence, option C is the correct answer.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a8c6d38a-b66d-4289-8e28-d73638d8f50d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The young man bought a pair of branded trouser from the new mall.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>&nbsp;A. a pair of branded trousers </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B. pair of branded trouser</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C. pair of branded trousers </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D. a pair for branded trousers </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0798e371-28bb-4ae1-9376-aae9d11d9190",
+                    "questionID": "a8c6d38a-b66d-4289-8e28-d73638d8f50d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>“Trouser” is always used in the plural</p><p>(=trousers). Hence, “a pair of branded trousers” is the correct expression.</p><p>Correct Sentence : The young man bought a pair of branded trousers from the new</p><p>mall. Therefore, option A is the correct answer</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "560bb8cf-974d-44f9-b721-b1d532dd9878",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains three statements, one or more of which may not be grammatically correct. You are required to identify the incorrect statements from the options given below and mark that as your answer.</p><p>I. The Rafale issue was raised before the Supreme Court, which did not find any substance in the allegations.</p><p>II. Finance Secretary is only a designation given to the senior most secretary in the finance ministry. </p><p>III. Under the original proposal, 18 warplanes were to be procured in a fly-away condition. </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only III </p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>All are correct</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "E",
+            "solution": [
+                {
+                    "id": "da212248-2389-4b83-91b5-9ccb8577b3a9",
+                    "questionID": "560bb8cf-974d-44f9-b721-b1d532dd9878",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER</strong></p><p><strong>:E</strong></p><p><br></p><p>All the given statements are absolutely</p><p>correct. Hence option E is correct.</p><p><br></p><p>&nbsp;</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d7d1d5bc-ec4c-480d-851f-98d8a6eb5502",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains three statements, one or more of which may not be grammatically correct. You are required to identify the incorrect statements from the options given below and mark that as your answer.</p><p><br></p><p>I. The top auditor must recuse himself from</p><p>auditing the deal. </p><p><br></p><p>II. The Congress has claimed that the previous</p><p>deal include a technology transfer agreement with HAL.</p><p><br></p><p>&nbsp;III.</p><p>The NDA has not disclosed details of the price as of yet.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only III</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "551ee56f-c742-4d9c-be46-9aeff10d0699",
+                    "questionID": "d7d1d5bc-ec4c-480d-851f-98d8a6eb5502",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER</strong></p><p><strong>:A</strong></p><p><br></p><p>I. is correct. II. is wrong as it uses wrong</p><p>form of verb. The sentence is in past tense, so instead of ‘include’,</p><p>“included” is preferred. III. is also correct. Hence option A is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "926e4749-858f-4095-8ace-4ab002a8e345",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains three statements, one or more of which may not be grammatically correct. You are required to identify the incorrect statements from the options given below and mark that as your answer.</p><p><br></p><p>I. The IMF has pressed Pakistan to improve tax revenue collection. </p><p><br></p><p>II. Pakistani rupee had depreciated by 30 percent again the U.S. dollar. </p><p><br></p><p>III. Pakistan’s credit rating were downgraded by S&amp;P, which cited diminished growth prospects. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II and III</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>All are correct </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "81d78af8-70d4-46f7-821f-cd0c0f6ba75a",
+                    "questionID": "926e4749-858f-4095-8ace-4ab002a8e345",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER</strong></p><p><strong>:C</strong></p><p><br></p><p>I. is correct. II. is incorrect with respect</p><p>to use of ‘again’. Here against should be used to indicate the comparison</p><p>between Pakistani Rupee and USD. Correct sentence: Pakistani rupee had</p><p>depreciated by 30 percent against the U.S. dollar. III. is incorrect with</p><p>respect to use of wrong helping verb ‘were’. The noun used here ‘rating’ is</p><p>singular, so instead of ‘were’, use of ‘was’ is preferred. Correct sentence:</p><p>Pakistan’s credit rating was downgraded by S&amp;P, which cited diminished</p><p>growth prospects. Hence option C is correct.</p><p>&nbsp;</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "71b23673-fb5b-4d9d-be52-17142278b7bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains three statements, one or more of which may not be grammatically correct. You are required to identify the incorrect statements from the options given below and mark that as your answer.</p><p>I. Chief Minister and thousands of people from Andhra will demonstrate to special status for the state.</p><p><br></p><p>&nbsp;II. This poses a big question on the country’s federal structure. </p><p><br></p><p>III. The AAP leader pointed out how the Centre had the Anti-Corruption Branch of the Delhi government seize by paramilitary forces. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and III</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6b9c3d7a-e87d-44e1-9966-9f371c66826c",
+                    "questionID": "71b23673-fb5b-4d9d-be52-17142278b7bd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>I. Demonstration is given 'for' something,</p><p>thus the correct preposition is 'for' instead of to. Correct sentence: Chief</p><p>Minister and thousands of people from Andhra will demonstrate for special</p><p>status for the state. II is correct. III is incorrect with respect to use of</p><p>wrong form of verb ‘seize’. With helping had, third form of verb is used. Thus</p><p>it should be 'seized' instead of 'seize'. Correct sentence: The AAP leader</p><p>pointed out how the Centre had the Anti-Corruption Branch of the Delhi</p><p>government seized by paramilitary forces. Hence option B is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dd5c8b9e-1a19-4bcd-a6d9-4246656763e7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If BIRD is coded as CJSE, what is the code for FISH?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>GJTI</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>GJTH</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>GITI</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>HJTI </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6b9f6d38-c6fb-4e4b-b978-7804510bfd31",
+                    "questionID": "dd5c8b9e-1a19-4bcd-a6d9-4246656763e7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> <strong>A</strong></p><p><strong>Solution:</strong> Each letter is shifted by +1 (next alphabet letter). </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "40f188b5-d2e4-48bf-b5ef-8e0a3fd2a723",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A clock is 10 minutes fast at 9 a.m. and 5 minutes slow at 9 p.m. What is the time it gets correct?</p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1 p.m.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2 p.m.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3 p.m.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>5 p.m.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c0c80f41-8a06-455c-b167-ff74fe97db54",
+                    "questionID": "40f188b5-d2e4-48bf-b5ef-8e0a3fd2a723",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>At 9 a.m., the clock is 10 minutes fast; at 9 p.m., it is 5 minutes slow.</p><p>Total time between 9 a.m. and 9 p.m. = 12 hours.</p><p>Total deviation = 10 + 5 = 15 minutes.</p><p>Rate of change = 15 minutes / 12 hours = 1.25 minutes per hour.</p><p>Time to become correct = 10 / 1.25 = 8 hours.</p><p>Answer: The clock shows correct time at 5:00 p.m.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ff3934b8-3069-4495-8f46-cc2f783cc6fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is not a leap year?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: black;\">700</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>800</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1200</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>2000</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8eb8b83f-a085-4d4c-bdae-93f5d0f943f0",
+                    "questionID": "ff3934b8-3069-4495-8f46-cc2f783cc6fe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"color: black;\">Answer:A</strong></p><p><br></p><p><span style=\"color: black;\">Year 700 is not divisible by 400, so it</span></p><p><span style=\"color: black;\">is </span><strong style=\"color: black;\">not</strong></p><p><strong>a leap year</strong><span style=\"color: black;\"> (century years must be divisible by 400 to be leap</span></p><p><span style=\"color: black;\">years).</span></p><p><br></p><p><span style=\"color: black;\">Years 800, 1200, and 2000 are divisible by 400, so they are leap years.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "16c75a92-4490-4727-891c-4c9d8a6469bb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>We know Jan 1, 2010 was a <strong>Friday</strong>. What will be the day of the week 15<sup>th</sup>&nbsp;August, 2010?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Sunday</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Monday</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Tuesday</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Friday</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3ebddb71-80a5-41ba-980a-6f5a63c81439",
+                    "questionID": "16c75a92-4490-4727-891c-4c9d8a6469bb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>We</p><p>know Jan 1, 2010 was a <strong>Friday</strong>. Count days from Jan 1 to Aug 15:</p><p><br></p><p>Jan (31) + Feb (28) + Mar (31) + Apr (30) + May (31) + Jun (30) + Jul (31) +</p><p>Aug (15) = 226 days.</p><p><br></p><p>226 ÷ 7 = 32 weeks and 2 odd days → Add 2 days to Friday = <strong>Sunday</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1f9929b-ca1f-48bf-bdfd-f102469aff75",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"color: rgb(100, 111, 121);\">Statement:</strong></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">H &gt; I &lt; J = K</span></p><p><br></p><p><strong style=\"color: rgb(100, 111, 121);\">Conclusion:</strong></p><p><br></p><ol><li>H &gt; J </li><li>J &lt; H </li><li>I &gt; K</li></ol><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Either I or II follow</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Only II follow</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">All I, II, and III follow</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Neither I, II, nor III</span></p><p><span style=\"color: rgb(100, 111, 121);\">follow</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a366ef8c-7faf-4d37-a940-635f9caafc36",
+                    "questionID": "f1f9929b-ca1f-48bf-bdfd-f102469aff75",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"color: rgb(100, 111, 121);\">Statement:</strong></p><p><br></p><ol><li><br></li><li> </li><li>H &gt; I &lt; J = K</li><li><br></li><li><br></li><li> </li><li>H &gt; J ⇾ False (as H &gt;</li><li>     I &lt; J)</li><li><br></li><li><br></li><li> </li><li>J &lt; H ⇾ False (as H &gt;</li><li>     I &lt; J)</li><li><br></li></ol><p><span style=\"color: rgb(100, 111, 121);\">III. I &gt; K ⇾ False (as I &lt; J = K)</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">Here, J and H elements are the same but the meaning</span></p><p><span style=\"color: rgb(100, 111, 121);\">is different so they will not form a complementary pair.</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">Hence,&nbsp;</span><strong style=\"color: rgb(100, 111, 121);\">Neither I, II, nor III follow.</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9b5f357b-4b36-4d33-8e85-5c85b55e32ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"color: rgb(100, 111, 121);\">Statement:&nbsp;</strong></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">9 &gt; 7 &lt; 6 = 5 &gt; 4</span></p><p><br></p><p><strong style=\"color: rgb(100, 111, 121);\">Conclusion:</strong></p><p><br></p><p>I. 9 &gt; 5</p><p> </p><p>II. 6 &gt; 4</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Only I follow</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Only II follow</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Both I and II follow</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Neither I nor II follows</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fbb466a2-74bc-4ab7-8020-efa83a0fe71b",
+                    "questionID": "9b5f357b-4b36-4d33-8e85-5c85b55e32ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"color: rgb(100, 111, 121);\">Given Statement:</strong></p><p><br></p><ol><li><br></li><li> </li><li>9 &gt; 7 &lt; 6 = 5 ≥ 4</li><li><br></li><li><br></li><li> </li><li>9 &gt; 5 ⇾ False (As 9 &gt; 7 &lt; 6 = 5)</li><li><br></li><li><br></li><li> </li><li>6 &gt; 4 ⇾ True (As 6 = 5 ≥ 4)</li><li><br></li></ol><p><span style=\"color: rgb(100, 111, 121);\">Hence,&nbsp;</span><strong style=\"color: rgb(100, 111, 121);\">Only II follow.</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "feb49eeb-b396-4c4c-bbc6-a12cc831b394",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>There are 25 students in a class and all of them are sitting in a row to do yoga. Meena is 11th from the top and Sneha is 6th from the bottom. Two students are sitting between Ananya and Reena. What is the position of Reena from the top.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>12th</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>13th</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>16th</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Can't be determined&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "cb071250-5b7c-4716-bdcf-591d121e453a",
+                    "questionID": "feb49eeb-b396-4c4c-bbc6-a12cc831b394",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>From the above information, we cannot</p><p>be sure about the position of Reena, as we don’t have enough information about</p><p>the position of Ananya and Reena.&nbsp;&nbsp;</p><p>Hence, the correct answer is <strong>option</strong></p><p><strong>D</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d711117-b985-4fa4-9b7c-73e0ff85a0ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Study the information carefully and answer the questions accordingly.&nbsp;</p><p>There are nine members in a family with four females and two married couples. B is the son-in-law of D. C is the daughter-in-law of H who is the father of I. N is the granddaughter of D. I is unmarried. E is the son of D. D is married to G who is the grandfather of F. F is the niece of I who is the brother of B. There could be single parent in the family.&nbsp;</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "c627594c-7eaf-44ac-89d5-81b8f2482f81",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a certain school, the ratio of boys to girls is 7 : 5. If there are 2400 students in the school, then how many girls are there in the school? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>500</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>700</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>800</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1000</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "29324382-1be0-4211-b56b-6f31b9ae0479",
+                    "questionID": "c627594c-7eaf-44ac-89d5-81b8f2482f81",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ans: Given</p><p>ratio of boys to girls = 7:5</p><p><br></p><p>Total students = 2400 → Total parts = 7 + 5 = 12</p><p><br></p><p>Girls = (5/12) × 2400 = <strong>1000</strong></p><p><strong>Answer:</strong></p><p><strong>(d) 1000</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "49f636dd-291f-4d38-a174-50064c140fc8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Sumit drove at the speed of 45 km/h from home to a resort. Returning over the same route, he got stuck in traffic and took an hour longer. Also, he could drive only at the speed of 40 km/h. How many kilometres did he drive each way?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>250 km</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>360 km</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>375 km</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>380 km</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0e7f5bea-4be5-41e4-ad19-76bc4af73791",
+                    "questionID": "49f636dd-291f-4d38-a174-50064c140fc8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ans: Let the</p><p>distance be <strong>x</strong></p><p><strong>km</strong>.</p><p><br></p><p>Time to go = x/45x/45, time to return = x/40x/40</p><p><br></p><p>Given: x/40−x/45=1x/40 - x/45 = 1 → LCM 360 → 9x−8x=3609x - 8x = 360 → x=360x = 360</p><p><strong>Answer:</strong></p><p><strong>(b) 360 km</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b279632a-bdcd-423e-8311-3792e7848e24",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>A pipe can fill a tank in 10 hours, while another pipe can empty it in 6 hours.</strong></p><p><strong>Find the time taken to empty the tank when both the pipes are opened simultaneously.</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>11 h</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>15 h</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>18 h</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>16 h</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9f1f5e2f-2d89-406c-b9d0-a7108ad40534",
+                    "questionID": "b279632a-bdcd-423e-8311-3792e7848e24",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Pipe A fills the tank in 10 hours, so its rate = 1/10.</p><p>Pipe B empties the tank in 6 hours, so its rate = -1/6.</p><p>Net rate = 1/10 - 1/6 = (3 - 5)/30 = -2/30 = -1/15.</p><p>This means 1/15 of the tank is emptied per hour.</p><p>Time to empty the full tank = 1 ÷ (1/15) = 15 hours.</p><p>Answer: 15 hours</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6e34ee78-08ac-4fb1-a0e6-315810a16fa6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the greatest possible length which can be used to measure exactly the lengths 7m,3m 85cm and 12 m 95 cm.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>15cm</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>25cm</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>42cm</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>35cm</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4211a60a-2220-405e-ad2f-d37bb6a2be1b",
+                    "questionID": "6e34ee78-08ac-4fb1-a0e6-315810a16fa6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Convert all lengths to <strong>centimetres</strong>:</p><p><br></p><p>7 m = 700 cm, 3 m 85 cm = 385 cm, 12 m 95 cm = 1295 cm</p><p><br></p><p>Now, find the <strong>HCF</strong> of 700, 385, and 1295:</p><p><br></p><p>HCF(700, 385, 1295) = <strong>35</strong></p><p><br></p><p><strong>Answer: (d) 35 cm</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7e10fd60-fe14-4ca0-85be-274713f160cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A,B and C completed a&nbsp; work costing Rs.1800. A worked for 6 days ,B worked for 4 days and C worked for 9 days. If their daily wages are in the ratio of 5:6:4, how much amount will be received by A? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Rs. 600</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Rs. 900</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Rs. 500</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Rs. 450</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e5c6f0b5-9364-4dfb-ae98-b0dd39255478",
+                    "questionID": "7e10fd60-fe14-4ca0-85be-274713f160cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ans: A's,</p><p>B's, and C's daily wages are in the ratio <strong>5:6:4</strong></p><p><br></p><p>Work done: A = 6×5 = 30, B = 4×6 = 24, C = 9×4 = 36</p><p><br></p><p>Total work = 30 + 24 + 36 = 90 parts</p><p><br></p><p>A’s share = (30 / 90) × 1800 = <strong>₹600</strong></p><p><strong>Answer:</strong></p><p><strong>(a) ₹600</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "521f50fa-7c3d-4e10-b088-7ffd6c08d455",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A positive number, when increased by 10 equals 200 times its reciprocal. What is the number?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>100</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>200</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3f2b21ee-962a-4d76-99e0-82acb3557bd8",
+                    "questionID": "521f50fa-7c3d-4e10-b088-7ffd6c08d455",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let the number be x.</p><p>Given: x + 10 = 200 / x</p><p>Multiply both sides by x: x² + 10x = 200 → x² + 10x - 200 = 0</p><p>Solving: x = 10 (positive root)</p><p>Answer: (b) 10</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3739d8bf-3cbc-43a3-8e0e-55746aff6f18",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A General can draw up his soldiers in the rows of 10, 15 or 18 soldiers and he can also draw them up in the form of a solid square. Find the least number of soldiers with the General.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>100</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>3600</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>900</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>90</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "598dcac8-4617-49d4-a670-446537af09e5",
+                    "questionID": "3739d8bf-3cbc-43a3-8e0e-55746aff6f18",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>We are given that the number of soldiers is divisible by 10, 15, and 18 and is also a</p><p>perfect square.</p><p>Step 1: Find LCM of 10, 15, and 18</p><p>LCM(10, 15, 18) = 2 × 3² × 5 = 90</p><p>Step 2: Find the smallest square number divisible by 90</p><p>90 × 10 = 900, and √900 = 30 → a perfect square ✅</p><p>Answer: (c) 900</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d3b416c2-e10e-4e9d-94e9-002520f3b67c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the missing term: 12, 15, 36, ?, 480, 2415, 14508</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>115</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>109</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>117</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>121</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3c4f743b-26b4-4d44-aace-94d30f5a785e",
+                    "questionID": "d3b416c2-e10e-4e9d-94e9-002520f3b67c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>12 × 1 + 3 = 15</p><p>15 × 2 + 6 = 36</p><p>36 × 3 + 9 = 117</p><p>117 × 4 + 12 = 480</p><p>480 × 5 + 15 = 2415</p><p>2415 × 6 + 18 = 14508</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "af93442a-df83-457e-8ad6-5b702914c9b1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the missing term: 2, 9, 28, 65, 126, ...</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>216</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>217</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>218</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>219</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8c379ae4-d049-45ad-8b26-96ce8d32a88a",
+                    "questionID": "af93442a-df83-457e-8ad6-5b702914c9b1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>1³ + 1 = 2, 2³ + 1 = 9, 3³ + 1 = 28, 4³ + 1 = 65, 5³ + 1 = 126</p><p>Next: 6³ + 1 = 216 + 1 = 217</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f3248460-5870-47af-9750-2e0ec1885ef3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is a prime number?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>35</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>53</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>49</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>63</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d816354d-2529-41b5-8620-5beafffd6792",
+                    "questionID": "f3248460-5870-47af-9750-2e0ec1885ef3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>53 has only two factors itself and 1. Hence, it is a prime number.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

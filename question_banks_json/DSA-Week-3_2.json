@@ -1,0 +1,3867 @@
+{
+    "bank_id": "289e0be4-4239-48ff-b2e4-017c33929e93",
+    "bank_name": "DSA-Week-3",
+    "questions": [
+        {
+            "id": "fc7ea83a-6330-4bd5-b246-cdb42f755526",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens if the pattern is equal to the entire string Z[1] =",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "n - 1",
+                    "type": "A"
+                },
+                {
+                    "body": "n",
+                    "type": "B"
+                },
+                {
+                    "body": "0",
+                    "type": "C"
+                },
+                {
+                    "body": "n/2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "eae5030a-95c4-4318-b3db-c1a3b0fc662c",
+                    "questionID": "fc7ea83a-6330-4bd5-b246-cdb42f755526",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Since Z[0] is always 0, Z[1] holds the length of the full match (n - 1).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "793f30d9-670a-4895-b9be-c441d422fe99",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When is Z-algorithm better than KMP for pattern matching",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When preprocessing is costly",
+                    "type": "A"
+                },
+                {
+                    "body": "When patterns repeat heavily",
+                    "type": "B"
+                },
+                {
+                    "body": "When all prefix matches are needed",
+                    "type": "C"
+                },
+                {
+                    "body": "Never",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b041ccc0-342b-47b7-a12e-5e0ea03d8b09",
+                    "questionID": "793f30d9-670a-4895-b9be-c441d422fe99",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Z-algorithm is excellent for multiple prefix or substring matches.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2eb827a1-bf73-4bcb-ab6f-f79b6f9583c5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Z-algorithm, what does maintaining a [L, R] window help with",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Avoids recomputation",
+                    "type": "A"
+                },
+                {
+                    "body": "Speeds up hash comparison",
+                    "type": "B"
+                },
+                {
+                    "body": "Avoids overflow",
+                    "type": "C"
+                },
+                {
+                    "body": "Ensures string is reversed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fb663f37-aea5-46fe-ac52-a154ac5b0d89",
+                    "questionID": "2eb827a1-bf73-4bcb-ab6f-f79b6f9583c5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reuse previous matches to extend current match without restarting.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0aeebf9a-2f48-4ec8-a6e3-e8ab7a43829f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If Z[i] = pattern.length() in a Z-array for &#34;P$S&#34; → what does it mean",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mismatch",
+                    "type": "A"
+                },
+                {
+                    "body": "Partial match",
+                    "type": "B"
+                },
+                {
+                    "body": "Full match of pattern starting at index i - (pattern.length() + 1) in S",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7df39e66-1117-49f7-a10b-c77817435ae9",
+                    "questionID": "0aeebf9a-2f48-4ec8-a6e3-e8ab7a43829f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "That index in S marks the start of a complete pattern match.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "07367b4f-1325-4611-9eae-0be72767346f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following can Z-algorithm solve efficiently",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Prefix queries",
+                    "type": "A"
+                },
+                {
+                    "body": "Substring pattern search",
+                    "type": "B"
+                },
+                {
+                    "body": "Repetition finding",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ef6fe694-cdad-4da8-8c11-407fce070510",
+                    "questionID": "07367b4f-1325-4611-9eae-0be72767346f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Z-values can be reused to solve multiple string problems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "48ad733e-29a4-4e98-9d35-7822fc06acc1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of the special separator character ($ or #) in pattern + text",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Remove whitespace",
+                    "type": "A"
+                },
+                {
+                    "body": "Separate pattern from text to avoid overlap",
+                    "type": "B"
+                },
+                {
+                    "body": "Improve time complexity",
+                    "type": "C"
+                },
+                {
+                    "body": "Add to prefix",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f52a9897-4902-4f7d-914f-5f30546f28f9",
+                    "questionID": "48ad733e-29a4-4e98-9d35-7822fc06acc1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Prevents false Z-matches across pattern-text boundaries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2113b103-d1bf-4daa-913b-87ae3dd6afe3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you use Z-algorithm for pattern searching in string S with pattern P",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Build Z-array of P + $ + S",
+                    "type": "A"
+                },
+                {
+                    "body": "Build Z-array of S only",
+                    "type": "B"
+                },
+                {
+                    "body": "Build suffix array",
+                    "type": "C"
+                },
+                {
+                    "body": "Use Trie",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ac48a57a-ea4e-4546-ba60-ff33139e47ef",
+                    "questionID": "2113b103-d1bf-4daa-913b-87ae3dd6afe3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Concatenate P + &#34;$&#34; + S, then scan for Z[i] = P.length().",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aa0ec41f-24a9-4752-b2b2-2faebb763a9f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output Z-array for the string &#34;aabxaabxcaabxaabxay&#34;",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Problem-specific, depends on match lengths",
+                    "type": "A"
+                },
+                {
+                    "body": "All zeros",
+                    "type": "B"
+                },
+                {
+                    "body": "All n",
+                    "type": "C"
+                },
+                {
+                    "body": "All ones",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "956ac37e-1fc2-4d06-9090-e00e7ef60677",
+                    "questionID": "aa0ec41f-24a9-4752-b2b2-2faebb763a9f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Z-array is unique to each pattern and reflects its prefix structure.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ed168ad2-5e93-45e9-96c7-933a20c9c588",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of the Z-algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n log n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n²)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c86c34d4-ab49-490f-a352-5bc59206f49b",
+                    "questionID": "ed168ad2-5e93-45e9-96c7-933a20c9c588",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Z-algorithm computes all Z-values in linear time using windowing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a23736cd-d9e9-415b-8703-a54fca07d80c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the Z-array in the Z-algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stores hash values",
+                    "type": "A"
+                },
+                {
+                    "body": "Stores LPS values",
+                    "type": "B"
+                },
+                {
+                    "body": "Stores length of longest substring starting at i that matches the prefix",
+                    "type": "C"
+                },
+                {
+                    "body": "Stores frequency count",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "46f04e0e-01c1-4445-9e57-10249a6415eb",
+                    "questionID": "a23736cd-d9e9-415b-8703-a54fca07d80c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Z[i] = longest substring starting at i which is also a prefix of the entire string.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6320e1c7-eb42-4e6f-958a-d9f8bdab376d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Manacher’s algorithm, what is returned as the final result",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Max value in array P[]",
+                    "type": "A"
+                },
+                {
+                    "body": "Index of center",
+                    "type": "B"
+                },
+                {
+                    "body": "P[], L[], and R[]",
+                    "type": "C"
+                },
+                {
+                    "body": "Count of odd palindromes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "077a7f17-1d6e-46a1-98e1-f432ecb25db9",
+                    "questionID": "6320e1c7-eb42-4e6f-958a-d9f8bdab376d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The max value in P[] gives the radius of the longest palindromic substring.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a1fa12b-e13b-47b0-848a-c2ad6b3af682",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "After preprocessing &#34;racecar&#34;, how many characters are in the transformed string",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "13",
+                    "type": "A"
+                },
+                {
+                    "body": "15",
+                    "type": "B"
+                },
+                {
+                    "body": "9",
+                    "type": "C"
+                },
+                {
+                    "body": "5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "63c193eb-459c-478b-8b43-e251a94debdf",
+                    "questionID": "5a1fa12b-e13b-47b0-848a-c2ad6b3af682",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;^#r#a#c#e#c#a#r#$&#34; → 13 characters.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "172d240e-64e0-435d-a833-eb0f466bdb71",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which optimization makes Manacher’s linear",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Avoiding recomputation of palindrome lengths using mirrored indices",
+                    "type": "A"
+                },
+                {
+                    "body": "Using two pointers",
+                    "type": "B"
+                },
+                {
+                    "body": "Sorting characters",
+                    "type": "C"
+                },
+                {
+                    "body": "Brute force substring comparison",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "17138871-27f1-45d9-ab27-13952e1fb5d8",
+                    "questionID": "172d240e-64e0-435d-a833-eb0f466bdb71",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Manacher’s leverages symmetry by using previously computed results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "efaf4e92-b0be-475c-a0c2-2b81a17c73ab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the length of the longest palindromic substring in &#34;abcba&#34;",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "5",
+                    "type": "B"
+                },
+                {
+                    "body": "4",
+                    "type": "C"
+                },
+                {
+                    "body": " 2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "dcec672d-8349-4b11-a9c3-8149bee75b8a",
+                    "questionID": "efaf4e92-b0be-475c-a0c2-2b81a17c73ab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The entire string is a palindrome.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8625df2-913a-4196-8226-ff5597cd4ffe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "what happens when the palindrome centered at i expands beyond the current right",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Update left and right",
+                    "type": "A"
+                },
+                {
+                    "body": "Terminate the loop",
+                    "type": "B"
+                },
+                {
+                    "body": "Re-initialize P[]",
+                    "type": "C"
+                },
+                {
+                    "body": "Skip to next odd index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d3206092-c822-4b82-8f01-f162cd212f08",
+                    "questionID": "e8625df2-913a-4196-8226-ff5597cd4ffe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "left and right are updated when a longer palindrome is found.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "05686d0f-7363-40b3-b9d0-da33d0727e18",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What role does the array P[i] play in Manacher’s Algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stores prefix sums",
+                    "type": "A"
+                },
+                {
+                    "body": "Stores lengths of palindromes centered at i",
+                    "type": "B"
+                },
+                {
+                    "body": "Stores hash values",
+                    "type": "C"
+                },
+                {
+                    "body": "Stores substring indexes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b732f3d9-d297-476e-9204-449694a99b85",
+                    "questionID": "05686d0f-7363-40b3-b9d0-da33d0727e18",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "P[i] indicates the radius of palindrome centered at position i.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e4a11101-c382-4270-ad19-5d65ac4009e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following strings will become &#34;^#a#b#a#$&#34; in preprocessing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;aba&#34;",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;abac&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "&#34;ab&#34;",
+                    "type": "C"
+                },
+                {
+                    "body": "&#34;abcba&#34;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fb70e107-8f0d-4af9-b650-2071a1ee2b1a",
+                    "questionID": "e4a11101-c382-4270-ad19-5d65ac4009e5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;^&#34; and &#34;$&#34; are boundaries, and &#39;#&#39; separates each character.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c2f591ad-0d9a-4fcd-a38f-4a568cb074bf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of Manacher’s Algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n²)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0f32ad7f-1b41-48b8-bbd3-8513383c6a65",
+                    "questionID": "c2f591ad-0d9a-4fcd-a38f-4a568cb074bf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Manacher’s Algorithm runs in linear time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4b813541-d821-4f60-b654-50fe5a9fda1e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What modification is made to the input string in Manacher’s Algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Characters are reversed",
+                    "type": "A"
+                },
+                {
+                    "body": "Special characters like ‘#’ are added between characters",
+                    "type": "B"
+                },
+                {
+                    "body": "String is sorted",
+                    "type": "C"
+                },
+                {
+                    "body": "Extra whitespace is trimmed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "05e20ade-0fac-44de-92b4-91a6232e5bdf",
+                    "questionID": "4b813541-d821-4f60-b654-50fe5a9fda1e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Delimiters like # are added to handle even and odd-length palindromes uniformly.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f5a0d4ce-e44e-4f3f-8678-8a3a417c649d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary use of Manacher’s Algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "String sorting",
+                    "type": "A"
+                },
+                {
+                    "body": "Finding longest palindromic substring in linear time",
+                    "type": "B"
+                },
+                {
+                    "body": "Finding anagrams",
+                    "type": "C"
+                },
+                {
+                    "body": "Pattern matching",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2c0890e6-3093-42b9-ab8f-89d609132f54",
+                    "questionID": "f5a0d4ce-e44e-4f3f-8678-8a3a417c649d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Manacher’s efficiently finds the longest palindromic substring in O(n) time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a346def2-1d9c-4a64-8f92-884ca81694b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You want to find the minimum window substring that contains all characters of a target string. What technique is best",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Expand Around Center",
+                    "type": "A"
+                },
+                {
+                    "body": "Sliding Window + HashMap",
+                    "type": "B"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "C"
+                },
+                {
+                    "body": "DP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "47e801fc-dac8-40df-a9a5-4da79b41ad92",
+                    "questionID": "a346def2-1d9c-4a64-8f92-884ca81694b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Variable size sliding window with character map tracks shortest valid substring.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "47c8c118-e2f5-4758-b9d6-afc409a54a8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the space complexity for sliding window anagram check on lowercase letters",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n²)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6c2d461b-443d-4151-a581-98e8aa8b2d90",
+                    "questionID": "47c8c118-e2f5-4758-b9d6-afc409a54a8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Frequency array of size 26 → constant space usage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "56aa2e3c-0e64-44d8-aee1-0d9c16ee6256",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which trick allows constant time frequency comparison when sliding the window",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Full sort every time",
+                    "type": "A"
+                },
+                {
+                    "body": "Hash comparison",
+                    "type": "B"
+                },
+                {
+                    "body": "Add 1 to entering char, subtract 1 from exiting char",
+                    "type": "C"
+                },
+                {
+                    "body": "Binary Search",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3e1b8bea-9fe2-4cee-92a6-d860dbffa5d6",
+                    "questionID": "56aa2e3c-0e64-44d8-aee1-0d9c16ee6256",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Update char counts incrementally to avoid re-scanning entire window.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "180195df-7cde-4782-8915-72178162c40e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which algorithm uses two frequency arrays for matching pattern in sliding window problems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "KMP",
+                    "type": "A"
+                },
+                {
+                    "body": "Rabin-Karp",
+                    "type": "B"
+                },
+                {
+                    "body": "Anagram finder",
+                    "type": "C"
+                },
+                {
+                    "body": "LPS Matcher",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "08f4b10c-785d-4264-bfa9-cb8c0c772421",
+                    "questionID": "180195df-7cde-4782-8915-72178162c40e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Two frequency arrays—one for pattern, one for window—are compared during the scan.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "14f8bfd8-ab0b-43be-b0bf-4c5008ef07af",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of this code for s = &#34;cbaebabacd&#34;, p = &#34;abc&#34;",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "[0, 6]",
+                    "type": "A"
+                },
+                {
+                    "body": "[1, 2, 5]",
+                    "type": "B"
+                },
+                {
+                    "body": "[2, 4]",
+                    "type": "C"
+                },
+                {
+                    "body": "[1, 3, 5]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ff15b438-6d19-4b64-83dc-796109e218c3",
+                    "questionID": "14f8bfd8-ab0b-43be-b0bf-4c5008ef07af",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;cba&#34; at index 0 and &#34;bac&#34; at index 6 are valid anagrams.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6bce1fbf-c2c0-41a3-86d2-070089be7e7e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of finding all anagrams of pattern p in string s using sliding window",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n × m)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n log m)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n + m)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2d57de2c-bfbd-4cc0-8eb6-739dc602f985",
+                    "questionID": "6bce1fbf-c2c0-41a3-86d2-070089be7e7e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Frequency array comparison and movement are done in linear time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "160c08bd-2ac8-4360-8100-7ea9499720a8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you check if the current window is an anagram of pattern p",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Compare string hash",
+                    "type": "A"
+                },
+                {
+                    "body": "Compare frequency array of size 26",
+                    "type": "B"
+                },
+                {
+                    "body": "Sort window",
+                    "type": "C"
+                },
+                {
+                    "body": "Convert to set",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "292c995c-056f-4dc6-a6ce-25fa20c7ebda",
+                    "questionID": "160c08bd-2ac8-4360-8100-7ea9499720a8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Character frequency arrays can be compared in O(1) time if size is fixed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4279e68f-7998-45ea-9d2d-ac7053aeaae4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the window size for finding all anagrams of &#34;abc&#34; in a string s",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "Variable",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e86f9afd-37e1-4e70-816f-47f3dacc3dca",
+                    "questionID": "4279e68f-7998-45ea-9d2d-ac7053aeaae4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Anagrams must match the pattern’s length.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1a22c2db-83cc-4ae4-a894-cf69c1078c6e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which problem is best solved using sliding window technique",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reverse a string",
+                    "type": "A"
+                },
+                {
+                    "body": "Count total anagrams of pattern in a string",
+                    "type": "B"
+                },
+                {
+                    "body": "Convert string to integer",
+                    "type": "C"
+                },
+                {
+                    "body": "Find all palindromes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "658335ea-c3cb-4410-8668-a24c7c5c25c3",
+                    "questionID": "1a22c2db-83cc-4ae4-a894-cf69c1078c6e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Fixed-size sliding window is ideal for pattern/anagram matching.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bf2b94b2-a14b-4f0f-a5e8-0c13e058d5a5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Sliding window technique is used when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "We need to find repeating elements",
+                    "type": "A"
+                },
+                {
+                    "body": "We process substrings of fixed or variable length efficiently",
+                    "type": "B"
+                },
+                {
+                    "body": "We sort strings",
+                    "type": "C"
+                },
+                {
+                    "body": "We reverse substrings",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6bdb7b54-1a28-49bc-80ec-3fe74bba4cef",
+                    "questionID": "bf2b94b2-a14b-4f0f-a5e8-0c13e058d5a5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sliding window helps scan over substrings with limited movement and memory.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a89b5b1d-68c2-4552-a653-de1d3bff0818",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How can we reduce space usage in grouping anagrams without using extra list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use TreeMap",
+                    "type": "A"
+                },
+                {
+                    "body": "Sort in-place",
+                    "type": "B"
+                },
+                {
+                    "body": "Modify input array",
+                    "type": "C"
+                },
+                {
+                    "body": "You cannot avoid extra space",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "03111fe8-9887-4621-a9d8-00b210285771",
+                    "questionID": "a89b5b1d-68c2-4552-a653-de1d3bff0818",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Grouping always requires extra space to group/track elements.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9f69189e-949f-4eb0-ae11-c18c2051dca7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the worst-case time complexity for grouping n strings of length m using sorting",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(nm log m)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n²)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0de68fe0-f7f9-4280-8cb2-e3306a8c03d3",
+                    "questionID": "9f69189e-949f-4eb0-ae11-c18c2051dca7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each string of length m takes O(m log m), for n strings → O(nm log m).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dc768664-b0b3-45f9-b265-e19c3503cdca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will be the output group for input: [&#34;eat&#34;, &#34;tea&#34;, &#34;tan&#34;, &#34;ate&#34;, &#34;nat&#34;, &#34;bat&#34;]",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "6 groups",
+                    "type": "A"
+                },
+                {
+                    "body": "3 groups: [[&#34;eat&#34;,&#34;tea&#34;,&#34;ate&#34;], [&#34;tan&#34;,&#34;nat&#34;], [&#34;bat&#34;]]",
+                    "type": "B"
+                },
+                {
+                    "body": "2 groups",
+                    "type": "C"
+                },
+                {
+                    "body": "All same group",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "80e5ec43-64db-484f-94cb-5da354b6bb6f",
+                    "questionID": "dc768664-b0b3-45f9-b265-e19c3503cdca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Grouping based on sorted or frequency-matching keys.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a19d57d-c035-496c-97ec-45c4191bee7e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is sorting each string inefficient for large strings in anagram grouping",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sorting is O(n²)",
+                    "type": "A"
+                },
+                {
+                    "body": "Sorting changes original string",
+                    "type": "B"
+                },
+                {
+                    "body": "Sorting is slower than frequency count (O(m log m) vs O(m))",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9091cfd1-e8f4-47e4-a9a8-dd1b576cfa89",
+                    "questionID": "6a19d57d-c035-496c-97ec-45c4191bee7e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Frequency array solution is linear (O(m)) while sorting is log-linear (O(m log m)).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6891069e-89b3-4955-815a-1da23432cd18",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which key is best for grouping anagrams using frequency counts (without sorting)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Raw string",
+                    "type": "A"
+                },
+                {
+                    "body": "Sorted string",
+                    "type": "B"
+                },
+                {
+                    "body": "Frequency array converted to string (e.g. &#34;2#0#1...&#34;)",
+                    "type": "C"
+                },
+                {
+                    "body": "HashCode",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "48e4ac65-ae1f-4e46-b7a3-00bbc024be9e",
+                    "questionID": "6891069e-89b3-4955-815a-1da23432cd18",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Frequency signature string is a compact and hashable key for anagram grouping.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "266ca06a-30a8-4821-af58-19053ba589df",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which data structure is most used in anagram grouping problems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Queue",
+                    "type": "A"
+                },
+                {
+                    "body": "HashMap&lt;String, List&lt;String&gt;&gt;",
+                    "type": "B"
+                },
+                {
+                    "body": "Stack",
+                    "type": "C"
+                },
+                {
+                    "body": "TreeMap",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5d98a920-1cd4-4f21-8649-d1e4b012011f",
+                    "questionID": "266ca06a-30a8-4821-af58-19053ba589df",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HashMap stores sorted/frequency signature as key and list of anagrams as value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c5cbb6ac-0217-43bf-b6d1-e785e008c270",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of sorting strings to group anagrams",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(m log m) per string",
+                    "type": "C"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9071bca5-0454-48a2-9ee6-695113eda3a3",
+                    "questionID": "c5cbb6ac-0217-43bf-b6d1-e785e008c270",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each string of length m takes O(m log m) to sort.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "549348f0-a7b7-47e8-9185-9b26d566b065",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the best way to check if two strings are anagrams (ignoring sort)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Compare strings directly",
+                    "type": "A"
+                },
+                {
+                    "body": "Use HashMap/Array to count character frequency",
+                    "type": "B"
+                },
+                {
+                    "body": "Use recursion",
+                    "type": "C"
+                },
+                {
+                    "body": "Use Set",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fb52beef-ec21-4793-b212-f1308868a2f2",
+                    "questionID": "549348f0-a7b7-47e8-9185-9b26d566b065",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Character count matching is optimal for anagram verification.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2aa0ac50-5399-4b2d-af09-297262751a2a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following pairs are anagrams",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;listen&#34;, &#34;silent&#34;",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;night&#34;, &#34;thing&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "&#34;loop&#34;, &#34;pool&#34;",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "afbb65aa-fe5c-47c4-bd62-05be437211ab",
+                    "questionID": "2aa0ac50-5399-4b2d-af09-297262751a2a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All these word pairs have matching characters and frequencies.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d96b57be-5ae4-47ef-af00-e84145f2d07f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two strings are anagrams if",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "They contain the same characters in different order",
+                    "type": "A"
+                },
+                {
+                    "body": "They are palindromes",
+                    "type": "B"
+                },
+                {
+                    "body": "One is substring of another",
+                    "type": "C"
+                },
+                {
+                    "body": "They start with the same letter",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "272fca65-1438-4947-bd17-95c5e55fbce8",
+                    "questionID": "d96b57be-5ae4-47ef-af00-e84145f2d07f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Anagrams contain the same characters with same frequency.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5cb5592a-c299-4144-afea-a5ddb48c3257",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What causes the DP method to fail for very large strings (e.g., 10⁵)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It is inaccurate",
+                    "type": "A"
+                },
+                {
+                    "body": "It consumes too much memory",
+                    "type": "B"
+                },
+                {
+                    "body": "Time complexity is too high",
+                    "type": "C"
+                },
+                {
+                    "body": "Both B and C",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "fae47232-3e7f-470b-91cb-ff5e4fb1f754",
+                    "questionID": "5cb5592a-c299-4144-afea-a5ddb48c3257",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "O(n²) space and time make DP unusable for strings of size &gt;10⁴–10⁵.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "08b8c705-a238-428c-b729-977ceb77b702",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the value of count for s = &#34;abcd&#34; using palindromic substrings count function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4",
+                    "type": "A"
+                },
+                {
+                    "body": "6",
+                    "type": "B"
+                },
+                {
+                    "body": "2",
+                    "type": "C"
+                },
+                {
+                    "body": "1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d96ef92b-7ce6-460a-acb3-e0b686769446",
+                    "questionID": "08b8c705-a238-428c-b729-977ceb77b702",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All 4 single characters are individual palindromes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b0d0883-a538-4d06-ab28-d4848538b1f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What should be the base case in a DP table for palindromic substrings",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "dp[i][i] = true",
+                    "type": "A"
+                },
+                {
+                    "body": "dp[i][i+1] = true if s[i] == s[i+1]",
+                    "type": "B"
+                },
+                {
+                    "body": "dp[i][j] = false",
+                    "type": "C"
+                },
+                {
+                    "body": "A and B",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "1e8d855c-0481-4263-950d-dc4a63ad94e0",
+                    "questionID": "3b0d0883-a538-4d06-ab28-d4848538b1f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Single character substrings are palindromes and so are even-length pairs if matched.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a4243e01-4b0b-4142-8e1d-8a176d1e0441",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an interview, you&#39;re asked to find the total number of palindromic substrings. What’s your best strategy",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "HashMap with index pairs",
+                    "type": "A"
+                },
+                {
+                    "body": "DP with 2D matrix",
+                    "type": "B"
+                },
+                {
+                    "body": "Expand Around Center",
+                    "type": "C"
+                },
+                {
+                    "body": "Recursion with memoization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7ed6e352-b245-49a9-b518-c0cf25208cc3",
+                    "questionID": "a4243e01-4b0b-4142-8e1d-8a176d1e0441",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Expand Around Center counts all substrings efficiently with O(n²) time and O(1) space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5f3a19f1-e1a1-4f93-bb6f-497cc363a98c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given a string of length 100,000, which algorithm should you use to find the longest palindromic substring efficiently",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DP",
+                    "type": "A"
+                },
+                {
+                    "body": "Hashing",
+                    "type": "B"
+                },
+                {
+                    "body": "Manacher’s Algorithm",
+                    "type": "C"
+                },
+                {
+                    "body": "Expand Around Center",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "33f8d5a3-7bce-47d9-8d0f-200c9b24c1bf",
+                    "questionID": "5f3a19f1-e1a1-4f93-bb6f-497cc363a98c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Only Manacher’s achieves linear time suitable for large input sizes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e813c8ed-30e9-4a10-810c-03be370039ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the return value of longestPalindrome(&#34;abccbaabcd&#34;)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;abccba&#34;",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;bccbaab&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "&#34;cc&#34;",
+                    "type": "C"
+                },
+                {
+                    "body": "&#34;abcd&#34;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "442ed2af-b4c8-47f0-a35c-efd2e38d8b27",
+                    "questionID": "e813c8ed-30e9-4a10-810c-03be370039ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;abccba&#34; is the longest palindromic substring in the given string.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b7ba66cb-3408-45ac-a60d-9b3b544d41e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which algorithm uses modified string with ‘#’ delimiters to handle even-length palindromes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Expand Around Center",
+                    "type": "A"
+                },
+                {
+                    "body": "DP Table",
+                    "type": "B"
+                },
+                {
+                    "body": "Manacher’s Algorithm",
+                    "type": "C"
+                },
+                {
+                    "body": "Z-Algorithm",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f4d1fd72-25e4-43ba-b39f-83e9bf7666e9",
+                    "questionID": "b7ba66cb-3408-45ac-a60d-9b3b544d41e0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Manacher’s uses delimiters like &#39;#&#39; to unify even/odd palindrome processing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "19dad494-8557-4219-8096-d6d4333bceb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is the most time-efficient algorithm to find the longest palindromic substring",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hashing",
+                    "type": "A"
+                },
+                {
+                    "body": "Manacher’s Algorithm",
+                    "type": "B"
+                },
+                {
+                    "body": "Z-Algorithm",
+                    "type": "C"
+                },
+                {
+                    "body": "KMP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "19f4c72f-14a0-464d-b0c0-5fcbf32ee856",
+                    "questionID": "19dad494-8557-4219-8096-d6d4333bceb8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Manacher’s Algorithm finds the longest palindrome in O(n) time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2351e138-9cfa-451b-a0c2-1ac62bee18bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which condition is used in dynamic programming to check s[i..j] is a palindrome",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "s[i] == s[j] &amp;&amp; j - i &lt;= 1",
+                    "type": "A"
+                },
+                {
+                    "body": "s[i] == s[j] &amp;&amp; dp[i+1][j-1] == true",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B",
+                    "type": "C"
+                },
+                {
+                    "body": "Only A",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7fadd971-c87d-4b50-a9bb-51ea84897ea3",
+                    "questionID": "2351e138-9cfa-451b-a0c2-1ac62bee18bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For base case and recursive check, both are used.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9679aebc-6a77-43d4-a07d-bb76ec0dbf6e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time and space complexity of the DP approach to find the longest palindromic substring",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n²) time, O(n²) space",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n log n), O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n), O(n²)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n), O(1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "eab58070-76a9-4200-9f9f-130464bd0b18",
+                    "questionID": "9679aebc-6a77-43d4-a07d-bb76ec0dbf6e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "2D table dp[i][j] stores whether s[i..j] is a palindrome → O(n²) space and time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f6d22ba7-30ec-4733-8bc8-164e2212325e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following substrings of “ababa” is the longest palindrome",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;aba&#34; ",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;bab&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "&#34;ababa&#34;",
+                    "type": "C"
+                },
+                {
+                    "body": "&#34;aa&#34;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8815afb9-d860-46ff-a35a-76f247436a3c",
+                    "questionID": "f6d22ba7-30ec-4733-8bc8-164e2212325e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The entire string is symmetric and the longest palindromic substring.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ffc3de7f-b69d-4d78-b1bc-f7f977fa53fa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of this function when s = &#34;aba&#34;",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"808\" height=\"240\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 |  </text>\n<text x=\"40\" y=\"60\" >2 | boolean siPalsndrome(Strsng i) {</text>\n<text x=\"40\" y=\"80\" >v | snt s ? 0, j ? i.length() - 1</text>\n<text x=\"40\" y=\"100\" >4 | whsle (s &lt; j) {</text>\n<text x=\"40\" y=\"120\" >5 | sf (i.charAt(s77) !? i.charAt(j--)) return falie</text>\n<text x=\"40\" y=\"140\" >6 | }</text>\n<text x=\"40\" y=\"160\" >+ |   return true</text>\n<text x=\"40\" y=\"180\" >8 |  }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "true",
+                    "type": "A"
+                },
+                {
+                    "body": "false",
+                    "type": "B"
+                },
+                {
+                    "body": "Compilation Error",
+                    "type": "C"
+                },
+                {
+                    "body": "Runtime Exception",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "70630c6d-f273-42b1-89eb-90b18aa88cd0",
+                    "questionID": "ffc3de7f-b69d-4d78-b1bc-f7f977fa53fa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The string &#34;aba&#34; is a valid palindrome.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5ce80b8c-f0b5-4559-9f7f-99435bc7be53",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method finds all palindromic substrings in O(n²) time and O(1) space",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "KMP Algorithm",
+                    "type": "A"
+                },
+                {
+                    "body": "Manacher’s Algorithm",
+                    "type": "B"
+                },
+                {
+                    "body": "Expand Around Center",
+                    "type": "C"
+                },
+                {
+                    "body": "Trie",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "00499bed-15f7-4b7b-8366-c3dd6908108b",
+                    "questionID": "5ce80b8c-f0b5-4559-9f7f-99435bc7be53",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Expand Around Center is simple and efficient with O(n²) time and O(1) space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e7d7932b-6afa-421a-8003-bbd2b525ca90",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many centers exist for palindromic substring expansion in a string of length n",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "n",
+                    "type": "A"
+                },
+                {
+                    "body": "2n",
+                    "type": "B"
+                },
+                {
+                    "body": "n²",
+                    "type": "C"
+                },
+                {
+                    "body": "n/2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "00ad0214-f638-4bee-af40-70af7e9bab85",
+                    "questionID": "e7d7932b-6afa-421a-8003-bbd2b525ca90",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each character and the gap between characters can be centers → 2n - 1 total centers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9cbefe0e-87ed-4aa5-b635-e4b11a183bc4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which approach is most common to count all palindromic substrings efficiently",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Two Pointers",
+                    "type": "A"
+                },
+                {
+                    "body": "HashSet",
+                    "type": "B"
+                },
+                {
+                    "body": "Expand Around Center",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6a638c0b-df08-4423-8291-a0ae88cfaa62",
+                    "questionID": "9cbefe0e-87ed-4aa5-b635-e4b11a183bc4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Expanding from each center in a string is a widely used and optimal approach.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1408e082-77e8-4396-b35d-0a940ebd3d4e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In total, how many palindromic substrings exist in &#34;aaa&#34;",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "4",
+                    "type": "B"
+                },
+                {
+                    "body": "6",
+                    "type": "C"
+                },
+                {
+                    "body": "7",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9a24b060-31c8-4705-95f9-8468dd96290c",
+                    "questionID": "1408e082-77e8-4396-b35d-0a940ebd3d4e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Substrings: &#34;a&#34;, &#34;a&#34;, &#34;a&#34;, &#34;aa&#34;, &#34;aa&#34;, &#34;aaa&#34; → 6 total palindromic substrings.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ef2affcd-a269-4c80-a4ed-f4419f10af22",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of checking if a string is a palindrome",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n log n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n²)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "da7e0f7f-9297-4f47-a5e3-a86a46a782c5",
+                    "questionID": "ef2affcd-a269-4c80-a4ed-f4419f10af22",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Comparing first and last characters toward the center takes O(n) time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d0b93461-ccab-45c9-8b03-40dd4e371dfa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the minimum length of a non-empty palindromic substring",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "1",
+                    "type": "C"
+                },
+                {
+                    "body": "Depends on string",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6eee58a5-73f4-4243-9900-7e2038c4ece3",
+                    "questionID": "d0b93461-ccab-45c9-8b03-40dd4e371dfa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Any single character is a palindrome of length 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "64ba93e5-4ff0-49f2-bc39-6148be83374c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a palindrome",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;hello&#34;",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;level&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "&#34;string&#34;",
+                    "type": "C"
+                },
+                {
+                    "body": "&#34;world&#34;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e1d9b913-ceda-4247-8664-b2c953e39398",
+                    "questionID": "64ba93e5-4ff0-49f2-bc39-6148be83374c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;level&#34; reads the same forward and backward.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86282a2d-7ca9-45d5-8bf4-f788ca348a28",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a palindrome",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A string with unique characters",
+                    "type": "A"
+                },
+                {
+                    "body": "A string that reads the same backward as forward",
+                    "type": "B"
+                },
+                {
+                    "body": "A string with repeating characters",
+                    "type": "C"
+                },
+                {
+                    "body": "A string with only vowels",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c5dc6a67-cc8e-4b1e-9654-b9668868c323",
+                    "questionID": "86282a2d-7ca9-45d5-8bf4-f788ca348a28",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Palindromes are symmetrical around their center.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "afaad3e8-52df-485f-9ece-e17e5782cb90",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You want to find the longest substring without repeating characters. Which combination is best",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Brute force + nested loop",
+                    "type": "A"
+                },
+                {
+                    "body": "HashMap + Sliding Window",
+                    "type": "B"
+                },
+                {
+                    "body": "Frequency array",
+                    "type": "C"
+                },
+                {
+                    "body": "Sort and match",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09bc1575-75e3-48f4-9531-2c0a3fa35d95",
+                    "questionID": "afaad3e8-52df-485f-9ece-e17e5782cb90",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sliding window with a HashMap tracks characters and ensures max length efficiently.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "85e00085-ecfd-4f1e-8052-2086fd7ee03b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which scenario will lead to a HashMap being preferred over frequency arrays",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Checking character frequency for only lowercase",
+                    "type": "A"
+                },
+                {
+                    "body": "Validating 0–9 digits",
+                    "type": "B"
+                },
+                {
+                    "body": "Frequency of emojis in a string",
+                    "type": "C"
+                },
+                {
+                    "body": "Comparing two lowercase strings",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0e05bf9d-9552-4649-bad2-88a6344d40d0",
+                    "questionID": "85e00085-ecfd-4f1e-8052-2086fd7ee03b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HashMaps support wide/unpredictable character sets like emojis or Unicode.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8e50951f-cd06-46a3-a3ad-4a9ba3411def",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following operations is not O(1) with frequency arrays",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increment count",
+                    "type": "A"
+                },
+                {
+                    "body": "Set count",
+                    "type": "B"
+                },
+                {
+                    "body": "Search for min frequency",
+                    "type": "C"
+                },
+                {
+                    "body": "Access index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "90bc7f44-17f4-4f37-be42-315501cfc8e5",
+                    "questionID": "8e50951f-cd06-46a3-a3ad-4a9ba3411def",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Finding min in array takes O(n) time even if access is O(1).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7613360e-00d7-4a95-8a81-a9f376145136",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You want to check if one string is a permutation of another. Best logic",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sort and compare",
+                    "type": "A"
+                },
+                {
+                    "body": "HashSet",
+                    "type": "B"
+                },
+                {
+                    "body": "Compare frequency arrays",
+                    "type": "C"
+                },
+                {
+                    "body": "Recursion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "296138c3-71f1-4147-9897-7149ca7562bc",
+                    "questionID": "7613360e-00d7-4a95-8a81-a9f376145136",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If both strings have same length and frequency arrays, they’re permutations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2dd46fbc-2fbd-4552-9ec1-d42e2332945c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which code correctly initializes a frequency array for digits (0–9)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"458\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt[] freq ? new snt[=]</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "26",
+                    "type": "A"
+                },
+                {
+                    "body": "10",
+                    "type": "B"
+                },
+                {
+                    "body": "128",
+                    "type": "C"
+                },
+                {
+                    "body": "256",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b48aaa4b-ec49-49e6-bde0-84b2571b0df8",
+                    "questionID": "2dd46fbc-2fbd-4552-9ec1-d42e2332945c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "10 digits (0 to 9) → array of size 10 is needed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8071aac-65f7-405d-9112-bc6ddfe7dd54",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What’s the best structure to use when characters can be any Unicode symbol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Frequency array of size 26",
+                    "type": "A"
+                },
+                {
+                    "body": "Frequency array of size 256",
+                    "type": "B"
+                },
+                {
+                    "body": "HashMap&lt;Character, Integer&gt;",
+                    "type": "C"
+                },
+                {
+                    "body": "Bit array",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "128fa9d6-6171-4940-8e33-4f20c3c7ce82",
+                    "questionID": "d8071aac-65f7-405d-9112-bc6ddfe7dd54",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Unicode symbols vary widely; HashMap adapts to all key types.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c095b652-4a72-453e-aff9-b791635504da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which problem is not efficiently solvable using frequency arrays",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Find first unique character",
+                    "type": "A"
+                },
+                {
+                    "body": "Check anagram",
+                    "type": "B"
+                },
+                {
+                    "body": "Substring pattern matching",
+                    "type": "C"
+                },
+                {
+                    "body": "Count vowels",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4cdf4788-fc5f-423a-a13c-ad562c490d7e",
+                    "questionID": "c095b652-4a72-453e-aff9-b791635504da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Pattern matching often needs hashing or KMP, not just frequency.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fe73f5bb-f8ab-48a9-9041-0fc84d523e60",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You are given a string and asked to return the index of the first non-repeating character. What’s the best approach",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use two loops",
+                    "type": "A"
+                },
+                {
+                    "body": "Use HashMap to store counts, then linear scan",
+                    "type": "B"
+                },
+                {
+                    "body": "Sort and scan",
+                    "type": "C"
+                },
+                {
+                    "body": "Use a stack",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bdcd40cb-b9e7-4d2b-abad-75d8b55f2c94",
+                    "questionID": "fe73f5bb-f8ab-48a9-9041-0fc84d523e60",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HashMap gives frequency; then a single pass finds the first with count 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e99eba9c-51b4-40d4-a4e7-d74505a3abfd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of the code below",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"640\" height=\"200\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | Strsng i ? &#34;teititrsng&#34;</text>\n<text x=\"40\" y=\"60\" >2 | snt[] freq ? new snt[26]</text>\n<text x=\"40\" y=\"80\" >v | for (char c : i.toCharArray()) {</text>\n<text x=\"40\" y=\"100\" >4 | freq[c - &#39;a&#39;]77</text>\n<text x=\"40\" y=\"120\" >5 | }</text>\n<text x=\"40\" y=\"140\" >6 |  Syitem.out.prsntln(freq[&#39;t&#39; - &#39;a&#39;])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "1",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fb31d21b-1e46-4667-aff8-cd97572acfa9",
+                    "questionID": "e99eba9c-51b4-40d4-a4e7-d74505a3abfd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "t&#39; appears three times in &#34;teststring&#34;.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d90de8bb-6dea-4daf-84f8-47072b92ca4e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two strings are given. How can you check if they are anagrams using frequency arrays",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Count and compare",
+                    "type": "A"
+                },
+                {
+                    "body": "Sort and compare",
+                    "type": "B"
+                },
+                {
+                    "body": "Recursively check",
+                    "type": "C"
+                },
+                {
+                    "body": "Use regex",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7b5ea8b1-8140-4480-ba87-65b2c0360681",
+                    "questionID": "d90de8bb-6dea-4daf-84f8-47072b92ca4e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Counting characters and comparing frequency arrays is optimal for anagram checking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94fe1247-8b21-4a0f-88e1-94ce9d16431a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the benefit of using a frequency array over HashMap in some string problems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Faster access due to fixed size",
+                    "type": "A"
+                },
+                {
+                    "body": "More memory efficient",
+                    "type": "B"
+                },
+                {
+                    "body": "Better for limited character sets",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f6bd79a4-786e-4b12-a170-5cc532e2db78",
+                    "questionID": "94fe1247-8b21-4a0f-88e1-94ce9d16431a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Frequency arrays are constant-time, compact, and ideal for small fixed sets like alphabets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1fa893fb-da55-4b34-b38e-446b3a932b9d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of this code for string s = &#34;banana&#34;",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"626\" height=\"220\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | ja3a</text>\n<text x=\"40\" y=\"60\" >2 | CopyEdst</text>\n<text x=\"40\" y=\"80\" >v | snt[] freq ? new snt[26]</text>\n<text x=\"40\" y=\"100\" >4 | for (char c : i.toCharArray()) {</text>\n<text x=\"40\" y=\"120\" >5 |     freq[c - &#39;a&#39;]77</text>\n<text x=\"40\" y=\"140\" >6 | }</text>\n<text x=\"40\" y=\"160\" >+ | Syitem.out.prsntln(freq[&#39;a&#39; - &#39;a&#39;])</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2",
+                    "type": "A"
+                },
+                {
+                    "body": "3",
+                    "type": "B"
+                },
+                {
+                    "body": "1",
+                    "type": "C"
+                },
+                {
+                    "body": "0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6e43f754-f03b-430a-b5f5-ebd6cf08a51d",
+                    "questionID": "1fa893fb-da55-4b34-b38e-446b3a932b9d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "a&#39; occurs 3 times in &#34;banana&#34;.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "973966f0-24eb-4e3e-b600-0901e93a91f2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many indices are needed to store the frequency of lowercase English letters using an array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "52",
+                    "type": "A"
+                },
+                {
+                    "body": "128",
+                    "type": "B"
+                },
+                {
+                    "body": "26",
+                    "type": "C"
+                },
+                {
+                    "body": "256",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4353506c-7418-4098-9c1e-08336ccd6151",
+                    "questionID": "973966f0-24eb-4e3e-b600-0901e93a91f2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Lowercase letters range from &#39;a&#39; to &#39;z&#39; — 26 characters.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0443ea7b-6d45-4fd0-96af-81ce47a2362c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given two strings, determine if they are anagrams. Which data structure is best suited for this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ArrayList",
+                    "type": "A"
+                },
+                {
+                    "body": "Stack",
+                    "type": "B"
+                },
+                {
+                    "body": "HashMap or frequency array",
+                    "type": "C"
+                },
+                {
+                    "body": "TreeMap",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "09aee5ba-d801-4c1f-b845-da1c6857e848",
+                    "questionID": "0443ea7b-6d45-4fd0-96af-81ce47a2362c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Anagrams are verified by comparing character frequencies using HashMap or arrays.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "08d8231d-c0da-4b6c-94ce-9f6574040d12",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What would a HashSet be used for in string problems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Counting characters",
+                    "type": "A"
+                },
+                {
+                    "body": "Storing all characters uniquely",
+                    "type": "B"
+                },
+                {
+                    "body": "Finding duplicates",
+                    "type": "C"
+                },
+                {
+                    "body": "B and C",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "3431dbba-314c-4232-b64c-65b72976466f",
+                    "questionID": "08d8231d-c0da-4b6c-94ce-9f6574040d12",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HashSet helps in uniqueness and duplicate detection.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ded0fa3f-a341-4dd1-8b51-9bf4c831e36b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of inserting a character in a HashMap in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1) on average",
+                    "type": "A"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1983de70-d0aa-41d3-81ec-a0bcd5adc438",
+                    "questionID": "ded0fa3f-a341-4dd1-8b51-9bf4c831e36b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HashMap provides average-case O(1) time for put/get operations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b165c5c0-bc4e-4dc4-9c3e-b5bd7ca8859d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of the following code",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"780\" height=\"200\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | Strsng i ? &#34;abcabc&#34;</text>\n<text x=\"40\" y=\"60\" >2 | Map&lt;Character, Integer&gt; freq ? new HaihMap&lt;&gt;()</text>\n<text x=\"40\" y=\"80\" >v | for (char c : i.toCharArray()) {</text>\n<text x=\"40\" y=\"100\" >4 | freq.put(c, freq.getOrDefault(c, 0) 7 1)</text>\n<text x=\"40\" y=\"120\" >5 | }</text>\n<text x=\"40\" y=\"140\" >6 |  Syitem.out.prsntln(freq.get(&#39;a&#39;))</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "1",
+                    "type": "C"
+                },
+                {
+                    "body": "0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "749e71e9-aa70-4ed1-a253-d1ac756935bf",
+                    "questionID": "b165c5c0-bc4e-4dc4-9c3e-b5bd7ca8859d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The letter &#39;a&#39; occurs twice in the string &#34;abcabc&#34;.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a7e1417-7b57-410d-87bf-044cc86943ab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the use of a hash map in string problems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sorting",
+                    "type": "A"
+                },
+                {
+                    "body": "Counting characters or substrings",
+                    "type": "B"
+                },
+                {
+                    "body": "Reversing a string",
+                    "type": "C"
+                },
+                {
+                    "body": "String formatting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "aaeb0aab-eb83-4b6a-b996-157e3f0baf5a",
+                    "questionID": "6a7e1417-7b57-410d-87bf-044cc86943ab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hash maps efficiently store frequencies and mappings for string manipulation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7c03dc20-54ce-4314-aed6-ac52e4231473",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is best to use for frequent string modifications",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "String",
+                    "type": "A"
+                },
+                {
+                    "body": "StringBuilder",
+                    "type": "B"
+                },
+                {
+                    "body": "StringBuffer",
+                    "type": "C"
+                },
+                {
+                    "body": "char[]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "66e262ab-7ac7-4607-80c7-a0a17b551877",
+                    "questionID": "7c03dc20-54ce-4314-aed6-ac52e4231473",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "StringBuilder is non-thread-safe but faster for frequent string operations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9328a0f0-7dc9-4f01-ab98-8dd48d57b91e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will be the result of &#34;hello&#34; + 5 + 2",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;hello7&#34;",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;hello52&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "Compilation Error",
+                    "type": "C"
+                },
+                {
+                    "body": "&#34;hello&#34;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "aa5906f1-876b-4891-a946-92de6f3050be",
+                    "questionID": "9328a0f0-7dc9-4f01-ab98-8dd48d57b91e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "String concatenation happens left to right → &#34;hello&#34; + 5 → &#34;hello5&#34; → &#34;hello5&#34; + 2 → &#34;hello52&#34;.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4da772a5-277b-4afa-968e-eb2004420c80",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method should be used to reverse a string in Java efficiently",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "String.reverse()",
+                    "type": "A"
+                },
+                {
+                    "body": "StringBuffer.reverse()",
+                    "type": "B"
+                },
+                {
+                    "body": "Collections.reverse()",
+                    "type": "C"
+                },
+                {
+                    "body": "Arrays.reverse()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fabd094e-978f-4863-93d0-ec459c6cf413",
+                    "questionID": "4da772a5-277b-4afa-968e-eb2004420c80",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "StringBuffer and StringBuilder offer efficient reverse operations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c9af383f-9536-4946-b8a2-20463ef2cf28",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of the following code",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"654\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | Strsng i ? &#34;hello&#34;</text>\n<text x=\"40\" y=\"60\" >2 | Syitem.out.prsntln(i.iubitrsng(1, v))</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;he&#34;",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;ell&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "&#34;el&#34;",
+                    "type": "C"
+                },
+                {
+                    "body": "&#34;lo&#34;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "57a429ca-f511-460e-b641-163a24e0af1c",
+                    "questionID": "c9af383f-9536-4946-b8a2-20463ef2cf28",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "substring(1, 3) returns characters from index 1 to 2 → &#34;el&#34;.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d5d2b520-1ee6-4d90-83de-d141a73a88f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method is used to compare two strings ignoring case in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "equals()C",
+                    "type": "A"
+                },
+                {
+                    "body": "compareToIgnoreCase()",
+                    "type": "B"
+                },
+                {
+                    "body": "equalsIgnoreCase()",
+                    "type": "C"
+                },
+                {
+                    "body": "contains()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ee9c957e-c3db-4ac4-81e4-c73776f82bd1",
+                    "questionID": "d5d2b520-1ee6-4d90-83de-d141a73a88f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "equalsIgnoreCase() compares strings without considering case.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e27d01b-a547-46b8-9d9e-0ba41cdfc516",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is immutable in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "StringBuilder",
+                    "type": "A"
+                },
+                {
+                    "body": "StringBuffer",
+                    "type": "B"
+                },
+                {
+                    "body": "String",
+                    "type": "C"
+                },
+                {
+                    "body": "char[]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fc727af1-4bc4-4e2c-99a2-d73f47f2dc40",
+                    "questionID": "3e27d01b-a547-46b8-9d9e-0ba41cdfc516",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Java String objects are immutable, i.e., cannot be changed once created.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "92742a80-93a6-4ee5-8c35-2475cd165e97",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity to access a character at a specific index in a Java String",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f2c575dd-78cc-48a7-be6f-a314d31854b1",
+                    "questionID": "92742a80-93a6-4ee5-8c35-2475cd165e97",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Java String is backed by a character array, allowing O(1) access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

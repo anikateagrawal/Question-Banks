@@ -1,0 +1,1141 @@
+{
+    "bank_id": "69242ce6-6cb3-4504-8b07-1cf0a096a27d",
+    "bank_name": "quant-week-4",
+    "questions": [
+        {
+            "id": "c567505c-6c5a-417d-8e4c-437cf62d595e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A single letter is drawn at random from the word \"ASPIRATION\"  the probability that it is a vowel is:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1/2</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1/3</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1/4 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>0</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probability"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6dfecbfb-bb20-4156-beeb-98305c8267ee",
+                    "questionID": "c567505c-6c5a-417d-8e4c-437cf62d595e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Given:</p><p>Word = ASPIRATION</p><p>Total letters = 10</p><p>Vowels = A, I, A, I, О</p><p>Total vowels = 5</p><p>Formula Used:</p><p>Probability = Number of favorable outcomes / Total outcomesbook.com</p><p>Calculation:</p><p>Number of favorable outcomes = 5</p><p>Total outcomes = 10</p><p>Probability = 5/10</p><p>Probability = 1/2</p><p>Solution:</p><p>The probability that the letter drawn is a vowel is 1/2.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5c95ea15-88d9-4706-8be2-374f54c0a454",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If 4 coins are tossed once then what is the probability of getting exactly 2 heads?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>7/8</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>5/8</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1/2</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3/8 </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probability"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "73724e7c-614f-407d-b4f3-273ac94331f5",
+                    "questionID": "5c95ea15-88d9-4706-8be2-374f54c0a454",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>When 4 coins are tossed, total outcomes = 2⁴ = 16</p><p><br></p><p>We want exactly 2 heads → choose 2 coins out of 4 to be heads</p><p><br></p><p>Number of favorable outcomes = C(4,2) = 6</p><p><br></p><p>So, probability = 6 / 16 = <strong>3/8</strong></p><p><strong>Answer: 3/8</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "15bc70f6-be9d-4717-9973-0ef488491a86",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In how many different ways can the letters of the word 'GEOGRAPHY' be arranged such that the vowels must always come together?</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2520</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> 2530</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>15130</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>15120</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Combinations & Permutations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "dcdd9a05-5211-4bed-9ca4-c594a9d5a406",
+                    "questionID": "15bc70f6-be9d-4717-9973-0ef488491a86",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The word GEOGRAPHY has 9 letters with vowels E, O, A (3 vowels).</p><p><br></p><p>Treat vowels as one block → 6 consonants + 1 vowel block = 7 blocks.</p><p><br></p><p>G appears twice → total arrangements = 7! / 2!</p><p><br></p><p>Vowels E, O, A can be arranged in 3! = 6 ways inside the block.</p><p><br></p><p>So total = (7! / 2!) × 3! = (5040 / 2) × 6 = 2520 × 6 = <strong>15120</strong></p><p><strong>Answer: 15120</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3f06a704-332d-4837-aac7-4ab6a849621b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>How many 5 -digit numbers, using 0 to 9, can be generated such that  ' 123'  appears as a string and no digit appears more than once?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>228</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>108</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>156 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>114</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Combinations & Permutations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9eda5c8c-c271-4b6d-828b-a36b8319011a",
+                    "questionID": "3f06a704-332d-4837-aac7-4ab6a849621b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>We treat \"123\" as a block and place it in positions 1, 2, or 3 → 3 cases.</p><p><br></p><p>Remaining digits from {0,4,5,6,7,8,9} → choose 2 → C(7,2) = 21, arrange → 2! = 2</p><p><br></p><p>Case 1 (\"123\" starts at pos 1): no leading zero issue → 21×2 = 42</p><p><br></p><p>Case 2 and 3: subtract 6 invalid (leading zero) cases from 42 → 36 each</p><p><br></p><p>Total = 42 + 36 + 36 = <strong>114</strong></p><p><strong>Answer: 114</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fa8a59d2-4fd2-4907-b024-3487026452fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>How many 4-digit numbers can be generated from the digits 1, 2, 3, 4, 5 and 6 such that 123 always appear as a string? No digit appears more than once.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>8</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>6</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Combinations & Permutations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b522be37-d40b-41f1-b645-73f378a69ce1",
+                    "questionID": "fa8a59d2-4fd2-4907-b024-3487026452fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>We treat \"123\" as a single block. So, we have:</p><p><br></p><ul><li><br></li><li><br></li><li>\"123\" (1 block) + 1 remaining digit from {4,5,6} (3 digits left)</li><li><br></li><li><br></li><li><br></li><li>Choose 1 digit from {4,5,6} → 3 choices</li><li><br></li><li><br></li><li><br></li><li>Total blocks = 2 (\"123\" + chosen digit), arrange them → 2! = 2 ways</li><li><br></li><li><br></li><li><br></li><li>Total = 3 × 2 = <strong>6</strong></li><li><br></li><li><br></li></ul><p><strong>Answer: 6</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "410a30dc-e63d-44fe-9275-38d47c9a5176",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">A man lent Rs. 4500 at 30% compound interest per annum for 3 years. What is the difference between the interest earned by the man in the 2nd year only and the interest earned by the man in the 3rd year only?</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Rs. 545.5</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Rs. 502</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Rs. 526.5</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Rs. 532</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "SI & CI"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d143e90a-1985-4bda-b217-d0a470bdefe8",
+                    "questionID": "410a30dc-e63d-44fe-9275-38d47c9a5176",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;A. Rs. 545.5 B. Rs. 502 C. Rs. 526.5 D. Rs. 532</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Principal = 4500, Rate = 30% p.a.</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Amount after 1st year = 4500 × 1.3 = 5850</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Amount after 2nd year = 5850 × 1.3 = 7605 → Interest in 2nd year = 7605 - 5850 = 1755</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Amount after 3rd year = 7605 × 1.3 = 9886.5 → Interest in 3rd year = 9886.5 - 7605 = 2281.5</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Difference = 2281.5 - 1755 = </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">526.5</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer: (C) Rs. 526.5</strong></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3036e60a-5ef9-400d-b634-079ab2fc6cb3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">This year, the cost of a Tomato increased by 20% over that of the last year. Last year a Tomato costed Rs.10 and a Potato costed Rs.5. This year it costs Rs.11 more to buy 5 Potato and 3 Tomato. Find the percentage increase in the price of the Potato.&nbsp;</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">4%</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">15%</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;27%</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">20%</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Percentages"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "984c0acc-e010-4bd6-a1ee-a7e9ed99a7d9",
+                    "questionID": "3036e60a-5ef9-400d-b634-079ab2fc6cb3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Last year:</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Cost of 3 tomatoes = 3×10 = 30, cost of 5 potatoes = 5×5 = 25 → Total = 55</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> This year: Tomato cost increased 20% → 10×1.2 = 12 → 3×12 = 36</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Let new cost of potato = x → 5x + 36 = 66 ⇒ x = 6.</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> % increase in potato = (6−5)/5 × 100 = </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">20%</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer: (D) 20%</strong></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "21a5f389-5a84-4c07-97ea-ece3b3c6cb8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent;\">Arjun kapoor and Anil Kapoor appear for a test. For each correct answer is awarded 1 mark and for each wrong answer 1/2 mark is deducted. Arjun kapoor answers some questions and gets 10% of his answers wrong. He secures a score of 85% which is 6 marks more than the pass marks. Anil Kapoor also answers some questions and gets 20% of his answers wrong. He gets a score of 70% which is 3 marks less than the pass mark. No marks are awarded or deducted for the unanswered questions. What is the pass mark? </span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">64 </span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">51 </span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">45</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">25 </span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Percentages"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ea388c8b-ae27-43b5-bcc5-184e5881dbd7",
+                    "questionID": "21a5f389-5a84-4c07-97ea-ece3b3c6cb8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Let Arjun answered A questions.</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> His score = 0.9A − 0.05A = 0.85A = Pass + 6</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Anil answered B questions. His score = 0.8B − 0.1B = 0.7B = Pass − 3</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Try A = B = 60 ⇒ 0.85×60 = 51, 0.7×60 = 42 ⇒ Pass = 45</span></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer: (C) 45</strong></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f5ab581c-b119-4292-a400-b34b5df99ffc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent;\">How many kilograms of rice of Rs.5.4 per kg should be mixed with 10 kg of rice of Rs.4.5 per kg, such that there may be gain of 20% by selling the mixture at Rs.5.94 per kg.</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">10 kg</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">12 kg</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">15 kg</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">8 kg</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mixtures & Allegations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ca2c90d3-0550-4a8d-9878-05e088bfd619",
+                    "questionID": "f5ab581c-b119-4292-a400-b34b5df99ffc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;Let the quantity of Rs.5.4 per kg rice = x kg According to the question, x × 5.4 + 4.5 × 10 = 5.94 × (10 + x) ÷ 120 × 100 5.4x + 45 = 4.95 × (10 + x) 5.4x + 45 = 49.5 + 4.95x 5.4x – 4.95x = 49.5 – 45 0.45x = 4.5 x = 10 kg Hence, option A is correct.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba65b5e2-1847-4974-a4c2-a4a5c171c986",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Copper and Zinc are in the ratio 2 : 3 in 200 gms of an alloy. The quantity (in grams) of copper to be added to it to make the ratio 3 : 2 is:</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">150gm</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">100gm</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">120gm</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">125gm </span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mixtures & Allegations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "79fe79a6-9deb-4d96-a334-e09b8a20a9a6",
+                    "questionID": "ba65b5e2-1847-4974-a4c2-a4a5c171c986",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Given, quantity of the alloy = 200 gm. If Copper : Zinc = 2 : 3 Then quantity of Copper = 2 × 200 = 80gm 5 And quantity of Zinc = 3 × 200 = 120gm 5 As per the question, 80 + x = 3 120 2 ⇒ x = 100 gm So The quantity of Copper to be added is 100gm Hence, option B is correct.&nbsp;</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fef070b9-58f6-40d7-86f5-e0d8e0d64602",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the value of M\nCROSS\n+ROADS\nDANGER",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8ec4d0d8-7311-4648-9616-ea7cc80e1d7f",
+                    "questionID": "fef070b9-58f6-40d7-86f5-e0d8e0d64602",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This is a cryptarithmetic puzzle. Common solutions involve identifying carry-overs and assigning values based on positional arithmeti[key=C] One common solution has C=9, R=7, O=3, A=0, D=1, S=2, N=6, G=8, E=5.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a5b6be0a-8983-4bfe-bbf4-e35e4dd4c1e7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two containers X and Y contain milk and water mixed in the ratio 5:2 and 2:1 respectively. The ratio in which these two mixtures be mixed to get a new mixture containing 70% milk is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1:1",
+                    "type": "A"
+                },
+                {
+                    "body": "2:1",
+                    "type": "B"
+                },
+                {
+                    "body": "3:2",
+                    "type": "C"
+                },
+                {
+                    "body": "4:3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e700cdf1-7861-4636-b308-80ed149f03f0",
+                    "questionID": "a5b6be0a-8983-4bfe-bbf4-e35e4dd4c1e7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Find the proportion of milk in each container. Use the alligation rule with the target proportion (70%) to find the mixing ratio.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "74ba944e-482e-4b83-897d-177f4ee077ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A sum of Rs. 1000 is lent in the beginning of a year at a certain rate of interest. After 4 months, a sum of Rs. 500 more is lent but at a rate thrice the former. At the end of the year, Rs. 100 is earned as interest from both the loans. What was the original rate of interest",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "6%",
+                    "type": "A"
+                },
+                {
+                    "body": "7.5%",
+                    "type": "B"
+                },
+                {
+                    "body": "8%",
+                    "type": "C"
+                },
+                {
+                    "body": "9%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "da1b0e1d-64f8-438f-98f5-fdde7fa92717",
+                    "questionID": "74ba944e-482e-4b83-897d-177f4ee077ac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calculate interest for the first loan for 1 year, and for the second loan for 8 months at thrice the rate. Sum both interests to 100.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "40bd2b69-e7ab-4ecc-8b98-fa5dc6d8fb9f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What amount would a man receive on a principal of Rs. 15,000 after four years at simple interest at the rate of 5 percent per annum",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 17,500",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 18,000",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 18,500",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 19,000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "32b70a37-52bd-44be-9882-f1fbbdda343c",
+                    "questionID": "40bd2b69-e7ab-4ecc-8b98-fa5dc6d8fb9f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calculate the Simple Interest first, then add it to the principal to find the amount.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1d98b7ac-e11a-4214-9b2d-2c4335722c69",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A sum of Rs. 6000 is invested in a simple interest scheme. The rate of interest is 7.5 percent per annum. If Rs. 1800 interest is obtained, then for how many months is the sum invested",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "42 months",
+                    "type": "A"
+                },
+                {
+                    "body": "45 months",
+                    "type": "B"
+                },
+                {
+                    "body": "48 months",
+                    "type": "C"
+                },
+                {
+                    "body": "50 months",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "380c3bb8-2730-4833-8a83-fa5eb5b09807",
+                    "questionID": "1d98b7ac-e11a-4214-9b2d-2c4335722c69",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the formula SI=(P×R×T)/100. Remember to convert years to months.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf54ab22-e018-4f64-b3c3-bfe80f42392f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What should be added to each of the numbers 5, 8, 14, 20 so that the resulting numbers should be in proportion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0fb15dd7-96be-40c7-90b4-e8d19ab09786",
+                    "questionID": "cf54ab22-e018-4f64-b3c3-bfe80f42392f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the number to be added be x. Set up the proportion: (8+x)/(5+x)=(20+x)/(14+x).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a02fa275-d424-4d20-b55f-60da69b00eae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A fort has provisions for a certain number of soldiers for 120 days. If after 30 days 100 soldiers leave, and the food then lasts for 150 days, how many soldiers were originally in the fort",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "400",
+                    "type": "A"
+                },
+                {
+                    "body": "500",
+                    "type": "B"
+                },
+                {
+                    "body": "600",
+                    "type": "C"
+                },
+                {
+                    "body": "700",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "183e92e7-d6e9-401f-8ade-1d5847d7d450",
+                    "questionID": "a02fa275-d424-4d20-b55f-60da69b00eae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The remaining food (after 30 days) for the original number of soldiers is equal to the food for the remaining soldiers for 150 days. Let x be the original number of soldiers. So, x×(120−30)=(x−100)×150",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e6f33127-fcf9-481e-a296-5fa8e7be442f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the unit digit of (365×659×771)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2",
+                    "type": "A"
+                },
+                {
+                    "body": "4",
+                    "type": "B"
+                },
+                {
+                    "body": "6",
+                    "type": "C"
+                },
+                {
+                    "body": "8",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "323b71ac-6aa1-452c-8f22-ca886586ba39",
+                    "questionID": "e6f33127-fcf9-481e-a296-5fa8e7be442f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Find the unit digit of each term individually and then multiply them to find the final unit digit.\nTime and work",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5936b1e9-6774-42c1-9ba3-9d9cd9372f2a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the remainder when 72023 is divided by 5",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4634ebe6-9979-4c67-bfa7-827dfd79651c",
+                    "questionID": "5936b1e9-6774-42c1-9ba3-9d9cd9372f2a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Find the cyclicity of the unit digit of powers of 7 and apply it to the exponent.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0e9c5ac5-7352-4832-b2a4-b1bc1b642ddb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A bookseller sells a book at a loss of 25%. Had he sold the book for Rs. 75 more, he would have made a profit of 5%. To earn a profit of 15%, what should be the selling price of the book",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 287.50",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 300",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 312.50",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 337.50",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ca83c9a0-a959-443a-93da-607f10fee445",
+                    "questionID": "0e9c5ac5-7352-4832-b2a4-b1bc1b642ddb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The difference of Rs. 75 represents the difference between a 25% loss and a 5% profit relative to the cost price (CP). So, 30% of CP = 75.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aed43d39-e103-4321-8a97-c4d64694503c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the single equivalent discount of 10% and 30%",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "37%",
+                    "type": "A"
+                },
+                {
+                    "body": "38%",
+                    "type": "B"
+                },
+                {
+                    "body": "39%",
+                    "type": "C"
+                },
+                {
+                    "body": "40%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "37341708-d74b-4f81-8ec3-a200afb9bf71",
+                    "questionID": "aed43d39-e103-4321-8a97-c4d64694503c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the formula for successive discounts",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "47652fb1-6d96-4a1e-b8c6-66b9e9449109",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The price of 8 shirts is 20% more than the price of 4 trousers. If the price of 2 trousers is Rs. 1000, then what is the price of 8 shirt",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 2400",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 2600",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 2800",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 3000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f0d05cd5-8dbb-4807-9d97-b057525e40f4",
+                    "questionID": "47652fb1-6d96-4a1e-b8c6-66b9e9449109",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calculate the price of 4 trousers first, then add 20% to that value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e5088f2-f2b4-4d0d-adf5-d11cc760493e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If the price of petrol is increased by 20%, by how much percent must a car owner reduce its consumption to maintain the same expenditure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "16.67%",
+                    "type": "A"
+                },
+                {
+                    "body": "18%",
+                    "type": "B"
+                },
+                {
+                    "body": "20%",
+                    "type": "C"
+                },
+                {
+                    "body": "22.5%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7020a088-d840-4a60-82db-b03c03de4ed1",
+                    "questionID": "3e5088f2-f2b4-4d0d-adf5-d11cc760493e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the formula: Percentage reduction = [Increase percentage/(100+Increasepercentage)]×100.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a11d5880-8930-4284-ad89-a7604dfed11a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a competition, three participants received scores of 1200, 1800, and 2500 respectively. What percentage of the total score did the winner get",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "40%",
+                    "type": "A"
+                },
+                {
+                    "body": "45%",
+                    "type": "B"
+                },
+                {
+                    "body": "50%",
+                    "type": "C"
+                },
+                {
+                    "body": "55%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "84892206-9b3d-418f-8ec1-13d48706f134",
+                    "questionID": "a11d5880-8930-4284-ad89-a7604dfed11a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "First, find the total score. Then, identify the winning participant&#39;s score and calculate their percentage of the total.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6adf5bb-eb2a-4f0c-ab8d-861bb30ae2d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a class, 85% of the students passed a math test, and 45 students failed. How many students are there in total in the class",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "250",
+                    "type": "A"
+                },
+                {
+                    "body": "300",
+                    "type": "B"
+                },
+                {
+                    "body": "350",
+                    "type": "C"
+                },
+                {
+                    "body": "400",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Quant-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9b856c64-8952-4489-8068-db0190c78a58",
+                    "questionID": "d6adf5bb-eb2a-4f0c-ab8d-861bb30ae2d8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If 85% passed, then 15% faileD Use this percentage to find the total number of students.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

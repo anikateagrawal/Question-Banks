@@ -1,0 +1,1296 @@
+{
+    "bank_id": "0ccb3336-c80a-466d-809e-e89c797ed2be",
+    "bank_name": "Friday - week - 3 CN",
+    "questions": [
+        {
+            "id": "6f6fb11b-575c-4e8d-86a8-645e4352c772",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about multicast in IPv6",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "IPv6 does not support multicast",
+                    "type": "A"
+                },
+                {
+                    "body": "IPv6 replaces broadcast with multicast",
+                    "type": "B"
+                },
+                {
+                    "body": "IPv6 uses broadcast instead",
+                    "type": "C"
+                },
+                {
+                    "body": "Multicast is optional",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7aa87283-0aa7-483f-9d2a-71b7ebd1d66c",
+                    "questionID": "6f6fb11b-575c-4e8d-86a8-645e4352c772",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 removes broadcast and instead uses efficient multicast groups.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7a585b2b-a339-4679-95cd-cbabff92665e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field was removed in IPv6 from the IPv4 header",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Version",
+                    "type": "A"
+                },
+                {
+                    "body": "Source IP",
+                    "type": "B"
+                },
+                {
+                    "body": "Header checksum",
+                    "type": "C"
+                },
+                {
+                    "body": "Next header",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f4f2b0e2-8163-4e80-9868-f8095abe2c04",
+                    "questionID": "7a585b2b-a339-4679-95cd-cbabff92665e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 removed the header checksum to reduce router processing time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "739d66c5-ee30-4fa0-b626-e75de47af326",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is not a drawback of classful addressing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Inefficient utilization",
+                    "type": "A"
+                },
+                {
+                    "body": "No support for variable-length prefixes",
+                    "type": "B"
+                },
+                {
+                    "body": "Flat addressing",
+                    "type": "C"
+                },
+                {
+                    "body": "Too many host addresses wasted",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b53b53c6-6794-444e-b25f-5caaae292a71",
+                    "questionID": "739d66c5-ee30-4fa0-b626-e75de47af326",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Classful is hierarchical, not flat — CIDR supports more efficient flat addressing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "889547ba-4cc4-40a6-8a5a-fab9e4df405e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPv6 address starts with FE80::/10",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Global unicast",
+                    "type": "A"
+                },
+                {
+                    "body": "Anycast",
+                    "type": "B"
+                },
+                {
+                    "body": "Link-local",
+                    "type": "C"
+                },
+                {
+                    "body": "Loopback",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "65f84697-d35c-4ac5-adbf-292a7e038bd8",
+                    "questionID": "889547ba-4cc4-40a6-8a5a-fab9e4df405e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FE80::/10 identifies local link-scoped addresses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "62b6283d-c068-4f35-9348-41f98a25856e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many host addresses are available in a /22 network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "512",
+                    "type": "A"
+                },
+                {
+                    "body": "1024",
+                    "type": "B"
+                },
+                {
+                    "body": "1022",
+                    "type": "C"
+                },
+                {
+                    "body": "254",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ee09d50c-14f9-4977-9012-fbb3f5b2fde9",
+                    "questionID": "62b6283d-c068-4f35-9348-41f98a25856e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/22 ? 32–22 = 10 bits for hosts ? 2¹? – 2 = 1022 usable.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f681a96e-6729-4f1f-b903-c0495d1f8741",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following belongs to Class D in IPv4",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "233.1.2.5",
+                    "type": "A"
+                },
+                {
+                    "body": "192.10.2.1",
+                    "type": "B"
+                },
+                {
+                    "body": "126.1.1.1",
+                    "type": "C"
+                },
+                {
+                    "body": "250.10.2.1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "67495e2d-ae48-4b21-818a-bc03e1e3d54b",
+                    "questionID": "f681a96e-6729-4f1f-b903-c0495d1f8741",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Class D range = 224.0.0.0 to 239.255.255.255 ? used for multicast.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "84a9d8c5-146e-4e5f-a6f4-5f0a0e0e83f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the maximum number of zero blocks that can be replaced using :: in an IPv6 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "4",
+                    "type": "C"
+                },
+                {
+                    "body": "Unlimited",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f8d2fb08-247b-4957-8eb8-68a0faec37c1",
+                    "questionID": "84a9d8c5-146e-4e5f-a6f4-5f0a0e0e83f7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Only one occurrence of :: is allowed per IPv6 address to avoid ambiguity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8335b4b0-d1ec-40a3-870a-599b2b6d0b10",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a key benefit of IPv6 over IPv4",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Broadcasting",
+                    "type": "A"
+                },
+                {
+                    "body": "NAT",
+                    "type": "B"
+                },
+                {
+                    "body": "Larger address space",
+                    "type": "C"
+                },
+                {
+                    "body": "Shorter packet headers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "44e53fa1-7a6a-496f-aa25-bccb9d5c5b9b",
+                    "questionID": "8335b4b0-d1ec-40a3-870a-599b2b6d0b10",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 uses 128-bit addresses, compared to 32-bit in IPv4.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cac7164f-74e6-4588-9c6b-f50efc6a8c01",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following networks can be aggregated as 192.168.32.0/21",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.168.32.0 – 192.168.39.255",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.32.0 – 192.168.36.255",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.32.0 – 192.168.38.255",
+                    "type": "C"
+                },
+                {
+                    "body": "192.168.32.0 – 192.168.33.255",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6370c5ba-b535-4e49-96d7-6b7f103f051a",
+                    "questionID": "cac7164f-74e6-4588-9c6b-f50efc6a8c01",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/21 means 8 blocks (2?) ? covers from .32 to .39.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4fd3ff8a-f5b1-4d37-95fa-2e8a0ad81c9b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You are given a subnet mask of 255.255.255.192. How many subnets can be formed from a Class C network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2",
+                    "type": "A"
+                },
+                {
+                    "body": "4",
+                    "type": "B"
+                },
+                {
+                    "body": "8",
+                    "type": "C"
+                },
+                {
+                    "body": "64",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6c0073b5-e66e-4582-a46c-a371de787df1",
+                    "questionID": "4fd3ff8a-f5b1-4d37-95fa-2e8a0ad81c9b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A Class C default is /24; 255.255.255.192 is /26 ? 2 bits borrowed ? 2² = 4 subnets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2df8df6e-1173-431a-9e78-4449d32b5213",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following IP addresses is not usable for host assignment",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "172.31.255.254",
+                    "type": "A"
+                },
+                {
+                    "body": "10.0.0.1",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.1.255",
+                    "type": "C"
+                },
+                {
+                    "body": "0.0.0.0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c2fddf34-88c6-4f64-923c-70c0699fc583",
+                    "questionID": "2df8df6e-1173-431a-9e78-4449d32b5213",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "0.0.0.0 is reserved to indicate &#34;any network&#34; and cannot be assigned.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f604468b-6889-4e08-be65-246057afaf58",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following CIDR notations is equivalent to subnet mask 255.255.255.248",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/24",
+                    "type": "A"
+                },
+                {
+                    "body": "/29",
+                    "type": "B"
+                },
+                {
+                    "body": "/30",
+                    "type": "C"
+                },
+                {
+                    "body": "/28",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6ee94c9f-5b70-41ce-9450-5dd3836adb7c",
+                    "questionID": "f604468b-6889-4e08-be65-246057afaf58",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "248 = 11111000 ? 29 network bits = /29.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a9cf8f65-b658-41fd-ae38-c25f639c45f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many hexadecimal blocks are used in a full IPv6 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4",
+                    "type": "A"
+                },
+                {
+                    "body": "6",
+                    "type": "B"
+                },
+                {
+                    "body": "8",
+                    "type": "C"
+                },
+                {
+                    "body": "16",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "328e9843-f69e-48b6-a734-53e3ed3bea57",
+                    "questionID": "a9cf8f65-b658-41fd-ae38-c25f639c45f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each IPv6 address is represented using 8 blocks of 4 hex digits",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "77afaf0c-2261-41a6-a56f-4600d3e58878",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is a valid Class A private IP address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.168.1.1",
+                    "type": "A"
+                },
+                {
+                    "body": "172.16.0.1",
+                    "type": "B"
+                },
+                {
+                    "body": "10.0.5.1",
+                    "type": "C"
+                },
+                {
+                    "body": "169.254.1.1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "72aa6581-d315-4ea1-986a-0a471ba9bd8d",
+                    "questionID": "77afaf0c-2261-41a6-a56f-4600d3e58878",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "10.0.0.0/8 is reserved for Class A private IPs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a0c6ed15-2740-4da7-a75f-d1c77278f330",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the limited broadcast address in IPv4",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "255.255.255.255",
+                    "type": "A"
+                },
+                {
+                    "body": "127.0.0.1",
+                    "type": "B"
+                },
+                {
+                    "body": "0.0.0.0",
+                    "type": "C"
+                },
+                {
+                    "body": "192.168.1.255",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "942e68e8-d9e6-46a3-8bef-3af4c2fa13fd",
+                    "questionID": "a0c6ed15-2740-4da7-a75f-d1c77278f330",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It is used to broadcast to all hosts on the local network.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc4c7e8d-3e3f-4cd6-99e6-2506076f5d7f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is not a transition mechanism from IPv4 to IPv6",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Dual stack",
+                    "type": "A"
+                },
+                {
+                    "body": "Tunneling",
+                    "type": "B"
+                },
+                {
+                    "body": "NAT64",
+                    "type": "C"
+                },
+                {
+                    "body": "CIDR",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "27e43731-c68c-400c-ae1c-bd7ce30010c8",
+                    "questionID": "fc4c7e8d-3e3f-4cd6-99e6-2506076f5d7f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CIDR is for IPv4 subnetting, not for IPv6 transition.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "14dc5411-d3fc-4d31-980d-dab4db45236d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "CIDR helps reduce routing table size by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Assigning fixed address classes",
+                    "type": "A"
+                },
+                {
+                    "body": "Grouping multiple subnets into one prefix",
+                    "type": "B"
+                },
+                {
+                    "body": "Increasing MAC addresses",
+                    "type": "C"
+                },
+                {
+                    "body": "Using only Class A addresses",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6e66e5f4-6f2c-4e13-83e4-4ccbf31b36cf",
+                    "questionID": "14dc5411-d3fc-4d31-980d-dab4db45236d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CIDR enables route summarization",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "24db1633-026c-4455-a161-12b58dbc44cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IP address belongs to Class C",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "11.1.1.1",
+                    "type": "A"
+                },
+                {
+                    "body": "132.45.9.1",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.5.10",
+                    "type": "C"
+                },
+                {
+                    "body": "224.0.0.5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7d489fe8-0ee8-4257-a3c5-1b86b354a79a",
+                    "questionID": "24db1633-026c-4455-a161-12b58dbc44cf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Class C addresses range from 192.0.0.0 to 223.255.255.255.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52fb53d9-1e9f-4e4b-9bf9-8439c4448b2f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement is correct",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "IPv4: 64 bits; IPv6: 128 bits",
+                    "type": "A"
+                },
+                {
+                    "body": "IPv4: 32 bits; IPv6: 128 bits",
+                    "type": "B"
+                },
+                {
+                    "body": "Both are 32 bits",
+                    "type": "C"
+                },
+                {
+                    "body": "IPv6 uses decimal notation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "482f77e2-2fbd-4254-8c84-dcd661d71515",
+                    "questionID": "52fb53d9-1e9f-4e4b-9bf9-8439c4448b2f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv4 has 2³² addresses; IPv6 uses 2¹²? address space",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1799b39c-a008-4d4d-bb54-54f940fafc48",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given IP 151.175.31.100 and mask 255.255.254.0, what is the broadcast address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "151.175.31.255",
+                    "type": "A"
+                },
+                {
+                    "body": "151.175.30.255",
+                    "type": "B"
+                },
+                {
+                    "body": "151.175.31.254",
+                    "type": "C"
+                },
+                {
+                    "body": "151.175.30.254",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0d57004f-708e-40cb-8c23-a28daedd75ad",
+                    "questionID": "1799b39c-a008-4d4d-bb54-54f940fafc48",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mask /23 spans two Class C subnets; last 9 bits for hosts",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c01cddc0-6401-4105-8504-e4eb4e5f7c47",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement about supernetting is correct",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Divide networks into smaller pieces",
+                    "type": "A"
+                },
+                {
+                    "body": "Combine contiguous networks into larger blocks",
+                    "type": "B"
+                },
+                {
+                    "body": "Only works with IPv6",
+                    "type": "C"
+                },
+                {
+                    "body": "Eliminates multicast addressing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b1edbeef-c12a-4f08-b2f4-08bbb59c92bf",
+                    "questionID": "c01cddc0-6401-4105-8504-e4eb4e5f7c47",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CIDR supports route aggregation (supernetting) for fewer prefixes",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bb641b08-a828-4b12-8756-8f4b9ec9187e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which address types are defined in IPv6",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unicast, anycast, multicast",
+                    "type": "A"
+                },
+                {
+                    "body": "Unicast, broadcast, multicast",
+                    "type": "B"
+                },
+                {
+                    "body": "Anycast, broadcast, multicast",
+                    "type": "C"
+                },
+                {
+                    "body": "Unicast, broadcast, private",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7e6ec1dd-5d83-41da-a755-5efb44c0e52b",
+                    "questionID": "bb641b08-a828-4b12-8756-8f4b9ec9187e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 supports these three address types—broadcast is not used",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "60a2d96e-a90a-4244-b628-1a2d75619069",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many bits are used in an IPv6 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "32",
+                    "type": "A"
+                },
+                {
+                    "body": "64",
+                    "type": "B"
+                },
+                {
+                    "body": "96",
+                    "type": "C"
+                },
+                {
+                    "body": "128",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c85eaf3a-737a-4507-b09f-03ba05aefc42",
+                    "questionID": "60a2d96e-a90a-4244-b628-1a2d75619069",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 uses 128-bit addresses, typically represented in hexadecimal blocks",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "15201241-abe3-4bd4-add2-ce38df44a40c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following ranges is not a valid private IPv4 block",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10.0.0.0/8",
+                    "type": "A"
+                },
+                {
+                    "body": "172.16.0.0/12",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.0.0/16",
+                    "type": "C"
+                },
+                {
+                    "body": "224.0.0.0/4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c311a84c-a99c-400f-98c6-922220a3ca4a",
+                    "questionID": "15201241-abe3-4bd4-add2-ce38df44a40c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "224.0.0.0/4 is multicast, not private",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "11b71229-6662-4c9b-80a5-1ed5455b7e7f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given network 200.1.2.0/24, how many subnets are possible if you borrow 2 more bits",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2",
+                    "type": "A"
+                },
+                {
+                    "body": "4",
+                    "type": "B"
+                },
+                {
+                    "body": "8",
+                    "type": "C"
+                },
+                {
+                    "body": "16",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7793f6de-c88c-4993-a6bd-d6a6094a5ced",
+                    "questionID": "11b71229-6662-4c9b-80a5-1ed5455b7e7f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Borrowing 2 bits creates 2² = 4 subnets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "298227c1-d95b-4829-81ca-5db58983796a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In 192.168.1.0/24, what does /24 represent",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "24 network bits (prefix length)",
+                    "type": "A"
+                },
+                {
+                    "body": "Host bits = 24",
+                    "type": "B"
+                },
+                {
+                    "body": "Max hosts = 24",
+                    "type": "C"
+                },
+                {
+                    "body": "Network bound = 24 addresses",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8403882d-0d3d-4543-82e6-30b888b60e34",
+                    "questionID": "298227c1-d95b-4829-81ca-5db58983796a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CIDR notation specifies the count of network bits in the",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "567371ee-3676-4cb3-ae8b-117d02bf1709",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why was CIDR introduced",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To simplify loopback addresses",
+                    "type": "A"
+                },
+                {
+                    "body": "To enable variable-length prefix allocation and avoid wastage",
+                    "type": "B"
+                },
+                {
+                    "body": "To separate MAC and IP addresses",
+                    "type": "C"
+                },
+                {
+                    "body": "To reduce packet size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6b7a50e9-a37d-4fd9-a527-2af55dd5ccc2",
+                    "questionID": "567371ee-3676-4cb3-ae8b-117d02bf1709",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CIDR allows flexible allocation and solves the inefficiencies of fixed classes",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "802b4b01-120c-4f77-9521-fd36d7f7c981",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is a key limitation of classful IP addressing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Supports variable-length subnetting",
+                    "type": "A"
+                },
+                {
+                    "body": "Efficiently uses address space",
+                    "type": "B"
+                },
+                {
+                    "body": "Leads to severe address waste",
+                    "type": "C"
+                },
+                {
+                    "body": "Eliminates routing table growth",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c80314dd-2962-45fa-81d9-48bf79b4c101",
+                    "questionID": "802b4b01-120c-4f77-9521-fd36d7f7c981",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Classful addressing wastes many addresses due to rigid class boundaries",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "76465560-8d2a-4f10-87bd-8bdca2d599e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default subnet mask for a Class?B IPv4 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "255.0.0.0",
+                    "type": "A"
+                },
+                {
+                    "body": "255.255.0.0",
+                    "type": "B"
+                },
+                {
+                    "body": "255.255.255.0",
+                    "type": "C"
+                },
+                {
+                    "body": "255.255.255.255",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d3ed6ca6-16b2-4a5b-b310-522a92a46b9d",
+                    "questionID": "76465560-8d2a-4f10-87bd-8bdca2d599e5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Class B uses a 16-bit network prefix",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fb79d9bc-5cb4-4d62-8ae3-96156208fead",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An IPv4 address is divided into which two parts",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Subnet id + broadcast id",
+                    "type": "A"
+                },
+                {
+                    "body": "Network prefix + host identifier",
+                    "type": "B"
+                },
+                {
+                    "body": "Physical address + logical address",
+                    "type": "C"
+                },
+                {
+                    "body": "MAC + IP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cf475707-69be-4908-b58c-64c2ced44ce9",
+                    "questionID": "fb79d9bc-5cb4-4d62-8ae3-96156208fead",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv4 uses a prefix for routing (network bits) and the host portion for identifying endpoints",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

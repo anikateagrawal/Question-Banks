@@ -1,0 +1,4002 @@
+{
+    "bank_id": "e7ba5dc6-8f9b-4e49-9e89-c6de87ff2560",
+    "bank_name": "DBMS-Week-3-Faculty",
+    "questions": [
+        {
+            "id": "deea588e-7212-4cd9-85e2-519a15bbd4cb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about scalar functions",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "They return multiple rows",
+                    "type": "A"
+                },
+                {
+                    "body": "They can modify data",
+                    "type": "B"
+                },
+                {
+                    "body": "They return a single value",
+                    "type": "C"
+                },
+                {
+                    "body": "They are used only in triggers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Functions"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5c72177c-5f84-49e6-9857-565882bb9d6f",
+                    "questionID": "deea588e-7212-4cd9-85e2-519a15bbd4cb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Scalar functions return a single value and are often used in expressions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce5713a1-96bc-47be-94e6-327bf3de08c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword is used to create a function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CREATE ROUTINE",
+                    "type": "A"
+                },
+                {
+                    "body": "CREATE FUNCTION",
+                    "type": "B"
+                },
+                {
+                    "body": "CREATE PROC",
+                    "type": "C"
+                },
+                {
+                    "body": "CREATE METHOD",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Functions"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "783ebc66-e866-44e3-a8b6-72b0f5da0ce7",
+                    "questionID": "ce5713a1-96bc-47be-94e6-327bf3de08c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CREATE FUNCTION defines a new SQL function.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "763d420d-1a90-4b33-a38b-a9df82c180c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword is used to exit from a stored procedure early",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RETURN",
+                    "type": "A"
+                },
+                {
+                    "body": "EXIT",
+                    "type": "B"
+                },
+                {
+                    "body": "BREAK",
+                    "type": "C"
+                },
+                {
+                    "body": "STOP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Stored Procedure"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "604da4df-41ef-4e54-9b3d-86d4c2438c2b",
+                    "questionID": "763d420d-1a90-4b33-a38b-a9df82c180c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RETURN is used to exit and optionally return a value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6d5586f-fe7a-4b19-81ff-702d6ef1e294",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL keyword is used to create a stored procedure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CREATE FUNCTION",
+                    "type": "A"
+                },
+                {
+                    "body": "CREATE PACKAGE",
+                    "type": "B"
+                },
+                {
+                    "body": "CREATE PROCEDURE",
+                    "type": "C"
+                },
+                {
+                    "body": "CREATE METHOD",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Stored Procedure"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "da2e03de-25da-4ae4-accf-f4c09f4d15c8",
+                    "questionID": "d6d5586f-fe7a-4b19-81ff-702d6ef1e294",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CREATE PROCEDURE is used to define a stored procedure.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b484c67c-25be-429e-9052-734d4243d0ec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement is used to remove an index in SQL Server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DROP INDEX index_name",
+                    "type": "A"
+                },
+                {
+                    "body": "DELETE INDEX index_name",
+                    "type": "B"
+                },
+                {
+                    "body": "REMOVE INDEX index_name",
+                    "type": "C"
+                },
+                {
+                    "body": "ALTER TABLE DROP INDEX",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Indexes"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "975c27d7-c790-4fdc-957e-da32a6c35d0c",
+                    "questionID": "b484c67c-25be-429e-9052-734d4243d0ec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DROP INDEX is used to remove an index from a table.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1c88f4da-c3a4-4ad1-b167-bb5431da5e77",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following types of indexes is used to enforce uniqueness",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Clustered",
+                    "type": "A"
+                },
+                {
+                    "body": "Bitmap",
+                    "type": "B"
+                },
+                {
+                    "body": "Unique",
+                    "type": "C"
+                },
+                {
+                    "body": "Spatial",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Indexes"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d33b174f-e1b8-4882-9a8e-2061c6c34934",
+                    "questionID": "1c88f4da-c3a4-4ad1-b167-bb5431da5e77",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A UNIQUE index ensures that all values in the indexed column are different.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0478b5df-7a3e-45bd-9f89-7f619e61ed51",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which clause is required when creating an updatable view",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "WHERE",
+                    "type": "A"
+                },
+                {
+                    "body": "WITH CHECK OPTION",
+                    "type": "B"
+                },
+                {
+                    "body": "ORDER BY",
+                    "type": "C"
+                },
+                {
+                    "body": "GROUP BY",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Views"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fd3ea4b0-2d41-4a3e-8446-201e88b430bb",
+                    "questionID": "0478b5df-7a3e-45bd-9f89-7f619e61ed51",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WITH CHECK OPTION ensures that updates through the view do not violate the view’s WHERE condition.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f825bc68-54b7-4639-bb52-40deb7f76f13",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens if the underlying table structure of a view changes (e.g., a column is dropped)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The view updates automatically",
+                    "type": "A"
+                },
+                {
+                    "body": "The view will return NULL",
+                    "type": "B"
+                },
+                {
+                    "body": "The view becomes invalid",
+                    "type": "C"
+                },
+                {
+                    "body": "The view updates with default values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Views"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "929a3e16-2e2f-41a4-aa1b-d86b86bd0ecb",
+                    "questionID": "f825bc68-54b7-4639-bb52-40deb7f76f13",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If a view references a dropped column, it becomes invalid and will produce an error when accessed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51de09af-70aa-4bfb-9189-5fcd8c681dcf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of using a join index in a database",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CHANGE VIEW",
+                    "type": "A"
+                },
+                {
+                    "body": "ALTER VIEW",
+                    "type": "B"
+                },
+                {
+                    "body": "UPDATE VIEW",
+                    "type": "C"
+                },
+                {
+                    "body": "MODIFY VIEW",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Views"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "760eec48-20d8-460e-b16b-82ba7a0763cd",
+                    "questionID": "51de09af-70aa-4bfb-9189-5fcd8c681dcf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ALTER VIEW is used to redefine an existing view.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e1bf5d2-db5d-4ddb-a16c-cdd982808ee7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of using a join index in a database",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To enforce referential integrity",
+                    "type": "A"
+                },
+                {
+                    "body": "To optimize the execution of join operations",
+                    "type": "B"
+                },
+                {
+                    "body": "To store the results of join operations permanently",
+                    "type": "C"
+                },
+                {
+                    "body": "To restrict the types of joins that can be performed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e5006f4c-3ee4-453e-8a54-06c46897127e",
+                    "questionID": "2e1bf5d2-db5d-4ddb-a16c-cdd982808ee7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A join index is used to optimize the execution of join operations by maintaining a precomputed index of join results, improving query performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0b3abc64-2cf7-41d0-ae28-a8f1265e495b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When might you choose to use a NATURAL JOIN over an INNER JOIN",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When you want to explicitly define the join condition",
+                    "type": "A"
+                },
+                {
+                    "body": "When the tables have columns with the same name and you want to automatically join on those columns",
+                    "type": "B"
+                },
+                {
+                    "body": "When you need to include all rows from both tables regardless of matching",
+                    "type": "C"
+                },
+                {
+                    "body": "When you want to join rows within the same table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4a029c63-3cd8-4d13-bc53-41f4e748a273",
+                    "questionID": "0b3abc64-2cf7-41d0-ae28-a8f1265e495b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NATURAL JOIN automatically joins tables based on columns with the same name, simplifying the query when such columns exist.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e2fa511-c8f1-45a0-ad09-f6bf1e71d0f3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following strategies can help improve the performance of join operations",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Using subqueries instead of joins",
+                    "type": "A"
+                },
+                {
+                    "body": "Adding indexes on the columns used in the join condition",
+                    "type": "B"
+                },
+                {
+                    "body": "Using FULL OUTER JOIN for all join operations",
+                    "type": "C"
+                },
+                {
+                    "body": "Avoiding the use of WHERE clauses",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cdd60bba-9e03-494a-ad1a-b56459e2b885",
+                    "questionID": "3e2fa511-c8f1-45a0-ad09-f6bf1e71d0f3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Adding indexes on the columns used in the join condition can significantly improve the performance of join operations by allowing the database to quickly locate the rows to be joined.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c47d154e-e922-40cb-b791-e310cea4dcc6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given tables Orders (Order ID, Customer ID) and Customers (Customer ID, Name), write a query to find all customers and the number of orders they have placed, including those who have not placed any orders.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT Customers.  Name, COUNT (Orders. Order ID) FROM Customers LEFT JOIN Orders ON Customers. Customer ID = Orders. Customer ID GROUP BY Customers. Name",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT Customers. Name, COUNT (Orders. Order ID) FROM Customers RIGHT JOIN Orders ON Customers. Customer ID = Orders. Customer ID GROUP BY Customers. Name",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT Customers. Name, COUNT (Orders. Order ID) FROM Customers INNER JOIN Orders ON Customers. Customer ID = Orders. Customer ID GROUP BY Customers. Name",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT Customers. Name, COUNT (Orders. Order ID) FROM Customers FULL OUTER JOIN Orders ON Customers. Customer ID = Orders. Customer ID GROUP BY Customers. Name",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6707a6dd-008d-4ec9-9f40-3edc79d89973",
+                    "questionID": "c47d154e-e922-40cb-b791-e310cea4dcc6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LEFT JOIN ensures all customers are included, even those who have not placed any orders. COUNT (Orders. Order ID) will return 0 for customers without orders.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d0bf5314-8f8f-411f-8a3f-ca4daacbe928",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How would you write a query to return all products and their respective categories, ensuring that products without categories are still included",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT * FROM Products INNER JOIN Categories ON Products. Category ID = Categories.ID",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT * FROM Products LEFT JOIN Categories ON Products. Category ID = Categories.ID",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT * FROM Products RIGHT JOIN Categories ON Products. Category ID = Categories.ID",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT * FROM Products FULL OUTER JOIN Categories ON Products. Category ID = Categories.ID",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d29e8e91-5d9e-4255-b65b-3bdc7c91fca1",
+                    "questionID": "d0bf5314-8f8f-411f-8a3f-ca4daacbe928",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LEFT JOIN ensures all products are included, with NULLs for categories where there are no matches.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d744c35d-4e48-4b0d-a69b-0dca4ac32072",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given two tables A and B, how would you write a query to get all rows from A and only matching rows from B, filling NULLs for non-matching rows",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT * FROM A INNER JOIN B ON A.ID = B.ID",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT * FROM A LEFT JOIN B ON A.ID = B.ID",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT * FROM A RIGHT JOIN B ON A.ID = B.ID",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT * FROM A FULL OUTER JOIN B ON A.ID = B.ID",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cfcfcdef-a258-4ebe-9be7-e2aae294625c",
+                    "questionID": "d744c35d-4e48-4b0d-a69b-0dca4ac32072",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LEFT JOIN returns all rows from the left table (A) and the matching rows from the right table (B), filling NULLs for non-matching rows.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e7b9122-2cad-4444-ae27-2da96b2e9635",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following SQL queries will correctly use a RIGHT JOIN to include all rows from the second table (Table B) and matching rows from the first table (Table A)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT * FROM A LEFT JOIN B ON A.ID = B.ID",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT * FROM A RIGHT JOIN B ON A.ID = B.ID",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT * FROM A FULL OUTER JOIN B ON A.ID = B.ID",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT * FROM A INNER JOIN B ON A.ID = B.ID",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0ca06091-3c84-49da-8cca-9b069518560a",
+                    "questionID": "2e7b9122-2cad-4444-ae27-2da96b2e9635",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIGHT JOIN returns all rows from the right table (B) and the matching rows from the left table (A).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d512520b-087d-4a47-a054-ec571f3760e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will be the result of the following query if some employees do not have matching department records? SELECT Employees. Name, Departments. Name FROM Employees LEFT JOIN Departments ON Employees. Dept ID = Departments ID",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only employees with matching departments.",
+                    "type": "A"
+                },
+                {
+                    "body": "Only departments with matching employees.",
+                    "type": "B"
+                },
+                {
+                    "body": "All employees and their departments, with NULLs for unmatched departments.",
+                    "type": "C"
+                },
+                {
+                    "body": "All departments and their employees, with NULLs for unmatched employees.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "27a077f5-9386-4825-8b09-e1566925e9ab",
+                    "questionID": "d512520b-087d-4a47-a054-ec571f3760e0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LEFT JOIN returns all rows from the left table (Employees) and the matched rows from the right table (Departments). For employees without matching departments, the department columns will be NULL.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ceea70e9-85d1-417b-a7a9-5738af500431",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If Table A has 10 rows and Table B has 20 rows, what is the maximum number of rows that can be returned by a LEFT JOIN",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10",
+                    "type": "A"
+                },
+                {
+                    "body": "20",
+                    "type": "B"
+                },
+                {
+                    "body": "30",
+                    "type": "C"
+                },
+                {
+                    "body": "200",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "af0e6ddf-2fb4-401b-b815-76eab68b28d2",
+                    "questionID": "ceea70e9-85d1-417b-a7a9-5738af500431",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LEFT JOIN returns all rows from the left table (A) and the matching rows from the right table (B). The maximum number of rows in the result will be equal to the number of rows in the left table (10), plus any additional rows from the right table if they match the join condition.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "994ec04a-9e18-4c3c-a6f4-0239f0959aa9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given two tables A (with 8 rows) and B (with 5 rows), and assuming there are no matching values between the tables, how many rows will a FULL OUTER JOIN return",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "5",
+                    "type": "A"
+                },
+                {
+                    "body": "8",
+                    "type": "B"
+                },
+                {
+                    "body": "13",
+                    "type": "C"
+                },
+                {
+                    "body": "0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d6ad4dc8-24a8-4779-874f-53c960c64561",
+                    "questionID": "994ec04a-9e18-4c3c-a6f4-0239f0959aa9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FULL OUTER JOIN will return all rows from both tables. Since there are no matches, it will include all 8 rows from A and all 5 rows from B, resulting in 8 + 5 = 13 rows.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0121120-89e8-4d4d-971c-da5d5b2f5779",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider two tables: Employees and Departments. Which SQL query will return all departments and only those employees who are assigned to a department",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT * FROM Employees FULL OUTER JOIN Departments ON Employees. Dept ID = Departments.ID",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT * FROM Employees LEFT JOIN Departments ON Employees. Dept ID = Departments.ID",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT * FROM Employees RIGHT JOIN Departments ON Employees. Dept ID = Departments.ID",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT * FROM Employees INNER JOIN Departments ON Employees. DeptID = Departments.ID",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b546f864-feb1-4fdc-9ca0-7134c65f4d34",
+                    "questionID": "c0121120-89e8-4d4d-971c-da5d5b2f5779",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIGHT JOIN returns all rows from the right table (Departments) and the matching rows from the left table (Employees).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce846133-1336-4def-8ed3-6d873bef954d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL statement retrieves the highest value in a column",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT MAX(column_name) FROM table_name",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT TOP(column_name) FROM table_name",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT GREATEST(column_name) FROM table_name",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT HIGH(column_name) FROM table_name",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Select statement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7a32adf7-5516-40fa-8c7b-fa965853bd53",
+                    "questionID": "ce846133-1336-4def-8ed3-6d873bef954d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The `SELECT MAX(column_name) FROM table_name;` statement retrieves the highest value in a column.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c7f14b8c-7d6c-4c83-9da0-0093bbb7b0dd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How can you select the second highest salary from the employees table",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT MAX(salary) FROM employees",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT salary FROM employees ORDER BY salary DESC LIMIT 1 OFFSET 1",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT salary FROM employees ORDER BY salary ASC LIMIT 1 OFFSET 1",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT MAX(salary) FROM employees WHERE salary &lt; (SELECT MAX(salary) FROM employees)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Select statement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "017e4042-2bb7-4722-a201-a9b875625643",
+                    "questionID": "c7f14b8c-7d6c-4c83-9da0-0093bbb7b0dd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The correct query to select the second highest salary is `SELECT MAX(salary) FROM employees WHERE salary &lt; (SELECT MAX(salary) FROM employees);",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f2f19c44-c234-40ce-b2c6-b112f4f96965",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you delete duplicate rows in a table while keeping one instance of each",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DELETE FROM table_name WHERE condition",
+                    "type": "A"
+                },
+                {
+                    "body": "DELETE FROM table_name a WHERE a.id &gt; (SELECT MIN(b.id) FROM table_name b WHERE a.col1 = b.col1)",
+                    "type": "B"
+                },
+                {
+                    "body": "TRUNCATE TABLE table_name",
+                    "type": "C"
+                },
+                {
+                    "body": "DELETE FROM table_name WHERE ROWNUM &gt; 1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Insert Command"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5705dfcd-bb07-40e7-a1f5-bf13794a9575",
+                    "questionID": "f2f19c44-c234-40ce-b2c6-b112f4f96965",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This query deletes duplicate rows by keeping the row with the minimum id for each unique value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95b6752b-7a94-4ab2-a96c-72d2ba76a6c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you change the data type of the PhoneNumber column in the Employees table to VARCHAR(20)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MODIFY TABLE Employees ALTER COLUMN PhoneNumber VARCHAR(20) ",
+                    "type": "A"
+                },
+                {
+                    "body": "ALTER TABLE Employees MODIFY COLUMN PhoneNumber VARCHAR(20)",
+                    "type": "B"
+                },
+                {
+                    "body": "UPDATE TABLE Employees SET PhoneNumber VARCHAR(20)",
+                    "type": "C"
+                },
+                {
+                    "body": "ALTER TABLE Employees CHANGE COLUMN PhoneNumber VARCHAR(20)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Alter"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bdfe3a6b-0a3f-42b2-aadd-15a5a5ea5d59",
+                    "questionID": "95b6752b-7a94-4ab2-a96c-72d2ba76a6c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The correct syntax to change a column&#39;s data type is `ALTER TABLE table_name MODIFY COLUMN column_name new_data_type;",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8c791cde-3ee9-431d-943e-067ff47e3c60",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will the following SQL statement do INSERT INTO Employees (Name) VALUES (&#39;Jane&#39;)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Inserts Jane into all columns of the Employees table",
+                    "type": "A"
+                },
+                {
+                    "body": "Inserts Jane into the Name column of the Employees table",
+                    "type": "B"
+                },
+                {
+                    "body": "Updates the Name column of the Employees table with Jane",
+                    "type": "C"
+                },
+                {
+                    "body": "Deletes Jane from the Name column of the Employees table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Insert Command"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1af8acad-dbf6-4bed-a583-228e94bd48d1",
+                    "questionID": "8c791cde-3ee9-431d-943e-067ff47e3c60",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This statement inserts &#39;Jane&#39; into the `Name` column of the `Employees` table.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51e10c4e-a40a-4e2d-bc3c-aa8e9d38afdb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following statements correctly retrieves all unique values from the Department column of the Employees table",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT ALL Department FROM Employees",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT DISTINCT Department FROM Employees",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT UNIQUE Department FROM Employees",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT DIFFERENT Department FROM Employees",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Select statement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a30182b6-1a58-4edb-9390-e284d4b78e72",
+                    "questionID": "51e10c4e-a40a-4e2d-bc3c-aa8e9d38afdb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "`SELECT DISTINCT column_name` retrieves all unique values from the specified column.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4767e47d-c1e0-44ed-bf78-cf85f6ef3ffa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the correct syntax to update the Salary of employees to 5000 where Department is HR",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MODIFY Employees SET Salary=5000 WHERE Department=HR",
+                    "type": "A"
+                },
+                {
+                    "body": "UPDATE Employees SET Salary=5000 WHERE Department=HR",
+                    "type": "B"
+                },
+                {
+                    "body": "CHANGE Employees SET Salary=5000 WHERE Department=HR",
+                    "type": "C"
+                },
+                {
+                    "body": "ALTER Employees SET Salary=5000 WHERE Department=HR",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "UPDATE"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1a7a8990-bad2-4d09-a11b-31f09f9ab350",
+                    "questionID": "4767e47d-c1e0-44ed-bf78-cf85f6ef3ffa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The correct syntax for updating data is `UPDATE table_name SET column1=value1 WHERE condition;`",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8034515-6c70-4347-8d92-ff529ba0897d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you delete a record from the `Employees` table where the EmployeeID is 10",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DELETE EmployeeID=10 FROM Employees    ",
+                    "type": "A"
+                },
+                {
+                    "body": "REMOVE FROM Employees WHERE EmployeeID=10",
+                    "type": "B"
+                },
+                {
+                    "body": "DELETE FROM Employees WHERE EmployeeID=10",
+                    "type": "C"
+                },
+                {
+                    "body": "DELETE EmployeeID FROM Employees WHERE ID=10",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Delete"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "45196459-3264-4218-8bf7-9f3e1719bfe9",
+                    "questionID": "e8034515-6c70-4347-8d92-ff529ba0897d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The correct syntax to delete a specific record is `DELETE FROM table_name WHERE condition;`",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5c4c02c4-3798-4ee0-b932-bdd6b4b4ff31",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the correct syntax to insert a new record into the Employees table",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "INSERT INTO Employees (Name, Age) VALUES (&#39;John&#39;, 30)",
+                    "type": "A"
+                },
+                {
+                    "body": "INSERT INTO Employees VALUES (&#39;John&#39;, 30)",
+                    "type": "B"
+                },
+                {
+                    "body": "INSERT Employees (Name, Age) VALUES (&#39;John&#39;, 30)",
+                    "type": "C"
+                },
+                {
+                    "body": "INSERT INTO Employees (Name, Age) (&#39;John&#39;, 30)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Insert statements"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "be8a9c7a-85ef-4e09-b730-826231c678c0",
+                    "questionID": "5c4c02c4-3798-4ee0-b932-bdd6b4b4ff31",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The correct syntax for inserting a new record is `INSERT INTO table_name (columns) VALUES (values);",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "efc8c97f-3ca3-493f-b788-044b5990b089",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Assume:\nA(id, value)\nB(id, description)\nWhat does this query return\n[text=code]\nSELECT * FROM A JOIN B USING(id);",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Error",
+                    "type": "A"
+                },
+                {
+                    "body": "Join using common &#39;id&#39; and eliminates one &#39;id&#39; column",
+                    "type": "B"
+                },
+                {
+                    "body": "Cartesian product",
+                    "type": "C"
+                },
+                {
+                    "body": "Same as ON clause but keeps both id columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fe302f8c-0530-4f09-9c6b-f4c1e2b3d4c2",
+                    "questionID": "efc8c97f-3ca3-493f-b788-044b5990b089",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "USING clause joins on the column(s) specified and outputs only one copy of that column.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3bbe9017-f9d7-44de-ba2b-fe9a95f1a060",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If A has 3 rows and B has 2 matching rows per A.id, how many rows will the query return",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "6",
+                    "type": "B"
+                },
+                {
+                    "body": "2",
+                    "type": "C"
+                },
+                {
+                    "body": "1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6db24614-df44-489b-86bb-968d483df493",
+                    "questionID": "3bbe9017-f9d7-44de-ba2b-fe9a95f1a060",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For each A.id, 2 matching B rows → 3 × 2 = 6 total rows.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a25c055e-3a22-4732-bb9e-beda3b01b75c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does this query return",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"556\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | SELECT &amp; FROM A NATURAL JOIN B</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All rows from A and B where all columns match",
+                    "type": "A"
+                },
+                {
+                    "body": "All rows from A and B where columns with same name match",
+                    "type": "B"
+                },
+                {
+                    "body": "Cross product",
+                    "type": "C"
+                },
+                {
+                    "body": "Error if no common columns exist",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "32ff71f9-7648-4858-8e3d-f94a9c4ccdf8",
+                    "questionID": "a25c055e-3a22-4732-bb9e-beda3b01b75c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NATURAL JOIN relies on columns with the same name. If none exist, it raises an error.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e2f1490c-8700-40c3-9001-4c783f3203a7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given:\n\nTable A has 3 rows\n\nTable B has 0 rows\n\nWhat will the result count be for:",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"752\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | SELECT &amp; FROM A INNER JOIN B ON A.sd ? B.sd;</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0",
+                    "type": "A"
+                },
+                {
+                    "body": "3",
+                    "type": "B"
+                },
+                {
+                    "body": "NULL",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "16551497-af3e-4763-a394-3c5dbf39e8d1",
+                    "questionID": "e2f1490c-8700-40c3-9001-4c783f3203a7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "INNER JOIN only returns matched rows. Since B is empty, no matches — zero rows returned.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c6b832d9-15d4-4faa-8b97-4996ad50eaea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will be the result of the following query",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"990\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | SELECT &amp; FROM A LEFT JOIN B ON A.sd ? B.sd WHERE B.sd IS NULL</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All rows from A and matching rows from B",
+                    "type": "A"
+                },
+                {
+                    "body": "All rows from A that have no match in B",
+                    "type": "B"
+                },
+                {
+                    "body": "All rows from B with no match in A",
+                    "type": "C"
+                },
+                {
+                    "body": "An error due to WHERE clause",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d24bd930-3984-4841-ab2e-c7dd401ffbc4",
+                    "questionID": "c6b832d9-15d4-4faa-8b97-4996ad50eaea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LEFT JOIN returns all rows from A. The WHERE condition filters only those where B.id is NULL — i.e., unmatched rows from A.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9ccd58e7-c097-44d2-b8bb-16122c059fce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which UPDATE is correct with a JOIN",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UPDATE t1 JOIN t2 ON t1.id = t2.id SET t1.val = t2.val",
+                    "type": "A"
+                },
+                {
+                    "body": "UPDATE t1 SET val = t2.val FROM t2 WHERE t1.id = t2.id",
+                    "type": "B"
+                },
+                {
+                    "body": "UPDATE t1 FROM t2 SET val = t2.val WHERE t1.id = t2.id",
+                    "type": "C"
+                },
+                {
+                    "body": "UPDATE t1 SET val = t2.val JOIN t2 ON t1.id = t2.id",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d6cb47ec-6ed9-4ae9-9914-374149be9952",
+                    "questionID": "9ccd58e7-c097-44d2-b8bb-16122c059fce",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A is MySQL-style syntax for UPDATE with JOIN.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b47a72b5-bb79-404b-a145-b8da1b0d4894",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the result of this\n[tpe=code]\nINSERT INTO emp_log(emp_id, action)\nSELECT emp_id, &#39;FIRED&#39; FROM employees WHERE status = &#39;terminated&#39;",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Error if emp_log has no default for timestamp",
+                    "type": "A"
+                },
+                {
+                    "body": "Inserts all terminated employees with &#39;FIRED&#39;",
+                    "type": "B"
+                },
+                {
+                    "body": "Inserts NULL if no match",
+                    "type": "C"
+                },
+                {
+                    "body": "Deletes terminated employees",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Insert Statement"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ce2ae2f1-4c24-43fc-ab67-829cee9f9f3d",
+                    "questionID": "b47a72b5-bb79-404b-a145-b8da1b0d4894",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Valid INSERT using SELECT.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e679cf94-72df-480e-848d-56b5512c466d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1102\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | UPDATE employeei</text>\n<text x=\"40\" y=\"60\" >2 | SET dept_sd ? (SELECT dept_sd FROM departmenti WHERE locatson ? &#39;NY&#39;)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "text",
+                    "body": "What happens if subquery returns more than one row",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All rows updated",
+                    "type": "A"
+                },
+                {
+                    "body": "Error: Subquery returns multiple rows",
+                    "type": "B"
+                },
+                {
+                    "body": "First match is used",
+                    "type": "C"
+                },
+                {
+                    "body": "NULL is assigned",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Subquery"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8262607c-308b-4a49-8017-90f20834d137",
+                    "questionID": "e679cf94-72df-480e-848d-56b5512c466d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Scalar subqueries must return exactly one value; else it errors.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a780374a-8241-41e8-98b4-bfada561687f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given a table employees(emp_id INT, salary INT), what does the following query do",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"808\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | UPDATE employeei</text>\n<text x=\"40\" y=\"60\" >2 | SET ialary ? (SELECT MAX(ialary) FROM employeei)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sets all salaries to the maximum salary",
+                    "type": "A"
+                },
+                {
+                    "body": "Increases salary by max salary",
+                    "type": "B"
+                },
+                {
+                    "body": "Syntax error due to scalar subquery",
+                    "type": "C"
+                },
+                {
+                    "body": "Sets only NULL salaries to max salary",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Subquery"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3d767f1e-3881-487f-90d4-5f56c80d9774",
+                    "questionID": "a780374a-8241-41e8-98b4-bfada561687f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Scalar subquery is valid and assigns max salary to all rows.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0e23e72-1e24-4975-b763-11055909607e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following SQL statements correctly inserts rows from one table into another with a WHERE clause and ignores duplicates based on a unique constraint",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "INSERT INTO emp_archive SELECT * FROM employees WHERE dept_id = 10",
+                    "type": "A"
+                },
+                {
+                    "body": "INSERT IGNORE INTO emp_archive SELECT * FROM employees WHERE dept_id = 10",
+                    "type": "B"
+                },
+                {
+                    "body": "INSERT INTO emp_archive SELECT DISTINCT * FROM employees WHERE dept_id = 10",
+                    "type": "C"
+                },
+                {
+                    "body": "INSERT INTO emp_archive SELECT * FROM employees WHERE dept_id = 10 ON DUPLICATE KEY IGNORE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Insert Statement"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "641fa6c4-8445-47a2-a633-dfa570e01407",
+                    "questionID": "f0e23e72-1e24-4975-b763-11055909607e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "INSERT IGNORE skips rows that would violate constraints like UNIQUE.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b90fcdea-1a6b-46d5-9a44-2396761b1cdb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which scenario would benefit the most from a filtered index in SQL Server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Large table queried by multiple users",
+                    "type": "A"
+                },
+                {
+                    "body": "Column used in every WHERE clause",
+                    "type": "B"
+                },
+                {
+                    "body": "Sparse data where only rows meeting specific criteria are queried",
+                    "type": "C"
+                },
+                {
+                    "body": "Join-heavy queries",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Indexes"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a4bc2721-677c-4fd6-b502-18449d29e2d4",
+                    "questionID": "b90fcdea-1a6b-46d5-9a44-2396761b1cdb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Filtered indexes improve performance and reduce size for queries targeting a subset of data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b950f4b0-73cc-473b-930b-23f72616a7c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following can cause index fragmentation in SQL Server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT querie",
+                    "type": "A"
+                },
+                {
+                    "body": "Frequent INSERTs, UPDATEs, and DELETEs",
+                    "type": "B"
+                },
+                {
+                    "body": "Views",
+                    "type": "C"
+                },
+                {
+                    "body": "Read-only transactions",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Indexes"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "170ed95a-199b-49a5-8eaf-ad8bca3731f0",
+                    "questionID": "b950f4b0-73cc-473b-930b-23f72616a7c7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Frequent DML operations can lead to logical fragmentation, making indexes less efficient.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8a188bb-cd12-48f0-a7be-faf641b606d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which situation would a bitmap index outperform a B-tree index",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Column with 1 million unique values",
+                    "type": "A"
+                },
+                {
+                    "body": "Frequently updated table",
+                    "type": "B"
+                },
+                {
+                    "body": "Column with 3 distinct values and large table",
+                    "type": "C"
+                },
+                {
+                    "body": "Small table with low update frequency",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Indexes"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1c657617-d435-4785-91b1-b7566226315f",
+                    "questionID": "d8a188bb-cd12-48f0-a7be-faf641b606d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bitmap indexes excel on low-cardinality columns in large, read-mostly datasets. They perform poorly in high-update environments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c04f603e-1059-4d21-b7c4-d783af8fe591",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of index is best suited for high cardinality columns in a large table with frequent SELECT queries",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bitmap Index",
+                    "type": "A"
+                },
+                {
+                    "body": "Clustered Index",
+                    "type": "B"
+                },
+                {
+                    "body": "Non-clustered Index",
+                    "type": "C"
+                },
+                {
+                    "body": "Hash Index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Indexes"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "62822595-78d4-4182-9a3c-aecaf341764b",
+                    "questionID": "c04f603e-1059-4d21-b7c4-d783af8fe591",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Non-clustered indexes are ideal for high cardinality columns because they maintain a separate structure that allows fast retrieval without affecting data storage order.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c5918a31-e87e-45ea-93c2-1efc9a8a52d3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which isolation level is most appropriate in a stored procedure designed to prevent dirty reads but allow phantom reads",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "READ UNCOMMITTED",
+                    "type": "A"
+                },
+                {
+                    "body": "READ COMMITTED",
+                    "type": "B"
+                },
+                {
+                    "body": "REPEATABLE READ",
+                    "type": "C"
+                },
+                {
+                    "body": "SERIALIZABLE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Stored Procedure"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bda40d29-dbe7-42c6-99d6-d68b4e8bd0a7",
+                    "questionID": "c5918a31-e87e-45ea-93c2-1efc9a8a52d3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "READ COMMITTED prevents dirty reads but allows non-repeatable and phantom reads.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "12579c06-9116-40ab-820a-d7ac655567d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement allows dynamic SQL execution inside a stored procedure in SQL Server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "EXECUTE IMMEDIATE",
+                    "type": "A"
+                },
+                {
+                    "body": "EXEC()",
+                    "type": "B"
+                },
+                {
+                    "body": "CALL()",
+                    "type": "C"
+                },
+                {
+                    "body": "RUN SQL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Stored Procedure"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ec59109a-1f4f-4cb2-9a49-d4a8f78f70e5",
+                    "questionID": "12579c06-9116-40ab-820a-d7ac655567d2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "EXEC() or sp_executesql is used for dynamic SQL in SQL Server.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ff7165a4-ffe2-4d55-b186-5e34484e8f43",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will happen if a stored procedure is executed without a required input parameter",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Execution will continue with default values",
+                    "type": "A"
+                },
+                {
+                    "body": "SQL Server raises an error",
+                    "type": "B"
+                },
+                {
+                    "body": "NULL will be passed automatically",
+                    "type": "C"
+                },
+                {
+                    "body": "The procedure skips the parameter logic",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Stored Procedure"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "574184c2-cf24-4b93-abd0-c9bace68b75e",
+                    "questionID": "ff7165a4-ffe2-4d55-b186-5e34484e8f43",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Missing required parameters trigger an error unless default values are specified.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a3dcad45-7fee-40bb-bc85-652d0e8071bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the benefit of marking a function as SCHEMABINDING in SQL Server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Makes function faster",
+                    "type": "A"
+                },
+                {
+                    "body": "Allows function to modify schema",
+                    "type": "B"
+                },
+                {
+                    "body": "Prevents underlying objects from being altered",
+                    "type": "C"
+                },
+                {
+                    "body": "Enables parallel execution",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Functions"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bcea1636-485c-45c8-93cc-dcc46e690dea",
+                    "questionID": "a3dcad45-7fee-40bb-bc85-652d0e8071bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SCHEMABINDING locks referenced objects, preventing drops or structure changes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b47c376-e8b5-4b1f-bc3c-b779d252e8c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of user-defined function can return a table and be used like a table in a FROM clause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Scalar function",
+                    "type": "A"
+                },
+                {
+                    "body": "Inline table-valued function",
+                    "type": "B"
+                },
+                {
+                    "body": "Multi-statement scalar function",
+                    "type": "C"
+                },
+                {
+                    "body": "Stored procedure",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Functions"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "363f6967-0b05-454f-9ad1-bc9a9bac4c01",
+                    "questionID": "3b47c376-e8b5-4b1f-bc3c-b779d252e8c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Inline TVFs can be treated as tables and have performance benefits over multi-statement functions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "66c4ba9b-387f-4f9e-9cbe-57266dedef33",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about scalar user-defined functions in SQL Server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Cannot be used in SELECT clauses",
+                    "type": "A"
+                },
+                {
+                    "body": "Can modify database state",
+                    "type": "B"
+                },
+                {
+                    "body": "Are deterministic by default",
+                    "type": "C"
+                },
+                {
+                    "body": "Can be called from CHECK constraints",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Functions"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ca358059-85a4-43c2-97d4-42bec61de99d",
+                    "questionID": "66c4ba9b-387f-4f9e-9cbe-57266dedef33",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Scalar UDFs can be used in constraints, but cannot perform DML operations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f59c5d57-a07e-4d23-a476-d863f460e97f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about indexed (materialized) views in SQL Server",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Always updated manually",
+                    "type": "A"
+                },
+                {
+                    "body": "Cannot contain aggregate functions",
+                    "type": "B"
+                },
+                {
+                    "body": "Persist data physically on disk",
+                    "type": "C"
+                },
+                {
+                    "body": "Automatically refresh asynchronously",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Views"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "917ab9f0-c39f-418a-af5c-864fd59bbf23",
+                    "questionID": "f59c5d57-a07e-4d23-a476-d863f460e97f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexed views are physically stored and maintained like tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2b0268b8-44dd-4ec5-8b3a-319d173cac8b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In SQL Server, which clause ensures that all inserts or updates through a view adhere to the logic of the view’s SELECT statement",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "WITH CHECK OPTION",
+                    "type": "A"
+                },
+                {
+                    "body": "WITH SCHEMABINDING",
+                    "type": "B"
+                },
+                {
+                    "body": "WITH ENCRYPTION",
+                    "type": "C"
+                },
+                {
+                    "body": "WITH EXECUTE AS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Views"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "28876aea-13c5-4ed6-a3ee-9c5fe709de9e",
+                    "questionID": "2b0268b8-44dd-4ec5-8b3a-319d173cac8b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WITH CHECK OPTION ensures DML operations through the view do not violate the view&#39;s WHERE clause.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9d92c129-52c0-425c-be5a-1b5b9ca64678",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider the relations r1(P, Q, R) and r2(R, S, T) with primary keys P and R respectively. The relation r1 contains 2000 tuples and r2 contains 2500 tuples. The maximum size of the join r1⋈ r2 is :",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2000",
+                    "type": "A"
+                },
+                {
+                    "body": "2500",
+                    "type": "B"
+                },
+                {
+                    "body": "4500",
+                    "type": "C"
+                },
+                {
+                    "body": "5000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4bc70066-70f2-49a6-a599-6c52585c983d",
+                    "questionID": "9d92c129-52c0-425c-be5a-1b5b9ca64678",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Explanation: the maximum size of the join is determined by the number of tuples in the larger relation, r2, since each tuple in r2 can match with at most one tuple in r1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e203bb73-fb99-43f4-becc-f52e8225247e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider the following relation schema pertaining to a students database\n\nStudent (roll no, name, address)\nEnroll (roll no, course no, course name)\n\nwhere the primary keys are roll no, course no. The number of tuples in the Student and Enroll tables are 120 and 8 respectively. What are the maximum and minimum number of tuples that can be present in (Student * Enroll), where &#39;*&#39; denotes natural join",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "8, 0",
+                    "type": "A"
+                },
+                {
+                    "body": "120, 8",
+                    "type": "B"
+                },
+                {
+                    "body": "960, 8",
+                    "type": "C"
+                },
+                {
+                    "body": "960, 120",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "JOIN"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b0c63bbb-9a3c-4ec0-93f2-8b164f0bb653",
+                    "questionID": "e203bb73-fb99-43f4-becc-f52e8225247e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The maximum number of tuples in the natural join result is 960, occurring when each student is enrolled in each course, and the minimum is 120, corresponding to the number of tuples in the smaller Enroll table.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d59a403f-ba44-4cae-81df-ae2cc3991a9b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider the relational schema below\nSuppliers(sid:integer, sname:string, city:string, street:string)\nParts(pid:integer, pname:string, color:string)\nCatalog(sid:integer, pid:integer, cost:real)\nOn the database as mentioned above, consider the following relational query",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1144\" height=\"220\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | SELECT S.iname</text>\n<text x=\"40\" y=\"60\" >2 |     FROM Supplseri S</text>\n<text x=\"40\" y=\"80\" >v |         WHERE S.isd NOT IN (SELECT C.isd</text>\n<text x=\"40\" y=\"100\" >4 |                             FROM Catalog C</text>\n<text x=\"40\" y=\"120\" >5 |                             WHERE C.psd NOT IN (SELECT P.psd </text>\n<text x=\"40\" y=\"140\" >6 |                                                 FROM Parti P</text>\n<text x=\"40\" y=\"160\" >+ |                                                 WHERE P.color&lt;&gt; &#39;blue&#39;))</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Find out who has supplied a non-blue part.",
+                    "type": "A"
+                },
+                {
+                    "body": "Look up the names of all the vendors who haven&#39;t delivered a non-blue part.",
+                    "type": "B"
+                },
+                {
+                    "body": "Find all of the vendors who have supplied blue components exclusively.",
+                    "type": "C"
+                },
+                {
+                    "body": "Find all of the suppliers who haven&#39;t supplied blue parts exclusively.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Subquery"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "5fdb7420-3cbc-423a-a626-097eb119191c",
+                    "questionID": "d59a403f-ba44-4cae-81df-ae2cc3991a9b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Because the specified query returns suppliers who have not supplied any blue components, the (D) option matched, which means it can have sections that aren&#39;t blue.\n1.\tFalse because this might include blue portions and &#34;null&#34; components.\n(B) Untrue, as it returns something other than a blue portion.\n(C) False, as this is not returned.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a868d77-7cd1-4542-bd3d-2f98fa352d86",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Take a look at the collection of relationships below,",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"822\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | Studenti: (Roll_number, Name, Date_of_bsrth)</text>\n<text x=\"40\" y=\"60\" >2 | Couriei: (Courie number, Courie_name, Initructor)</text>\n<text x=\"40\" y=\"80\" >v | Gradei: (Roll_number, Courie_number, Grade)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "text",
+                    "body": "as well as the SQL query that follows.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1060\" height=\"240\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | ielect dsitsnct Name</text>\n<text x=\"40\" y=\"60\" >2 |              from Studenti, Couriei, Gradei</text>\n<text x=\"40\" y=\"80\" >v |              where Studenti. Roll_number ? Gradei.Roll_number</text>\n<text x=\"40\" y=\"100\" >4 |                   and Couriei.Initructor ? Korth</text>\n<text x=\"40\" y=\"120\" >5 |                   and Couriei.Courie_number ? Gradei.Courie_number</text>\n<text x=\"40\" y=\"140\" >6 |                   and Gradei.grade ? A</text>\n<text x=\"40\" y=\"160\" >+ |  [type?te%t]</text>\n<text x=\"40\" y=\"180\" >8 | The abo3e query computei whsch of the followsng ieti</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Names of students who have received an A in all of Korth&#39;s classes.",
+                    "type": "A"
+                },
+                {
+                    "body": "Names of students who received an A in all of their classes",
+                    "type": "B"
+                },
+                {
+                    "body": "Names of students who have received an A in at least one of Korth&#39;s courses.",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Select statement"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8685f179-e15a-47c3-82d5-50bc7288a71f",
+                    "questionID": "5a868d77-7cd1-4542-bd3d-2f98fa352d86",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Since there is an ‘and’ on the query predicate, the query returns the names of all students who have received an &#34;A&#34; grade and attend Korth&#39;s courses, i.e., at least one of them.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4581ef32-bdb4-4bc1-830e-63841f327b3b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Null values are viewed as unknown in SQL, and comparisons with null values are treated as unknown. Assume that all comparisons with a null value are false. Which of the following pairings does not have the same meaning",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "x = 5 AND not(not(x = 5))",
+                    "type": "A"
+                },
+                {
+                    "body": "x = 5 AND x&gt; 4 and x &lt; 6, where x is an integer",
+                    "type": "B"
+                },
+                {
+                    "body": "x ≠ 5 AND not (x = 5)",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Null Values"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "29b30f61-0570-4261-bf7d-c03095b8db48",
+                    "questionID": "4581ef32-bdb4-4bc1-830e-63841f327b3b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Because a comparison with a NULL value is always False in the provided query, &#34;x ≠ 5&#34; will be false. &#34;x = 5&#34; will also return false, and not (x = 5) = not(false) = true will also return true. As a result, these aren&#39;t equal pairs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b69d1d58-0724-4d9a-b252-5b296b021307",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider the following three SQL queries (assuming the &#39;persons&#39; table has the data): \n(a)Select a name from people who are over the age of 21; \n(b)Select a name from people who are over the height of 180; \n(c)Select a name from people who are (over the age of 21) or (over the height of 180);.\nWhat is one probable number of rows returned by SQL query (c) if SQL queries (a) and (b) above produce 10 and 7 rows in the result set, respectively",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "7",
+                    "type": "A"
+                },
+                {
+                    "body": "10",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "21",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Select statement"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a3fbc9c6-9c11-44e4-88f7-0c64d539b5ac",
+                    "questionID": "b69d1d58-0724-4d9a-b252-5b296b021307",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "10 rows are returned if you select a name from those over the age of 21. 7 rows are returned if you choose Name among persons with a height of more than 180. Select Name from People where (Age &gt; 21) or (Height &gt; 180) will return 10 rows since there is a choice between the two conditions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9560bd17-fefc-4b07-8615-15cb10456207",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The relation scheme below stores information on a company&#39;s workers, where empId is the key and deptId is the employee&#39;s assigned department. Each employee has a specific department allocated to them.\nemp(empId, name, gender, salary, deptId)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Consider the SQL query below:",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1102\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | ielect deptId, count(&amp;)</text>\n<text x=\"40\" y=\"60\" >2 | from emp</text>\n<text x=\"40\" y=\"80\" >v | where gender ? “female” and ialary &gt; (ielect a3g(ialary)from emp)</text>\n<text x=\"40\" y=\"100\" >4 | group by deptId;</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "text",
+                    "body": "The above query returns, for each department, the number of female workers whose salary is higher than the company&#39;s average salary of",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All employees in the department",
+                    "type": "A"
+                },
+                {
+                    "body": "All employees in the company",
+                    "type": "B"
+                },
+                {
+                    "body": "All female employees in the department",
+                    "type": "C"
+                },
+                {
+                    "body": "All female employees in the company",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS",
+                "Subquery"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7298a631-5fbf-4df7-bb6c-bd253923306e",
+                    "questionID": "9560bd17-fefc-4b07-8615-15cb10456207",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The inner query (select avg(salary) from emp) runs on the whole emp table, i.e., all employees.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c6b61933-3e23-430d-b965-6198436a5a5a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a View in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A type of index ",
+                    "type": "A"
+                },
+                {
+                    "body": "A virtual table based on the result of a SELECT query",
+                    "type": "B"
+                },
+                {
+                    "body": "A type of stored procedure",
+                    "type": "C"
+                },
+                {
+                    "body": "A physical table in the database",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2fb8ed0b-1250-4721-a86e-d01e64d52150",
+                    "questionID": "c6b61933-3e23-430d-b965-6198436a5a5a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A view is a virtual table that presents data from one or more tables using a SELECT statement. It doesn&#39;t store data itself.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "add779e0-9759-4e2d-8f3e-f134d29f29f4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a key benefit of using stored procedures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Decreases code reuse",
+                    "type": "A"
+                },
+                {
+                    "body": "lows down performance",
+                    "type": "B"
+                },
+                {
+                    "body": "Increases security and performance",
+                    "type": "C"
+                },
+                {
+                    "body": "Avoids use of SQL entirely",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2e35f1a7-d43b-4650-a6ec-4324fb759ed2",
+                    "questionID": "add779e0-9759-4e2d-8f3e-f134d29f29f4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Stored procedures help improve performance and allow better control over access to data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1496b93e-97d7-495c-aad4-af1e6836de65",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following cannot be used to update data directly",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Table",
+                    "type": "A"
+                },
+                {
+                    "body": "View based on one table",
+                    "type": "B"
+                },
+                {
+                    "body": "Indexed view",
+                    "type": "C"
+                },
+                {
+                    "body": "View based on multiple joins",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "95739b15-a528-41b4-8f38-cf6380990ddd",
+                    "questionID": "1496b93e-97d7-495c-aad4-af1e6836de65",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Views based on multiple tables or complex joins are usually not updatable directly.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e302e0a7-c43b-44f2-abff-73e9465708bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Can a view be used to simplify complex queries",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Yes",
+                    "type": "A"
+                },
+                {
+                    "body": "No",
+                    "type": "B"
+                },
+                {
+                    "body": "Only in Oracle                                    ",
+                    "type": "C"
+                },
+                {
+                    "body": "Only if it has an index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7b857c33-5a76-4e35-aa7b-959afcd29a6a",
+                    "questionID": "e302e0a7-c43b-44f2-abff-73e9465708bd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Views can encapsulate complex joins and queries, making it easier to access data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf3c4500-f6e4-4938-8c24-47fe275fe6e4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL object allows you to pass parameters and return a single value",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "View",
+                    "type": "A"
+                },
+                {
+                    "body": "Index",
+                    "type": "B"
+                },
+                {
+                    "body": "Stored Procedure",
+                    "type": "C"
+                },
+                {
+                    "body": "Function",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "11e21c82-e8c2-45a4-b836-92c99b855ba6",
+                    "questionID": "cf3c4500-f6e4-4938-8c24-47fe275fe6e4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A function in SQL can accept input parameters and must return a single value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "57ce2d0c-ddb3-46a3-b83a-912d84d7373e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a Stored Procedure in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A precompiled collection of SQL statements                                       ",
+                    "type": "A"
+                },
+                {
+                    "body": "A table that stores old records",
+                    "type": "B"
+                },
+                {
+                    "body": "A type of view  ",
+                    "type": "C"
+                },
+                {
+                    "body": "A user-defined index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "655a3a7f-ba6e-42f8-be44-90ed0ce5af35",
+                    "questionID": "57ce2d0c-ddb3-46a3-b83a-912d84d7373e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A stored procedure is a set of SQL statements that can be saved and executed repeatedly.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fcb26415-d168-405d-b0e1-ced82b556811",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about indexes in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "They slow down data retrieval",
+                    "type": "A"
+                },
+                {
+                    "body": "They store actual data",
+                    "type": "B"
+                },
+                {
+                    "body": "They help speed up data retrieval",
+                    "type": "C"
+                },
+                {
+                    "body": "They are used to delete data faster",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0944e7be-430a-4a9f-a21e-5bd9f1fc605c",
+                    "questionID": "fcb26415-d168-405d-b0e1-ced82b556811",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes improve the speed of data retrieval operations by creating pointers to data in a table.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "14a02d69-2a4a-48ca-86c7-e65253b08bc8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of this query",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1284\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | SELECT department FROM departmenti WHERE sd NOT IN (SELECT dept_sd FROM employeei)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All departments",
+                    "type": "A"
+                },
+                {
+                    "body": "Departments with employees        ",
+                    "type": "B"
+                },
+                {
+                    "body": "Departments without employees",
+                    "type": "C"
+                },
+                {
+                    "body": "Employees without departments",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2c73f2ac-6242-4c76-8662-ff6c00fd8934",
+                    "questionID": "14a02d69-2a4a-48ca-86c7-e65253b08bc8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The subquery gets dept_id values from the employees table, and the outer query returns departments not present in that list — i.e., departments with no employees.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e9b0c43b-f956-4bf0-8d82-e7d5e7c1d6e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword allows a subquery to return multiple rows",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "=",
+                    "type": "A"
+                },
+                {
+                    "body": "IN",
+                    "type": "B"
+                },
+                {
+                    "body": "LIKE ",
+                    "type": "C"
+                },
+                {
+                    "body": "EXISTS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fb084bee-92dc-44f2-aa3f-1f318f8c434c",
+                    "questionID": "e9b0c43b-f956-4bf0-8d82-e7d5e7c1d6e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IN is used when the subquery returns multiple values to compare with the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "23800b17-950d-49ed-9a0b-375d35bbb86c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will the following SQL do\n[tpye=code]\nSELECT name FROM employees WHERE dept_id = (SELECT id FROM departments WHERE name = &#39;Sales&#39;)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Select all employee names        ",
+                    "type": "A"
+                },
+                {
+                    "body": "Select employees not in Sales",
+                    "type": "B"
+                },
+                {
+                    "body": "Select employees in Sales",
+                    "type": "C"
+                },
+                {
+                    "body": "Gives an error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9725302a-c88d-43a2-a59e-8e273b0c7db0",
+                    "questionID": "23800b17-950d-49ed-9a0b-375d35bbb86c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The subquery finds the dept_id of the &#39;Sales&#39; department, and the outer query selects employees belonging to that department.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d25f63a7-ccf9-4471-96b3-d86b766f27ca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of subquery returns a single value",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Correlated subquery",
+                    "type": "A"
+                },
+                {
+                    "body": "Scalar subquery                ",
+                    "type": "B"
+                },
+                {
+                    "body": "Table subquery",
+                    "type": "C"
+                },
+                {
+                    "body": "Row subquery",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9edb37df-5119-4046-82f3-14b3bc407b08",
+                    "questionID": "d25f63a7-ccf9-4471-96b3-d86b766f27ca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A scalar subquery returns exactly one value (one row and one column).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "50480b0b-6e22-4cdb-aa96-ab8d932a9609",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Where can subqueries be used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only in SELECT clause",
+                    "type": "A"
+                },
+                {
+                    "body": "Only in WHERE clause",
+                    "type": "B"
+                },
+                {
+                    "body": "Only in FROM clause",
+                    "type": "C"
+                },
+                {
+                    "body": "n SELECT, FROM, and WHERE clauses",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e6aad596-8342-480e-9267-85a9bbe8b78d",
+                    "questionID": "50480b0b-6e22-4cdb-aa96-ab8d932a9609",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Subqueries can be used in multiple places like SELECT, FROM, and WHERE clauses to return data based on other queries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "82a57ac8-82e0-4700-9520-da1c4952387e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of the HAVING clause in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Filter records before grouping",
+                    "type": "A"
+                },
+                {
+                    "body": "Filter records after grouping        ",
+                    "type": "B"
+                },
+                {
+                    "body": "Sort records in ascending order",
+                    "type": "C"
+                },
+                {
+                    "body": "Sort records in descending order",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "92af6f61-af5b-45f4-aaf5-777630685493",
+                    "questionID": "82a57ac8-82e0-4700-9520-da1c4952387e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The HAVING clause is used to filter groups after the GROUP BY clause is applied.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d2e3d5e7-2a19-4e98-823f-6bb50c337d94",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You are developing a reporting system for a healthcare organization that tracks patient appointments and medical procedures. The database consists of several tables, including patients, appointments, and procedures. You need to retrieve a list of all patients along with their appointment details and any associated medical procedures. Which type of join would you use to combine the appointment and procedure data",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "What type of join should you use to retrieve a list of all patients along with their appointment    details and any associated medical procedures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Inner",
+                    "type": "A"
+                },
+                {
+                    "body": "Left",
+                    "type": "B"
+                },
+                {
+                    "body": "Right ",
+                    "type": "C"
+                },
+                {
+                    "body": "Full Outer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "654b9877-0fc7-4cd3-ae0a-533026d3ea7b",
+                    "questionID": "d2e3d5e7-2a19-4e98-823f-6bb50c337d94",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Using a Full Outer Join between the appointments and procedures tables ensures that all appointment details and associated medical procedures are included in the result set, providing a comprehensive view of patient appointments and procedures.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ead87060-5bf7-4106-8fbb-9f6386d5c54a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You need to compare data from the sales table and the product inventory table to analyze product sales performance. Which type of join would be most appropriate for this task",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Inner",
+                    "type": "A"
+                },
+                {
+                    "body": "Left",
+                    "type": "B"
+                },
+                {
+                    "body": "Right ",
+                    "type": "C"
+                },
+                {
+                    "body": "Full Outer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d3318cd3-2455-43b5-b2b6-8636b6f2cafd",
+                    "questionID": "ead87060-5bf7-4106-8fbb-9f6386d5c54a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "An Inner Join retrieves data where matching records exist between the sales table and the product inventory table, allowing for analysis of product sales performance based on available inventory.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5bb299b1-3aa9-4b74-a664-44607b6bf343",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Even though some employees might not be assigned to any department, what form of join would you typically use if you were tasked with extracting all employees and their department names in a SQL query",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Inner",
+                    "type": "A"
+                },
+                {
+                    "body": "Left",
+                    "type": "B"
+                },
+                {
+                    "body": "Right ",
+                    "type": "C"
+                },
+                {
+                    "body": "Full Outer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "154e3b73-afc6-41ac-9993-2b4948966e8d",
+                    "questionID": "5bb299b1-3aa9-4b74-a664-44607b6bf343",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "might use a Left Join to ensure all employees are returned, even if they are not assigned to any department. This would enable Infosys to retrieve employee details along with their respective department names, with NULL values for employees not assigned to any department.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3c2849c5-7e03-4bee-aecf-c1f3f0293b8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following statement is TRUE about FULL OUTER JOIN created on two tables Table1 and Table2",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Retrieves all the unmatched rows of Table1\t",
+                    "type": "A"
+                },
+                {
+                    "body": "Retrieves all the unmatched rows of Table2\t",
+                    "type": "B"
+                },
+                {
+                    "body": "Retrieves both matched and unmatched rows of Table1 and Table2",
+                    "type": "C"
+                },
+                {
+                    "body": "Retrieves only matched rows of table1 and Table2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "318e01c5-9f3b-4c9a-a9ac-4c58dc87cba7",
+                    "questionID": "3c2849c5-7e03-4bee-aecf-c1f3f0293b8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The statement is TRUE about FULL OUTER JOIN created on two tables Table1 and Table2 is Retrieves both matched and unmatched rows of Table1 and Table2.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ef5b49e2-2384-4b13-bc5c-a245189984e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following statement is TRUE about FULL OUTER JOIN created on two tables Table1 and Table2",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Retrieves all the unmatched rows of Table1",
+                    "type": "A"
+                },
+                {
+                    "body": "Retrieves all the unmatched rows of Table2",
+                    "type": "B"
+                },
+                {
+                    "body": "Retrieves both matched and unmatched rows of Table1 and Table2",
+                    "type": "C"
+                },
+                {
+                    "body": "Retrieves only matched rows of table1 and Table2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0ae7244d-ace8-4a3a-88b3-a0639e34ac43",
+                    "questionID": "ef5b49e2-2384-4b13-bc5c-a245189984e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "When a CROSS JOIN is achieved between R1 and R2, 0 tuples the resultant set will have.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e7ab789c-81a1-4dc1-a64b-e1117a53677e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Relation R1 has 10 tuples and 5 attributes. Relation R2 has 0 tuples and 7 attributes. When a CROSS JOIN is achieved between R1 and R2, how many tuples would the resultant set have",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "28        ",
+                    "type": "A"
+                },
+                {
+                    "body": "10        ",
+                    "type": "B"
+                },
+                {
+                    "body": "0",
+                    "type": "C"
+                },
+                {
+                    "body": "35",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7026bbd6-c28f-4399-95e3-3be8a7265952",
+                    "questionID": "e7ab789c-81a1-4dc1-a64b-e1117a53677e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "When a CROSS JOIN is achieved between R1 and R2, 0 tuples the resultant set will have.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4dd57050-ab6e-4018-ac03-bc11de4e37f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do a left join and a right join vary from one another",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Right join returns all records from both tables, while left join returns only matching records.        ",
+                    "type": "A"
+                },
+                {
+                    "body": "Left join returns all records from both tables, while Right join returns only matching records.        ",
+                    "type": "B"
+                },
+                {
+                    "body": "Left join returns all records from the left table and the matched records from the right table, while right join returns all records from the right table and the matched records from the left table.",
+                    "type": "C"
+                },
+                {
+                    "body": "There is no difference; they both return all records from both tables.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7defc7ed-c698-4c47-9146-2c89a91533df",
+                    "questionID": "4dd57050-ab6e-4018-ac03-bc11de4e37f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The key difference between left join and right join is the table from which all records are retained. Left join retains all records from the left table and the matched records from the right table, while right join retains all records from the right table and the matched records from the left table.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f3561134-bb34-4667-a4ab-6b8e00b37b1b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What occurs in the scenario that a SQL query is executed without a join condition",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The query returns only rows where the join condition is not met.",
+                    "type": "A"
+                },
+                {
+                    "body": "The query returns all possible combinations of rows from the joined tables.",
+                    "type": "B"
+                },
+                {
+                    "body": "The query returns only rows where the join condition is met.",
+                    "type": "C"
+                },
+                {
+                    "body": "The query returns an error.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6ea27228-46fa-4a1f-a4c7-904dfd8c4c9f",
+                    "questionID": "f3561134-bb34-4667-a4ab-6b8e00b37b1b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If you don&#39;t specify a join condition, SQL will return all possible combinations of rows from the joined tables, which can result in a large Cartesian product. This is usually not desired and can lead to performance issues.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ab813bc1-76b8-4be7-869e-02e35c5024a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you delete all the rows from a table without deleting the table itself",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DROP TABLE table_name;        ",
+                    "type": "A"
+                },
+                {
+                    "body": "DELETE table_name;        ",
+                    "type": "B"
+                },
+                {
+                    "body": "TRUNCATE TABLE table_name;",
+                    "type": "C"
+                },
+                {
+                    "body": "REMOVE table_name;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "acc5faa5-6f47-492f-9583-9c5e0eac6c18",
+                    "questionID": "ab813bc1-76b8-4be7-869e-02e35c5024a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The TRUNCATE TABLE statement removes all rows from a table without deleting the table itself.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b6b8f2cf-2521-413c-9ba2-89c707797f3a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL statement is used to retrieve records that match a specified pattern",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT ",
+                    "type": "A"
+                },
+                {
+                    "body": "WHERE",
+                    "type": "B"
+                },
+                {
+                    "body": "LIKE",
+                    "type": "C"
+                },
+                {
+                    "body": "PATTERN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "30941bc8-733c-43cc-8404-09f663f23ec0",
+                    "questionID": "b6b8f2cf-2521-413c-9ba2-89c707797f3a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The `LIKE` keyword is used to retrieve records that match a specified pattern.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6cc0800d-7639-420f-9211-99df7a4af3a9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword is used to add multiple rows in a single INSERT statement",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "INSERT        ",
+                    "type": "A"
+                },
+                {
+                    "body": "VALUES",
+                    "type": "B"
+                },
+                {
+                    "body": "INTO",
+                    "type": "C"
+                },
+                {
+                    "body": "BULK",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "156242e9-6d72-429f-80b8-84794e8dc437",
+                    "questionID": "6cc0800d-7639-420f-9211-99df7a4af3a9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The `VALUES` keyword is used to add multiple rows in a single INSERT statement by separating each row with commas.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bb72eb01-ee53-4541-b119-5f03f8c551cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you add a column to an existing table",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ADD COLUMN        ",
+                    "type": "A"
+                },
+                {
+                    "body": "INSERT COLUMN        ",
+                    "type": "B"
+                },
+                {
+                    "body": "ALTER TABLE ADD COLUMN        \n\n[key=D                                                        \nMODIFY TABLE ADD COLUMN",
+                    "type": "C"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ba97775b-314f-47b9-ab5c-e7efef200fb0",
+                    "questionID": "bb72eb01-ee53-4541-b119-5f03f8c551cf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The ALTER TABLE ADD COLUMN statement is used to add a new column to an existing table.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "808e1af3-6f2a-4b44-a73e-b6aafb8640c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you sort the result set of a query in ascending order",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SORT BY           ",
+                    "type": "A"
+                },
+                {
+                    "body": "ORDER BY ASC                   ",
+                    "type": "B"
+                },
+                {
+                    "body": "ORDER BY DESC",
+                    "type": "C"
+                },
+                {
+                    "body": "GROUP BY ASC",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fb8b1d13-e5e4-4f36-af82-399b1935605d",
+                    "questionID": "808e1af3-6f2a-4b44-a73e-b6aafb8640c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The ORDER BY clause sorts the result set in ascending order when used with ASC.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cb422ef4-13bc-494f-9a00-054a453e7b24",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL clause is used to filter records",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "WHERE\n        ",
+                    "type": "A"
+                },
+                {
+                    "body": "ORDER BY        ",
+                    "type": "B"
+                },
+                {
+                    "body": "GROUP BY",
+                    "type": "C"
+                },
+                {
+                    "body": "HAVING",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dc299b99-60cd-4d76-8286-12cf15fc448f",
+                    "questionID": "cb422ef4-13bc-494f-9a00-054a453e7b24",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The WHERE clause is used to filter records based on specific conditions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "99f64241-be51-4955-810b-c232f1582929",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you select all columns from a table named students",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT students FROM *;",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT * FROM students;",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT * IN students;",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT all FROM students;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ac5e7a32-9fad-4bfa-83f2-8f57a7cc736f",
+                    "questionID": "99f64241-be51-4955-810b-c232f1582929",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The * symbol selects all columns from the specified table.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc802968-86d5-436a-8c6d-6cf3fc948e58",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL statement is used to retrieve data from a database",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT",
+                    "type": "A"
+                },
+                {
+                    "body": "INSERT",
+                    "type": "B"
+                },
+                {
+                    "body": "UPDATE",
+                    "type": "C"
+                },
+                {
+                    "body": "DELETE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2ddaca23-b3f7-4607-8999-db4986d56a8e",
+                    "questionID": "fc802968-86d5-436a-8c6d-6cf3fc948e58",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The SELECT statement is used to fetch data from a database.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

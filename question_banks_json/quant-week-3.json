@@ -1,0 +1,2408 @@
+{
+    "bank_id": "d0660f1a-7126-4178-aba8-f443e7b704f7",
+    "bank_name": "quant-week-3",
+    "questions": [
+        {
+            "id": "95036574-525c-4add-b7d9-aea1e39b2f31",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(37, 37, 37);\">Directions: Study the following graph carefully &amp; answer the questions given below it.</span></p><p><span style=\"background-color: transparent; color: rgb(37, 37, 37);\">The pie chart given below shows the break-up of the cost of construction of a house (in degrees). &nbsp; Assuming that the total cost of construction is Rs. 60000</span></p><p><span style=\"background-color: transparent; color: rgb(37, 37, 37);\"><span class=\"ql-cursor\">﻿</span></span><span style=\"background-color: transparent;\"><img src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXd9ubUtbtq-rVUjfYcN6fdSw48dyXvnu79SwWK3j6RpZSBx4TK8Z3rqIzlHbG9Nd5cXzAFQyaZHWvxMpvsJ3RCrPuvjnkONimYv2DyjSuNZgQ_7ZYopxSDr9BQ5HtP2W8vzHql-dZB6zz5Sx4KpF7E?key=nqPMM6fmQ43MabcTN3Kj7Q\" alt=\"image1749234688614.png\" height=\"600\" width=\"604\"></span></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Data Interpretation"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "cd2b4fce-464d-41f0-9581-a9b393bf40ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent;\">The perimeter of rectangle of length 2 (x + 3) cm and breadth 2 (x + 1) cm is double the perimeter of a square of area 225 cm2 . Find the area of rectangle. </span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">728 cm2</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">896 cm2</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">1024 cm2</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">1156 cm2</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Area"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5bab9ecf-4882-42f9-9d43-86b869263d67",
+                    "questionID": "cd2b4fce-464d-41f0-9581-a9b393bf40ed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Area of square = 225 cm2</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Side of square = √225 = 15 cm</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Perimeter of square = 15 × 4 = 60 cm</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">So, perimeter of rectangle = 2 × 60 = 120 cm</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">2 (2 (x + 3) + 2 (x + 1)) = 120</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">2x + 6 + 2x + 2 = 60</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">4x + 8 = 60</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">4x = 52</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">x = 13</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">So, length of rectangle = 2 (13 + 3) = 32 cm</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">And, breadth of rectangle = 2 (13 + 1) = 28 cm</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Therefore, area of rectangle = 32 × 28 = 896 cm2</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Hence, option B is correct.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "48391c23-c75c-433d-8abe-0190bbdc6232",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If the area of square is 256 cm2 and the breadth of rectangle is 20% more and the length is 50% more than the side of the square, then find the ratio of area of square to the area of rectangle.</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">4 : 5 </span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;3 : 4</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">3 : 7</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">5 : 9</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Area"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "940c992d-e0a0-454e-929d-a1d2177c8b82",
+                    "questionID": "48391c23-c75c-433d-8abe-0190bbdc6232",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Area of square = 256 cm2 , Side of square = 16 cm Area of rectangle = l × b Length = 16 × 1.5 = 24 cm Breadth = 16 × 1.2 = 19.2 cm Area of rectangle = 460.8 cm2 Reqd. ratio = 256 = 5 460.8 9 Hence, option D is correct.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf7c0ce9-6195-4c8f-a6d4-ab275c0dd03c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If the length of a rectangle is increased by 25% and the breadth is reduced by 33.33% then what will be the effect on its diagonal(approximately)?&nbsp;</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">7.6%</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">8.33%</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">6%</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>7.33%</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "shapes"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "44d13e58-d4b1-434e-b8df-afb3535c4df2",
+                    "questionID": "cf7c0ce9-6195-4c8f-a6d4-ab275c0dd03c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Let the length of the rectangle = 4 units And breadth of the rectangle = 3 units Then diagonal of the rectangle = √(42 + 32 ) = 5 units According to the question, the length of a rectangle is increased by 25% and the breadth is reduced by 33.33% New length = 125% of 4 units = 5 units New breadth = 66.66% of 3 units = 2 units In the new rectangle, New diagonal= √(52 + 22 ) = √29 = approximately 5.38 units Change = (5.38 – 5) × 100 = 7.6% 5 Hence, option A is correct.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8b9bdcf-e75c-4ae2-82a0-7504278fed69",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">The average weight of five friends P, Q, R, S, and T is (x + 6) kg while the average weight of R and T is (x – 6) kg. If the weight of another person U is also added, then average weight of all of them is reduced by 5 kg. Find the value of ‘x’ if average weight of P, Q, S and U is 94.5 kg.&nbsp;</span></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>74</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>80</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>84</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>90</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>94</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "fc9938f6-8ba1-48c1-ba9e-fde46860f18d",
+                    "questionID": "e8b9bdcf-e75c-4ae2-82a0-7504278fed69",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANS:D</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Total weight of friends P, Q, R, S and T = (x + 6) x 5 = 5 (x + 6) kg So, total weight of P, Q and S = 5 (x + 6) – 2 (x – 6) = (3x + 42) = 3 (x + 14) Weight of U = (x + 6 – 5) × 6 – 5 (x + 6) = 6 (x + 1) – 5 (x + 6) = (x – 24) kg According to the question, [3 (x + 14) + (x – 24)] = 94.5 × 4 4x + 18 = 378 4x = 360; x = 90 Hence, option D is correct.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b496da92-702b-4c0d-aab3-50de3c1315ea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">In a hostel, food is available for 200 students for 50 days. After 10 days, 50 more students join the hostel. For how many more days will the food last?</span></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;42 days</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;32 days</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;30 days</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;40 days</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7a552d96-b770-4fab-8732-d6dfe0011771",
+                    "questionID": "b496da92-702b-4c0d-aab3-50de3c1315ea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANS:B</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Man days for which food is available = 200 × 50 = 10000 Available food is enough for 1 student for 10000 days Food used by 200 students in 10 days = 200 × 10 man days of food = 2000 Man days of food left = 10000 – 2000 = 8000 man days of food Total number of students now = 200 + 50 = 250 Remaining food can be used for 250 students for = 8000/250 days = 32 days&nbsp; Hence, option B is correct.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cc9371d2-2952-47e1-b738-08737c10b4f2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent;\">The average salary of each trainee in an startup is Rs. 90. The average salary of 16 trainees is Rs.708.75 and the average salary of the rest is Rs. 75. How many trainees does the startup have?</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">670</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">676</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">682</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">840</span></p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;None of these</span></p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6d7cb8de-e911-4e78-b6d6-d0b4aa323938",
+                    "questionID": "cc9371d2-2952-47e1-b738-08737c10b4f2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANS:B</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Total salary of trainees = 16 × 708.75 = Rs. 11,340 Let there be x trainees. ∴ Total salary = Rs. (90x) and salary of remaining trainees = Rs. [75(x − 16)] ∴ 90x = 11340 + 75x − 1200 ∴ 15x = 10140 i.e. x = 676 Hence, option B is correct.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bb2d0ed8-479f-40e7-8a6f-2ce1be8e502d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two liquids A and B are in ratio 5:1 in container 1 and in container 2, they are in ratio 1:3. In What ratio the containers should be mixed so that A and B is in the ratio of 2:3 in new mixture.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1: 2",
+                    "type": "A"
+                },
+                {
+                    "body": "9 : 26",
+                    "type": "B"
+                },
+                {
+                    "body": "3:4",
+                    "type": "C"
+                },
+                {
+                    "body": "4:3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "142d9869-7e78-46cc-b927-f2f1def6b672",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A certain amount earns simple interest of Rs. 1750 after 7 years. Had the interest been 2% more, how much more interest would it have earned",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 35\t   ",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 245\t   ",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 350\t",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot be determined \t",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0fa7e7d7-c5f9-4ee3-8360-1b0082cf9441",
+                    "questionID": "142d9869-7e78-46cc-b927-f2f1def6b672",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "We need to know the S.I, principal and time to find the rate. Since the principal is not given, so data is inadequate.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc2995ad-6414-4ae7-89ed-26ebff8ff6c5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A trader buys two articles for Rs. 3000 each article. While selling, he earns a profit of 10% on one and loses 20% on the other. What will be his overall loss percentage",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10%\t\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "20%\t\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "15%\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "5%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "6eb4313c-2ca4-4cc1-a614-08e06d20439a",
+                    "questionID": "fc2995ad-6414-4ae7-89ed-26ebff8ff6c5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The trader buys two articles for Rs. 3000 each.\nThe total cost is Rs. 6000.\nOn selling the first article, he earns a profit of 10%.\nThe selling price of the first article = Rs. 3000 + 10% of Rs. 3000 = Rs. 3300\nOn selling the second article, he incurs a loss of 20%.\nThe selling price of the second article = Rs. 3000 – 20% of Rs. 3000 = Rs. 2400\nThe total selling price of the two articles = Rs. 3300 + Rs. 2400 = Rs. 5700\nThe overall loss = Rs. 6000 – Rs. 5700 = Rs. 300\n The overall loss percentage = (300/6000) x 100 = 5% loss",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b0eb4e2a-c0ab-4075-87df-9e99414a7779",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The cost price of 44 items is the same as the selling price of x items. If the profit is 10%, then what is the value of x",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "55\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "40\t\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "60\t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "50",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e6503716-bd5d-4e45-9023-8582e7bb1a6d",
+                    "questionID": "b0eb4e2a-c0ab-4075-87df-9e99414a7779",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CP of 44 = SP of x\nSP/CP = 44/x\nprofit% = ((44-x)/x)100 = 10\nSo, x = 40",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "771459e4-feae-48b3-94c7-37ebd870fc62",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Of the total amount received by Kiran, 20% was spent on purchases and 5% of the remaining on transportation. If he is left with Rs.1520, the initial amount was",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 1600\t",
+                    "type": "A"
+                },
+                {
+                    "body": "1800\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": " 1900\t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "2000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f18183f2-5705-474f-8b9b-002e9a076dd6",
+                    "questionID": "771459e4-feae-48b3-94c7-37ebd870fc62",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Remaining amount = 95% of (80% of initial amount) = 1520\nSo, Initial amount = 2000",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "438ce05b-7917-42c3-af5e-380ebfa29924",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The difference to two numbers is 20% of the larger number. If the smaller number is 20, then the larger number is:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "50 \t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "25\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "45\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "80",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6841dac3-d059-4985-81ba-b830cb4ab39d",
+                    "questionID": "438ce05b-7917-42c3-af5e-380ebfa29924",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the larger number be 100x\nThen 100x = 20 + 20x\nSo, x = 0.25\nLarger number = 100x = 25",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "622f7c11-a316-4bdf-ab36-68b2d67778eb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A cistern is filled by pipe A in 10 hrs and the full cistern can be leaked out by an exhaust pipe B in 12 hrs. If both the pipes are opened, in what time the cistern is full",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "65 hrs\t",
+                    "type": "A"
+                },
+                {
+                    "body": "30hrs\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "60hrs\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "50hrs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "194860e9-9d90-4d04-9cbb-6baf136a73db",
+                    "questionID": "622f7c11-a316-4bdf-ab36-68b2d67778eb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "required time = 10*12/(12-10) = 60",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8c0bdf9e-97b4-4c86-8ecf-8865c2cae0bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A piece of work can be finished by a certain number of men in 100 days. If, however, there were 10 men less, it would take 10 days more for the work to be finished. How many men were there originally",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "75 \t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "82\t\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "100\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "110",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a711bd86-145b-42b2-8ef9-9ab07a46e0aa",
+                    "questionID": "8c0bdf9e-97b4-4c86-8ecf-8865c2cae0bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use M1D1 = M2D2",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b3783d09-6f67-4766-9723-28cdae8b45c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two numbers, n1 and n2, when divided by 6 leave remainder 2 and 4, respectively. What will be the remainder when n1 – n2 is divided by 6",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "3\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "4\t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "6",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b0f1cb70-c27e-4e20-8dcc-272b46eef732",
+                    "questionID": "b3783d09-6f67-4766-9723-28cdae8b45c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Solution/Hint: n1 = 6x + 2; n2 = 6y + 4\nSo, n1 – n2 = 6(x-y) – 2\nSo, remainder will be – 2 or 4.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "19ba197b-2a48-45b8-86e3-285162d9a632",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "16 men and 12 women can complete a work in 20 days. 18 women can complete the same work in 40 days. In how many days will 12 men 27 women complete the same work?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "16 days\t",
+                    "type": "A"
+                },
+                {
+                    "body": "8 days",
+                    "type": "B"
+                },
+                {
+                    "body": "19 days\t",
+                    "type": "C"
+                },
+                {
+                    "body": "21 days",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "07061ef5-91f8-41ca-b463-571912a811b1",
+                    "questionID": "19ba197b-2a48-45b8-86e3-285162d9a632",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Basic time and work concept",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c804cda0-3d7f-4cd2-9370-8e43a3c20008",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Three taps P, Q and R can fill a tank in 12 hrs, 15 hrs and 20 hrs respectively. If P is open all the time and Q and R are open for one hour each alternately, starting with Q, then the tank will be full in how many hours",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "9 hrs",
+                    "type": "A"
+                },
+                {
+                    "body": "7 hrs",
+                    "type": "B"
+                },
+                {
+                    "body": "13 hrs\t",
+                    "type": "C"
+                },
+                {
+                    "body": "11 hrs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "94c3e7e5-b71f-41a6-896d-d76ee24ca59b",
+                    "questionID": "c804cda0-3d7f-4cd2-9370-8e43a3c20008",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Basic time and work concept",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d42ef4e6-5afd-40e2-b46d-948b450d15d3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Total salary of A, B &amp; C is Rs.350. If they spend 75%, 80% &amp; 56% of their salaries respectively their savings are as 10 : 12 : 33. Find the salary of C",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "80\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "150\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "180\t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "None of These",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1b19edca-a0c5-48ad-8c78-78068f2b9e77",
+                    "questionID": "d42ef4e6-5afd-40e2-b46d-948b450d15d3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A’s saving = 100 – 75 = 25% of his salary. B’s saving = 100 – 80 = 20% of his salary C’s saving = 100 – 56 = 44% of his salary 25/100 of A’s salary : 20/100 of B’s salary : 44/100 of C’s salary = 10 : 12 : 33\nor 25 × A’s salary : 20 × B’s salary : 44 × C’s salary = 10 : 12 : 33\nor 25 × A’s salary / 20 × B’s salary = 10/12\nor A’s salary : B’s salary = 2 : 3,\nB’s salary : C’s salary = 4 : 5\nThus A : B = 2 : 3, B : C = 4 : 5 Now making B common we have\nA : B = 8 : 12, B : C = 12 : 15, or A : B : C = 8 : 12 : 15\nTotal salary = 350 Þ A’s salary = 8 / (8 + 12 + 15) × 350 = 80\nB’s salary = 12 / (8 + 12 + 15) = 120, and C’s Salary = 150",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ca791807-0ec3-4d3f-9e83-f60f6c1964b6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Three friends went for a picnic. First brought five apples and the second brought three. The third friend however brought only Rs.8. What is the share of the first friend",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "8\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "7\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "1\t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "af7e7b52-0866-402e-a944-d417271b6eb9",
+                    "questionID": "ca791807-0ec3-4d3f-9e83-f60f6c1964b6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The number of apples = 8, so the amount eaten by each of the three is 8/3 apples therefore first friend should be paid for 5 – (8/3) and second friend should be paid for 3–(8/3) apples. They should distribute the sum of Rs.8 in ratio 7/3 : 1/3, i.e., 7 : 1",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8f01fbf2-57bd-4ff7-8c70-078ab72382f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In how many years, Rs. 150 will produce the same interest at 6% as Rs. 800 produce in 2 years at 4½%",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4 years\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "6 years\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "8 years\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "9 years",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "021e8cb6-d4a7-4213-aec8-2ef129862242",
+                    "questionID": "8f01fbf2-57bd-4ff7-8c70-078ab72382f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use SI = PRT/100\n150 x 6 x t/100 = 800 x 2 x 4.5/100\nt = 8 years",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "690ef494-e6ab-43b2-874e-5dd6f0637ff4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A lends Rs. 1500 to B and a certain sum to C at the same time at 8% per annum simple interest. If after 4 years, A altogether receives Rs. 1400 as interest from B and C, then the sum lent to C is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 2875                ",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 1885                ",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 2876                ",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 2615",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a07504f7-55a0-47d3-8756-460f9c761c6e",
+                    "questionID": "690ef494-e6ab-43b2-874e-5dd6f0637ff4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Interest from B = PRT/100 = 1500 x 8 x 4/100 = 480\nInterest from C = 1400 – 480 = 920\nSo, 920 = Px8x4/100\nSo, P lent to C = 2875",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aef4fdcb-e587-4663-aa0c-6c5e57c35ede",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Vikram allows two successive discounts of 20% and 10% on the marked price of a book, which is equal to a single discount of Rs. 252. Then how much profit will Vikram get, on that book, if the cost price is Rs. 600",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 72\t\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 56\t\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 48\t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 54",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bd1fee85-90d5-4e54-a9fd-2d9e3e635428",
+                    "questionID": "aef4fdcb-e587-4663-aa0c-6c5e57c35ede",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Effective discount percent for two successive discounts of 20% and 10% = 20 + 10 - 20 x 10/100 = 28% of the marked price.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "19a905a7-4eba-4d84-b679-9e7c8b4f29c5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A person buys three spectacles at the rate of Rs. 4,000 per spectacles. He sells the first spectacles at a profit of 30%, the second spectacles at a loss of 10% and the third spectacles at a loss of 10%. What is the total percentage of profit earned in the whole transaction",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "7.14%\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "2.18%\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "3.33%\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "5.41%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "81f58cfe-90f8-4434-8b21-a7d00ed18123",
+                    "questionID": "19a905a7-4eba-4d84-b679-9e7c8b4f29c5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Selling Price = Cost Price + profit",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "900d5c87-ab62-43bc-8f6d-f833fd099e16",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an election between two candidates, 65% of the voters cast their votes, out of which 3% of the votes were decided to be invalid. A candidate got 81,965 votes, which is 65% of the total valid votes. What is the total number of votes enrolled in that election",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2,00,000\t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "1,90,000\t",
+                    "type": "B"
+                },
+                {
+                    "body": "2,15,000\t",
+                    "type": "C"
+                },
+                {
+                    "body": "1,85,000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5df027e0-266e-4cb5-8754-0e9b513897e7",
+                    "questionID": "900d5c87-ab62-43bc-8f6d-f833fd099e16",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the total number of voters registered be 100x\nCasted votes = 65x\nValid votes = 97% of 65x\n A candidate got 81965 votes which are 65% of the total valid votes.\nSo, 65% of 97% of 65x = 81965\nSo, x = 2000\nTotal votes = 200000",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a4661904-b35b-4223-ac13-a006bdcbc324",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If x is the 90% of y, then what % of x is y",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "11.11% \t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "90.9 \t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "111.11% \t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "190%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2ba348cd-f83b-486c-a8a6-ea27aa6c8217",
+                    "questionID": "a4661904-b35b-4223-ac13-a006bdcbc324",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "y = 100, x = 90\nRequired percentage = (100/90) x 100 = 111.11%",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1ca6d8c5-9dfc-4742-ba76-980aa6b68ce2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the value of A+L+G. (Infosys)\n       DONALD  + GERALD =  ROBERT\n(Each letter represents a unique digit. D, G, R cannot be 0.)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10",
+                    "type": "A"
+                },
+                {
+                    "body": "11",
+                    "type": "B"
+                },
+                {
+                    "body": "12",
+                    "type": "C"
+                },
+                {
+                    "body": "13",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d55b5927-265a-4f5b-b126-706f15828884",
+                    "questionID": "1ca6d8c5-9dfc-4742-ba76-980aa6b68ce2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This is a famous cryptarithmetic puzzle. One commonly accepted solution for this puzzle assigns the following unique digits to the letters: D=5, O=2, N=6, A=4, L=8, G=1, E=9, R=7, B=3, T=0. Use these values to find the sum of A+L+G.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "af6a8c0c-6daf-4d7e-8319-669a3b8866bb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many kilograms of sugar costing Rs. 10 per kg must be mixed with 20 kg of sugar costing Rs. 15 per kg so that by selling the mixture at Rs. 14 per kg, there is a gain of 16.6 %",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10 kg",
+                    "type": "A"
+                },
+                {
+                    "body": "12 kg",
+                    "type": "B"
+                },
+                {
+                    "body": "15 kg",
+                    "type": "C"
+                },
+                {
+                    "body": "18 kg",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "228ad4b5-767c-4bcc-992d-8fd18145a9d7",
+                    "questionID": "af6a8c0c-6daf-4d7e-8319-669a3b8866bb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "First, determine the Cost Price (CP) of the mixture. apply the alligation rule",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "21fbc798-ef1b-475d-a721-4c270a274742",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A container contains 40 liters of milk. From this container, 4 liters of milk was taken out and replaced by water. This process was repeated two more times. How much milk is now in the container",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "25.92 liters",
+                    "type": "A"
+                },
+                {
+                    "body": "26.24 liters",
+                    "type": "B"
+                },
+                {
+                    "body": "27.84 liters",
+                    "type": "C"
+                },
+                {
+                    "body": "29.16 liters",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ab616ae7-9cf7-4298-8c3e-b218d052eeb0",
+                    "questionID": "21fbc798-ef1b-475d-a721-4c270a274742",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the formula of replacement",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e115c773-4d0b-4d8d-95a8-d06165a8e0c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Rs. 1200 is invested for 3 years at simple interest. If the rate of interest is increased by 2%, how much more interest will be earned",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 64",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 72",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 80",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 96",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "43de1632-f959-4ace-b271-2407841f792f",
+                    "questionID": "e115c773-4d0b-4d8d-95a8-d06165a8e0c7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The additional interest earned is simply due to the 2% increase in rate. Calculate SI \nextra = P×(extra R)×T/100",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b70edac-9abd-45ce-9c25-a3dd0ffb7eb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A man borrowed a total of Rs. 10,000, part of it at 10% simple interest and the remaining at 12% simple interest. If the total interest paid after 3 years was Rs. 3360, how much did he borrow at 10%",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 4000",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 5000",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 6000",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 7000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c0584a04-b3c1-45d9-84f7-5e374bf007c5",
+                    "questionID": "3b70edac-9abd-45ce-9c25-a3dd0ffb7eb8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the amount borrowed at 10% be x. Then the amount borrowed at 12% will be (10000−x). Set up an equation for the total simple interest (SI= P×R×T/100) from both parts, which sums to Rs. 3360.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eedc13b3-dff1-4baf-9b50-e2cc89be899f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A certain sum of money amounts to Rs. 10,080 in 5 years and to Rs. 11,648 in 7 years at simple interest. Find the sum and the rate of interest.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 6000, 10%",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 6400, 10%",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 6400, 12%",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 7000, 11%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4a76a221-86f8-48db-b748-eefd405ecf41",
+                    "questionID": "eedc13b3-dff1-4baf-9b50-e2cc89be899f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The difference in the amounts over the difference in years gives the simple interest for one year. Use this annual interest to find the principal (sum) from either of the given amounts and periods. Then calculate the rate of interest.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2928dd71-874a-4b71-a7d6-1382b92f2ed8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A sum of money is to be distributed among A, B, C, and D in the proportion 5:2:4:3. If C gets Rs. 1000 more than D, what is B&#39;s share",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 2000",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 2500",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 3000",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 4000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3bf36135-1d0e-4b2e-9332-6790f1926c4d",
+                    "questionID": "2928dd71-874a-4b71-a7d6-1382b92f2ed8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the common factor for the shares be x. The shares are 5x,2x,4x,3x. The difference between C&#39;s and D&#39;s share is given as Rs. 1000. Use this to find the value of x.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c164134f-adec-4fd3-9a8c-8273acfa0f9f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two vessels contain milk and water mixed in the ratio 5:3 and 2:3 respectively. In what ratio must these two mixtures be mixed to obtain a new mixture in which the ratio of milk to water is 1:1",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2:5",
+                    "type": "A"
+                },
+                {
+                    "body": "3:7",
+                    "type": "B"
+                },
+                {
+                    "body": "4:9",
+                    "type": "C"
+                },
+                {
+                    "body": "5:8",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f992c455-a717-40d8-a331-af90a3b22271",
+                    "questionID": "c164134f-adec-4fd3-9a8c-8273acfa0f9f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "apply the alligation rule.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "56ce8eeb-943b-4179-a2ac-eb86e80ad5f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a:b=2:3, b:c=4:5, and c:d=6:7, then what is a:d",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "16:35",
+                    "type": "A"
+                },
+                {
+                    "body": "24:35",
+                    "type": "B"
+                },
+                {
+                    "body": "32:45",
+                    "type": "C"
+                },
+                {
+                    "body": "48:70",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c91075ec-dfbc-46ef-b7ec-2aa7573372d3",
+                    "questionID": "56ce8eeb-943b-4179-a2ac-eb86e80ad5f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Scaling method",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7625d788-89d6-4c84-9a43-6a76bccbe02a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A trader allows a 20% discount on the marked price of an article and still makes a profit of 25%. If he gains Rs. 360 on the sale, what is the marked price of the article",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 2000",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 2160",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 2250",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 2500",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2b462d11-c130-4808-bf2c-de2181556ef1",
+                    "questionID": "7625d788-89d6-4c84-9a43-6a76bccbe02a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the profit amount (Rs. 360) and profit percentage (25%) to find the Cost Price (CP). Then calculate the Selling Price (SP). Since SP is the marked price minus a 20% discount, work backward to find the marked price.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f010ce9e-cba5-4c98-b5be-8f1fff7a3722",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "By selling an article for Rs. 480, a person loses 20%. To make a profit of 20%, at what price should he sell it",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 680",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 720",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 750",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 800",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "111d29e9-c873-448b-8f47-78278101959e",
+                    "questionID": "f010ce9e-cba5-4c98-b5be-8f1fff7a3722",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If Rs. 480 represents 80% of the Cost Price (CP), first calculate the CP. Then, calculate 120% of that CP to find the desired selling price.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32b04d1c-ef2c-4b35-be09-9eca77f8a1e1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A dishonest dealer claims to sell his goods at cost price but uses a weight of 900 grams for 1 kg. Find his profit percentage",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "9 1/11 %",
+                    "type": "A"
+                },
+                {
+                    "body": "10%",
+                    "type": "B"
+                },
+                {
+                    "body": "11 1/9 %",
+                    "type": "C"
+                },
+                {
+                    "body": "12.5%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "110b3ada-4d86-45fe-a55a-dacc24aae590",
+                    "questionID": "32b04d1c-ef2c-4b35-be09-9eca77f8a1e1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The dealer sells 900 grams but charges for 1000 grams. His profit is the difference in weight (100 grams) divided by the actual weight sold (900 grams), expressed as a percentage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "62cdd3b2-da15-42d5-aab1-0bcec6aad06c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A car&#39;s value depreciates by 15% in the first year, 10% in the second year, and 5% in the third year. If its value after 3 years is Rs. 1,22,400, what was its original value",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 1,50,000",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 1,75,000",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 1,90,000",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 2,00,000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "18afb821-7b88-44d7-9a71-1b73f2bde30b",
+                    "questionID": "62cdd3b2-da15-42d5-aab1-0bcec6aad06c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the original value be X. The value after depreciation can be calculated as X×(1−0.15)×(1−0.10)×(1−0.05). Set this equal to Rs. 1,22,400 and solve for X.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "27cf81e3-036a-410e-81bc-19e29560fd37",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an examination, 30% of the students failed in Mathematics, 20% failed in English, and 10% failed in both. If 400 students passed in both subjects, what is the total number of students who appeared for the exam",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "600",
+                    "type": "A"
+                },
+                {
+                    "body": "750",
+                    "type": "B"
+                },
+                {
+                    "body": "800",
+                    "type": "C"
+                },
+                {
+                    "body": "1000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "cc43fb9a-9a57-41ec-964c-21c1528ab369",
+                    "questionID": "27cf81e3-036a-410e-81bc-19e29560fd37",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the principle of inclusion-exclusion to find the percentage of students who failed in at least one subject: P(Math or English)=P(Math)+P(English)−P(Math and English). The remaining percentage represents those who passed in both.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cbcae3da-d56b-4d05-82f4-ada211412f8e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A shopkeeper marks his goods 40% above the cost price. He allows a discount of 25% on the marked price. If his sales volume drops by 10% due to the discount, what is his overall percentage change in profit",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2.5% increase",
+                    "type": "A"
+                },
+                {
+                    "body": "3.5% decrease",
+                    "type": "B"
+                },
+                {
+                    "body": "4.5% increase",
+                    "type": "C"
+                },
+                {
+                    "body": "5% decrease",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c6242862-6e2b-4234-9c83-250f2085748b",
+                    "questionID": "cbcae3da-d56b-4d05-82f4-ada211412f8e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Assume the cost price (CP) per unit is Rs. 100 and initial sales quantity is 100 units. Calculate initial total profit. Then calculate the selling price (SP) per unit after the discount. Calculate the new total profit based on the reduced sales quantity and find the percentage change.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2a5cf71d-1ab6-434e-9e6d-4291aebb81c5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the value of S. (Infosys)\n      SEND  + MORE =   MONEY\n(Each letter represents a unique digit. S and M cannot be 0.)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "9",
+                    "type": "A"
+                },
+                {
+                    "body": "8",
+                    "type": "B"
+                },
+                {
+                    "body": "1",
+                    "type": "C"
+                },
+                {
+                    "body": "3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cf128dc0-6cf6-47a8-aedd-7331cff06098",
+                    "questionID": "2a5cf71d-1ab6-434e-9e6d-4291aebb81c5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The most common solution to this puzzle leads to M=1, S=9, O=0, N=6, E=5, R=8, D=7, Y=2.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aa098815-757c-429d-846b-bd28db76c198",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two containers P and Q contain orange juice and water mixed in the ratio 7:3 and 3:1 respectively. The ratio in which these two mixtures be mixed to get a new mixture containing 73% orange juice is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1:2",
+                    "type": "A"
+                },
+                {
+                    "body": "2:3",
+                    "type": "B"
+                },
+                {
+                    "body": "3:4",
+                    "type": "C"
+                },
+                {
+                    "body": "4:5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "53951408-1f0a-45ce-beef-009c5146d275",
+                    "questionID": "aa098815-757c-429d-846b-bd28db76c198",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Find the proportion of orange juice in each container. Use the alligation rule with the target proportion (73%) to find the mixing ratio.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "92a11ba6-eeac-426d-81c5-dbf9aff18fe8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A sum of Rs. 800 is lent in the beginning of a year at a certain rate of interest. After 6 months, a sum of Rs. 400 more is lent but at a rate twice the former. At the end of the year, Rs. 60 is earned as interest from both the loans. What was the original rate of interest",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "5%",
+                    "type": "A"
+                },
+                {
+                    "body": "6%",
+                    "type": "B"
+                },
+                {
+                    "body": "7.5%",
+                    "type": "C"
+                },
+                {
+                    "body": "8%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3be3a84e-7762-4fd4-a04d-7e6130182488",
+                    "questionID": "92a11ba6-eeac-426d-81c5-dbf9aff18fe8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calculate interest for the first loan for 1 year, and for the second loan for 6 months at twice the rate. Sum both interests to 60.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4dbbd1c7-063e-4864-9c36-8a18a38e4a2d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What amount would a man receive on a principal of Rs. 12,000 after three years at simple interest at the rate of 6 percent per annum",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 14,160",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 14,320",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 14,580",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 14,700",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "905818bd-3537-403c-bff4-6e4b6101bbef",
+                    "questionID": "4dbbd1c7-063e-4864-9c36-8a18a38e4a2d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calculate the Simple Interest",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1afc412f-5ab6-4ae1-8b10-5135974f3095",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A sum of Rs. 4500 is invested in a simple interest scheme. The rate of interest is 8 percent per annum. If Rs. 1350 interest is obtained, then for how many months is the sum invested",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "40 months",
+                    "type": "A"
+                },
+                {
+                    "body": "42 months",
+                    "type": "B"
+                },
+                {
+                    "body": "45 months",
+                    "type": "C"
+                },
+                {
+                    "body": "48 months",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f8aab453-b06f-4369-a80d-5f81ebe63131",
+                    "questionID": "1afc412f-5ab6-4ae1-8b10-5135974f3095",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the formula SI= P×R×T/100",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3ad7fbe9-b52c-4eab-981f-11eef2ece8b7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What should be added to each of the numbers 7, 10, 16, 22 so that the resulting numbers should be in proportion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5343805d-072d-4d98-9b90-2134fc6b3831",
+                    "questionID": "3ad7fbe9-b52c-4eab-981f-11eef2ece8b7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the number to be added be x. Set up the proportion:  \n10+x/7+x = 22+x/16+x",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5b47a354-d5a0-4f25-a5f2-dd536ef78ed3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A garrison has provisions for a certain number of men for 90 days. If after 20 days 200 men leave, and the food then lasts for 140 days, how many men were originally in the garrison",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "300",
+                    "type": "A"
+                },
+                {
+                    "body": "400",
+                    "type": "B"
+                },
+                {
+                    "body": "500",
+                    "type": "C"
+                },
+                {
+                    "body": "600",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bd89d2c5-310e-498e-87e9-e139d14a81d5",
+                    "questionID": "5b47a354-d5a0-4f25-a5f2-dd536ef78ed3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The remaining food (after 20 days) for the original number of men is equal to the food for the remaining men for 140 days. Let x be the original number of men. So, x×(90−20)=(x−200)×140.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "803c254d-e55e-4e60-9194-070076313d7e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two numbers are in the ratio 7 : 11. If both numbers are increased by 60, then their ratio becomes 3 : 4. What is the difference between the two numbers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "36",
+                    "type": "A"
+                },
+                {
+                    "body": "40",
+                    "type": "B"
+                },
+                {
+                    "body": "44",
+                    "type": "C"
+                },
+                {
+                    "body": "48",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "690c9a19-e770-4677-aa13-af6e1632042d",
+                    "questionID": "803c254d-e55e-4e60-9194-070076313d7e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the numbers be 7x and 11x. Set up the proportion  \n11x+60/7x+60 = 4/3",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95fc16c8-d042-4c3c-8c29-feb53d2396c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a : b = 4 : 7 and a : c = 3 : 5, then what is the value of 2a : 3b : 4c",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "24 : 63 : 80",
+                    "type": "A"
+                },
+                {
+                    "body": "18 : 40 : 27",
+                    "type": "B"
+                },
+                {
+                    "body": "10 : 5 : 4",
+                    "type": "C"
+                },
+                {
+                    "body": "9 : 5 : 4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e6c74370-345c-4b41-9952-745d41528d1f",
+                    "questionID": "95fc16c8-d042-4c3c-8c29-feb53d2396c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "First, find the combined ratio a : b : c by making the &#39;a&#39; component common. Then, substitute these relative values into the expression 2a:3b:4c.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8f75ed6-088e-4111-9771-9e1ea6c2269b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A vendor sells an article at a loss of 30%. Had he sold the article for Rs. 90 more, he would have suffered a loss of 15%. To earn a profit of 20%, what should be the selling price of the article",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 540",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 600",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 640",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 720",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "5eb9dfa4-3f86-49ae-83bb-5d8b27746f54",
+                    "questionID": "d8f75ed6-088e-4111-9771-9e1ea6c2269b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The difference of Rs. 90 represents the difference between a 30% loss and a 15% loss relative to the cost price (CP). So, 15% of CP = 90.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8a806a9a-a7f0-4c20-9f7e-a590511a54a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the single equivalent discount of 15% and 25%",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "36.25%",
+                    "type": "A"
+                },
+                {
+                    "body": "37.5%",
+                    "type": "B"
+                },
+                {
+                    "body": "38.75%",
+                    "type": "C"
+                },
+                {
+                    "body": "40%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8da105b6-b9ad-45de-a402-8becd3f98531",
+                    "questionID": "8a806a9a-a7f0-4c20-9f7e-a590511a54a0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the formula for successive discounts",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7d7f41d6-d636-4f04-a6f6-1b5ae477585b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The price of 12 pens is 15% more than the price of 6 notebooks. If the price of 3 notebooks is Rs. 900, then what is the price of 12 pens",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 1890",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 1950",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 2070",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 2160",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5f9372ae-ce08-42ea-9f28-6189f2432b81",
+                    "questionID": "7d7f41d6-d636-4f04-a6f6-1b5ae477585b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calculate the price of 6 notebooks first, then add 15% to that value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e2450f0a-1bdd-4f19-9492-10a2d5b0e22c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If the price of cooking oil is increased by 25%, by how much percent must a family reduce its consumption to maintain the same expenditure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "20%",
+                    "type": "A"
+                },
+                {
+                    "body": "22%",
+                    "type": "B"
+                },
+                {
+                    "body": "24%",
+                    "type": "C"
+                },
+                {
+                    "body": "25%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c87dc75f-04a0-4ffc-aa67-320520935f1f",
+                    "questionID": "e2450f0a-1bdd-4f19-9492-10a2d5b0e22c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the formula: Percentage reduction = [Increase percentage/100+Increase percentage]×100.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b24660f-d4c0-46af-9ba9-aa96abc2261a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an election contested by three candidates, they received 2500, 4500, and 13000 votes respectively. What percentage of the total votes did the winning candidate get",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "60%",
+                    "type": "A"
+                },
+                {
+                    "body": "65%",
+                    "type": "B"
+                },
+                {
+                    "body": "70%",
+                    "type": "C"
+                },
+                {
+                    "body": "75%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7b65c0f8-8999-4c18-bf9f-0b5076f1adca",
+                    "questionID": "3b24660f-d4c0-46af-9ba9-aa96abc2261a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "First, find the total number of votes. Then, identify the winning candidate&#39;s votes and calculate their percentage of the total.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c21a51fe-884b-4de8-acf2-a6396217286e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a school, 70% of the students passed an annual exam, and 270 students failed. How many students appeared for the exam",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "810",
+                    "type": "A"
+                },
+                {
+                    "body": "900",
+                    "type": "B"
+                },
+                {
+                    "body": "1080",
+                    "type": "C"
+                },
+                {
+                    "body": "1200",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "274013da-c6f9-4b6d-96de-2c6ac32d2be4",
+                    "questionID": "c21a51fe-884b-4de8-acf2-a6396217286e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If 70% passed, then 30% failed. Use this percentage to find the total number of students.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1706 @@
+{
+    "bank_id": "b9253034-ea16-4dab-96a3-e06d708e085f",
+    "bank_name": "Ds-group-Ai/Ml",
+    "questions": [
+        {
+            "id": "875904d0-32c1-4e06-b42c-aac7beb1727e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes “cognitive automation”?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Automating Java applications",
+                    "type": "A"
+                },
+                {
+                    "body": "Using AI to make bots context-aware",
+                    "type": "B"
+                },
+                {
+                    "body": "Automating only structured processes",
+                    "type": "C"
+                },
+                {
+                    "body": "Applying SQL inside bots",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "8cfeb89a-f838-4669-882f-15f6fa5e511e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An HR department uses RPA + NLP to read resumes and shortlist candidates. What task is NLP solving here?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Predicting performance",
+                    "type": "A"
+                },
+                {
+                    "body": "Filling forms",
+                    "type": "B"
+                },
+                {
+                    "body": "Parsing and extracting text entities",
+                    "type": "C"
+                },
+                {
+                    "body": "Logging activity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "8f450613-100b-466e-9dac-117c5828964d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which cloud service is best known for offering RPA + AI/ML services together?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "AWS SageMaker only",
+                    "type": "A"
+                },
+                {
+                    "body": "Azure Logic Apps",
+                    "type": "B"
+                },
+                {
+                    "body": "Azure AI + Power Automate",
+                    "type": "C"
+                },
+                {
+                    "body": "GitHub",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "0d207eb0-3638-4b42-999e-32a9637d8ceb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the MLOps pipeline, which stage handles model monitoring and retraining?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deployment",
+                    "type": "A"
+                },
+                {
+                    "body": "Feature extraction",
+                    "type": "B"
+                },
+                {
+                    "body": "Training",
+                    "type": "C"
+                },
+                {
+                    "body": "Maintenance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "0502e13b-ba5f-4310-8f71-55978594bde9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a good application of RPA with computer vision?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reading JSON APIs",
+                    "type": "A"
+                },
+                {
+                    "body": "Classifying scanned receipts",
+                    "type": "B"
+                },
+                {
+                    "body": "Monitoring URL traffic",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting filenames",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "ae35944a-9ab7-4005-89ab-28e1ca70aeec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does SHAP explain in a machine learning model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "Data imbalance",
+                    "type": "B"
+                },
+                {
+                    "body": "Feature importance impact",
+                    "type": "C"
+                },
+                {
+                    "body": "Confusion matrix",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "0db2a04c-bb8e-40fe-be18-a4b0f561222b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the role of LangChain in integrating AI agents with workflows?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Visualize ML metrics",
+                    "type": "A"
+                },
+                {
+                    "body": "Deploy CNNs on mobile",
+                    "type": "B"
+                },
+                {
+                    "body": "Manage vector databases",
+                    "type": "C"
+                },
+                {
+                    "body": "Orchestrate LLM-based task pipelines",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "cce7ce36-a926-4e1c-ba90-f523d4ca299c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which concept allows LLMs like GPT to retrieve external knowledge at runtime?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Backpropagation",
+                    "type": "A"
+                },
+                {
+                    "body": "Dropout",
+                    "type": "B"
+                },
+                {
+                    "body": "Retrieval-Augmented Generation (RAG)",
+                    "type": "C"
+                },
+                {
+                    "body": "One-hot Encoding",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1dc3b1ed-84e4-4499-953b-17063dc5866d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does a chatbot powered by GPT-4 differ from a rule-based RPA bot?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Uses hardcoded scripts",
+                    "type": "A"
+                },
+                {
+                    "body": "Cannot adapt to unseen inputs",
+                    "type": "B"
+                },
+                {
+                    "body": "Learns from historical behavior and prompts",
+                    "type": "C"
+                },
+                {
+                    "body": "Requires direct desktop automation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "39832f27-57af-43b7-a6a7-03bb210d9508",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which deep learning model architecture is most used in document classification and question answering systems?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "GAN",
+                    "type": "A"
+                },
+                {
+                    "body": "CNN",
+                    "type": "B"
+                },
+                {
+                    "body": "RNN",
+                    "type": "C"
+                },
+                {
+                    "body": "Transformer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "9fb975ec-f814-4aec-97fd-7f36cf1c5a67",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A company wants to use RPA and ML to flag suspicious transactions. What type of ML is best suited?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unsupervised clustering",
+                    "type": "A"
+                },
+                {
+                    "body": "Regression",
+                    "type": "B"
+                },
+                {
+                    "body": "Supervised classification",
+                    "type": "C"
+                },
+                {
+                    "body": "Reinforcement learning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "93b098de-dad0-463b-b147-e05436589092",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is the most suitable use case for integrating ML with RPA?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Logging into ERP",
+                    "type": "A"
+                },
+                {
+                    "body": "Reading structured Excel data",
+                    "type": "B"
+                },
+                {
+                    "body": "Classifying customer sentiment from emails",
+                    "type": "C"
+                },
+                {
+                    "body": "Filling static forms",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "ffdcf22a-32bb-4051-b20c-94c1be72c813",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does “intelligent automation” refer to in the context of RPA?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Writing code in bots",
+                    "type": "A"
+                },
+                {
+                    "body": "Replacing RPA with humans",
+                    "type": "B"
+                },
+                {
+                    "body": "Adding AI/ML capabilities to traditional RPA",
+                    "type": "C"
+                },
+                {
+                    "body": "Developing mobile apps using bots",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b6eaf0a2-4b28-4be3-ad43-cc0e214f11f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In customer service automation, which AI technique is used for understanding text-based queries?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reinforcement learning",
+                    "type": "A"
+                },
+                {
+                    "body": "Clustering",
+                    "type": "B"
+                },
+                {
+                    "body": "Convolutional networks",
+                    "type": "C"
+                },
+                {
+                    "body": "Natural Language Processing (NLP)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "5c6bfa1d-66e7-4f37-a095-ab0a813bd362",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which technique enables RPA to extract information from unstructured documents like invoices?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Web scraping",
+                    "type": "A"
+                },
+                {
+                    "body": "SQL queries",
+                    "type": "B"
+                },
+                {
+                    "body": "Regular expressions",
+                    "type": "C"
+                },
+                {
+                    "body": "Optical Character Recognition (OCR)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section C"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "02744fcf-a981-459b-83fc-ae17ad414d6d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of GridSearchCV?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hyperparameter tuning",
+                    "type": "A"
+                },
+                {
+                    "body": "Dimensionality reduction",
+                    "type": "B"
+                },
+                {
+                    "body": "Feature extraction",
+                    "type": "C"
+                },
+                {
+                    "body": "Model ensembling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "3ab57695-f6e9-47c8-b499-476d1022fa1c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which ML library is best suited for quick prototyping?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "TensorFlow",
+                    "type": "A"
+                },
+                {
+                    "body": "Scikit-learn",
+                    "type": "B"
+                },
+                {
+                    "body": "OpenCV",
+                    "type": "C"
+                },
+                {
+                    "body": "LangChain",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1e9ffecf-3306-4f4d-8292-3a3c0d52bf67",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does dropout help prevent in a neural network?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Underfitting",
+                    "type": "A"
+                },
+                {
+                    "body": "Overfitting",
+                    "type": "B"
+                },
+                {
+                    "body": "Gradient vanishing",
+                    "type": "C"
+                },
+                {
+                    "body": "Low accuracy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "91553eea-3cbf-44f3-bd7a-6a79b34d8ca7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which optimization algorithm is most commonly used in deep learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Newton-Raphson",
+                    "type": "A"
+                },
+                {
+                    "body": "Naive Bayes",
+                    "type": "B"
+                },
+                {
+                    "body": "Adam",
+                    "type": "C"
+                },
+                {
+                    "body": "SVM",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "5e215b44-e099-42c7-a68f-7119b9ce4878",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the range of the sigmoid activation function?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "(-∞, +∞)",
+                    "type": "A"
+                },
+                {
+                    "body": "(0, 1)",
+                    "type": "B"
+                },
+                {
+                    "body": "(−1, 1)",
+                    "type": "C"
+                },
+                {
+                    "body": "(0, ∞)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b2c51054-0c77-4fc6-8758-4d40cc37e494",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is backpropagation used for in neural networks?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reducing input features",
+                    "type": "A"
+                },
+                {
+                    "body": "Updating weights based on error",
+                    "type": "B"
+                },
+                {
+                    "body": "Increasing learning rate",
+                    "type": "C"
+                },
+                {
+                    "body": "Preprocessing data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b2a661c4-f34e-4db9-a8a1-fae7e4e2f4c1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does ReLU stand for?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rectified Linear Unit",
+                    "type": "A"
+                },
+                {
+                    "body": "Reduced Loss Unit",
+                    "type": "B"
+                },
+                {
+                    "body": "Randomized Learning Unit",
+                    "type": "C"
+                },
+                {
+                    "body": "Relative Learning Utility",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "5f5c211c-7a64-4194-83c9-a4e1f8344fb3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a deep learning framework?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "TensorFlow",
+                    "type": "A"
+                },
+                {
+                    "body": "Scikit-learn",
+                    "type": "B"
+                },
+                {
+                    "body": "PyTorch",
+                    "type": "C"
+                },
+                {
+                    "body": "Keras",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "3a83778b-aa03-4cf6-aa0e-873035d6e898",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a random forest, what is “bagging”?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Using the same features across all trees",
+                    "type": "A"
+                },
+                {
+                    "body": "Boosting a weak learner",
+                    "type": "B"
+                },
+                {
+                    "body": "Training on random subsets of data",
+                    "type": "C"
+                },
+                {
+                    "body": "Combining multiple outputs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "f05f0488-0be6-4df6-aa19-5d3821add8b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does a confusion matrix represent?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Feature correlation",
+                    "type": "A"
+                },
+                {
+                    "body": "Classification performance",
+                    "type": "B"
+                },
+                {
+                    "body": "Data distribution",
+                    "type": "C"
+                },
+                {
+                    "body": "Clustering accuracy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4c3bb151-2ff5-4a9c-be1a-261fabedb386",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does PCA do?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Normalizes the data",
+                    "type": "A"
+                },
+                {
+                    "body": "Reduces feature dimensions",
+                    "type": "B"
+                },
+                {
+                    "body": "Builds models",
+                    "type": "C"
+                },
+                {
+                    "body": "Encodes target variable",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "10002889-cb82-493d-8c9a-78f2fd21a920",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is regularization used for?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increasing accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "Preventing overfitting",
+                    "type": "B"
+                },
+                {
+                    "body": "Data normalization",
+                    "type": "C"
+                },
+                {
+                    "body": "Creating decision boundaries",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "594ff431-5f5c-466e-89f5-4babb283ae6a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which algorithm is most suitable for spam detection?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "K-means",
+                    "type": "A"
+                },
+                {
+                    "body": "Linear Regression",
+                    "type": "B"
+                },
+                {
+                    "body": "Naive Bayes",
+                    "type": "C"
+                },
+                {
+                    "body": "PCA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6e74a365-b5f3-40ee-b10a-bd279ac56c75",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary function of a loss function?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To evaluate test accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "To measure model error during training",
+                    "type": "B"
+                },
+                {
+                    "body": "To split the dataset",
+                    "type": "C"
+                },
+                {
+                    "body": "To preprocess input features",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4c0bfcd7-745e-42c3-8685-8a2212ac70ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method is used for feature scaling?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Label Encoding",
+                    "type": "A"
+                },
+                {
+                    "body": "Min-Max Normalization",
+                    "type": "B"
+                },
+                {
+                    "body": "One-hot Encoding",
+                    "type": "C"
+                },
+                {
+                    "body": "PCA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "ee2500e6-4338-4329-b98d-0ccb1aa302c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which scenario is k-NN most suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "High-dimensional sparse data",
+                    "type": "A"
+                },
+                {
+                    "body": "Text generation",
+                    "type": "B"
+                },
+                {
+                    "body": "Small datasets with low noise",
+                    "type": "C"
+                },
+                {
+                    "body": "Real-time prediction",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3eb8f258-3407-42dd-91b7-1dbc2fb9b92a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the “bias-variance trade-off” address?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Model generalization",
+                    "type": "A"
+                },
+                {
+                    "body": "Learning rate optimization",
+                    "type": "B"
+                },
+                {
+                    "body": "Neural network depth",
+                    "type": "C"
+                },
+                {
+                    "body": "Feature normalization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "e0bde2ca-647b-4ba3-a152-bf33fa39c13d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which evaluation metric is best for imbalanced binary classification?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "F1-Score",
+                    "type": "B"
+                },
+                {
+                    "body": "MAE",
+                    "type": "C"
+                },
+                {
+                    "body": "MSE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "cf7720d4-02d7-49c9-946b-3552f13fbdff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does overfitting mean in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The model performs well on test data but poorly on training data",
+                    "type": "A"
+                },
+                {
+                    "body": "The model memorizes training data and fails on unseen data",
+                    "type": "B"
+                },
+                {
+                    "body": "The model is too simple",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "727b47f2-f5aa-4768-a4c8-1228605c0079",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a supervised learning algorithm?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "K-means",
+                    "type": "A"
+                },
+                {
+                    "body": "Apriori",
+                    "type": "B"
+                },
+                {
+                    "body": "Decision Tree",
+                    "type": "C"
+                },
+                {
+                    "body": "PCA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section B"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "a38858f5-6c41-4e64-b89f-8c18a211b744",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which action is typically performed in the RPA design phase?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bot monitoring",
+                    "type": "A"
+                },
+                {
+                    "body": "Workflow creation",
+                    "type": "B"
+                },
+                {
+                    "body": "Bot scheduling",
+                    "type": "C"
+                },
+                {
+                    "body": "Error log review",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "60eae2b6-63b9-4ee2-93de-f0f15dadda49",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the major limitation of traditional RPA tools?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "High memory usage",
+                    "type": "A"
+                },
+                {
+                    "body": "Lack of cognitive abilities",
+                    "type": "B"
+                },
+                {
+                    "body": "Cloud incompatibility",
+                    "type": "C"
+                },
+                {
+                    "body": "No scheduling feature",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "7e34bafb-735e-4122-8d0d-3f337c4ceaad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does “Citrix automation” deal with in RPA?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Building ML models",
+                    "type": "A"
+                },
+                {
+                    "body": "Automating virtual desktop applications",
+                    "type": "B"
+                },
+                {
+                    "body": "Creating dashboards",
+                    "type": "C"
+                },
+                {
+                    "body": "Managing servers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "15963b75-1882-4e70-aff0-1acbaa00dd40",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a bot type in RPA?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Attended",
+                    "type": "A"
+                },
+                {
+                    "body": "Passive",
+                    "type": "B"
+                },
+                {
+                    "body": "Unattended",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "870813e7-bb02-4584-895d-87369f7c20cd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the function of a “Recorder” in UiPath?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Captures user actions for automation",
+                    "type": "A"
+                },
+                {
+                    "body": "Monitors network traffic",
+                    "type": "B"
+                },
+                {
+                    "body": "Logs errors",
+                    "type": "C"
+                },
+                {
+                    "body": "Executes only unattended bots",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "9ce47e31-195b-4ee9-9764-e4a4c678e4dd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the term “workflow” in RPA mean?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A type of bot",
+                    "type": "A"
+                },
+                {
+                    "body": "Manual intervention process",
+                    "type": "B"
+                },
+                {
+                    "body": "Sequence of steps for automation",
+                    "type": "C"
+                },
+                {
+                    "body": "Data visualization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1a50de56-8b17-477a-83ba-5b04042f0940",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In UiPath, which panel shows variables and arguments?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Variables panel",
+                    "type": "A"
+                },
+                {
+                    "body": "Activities panel",
+                    "type": "B"
+                },
+                {
+                    "body": "Orchestrator",
+                    "type": "C"
+                },
+                {
+                    "body": "Designer panel",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "d91e9870-22d5-47ce-a606-f74181f5453d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which component of RPA controls and manages bots?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Studio",
+                    "type": "A"
+                },
+                {
+                    "body": "Orchestrator",
+                    "type": "B"
+                },
+                {
+                    "body": "Recorder",
+                    "type": "C"
+                },
+                {
+                    "body": "Explorer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1b587df8-817b-42d0-8316-fc83695036d4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of tasks is RPA best suited for?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Creative content writing",
+                    "type": "A"
+                },
+                {
+                    "body": "Rule-based repetitive tasks",
+                    "type": "B"
+                },
+                {
+                    "body": "Strategic planning",
+                    "type": "C"
+                },
+                {
+                    "body": "Software testing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "ae7bf134-315d-48cb-b395-76e970b61259",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a major benefit of using RPA?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Cognitive learning",
+                    "type": "A"
+                },
+                {
+                    "body": "Reduction in manual errors",
+                    "type": "B"
+                },
+                {
+                    "body": "Data warehousing",
+                    "type": "C"
+                },
+                {
+                    "body": "Application development",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "885055e5-7ac4-4efe-bb3c-cd20c4b1a6c1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does OCR stand for in RPA?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Optical Character Recognition",
+                    "type": "A"
+                },
+                {
+                    "body": "Optical Code Reading",
+                    "type": "B"
+                },
+                {
+                    "body": "Object Control Routine",
+                    "type": "C"
+                },
+                {
+                    "body": "Open Character Reader",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "82cdf706-0ec7-4084-98b2-4033ed4d1cce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which RPA tool provides a community edition for free learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Blue Prism",
+                    "type": "A"
+                },
+                {
+                    "body": "Automation Anywhere Enterprise",
+                    "type": "B"
+                },
+                {
+                    "body": "UiPath",
+                    "type": "C"
+                },
+                {
+                    "body": "Power Automate Pro",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "e86b642a-1453-4294-b065-6b086c1e39fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In RPA, what are “attended bots” used for?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Run without human intervention",
+                    "type": "A"
+                },
+                {
+                    "body": "Assist users in real time on desktops",
+                    "type": "B"
+                },
+                {
+                    "body": "Automate cloud services",
+                    "type": "C"
+                },
+                {
+                    "body": "Control industrial robots",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "aaaa3cbe-ffc8-4a03-a030-702f6ae0e16f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT an RPA tool?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UiPath",
+                    "type": "A"
+                },
+                {
+                    "body": "Blue Prism",
+                    "type": "B"
+                },
+                {
+                    "body": "Automation Anywhere",
+                    "type": "C"
+                },
+                {
+                    "body": "Tableau",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "77d1d834-602d-4b7f-92e8-8c466bdc38e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of Robotic Process Automation (RPA)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Replacing humans with physical robots",
+                    "type": "A"
+                },
+                {
+                    "body": "Automating cognitive decision-making tasks",
+                    "type": "B"
+                },
+                {
+                    "body": "Automating repetitive, rule-based tasks",
+                    "type": "C"
+                },
+                {
+                    "body": "Creating mobile applications",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section A"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        }
+    ]
+}

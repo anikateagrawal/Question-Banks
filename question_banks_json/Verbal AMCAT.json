@@ -1,0 +1,2654 @@
+{
+    "bank_id": "953affe2-6fa3-47df-a0bf-743bee648d8f",
+    "bank_name": "Verbal AMCAT",
+    "questions": [
+        {
+            "id": "f1d1e621-d49f-4a14-868d-9e446c733ef6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tFor public consumption the Finance Minister announces in his Budget that he has allocated the highest amount of funds for the implementation of the law, but in reality, States are being starved of funds.</strong></p><p><strong>B.\tThere is a pithy saying in Hindi that the elephant has two sets of teeth, one for show and the other to eat.</strong></p><p><strong>C.\tThe court had directed both the State Government and the Government of India to make all efforts to encourage needy persons to come forward and take advantage of the scheme.</strong></p><p><strong>D.\tThis seems an apt description of the approach of the central government towards the implementation of the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA).</strong></p><p><strong>E.\tMost shockingly Rs. 2,723 crore was owed to workers in drought-hit States, the most vulnerable and desperate for livelihood.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "70c61971-68da-4ba1-85ac-9396ef48bb59",
+                    "questionID": "f1d1e621-d49f-4a14-868d-9e446c733ef6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:C</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a7d8ee42-2b00-4579-980c-7fd7a6726482",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>a.\tThe honest answer is in the negative as the approaches of India and China towards Africa are essentially different.</strong></p><p><br></p><p><strong>b.\tThis was reflected in deliberations at the annual meeting of the African Development</strong></p><p><strong>Bank (AfDB) recently.</strong></p><p><br></p><p><strong>c.\tThe AfDB’s decision to hold its meeting here in Gandhinagar, Gujarat, demonstrated its confidence in recent achievements and future prospects of the Indian economy.</strong></p><p><strong>d.\tIndia-Africa engagement is getting stronger with the active involvement of political and business leaders of both sides.</strong></p><p><strong>e.\tAfDB president Akinwumi Adesina called India “a developing beacon for the rest of the world”, adding that the time was right for India and Africa to forge “winning partnerships”.</strong></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><strong style=\"color: rgba(0, 0, 0, 0.9);\">The honest answer is in the negative as the approaches of India and China towards Africa are essentially different.</strong></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><strong>This was reflected in deliberations at the annual meeting of the African Development Bank (AfDB) recently.</strong></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>The AfDB’s decision to hold its meeting here in Gandhinagar, Gujarat, demonstrated its confidence in recent achievements and future prospects of the Indian economy.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>India-Africa engagement is getting stronger with the active involvement of political and business leaders of both sides.</p><p><br></p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>AfDB president Akinwumi Adesina called India “a developing beacon for the rest of the world”, adding that the time was right for India and Africa to forge “winning partnerships”.</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c2d35dca-4094-4111-a789-8997d2508377",
+                    "questionID": "a7d8ee42-2b00-4579-980c-7fd7a6726482",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:A</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a6b60f79-d70b-466c-90b4-8f682c97a77d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tThe government is also seeking to define a new category of business — ‘Innovative Start-ups’ — to distinguish them from micro, small, medium and large enterprises that are built on conventional business models.</strong></p><p><strong>B.\tPrime Minister Narendra Modi will release the blueprint of ‘Start Up India’ programme which may include a Startups and Entrepreneurship Law to make it easier for setting up new ventures and closing unviable ones, besides clearing regulatory issues that hamper access to finance.</strong></p><p><strong>C.\tThe government will unveil a blueprint for startups to ease the process of setting up new ventures.</strong></p><p><strong>D.\tThis will funnel tech based talent to the startup ecosystem which can then further innovate and create business opportunities.</strong></p><p><strong>E.\tThe Start Up India policy would thus attempt to address key concerns the government wants to fix in India’s start-up ecosystem.</strong></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><strong style=\"color: rgba(0, 0, 0, 0.9);\">The government is also seeking to define a new category of business — ‘Innovative Start-ups’ — to distinguish them from micro, small, medium and large enterprises that are built on conventional business models.</strong></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><strong style=\"color: rgba(0, 0, 0, 0.9);\">Prime Minister Narendra Modi will release the blueprint of ‘Start Up India’ programme which may include a Startups and Entrepreneurship Law to make it easier for setting up new ventures and closing unviable ones, besides clearing regulatory issues that hamper access to finance.</strong></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><strong style=\"color: rgba(0, 0, 0, 0.9);\">The government will unveil a blueprint for startups to ease the process of setting up new ventures.</strong></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><strong style=\"color: rgba(0, 0, 0, 0.9);\">This will funnel tech based talent to the startup ecosystem which can then further innovate and create business opportunities.</strong></p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p><strong style=\"color: rgba(0, 0, 0, 0.9);\">The Start Up India policy would thus attempt to address key concerns the government wants to fix in India’s start-up ecosystem.</strong></p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "101d33b6-1d01-46db-a50f-fbe55771dd6e",
+                    "questionID": "a6b60f79-d70b-466c-90b4-8f682c97a77d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:D</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "23a833b8-e015-4879-992b-27f16f43b3fd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\t</strong>It has a very low density of physicians and nurses, which stand at</p><p><br></p><p>2.7 and 12.4 per 10,000 people, respectively, against a world average of 13.9 and 28.6 and this is also reflected in hospital beds and specialised medical equipment.</p><p><strong>B.\t</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">Even though its own health indices are nothing to be proud of, India’s engagement with Africa is growing at a rapid pace in the sunrise sector of health care.</span></p><p><strong>C.\t</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">Infectious diseases such as tuberculosis, malaria, HIV/AIDS, childhood diarrhoea and respiratory infections remain big challenges.</span></p><p><strong>D.\t</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">While Africa is quite diverse, the numbers show poor capacity in the health sector, especially human resource.</span></p><p><strong>E.\t</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">The telemedicine initiative has enabled a number of super-specialty hospitals in India to be connected with physicians in Africa, impacting not just health tourism in India, but also capacity building in Africa through continuing medical education (CME) credits.</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>It has a very low density of physicians and nurses, which stand at</p><p><br></p><p>2.7 and 12.4 per 10,000 people, respectively, against a world average of 13.9 and 28.6 and this is also reflected in hospital beds and specialised medical equipment.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Even though its own health indices are nothing to be proud of, India’s engagement with Africa is growing at a rapid pace in the sunrise sector of health care.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Infectious diseases such as tuberculosis, malaria, HIV/AIDS, childhood diarrhoea and respiratory infections remain big challenges.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>While Africa is quite diverse, the numbers show poor capacity in the health sector, especially human resource.</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>The telemedicine initiative has enabled a number of super-specialty hospitals in India to be connected with physicians in Africa, impacting not just health tourism in India, but also capacity building in Africa through continuing medical education (CME) credits.</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d541e3f3-f95e-4f3a-9cb2-49fa81599db3",
+                    "questionID": "23a833b8-e015-4879-992b-27f16f43b3fd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:C</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9997e108-3a96-4d37-89a8-ba5779320736",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tThe egregious practice that many Muslim men employ to divorce their wives instantaneously and without their consent, merely by uttering the word talaq thrice, was rendered legally invalid by the Shamim Ara vs State of UP judgment of 2002 and subsequent orders from various High Courts.</strong></p><p><strong>B.\tThis practice has been either explicitly derecognised in Muslim- majority countries such as Indonesia, Iran and Tunisia or implicitly in countries such as Pakistan, which provides for a mandatory arbitration procedure after the pronouncement of talaq.</strong></p><p><strong>C.\tShayara Bano, one such victim of this arbitrary custom — not to speak of years of domestic violence — has filed a public interest litigation in the Supreme Court seeking a ban on the practice.</strong></p><p><strong>D.\tBut this has not stopped the practice; many Muslim women are unaware of the judgments or have had to accept such pronouncements owing to pressure from conservative sections.</strong></p><p><strong>E.\tThe conservative All India Muslim Personal Law Board that seeks to wield influence on questions of Muslim personal law has, predictably, found it an occasion to air its regressive views on the issue.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09c3a90c-99a5-441d-90b9-136511da3de6",
+                    "questionID": "9997e108-3a96-4d37-89a8-ba5779320736",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:B</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "448be34a-f283-47d4-8009-43e18860f217",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Read the following passage carefully and answer the questions that follow.</strong></p><p>Paragraph 1 : The government has announced a list of ‘Institutes of Eminence’ (IoE) among India’s institutions of higher education. This was awaited for the simple reason that finding a place on it would save an educational institution from the clutches of a dreaded regulator. Regulators are meant to ensure that we have a socially desirable outcome, but in the case of higher education in India the opposite seems to have been the case. The University Grants Commission (UGC) has over half a century micro-managed this space to an unimaginable level of silliness. The result has been publicly- funded universities that are cavernous wastes, shattering the aspirations of our youth and producing low-level ‘knowledge’. Evidence of the role of India’s higher-education regulator may be seen in the feature that the few instances when this is not the case the institutions have enjoyed privilege that leaves them protected from its depredations.</p><p>    Paragraph 2 : The latest offering is in the form of a proposed Higher Education Commission of India (HECI). The intention is to leave the HECI to focus on quality while leaving funding of public institutions to the Ministry of Human Resource Development (MHRD). Even as we observe the progress of the HECI and wonder if it is going to be any more than old wine in a new bottle, we have already have an inkling of what could go wrong. This springs from the government’s announcement of a list of IoEs. The government has chosen three public and three private institutions for this status. The public institutions are the Indian Institute of Science, Bengaluru, and the Indian Institutes of Technology at Delhi and Mumbai. The private ones are the Birla Institute of Technology and Science Pilani, the JIO Institute and the Manipal Academy of Higher Education. This list suffers from a serious lack of credibility. Where in it are the universities of India? We understand that the government’s aim is to rectify the low presence of Indian institutions in the global rankings of universities.</p><p><br></p><p>Paragraph 3 : While the early European universities may have started as academies of the arts they were soon to have medicine and astronomy as areas that they pursued with vigour. Somewhere along the line we seem to have lost this breadth and come to revel in a landscape dominated by engineering schools. These engineering schools, notably the IITs, have done us proud but cannot be equated with the great universities of the world for the simple reason that they are focussed on a narrow domain. Also, if the idea behind IoEs is that they will be left alone and given enhanced financial support, it must be acknowledged that until very recently the IITs have not been meddled with neither have they been starved of resources. The IISc is of course broader than the IITs but does not embrace the social sciences and the humanities, the presence of which would be considered necessary for an university.</p><p><br></p><p>Paragraph 4 : If a list of eminent institutions in the country is at all needed, the absence of the Jawaharlal Nehru University (JNU) from the first list of IoEs is striking. Its faculty has brought many of the world’s leading ideas to Indian students and in at least area came close to building a new school of thought, however controversial. It is not as if similar efforts in the social sciences have not occurred elsewhere in India but JNU has perhaps sustained its reputation as a university for longer. It already had schools of Computer Science and the Life Sciences over four decades ago when these were fledging disciplines giving it a certain breadth early on.</p><p><br></p><p>Paragraph 5 : Even as we may wonder at the exclusion of JNU from the list of IoEs released by the government one might wonder at how the private institutions that are on it made the cut. While BITS Pilani may have made a significant contribution to the country at a time when it desperately needed engineers, but is yet not what may be considered a university, the presence of the two others on the list leave one nonplussed. One of them, we are told, has been conferred the status on grounds of its promise, a dubious position to take as this institute has little to show except for the financial heft that will surely undergird it. The other is known largely for its association with the practice of charging capitation fees for education.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "fd9e1700-b538-4b5d-a91e-cb01af402042",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Read the following passage carefully and answer the questions that follow.</strong></p><p>There is now no denying that the new government takes office amid a clear economic slowdown. The first macro data set released showed an under-performing economy with GDP growth falling to 5.8% in the fourth quarter of 2018-19 and pulling down the overall growth for the fiscal to a five-year low of 6.8%. Growth in gross value added (GVA), which is GDP minus taxes and subsidies, fell to 6.6% in 2018-19, pointing to a serious slowdown. If further confirmation were needed, the growth in core sector output — a set of eight major industrial sectors — fell to 2.6% in April, compared to 4.7% in the same month last year. And finally, unemployment data, controversially suppressed by the Union government so far, showed that joblessness was at a 45-year high of 6.1% in 2017-18. These numbers highlight the challenges ahead in drafting the Budget for 2019-20. The economy is beset by a consumption slowdown as reflected in the falling sales of everything from automobiles to consumer durables, even fast-moving consumer goods. Private investment is not taking off, while government spending, which kept the economy afloat during the last NDA government, was cut back in the last quarter of 2018-19 to meet the fiscal deficit target of 3.4%.</p><p><br></p><p>The good news is that inflation is undershooting the target and oil prices are on the retreat again. But the rural economy remains in distress, as seen by the 2.9% growth in agriculture last fiscal; the sector needs a good monsoon this year to bounce back. Overall economic growth in the first quarter of this fiscal is likely to remain subdued, and any improvement is unlikely until the late second quarter or the early third. There are not too many options before the new Finance Minister. In the near term, she has to boost consumption, which means putting more money in the hands of people. That, in turn, means cutting taxes, which is not easy given the commitment to rein in the fiscal deficit. In the medium term, Ms. Sitharaman has to take measures to boost private investment even as she opens up public spending again. These call for major reforms, starting with land acquisition and labour, corporate taxes by reducing exemptions and dropping rates, and nursing banks back to health. On the table will be options such as further recapitalisation of the ailing banks, and consolidation. The question, though, is where the money will come from. With tax revenues likely to be subdued owing to the slowdown, the Centre will have to look at alternative sources such as disinvestment. There may be little choice but to go big on privatisation. A rate cut by the Reserve Bank of India, widely expected this week, would certainly help boost sentiment. But it is the Budget that will really set the tone for the economy</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "c4a725c0-124a-4b64-a319-0816a8145fcb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Read the following passage carefully and answer the questions that follow.</strong></p><p><br></p><p>The government’s move to infuse upfront an additional capital of Rs 70,000 crore into public sector banks (PSBs) is welcome. The promised removal of the Damocles’ sword of punitive investigation of any banking decision hanging over the heads of bankers today will help banks lend the additional liquidity leveraging this capital would enable.</p><p>The moves to support non-banking financial companies (NBFCs) — such as enhancing additional liquidity support to housing finance companies to Rs 30,000 crore by National Housing Bank from Rs 20,000 crore and co-origination of loans by PSBs jointly with NBFCs that are reeling under a liquidity crunch — will provide a booster for fresh loans to the MSME sector.</p><p>A transparent one-time settlement policy being provided by banks to benefit MSMEs and retail borrowers in settling their overdues is pragmatic. But banks also must acquire the expertise to assess MSME loan viability and invest in data mining.</p><p>Making banks link their lending rates to the repo rates will help better transmission of monetary policy. But for this to work without impairing bank financial health, multiple structural rigidities in the system must be removed. Public sector pre-emption of the bulk of household financial savings must end, for the bond market to really take off to provide longer-term funds for infrastructure projects.</p><p>Steps such as further development of the credit default swap markets, facilitating increased trading for price discovery, and establishing an organisation to provide credit enhancement for infrastructure and housing projects make eminent sense, as does onshoring the offshore rupee derivative markets.</p><p>A coherent policy of managerial reform, including of remuneration, at public sector banks must accompany the measures announced, for them to take effect.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "591cf691-f9fd-48e0-aa6a-c80c74ee5b0f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Read the following passage carefully and answer the questions that follow.</strong></p><p>The passage of a statutory resolution and a Bill in Parliament — “abrogating” Article 370 which confers special political status on Jammu and Kashmir, and bifurcating the State into two Union Territories — has robbed the Kashmir Valley of its political autonomy, or whatever remains of it after all these years. It may deepen the State’s trust deficit vis-a-vis the Centre. The “abrogation” of Article 370, being hailed as a “glorious” move, is itself a misnomer. “Amending” or “abrogating” Article 370 is a Constitutional improbability; the amending provision of Article 368 says no Constitutional amendments have effect in relation to J&amp;K unless applied by Order of the President under Article 370 that requires the concurrence of the State’s legislature and ratification by its Constituent Assembly. The moves on Monday can be seen as an exercise in political optics, pandering to a certain majoritarian sentiment. What the Centre has done is to shred even the garb of democracy and spirit of dialogue that successive governments felt was important to engage the people of Kashmir. Through as many as 45 Presidential Orders, the most critical being the Order of 1954, Article 370 has already been divested of its spirit. Secessionist elements and some Indian Constitutional experts have cited this gradual advance of the Union as the conquest of the Valley by stealth.</p><p><br></p><p>What even this controversial process of assimilation, with Article 370 in place, has done is to achieve the growth of local political engagement. It legitimises a pan-Indian sentiment in the Valley where the secessionists would like to portray India as a mere occupational force. Indeed, there are several other provisions in the Constitution such as Article 371(A), 371(G), 371(B), 371(C) that validate indigenous political forces in States like Nagaland, Mizoram, Assam, Manipur et al. This asymmetric form of federalism has its global parallels in the substantial autonomy enjoyed by Scotland and Wales and Northern Ireland within Great Britain. The protests in Hong Kong affirm the relevance of democratic processes inherent in the one country-two systems followed even by China.</p><p><br></p><p>By robbing Article 370 of its special provisions, the BJP has undermined these nuanced and extremely critical democratic processes. Simultaneously, the State has been carved up into two Union Territories with J&amp;K having a legislature and Ladakh without it. The unprecedented step of reorganizing a State and divesting it of its legislative authority without even a semblance of consultation with the stakeholders sets a dangerous precedent underlined by several regional groups and political parties, particularly the DMK and the MDMK. It is possible that the BJP would reap rich political dividends for this muscular policy. But the Centre would be responsible for escalation of violence in the Valley where all doors for political engagement and democratic exchange seem to have been closed down for good. Without meaningful participation of the people, any such unilateral integration can remain at best territorial.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "a0eabfa1-c285-473e-bcef-fd0267d4af0a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A. Latest data from the National Family Health Survey 2015-16 (NFHS-4) show that in most of the States for which data is available, overweight men and women far outnumber underweight ones, in some instances double the number.</strong></p><p><br></p><p><strong>B.\tHealth and nutrition are two areas where India’s achievements have not been quite up to the mark during the previous era of Millennium Development Goals (MDGs), particularly given the high economic growth in the last decade.</strong></p><p><strong>C.\tAt the same time, India is undergoing simultaneous transitions.</strong></p><p><br></p><p><strong>D.\tIn parallel, a nutritional transition is happening — earlier, India was characterised by a high prevalence of under nutrition, but this era has also brought a double burden of under nutrition as well as over nutrition.</strong></p><p><br></p><p><strong>E.\tA health SDG index released in September by The Lancet ranked India at 143 among 188 countries and in the Global Hunger Index published by the International Food Policy Research Institute in October, India is ranked 97th among a total of 118 countries, signifying a high level of hunger and under nutrition.</strong></p><p>A. A\t       B. B         \tC. C\t         D. D\t        E. E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0b758e86-3dae-476a-914e-d18f011ac92c",
+                    "questionID": "a0eabfa1-c285-473e-bcef-fd0267d4af0a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:A</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a79725aa-f911-4ffc-9b16-9f7cf22775c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tLike most criminal laws, foetal protection laws also show large class- and race-based disparity in their targets.</strong></p><p><strong>B.\tApart from the demographic disparity in their targets, these laws are also instruments for societies to impose their subjective conceptions of inappropriate maternal behaviour on women.</strong></p><p><strong>C.\tThese laws further legitimise extensive surveillance and policing of women’s conduct before and during pregnancy.</strong></p><p><strong>Women belonging to lower socio-economic backgrounds, minorities, and immigrants are overwhelmingly more vulnerable to the effect of these laws.</strong></p><p><strong>D.\tFactors such as age, use of assisted reproductive technologies, and history of genetic disorders, which also have an impact of foetal health, are not affected by these laws.</strong></p><p><strong>E.\tFactors such as age, use of assisted reproductive technologies, and history of genetic disorders, which also have an impact of foetal health, are not affected by these laws.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e94dce9e-b3b3-470c-a219-dce978523cec",
+                    "questionID": "a79725aa-f911-4ffc-9b16-9f7cf22775c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:C</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1e9fc878-fae4-4d8a-a44a-74ad51401c18",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tIndia should use the interdependency and pressure-compromise</strong></p><p><strong>strategies to leverage its interest to isolate Pakistan.</strong></p><p><strong>B.\tIndia has to fix its domestic issues to further social cohesion and make special efforts to build bridges between communities.</strong></p><p><strong>C.\tIndia needs to move on in the international system.</strong></p><p><strong>D.\tIn some ways it has, but in other ways it is moving backwards. Its foreign policy is only an extension of its domestic politics.</strong></p><p><strong>E.\tThis will give it an edge in the international system.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "54549438-a55b-4620-bb78-fcc85b2e4c85",
+                    "questionID": "1e9fc878-fae4-4d8a-a44a-74ad51401c18",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:A</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2437a6ae-2e2b-4774-8e20-655b8d4993f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>a.\tA recent event in Delhi brought together two Indian winners of the 2016 Ramon Magsaysay Award, Bezwada Wilson and T.M. Krishna, in a wide-ranging conversation about freedom of expression, nationalism and inequality, issues of pressing concern.</strong></p><p><strong>b.\tThe Magsaysay Award jury was astute indeed in recognising the laudable public spiritedness of both Wilson and Krishna, and their common concern with the problem of caste.</strong></p><p><br></p><p><strong>c.\tThey come from absolutely unrelated areas of engagement, and from personal backgrounds that are far apart, but what is remarkable is how they converge in their social activism as well as their shared ability to communicate clearly and forcefully with large audiences.</strong></p><p><br></p><p><strong>d.\tUntouchability may have been outlawed through Article 17 of the Indian Constitution, but that is only the most extreme way to keep human beings and fellow citizens apart.</strong></p><p><strong>e.\tThe two men share a commitment to free speech and equal citizenship, to addressing entrenched forms of exclusion, discrimination and violence based on caste, to democratic rights and the Indian Constitution.</strong></p><p>A. A       \tB. B\t       C. C\t           D. D\t         E. E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "734d7982-1ca1-43db-8b3f-d3e4c0680659",
+                    "questionID": "2437a6ae-2e2b-4774-8e20-655b8d4993f7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:D</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fdb9f27c-2b3b-4097-b46d-11c7e4d58969",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tThe science of central banking is still evolving.</strong></p><p><strong>B.\tThe concept of an independent central bank evolved in advanced economies and finds its roots in the successful anti-inflationary policy of Paul Volcker in the U.S. between 1979 and ‘82.</strong></p><p><strong>C.\tThe need is to recognise that there is a clear distinction in the functioning of central banks in advanced and emerging market economies.</strong></p><p><strong>D.\tIn 1900, there were hardly a dozen central banks and each had been initially created to dispense some specific function of the government, mainly to issue currency and coinage or manage foreign exchange reserves.</strong></p><p><strong>E.\tThe evolution, as always, has not been easy and has had its share of challenges.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1be72072-8102-4e01-8933-2aa821d0fa9e",
+                    "questionID": "fdb9f27c-2b3b-4097-b46d-11c7e4d58969",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:C</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9da5cf7f-62e4-4958-b8af-5ea8ef4eda48",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>a.\tR Ashwin has never been one to hide his ambition.</strong></p><p><strong>b.\tVirat has backed it up, leading the batting group in shaping contests and empowering his bowlers to win them.</strong></p><p><strong>c.\tWhen his international career was still young, Ashwin said in an interview that he wanted to dominate the game.</strong></p><p><strong>d.\tHe is just the third bowler, after Dale Steyn and Mitchell Johnson, to be named ICC Cricketer of the Year.</strong></p><p><strong>e.\tLast year in December, the realisation of this dream was formally recognised. Ashwin became the first spinner to win cricket’s biggest individual prize, the Sir Garfield Sobers Trophy, since the award was instituted 12 years ago.</strong></p><p>A. A    \tB. B\t      C. C       \tD. D\t       E. E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0f3d36cc-0987-43d5-bc00-22fa8aca096b",
+                    "questionID": "9da5cf7f-62e4-4958-b8af-5ea8ef4eda48",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:B</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "592ba3b0-c918-45d1-88f9-2d5b645feca1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tBut a premature lowering of the guard and growing resistance to DDT led to rising incidence in the 1980s.</strong></p><p><strong>B.\tSome of the major challenges the country had to face before it interrupted local transmission were the Plasmodium falciparum parasite becoming resistant to the chloroquine drug, behavioural changes in the vector, asymptomatic carriers and vector reintroduction.</strong></p><p><strong>C.\tSri Lanka was close to eliminating malaria in 1963, when it reported just 17 cases.</strong></p><p><strong>D.\tBut the tide turned from 2000 when a steady reduction in the number of cases was recorded.</strong></p><p><strong>E.\tThe public sector and the private sector were oriented to the common goal of eliminating malaria by enhancing case notification and achieving 100 per cent detection and confirmation through tests.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": [
+                {
+                    "id": "9b0ad1b0-b8e9-4ee4-aa1a-92f10c213763",
+                    "questionID": "592ba3b0-c918-45d1-88f9-2d5b645feca1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:E</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fb6eaaf6-fe12-46ee-961d-42debd4204f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A. Current social science research shows that an individual’s sense of responsibility is linked to the organisational characteristics within which they work.</strong></p><p><strong>B.\tThis leaves individuals at the local level with virtually no sense of responsibility towards many of the policy decisions a government takes and they are left to interpret the party’s core concerns the way they wish.</strong></p><p><br></p><p><strong>C.\tOver the past few years, India has witnessed too many discomforting actions and events on behalf of its political class.</strong></p><p><strong>D.\tThis is buttressed by the failure of parties to cultivate a sense of ownership for local politicians in the larger issues facing the nation.</strong></p><p><strong>E.\tThe hierarchical nature of Indian parties means this lower rung simply does not feel the same level of responsibility towards the larger goal set by the party.</strong></p><p>A. A\t        B. B         \tC. C           \tD. D        \tE. E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c0be1305-b528-40c9-8b9c-0dbe3b694321",
+                    "questionID": "fb6eaaf6-fe12-46ee-961d-42debd4204f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:C</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8260938-7158-45f7-b433-953120b3f6b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>a.\tThe ordinance enables the Union government to authorise the Reserve Bank of India (RBI) to direct banking companies to resolve the issues related to specific stressed assets, by initiating insolvency resolution process wherever required.</strong></p><p><br></p><p><strong>b.\tThe Banking Regulation (Amendment) Ordinance, 2017 was passed to deal with stressed assets, particularly those in consortium or multiple banking arrangements.</strong></p><p><br></p><p><strong>c.\tThe RBI has also been empowered to issue other directions for resolution, and appoint or approve for appointment, authorities or committees to advise banking companies for stressed asset resolution.</strong></p><p><br></p><p><strong>d.\tThe comprehensive approach is part of the effective implementation of various schemes through resolution or problems related to stressed assets.</strong></p><p><strong>e.\tThe government has introduced two more provisions — Sections 35A and 35AB, under Section 35A of the Banking Regulation of Act of 1949 through which banking companies can initiate insolvency proceedings.</strong></p><p>A. A\t           B. B          \tC. C           \tD. D\t         E. E</p><p> </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9cee3be2-735e-485f-a021-56ed97e39bd7",
+                    "questionID": "d8260938-7158-45f7-b433-953120b3f6b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:D</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c23cefa0-8ad2-4c87-8e2f-83f6e802bf43",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tAccording to some reports, the assisted-reproduction sector may now be worth as high as $2 billion, with more than 25,000 surrogate children being born every year in the country.</strong></p><p><strong>B.\tThe argument — a classically libertarian one — that women have a fundamental right to contract, and a fundamental right to personal liberty, which together permit them to use their bodies as they please, however, cannot be readily dismissed.</strong></p><p><strong>C.\tCommercial surrogacy involves an agreement in which a woman, in exchange for money, agrees to carry a child for another person to whom she will surrender the child when it is born.</strong></p><p><strong>D.\tSince 2002, when the Indian Council for Medical Research issued a set of non-binding regulations that envisaged transactional surrogacy, these forms of arrangements have flourished in India.</strong></p><p><strong>E.\tBut in the absence of any legislation controlling the industry, Premila Vaghela’s case in which Premila, the wife of a daily wage labourer had opted to become a surrogate mother, died due to unexplained complications, has scarcely proved an exception.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0fa9e230-fc88-4bd9-a2b5-318ff3c9c24f",
+                    "questionID": "c23cefa0-8ad2-4c87-8e2f-83f6e802bf43",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:B&nbsp; </strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e636894b-799f-4f74-95b0-1ca00a7ef811",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tForest Department records do not mention the significant role the tree species plays in providing livelihood security to people.</strong></p><p><strong>B.\tWe have constantly seen fraudulent Environment Impact Assessments (EIA) which undermine the ecological value of areas that are proposed to be dammed, mined or diverted.</strong></p><p><strong>C.\tThe environmental consultant had deliberately avoided making a reference to the species.</strong></p><p><strong>D.\tFor example, the Monpa community in Arunachal Pradesh’s Tawang district had to struggle for three years to prove before the NGT that the riverine area proposed for the construction of a dam is the one of the two wintering sites of the black-necked crane, a protected species held sacred by Buddhists.</strong></p><p><strong>E.\tWhile the Supreme Court has called for a “species best interest standard”, last year, one rhinoceros was killed almost every two weeks in the Kaziranga National Park.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": [
+                {
+                    "id": "e60f88d9-3921-423a-9bc2-2c1bfb71a9e0",
+                    "questionID": "e636894b-799f-4f74-95b0-1ca00a7ef811",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:E</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "35a23de4-1575-4f48-9dfc-926063c8cfca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>  Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>a.\tPassed in 2016, the Insolvency and Bankruptcy Code was formulated to make the process of shutting down and exiting a business easier and less time-consuming.</strong></p><p><br></p><p><strong>b.\tThe code aims to bring this down to within a year.</strong></p><p><br></p><p><strong>c.\tWhen a firm defaults on its debt, its control will shift to a committee of creditors.</strong></p><p><br></p><p><strong>d.\tApart from helping companies, it was also expected to improve India’s rankings in the World Bank’s ease of doing business index.</strong></p><p><br></p><p><strong>e.\tIndia currents ranks 130th overall — out of 189 countries — and 136th on the parameter of ‘resolving insolvency’, with the World Bank saying it takes four years to resolve a bankruptcy case.</strong></p><p>A. A\t    B. B\t         C. C         \tD. D          \tE. E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "dec36479-dd89-4ba4-919a-59754d4cffdc",
+                    "questionID": "35a23de4-1575-4f48-9dfc-926063c8cfca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong style=\"background-color: silver;\">Answer:C</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fbe09737-4271-40c0-ad4d-cfc09eab090a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><strong>A.\tA fair wage is lower than the living wage and takes into account efficiency, from the employer’s perspective.</strong></p><p><strong>B.\tThe resolution passed at the 15th Indian Labour Conference in 1957 mandates taking into account five factors for calculating the minimum wage.</strong></p><p><strong>C.\tThe Tripartite Committee on Fair Wages, appointed in 1948, defined three different levels of wages: a living wage, a fair wage, and a minimum wage.</strong></p><p><strong>D.\tToday, there is broad consensus among patriotic businessmen and nationalist policymakers that mandating a living wage or even a fair wage for Indian workers is a ridiculous idea not worth discussing.</strong></p><p><strong>E.\tLiving wage is what a human being needs to get the basic essentials of food, shelter, clothing, protection against ill-health, security for old age, etc.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "08aa6629-3db1-4a7b-b69d-7a779f14672c",
+                    "questionID": "fbe09737-4271-40c0-ad4d-cfc09eab090a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:B</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9e164483-e4ef-4731-8574-201249274c3c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>  Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>a.\tCorruption is pervasive across government departments, and Mr. Ghani is yet to begin delivering on his promise to streamline governance.</strong></p><p><br></p><p><strong>b.\tThe problem in Afghanistan has political, diplomatic and security dimensions.</strong></p><p><br></p><p><strong>c.\tPolitically, the government is seen to be corrupt, incompetent, and unable to get its act together.</strong></p><p><br></p><p><strong>d.\tEven so, the repeated strikes in the most fortified areas with mounting casualties demonstrate a steadily deteriorating security situation.</strong></p><p><br></p><p><strong>e.\tPresident Ashraf Ghani and Chief Executive Abdullah Abdullah are reportedly not on the same page on key issues.</strong></p><p>A. A\t     B. B\t      C. C          \tD. D\t         E. E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "1493d71f-503d-4bd4-9a57-37bb44899272",
+                    "questionID": "9e164483-e4ef-4731-8574-201249274c3c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:D</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "382b323b-e454-49c0-89f6-124e3ae70adf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>: Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><strong>A.\tThe virus is transmitted by the Aedes aegypti mosquito, which is also responsible for the spread of dengue and chikungunya.</strong></p><p><strong>B.\tChikungunya virus is a pathogen transmitted by mosquitoes, and has established itself in the Caribbean approximately 350,000 suspected cases in the Western Hemisphere since December 2013.</strong></p><p><strong>C.\tIt stems from a huge surge in babies being born with microcephaly, a rare, incurable condition in which their heads are abnormally small.</strong></p><p><strong>D.\tAn obscure mosquito-borne virus, Zika, is on the prowl and has already caused an “unprecedented situation” in the world of scientific research.</strong></p><p><strong>E.\tThe virus gets its name from the Zika forest in Uganda, Africa, where it was first identified in rhesus monkeys in 1947.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "597857af-3950-4a89-80f4-e45986fe53e2",
+                    "questionID": "382b323b-e454-49c0-89f6-124e3ae70adf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:B</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0cee7587-cc1f-43da-a1b2-3d75ceff5fe7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>a.\tThere was a time in our country when prejudice was not allowed to blatantly declare itself.</strong></p><p><br></p><p><strong>b.\tWe hear far more strident voices against reservation, against allowing communities to eat what they want, against norms of behaviour of women and such voices are getting normalised and have become part of our public gossip.</strong></p><p><br></p><p><strong>c.\tThere was a time when there was something that was shameful about publicly stating one’s prejudices.</strong></p><p><strong>d.\tRepeatedly, we hear statements about caste, religion, the poor and the marginalised, in public domains and in public conversations as if they are matters of fact and not fictions of prejudice.</strong></p><p><br></p><p><strong>e.\tThe prejudices inherent in our media are compounded by those inherent in our education system.</strong></p><p><br></p><p>A. A         \tB. B        \tC. C            \tD. D            \tE. E</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": [
+                {
+                    "id": "a5ccb031-1397-441e-a262-557cee392404",
+                    "questionID": "0cee7587-cc1f-43da-a1b2-3d75ceff5fe7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:E</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9906a46a-83b6-453a-bddd-d7d974306261",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tFor the first time the government seems to be prepared for goods and services tax (GST) but the corporate world seems to be grappling with the regulation.</strong></p><p><strong>B.\tThere would be many goods and services which would be out of GST so it would provide benefit to common man in respect of taxes.</strong></p><p><strong>C.\tEven as most of the top companies have roped in some tax and tech specialists to implement GST, some of the mid-scale and small companies are finding it tough to adapt to the indirect tax regime.</strong></p><p><strong>D.\tThe government on its part has uploaded some of the basic tech programmes on several of its platforms to help smaller companies.</strong></p><p><strong>E.\tHowever, the impact of GST is set to be across the board from taxation, technology and even on a company’s growth strategy.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0c44bc32-4e9f-426f-a995-69af26b7cdfd",
+                    "questionID": "9906a46a-83b6-453a-bddd-d7d974306261",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:B</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd073b51-dee4-4d10-8bda-6f6542347850",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tDuring the framing of the Constitution, the subject of cow slaughter was one of the most fraught and contentious topics of debate.</strong></p><p><strong>B.\tThis dispute over prohibiting the sale of cows and buffaloes for slaughter at animal markets has a history, which goes back to the founding of the Republic.</strong></p><p><strong>C.\tThe Supreme Court rejected these arguments and upheld the laws, but it did so by focussing its reasoning entirely on — apparent — economic considerations.</strong></p><p><strong>D.\tProponents of a cow slaughter ban advanced a mix of cultural and economic arguments, invoking the “sentiments of thirty crores of population” on the one hand, and the indispensability of cattle in an agrarian economy on the other.</strong></p><p><strong>E.\tSeth Govind Das, a member of the Constituent Assembly, framed it as a “civilisational problem from the time of Lord Krishna”, and called for the prohibition of cow slaughter to be made part of the Constitution’s chapter on fundamental rights, on a par with the prohibition of untouchability.</strong></p><p><br></p><p>A. A               \tB. B             \tC. C\t                    D. D                 E. E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f79f6b91-4293-4b42-8038-a6f494e99a1f",
+                    "questionID": "cd073b51-dee4-4d10-8bda-6f6542347850",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:C</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1df8bd6a-201a-457b-8f6b-00cb50c81383",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tThrough advancement of technology and broadband connection almost in all households the method of piracy has changed from physical reproduction and distribution to online distribution.</strong></p><p><strong>B.\tRecent reports about the change in copyright infringement warnings on various websites have triggered anxiety among many Internet users in India.</strong></p><p><strong>C.\tInternet users in India, many of whom routinely use torrent sites to access a range of entertainment and other content, are understandably worried about the new punitive rhetoric that underlies the warning.</strong></p><p><strong>D.\tWhile the government has maintained a list of banned websites for quite some time, the warning that one earlier saw merely mentioned that the website had been blocked under directions from the Department of Telecommunications, while the new message warns against the viewing, downloading, exhibition and duplication of the contents of the URL as being offences which are punishable under Sections 63, 63-A, 65 and 65-A of the Copyright Act.</strong></p><p><strong>E.\tIt may therefore be useful to unpack what the law actually says on the point and also examine the impulse behind this rhetorical shift within the logic of copyright enforcement.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9f908cda-62c1-44cb-ab9b-4b6194ca8fac",
+                    "questionID": "1df8bd6a-201a-457b-8f6b-00cb50c81383",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:A</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "31420289-e419-415c-8a9e-1779736afdd5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p>A.\tIt has now become too easy to brand anyone articulating differences with a homogenous construct of nationalism.</p><p>B.\tThe alternative progressive nationalism would entail a different understanding of India, with the focal point being the unprivileged, and would advocate going beyond the confines of territorial nationalism.</p><p>C.\tThis is because cultural nationalism — an idea that has been associated with those in power today — basically seeks to subsume the “other” within a limiting construct of the self and the nation.</p><p>D.\tThis also explains why cultural nationalists played a peripheral and even regressive role in the freedom struggle.</p><p>E.\tDalits who reject Brahminical Hinduism, leftists and secular intellectuals who reject Hindutva, beef-eaters, inter-religious couples and even dissidents who argue for freedom from hunger, patriarchy and caste oppression, are branded as “anti-national”.</p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b3e33fd1-b56b-4b9e-8395-b5ea80b2fb75",
+                    "questionID": "31420289-e419-415c-8a9e-1779736afdd5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:B</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "74eb9f1c-c3a9-4590-8830-2d91fc48a54e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tWhen people look only to private media for factual information and news, chances are that a lie doing the rounds eventually establishes itself as truth.</strong></p><p><strong>B.\tWithout digitisation, the lies they perpetuated would never have appeared in public forums, and would have perhaps died off in a few years.</strong></p><p><strong>C.\tNorth-east Germany is home to a number of neo-Nazi groups.</strong></p><p><strong>D.\tHowever, for the last decade or so, their hateful presence is being felt not just in a country inundated with Syrian refugees, but on a host of websites too.</strong></p><p><strong>E.\tThat they have lived in relative obscurity for half a century is due thankfully to the absence of the Internet.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4e2d44c7-918b-407a-b0b6-26f64eb1f660",
+                    "questionID": "74eb9f1c-c3a9-4590-8830-2d91fc48a54e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer: A</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ef762348-109e-4d67-b56b-7c84c1a308b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tAs a country, we never were much disposed to questioning people in positions of power very strongly.</strong></p><p><strong>B.\tThe Indian cricket team’s captain, for instance, arguably enjoys more power than his counterpart in any other cricket-playing country.</strong></p><p><strong>C.\tWhile we are a functioning democracy, with an electorate which regularly exercises its right to pitch anyone it deems unfit out of office, the fact is that till such a point is reached — like elections actually being announced — the chosen leader faces little or no public scrutiny or questioning of his or her actions.</strong></p><p><strong>D.\tBut regardless of whether they have de jure control or not, de facto, their authority is pretty much untrammelled.</strong></p><p><strong>E.\tFrom business to sports, the situation is pretty much the same.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c4be83fd-f56c-41b9-81a5-aa917a138612",
+                    "questionID": "ef762348-109e-4d67-b56b-7c84c1a308b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:D</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dbd80a25-31f0-4b71-87e1-42dffe7a0c1b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tOne peril of a ‘materialist’ explanation about how society evolves is that it internalises the idea that ideas of modernity can only flow from capital-rich centres to capital-poor peripheries.</strong></p><p><strong>B.\tOut of this melange of forces that denies many ‘peripheral’ enterprises their expected due, a backlash is born as a politics of envy, emulation, and exaggerated self-regard.</strong></p><p><strong>C.\tWhen such a view of unidirectional flow of progress is repeated, legitimised as pedagogy and institutionalised as the sole historic reality, what is little noticed in these moments of triumphalist self-</strong></p><p><strong>Congratulation is that these narratives often rebel with the historic self-image of those at the receiving ends.</strong></p><p><strong>D.\tThis would mean recognising a post-feudal society, understanding institutions like the postal services or newspapers, and the idea that a “respectable” single woman could make life choices on her own.</strong></p><p><strong>E.\tThese voices invert the ‘materialist’ logic of cultural dissemination: they adopt modern technologies while assiduously cultivating anti- modern mentalities.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "11fd76b4-52a8-44c1-8eba-87c104fa0555",
+                    "questionID": "dbd80a25-31f0-4b71-87e1-42dffe7a0c1b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:D</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "583f87b6-850d-4aee-8635-14358b6db067",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p>A<strong>.\tFor starters, India is the defending champion, having won the last edition in England in 2013.</strong></p><p><strong>B.\tThe ICC Champions Trophy may not have the allure of the World Cup or the ICC World Twenty20, but it has its own charm, especially for Indians.</strong></p><p><strong>C.\tSeen in that context, it is a travesty that the Board of Control for Cricket in India is now using the Champions Trophy as a bargaining tool with the ICC (International Cricket Council) in a bid to retrieve its earlier proposed governance and revenue model with the parent body.</strong></p><p><strong>D.\tAnd for nostalgia-seekers, there are those riveting images of Yuvraj Singh and Zaheer Khan’s stunning individual acts against Australia in the quarter-final at the Gymkhana Club Ground at Nairobi in 2000.</strong></p><p><strong>E.\tThey have let down the cricketers, who are busy with the Indian Premier League but also have an eye on the Champions Trophy as it kick-starts their international season besides giving them an opportunity to defend their title.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": [
+                {
+                    "id": "da605ac1-8102-415f-88d3-1bc5074b3dda",
+                    "questionID": "583f87b6-850d-4aee-8635-14358b6db067",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:E</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e4c904e7-a3c4-47cd-b526-9755ead01418",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Five statements are given below, labelled A, B, C, D and E, among these, four statements are in logical order and form a coherent paragraph/passage. From the given options, choose the option that does not fit into the theme of the passage.</p><p><br></p><p><strong>A.\tThe Centre has empowered the Reserve Bank of India to get banks to take tougher steps, including insolvency and bankruptcy proceedings against defaulters, to address the growing volume of bad loans on their books.</strong></p><p><strong>B.\tCurrently such committees exist only for loans brought into a scheme for sustainable structuring of stressed assets, also known as S4A.</strong></p><p><strong>C.\tNow the RBI can bring in such panels to monitor the alphabet soup of other mechanisms for tackling non-performing assets (NPAs) such as SDR (strategic debt restructuring) through the JLFs, or joint lenders’ forums.</strong></p><p><strong>D.\tThis is a clear signal that the NDA government is losing its patience</strong></p><p><strong>with bankers persisting with a status quoist approach.</strong></p><p><strong>E.\tThe RBI has also been vested with the power to form oversight committees wherever it deems fit.</strong></p><p>Option: A    Option: B    Option: C    Option: D    Option: E</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Odd one out"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8b91bd6f-ea5d-43fc-b6cf-364c79d099d4",
+                    "questionID": "e4c904e7-a3c4-47cd-b526-9755ead01418",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p class=\"ql-align-justify\"><strong>Answer:D</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d539cc10-9177-4ef4-8213-0dfc1968d165",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word that is most nearly opposite in meaning to the given word.</p><p><br></p><p><strong>INEXORABLE</strong></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Impenetrable</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Merciful</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Relenting</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Irregular</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "664ed5c1-4cc8-4557-9dc9-67e5b1c3cb1a",
+                    "questionID": "d539cc10-9177-4ef4-8213-0dfc1968d165",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>\"Inexorable\" means unstoppable or unyielding; the opposite is \"relenting.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1da4427e-325b-4a3e-8915-f7fe746308b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word that is most nearly opposite in meaning to the given word. <strong>PROLIX</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Succinct</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Verbose</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Extensive</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Repetitive</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c3fd34e4-1e35-4dc1-80d3-361d051de0bd",
+                    "questionID": "1da4427e-325b-4a3e-8915-f7fe746308b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> \"Prolix\" means overly wordy; the opposite is \"succinct.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95f57dc2-9ac6-4cdf-8140-e1470c677504",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word that is most nearly opposite in meaning to the given word. <strong>OSTENSIBLE</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Covert</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Real</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Apparent</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Displayed</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "53d5bf64-74ce-4fcb-a795-c5b526426ed1",
+                    "questionID": "95f57dc2-9ac6-4cdf-8140-e1470c677504",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> \"Ostensible\" means stated or outwardly appearing; the opposite is genuine or \"real.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5df7cf7a-daee-4e75-a03a-5041842660b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify</p><p>the option that corrects the grammatical or structural error in the sentence.</p><p>Focus on clarity, agreement, tense accuracy, and formal construction</p><p><br></p><p>&nbsp;The consortium of tech innovators, each specializing in distinct aspects of quantum computing, <em>have submitted a joint patent application for an integrated model.</em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>have submitted a joint patent application for an integrated model.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>has submitted a joint patent application for an integrated model.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>submitted a joint patent application for a model that was integrated.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>were submitting joint patent applications for their integrated models.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Spotting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c1ab5f7e-2220-481f-815b-37b690bb03e5",
+                    "questionID": "5df7cf7a-daee-4e75-a03a-5041842660b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> \"Consortium\" is singular, so the verb should be \"has submitted.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5065861e-ea86-4548-8bb9-7e7c5525186d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the option that corrects the grammatical or structural error in the sentence. Focus on clarity, agreement, tense accuracy, and formal construction</p><p><br></p><p>&nbsp;Not until the ecological data was independently verified <em>the conservationists began to re-evaluate their previous strategies.</em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>the conservationists began to re-evaluate their previous strategies.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>did the conservationists began re-evaluating their previous strategies.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>did the conservationists begin to re-evaluate their previous strategies.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>the conservationists had begun to re-evaluate their earlier strategies.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "67fcfa5a-cdf2-4218-8eb0-54b948576602",
+                    "questionID": "5065861e-ea86-4548-8bb9-7e7c5525186d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> This is an inversion sentence beginning with \"Not until\"; use \"did\" + base verb.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "77b557ca-6de9-4c34-98a5-7465d6232d3f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>&nbsp;Identify the option that corrects the grammatical or structural error in the sentence. Focus on clarity, agreement, tense accuracy, and formal construction </p><p><br></p><p>The researchers contend that the data collected from multiple field sites <em>provide</em></p><p><em>compelling evidence of climate-driven behavioural adaptations in wildlife.</em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>provide compelling evidence of climate-driven behavioural adaptations in wildlife.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>provides compelling evidences on behaviour adapted to climate in wildlife.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>havebeen providing compelling evidence for adapting wildlife behaviour.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>was providing compelling evidence on climate's drive for behavioural change.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7d87ae62-58b2-4d8d-8f44-18244e1cd186",
+                    "questionID": "77b557ca-6de9-4c34-98a5-7465d6232d3f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> \"Data\" is plural in academic usage; verb should be \"provide.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6fff423c-7b3d-4be3-a4e1-6463cca86c32",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the option that corrects the grammatical or structural error in the sentence. Focus on clarity, agreement, tense accuracy, and formal construction </p><p><br></p><p>The final manuscript, though endorsed by several peer reviewers, <em>contain multiple inconsistencies in citation style and theoretical framework.</em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>contain multiple inconsistencies in citation style and theoretical framework. </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>contains multiple inconsistencies in citation style and theoretical framework. </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>has contained inconsistencies which are multiple in citation and theory. </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>was containing inconsistencies in citations and frameworks theoretical. </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "78321102-8794-4f3b-9919-5ed62de92e6b",
+                    "questionID": "6fff423c-7b3d-4be3-a4e1-6463cca86c32",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> \"Manuscript\" is singular, so the verb must be \"contains.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f5cbc4a4-cb6b-42c4-8432-21977c4120f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Instructions</strong></p><p><strong>(Q.13 to Q.15):</strong> Read the following passage carefully and answer the questions that follow.</p><p><br></p><p>The philosophical debate over the value of suffering has occupied thinkers for</p><p>centuries. In some traditions, suffering is seen not merely as an affliction to</p><p>be avoided but as a crucible through which moral and spiritual development</p><p>occurs. Contemporary discourse, however, often seeks to eliminate suffering</p><p>entirely through technological, medical, and psychological means. While such</p><p>efforts are ethically motivated, some critics argue that this pursuit creates a</p><p>paradox: by shielding individuals from adversity, society may inadvertently</p><p>diminish resilience, empathy, and perspective. Moreover, sanitized</p><p>environments—physical and emotional—may leave people ill-equipped to process</p><p>grief, failure, or discomfort. Supporters of mitigation counter that no moral</p><p>justification can outweigh the duty to reduce avoidable pain, and that growth</p><p>does not necessitate trauma. The debate persists, revealing deep tensions</p><p>between compassion and the unintended consequences of overprotection.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "f1260867-c59b-44e2-b59e-024157410c7d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best improves the underlined part of the sentence by correcting grammar, punctuation, word choice, or sentence structure. These questions are designed to test your ability to navigate complex sentence structures and subtle linguistic distinctions.</p><p><br></p><p>Although the final report detailing the long-term implications of the environmental initiative was comprehensive, the lead analyst <em><u>fail to highlight the discrepancies between regional and national implementation timelines, thereby weakening the proposal's credibility.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>fail to highlight the discrepancies between regional and national implementation</p><p>timelines, thereby weakening the proposal's credibility.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>failed to highlight the discrepancies among regional and national implementations, and</p><p>so weakened the proposal credibility.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>fails to highlight discrepancies regarding implementation across regions and nations,</p><p>which weakens the credibility of the proposal.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>failed to highlight the discrepancies between regional and national implementation</p><p>timelines, thereby weakening the proposal's credibility.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Correction"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f961ce2c-d7c4-4f02-bf6e-e45a96d4e4e3",
+                    "questionID": "f1260867-c59b-44e2-b59e-024157410c7d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> The main clause is in the past; the subject \"analyst\" is singular. \"Failed\" and the rest of the phrase maintain clarity and parallelism.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "06ffe74f-8f4d-4ec0-bb75-c449cc3743b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves the underlined part of the sentence by correcting grammar, punctuation, word choice, or sentence structure. These questions are designed to test your ability to navigate complex sentence structures and subtle linguistic distinctions.</span></p><p><br></p><p>The committee's endorsement of the infrastructural overhaul, despite initial</p><p>opposition from multiple stakeholders, <em><u>were met with a mix of cautious</u></em></p><p><em><u>optimism and lingering skepticism regarding the feasibility of execution.</u></em></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>were met with a mix of cautious optimism and lingering skepticism regarding the</p><p>feasibility of execution.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>has been met with a blend of cautious optimism and skepticism surrounding feasible</p><p>execution.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>was met with a mix of cautious optimism and lingering skepticism regarding the feasibility of execution.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>were being met with cautious optimism and skeptic doubt over feasibility of execution.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Correction"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "24b627af-1cd1-4208-8b3b-80fcd9f2ed26",
+                    "questionID": "06ffe74f-8f4d-4ec0-bb75-c449cc3743b2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> The subject \"endorsement\" is singular;</p><p>use \"was met.\" Maintain formal register and phrase integrity.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "873120f5-0bdf-49c7-af19-cfb4f6dd7324",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word that is most nearly opposite in meaning to the given word. <strong>OSTENSIBLE</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Covert</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Real</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Apparent</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Displayed</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "37528987-0b41-4478-81b9-e53ccbee690b",
+                    "questionID": "873120f5-0bdf-49c7-af19-cfb4f6dd7324",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> \"Ostensible\" means stated or outwardly appearing; the opposite is genuine or \"real.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6d782174-1950-4a1d-a302-875bc04f03e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the most suitable word or phrase to fill the blank. Focus on logical meaning, register, and academic precision.</p><p><br></p><p>Though the policy paper was initially dismissed, it later gained traction for its ___ treatment of a previously overlooked socio-political issue.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>superficial</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>nuanced</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>evasive</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>disjointed</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b0472de5-acec-4a1c-921a-bf3e63100af5",
+                    "questionID": "6d782174-1950-4a1d-a302-875bc04f03e5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><br></p><p><strong>Hint:</strong> “Nuanced” = subtle and detailed, aligning with positive re-evaluation.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf154945-e46d-461a-bada-f423c5463eaa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the most suitable word or phrase to fill the blank. Focus on logical meaning, register, and academic precision.</p><p><br></p><p>The analyst’s report was criticized for its ___, relying heavily on outdated models</p><p>and disregarding recent economic shifts.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>timeliness</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>prescience</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>obsolescence</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>precision</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "87a8a2a9-2ba3-4da5-8182-16a26416db68",
+                    "questionID": "cf154945-e46d-461a-bada-f423c5463eaa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Obsolescence” means out-of-date or no longer valid.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b4134fb0-deb4-4524-8c4d-631ec35e057d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the most suitable word or phrase to fill the blank. Focus on logical meaning, register, and academic precision.</p><p><br></p><p>While his tone was measured, the minister’s speech carried a ___ message about the risks of prolonged political instability.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>conciliatory</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>veiled</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>complacent</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>incoherent</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4980d16a-8584-4c0e-a45b-14dad86bf7e0",
+                    "questionID": "b4134fb0-deb4-4524-8c4d-631ec35e057d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Veiled” means indirect or implied, which suits a subtle message.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c5804aa2-2f8e-4dbc-9c98-1727dcb5aed2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Direction: Read the following passage carefully and answer the following questions.</p><p><br></p><p>The eight-lane highway is part of the “Bharatmala Pariyojana”, a centrally sponsored highways programme, aimed chiefly as a corridor for more (A) efficient freight movement. The intended highway between Chennai and Salem (I) 250 km, and, once constructed, (II) a slew of agricultural and reserve forest lands (III). Although the High Court (B) _______________ a series of questions that required answering, the ultimate controversy in the case came down to this: was an environmental impact assessment (EIA) required before efforts were made to acquire land for the highway project? If not, at what stage of the project was such an assessment required? According to the petitioners, many of them landowners, the state had failed to obtain an environmental clearance for the project before acquiring land and had thereby violated its responsibilities. What is more, in any event, such permission, they argued, (C) _______________ since it was clear that the project would have a deleterious impact on the forests, the surrounding water bodies and the wildlife of the region. The government denied this. It argued that its power to acquire land under the National Highways Act, 1956, was unconditional. There was, it said, no law mandating an EIA before efforts are made to acquire private land. (D) In its belief, a notification in the Environment (Protection) Rules, 1986, which required an EIA for the construction of a new highway, did not decree such an assessment for the purpose of securing the land.</p><p><br></p><p>Which of the following words can replace the word given in bold in (A) without</p><p>changing the meaning of the sentence?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Tactful</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Potent</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Valuable</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Effective</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Cloze Test"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "cf1301b7-0c4f-420f-974d-1cef6c101a53",
+                    "questionID": "c5804aa2-2f8e-4dbc-9c98-1727dcb5aed2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>According to the given context, it is observed that we are talking about smoother freight movement</p><p>due to the new highway being constructed as the part of the government initiative to improve the road</p><p>network of the country. That is why efficient has been used here which implies that the movement of</p><p>goods will be easier and faster now.</p><p>Among the given words, tactful means a person who is thoughtful and careful whereas potent can be</p><p>used as the synonym in the normal course of the word used in the passage but not here. We cannot</p><p>use valuable and decisive also in this context thereby ruling out these two also. Only effective is there</p><p>that will properly replace the bold word in (A).</p><p>This makes Option E the correct choice among the given options.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d1d6b9e5-25bc-4ad7-8ebc-63f5959e6234",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Direction: Read the following passage carefully and answer the following questions.</p><p><br></p><p><br></p><p><br></p><p>The eight-lane highway is part of the “Bharatmala Pariyojana”, a centrally sponsored highways programme, aimed chiefly as a corridor for more (A) efficient freight movement. The intended highway between Chennai and Salem (I) 250 km, and, once constructed, (II) a slew of agricultural and reserve forest lands (III). Although the High Court (B) _____ a series of questions that required answering, the ultimate controversy in the case came down to this: was an environmental impact assessment (EIA) required before efforts were made to acquire land for the highway project? If not, at what stage of the project was such an assessment required? According to the petitioners, many of them landowners, the state had failed to obtain an environmental clearance for the project before acquiring land and had thereby violated its responsibilities. What is more, in any event, such permission, they argued, (C) _____ since it was clear that the project would have a deleterious impact on the forests, the surrounding water bodies and the wildlife of the region. The government denied this. It argued that its power to acquire land under the National Highways Act, 1956, was unconditional. There was, it said, no law mandating an EIA before efforts are made to acquire private land. (D) In its belief, a notification in the Environment (Protection) Rules, 1986, which required an EIA for the construction of a new highway, did not decree such an assessment for the purpose of securing the land.</p><p><br></p><p>Which of the following words should fill in the blank in (B) to make a contextually</p><p>correct and meaningful sentence?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Functioned</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Framed</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Derided</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Accounted</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Cloze Test"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d84945cc-48f0-436e-8bba-c9c558e2e6fc",
+                    "questionID": "d1d6b9e5-25bc-4ad7-8ebc-63f5959e6234",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>According to the given context, we are saying that the High Court has asked the questions for which</p><p>the government has to answer so that all the concerns of the litigants are addressed. This will make</p><p>sure that there will be no problem with the construction of the highway in the future.</p><p>Among the given words, we can only use framed to indicate that the HC put forward certain questions</p><p>of which the answers have to be found so that all the issues are sorted. All the other words are out of</p><p>context and they can be eliminated from consideration. Derided means insulted or made fun of.</p><p>This makes Option B the correct choice among the given options.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "48ba5cce-0049-4109-8cd8-c70787a13aca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Choose the option that is most opposite in meaning to the given word. </strong></p><p><strong>BENEVOLENT</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Kind</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Malevolent</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Helpful</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Generous</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "761274a0-4a80-4c3e-b01e-0af383be8fb9",
+                    "questionID": "48ba5cce-0049-4109-8cd8-c70787a13aca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Benevolent = kind, caring. Opposite = malevolent (evil).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "44f8abf5-a339-4b6a-a32f-6a701a8dd79e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Choose the option that is most opposite in meaning to the given word.</strong></p><p><strong> OBSCURE</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Vague</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Concealed</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Famous</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Ambiguous</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "572d9788-d540-4f26-9fa7-3dbae9bcfb03",
+                    "questionID": "44f8abf5-a339-4b6a-a32f-6a701a8dd79e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Obscure = unknown. Opposite = famous.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ffb7c68b-a4e4-493b-8d4d-1323973990ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Choose the option that is most opposite in meaning to the given word. </strong></p><p><strong><span class=\"ql-cursor\">﻿</span>DEFERENCE</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Politeness</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Respect</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Disregard</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Submission</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4dbc3bfa-e8f3-4391-89ca-722567c69a47",
+                    "questionID": "ffb7c68b-a4e4-493b-8d4d-1323973990ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Deference = respect. Opposite =</p><p>lack of respect.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52ab4df9-8dd7-49ea-9fc4-5df10a518924",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the sentences to form a meaningful paragraph.</p><p><br></p><p>A. Many artists find solace in expressing their inner turmoil through abstract</p><p>forms, believing that ambiguity allows the viewer to engage more intimately</p><p>with the piece.</p><p><br></p><p>B. Unlike photorealism, which aims to replicate reality, abstract art</p><p>prioritizes emotion, symbolism, and the viewer’s personal interpretation.</p><p><br></p><p>C. While some critics dismiss it as inaccessible or indulgent, abstract art</p><p>continues to provoke passionate discourse within academic and artistic</p><p>communities.</p><p><br></p><p>D. The evolution of abstraction in modern art reflects a broader shift toward</p><p>subjective experience over objective representation.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>DCAB</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>BDAC</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DABC</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>CBDA</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "27153ba9-978b-446a-b003-6cfe7ab0940c",
+                    "questionID": "52ab4df9-8dd7-49ea-9fc4-5df10a518924",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Begin with a <strong>historical perspective (D)</strong>, then explain <strong>what abstract art is (C, A)</strong>, and conclude with <strong>the emotional engagement (B)</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a4c7f6f7-03d3-4cb0-82b8-a1bc1e25ef17",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the sentences to form a meaningful paragraph.</p><p><br></p><p>A. From machine translation systems to AI-driven teaching assistants,</p><p>technology is poised to reshape how students learn and teachers instruct.</p><p><br></p><p>B. Yet, there remains considerable debate over whether these tools enhance true</p><p>comprehension or merely automate surface-level engagement.</p><p><br></p><p>C. The integration of artificial intelligence into classrooms has generated</p><p>both excitement and concern among educators and policymakers alike.</p><p><br></p><p>D. While the promise of personalized learning and real-time feedback is</p><p>appealing, critics argue that critical thinking and creativity cannot be</p><p>outsourced to algorithms.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>CABD</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ACBD</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>CBAD</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>DACB</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dd0e26a1-390c-44cd-8de6-7b0f9f3a227d",
+                    "questionID": "a4c7f6f7-03d3-4cb0-82b8-a1bc1e25ef17",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Start with the broad <strong>issue introduction (C)</strong>,</p><p>then examples (A), followed by <strong>debate (B)</strong> and critical view</p><p>(D).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d60ca745-ded1-4462-bd91-8004e6bbef38",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>In this generally upbeat environment, hardly any analyst wants to ____________ and state in a research report that the excitement about the rupee depreciation is overdone as far as IT stocks are concerned. I. Put their necks on the line II. Go out on a limb III. Stick their necks out </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only III </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> All of the above </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a28d3db1-8117-4ad1-a9c3-44ef7dcd2e88",
+                    "questionID": "d60ca745-ded1-4462-bd91-8004e6bbef38",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>All of the idioms refer to doing something they strongly believe in even though it is risky or extreme, and is likely to fail or be criticized by other people. All of these idioms mean the same and fit in well in the present context.   Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26c330d4-0575-4863-889a-dbf7e1ddcdca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>The shrewd scheme was about to ________ when unfortunately the authorities wouldn't allow him to fly his planes over the planned route.</p><p><br></p><p>I. work like a charm </p><p>II. Mean business</p><p>III. Get the axe </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II  </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I  </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrase"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4a080f43-0e7d-44a2-9907-567c948ba832",
+                    "questionID": "26c330d4-0575-4863-889a-dbf7e1ddcdca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>work like a charm: Works very well or has the desired effect.  Option I fills the sentence correctly as it implies that the scheme was about to work perfectly but the authorities restricted the flight.  Mean business: Being serious about what you announce.  Eg : Now people are starting to realise that he means business.   Get the axe: Lose the job.  Eg: He got the axe at the end of the first week.  Clearly only I fit in the sentence correctly.  Hence, option B is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3cd444e0-bcf4-41bd-b433-0900cccfdd15",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong style=\"color: rgb(46, 46, 46);\">1.&nbsp;Which word means \"to reduce in amount\"?</strong></h3><p>a.&nbsp;Augment</p><p><br></p><p>b. Diminish</p><p><br></p><p>c. Amplify</p><p><br></p><p>d.&nbsp;Increase</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8c5fd6c4-5d07-4f89-a15a-795b81d5b391",
+                    "questionID": "3cd444e0-bcf4-41bd-b433-0900cccfdd15",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(51, 51, 51);\">Explanation: \"Diminish\"</span></p><p><span style=\"color: rgb(51, 51, 51);\">implies a gradual reduction or weakening.&nbsp; It could be the fading light of day as the sun sets, the decrease in intensity of a storm, or the gradual erosion of a mountain over centuries.&nbsp; It suggests a process of becoming smaller, less significant, or less potent over time.</span></p><p><br></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

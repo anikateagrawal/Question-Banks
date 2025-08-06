@@ -1,0 +1,3950 @@
+{
+    "bank_id": "1550b0ba-f215-42b1-872c-ea8ef3ff38fc",
+    "bank_name": "ai-ml-faculty",
+    "questions": [
+        {
+            "id": "d7cac3d7-a80e-44e2-acd2-d374ded6e9bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is an application of NN (Neural Network)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sales forecasting ",
+                    "type": "A"
+                },
+                {
+                    "body": "Data validation ",
+                    "type": "B"
+                },
+                {
+                    "body": "Risk management ",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the mentioned",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "fe3c6d68-a880-4dd4-b45d-80a8efa12907",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is back propagation?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It is another name given to the curvy function in the perceptron ",
+                    "type": "A"
+                },
+                {
+                    "body": "It is the transmission of error back through the network to adjust the inputs ",
+                    "type": "B"
+                },
+                {
+                    "body": "It is the transmission of error back through the network to allow weights to be adjusted so that the network can learn ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the mentioned",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "491bbb2a-4d08-4bef-9c72-f6f96c7a7fd5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is error in perceptron model of neuron?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "error due to environmental condition ",
+                    "type": "A"
+                },
+                {
+                    "body": "difference between desired &amp; target output ",
+                    "type": "B"
+                },
+                {
+                    "body": "can be both due to difference in target output or environmental condition ",
+                    "type": "C"
+                },
+                {
+                    "body": "none of the mentioned",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "7b35488c-01c5-42fa-9214-373149cd01d3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When both inputs are 1, what will be the output of the pitts model nand gate ?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0",
+                    "type": "A"
+                },
+                {
+                    "body": "1 ",
+                    "type": "B"
+                },
+                {
+                    "body": "either 0 or 1 ",
+                    "type": "C"
+                },
+                {
+                    "body": "z",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "226050d1-39b2-4325-9aea-2ff1a7f880f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An artificial neuron receives n inputs x1, x2, x3............xn with weights w1, w2, ..........wn attached to the input links. The weighted sum_________________ is computed to be passed on to a non-linear filter Φ called activation function to release the output.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Σ wi ",
+                    "type": "A"
+                },
+                {
+                    "body": "Σ xi ",
+                    "type": "B"
+                },
+                {
+                    "body": "Σ wi + Σ xi ",
+                    "type": "C"
+                },
+                {
+                    "body": "Σ wi* xi",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "c7a85a9b-c9c1-4717-937d-ce1afd66a01a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A perceptron adds up all the weighted inputs it receives, and if it exceeds a certain value, it outputs a 1, otherwise it just outputs a 0",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "True ",
+                    "type": "A"
+                },
+                {
+                    "body": "False ",
+                    "type": "B"
+                },
+                {
+                    "body": "Sometimes – it can also output intermediate values as well ",
+                    "type": "C"
+                },
+                {
+                    "body": "Can’t say",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "c26712b2-2222-422e-beb8-8cb851be360f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is perceptron?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "a single layer feed-forward neural network with pre-processing ",
+                    "type": "A"
+                },
+                {
+                    "body": "an auto-associative neural network ",
+                    "type": "B"
+                },
+                {
+                    "body": "a double layer auto-associative neural network",
+                    "type": "C"
+                },
+                {
+                    "body": "a neural network that contains feedback",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "5c95c2c9-d50b-445a-befb-b2947243cdd1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main functionality of Keras in the context of machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data preprocessing",
+                    "type": "A"
+                },
+                {
+                    "body": "Neural network building",
+                    "type": "B"
+                },
+                {
+                    "body": "Model evaluation",
+                    "type": "C"
+                },
+                {
+                    "body": "Statistical analysis",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f84fd127-b942-4cbd-acad-cfb0111815ce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of the Scikit-learn library in the context of machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data manipulation",
+                    "type": "A"
+                },
+                {
+                    "body": "Visualization",
+                    "type": "B"
+                },
+                {
+                    "body": "Model building and evaluation",
+                    "type": "C"
+                },
+                {
+                    "body": "Deep learning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b458e22b-7f79-4d65-87d3-a2598f588c31",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which Python library is commonly used for machine learning tasks and includes functions for data preprocessing, model building, and evaluation?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "NumPy",
+                    "type": "A"
+                },
+                {
+                    "body": "Matplotlib",
+                    "type": "B"
+                },
+                {
+                    "body": "Pandas",
+                    "type": "C"
+                },
+                {
+                    "body": "Scikit-learn",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "d6c165d7-61c5-4585-bada-8e811de3f960",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A 4-input neuron has weights 1, 2, 3 and 4. The transfer function is linear with the constant of proportionality being equal to 2. The inputs are 4, 10, 5 and 20 respectively. The output will be:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "238 ",
+                    "type": "A"
+                },
+                {
+                    "body": "76 ",
+                    "type": "B"
+                },
+                {
+                    "body": "119 ",
+                    "type": "C"
+                },
+                {
+                    "body": "123",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "c27f8f3e-8551-4a92-95df-aed9d4c16be2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Does McCulloch-pitts model have ability to learn?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Yes",
+                    "type": "A"
+                },
+                {
+                    "body": " No",
+                    "type": "B"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "cf583520-e1d9-474a-a2ac-3256eb438268",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The process of adjusting the weight is known as?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "activation",
+                    "type": "A"
+                },
+                {
+                    "body": "synchronization",
+                    "type": "B"
+                },
+                {
+                    "body": "learning",
+                    "type": "C"
+                },
+                {
+                    "body": "none of the mentioned",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "970cb6e3-9613-4c12-953e-41de175f3dfc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The amount of output of one unit received by another unit depends on what?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "output unit",
+                    "type": "A"
+                },
+                {
+                    "body": "input unit",
+                    "type": "B"
+                },
+                {
+                    "body": "activation value",
+                    "type": "C"
+                },
+                {
+                    "body": "weight",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "d7e35298-573f-4c07-8cf8-84e5e693e82e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is an activation value?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "weighted sum of inputs",
+                    "type": "A"
+                },
+                {
+                    "body": "threshold value",
+                    "type": "B"
+                },
+                {
+                    "body": "main input to neuron",
+                    "type": "C"
+                },
+                {
+                    "body": "none of the mentioned",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "1681e6e4-f72f-44d4-85e1-6974b22f2a9c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Who proposed the first perceptron model in 1958?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "McCulloch-pitts",
+                    "type": "A"
+                },
+                {
+                    "body": "Marvin Minsky",
+                    "type": "B"
+                },
+                {
+                    "body": "Hopfield",
+                    "type": "C"
+                },
+                {
+                    "body": "Rosenblatt",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "b525fcbf-1dbb-4e6c-b1e3-bda17a05b680",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following would have a constant input in each epoch of training a Deep Learning model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Weight between input and hidden layer",
+                    "type": "A"
+                },
+                {
+                    "body": "Weight between hidden and output layer",
+                    "type": "B"
+                },
+                {
+                    "body": "Activation function of output layer ",
+                    "type": "C"
+                },
+                {
+                    "body": "Biases of all hidden layer neurons",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "611a13f6-c88b-4c5d-81ed-8f1cd20d92a1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Suppose we have a neural network with ReLU activation function. Let’s say, we replace ReLu activations by linear activations. Would this new neural network be able to approximate an XNOR function? Note: The neural network was able to approximate XNOR function with activation function ReLu.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Yes",
+                    "type": "A"
+                },
+                {
+                    "body": "No",
+                    "type": "B"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "7b8981af-be1b-40d7-abd9-391237244de3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Pandas key data structure is called?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Keyframe",
+                    "type": "A"
+                },
+                {
+                    "body": "DataFrame",
+                    "type": "B"
+                },
+                {
+                    "body": "Statistics",
+                    "type": "C"
+                },
+                {
+                    "body": "Econometrics",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "a162fc5c-0855-4940-94cb-2857a93e7bdc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will be syntax for pandas dataframe?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "pandas.DataFrame( data, index, dtype, copy)",
+                    "type": "A"
+                },
+                {
+                    "body": "pandas.DataFrame( data, index, rows, dtype, copy)",
+                    "type": "B"
+                },
+                {
+                    "body": "pandas_DataFrame( data, index, columns, dtype, copy)",
+                    "type": "C"
+                },
+                {
+                    "body": "pandas.DataFrame( data, index, columns, dtype, copy)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-4"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "3751c49d-fa8a-4b9d-9e7d-110bbf31245e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following hyperparameters controls the learning rate in boosting algorithms?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Depth of trees",
+                    "type": "A"
+                },
+                {
+                    "body": "Number of weak learners",
+                    "type": "B"
+                },
+                {
+                    "body": "Learning rate (shrinkage)",
+                    "type": "C"
+                },
+                {
+                    "body": "Minimum sample split",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "4b6fbfc3-99f9-4b51-8516-946b1bb329b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is boosting considered more prone to overfitting than bagging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Because it trains weak models independently",
+                    "type": "A"
+                },
+                {
+                    "body": "Because it sequentially learns from the mistakes of previous models, fitting the noise",
+                    "type": "B"
+                },
+                {
+                    "body": "Because it ignores feature importance",
+                    "type": "C"
+                },
+                {
+                    "body": "Because it only uses random subsets of data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "5529661f-81cb-47af-8f76-0388154e0a8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a boosting ensemble, how are the final predictions made?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "By taking the average of all weak learners",
+                    "type": "A"
+                },
+                {
+                    "body": "By majority voting of the weak models",
+                    "type": "B"
+                },
+                {
+                    "body": "By weighting each model’s prediction based on its accuracy",
+                    "type": "C"
+                },
+                {
+                    "body": "By using the first model’s prediction as final output",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1f62d349-6bc1-440d-91d2-6002be696593",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of models does boosting typically use as weak learners?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deep Neural Networks",
+                    "type": "A"
+                },
+                {
+                    "body": "Decision Stumps",
+                    "type": "B"
+                },
+                {
+                    "body": "Convolutional Networks",
+                    "type": "C"
+                },
+                {
+                    "body": "K-Means Clusters",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d008a56e-373a-4627-bd57-6c06aadbc25b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Gradient Boosting, what is the role of the loss function?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It determines the splitting criterion in decision trees",
+                    "type": "A"
+                },
+                {
+                    "body": "It guides the boosting algorithm to minimize prediction errors",
+                    "type": "B"
+                },
+                {
+                    "body": "It helps in selecting the best hyperparameters",
+                    "type": "C"
+                },
+                {
+                    "body": "It controls the dataset size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4c204a50-e883-41e9-a2ba-2412b00f31a9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A dataset has a highly imbalanced class distribution. Which boosting technique is most suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "AdaBoost",
+                    "type": "A"
+                },
+                {
+                    "body": "Gradient Boosting",
+                    "type": "B"
+                },
+                {
+                    "body": "SMOTE Boosting",
+                    "type": "C"
+                },
+                {
+                    "body": "Bagging",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "06883d8b-a7cd-4e9b-bbb2-863e6bbb983a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following boosting algorithms is based on gradient optimization?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "AdaBoost",
+                    "type": "A"
+                },
+                {
+                    "body": "XGBoost",
+                    "type": "B"
+                },
+                {
+                    "body": "Random Forest",
+                    "type": "C"
+                },
+                {
+                    "body": "K-Means",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d382e38b-5c2f-4a77-85be-ea991714f062",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does AdaBoost assign weights to misclassified samples?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It increases the weights of correctly classified samples",
+                    "type": "A"
+                },
+                {
+                    "body": "It decreases the weights of misclassified samples",
+                    "type": "B"
+                },
+                {
+                    "body": "It increases the weights of misclassified samples to focus on them in the next iteration",
+                    "type": "C"
+                },
+                {
+                    "body": "It assigns equal weights to all samples",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "ce61a47d-6d9c-4c37-b252-d17d65d1a52f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why does boosting improve the overall predictive performance of a model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "By reducing variance and ignoring bias",
+                    "type": "A"
+                },
+                {
+                    "body": "By combining weak learners to correct the mistakes of previous models",
+                    "type": "B"
+                },
+                {
+                    "body": "By training deep networks with high capacity",
+                    "type": "C"
+                },
+                {
+                    "body": "By using only a single decision tree for learning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "0fa7c9fa-e289-4775-bdaa-13481aeb913c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main objective of boosting in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To reduce bias by training multiple weak models sequentially",
+                    "type": "A"
+                },
+                {
+                    "body": "To increase overfitting by training deep neural networks",
+                    "type": "B"
+                },
+                {
+                    "body": "To replace decision trees with neural networks",
+                    "type": "C"
+                },
+                {
+                    "body": "To train all weak models independently",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "9d52261c-9a15-4f99-b780-ec6d9b43b6e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does Bagging improve model generalization?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "By increasing the dataset size",
+                    "type": "A"
+                },
+                {
+                    "body": "By reducing overfitting through averaging multiple models",
+                    "type": "B"
+                },
+                {
+                    "body": "By training models sequentially",
+                    "type": "C"
+                },
+                {
+                    "body": "By removing weak models from the ensemble",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "06ba878c-dcee-4862-b2e9-7f12c6e6b371",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which scenario would Bagging NOT be an ideal choice?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When the model suffers from high variance",
+                    "type": "A"
+                },
+                {
+                    "body": "When the dataset is small",
+                    "type": "B"
+                },
+                {
+                    "body": "When using high-variance base learners",
+                    "type": "C"
+                },
+                {
+                    "body": "When working with non-parametric models",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "2e4fbd51-546e-42ee-bc67-5144281457b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following hyperparameters can be adjusted in a Bagging Classifier in sklearn?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Number of base estimators",
+                    "type": "A"
+                },
+                {
+                    "body": "Maximum depth of trees",
+                    "type": "B"
+                },
+                {
+                    "body": "Sampling ratio",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "a3adb7d4-a18b-4b6e-a37a-7490fb659673",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If you apply Bagging to Logistic Regression, what will be the expected outcome?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It will significantly reduce bias",
+                    "type": "A"
+                },
+                {
+                    "body": "It will significantly reduce variance",
+                    "type": "B"
+                },
+                {
+                    "body": "It will not provide significant benefits",
+                    "type": "C"
+                },
+                {
+                    "body": "It will make the model slower but more accurate",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "94550e1a-d30d-4a44-a3ee-795c6f537140",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which ensemble method is a direct application of Bagging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Gradient Boosting",
+                    "type": "A"
+                },
+                {
+                    "body": "AdaBoost",
+                    "type": "B"
+                },
+                {
+                    "body": "Random Forest",
+                    "type": "C"
+                },
+                {
+                    "body": "Stacking",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "536e071d-89ad-4cdc-bf18-d9a68afc4710",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does Bagging impact the interpretability of a model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It improves interpretability by using multiple models",
+                    "type": "A"
+                },
+                {
+                    "body": "It reduces interpretability due to ensemble complexity",
+                    "type": "B"
+                },
+                {
+                    "body": "It has no impact on interpretability",
+                    "type": "C"
+                },
+                {
+                    "body": "It makes models more explainable",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "21b8d229-f2ec-474d-8a39-8ad7159984b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Bagging is particularly useful when applied to:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "High-bias models like linear regression",
+                    "type": "A"
+                },
+                {
+                    "body": "High-variance models like Decision Trees",
+                    "type": "B"
+                },
+                {
+                    "body": "Low-variance models like Naïve Bayes",
+                    "type": "C"
+                },
+                {
+                    "body": "Any model without exception",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "46ebf2f0-aa3e-4918-b24d-e9e0af70e839",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a Bagging ensemble of Decision Trees, what happens if we do NOT use bootstrap sampling?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The models will be identical",
+                    "type": "A"
+                },
+                {
+                    "body": "The ensemble will perform better",
+                    "type": "B"
+                },
+                {
+                    "body": "The variance will be higher",
+                    "type": "C"
+                },
+                {
+                    "body": "The model will have lower bias",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "de9cdb9b-33cb-42ae-8a45-590b3ba0d448",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following statements is TRUE about Bagging and Boosting?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bagging reduces variance, whereas Boosting reduces bias",
+                    "type": "A"
+                },
+                {
+                    "body": "Bagging reduces bias, whereas Boosting reduces variance",
+                    "type": "B"
+                },
+                {
+                    "body": "Both Bagging and Boosting increase variance",
+                    "type": "C"
+                },
+                {
+                    "body": "Bagging and Boosting are the same technique",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "84013ff1-3fc4-4196-9770-83e99750ca12",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a characteristic of Bagging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It creates multiple subsets of data",
+                    "type": "A"
+                },
+                {
+                    "body": "It reduces variance in models",
+                    "type": "B"
+                },
+                {
+                    "body": "It builds models sequentially like Boosting",
+                    "type": "C"
+                },
+                {
+                    "body": "It combines predictions using averaging or voting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b913366f-bf78-4db6-9cee-28200d517368",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Suppose you use Bagging with Decision Trees on a dataset with high variance. What would you expect?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The overall variance of the model will reduce",
+                    "type": "A"
+                },
+                {
+                    "body": "The model will memorize the training set",
+                    "type": "B"
+                },
+                {
+                    "body": "The variance will remain unchanged",
+                    "type": "C"
+                },
+                {
+                    "body": "The decision trees will all be identicall",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "12e66016-7328-4483-8843-4986444db05d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Bagging, what is the role of aggregation in final prediction?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It selects the most complex model",
+                    "type": "A"
+                },
+                {
+                    "body": "It selects the model with the highest accuracy",
+                    "type": "B"
+                },
+                {
+                    "body": "It averages the outputs for regression and takes majority votes for classification",
+                    "type": "C"
+                },
+                {
+                    "body": "It discards weak models",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "8715fccd-0f2e-4a44-bd5d-a80aad9f6eef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of models benefit the most from Bagging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Models with high bias",
+                    "type": "A"
+                },
+                {
+                    "body": "Models with high variance",
+                    "type": "B"
+                },
+                {
+                    "body": "Linear regression models",
+                    "type": "C"
+                },
+                {
+                    "body": "Models with low variance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "63524a64-2980-4434-8471-12f16182d58a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is an advantage of Bagging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It always increases accuracy, regardless of the base model",
+                    "type": "A"
+                },
+                {
+                    "body": "It reduces overfitting in high-variance models",
+                    "type": "B"
+                },
+                {
+                    "body": "It works only with linear models",
+                    "type": "C"
+                },
+                {
+                    "body": "It removes bias completely from the model",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "40bd71ab-23d1-42be-bb46-e2dc2e169fb1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens when we increase the number of base models in a Bagging ensemble?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The bias of the model increases",
+                    "type": "A"
+                },
+                {
+                    "body": "The variance of the model increases",
+                    "type": "B"
+                },
+                {
+                    "body": "The variance of the model decreases",
+                    "type": "C"
+                },
+                {
+                    "body": "The performance degrades",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "54df6222-774f-4233-8a56-d77909011ee9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider a scenario where a single Decision Tree model overfits the training data. How can Bagging help in this situation?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "By reducing bias in the decision tree",
+                    "type": "A"
+                },
+                {
+                    "body": "By increasing model complexity to fit training data better",
+                    "type": "B"
+                },
+                {
+                    "body": "By averaging multiple decision trees to reduce variance",
+                    "type": "C"
+                },
+                {
+                    "body": "By using a single, larger decision tree",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "bf39955d-46a3-430a-ae25-195926754199",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following algorithms is commonly used with Bagging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "K-Means Clustering",
+                    "type": "A"
+                },
+                {
+                    "body": "Decision Trees",
+                    "type": "B"
+                },
+                {
+                    "body": "Support Vector Machines",
+                    "type": "C"
+                },
+                {
+                    "body": "Principal Component Analysis",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "fa00b678-b2a8-4e63-900d-5202722be9e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does Bootstrap Sampling work in Bagging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It selects only the best samples from the dataset",
+                    "type": "A"
+                },
+                {
+                    "body": "It generates multiple subsets of data with replacement",
+                    "type": "B"
+                },
+                {
+                    "body": "It uses all available training data without modification",
+                    "type": "C"
+                },
+                {
+                    "body": "It selects a completely different dataset for each model",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "2b824c99-afc8-4260-83ac-88576a20d634",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why does Bagging improve model performance?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "By training models on different datasets and averaging predictions",
+                    "type": "A"
+                },
+                {
+                    "body": "By selecting the best model from a set of trained models",
+                    "type": "B"
+                },
+                {
+                    "body": "By introducing strong regularization techniques",
+                    "type": "C"
+                },
+                {
+                    "body": "By reducing the number of trees in the ensemble",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "87139c06-5a95-4f87-951d-7fac1650f94f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of Bagging in ensemble learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To reduce bias in models",
+                    "type": "A"
+                },
+                {
+                    "body": "To increase variance in models",
+                    "type": "B"
+                },
+                {
+                    "body": "To reduce variance and improve stability",
+                    "type": "C"
+                },
+                {
+                    "body": "To make the model more complex",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-3"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "18a2fa21-c863-4c61-bf8c-90f63d82d140",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is one advantage of using SVD in dimensionality reduction?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It retains the most important information while reducing noise",
+                    "type": "A"
+                },
+                {
+                    "body": "It eliminates the need for feature scaling",
+                    "type": "B"
+                },
+                {
+                    "body": "It works only with categorical data",
+                    "type": "C"
+                },
+                {
+                    "body": "It increases data complexity for better accuracy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e04768c0-ed60-4065-aea9-50c623d7535c",
+                    "questionID": "18a2fa21-c863-4c61-bf8c-90f63d82d140",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SVD helps extract the most significant features from data while filtering out noise, making it useful for compression and feature selection.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4c36d7c9-bf7f-4f4c-94b9-ed1b4b729fa0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a common application of SVD in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Dimensionality reduction and recommendation systems",
+                    "type": "A"
+                },
+                {
+                    "body": "Feature scaling and normalization",
+                    "type": "B"
+                },
+                {
+                    "body": "Label encoding for categorical variables",
+                    "type": "C"
+                },
+                {
+                    "body": "Gradient-based optimization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "135b751c-1b59-4356-b213-0caf83d52ef4",
+                    "questionID": "4c36d7c9-bf7f-4f4c-94b9-ed1b4b729fa0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SVD is widely used in dimensionality reduction (e.g., Latent Semantic Analysis) and collaborative filtering in recommendation systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e8d8327-c525-4abb-9918-5b9fe1587153",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Singular Value Decomposition (SVD), which three matrices represent the decomposed form of a given matrix A?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "U,Σ,VT",
+                    "type": "A"
+                },
+                {
+                    "body": "X,Y,Z",
+                    "type": "B"
+                },
+                {
+                    "body": "Q,R,S",
+                    "type": "C"
+                },
+                {
+                    "body": "M,N,O",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f267c1c3-b9d3-4b74-a715-f7692a483544",
+                    "questionID": "3e8d8327-c525-4abb-9918-5b9fe1587153",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SVD decomposes a matrix A into U(left singular vectors), Σ (singular values), and VT (right singular vectors).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4effebaf-997f-4e8c-acd2-f0d5d9cedaf6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of Singular Value Decomposition (SVD) in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To decompose a matrix into three lower-dimensional matrices for efficient computation",
+                    "type": "A"
+                },
+                {
+                    "body": "To normalize feature values in a dataset",
+                    "type": "B"
+                },
+                {
+                    "body": "To encode categorical variables into numerical format",
+                    "type": "C"
+                },
+                {
+                    "body": "To increase the number of features in a dataset",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c0fcb2b5-309d-4d0a-89b5-57698fdfcc24",
+                    "questionID": "4effebaf-997f-4e8c-acd2-f0d5d9cedaf6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SVD factorizes a matrix into three components (U, Σ, V^T), helping in dimensionality reduction and noise reduction.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d28695e3-5926-4838-97af-d0d82be42918",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a common limitation of PCA?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It only works with categorical data",
+                    "type": "A"
+                },
+                {
+                    "body": "It is sensitive to the scale of features",
+                    "type": "B"
+                },
+                {
+                    "body": "It increases data dimensionality",
+                    "type": "C"
+                },
+                {
+                    "body": "It requires labeled data for training",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a5f5e647-8c34-4fa3-845a-0f09c8540759",
+                    "questionID": "d28695e3-5926-4838-97af-d0d82be42918",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PCA is affected by feature scaling; applying standardization (Z-score normalization) before PCA helps achieve better results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0c245a70-38b8-46f6-8213-0d1b76e49059",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which mathematical technique is used in PCA to compute principal components?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Singular Value Decomposition (SVD)",
+                    "type": "A"
+                },
+                {
+                    "body": "K-Means Clustering",
+                    "type": "B"
+                },
+                {
+                    "body": "Gradient Descent",
+                    "type": "C"
+                },
+                {
+                    "body": "Decision Trees",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "96467358-b99e-4b65-a688-32d417fd6af8",
+                    "questionID": "0c245a70-38b8-46f6-8213-0d1b76e49059",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PCA uses SVD or Eigenvalue decomposition to transform data into a new coordinate system based on principal components.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f7dff218-b48b-4eee-bfa8-27a521c2acd9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does PCA prioritize when selecting principal components?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Features with the lowest variance",
+                    "type": "A"
+                },
+                {
+                    "body": "Features with the highest variance",
+                    "type": "B"
+                },
+                {
+                    "body": "Features with the highest correlation",
+                    "type": "C"
+                },
+                {
+                    "body": "Features with missing values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "36392ff8-2b32-45f7-9718-c543219ba03f",
+                    "questionID": "f7dff218-b48b-4eee-bfa8-27a521c2acd9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PCA selects components that capture the most variance in the dataset, as higher variance typically holds more information.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5e56b120-1430-4779-b7a3-78af001cc117",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of Principal Component Analysis (PCA) in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To reduce the number of features while retaining most of the data’s variance",
+                    "type": "A"
+                },
+                {
+                    "body": "To normalize feature values to a specific range",
+                    "type": "B"
+                },
+                {
+                    "body": "To encode categorical variables into numerical form",
+                    "type": "C"
+                },
+                {
+                    "body": "To improve model accuracy by adding more features",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "79f48176-5672-4e8f-9f5a-a3fd00ed6b5b",
+                    "questionID": "5e56b120-1430-4779-b7a3-78af001cc117",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PCA reduces dimensionality by transforming correlated features into a smaller set of uncorrelated principal components.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8572f5d-93a6-4cf5-a3a0-300d7a7847f1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a common technique used for feature extraction in image processing?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Principal Component Analysis (PCA)",
+                    "type": "A"
+                },
+                {
+                    "body": "One-Hot Encoding",
+                    "type": "B"
+                },
+                {
+                    "body": "Min-Max Scaling",
+                    "type": "C"
+                },
+                {
+                    "body": "K-Means Clustering",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "92c67f07-3cdc-4475-a461-0080ff35be1f",
+                    "questionID": "d8572f5d-93a6-4cf5-a3a0-300d7a7847f1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PCA extracts important features by reducing data dimensionality while retaining significant variance in the dataset.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "12443d7e-7f1f-481e-85be-ad49f0a86ce3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main objective of feature extraction in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To create new informative features from raw data",
+                    "type": "A"
+                },
+                {
+                    "body": "To remove all irrelevant features from a dataset",
+                    "type": "B"
+                },
+                {
+                    "body": "To normalize data for better performance",
+                    "type": "C"
+                },
+                {
+                    "body": "To replace missing values with estimated values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c3ace989-3a15-4b80-a5f0-8ddde464bb13",
+                    "questionID": "12443d7e-7f1f-481e-85be-ad49f0a86ce3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Feature extraction transforms raw data into meaningful representations that improve model performance and efficiency.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2198d359-c358-43ba-a739-93ee5c9a4aee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does Principal Component Analysis (PC[KEY=A] do in dimensionality reduction?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It normalizes feature values to a standard range",
+                    "type": "A"
+                },
+                {
+                    "body": "It transforms correlated features into a set of uncorrelated principal components",
+                    "type": "B"
+                },
+                {
+                    "body": "It replaces missing values in a dataset",
+                    "type": "C"
+                },
+                {
+                    "body": "It encodes categorical variables into numerical form",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "39a552fb-725e-451e-a021-e5b06c3ccffb",
+                    "questionID": "2198d359-c358-43ba-a739-93ee5c9a4aee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PCA reduces dimensionality by projecting data onto new axes, capturing the most variance while minimizing information loss.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "475c7e46-767c-4337-885c-258f7d64b5d7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main goal of dimensionality reduction in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To increase the number of features in a dataset",
+                    "type": "A"
+                },
+                {
+                    "body": "To remove irrelevant or redundant features while preserving important information",
+                    "type": "B"
+                },
+                {
+                    "body": "To convert numerical data into categorical data",
+                    "type": "C"
+                },
+                {
+                    "body": "To improve overfitting by adding more complexity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cba72392-35a0-40fa-9d51-2aac58f88da5",
+                    "questionID": "475c7e46-767c-4337-885c-258f7d64b5d7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Dimensionality reduction helps simplify models, reduce computation time, and improve generalization by eliminating less important features.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "910c602c-62d8-40f7-9de0-8abdce3b8247",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a common drawback of One-Hot Encoding?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It reduces model accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "It increases dataset dimensionality",
+                    "type": "B"
+                },
+                {
+                    "body": "It only works for numerical data",
+                    "type": "C"
+                },
+                {
+                    "body": "It requires feature scaling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3110b7c5-2961-495b-90c1-bc9af98a7db6",
+                    "questionID": "910c602c-62d8-40f7-9de0-8abdce3b8247",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One-Hot Encoding creates separate binary columns for each category, which can lead to high-dimensional data, especially for features with many unique values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c8b80cb5-4415-4a65-86a8-70a387f8c872",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is One-Hot Encoding used in machine learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To scale numerical features",
+                    "type": "A"
+                },
+                {
+                    "body": "To convert categorical variables into binary vectors",
+                    "type": "B"
+                },
+                {
+                    "body": "To remove irrelevant features",
+                    "type": "C"
+                },
+                {
+                    "body": "To normalize data distribution",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c505730b-74e7-496c-b414-4ab29f93e650",
+                    "questionID": "c8b80cb5-4415-4a65-86a8-70a387f8c872",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One-Hot Encoding transforms categorical data into a format that machine learning models can understand by creating binary columns for each category.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "34fc82da-1197-45c4-9b81-6b5d571c686b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which imputation method predicts missing values based on other features in the dataset?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "K-Nearest Neighbors (KNN) Imputation",
+                    "type": "A"
+                },
+                {
+                    "body": "Standardization",
+                    "type": "B"
+                },
+                {
+                    "body": "Z-Score Normalization",
+                    "type": "C"
+                },
+                {
+                    "body": "Feature Selection",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4685b792-58e5-4ad1-8c23-76e584191f78",
+                    "questionID": "34fc82da-1197-45c4-9b81-6b5d571c686b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "KNN imputation estimates missing values by considering the most similar data points in the dataset.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "44c0ccc5-cc66-45aa-b7f2-74361b092412",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which imputation technique replaces missing values with the average or middle value of a feature?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mean/Median Imputation",
+                    "type": "A"
+                },
+                {
+                    "body": "One-Hot Encoding",
+                    "type": "B"
+                },
+                {
+                    "body": "Min-Max Scaling",
+                    "type": "C"
+                },
+                {
+                    "body": "Principal Component Analysis (PCA)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9113fb36-d0dd-42af-8a5f-3a0aaf1f3091",
+                    "questionID": "44c0ccc5-cc66-45aa-b7f2-74361b092412",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mean or median imputation fills missing values with the average or middle value of the feature to maintain data consistency.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "33f25974-99ea-4461-856f-eb9040ea3f04",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a common approach to handling outliers?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Removing them if they distort the analysis",
+                    "type": "A"
+                },
+                {
+                    "body": "Replacing them with the mean or median",
+                    "type": "B"
+                },
+                {
+                    "body": "Ignoring them in all cases",
+                    "type": "C"
+                },
+                {
+                    "body": "Using transformation techniques like log scaling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "48c4be9b-86d4-42c1-b80e-9a705ee4468d",
+                    "questionID": "33f25974-99ea-4461-856f-eb9040ea3f04",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ignoring outliers without analysis can negatively impact model performance; handling them depends on the dataset and problem context.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ba699e9-0e5e-4fa1-b4c2-7e7e51a881e2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statistical method is commonly used to detect outliers in a dataset?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Z-Score",
+                    "type": "A"
+                },
+                {
+                    "body": "Min-Max Scaling",
+                    "type": "B"
+                },
+                {
+                    "body": "One-Hot Encoding",
+                    "type": "C"
+                },
+                {
+                    "body": "Feature Engineering",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4fb319ed-236e-4660-9f1e-2cd0cb1101c7",
+                    "questionID": "6ba699e9-0e5e-4fa1-b4c2-7e7e51a881e2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Z-Score helps detect outliers by measuring how many standard deviations a data point is away from the mean.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7b4baa03-5bcb-455f-a54a-f6b2d5ad920d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method is commonly used to detect outliers in a dataset?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mean Absolute Error (MAE)",
+                    "type": "A"
+                },
+                {
+                    "body": "Z-Score",
+                    "type": "B"
+                },
+                {
+                    "body": "Gradient Descent",
+                    "type": "C"
+                },
+                {
+                    "body": "Cross-Validation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1655889d-fe98-450f-972d-3e5632e4a050",
+                    "questionID": "7b4baa03-5bcb-455f-a54a-f6b2d5ad920d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Z-Score measures how far a data point is from the mean in terms of standard deviations, helping identify outliers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52bef017-e5a2-4b7e-9db9-50a4afede3d6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which technique is commonly used to convert categorical data into numerical format?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One-Hot Encoding",
+                    "type": "A"
+                },
+                {
+                    "body": "Principal Component Analysis (PCA)",
+                    "type": "B"
+                },
+                {
+                    "body": "Feature Scaling",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Augmentation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5b316f32-370e-4cee-88f6-8cfc9bb59940",
+                    "questionID": "52bef017-e5a2-4b7e-9db9-50a4afede3d6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One-Hot Encoding transforms categorical variables into binary vectors, making them suitable for machine learning models.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "671c6e61-a34e-4d7e-9040-4f3d90db14f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which clustering method can handle non-spherical clusters better than K-Means?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical Clustering",
+                    "type": "A"
+                },
+                {
+                    "body": "K-Means",
+                    "type": "B"
+                },
+                {
+                    "body": "DBSCAN",
+                    "type": "C"
+                },
+                {
+                    "body": "Linear Regression",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "fc4468e0-e30c-4c91-9445-5b371ab8e2cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the posterior probability in Bayesian inference depend on?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Prior probability and likelihood",
+                    "type": "A"
+                },
+                {
+                    "body": "Only the likelihood",
+                    "type": "B"
+                },
+                {
+                    "body": "Only the prior probability",
+                    "type": "C"
+                },
+                {
+                    "body": "The number of training samples",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "91934965-33c5-44b3-b251-1d7efb7e0a26",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which case would unsupervised learning be more useful than supervised learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When labels are available",
+                    "type": "A"
+                },
+                {
+                    "body": "When predicting stock prices",
+                    "type": "B"
+                },
+                {
+                    "body": "When finding hidden patterns in data",
+                    "type": "C"
+                },
+                {
+                    "body": "When classifying spam emails",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "c2750f51-5b62-459c-99a8-3706a0ea99ae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does Gaussian Naive Bayes assume about the data?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All features follow a Gaussian (normal) distribution",
+                    "type": "A"
+                },
+                {
+                    "body": "All features are correlated",
+                    "type": "B"
+                },
+                {
+                    "body": "Features are dependent on each other",
+                    "type": "C"
+                },
+                {
+                    "body": "Features are categorical",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "e0e73564-5a76-4238-937c-694656830488",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a drawback of K-Means clustering?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It only works for supervised learning",
+                    "type": "A"
+                },
+                {
+                    "body": "The number of clusters must be predefined",
+                    "type": "B"
+                },
+                {
+                    "body": "It cannot handle categorical data",
+                    "type": "C"
+                },
+                {
+                    "body": "It requires deep learning models",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f4c9a0b2-7b0e-4722-bc98-1a272856f5cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The Bayes theorem provides a mathematical framework for:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data normalization",
+                    "type": "A"
+                },
+                {
+                    "body": "Computing conditional probabilities",
+                    "type": "B"
+                },
+                {
+                    "body": "Gradient Descent Optimization",
+                    "type": "C"
+                },
+                {
+                    "body": "Dimensionality reduction",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "810fdb60-9e4f-4632-bbf0-67c2b7a27dd8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following algorithms is sensitive to the choice of distance metric?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Logistic Regression",
+                    "type": "A"
+                },
+                {
+                    "body": "K-Nearest Neighbors",
+                    "type": "B"
+                },
+                {
+                    "body": "Decision Trees",
+                    "type": "C"
+                },
+                {
+                    "body": "Random Forest",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "a194b865-f71f-4df8-8e1f-3176de706df4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In supervised learning, what is the role of the loss function?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Evaluate model accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "Update model weights",
+                    "type": "B"
+                },
+                {
+                    "body": "Measure model error",
+                    "type": "C"
+                },
+                {
+                    "body": "Reduce dimensionality",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "42b647f8-4071-4ea7-8e72-5cb6ad6df201",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does hierarchical clustering use to build clusters?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Decision boundaries",
+                    "type": "A"
+                },
+                {
+                    "body": "Tree-based structure",
+                    "type": "B"
+                },
+                {
+                    "body": "Gradient descent",
+                    "type": "C"
+                },
+                {
+                    "body": "Bayesian estimation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b001c832-d4a4-4adc-ad20-af8d97bb0d01",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a key challenge in unsupervised learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Lack of labeled data",
+                    "type": "A"
+                },
+                {
+                    "body": "Overfitting",
+                    "type": "B"
+                },
+                {
+                    "body": "High computation time",
+                    "type": "C"
+                },
+                {
+                    "body": "Too many labeled examples",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-2"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "93514763-bfdc-4660-a7de-babf634a88fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In K-Means clustering, how is the number of clusters determined?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Using the elbow method",
+                    "type": "A"
+                },
+                {
+                    "body": "Automatically by the algorithm",
+                    "type": "B"
+                },
+                {
+                    "body": "Using Bayesian Inference",
+                    "type": "C"
+                },
+                {
+                    "body": "Using cross-validation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "bbcb6ad7-21c9-41b2-b345-51d1c2e9f9ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does clustering aim to do?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Predict numerical values",
+                    "type": "A"
+                },
+                {
+                    "body": "Group similar data points together",
+                    "type": "B"
+                },
+                {
+                    "body": "Reduce bias in datasets",
+                    "type": "C"
+                },
+                {
+                    "body": "Maximize classification accuracy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "5fbb1fa2-5857-4399-8387-b366a4820d77",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is an unsupervised learning method?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Random Forest",
+                    "type": "A"
+                },
+                {
+                    "body": "K-Means Clustering",
+                    "type": "B"
+                },
+                {
+                    "body": "Linear Regression",
+                    "type": "C"
+                },
+                {
+                    "body": "Naive Bayes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "21bb04fc-8cd1-47a2-8e2d-6b3eb927a48b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which assumption does the Naive Bayes classifier make?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Features are dependent",
+                    "type": "A"
+                },
+                {
+                    "body": "Features are independent",
+                    "type": "B"
+                },
+                {
+                    "body": "Features follow a linear relationship",
+                    "type": "C"
+                },
+                {
+                    "body": "Features are normally distributed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "33ba8e21-2478-49e7-b02b-3aaae1acb835",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The Naive Bayes classifier is best suited for:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Regression Problems",
+                    "type": "A"
+                },
+                {
+                    "body": "Time-Series Forecasting",
+                    "type": "B"
+                },
+                {
+                    "body": "Classification Problems",
+                    "type": "C"
+                },
+                {
+                    "body": "Dimensionality Reduction",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "34f5c962-3a5e-4554-85cb-2b91124ca2fd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a classification algorithm?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Logistic Regression",
+                    "type": "A"
+                },
+                {
+                    "body": "Support Vector Machine",
+                    "type": "B"
+                },
+                {
+                    "body": "Random Forest",
+                    "type": "C"
+                },
+                {
+                    "body": "K-Means",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "572173f3-28c2-4760-a7eb-0bef58fc3046",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary goal of regression in supervised learning?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Predicting categorical outcomes",
+                    "type": "A"
+                },
+                {
+                    "body": "Identifying patterns in data",
+                    "type": "B"
+                },
+                {
+                    "body": "Predicting continuous values",
+                    "type": "C"
+                },
+                {
+                    "body": "Reducing dimensionality",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "dfe0dfb4-d27a-4437-935c-34073c782428",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is a supervised learning algorithm?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "K-Means Clustering",
+                    "type": "A"
+                },
+                {
+                    "body": "Decision Trees",
+                    "type": "B"
+                },
+                {
+                    "body": "DBSCAN",
+                    "type": "C"
+                },
+                {
+                    "body": "Hierarchical Clustering",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "cb913ef3-9530-41f8-8b6d-9fa154eab6fa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Bayesian statistics, what represents our initial belief before seeing any data?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Posterior Probability",
+                    "type": "A"
+                },
+                {
+                    "body": "Prior Probability",
+                    "type": "B"
+                },
+                {
+                    "body": "Likelihood",
+                    "type": "C"
+                },
+                {
+                    "body": "Marginal Probability",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "206c928d-d8be-4a53-b96b-206d682bd2b6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does Bayesian inference primarily rely on?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Maximum Likelihood Estimation",
+                    "type": "A"
+                },
+                {
+                    "body": "Prior and Posterior Probabilities",
+                    "type": "B"
+                },
+                {
+                    "body": "Mean Squared Error",
+                    "type": "C"
+                },
+                {
+                    "body": "Gradient Descent",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d84f1f4c-dde7-4216-b899-eb504ead5423",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An SVM classifier is performing poorly on high-dimensional data. Which of the following could be a possible reason?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SVM does not work well with high-dimensional data",
+                    "type": "A"
+                },
+                {
+                    "body": "The kernel trick is not being used",
+                    "type": "B"
+                },
+                {
+                    "body": "The data is linearly separable",
+                    "type": "C"
+                },
+                {
+                    "body": "The margin is too large",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "5dbec11e-238f-43a2-97a1-feeb9015c471",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You are using Naïve Bayes for text classification. You observe that the classifier is overly sensitive to rare words. What technique can mitigate this issue?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Removing rare words",
+                    "type": "A"
+                },
+                {
+                    "body": "Applying TF-IDF weighting instead of raw frequency",
+                    "type": "B"
+                },
+                {
+                    "body": "Using a linear classifier instead",
+                    "type": "C"
+                },
+                {
+                    "body": "Using a Decision Tree instead of Naïve Bayes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "cace4261-abdd-448d-bccb-b59a0c1ae8d5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Decision Tree model is trained on customer purchase data. It predicts that all customers will buy a product regardless of their features. What is likely wrong?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The model is underfitting",
+                    "type": "A"
+                },
+                {
+                    "body": "The model has too many leaves",
+                    "type": "B"
+                },
+                {
+                    "body": "The training data has class imbalance",
+                    "type": "C"
+                },
+                {
+                    "body": "The decision tree has been pruned too much",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "95feb0f1-2da2-40f5-b97a-ea7b730990ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Your SVM classifier is training very slowly on a dataset with millions of features. What technique can improve efficiency?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Feature selection or dimensionality reduction (e.g., PCA)",
+                    "type": "A"
+                },
+                {
+                    "body": "Increasing the regularization parameter",
+                    "type": "B"
+                },
+                {
+                    "body": "Adding more training samples",
+                    "type": "C"
+                },
+                {
+                    "body": "Using a larger kernel size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "a5467964-9350-48b0-9ee3-af53a044505c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Decision Tree classifier has many levels and performs poorly on new data. What can be done to improve its generalization?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increase the depth of the tree",
+                    "type": "A"
+                },
+                {
+                    "body": "Prune the tree",
+                    "type": "B"
+                },
+                {
+                    "body": "Reduce the number of training samples",
+                    "type": "C"
+                },
+                {
+                    "body": "Change to a linear regression model",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "03192f72-515f-4261-8852-f49ebf97b2b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You are training an SVM on a dataset where some classes have overlapping distributions. Which of the following strategies can help improve performance?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increasing the C parameter",
+                    "type": "A"
+                },
+                {
+                    "body": "Using a soft-margin SVM",
+                    "type": "B"
+                },
+                {
+                    "body": "Removing outliers",
+                    "type": "C"
+                },
+                {
+                    "body": "Reducing the number of support vectors",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "28ef7fa2-eac3-49d4-af30-066b1b8035b1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You have an imbalanced dataset where 95% of the instances belong to one class. Which classifier is most likely to perform poorly without modifications?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Decision Tree",
+                    "type": "A"
+                },
+                {
+                    "body": "SVM",
+                    "type": "B"
+                },
+                {
+                    "body": "Naïve Bayes",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "828dded9-8853-43ff-b05d-2d3373f6d5f4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an SVM model, the dataset is not linearly separable, and you do not achieve good classification accuracy. What should you try next?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increase the learning rate",
+                    "type": "A"
+                },
+                {
+                    "body": "Use a non-linear kernel such as RBF",
+                    "type": "B"
+                },
+                {
+                    "body": "Reduce the training dataset",
+                    "type": "C"
+                },
+                {
+                    "body": "Change to Naïve Bayes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "a0358599-6e23-4f60-a0a0-53182501a79a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A spam email classifier is trained using Naïve Bayes. One of the words in the test email does not appear in the training data. How does Naïve Bayes handle this?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It assigns zero probability to the class",
+                    "type": "A"
+                },
+                {
+                    "body": "It ignores the word and proceeds with classification",
+                    "type": "B"
+                },
+                {
+                    "body": "It uses Laplace (or additive) smoothing to handle unseen words",
+                    "type": "C"
+                },
+                {
+                    "body": "It refuses to classify the email",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3c7464bb-450a-473b-b144-692c281adeff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You are building a Decision Tree model, and you observe that it performs well on training data but poorly on test data. What is the likely reason?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Overfitting",
+                    "type": "A"
+                },
+                {
+                    "body": "Underfitting",
+                    "type": "B"
+                },
+                {
+                    "body": "Incorrect feature scaling",
+                    "type": "C"
+                },
+                {
+                    "body": "Model bias",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "d81da464-ed8f-496d-ba3d-f5c7e3782d86",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which case is the Naïve Bayes classifier most effective?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When feature dependencies are high",
+                    "type": "A"
+                },
+                {
+                    "body": "When there are many missing values",
+                    "type": "B"
+                },
+                {
+                    "body": "When the dataset is small and features are independent",
+                    "type": "C"
+                },
+                {
+                    "body": "When deep learning models are used",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "02d20cf2-8af7-4776-a333-b99205f00cfa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT an advantage of Decision Trees?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Easy to interpret",
+                    "type": "A"
+                },
+                {
+                    "body": "Handles both categorical and numerical data",
+                    "type": "B"
+                },
+                {
+                    "body": "Always results in the best model",
+                    "type": "C"
+                },
+                {
+                    "body": "Requires minimal data preprocessing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "9a11b47e-0955-4624-a94d-27fd2c173e1d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens when a large value of C is used in an SVM classifier?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The model allows more misclassifications",
+                    "type": "A"
+                },
+                {
+                    "body": "The model becomes more flexible",
+                    "type": "B"
+                },
+                {
+                    "body": "The model tries to perfectly classify the training data",
+                    "type": "C"
+                },
+                {
+                    "body": "The model ignores outliers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "5b0b580d-1c96-4d5b-9640-a0fb6a24a1be",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which kernel is commonly used in SVM when the data is not linearly separable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Linear Kernel",
+                    "type": "A"
+                },
+                {
+                    "body": "Polynomial Kernel",
+                    "type": "B"
+                },
+                {
+                    "body": "RBF (Radial Basis Function) Kernel",
+                    "type": "C"
+                },
+                {
+                    "body": "Sigmoid Kernel",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6a59dff5-18c6-406d-a38a-363d5639e14c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary objective of a Support Vector Machine (SVM)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To minimize variance in the dataset",
+                    "type": "A"
+                },
+                {
+                    "body": "To find a hyperplane that best separates different classes",
+                    "type": "B"
+                },
+                {
+                    "body": "To cluster data points into groups",
+                    "type": "C"
+                },
+                {
+                    "body": "To perform dimensionality reduction",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "0ee8b83f-f707-4933-8309-8ae087cad32e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main advantage of Naïve Bayes classifiers?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "They require large amounts of training data",
+                    "type": "A"
+                },
+                {
+                    "body": "They are computationally expensive",
+                    "type": "B"
+                },
+                {
+                    "body": "They work well even with small datasets",
+                    "type": "C"
+                },
+                {
+                    "body": "They cannot handle missing values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "67f9505d-1d95-4dc3-971d-66aa1dfc7b19",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which assumption is fundamental to the Naïve Bayes classifier?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Features are dependent on each other",
+                    "type": "A"
+                },
+                {
+                    "body": "Features are independent given the class",
+                    "type": "B"
+                },
+                {
+                    "body": "All features must be categorical",
+                    "type": "C"
+                },
+                {
+                    "body": "All data must be normally distributed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "111d0e4d-fded-4171-a17a-a46ceae203da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Naïve Bayes is based on which theorem?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pythagorean Theorem",
+                    "type": "A"
+                },
+                {
+                    "body": "Bayes&#39; Theorem",
+                    "type": "B"
+                },
+                {
+                    "body": "Central Limit Theorem",
+                    "type": "C"
+                },
+                {
+                    "body": "Markov Theorem",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "964b2b29-667f-4c13-9a64-c336da4a8679",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a Decision Tree?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A deep learning model",
+                    "type": "A"
+                },
+                {
+                    "body": "A hierarchical structure used for classification and regression",
+                    "type": "B"
+                },
+                {
+                    "body": "A clustering algorithm",
+                    "type": "C"
+                },
+                {
+                    "body": "A feature selection method",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "eac9fd54-d892-4a45-9d1e-504c0735a87e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main criterion used for splitting nodes in a Decision Tree using the Gini index?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Information Gain",
+                    "type": "A"
+                },
+                {
+                    "body": "Probability Estimation",
+                    "type": "B"
+                },
+                {
+                    "body": "Impurity Reduction",
+                    "type": "C"
+                },
+                {
+                    "body": "Entropy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DAY-1"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question Banks</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .bank { padding: 10px; margin: 5px; background: #f0f0f0; display: inline-block; cursor: pointer; }
+        .bank:hover { background: #ddd; }
+    </style>
+</head>
+<body>
+    <h1>📚 Question Banks</h1>
+    <div id="banks"></div>
+
+    <script>
+        fetch("/question_banks_json/banks.json")
+            .then(res => res.json())
+            .then(banks => {
+                const container = document.getElementById("banks");
+                banks.forEach(bank => {
+                    const div = document.createElement("div");
+                    div.className = "bank";
+                    div.textContent = bank.name;
+                    div.onclick = () => window.location.href = `/bank.html?name=${encodeURIComponent(bank.fileName)}`;
+                    container.appendChild(div);
+                });
+            });
+    </script>
+</body>
+</html>

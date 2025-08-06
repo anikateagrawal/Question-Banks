@@ -1,0 +1,1039 @@
+{
+    "bank_id": "d3d24a1e-0f34-4161-8e8b-fddecb09463e",
+    "bank_name": "set-1",
+    "questions": [
+        {
+            "id": "3d1fd34e-b02c-4369-8605-0fb2638e0866",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens when a system call is made",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Control shifts to hardware",
+                    "type": "A"
+                },
+                {
+                    "body": "OS switches to kernel mode",
+                    "type": "B"
+                },
+                {
+                    "body": "The computer shuts down",
+                    "type": "C"
+                },
+                {
+                    "body": "Data is lost",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "017768c9-fa76-450c-912e-47c6447cb9fa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following scheduling algorithms is non-preemptive",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Round Robin ",
+                    "type": "A"
+                },
+                {
+                    "body": " First-In First-Out ",
+                    "type": "B"
+                },
+                {
+                    "body": " Multilevel Queue Scheduling ",
+                    "type": "C"
+                },
+                {
+                    "body": " Multilevel Queue Scheduling with Feedback",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1319061f-2bb5-486f-9d11-f5ea57f070da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following does not interrupt a running process?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A device ",
+                    "type": "A"
+                },
+                {
+                    "body": "Timer ",
+                    "type": "B"
+                },
+                {
+                    "body": " \nScheduler process ",
+                    "type": "C"
+                },
+                {
+                    "body": "Power failure",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "2a5b2d51-ef90-4ecc-af1a-62dcf993646f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a valid deadlock prevention scheme?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Release all resources before requesting a new resource ",
+                    "type": "A"
+                },
+                {
+                    "body": "Number the resources uniquely and never request a lower numbered resource than the last one requested. ",
+                    "type": "B"
+                },
+                {
+                    "body": "Never request a resource after releasing any resource ",
+                    "type": "C"
+                },
+                {
+                    "body": " Request that all required resources be allocated before execution",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6190668f-276f-4cb1-9358-011600401958",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does OS stand for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Operating System",
+                    "type": "A"
+                },
+                {
+                    "body": "Open Source",
+                    "type": "B"
+                },
+                {
+                    "body": "Output Scheduler",
+                    "type": "C"
+                },
+                {
+                    "body": "Online Service",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "a418ad31-7ba6-4a85-aea9-55f9a9d0ce73",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider the following array declaration in the &#39;C&#39; language",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"444\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt array 1[] ? {2, v}</text>\n<text x=\"40\" y=\"60\" >2 | snt array2[v]?{9}</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "text",
+                    "body": "What will be the output of the following print statement",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"766\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | prsntf(�xd, xd�, array1 [1], array2 [2]);</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2, 0",
+                    "type": "A"
+                },
+                {
+                    "body": "3, 0",
+                    "type": "B"
+                },
+                {
+                    "body": "2, 9",
+                    "type": "C"
+                },
+                {
+                    "body": "4, 9",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "44b3c9e1-4c43-44c0-8aa9-ea985917d230",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What will the output of the below code",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1046\" height=\"260\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | publsc claii Masn {</text>\n<text x=\"40\" y=\"60\" >2 |     publsc itatsc 3osd masn(Strsng[] argi) {</text>\n<text x=\"40\" y=\"80\" >v |         // Declare and snstsalsze an array</text>\n<text x=\"40\" y=\"100\" >4 |         snt[] arr ? { 1, 2 };</text>\n<text x=\"40\" y=\"120\" >5 | =</text>\n<text x=\"40\" y=\"140\" >6 |         // Acceii array elementi uisng the snde% dsrectly sn Ja3a</text>\n<text x=\"40\" y=\"160\" >+ |         Syitem.out.prsntln(arr[0] 7 &#34;, &#34; 7 arr[1]);</text>\n<text x=\"40\" y=\"180\" >8 |     }</text>\n<text x=\"40\" y=\"200\" >9 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1, 2",
+                    "type": "A"
+                },
+                {
+                    "body": "Syntax error",
+                    "type": "B"
+                },
+                {
+                    "body": "Run time error",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "ef131f1e-8f56-45a4-922e-c00e675940db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is printed by the following ANSI C program?\n ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"878\" height=\"300\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | #snclude&lt;itdso.h&gt;</text>\n<text x=\"40\" y=\"60\" > 2 | snt masn(snt argc, char &amp;arg3[ ])</text>\n<text x=\"40\" y=\"80\" > v | {</text>\n<text x=\"40\" y=\"100\" > 4 | snt % ? 1, z[2] ? {10, 11};</text>\n<text x=\"40\" y=\"120\" > 5 | snt &amp;p ? NULL;</text>\n<text x=\"40\" y=\"140\" > 6 | p ? *%;</text>\n<text x=\"40\" y=\"160\" > + | &amp;p ? 10;</text>\n<text x=\"40\" y=\"180\" > 8 | p ? *z[1];</text>\n<text x=\"40\" y=\"200\" > 9 | &amp;(*z[0] 7 1) 7? v;</text>\n<text x=\"40\" y=\"220\" >10 | prsntf(�xd, xd, xd\\n�, %, z[0], z[1]); return 0;</text>\n<text x=\"40\" y=\"240\" >11 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1, 10, 11",
+                    "type": "A"
+                },
+                {
+                    "body": "1, 10, 14",
+                    "type": "B"
+                },
+                {
+                    "body": " 10, 14, 11",
+                    "type": "C"
+                },
+                {
+                    "body": "10, 10, 14",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "78daf832-5d78-4804-a8fd-41307c85be50",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not a valid regex to match all strings starting with &#39;a&#39; and ending with &#39;z&#39;?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "^a.*z$",
+                    "type": "A"
+                },
+                {
+                    "body": " a.*z",
+                    "type": "B"
+                },
+                {
+                    "body": " \n^az$",
+                    "type": "C"
+                },
+                {
+                    "body": "a[z]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "14f59910-6c86-436c-8f34-0ddf633f62c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "For the regular expression (0*10*10*)*, which binary strings are matched",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Strings with exactly 1 one",
+                    "type": "A"
+                },
+                {
+                    "body": "Strings with even number of 1s",
+                    "type": "B"
+                },
+                {
+                    "body": "Strings starting with 1",
+                    "type": "C"
+                },
+                {
+                    "body": "Palindromes only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "2154ca14-5786-4ccc-98e3-ba325b14d6fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A queue implemented via a singly linked list has both front and rear pointers. What is the time complexity of inserting an element at the rear and deleting from the front",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1) and O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n) and O(1)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(1) and O(1)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n) and O(n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "84641f10-fa39-4d75-acc6-998230a4dd33",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following sequences cannot occur in a stack (LIFO) if the input sequence is 1, 2, 3, 4, 5",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "5 4 3 2 1",
+                    "type": "A"
+                },
+                {
+                    "body": "3 4 5 2 1",
+                    "type": "B"
+                },
+                {
+                    "body": "2 3 1 5 4",
+                    "type": "C"
+                },
+                {
+                    "body": "4 5 3 2 1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "cd3e968e-0198-407e-99b3-16b9000e920a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A circular queue is implemented using an array of size 7. The front is at index 3 and rear at index 1. How many elements are there in the queue?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "5",
+                    "type": "B"
+                },
+                {
+                    "body": "6",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "067de41b-7e25-4046-97da-9abcab53d994",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the space complexity of the following recursive function?",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"556\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 |  snt fun(snt n) {</text>\n<text x=\"40\" y=\"60\" >2 |    sf(n &lt;? 1) return 1;</text>\n<text x=\"40\" y=\"80\" >v |    return fun(n-1) 7 fun(n-2);</text>\n<text x=\"40\" y=\"100\" >4 |  }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(2^n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n^2)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "0e7cb97a-41fa-420b-a917-d7a65b100931",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Time complexity of the following code?",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"556\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 |  for(snt s ? 1; s &lt;? n; s77)</text>\n<text x=\"40\" y=\"60\" >2 |    for(snt j ? 1; j &lt;? s; j77)</text>\n<text x=\"40\" y=\"80\" >v |      cout &lt;&lt; s &lt;&lt; j;</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n^2)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n^3)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "ac758cb8-49a3-4dad-9ce6-62fc5dc3db1e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following indicates tight bounds",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Big-O",
+                    "type": "A"
+                },
+                {
+                    "body": "Omega",
+                    "type": "B"
+                },
+                {
+                    "body": "Theta",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3ce246c5-cca5-4dbc-b985-5fa0c1a1e92e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a characteristic of a candidate key",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It can have multiple null values.",
+                    "type": "A"
+                },
+                {
+                    "body": "It can contain duplicate values.",
+                    "type": "B"
+                },
+                {
+                    "body": "It can uniquely identify a record.",
+                    "type": "C"
+                },
+                {
+                    "body": "It is always chosen as the primary key.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "342844aa-9c7b-42be-97ba-3a17933d78b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an ER diagram, ellipses are used to represent",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Entities",
+                    "type": "A"
+                },
+                {
+                    "body": "Attributes",
+                    "type": "B"
+                },
+                {
+                    "body": "Relationships",
+                    "type": "C"
+                },
+                {
+                    "body": "Keys",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f502edf0-1fca-4f28-b888-fb84a7ab577a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An attribute that can have more than one value for a single entity is called",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Derived Attribute",
+                    "type": "A"
+                },
+                {
+                    "body": "Single-valued Attribute",
+                    "type": "B"
+                },
+                {
+                    "body": "Composite Attribute",
+                    "type": "C"
+                },
+                {
+                    "body": "Multivalued Attribute",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "23a68801-2671-4084-9e89-aa86b118fbc4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A bank needs to manage customer accounts and transaction histories, ensuring that data remains consistent even if multiple operations happen at once. Which of the following features makes RDBMS the best choice for this scenario",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RDBMS can support data integrity and transaction safety (ACID properties)",
+                    "type": "A"
+                },
+                {
+                    "body": "DBMS does not allow concurrent data access",
+                    "type": "B"
+                },
+                {
+                    "body": "RDBMS stores data in a non-tabular format",
+                    "type": "C"
+                },
+                {
+                    "body": "DBMS handles transactions better than RDBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "fd7c5768-bdc1-427f-bb61-7259d5e25677",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A logistics company is using a flat file system to store delivery routes, but now needs to track multiple routes, vehicles, and drivers, each having dynamic relationships. Which system should the company migrate to for better scalability and data integrity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS � for easy management of files",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS � for better management of routes as objects",
+                    "type": "B"
+                },
+                {
+                    "body": "RDBMS � for handling complex relationships and ensuring referential integrity",
+                    "type": "C"
+                },
+                {
+                    "body": "NoSQL � for flexible data storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "aceb6026-1918-4b9e-9b18-9cf1c2057cea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which scenario would a basic DBMS be preferred over an RDBMS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When managing highly related data",
+                    "type": "A"
+                },
+                {
+                    "body": "When enforcing complex data constraints",
+                    "type": "B"
+                },
+                {
+                    "body": "When managing flat, non-relational data with limited complexity",
+                    "type": "C"
+                },
+                {
+                    "body": "When requiring strong security mechanisms",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "86ff790d-9c25-4c3f-a151-997aba81c922",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a fundamental difference between DBMS and RDBMS in terms of data structure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS uses tables with foreign key constraints",
+                    "type": "A"
+                },
+                {
+                    "body": "RDBMS supports flat file storage only",
+                    "type": "B"
+                },
+                {
+                    "body": "DBMS stores data as files; RDBMS uses table-based structure with relations",
+                    "type": "C"
+                },
+                {
+                    "body": "RDBMS lacks data independence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "7c800a09-1b60-4f5c-bb60-4d1e955f3dc8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes physical data independence",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Changing table names without affecting user queries",
+                    "type": "A"
+                },
+                {
+                    "body": "Modifying storage format without affecting the conceptual schema",
+                    "type": "B"
+                },
+                {
+                    "body": "Changing user views without altering logical structure",
+                    "type": "C"
+                },
+                {
+                    "body": "Modifying foreign keys without affecting storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "ee0de1fc-23c0-46a0-88c9-35327e8d80c5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which level in the three-schema architecture includes data compression and indexing?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "External",
+                    "type": "A"
+                },
+                {
+                    "body": "Conceptual",
+                    "type": "B"
+                },
+                {
+                    "body": "Internal",
+                    "type": "C"
+                },
+                {
+                    "body": "View",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b1a4efc2-a9eb-4ee0-b256-19584fc1c85a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of data independence allows a database administrator to add a new attribute to a table without changing user programs",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Physical Data Independence",
+                    "type": "A"
+                },
+                {
+                    "body": "Logical Data Independence",
+                    "type": "B"
+                },
+                {
+                    "body": "External Data Independence",
+                    "type": "C"
+                },
+                {
+                    "body": "Structural Data Independence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1a9f679b-9be6-4486-8eea-0dd01cb0e4e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The physical layer is concerned with ___________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "bit-by-bit delivery",
+                    "type": "A"
+                },
+                {
+                    "body": "process to process delivery",
+                    "type": "B"
+                },
+                {
+                    "body": "application to application delivery\n ",
+                    "type": "C"
+                },
+                {
+                    "body": "port to port delivery",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "286a48ec-8747-4410-974c-c50a39630d55",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Redundant links are often used for:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increasing latency",
+                    "type": "A"
+                },
+                {
+                    "body": "Load shedding",
+                    "type": "B"
+                },
+                {
+                    "body": "Fault tolerance",
+                    "type": "C"
+                },
+                {
+                    "body": "Data encryption",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "c0079aaf-3c10-4e61-ab42-1132f87a0fdc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following supports simultaneous voice, data, and video over one channel",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Baseband",
+                    "type": "A"
+                },
+                {
+                    "body": "Broadband",
+                    "type": "B"
+                },
+                {
+                    "body": "Narrowband",
+                    "type": "C"
+                },
+                {
+                    "body": "Shortband",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "df7d1655-0a05-43a2-be2d-62b098691fe9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which OSI layer is data represented in an encrypted and compressed form",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Session",
+                    "type": "A"
+                },
+                {
+                    "body": " \nPresentation",
+                    "type": "B"
+                },
+                {
+                    "body": "Network",
+                    "type": "C"
+                },
+                {
+                    "body": "Transport",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1950b041-60c4-4555-acd8-673588f00711",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a MAC address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.166.200.50",
+                    "type": "A"
+                },
+                {
+                    "body": "00056A:01A01A5CCA7FF60",
+                    "type": "B"
+                },
+                {
+                    "body": "568, Airport Road",
+                    "type": "C"
+                },
+                {
+                    "body": " 01:A5:BB:A7:FF:60",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        }
+    ]
+}

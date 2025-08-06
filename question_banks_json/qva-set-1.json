@@ -1,0 +1,1470 @@
+{
+    "bank_id": "88733d66-5ba8-4f4c-9441-d55acdd46916",
+    "bank_name": "qva-set-1",
+    "questions": [
+        {
+            "id": "96144077-9633-4eb2-b234-084f9ac7e414",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "He continued to (1) away a scene even as I moved (2) create and got into my (3) arrived that had thankfully (4) auto by then.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1-3 and 2-4 ",
+                    "type": "A"
+                },
+                {
+                    "body": "1-2 and 3-4 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1-4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "2-3 ",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Sentence Re-order"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0a1fb451-6076-423a-8d0b-175332ed0c37",
+                    "questionID": "96144077-9633-4eb2-b234-084f9ac7e414",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "According to the context of the given statement it is regarding the fact that the person moved away but the other person kept on hurling abuses. Thankfully the auto had arrived by then and this person could leave in that without further inconvenience. If we replace 1-2, it will become correct but then the later part is not making sense at all. For that we again have to replace 3-4 and then only we can see that we have got a grammatically correct sentence that has some meaning as well. The correct sentence would be: He continued to create a scene even as I moved away and got into my auto that had thankfully arrived by then.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dadaa424-1e38-4b77-bd44-38f5bab70fab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The money would be used for (1) developing cutting-edge technologies for high-power, high (2) repetition rate lasers, high quality optical (3) components and state-of-the-art electronics and (4) software.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2-3 ",
+                    "type": "A"
+                },
+                {
+                    "body": "1-3 and 2-4 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1-2 and 3-4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "1-2 ",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Sentence Re-order"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": [
+                {
+                    "id": "19329da5-3610-4432-bb2a-69e5056189c9",
+                    "questionID": "dadaa424-1e38-4b77-bd44-38f5bab70fab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The sentence is correct in the present form and no replacement is required in the present statement in order to make it correct. This makes Option E the correct choice among the given options.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cdc43ab5-eb98-49ef-8664-0c9a518101a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: In the given question, four words are printed in bold and are numbered 1, 2, 3 and 4. Of these, the positions of two of these words may be incorrect and need to be exchanged to make the sentence correct. Find the two words which need to be exchanged. In case the given sentence is correct, your answer is (E), i.e., &#39;No correction required&#39;. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "If you had a short-term goal, then you (1) provide a fixed-income (2) product, not a market- (3) linked product; to (4) need return predictability.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1-3 and 2-4 ",
+                    "type": "A"
+                },
+                {
+                    "body": "1-2 and 3-4 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1-4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "2-3 ",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Sentence Re-order"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ba94389b-f9cb-411b-863c-a8aaaa1d74a5",
+                    "questionID": "cdc43ab5-eb98-49ef-8664-0c9a518101a0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The statement is regarding the financial goals of a person and also the way in which you should handle your finances based on your goals in life. It is regarding aligning your investments with your goals. Short term goals require fixed income products whereas long term goals can be fulfilled with market related products. If we replace 1 and 4, the sentence will become meaningful. No other replacement is required in the sentence to make it meaningful. The correct sentence would be: If you had a short-term goal, then you need a fixed-income product, not a market-linked product; to provide return predictability. This makes Option C the correct choice among the given options.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "98c3df60-8ee2-45a4-8bfe-3f78c723db2b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and choose the correct option.\n1.\tTeacher Unions have welcomed this campaign and the opportunity has already come and gone for the Indian Government additionally to think on comparable lines and find a way to lift up the sinking assurance of the teaching profession.\n2.\tAn amount of $100 million has been put aside to battle the shortage of candidates for the teacher training.\n3.\tThey have additionally requested that the campaign ought to be coordinated by improved compensation scales, the workload and confidence in order to steer clear of enrolment issues with an intent to raise the picture of the teaching profession.\n4.\tA progression of notices is presently being screened demonstrating well-known individuals talking about teachers they remember and appreciate.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4123",
+                    "type": "A"
+                },
+                {
+                    "body": "2341",
+                    "type": "B"
+                },
+                {
+                    "body": "2431",
+                    "type": "C"
+                },
+                {
+                    "body": "3412",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Re-order"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0aec7825-8873-4c1c-8a7c-a9d026de0f65",
+                    "questionID": "98c3df60-8ee2-45a4-8bfe-3f78c723db2b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "2nd sentence introduces the problem and 4th sentence further extends the solution for that problem. In the 3rd sentence, ‘they’ refers to the notices and the word ‘campaign’ connects with  the 1st sentence.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8680e849-76c8-4109-915b-72a71e5334ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions: Study the following information carefully and answer the questions given besides.\nAgriculture in India needs to become more sustainable even as small and marginal farmers ___A___ to build resilience against many threats. First, they remain price-takers and economically vulnerable, __B__ to traders who set prices, and with limited opportunities to sell at a time of their choice. Further , decades of ___C___ agriculture have added to water stress and decline soil health. Farmers rely on ground water for more than 60% of ___D___ needs. Chemical fertilizers once used to __ E___ soil nutrients have been applied to so intensively that the long-term health of soils is now of deep concern.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Find the best suitable word in place of B.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Naive ",
+                    "type": "A"
+                },
+                {
+                    "body": "Beholden ",
+                    "type": "B"
+                },
+                {
+                    "body": "Favourable ",
+                    "type": "C"
+                },
+                {
+                    "body": "Unbound ",
+                    "type": "D"
+                },
+                {
+                    "body": "Dominating",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9e281f94-17e0-4e21-a288-886a8b947dee",
+                    "questionID": "8680e849-76c8-4109-915b-72a71e5334ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In the sentence, the plight of farmers’ obligation towards traders has been mentioned. ‘Beholden’ means feeling you have a duty to someone because they have done something for you. In the given context, it implies the sense of being trapped. Hence option B is the correct answer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d66f7db2-3d59-447b-b53c-271e4dc5d38a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions: Study the following information carefully and answer the questions given besides.\nAgriculture in India needs to become more sustainable even as small and marginal farmers ___A___ to build resilience against many threats. First, they remain price-takers and economically vulnerable, __B__ to traders who set prices, and with limited opportunities to sell at a time of their choice. Further , decades of ___C___ agriculture have added to water stress and decline soil health. Farmers rely on ground water for more than 60% of ___D___ needs. Chemical fertilizers once used to __ E___ soil nutrients have been applied to so intensively that the long-term health of soils is now of deep concern.\n [type=text]\nFind the best suitable word in place of A",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Need ",
+                    "type": "A"
+                },
+                {
+                    "body": "Supervise ",
+                    "type": "B"
+                },
+                {
+                    "body": "Struggle ",
+                    "type": "C"
+                },
+                {
+                    "body": "Negotiate ",
+                    "type": "D"
+                },
+                {
+                    "body": "Address",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fa3b3722-48b9-40f1-be25-0996ccc40e94",
+                    "questionID": "d66f7db2-3d59-447b-b53c-271e4dc5d38a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In the passage difficulties faced by farmers have been discussed. It mentions the need of agriculture in India to become more sustainable. The reason behind this is to help small and marginal farmers to build resilience against many threats. This means they are facing problems currently. ‘Resilience’ means capacity to recover quickly from difficulties. In the context of the passage, only Option C i.e. ‘struggle’ fits in.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd9f4929-c420-4055-819e-83b4f0c54d05",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the phrases A, B, C and D given below each sentence should replace the word/phrase printed in bold in the sentence to make it grammatically correct. If the sentence is correct as it is given and no correction is required, mark E as the answer.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Akshay considered Suresh a complete pain in the neck as he kept asking baseless questions.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "paining in the neck ",
+                    "type": "A"
+                },
+                {
+                    "body": "painless neck ",
+                    "type": "B"
+                },
+                {
+                    "body": "painful neck ",
+                    "type": "C"
+                },
+                {
+                    "body": "pain in necking ",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Find the Error"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": []
+        },
+        {
+            "id": "a4ffaa96-ccc1-45d6-82db-61a81f69bfec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the phrases A, B, C and D given below each sentence should replace the word/phrase printed in bold in the sentence to make it grammatically correct. If the sentence is correct as it is given and no correction is required, mark E as the answer.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": " I jump through hoop to finish this project in time but was not rewarded adequately.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "jumped through hoops ",
+                    "type": "A"
+                },
+                {
+                    "body": "jumping for hooping ",
+                    "type": "B"
+                },
+                {
+                    "body": "jumped on hoop",
+                    "type": "C"
+                },
+                {
+                    "body": "jumping from hoop ",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Find the Error"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dbb04a87-4a46-4579-92d6-3c370f1597ff",
+                    "questionID": "a4ffaa96-ccc1-45d6-82db-61a81f69bfec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Jump through hoops (Idiom): To go through an elaborate or complicated procedure in order to achieve an objective. Ex. The banks make you beg for a loan and they make you jump through hoops to get it. &#39;Jump through hoops&#39; is an idiomatic expression and we can&#39;t change an idiomatic expression from its original form. However, as the sentence is made in the past the verb &#39;jump&#39; should be used in its past form; jumped. Therefore, among the choices available option A replaces the bold part most appropriately. Correct Sentence: I jumped through hoops to finish this project in time but was not rewarded adequately.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "12fff35d-ef6f-48a4-9c9b-98fb586dca52",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in two parts of the sentence. Mark the parts with the error as your answer. If there is no error, mark (E). (Ignore errors of punctuation, if any)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "However, if it is clear that the largest single party has no potential ally (A) / or enough independent members to ensured a (B) / majority, he may despite invite the leader of the (C) / largest pre-poll combination or alliance. (D)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "AD ",
+                    "type": "A"
+                },
+                {
+                    "body": "AC ",
+                    "type": "B"
+                },
+                {
+                    "body": "BC ",
+                    "type": "C"
+                },
+                {
+                    "body": "BD ",
+                    "type": "D"
+                },
+                {
+                    "body": "No error",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Find the Error"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "140a23d6-88e2-4127-bf5c-2b73379f8416",
+                    "questionID": "12fff35d-ef6f-48a4-9c9b-98fb586dca52",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Fragment B is erroneous: The usage of ‘ensured’ is incorrect as it is past tense form of ‘ensure.’ However, the sentence is in present tense thus this word shall be replaced by ‘ensure.’ Fragment C is erroneous: The usage of ‘despite’ is incorrect as it is a preposition and it means ‘without being affected by,’ which makes no sense at its present position. Thus, it shall be replaced by ‘also’ or ‘as well.’ Correct Sentence: However, if it is clear that the largest single party has no potential ally or enough independent members to ensure a majority, he may also invite the leader of the largest pre-poll combination or alliance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "812156fb-dcd5-4b02-9613-a9f31e9bea20",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: (1-2): Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in two parts of the sentence. Mark the parts with the error as your answer. If there is no error, mark (E). (Ignore errors of punctuation, if any)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "No child growing up in India fails to study the Indus Valley Civilisation, (A) / which is now more popularly referred to the Harappan Civilisation (B) / after Harappa, the first of its site to be excavated (C) / in the 1920s by British archaeologist Sir Mortimer Wheeler. (D)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "AD ",
+                    "type": "A"
+                },
+                {
+                    "body": "BC ",
+                    "type": "B"
+                },
+                {
+                    "body": "AC ",
+                    "type": "C"
+                },
+                {
+                    "body": "CD ",
+                    "type": "D"
+                },
+                {
+                    "body": "No error",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Find the Error"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "56d7e5a6-62a4-41dd-8959-fb4d52435837",
+                    "questionID": "812156fb-dcd5-4b02-9613-a9f31e9bea20",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Fragment B is erroneous here. The preposition &#39;as&#39; is absent before the noun phrase &#39;The Harappan Civilisation&#39; in the fragment. Correct 1st fragment: which is now more popularly referred to as the Harappan Civilisation Fragment C is erroneous too. First of its &#39;site&#39; must be replaced by first of its &#39;sites&#39;. Correct 2nd fragment: after Harappa, the first of its sites to be excavated Correct Sentence: No child growing up in India fails to study the Indus Valley Civilisation, which is now more popularly referred to as the Harappan Civilisation after Harappa, the first of its sites to be excavated in the 1920s by British archaeologist Sir Mortimer Wheeler",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f09599b-9c46-456d-a367-6b11c58020f4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a certain code &#39;MISSIONS&#39; is written as &#39;MSIISNOS&#39;. How is &#39;ONLINE&#39; written in that code",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "OLNNIE",
+                    "type": "A"
+                },
+                {
+                    "body": "ONILEN",
+                    "type": "B"
+                },
+                {
+                    "body": "NOILEN",
+                    "type": "C"
+                },
+                {
+                    "body": "LNOENI",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "combinations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "864149dd-bbb0-4dc2-8ce4-b6f09c01b87e",
+                    "questionID": "2f09599b-9c46-456d-a367-6b11c58020f4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "First and last letter remain same. The others interchange their positions in pair of two. So, NL become LN IN become NI so code of ONLINE will be OLNNIE",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3a166292-f62d-4da5-8805-f327526e11f1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many such pairs of Numbers are there in the 5947680213, each of which has as many numbers between them in the number, as they have in the numeric series",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Four  ",
+                    "type": "A"
+                },
+                {
+                    "body": "Five   ",
+                    "type": "B"
+                },
+                {
+                    "body": "More than five ",
+                    "type": "C"
+                },
+                {
+                    "body": "None  ",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "combinations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "875e2712-f71e-4765-b3d0-831c1b5e095b",
+                    "questionID": "3a166292-f62d-4da5-8805-f327526e11f1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hence, we can say that there are six such pairs are possible, each of which has as many Numbers between them in the number, as they have in the numeric series.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ad4a5ac3-0f40-409c-a955-9c9fa5aa9775",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the question, assuming the given statements to be true, find which of the conclusions among given two conclusions is/are definitely true, and then give your answer according to it. \n\nStatement: \nB = K  ? H = T &gt; U ? I\nConclusion:\nI. H &gt; I\nII. H ? I",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only conclusion I follow ",
+                    "type": "A"
+                },
+                {
+                    "body": "Either conclusion I or II follow ",
+                    "type": "B"
+                },
+                {
+                    "body": "Only conclusion II follow",
+                    "type": "C"
+                },
+                {
+                    "body": "None Follows",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Statement and conculsion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f4532a15-e6d4-4fb4-91d3-76c5f2fd1f4c",
+                    "questionID": "ad4a5ac3-0f40-409c-a955-9c9fa5aa9775",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Given Statement: B = K  ? H = T &gt; U ? I\nI. H &gt; I = False (as H = T &gt; U ? I)\nII. H ? I = False (as H = T &gt; U ? I)",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "63f86b2d-2592-41b4-a3d8-996cb653fc8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If P is to the south of Q and R is to the east of Q, then in which direction is P with respect to R",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "South-East",
+                    "type": "A"
+                },
+                {
+                    "body": "North-West",
+                    "type": "B"
+                },
+                {
+                    "body": "South-West",
+                    "type": "C"
+                },
+                {
+                    "body": "North-East",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "353d07a2-5f0f-4168-8e52-c399b3ac2053",
+                    "questionID": "63f86b2d-2592-41b4-a3d8-996cb653fc8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Draw diagram: P is South of Q, R is East of Q ? P is South-West of R",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8ff93b7a-8fce-4778-a867-6498439cfb37",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If HEN is coded as 8514, what is the code for COW",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "31523",
+                    "type": "A"
+                },
+                {
+                    "body": "31522",
+                    "type": "B"
+                },
+                {
+                    "body": "41523",
+                    "type": "C"
+                },
+                {
+                    "body": "31623",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5ccf5aa9-232e-4111-aa53-17fdd3bba41f",
+                    "questionID": "8ff93b7a-8fce-4778-a867-6498439cfb37",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A Solution: Each letter is replaced by its alphabetical position. H=8, E=5, N=14 ? 8514 Similarly, C=3, O=15, W=23 ? 31523",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3537bb00-3fa6-4887-83cc-7efd3451215b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When will the hands of a clock be together between 7 and 8 o&#39;clock",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "38 4/11 min past 7",
+                    "type": "A"
+                },
+                {
+                    "body": "38 2/11 min past 7",
+                    "type": "B"
+                },
+                {
+                    "body": "36 4/11 min past 7",
+                    "type": "C"
+                },
+                {
+                    "body": "37 5/11 min past 7",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Clocks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "73b110cf-6e9d-4ee5-a586-cdf10e87625b",
+                    "questionID": "3537bb00-3fa6-4887-83cc-7efd3451215b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Formula: x = 60H / 11 = (60×7)/11 = 420/11 = 38 2/11",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b79c7cf-a4a1-4127-836e-8c25588c7906",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If 6th March, 2005 is Monday, what was the day of the week on 6th March, 2004",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sunday",
+                    "type": "A"
+                },
+                {
+                    "body": "Saturday",
+                    "type": "B"
+                },
+                {
+                    "body": "Tuesday",
+                    "type": "C"
+                },
+                {
+                    "body": "Wednesday",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Calender"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6d9a3855-6586-4a9e-8105-744d2b511a69",
+                    "questionID": "3b79c7cf-a4a1-4127-836e-8c25588c7906",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "From 6th March 2004 to 6th March 2005 is 366 days (2004 is a leap year).\n366 ÷ 7 = 52 weeks and 2 odd days. So, the day in 2004 was 2 days before Monday ? Sunday",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4aab09ad-3b0e-4207-830a-5955399458e9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read the following information carefully and answer the questions given below. \nA three-generation family consists of eight members i.e., U, V, W, X, D, E, F and G in which three are married couples. V is the father of F. E is the mother of V. W is the sister-in-law of G. G is the mother-in-law of D. F is the grandson of U who is the father-in-law of G. X is the brother-in-law of F. \nZ is son of I and is married to P. Hence, P is daughter-in-law of I.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "How many female members in the family",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Four",
+                    "type": "A"
+                },
+                {
+                    "body": "Three",
+                    "type": "B"
+                },
+                {
+                    "body": "Five",
+                    "type": "C"
+                },
+                {
+                    "body": "Can’t be determined",
+                    "type": "D"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "relationships"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "46accc2c-7cdd-4021-b682-c18c360d29e1",
+                    "questionID": "4aab09ad-3b0e-4207-830a-5955399458e9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "E (grandmother), G (mother-in-law), W (sister-in-law), and D (daughter-in-law) are the four female members.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a3e940af-c5a1-49e0-94dc-6447d3d4ebf1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read the following information carefully and answer the questions given below. \nA three-generation family consists of eight members i.e., U, V, W, X, D, E, F and G in which three are married couples. V is the father of F. E is the mother of V. W is the sister-in-law of G. G is the mother-in-law of D. F is the grandson of U who is the father-in-law of G. X is the brother-in-law of F. \nZ is son of I and is married to P. Hence, P is daughter-in-law of I.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Who amongst the following is the grandmother of F",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "W",
+                    "type": "A"
+                },
+                {
+                    "body": "G ",
+                    "type": "B"
+                },
+                {
+                    "body": "D",
+                    "type": "C"
+                },
+                {
+                    "body": "E",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "relationships"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9315b29d-d433-4ec8-8669-5c90482bda52",
+                    "questionID": "a3e940af-c5a1-49e0-94dc-6447d3d4ebf1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "F is grandson of U, and U is father-in-law of G ? G is daughter-in-law of U ? V is son of E and father of F ? E is wife of U ? So E is grandmother.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "427d6f5c-5770-4b14-a670-9432178608c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read the following information carefully and answer the questions given below. \nA three-generation family consists of eight members i.e., U, V, W, X, D, E, F and G in which three are married couples. V is the father of F. E is the mother of V. W is the sister-in-law of G. G is the mother-in-law of D. F is the grandson of U who is the father-in-law of G. X is the brother-in-law of F. \nZ is son of I and is married to P. Hence, P is daughter-in-law of I.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": " What is the relation of W with respect to U",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Daughter-in-law ",
+                    "type": "A"
+                },
+                {
+                    "body": "Niece ",
+                    "type": "B"
+                },
+                {
+                    "body": "Daughter ",
+                    "type": "C"
+                },
+                {
+                    "body": "Granddaughter",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "relationships"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2537294b-0c84-4b41-9c6c-f82a363e476e",
+                    "questionID": "427d6f5c-5770-4b14-a670-9432178608c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "W is sister-in-law of G. G is mother-in-law of D. U is father-in-law of G ? So W is G’s husband’s sister ? G’s husband is son of U ? W is daughter of U.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9aa8d351-3eb6-4bf5-b297-55f06a8f9c98",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Ashok and Bimal runs on a 450 m long circular track at a speed of 12 m/s and 18 m/s respectively. They start at same time but run in opposite direction. Find the number of times, they would have met when Bimal covers 3240 meters.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "12 ",
+                    "type": "A"
+                },
+                {
+                    "body": "10 ",
+                    "type": "B"
+                },
+                {
+                    "body": "14 ",
+                    "type": "C"
+                },
+                {
+                    "body": "16 ",
+                    "type": "D"
+                },
+                {
+                    "body": "18",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "time and speed"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a1d163d0-4db9-4672-8ddc-f5b053b17010",
+                    "questionID": "9aa8d351-3eb6-4bf5-b297-55f06a8f9c98",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "When Ashok and Bimal together cover 450 m distance, they meet and out of this Ashok covers : = 12 /(12 + 18) × 450 = 180  Bimal covers 450 – 180 = 270 m. So they meet, Bimal covers 270 m. When Bimal covers 3240 meters, they would have meet 3240 /270= 12 times",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26f796bc-c092-42cc-a9d0-f042acb60ec6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A goods train anda passenger train a rerunning on the parallel tracks in the same direction. The driver of the goods train observes that the passenger train coming from behind, overtakes and crosses his train completely in 1 min whereas a passenger on the passenger train marks that he crosses the goods train in 2/3min. If the speeds of the trains is in the ratio of 1:2, then find the ratio of their lengths.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4 :1            ",
+                    "type": "A"
+                },
+                {
+                    "body": "3 :1          ",
+                    "type": "B"
+                },
+                {
+                    "body": "1 : 4          ",
+                    "type": "C"
+                },
+                {
+                    "body": "2:1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time and speed"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "79ee1cbb-1fb4-48a7-8b37-74d80fe200b1",
+                    "questionID": "26f796bc-c092-42cc-a9d0-f042acb60ec6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sol: Let speeds be x and 2x; relative speed = x.\nDriver: L? + L? = 60x; Passenger: L? = 40x ? L? = 20x\nSo, L? : L? = 40x : 20x = 2 : 1 ? Goods : Passenger = 2 : 1",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9895eacb-6cb3-48a4-89cf-15087a4d75e1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "For a  certain  sum, the simple interest in 2yr at 8% per annum is  110 more than the simple interest in  1 yr at the rate of 5% per annum for the same sum. Find the sum.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "X5000       ",
+                    "type": "A"
+                },
+                {
+                    "body": "X1000       ",
+                    "type": "B"
+                },
+                {
+                    "body": "X1050        ",
+                    "type": "C"
+                },
+                {
+                    "body": "X950",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Percentages"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9280aa76-992e-4705-aeb4-8c8eaad29ba7",
+                    "questionID": "9895eacb-6cb3-48a4-89cf-15087a4d75e1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let sum = P. SI at 8% for 2 yrs = 16P/100, at 5% for 1 yr = 5P/100.\nGiven: (16P - 5P)/100 = 110 ? 11P = 11000 ? P = 1000.\nSo, the sum is ?1000.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ea8592d9-159d-41ee-896d-2675aac480c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the missing term in each of the following series.  \n3, 6, 12, 24, 48, 96…..",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192 ",
+                    "type": "A"
+                },
+                {
+                    "body": "182 ",
+                    "type": "B"
+                },
+                {
+                    "body": " 186 ",
+                    "type": "C"
+                },
+                {
+                    "body": " 198 ",
+                    "type": "D"
+                },
+                {
+                    "body": " None of the above",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Missing number"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ba3cc768-b4de-4c03-bbeb-c091bf7a5dfe",
+                    "questionID": "ea8592d9-159d-41ee-896d-2675aac480c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Next number is coming up by multiplying 2 in each previous number.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0e1ca906-908c-4636-b75c-6d3219269823",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The pair of numbers which are relatively prime to each other is [CDS 2012]",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "(68, 85) ",
+                    "type": "A"
+                },
+                {
+                    "body": "(65, 91)",
+                    "type": "B"
+                },
+                {
+                    "body": "(92, 85) ",
+                    "type": "C"
+                },
+                {
+                    "body": "(102, 153)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "prime"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "66418c51-6418-46b3-a381-8945007f499d",
+                    "questionID": "0e1ca906-908c-4636-b75c-6d3219269823",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "92 and 85 are coprime numbers because their HCF is 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "476ced49-52df-4055-8d8c-8fd166ef01d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The average score in an examination taken by 52 students of a class is 85. If the scores of the best 5 performers are not considered, the average score of the remaining students falls by 2. If, none of the first five highest scorers is not below 80 and if each of the 5 top scorers had distinct integral scores, find the maximum possible score of the topper",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "108 ",
+                    "type": "A"
+                },
+                {
+                    "body": "109 ",
+                    "type": "B"
+                },
+                {
+                    "body": "177 ",
+                    "type": "C"
+                },
+                {
+                    "body": "193 ",
+                    "type": "D"
+                },
+                {
+                    "body": "183",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Averages"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8440e1b5-7585-4bee-a1ac-21566af03e74",
+                    "questionID": "476ced49-52df-4055-8d8c-8fd166ef01d8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the score of the topper be T. Total score of the 52 students = 52 × 85 = 4420 Total score of the remaining 47 students after scores of the best five performers are removed = 47 × 83 = 3901 Total score of the top five students = 4420 – 3901 = 519 T + (total score of the next 4 top scores) = 519 T is the maximum when the total score of the next 4 top scorers is minimum. Total score of the next 4 top scorers has a minimum value of 80 + 81 + 82 + 83 = 326 (since all the top 5 scores are distinct) and the least is 80. T has a maximum value of 519 – 326 = 193",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9666f732-c45d-4a7a-9991-ed2b419f8f5f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Three children took part in racing competition in their school with their respective probabilities to reach the finishing point being 1/3, 1/5 and 1/4 respectively. What is the probability that at least one of them will finish the race",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0.4",
+                    "type": "A"
+                },
+                {
+                    "body": "0.6",
+                    "type": "B"
+                },
+                {
+                    "body": "0.2",
+                    "type": "C"
+                },
+                {
+                    "body": "0.25",
+                    "type": "D"
+                },
+                {
+                    "body": " 0.75",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Probability"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "950e9cb2-363b-4d23-99c5-b28e67e8f1ff",
+                    "questionID": "9666f732-c45d-4a7a-9991-ed2b419f8f5f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the names of children be x, y and z. The probabilities of the three children to finish the race are 1/3, 1/5 and 1/4 respectively. It may be noted that one reaching the finishing point is independent of other reaching. If P(x), P(y) and P(z) denotes the probabilities. The probability of at least one of them reaching the finishing point = 1 – P (none of them finishing the race)\n = 1 – ( 2/3 )( 4/5 )( 3/4 ) = 3/ 5",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7a94fe05-7ec4-49f2-b0eb-b3eb6d6a1098",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Sourav Ganguly wants to buy a total of 100 sports equipment using exactly a sum of Rs.1000. He can buy ball at Rs.20 per unit, wicket at Rs.5 per unit and bat at Rs.1 per unit. If he has to buy at least one of each equipment and cannot buy any other type of equipment, then in how many distinct ways can he make his purchase",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "5 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2 ",
+                    "type": "B"
+                },
+                {
+                    "body": "3 ",
+                    "type": "C"
+                },
+                {
+                    "body": "6 ",
+                    "type": "D"
+                },
+                {
+                    "body": "1",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "probality"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "18bbad36-ad26-4d04-a595-9bb419a950ea",
+                    "questionID": "7a94fe05-7ec4-49f2-b0eb-b3eb6d6a1098",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the number of ball, wickets and bats purchased be A, B and C, respectively. Thus, 20A + 5B + C = 1000 and A + B + C = 100 Solving the above two equations by eliminating C, we Get 19A + 4B = 900 ? B = 225 – 19 A 4 Now, as B is the number of wickets and 0 &lt; B &lt; 99, So, putting these limiting values of B in the above equation will provide the value of A as 27 &lt; A &lt; 47. Since A has to be the multiple of 4, so possible values of A are 28, 32, 36, 40 and 44. Now, for A = 28 and 32; A + B &gt; 100, so these values of A can be rejected. For all other values of A, we get the desired solution: A = 36, B = 54, C = 10 A = 40, B = 35, C = 25 A = 44, B = 16, C = 40",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2c086314-4869-42f8-a4e1-ee745fdf9bba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A bank lent Rs. X to a farmer at 50/3% p.a for 1 year73 days. How much Compound interest the farmer had to pay if the Simple interest for the first year is Rs. 3000? The values of Compound Interest and Sum lent are given in the options; choose the option which correctly states the above question.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 6300, Rs. 36000 ",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 3700, Rs. 18000 ",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 5800, Rs. 18000 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 5400, Rs. 18000 ",
+                    "type": "D"
+                },
+                {
+                    "body": "Rs. 3700, Rs. 12000",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "SI"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c22eb3e4-5af3-4515-8c8f-f7cf328f7c0d",
+                    "questionID": "2c086314-4869-42f8-a4e1-ee745fdf9bba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Given SI for 1 year = Rs. 3000 and rate = 50/3%,\nUsing SI formula: P = (SI × 100) / R = (3000 × 100) / (50/3) = 36000.\nTime = 1 year 73 days = 1.2 years.\nCI = 36000 × (1 + 50/300)^1.2 - 36000 ? 6300.\nHence, CI = Rs. 6300 and Principal = Rs. 36000.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "00a957e4-7800-471d-841d-6d02ea585f6f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A man saves Rs.20,000 at the beginning of each year and puts the money in a bank that pays 10% interest per year, interest being compounded annually. What would be the total savings of the man at the end of 6 years",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rs. 196840 ",
+                    "type": "A"
+                },
+                {
+                    "body": "Rs. 169840 ",
+                    "type": "B"
+                },
+                {
+                    "body": "Rs. 189480 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Rs. 199480 ",
+                    "type": "D"
+                },
+                {
+                    "body": "Rs. 168840",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Profit and Loss"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "eb5debf0-5e42-4814-b4d8-7c7e1662bd45",
+                    "questionID": "00a957e4-7800-471d-841d-6d02ea585f6f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The first Rs. 20000 would become 20000(1.1)6 after 6 years, the second will become 20000(1.1)5 .the third will become 20000 (1.1)4 , the fourth will become 20000 (1.1)3 , the fifth will become 20000(1.1)2 and the sixth will become 20000 (1.1). Total amount = 20000 [(1.1) + (1.1)2 + (1.1)3 + (1.1)4 + (1.1)5 + (1.1)6 ]",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

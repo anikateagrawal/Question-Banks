@@ -1,0 +1,1316 @@
+{
+    "bank_id": "602ce5f6-9782-47c7-ba0c-d1234e5dbf90",
+    "bank_name": "qvl week 2 day 3",
+    "questions": [
+        {
+            "id": "dbfb2ff4-7dc9-4aff-9cf9-cf5bf95ff43a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Complete each sentence using the correct conjunction or conjunction pair from the options:</p><p><br></p><p>I plan to take my vacation _________ in June _________ in July. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>whether / or&nbsp; </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>either / or</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>as / if&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ac0680db-ae40-4ad1-a25a-68498187d47e",
+                    "questionID": "dbfb2ff4-7dc9-4aff-9cf9-cf5bf95ff43a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ans.(b) The correct sentence is:</p><p><br></p><p><strong>\"I</strong></p><p><strong>plan to take my vacation <em>either</em> in June <em>or</em> in July.\"</strong></p><p><br></p><p>This is</p><p>because <strong>\"either / or\"</strong> is the correct conjunction pair used to</p><p>present <strong>two alternatives</strong>.</p><p><br></p><p>&nbsp;</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5834ab64-bf30-464d-b30c-b48bdeca11d4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Complete each sentence using the correct conjunction or conjunction pair from the options:</p><p><br></p><p>_________ I’m feeling happy _________ sad, I try to keep a positive attitude.&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>either / or&nbsp;&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>whether / or&nbsp; </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>when / I’m&nbsp; </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>neither / nor&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f3663950-d562-4cbe-8313-8d7d3db22d8c",
+                    "questionID": "5834ab64-bf30-464d-b30c-b48bdeca11d4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The</p><p>correct sentence is:</p><p><br></p><p><strong>\"Whether</strong></p><p><strong>I’m feeling happy or sad, I try to keep a positive attitude.\"</strong></p><p><br></p><p>This is</p><p>because <strong>\"whether / or\"</strong> is the correct conjunction pair used to</p><p>show a contrast between two conditions.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e23c853c-3820-483f-a065-452e602e10cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The shrewd scheme was about to ________ when unfortunately the authorities wouldn't allow him to fly his planes over the planned route. </p><p>I. work like a charm </p><p>II. Mean business </p><p>III. Get the axe </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Only I</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Only III</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "41645725-6b10-4468-b1b0-9704e7bfe430",
+                    "questionID": "e23c853c-3820-483f-a065-452e602e10cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B</strong></p><p><br></p><p>work like a charm: Works very well or has the desired</p><p>effect. Option I fills the sentence correctly as it implies that the scheme was</p><p>about to work perfectly but the authorities restricted the flight. Mean</p><p>business: Being serious about what you announce. Eg : Now people are starting</p><p>to realise that he means business. Get the axe: Lose the job. Eg: He got the</p><p>axe at the end of the first week. Clearly only I fit in the sentence correctly.</p><p>Hence, option B is correct</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "00ab2a93-12bc-4fda-b7ac-d01cf4d4333b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Within 24 hours of announcing a meeting between the External Affairs Ministers’ of the two nations, India ____________ citing the recent attacks in Jammu and Kashmir by Pakistan-based groups. </p><p>I. Hit pay dirt </p><p>II. Drew a blank </p><p>III. Called it off </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Only III</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Only I</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6ad1ea36-5d42-4f8b-8c94-5eeba0f9b2af",
+                    "questionID": "00ab2a93-12bc-4fda-b7ac-d01cf4d4333b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p><p><br></p><p>Hit pay dirt: If you hit pay dirt, you are lucky and</p><p>suddenly find yourself in a successful money-making situation. Eg: He finally</p><p>hit pay dirt with his latent invention. Draw a blank: If you look for or try to</p><p>remember something, and draw a blank, you fail to find it. Eg: I nearly won the</p><p>quiz; unfortunately I drew a blank at the last question! Called it off:</p><p>Cancelled it. This phrase fits in well and is correct. Only III is correct.</p><p>Hence, option B is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2bfc1607-fb21-4af6-8112-fd79fe16271a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The company ____________ that the project will take at least another six months to conclude given that none of the managers have a better grip on the work. </p><p>I. took on </p><p>II. stands to reason </p><p>III. came down with </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only III</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e3896cd0-0fda-4be5-81a5-96476c17a2dd",
+                    "questionID": "2bfc1607-fb21-4af6-8112-fd79fe16271a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B</strong></p><p><br></p><p>Take on: to acquire something. This does not fit in</p><p>contextually. Stands to reason: to come to a reasonable deduction. Come down</p><p>with: start to suffer from a particular sickness. This does not fit in</p><p>contextually. Hence, B is the correct answer</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a1d833f-1eed-4a00-98bf-2df8bffe311a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Pakistan was ____________ with Mr. Trump tweeting about Pakistan’s duplicity in being “a non-NATO ally” and providing safe haven to insurgent groups. </p><p>I. Put on notice </p><p>II. Burying the hatchet </p><p>III. Splitting hairs</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d14d5ccd-e651-4c47-af1b-21005d2f6889",
+                    "questionID": "6a1d833f-1eed-4a00-98bf-2df8bffe311a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:A</strong></p><p><br></p><p>The statement talks about President Trump warning Pakistan</p><p>of action due to its terrorist activities. Put on notice: Warn someone of</p><p>something about or likely to occur, often in a formal or threatening way. Bury</p><p>the hatchet: When people who have had a disagreement decide to forget their</p><p>quarrel and become friends again, they bury the hatchet. Eg: I didn't agree</p><p>with my colleague's decision, but for the sake of peace, I decided to bury the</p><p>hatchet. Split hairs: If you split hairs, you pay too much attention to</p><p>differences that are very small or unimportant. Eg: If we start splitting</p><p>hairs, we'll never reach an agreement. Clearly, only I fits in well while the</p><p>others are meaningless. Hence, option A is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0c38b18c-e5ae-4c6a-a5e9-e027126e1234",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The brilliant administrator<u> was destined for</u> the post of Assistant Commissioner; there was no one to challenge his caliber. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>were destined for </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>was destined of</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>No improvement required </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>was destined with </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7f174d1e-f897-4dee-ac9b-c5d84506a933",
+                    "questionID": "0c38b18c-e5ae-4c6a-a5e9-e027126e1234",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The subject “administrator” is singular, so “was” is correct.  </p><p>The phrase “was destined for the post” is idiomatic and correct.  </p><p>Options A, B, and D either have subject-verb disagreement or incorrect prepositions.  </p><p>“Was destined for” fits both grammatically and in meaning.  </p><p>Therefore, the sentence needs no improvement.  </p><p>Correct answer: C. No improvement required.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dc8b3c90-9ea2-4511-b909-506c2dfbe670",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Jet Airways (India) Ltd _____________ it would _____________ its 49% stake in Jet Privilege Pvt. Ltd, the frequent-flyer loyalty programme subsidiary. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>walked, sell </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>slept, eat </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>asserted, play </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>said, monetize </p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>asserted, manages</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4127c1c8-32cf-442a-a28c-e238754f8aea",
+                    "questionID": "dc8b3c90-9ea2-4511-b909-506c2dfbe670",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Correct Answer: <strong>(d) said, monetize.</strong></p><p><span class=\"ql-cursor\">﻿</span>The sentence talks about Jet Airways planning to take action on its stake.  </p><p>“Monetize” means to convert into money, which fits a business decision.  </p><p>“Jet Airways... said it would monetize...” is grammatically and contextually correct.  </p><p>Other options are either grammatically incorrect or make no sense.  </p><p>So, the best fit for the blanks is: said, monetize.  </p><p>Hence, the correct answer is: (d) said, monetize.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d90dec3e-5bfd-4524-a946-43f160496930",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the incorrect statements from the options given below and mark that as your answer.</p><p><br></p><p>I. The top auditor must recuse himself from auditing the deal. </p><p><br></p><p>II. The Congress has claimed that the previous deal include a technology transfer agreement with HAL.</p><p><br></p><p>&nbsp;III. The NDA has not disclosed details of the price as of yet.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only III</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c3d1b343-70bb-4a73-a206-3dc80975907b",
+                    "questionID": "d90dec3e-5bfd-4524-a946-43f160496930",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER :A</strong></p><p><br></p><p>I. is correct. II. is wrong as it uses wrong form of verb. The sentence</p><p>is in past tense, so instead of ‘include’, “included” is preferred. III. is</p><p>also correct. Hence option A is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0efb0613-9094-44e9-824e-b37aaebf9202",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the incorrect statements from the options given below and mark that as your answer.</p><p><br></p><p>I. There should be special places in hell for those which promoted Brexit.</p><p><br></p><p>&nbsp;II. The reason May’s plan failed was her effort to avoid any possibility of a hard border.</p><p><br></p><p>&nbsp;III. A soft border was an essential feature of the agreement that ended 30 years of terrorist violence. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only I</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9a5f96e5-576e-499f-96ab-ba4ea1d31343",
+                    "questionID": "0efb0613-9094-44e9-824e-b37aaebf9202",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER :D</strong></p><p><br></p><p>I. is grammatically incorrect. As the ones who have promoted Brexit were</p><p>the human beings and for living-beings ‘who’ is used instead of ‘which’.</p><p>Correct sentence: There should be special places in hell for those who promoted</p><p>Brexit. II. and III. are correct. Hence option D is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e2565147-9890-493c-84f1-02af15542063",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A large cube is dipped into a tub filled with colour. Now the cube is taken out and it was observed that all its sides are painted. This large cube is now cut into 125 small but identical cubes.</p><p>&nbsp;How many of the smaller cube have exactly one face painted?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>49</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>54</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>64</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5b68e589-2525-4289-bdf7-c4b7938b9c98",
+                    "questionID": "e2565147-9890-493c-84f1-02af15542063",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>(a)&nbsp;&nbsp; 49 (b) 54 (c) 64 (d) None of these</p><p><br></p><p>ANS:B &nbsp;The number of</p><p>small cube with exactly 1 painted face = 6(n – 2)2 = 6(5 – 2)2 = 6(9) = 54.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c52dd76e-5f96-425d-bf6b-eed106fc75d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A large cube is dipped into a tub filled with colour. Now the cube is taken out and it was observed that all its sides are painted. This large cube is now cut into 125 small but identical cubes. </p><p>How many of the smaller cubes have no face painted all? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>27</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>64</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "884500c9-9630-4958-a8cf-b01c99cdc5cd",
+                    "questionID": "c52dd76e-5f96-425d-bf6b-eed106fc75d8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>ANS:A The</p><p>number of small cube with no painted face = (n – 2)3 = (5 – 2)3 = 33 = 27.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "01404f17-529d-422a-a76e-6ecf7545a327",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Statements:</p><p>(i) All khiladis are spectators.&nbsp;&nbsp;&nbsp; </p><p>(ii) Some spectators are theatres.&nbsp;&nbsp;&nbsp; </p><p>(iii) Some theatres are movies.&nbsp;&nbsp; </p><p>Conclusions:</p><p>I. Some movies are spectators.&nbsp;&nbsp;&nbsp;&nbsp; </p><p>II. Some khiladis are movies.&nbsp;&nbsp;&nbsp; </p><p>III. Some theatres are khiladis.&nbsp;&nbsp;&nbsp; </p><p>IV. All spectators are khiladis.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II follows&nbsp; </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>None follows </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II and IV follow </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only I and III follow</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a01ce44c-3d55-4ae8-ba39-559ae3264bc0",
+                    "questionID": "01404f17-529d-422a-a76e-6ecf7545a327",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>All khiladis are spectators, but that doesn’t mean all spectators are khiladis.  </p><p>Some spectators are theatres, and some theatres are movies — no direct link to khiladis.  </p><p>From two \"some\" statements, we can't conclude new \"some\" relationships.  </p><p>None of the conclusions follow logically from the given statements.  </p><p>So conclusions I, II, III, and IV are all invalid.  </p><p>Hence, the correct answer is: (b) None follows.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "abdbee70-419f-488e-b0e1-adfcfe9d50af",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Statements:&nbsp; (i) All boys are pens.&nbsp;&nbsp;&nbsp; (ii) Some toys are pens.&nbsp;&nbsp;&nbsp; (iii) All pots are toys.&nbsp;&nbsp;&nbsp; </p><p>Conclusion: I. All pens are pots.&nbsp;&nbsp;&nbsp; II. Some boys are toys.&nbsp;&nbsp;&nbsp; III. Some pots are boys.&nbsp;&nbsp;&nbsp; IV. Only pots are toys. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I, II and IV follow</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II, III and IV follow </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II and III follow </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7ebbd3e8-0829-4b23-8742-225e4c0813cf",
+                    "questionID": "abdbee70-419f-488e-b0e1-adfcfe9d50af",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>All boys are pens, and some toys are pens, but this doesn’t mean all pens are pots.  </p><p>There is no direct connection between boys and toys, so conclusion II is invalid.  </p><p>No statement connects pots with boys, so conclusion III is also invalid.  </p><p>Statement IV says only pots are toys, but actually, all pots are toys—not the only ones.  </p><p>So none of the conclusions logically follow from the given statements.  </p><p>Hence, the correct answer is: (d) None of these.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "18c1a739-73c6-4246-b95e-73041d4200a3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Tanay is standing facing north. Turning to his right, he walks 25 metres. He then turns to his left and walks 30 metres. He, further, walks 25 metres to his right. He then walks to his right again and walks 55 metres. Finally, he turns to the right and walks 40 metres. In which direction is he now from his starting point? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>South-west</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>South</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>North-west</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>South-east</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a3df5e5f-ed7c-47e0-9bff-96bdec34dbea",
+                    "questionID": "18c1a739-73c6-4246-b95e-73041d4200a3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Tanay moves</p><p>towards right from north direction. Therefore, he walks 25 m towards east to B,</p><p>turns left, and moves 30 m to C, turns right and goes 25 m to D. At D, he turns</p><p>to right towards south and walks 55 m to E. Next, he again turns to right and</p><p>walks 40 m to F, which is his final position. F is to the south-east of A.</p><p>Therefore, he is to the south-east from his starting point. Hence option (d) is</p><p>the answer.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86f0aade-9ad8-4ed0-a3bb-5391efbdd0b7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the following statement and solve the questions based on them. </p><p><br></p><p>(i)&nbsp;&nbsp;Seema is Raju’s grandmother </p><p>(ii) Ganesh is Raju’s father </p><p>(iii) Arun is Seema’s sister</p><p>(iv) Pratibha is Ganesh’s wife&nbsp; </p><p>(v) Arun is not Ganesh’s aunt</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "c215a88b-ccc7-4d52-b4f4-a7a941013d62",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>One day, Dileep left his home and walked 10 km southwards, turned right and walked 5 km, turned right and walked 10 km, walked left and then walked 10 km. How many kilometres will he have to walk to reach his home straight?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>10 km </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>15 km </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20 km </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>25 km</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3d0eaa90-364f-4ea5-99ee-a814dfa15cb1",
+                    "questionID": "c215a88b-ccc7-4d52-b4f4-a7a941013d62",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Now we will draw the whole situation in one unified diagram. Dileep starts from his home at A, walks 10 km southwards till B, turns right and moves 5 km till C, turns right again and walks 10 km till D and finally turns left and walks 10 km till E. It can be seen that his distance from initial position A = AE = AD + DE = BC + DE = (5 + 10) km = 15 km. Hence option (b) is the answer.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8caec861-3822-4a9a-8e3a-d928a84ca507",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A $ B means B is the father of A; </p><p><br></p><p>&nbsp;A # B means B is the mother of A; </p><p><br></p><p>&nbsp;A &amp; B means B is the sister of A </p><p><br></p><p>&nbsp;A @ B means B is the husband of A </p><p><br></p><p>Which of the following indicates that N is the grandmother of P?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>P &amp; Q # M $ N&nbsp; </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>P @ Q $ M # N </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>P # Q $ N &amp; M </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e5680ba4-1fef-47ea-8ffb-02c1b0780491",
+                    "questionID": "8caec861-3822-4a9a-8e3a-d928a84ca507",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>From the</p><p>first expression P is the maternal aunt of M, who is the father of N. Thus, P</p><p>is the grandmother of N.&nbsp;&nbsp; The second</p><p>option says that P is the husband of Q and Q is the father of M, which is not</p><p>possible because if P and Q is a couple then both of them cannot be males.&nbsp;&nbsp; Third expression states that P is the mother</p><p>of Q and Q is the father of N, hence P is the grandmother of N, not vice</p><p>versa.&nbsp; Hence none of the given options</p><p>is correct.&nbsp; Correct option is (d)</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1749e23d-6748-474a-b726-d84d46579d2f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Pointing towards a girl, Mohit says, “This girl is the daughter of only a child of my father.” What is the relation of Mohit’s wife to that girl? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Daughter</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Mother</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Aunt</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Sister</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5e0cf1a2-1beb-488b-93ac-abc3875789cc",
+                    "questionID": "1749e23d-6748-474a-b726-d84d46579d2f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The only</p><p>child of Mohit’s father is Mohit himself and the girl is his daughter. Hence</p><p>Mohit’s wife will be the mother of the girl.&nbsp;</p><p>Correct option is (b)&nbsp;&nbsp; </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "888a926c-b00e-4d8c-a3c3-314a41026bf1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Sumit borrows Rs. 15000 at 10% compound interest. At the end of each year he pay back Rs.3000. How much amount should he pay at the end of the third year to clear his debt?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Rs. 14030</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Rs. 14005 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Rs. 12050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Rs 13035 </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4749fada-9da7-4e0d-9d69-e64feb6454c6",
+                    "questionID": "888a926c-b00e-4d8c-a3c3-314a41026bf1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:D</strong></p><p><br></p><p>Amount after 10% compound interest = 15000 + 1500 = 16500 At</p><p>the end of the first year he pays back 3000. Next year Principal will be –</p><p>16500 – 3000 = 13500 Amount after 10% compound interest = 13500 + 1350 = 14850</p><p>At the end of the second year he pays back 3000, next year Principal will be –</p><p>14850 – 3000 = 11850 At the end of third year, Amount after 10% compound</p><p>interest = 11850 + 1185 = 13035 So, he had to pay Rs. 13035 at the end of third</p><p>year to clear his debt. Hence, option D is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b7cb0108-45c5-4b1b-baba-cb5dc68ccb99",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In the Mumbai Zoo, there are some ducks and some rabbits. If the head are counted there are 160, while the legs are 450. What will be numbers of Rabbit in the zoo? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>65</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>60</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>95</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>85</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fb8d54c9-9b6b-4763-9e7a-62cdad09c8e8",
+                    "questionID": "b7cb0108-45c5-4b1b-baba-cb5dc68ccb99",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:A</strong></p><p><br></p><p>&nbsp;Let, Ducks = x, Rabbit = y </p><p><br></p><p>As, Duck has</p><p>2 legs and rabbit has 4 legs, </p><p><br></p><p>Both have</p><p>one head, </p><p><br></p><p>2x + 4y =</p><p>450 ...1</p><p><br></p><p>&nbsp;x + y = 160 </p><p><br></p><p>2x + 2y =</p><p>320 .... 2 </p><p><br></p><p>Equation 1 –</p><p>Equation 2 </p><p><br></p><p>2y = 130 </p><p><br></p><p>y = 65 </p><p><br></p><p>Hence,</p><p>option A is correct.</p><p><br></p><p>&nbsp;</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2d3cac76-d942-44c0-94bf-ceefae8dc817",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>508, 53, 212, 29, 60 ? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>15 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>19 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>23</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>13 </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "86a4bbe1-9da8-4575-b5a1-9ae27a70c8ff",
+                    "questionID": "2d3cac76-d942-44c0-94bf-ceefae8dc817",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Ans:D</strong></p><p><br></p><p>Series Pattern</p><p><br></p><p>(8<sup>3</sup>+ 1) – 5 = 508 </p><p><br></p><p>&nbsp;(7<sup>2</sup> – 2) +</p><p>6 = 53 </p><p><br></p><p>(6<sup>3</sup> + 3) – 7 = 212 </p><p><br></p><p>(5<sup>2</sup> – 4) + 8 = 29</p><p><br></p><p>&nbsp;(4<sup>3</sup> + 5) –</p><p>9 = 60 </p><p><br></p><p>&nbsp;(3<sup>2</sup> – 6) +</p><p>10 = 13</p><p><br></p><p>Hence, option (D) is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "81ff1fda-b877-469a-b989-35e6819e8c6c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In St. Peter’s college Agra an exhibition was organised, hand-made crafts are displayed for sale. Some students are assigned the work of selling crafts. The</p><p>overall profit p depends on the number of students x selling the crafts on that particular day and is given by the equation p = 250x – 5x2. The school manager</p><p>claims to have made a maximum profit. Find the number of students engaged in selling the crafts and the maximum profit made. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>25 and Rs. 1800</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>25 and Rs. 2900 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>25 and Rs. 3125</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>30 and Rs. 3900 </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "499e5aec-0f13-46df-b033-b1cd058f9226",
+                    "questionID": "81ff1fda-b877-469a-b989-35e6819e8c6c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:C</strong></p><p><br></p><p>Given:</p><p>p=250x−5x2p = 250x - 5x^2</p><p><br></p><p>This is a quadratic equation of the form ax2+bx+cax^2 + bx + c, opening</p><p>downward.</p><p><br></p><p>Maximum occurs at x=−b2a=−2502×(−5)=25x = -\\frac{b}{2a} = -\\frac{250}{2 \\times</p><p>(-5)} = 25</p><p><br></p><p>Maximum profit = 250(25)−5(25)2=6250−3125=Rs.&nbsp;3125250(25) - 5(25)^2 = 6250</p><p>- 3125 = \\text{Rs. 3125} </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "01195ee4-96c7-4d77-8eb0-bd9c89ebb44d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Aarti gave her project assignment to a shopkeeper for binding. There were 19 pages including a cover page, 12 pages of theory and 6 pages of drawings. She told the shopkeeper that the theory pages are in a particular order and the drawing pages can be arranged anywhere provided they are together. If the cover page is always kept first what is the probability that rest of the pages are arranged as per requirement?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>12C1 × 6! /18!&nbsp;&nbsp; </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>13C1 × 6! /19!&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>13 × 40 / 17!&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>13! × 6! /18!&nbsp;&nbsp; </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c75ebdf3-098f-48d9-b728-ab7a76b46f06",
+                    "questionID": "01195ee4-96c7-4d77-8eb0-bd9c89ebb44d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:C</strong></p><p><br></p><p>Pages = 1 cover page, 12 theory</p><p>pages, 6 pictures page</p><p><br></p><p>&nbsp;Except cover page </p><p><br></p><p>Ways of arranging 12 + 6 pages =</p><p>18! </p><p><br></p><p>Ways of arranging so that the</p><p>theory pages are in order and drawing pages come together= 13C1 × 6!</p><p><br></p><p>&nbsp;(As there are 13 gaps between 12 pages where 6</p><p>pages can be kept) </p><p><br></p><p>Probability = (13C1 × 6! )/ 18! =</p><p>(13 × 40 ) /17!</p><p><br></p><p>&nbsp;Hence, option C is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f8b6c06c-73f4-4908-99ec-f196a8e61a75",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>The ratio of a two-digit natural number to a number formed by reversing its digits is 4 : 7. Which of the following is the sum of all the numbers of all such pairs?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: black;\">99</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>198</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>330</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>132</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a25842f1-e52c-4402-932b-70498abccf4d",
+                    "questionID": "f8b6c06c-73f4-4908-99ec-f196a8e61a75",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let the number be 10x+y10x + y, then reversed = 10y+x10y + x.</p><p><br></p><p>Given: (10x+y)/(10y+x)=4/7(10x + y)/(10y + x) = 4/7 → Cross-multiplying:</p><p>70x+7y=40y+4x70x + 7y = 40y + 4x</p><p><br></p><p>Solving: 66x=33y66x = 33y → 2x=y2x = y</p><p><br></p><p>Valid pairs: (12,21), (24,42), (36,63), (48,84) → Sum = 12+21+24+42+36+63+48+84</p><p>= <strong>330</strong> → <strong>Option C</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cdcf25ab-650f-45aa-a8bd-026ac07fbdf9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The ratio of Nicotine to Heroine in four types of drugs of equal quantity is 2 : 3, 3 : 7, 4: 11 and 11 :9 respectively. The four drugs are mixed together. What is the ratio of Nicotine to Heroine after mixing? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>213 : 91 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>418 : 189 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>91 : 149 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>149 : 81 </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "59dcf362-5465-4d86-8338-40297791f792",
+                    "questionID": "cdcf25ab-650f-45aa-a8bd-026ac07fbdf9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:C</strong></p><p><br></p><p>Let the quantity of each drug be 1 unit.</p><p><br></p><p>Now compute total Nicotine and Heroine:</p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Drug 1 (2:3): Nicotine = 2/5, Heroine = 3/5</p><p><br></p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Drug 2 (3:7): Nicotine = 3/10, Heroine = 7/10</p><p><br></p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Drug 3 (4:11): Nicotine = 4/15, Heroine = 11/15</p><p><br></p><p>·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>Drug 4 (11:9): Nicotine = 11/20, Heroine = 9/20</p><p><br></p><p>Total Nicotine = 2/5 + 3/10 + 4/15 + 11/20 = 91/60</p><p><br></p><p>Total Heroine = 3/5 + 7/10 + 11/15 + 9/20 = 149/60</p><p>So, required ratio = 91 : 149 </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9c3114c6-051b-4dce-9321-b337d1c1c013",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>383 394 407 414 419 ? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>429</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>446</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>452</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>438</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "28efe244-1b3f-4147-92db-12394a11a15c",
+                    "questionID": "9c3114c6-051b-4dce-9321-b337d1c1c013",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Ans:A</strong></p><p><br></p><p>Series Pattern </p><p><br></p><p>383 </p><p><br></p><p>383 + (8 + 3) = 394</p><p><br></p><p>394 + (9 + 4) = 407</p><p><br></p><p>407 + (0 + 7) = 414</p><p><br></p><p>&nbsp;414 + (1 + 4) = 419</p><p><br></p><p>&nbsp;419 + (1 + 9) = 429</p><p><br></p><p>Hence, option (A) is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d60ab28b-4b53-4abe-98ce-a1ba5e9f1b8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The distance between two bus stops of Lucknow and Delhi is 450 km. A bus starts from Lucknow and moves towards Delhi at an average speed of 15 km/h. Another bus starts from Delhi, 20 minutes earlier than the first bus and moves towards Lucknow at an average speed of 20 km/h. How far from Lucknow and from Delhi will the two buses will meet respectively: </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>190 km, 260 km </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>290 km,160 km </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>260 km,190 km</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>160 km, 290 km </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cf54e1da-3595-4c83-99da-15ec7b2a5d35",
+                    "questionID": "d60ab28b-4b53-4abe-98ce-a1ba5e9f1b8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:A</strong></p><p><br></p><p>Let after travelling “t” hr the two bus met each other If</p><p>the bus starting from Lucknow have travelled for time “t” hr then bus starting</p><p>from Delhi will have travelled for ( t + 20 ) hr 60 and so the equation (15 x</p><p>t) + 20 × (t + 20) = 450 60 ⇒ 15t + 20t = 450 – 20 3 ⇒ 35t = 1330 3 ⇒</p><p>t = 38hr 3 Distance from Lucknow when the two bus will meet = (average speed of</p><p>bus from Lucknow to Delhi) × (time “t” for which it travelled = 15 × 38 km = 5</p><p>× 38 km = 190 km 3 Distance from Delhi when they meet = 450km – 190 km = 260km</p><p>Hence, option A is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f1d7603-2d27-4b6e-94b3-9cade52f2d35",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A Volvo tourist bus with only the driver inside has a speed of 80 kmph. Its maximum speed reduces by a quantity which is directly proportional to the</p><p>number of passengers (excluding the driver) seated inside. The maximum speed of the bus reduces by 20 kmph, if there are 5 passengers. A maximum of how many passengers should be seated so that the bus can move?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>20</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>19</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>25</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>17</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09c2d780-a8aa-4f55-83ac-0adedd86997a",
+                    "questionID": "1f1d7603-2d27-4b6e-94b3-9cade52f2d35",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>If R is the reduction in maximum speed and N is the number</p><p>of passengers, then R is proportional to N ⇒ R = NK where K is constant of</p><p>proportionality, Given data: R = 20, when N = 5, hence K = 4 Maximum number of</p><p>passenger that bus can’t move = (80 – N × K) = 80 – N × 4 ⇒</p><p>N = 20 So number of passenger for bust just move = 20 – 1 = 19 Hence correct</p><p>option (B) is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

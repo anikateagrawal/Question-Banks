@@ -1,0 +1,1150 @@
+{
+    "bank_id": "d362279c-f9dc-4606-b08e-efa76c30445f",
+    "bank_name": "Quant1",
+    "questions": [
+        {
+            "id": "bacb39fe-5c85-4b8f-9b1a-7b024655e315",
+            "questionContent": [
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1753023112023632626_Screenshot%202025-07-20%20at%208.21.43%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=8be86506da141bf5fa455ceab9d3f9dd0d4ae0cc3a67fd9a27083ef0ce7c6214",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>6 &lt; x &lt; 30</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>–3 &lt; x &lt; 15</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>–15 &lt; x &lt; 3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3 &lt; x &lt; 15</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "06685679-30f8-4a4b-b5ee-dc168a80e155",
+            "questionContent": [
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1753023023967922239_Screenshot%202025-07-20%20at%208.20.09%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=46d290a479e834f539edb7a7ab083b74050f15d02145f0935ff9fc53e10c1367",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10/3</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10/13</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>10/7</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "f6252494-fd0b-48bb-84ee-af547577bf78",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If a ≤ 25 and a + b ≥ 10, then which of the following is</p><p>always true?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>a – b ≥ 40</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>b – a ≥ −40</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>a + b ≥ 40</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ab ≤ 250</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "7fd79dd3-480f-4b78-8aab-b39c8588da8f",
+            "questionContent": [
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1753022867817942418_Screenshot%202025-07-20%20at%208.17.39%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=1c36ea69cb163fbc0aa2efa0fc071e4605ad69ec2675d558bf542865a7921915",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>9</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>27</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>81</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "69770cad-8829-4e07-9301-65644fc5d5f4",
+            "questionContent": [
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1753022793455368693_Screenshot%202025-07-20%20at%208.15.08%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=8d5d1f8583be4084a801c2eed852381c84835321f4d203ab1bb7d3390bc4a95b",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1753022800315148877_Screenshot%202025-07-20%20at%208.16.26%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143244Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=6a4a88d8fc92228abe5f291eb86f4b686783afd1346a952c1aad5666d2f861ec",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1/3</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>4/9</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>4/7</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "766fbfef-1523-46da-8991-3f963309645c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Let f(x) = max (3x + 5, 7 − 2x), where x is any real number. Then the minimum possible value of f(x) is</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>31/5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>27/5</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>21/5</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>29/5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "2aec0823-7980-4b23-bb95-b43cd1ed7de2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If |x| &gt; 6 and y &gt; −4, then which of the following is</p><p>necessarily true?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>|xy| &gt; 24 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>|xy| &lt; 24</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>|x| |y| &gt; 0</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "13087823-fdc1-42ba-8a2e-7a0e5f96948f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If 2 &lt; x &lt; 5 and 10 &lt; y &lt; 30, then y/x </p><p> lies between</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>5 and 6 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2 and 6</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>2 and 15 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>6 and 15</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3aab809b-130f-49b8-8cc5-0bb9683aa30b",
+            "questionContent": [
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1753022432984723260_Screenshot%202025-07-20%20at%208.10.01%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143245Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=bf46352910a3b77a919a1c30729b3920f524c6bea2309a32b16ccc34ea97e0cc",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>16</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1/2</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1/4</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "8d37bf57-757e-4d89-8b20-521f44e2b71c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the range of x, for which |x + 2| − 3 |x − 1| + 4 ≥ 0</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>−2 ≤ x ≤ 1 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>−2 ≤ x ≤9/2</p><p><br></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>-3/4 ≤ x ≤ 4</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "ebae7708-d4bc-4877-bca7-31517f331a67",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the range of values of x that satisfy the relation</p><p>|2x − 1| − 1 &lt; |x − 2| + 3.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>−4 &lt; x &lt; 4</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>−6 &lt; x &lt;1/2</p><p><br></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>−6 &lt; x &lt; 4</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>−5 &lt; x &lt; 3</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "eb654968-e48c-4ca0-8fd8-795f19ff24ce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If the price of a book goes down by `20 per dozen, a</p><p>person can purchase 50 dozen books more for `30,000.</p><p>Find the original price of each book.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>10</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>9</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "6e4d3f99-ae1e-4e2f-ab5d-4d1d5bcf1bbe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a class, eight students play basketball. The remaining students, who represent 7 times the square root of</p><p>the strength of the class, play football. Find the strength</p><p>of the class.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>36</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>16</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>64</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>100</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1b9943d7-9202-4ad3-b2c4-f5d4af24db30",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A is any single-digit prime number and B is any natural</p><p>number. How many equations of the form</p><p>x2</p><p> – 4 A x + 3B = 0 have both real roots?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>15</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>18</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>21</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>24</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "ace44d22-e82d-41a8-8680-a488e7b0622f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The length of a rectangle is 1 cm more than its breadth.</p><p>If its diagonal is 29 cm, what is the measure of its</p><p>breadth? (in cm)</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>18</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>20</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>17</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>21</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "431f9b55-4d2c-4ed3-bb16-7055123f8332",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the equation whose roots are twice the roots of the</p><p>equation 3x2</p><p> – 7x + 4 = 0.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>3x2 – 14 x + 8 = 0</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>3x2 + 14x + 16 = 0</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3x2</p><p> + 14 x – 16 = 0</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3x2</p><p> – 14x + 16 = 0</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "22d18128-1a09-416f-b7df-9fd725289e12",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If the value of p in the equation x2</p><p> + 2(p + 1)x + 2p = 0,</p><p>is real, the roots of the equation are</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>rational and unequal.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>irrational and unequal</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>real and unequal.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>real and equal.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3f11a618-4ced-48b5-a07c-dd553ca56a0e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the value of R, so that one of the roots of</p><p>x2</p><p> + 6Rx + 64 = 0 is the square of the other root.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>-10/3</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>8/3</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>5/3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>7/3</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "e6afc68e-7c80-4697-b68c-2c1e851bcaed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If a positive number is increased by three and then</p><p>squared, the result is 23 more than the original number.</p><p>Find the original number.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "9dd9d209-cb18-486b-9afd-0cdf5bd09cb4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>All the roots of two quadratic equations are positive</p><p>integers. The sum of the squares of the roots of the first</p><p>quadratic equation is equal to that of the second quadratic equation. If the sum of the roots of the two equations are 10 and 8 respectively, then what is the greatest</p><p>possible root of these quadratic equations?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>7</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>6</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "750fd923-1c30-422e-ba29-8b6c632767ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following statements is true about the</p><p>roots of the equation k2 x2</p><p> – k x + (1 + 2x2</p><p>) = 0, where</p><p>k is a real number?</p><p>Ι. Roots are equal</p><p>ΙΙ. Roots are complex</p><p>ΙΙΙ. Roots are rational</p><p>IV. Roots are real</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Ι and IV</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ΙΙΙ only</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Ι and ΙΙ</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ΙΙ only</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "eda23a82-c6d5-4ca2-a044-f371fb1785d6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If the roots of the equation x2</p><p> – 7x – 12 = 0 are diminished by one and then multiplied by two, which of the</p><p>following equations is formed with those values as the</p><p>roots?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>x2</p><p> – 10x + 24 = 0</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>x2</p><p> – 6x – 76 = 0</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>x2</p><p> – 2x – 48 = 0</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>x2</p><p> – 10x – 72 = 0</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "26388867-bad1-4205-8424-0dad31b3d755",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If the sum of the roots of the quadratic equation</p><p>3x2</p><p> + (2k + 1) x – k – 5 = 0 is equal to the product of</p><p>the roots, which of the following is true?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>k2</p><p> – 4 = 0</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>k2</p><p> – 9 = 0</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>k2</p><p> – 16 = 0</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>k2</p><p> – 25 = 0</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "16d687af-a1d0-4f5b-ba0d-d5a284368e33",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The range of k for which the sum as wells as the</p><p>product of the roots of 6x2</p><p> – kx + 9 – k2</p><p> = 0 are</p><p>negative is __________</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>(–3, 3)</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>(–∞, 3)</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>(–∞ , –3)</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>(3, ∞)</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "0936c9a7-7243-4808-b0e9-26c577a9f906",
+            "questionContent": [
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1753020800580402004_Screenshot%202025-07-20%20at%207.43.09%E2%80%AFPM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143249Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=445733e749585baf2445ca940c58a5f7f04f8c0d2a5aeb36f5b3c003c5383267",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>11.11</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>12.32</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>11</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "42609d8b-1c5c-4656-98c7-a542a57f83d3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Two students independently attempted to solve a quadratic equation in x. One of them copied the constant</p><p>term wrong and obtained roots as –15 and 16. The other</p><p>student copied the coefficient of x wrong and obtained</p><p>his roots as –10 and 21. Find the correct roots of the</p><p>quadratic equation?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>(–15, 14)</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>(–14, 15)</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>(–25, 7)</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>(–7, 25)</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "22fd2fc1-d395-4512-9229-46d0775b399b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> If a + b – c : b + c – a : a + c – b = 3 : 4 : 5, find a : b : c. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">1 : 2 : 3</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">8 : 7 : 9</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>5 : 7 : 8</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1 : 3 : 2</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "35c682d8-9f6a-4e31-91ae-d29f13412fcc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The cost of 2 pens, 4 erasers and 5 sharpeners is `36. The cost of 3 pens,7 erasers and 9 sharpeners is `63. Find the total cost of one pen, one eraser and one sharpener.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>9</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>11</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "b8de2cc2-6039-49cd-a92c-45ceda45ceb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Ajay, Balu, Chetan and Dinesh have a total of `240 with them. The amount with Ajay is half of the total amount with the others. The amount with Balu is onefourth of the total amount with the others. The amount with Chetan is one-fifth of the total amount with the others. Find the amount with Dinesh</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>30</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>72</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>40</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>48</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "89706756-d6de-4a53-a690-7bbb396bf3fa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a parking place, there are a total of 20 vehicles (bikes and cars) are parked. If the total number of tyres of all these vehicles is 70, find the ratio of the number of bikes and cars. (No vehicle has spare tyres). </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>3 : 1 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1 : 2 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1 : 3 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> 2 : 1 </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "70bb68ad-7ff4-4479-9c8f-5d6c69988ba3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> If a : b = 3 : 4, c : b = 2 : 7 and c : d = 5 : 7, find  a : b : c : d. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>105 : 140 : 50 : 70 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>105 : 140 : 40 : 49 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>105 : 140 : 40 : 56 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>105 : 140 : 50 : 49 </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "99aeeb3a-0e71-46b5-8511-988204450516",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> In a fraction, the numerator exceeds the denominator by 7. If twice the numerator exceeds thrice the denominator by 2, find the fraction.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>8/15</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>19/12</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20/3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>17/24</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "8048ea9d-637a-473d-8d0b-9209a82bfd1d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A sum of `209 was intended to be divided among A, B and C in the ratio 2 : 4 : 5. By mistake, it got divided in the reciprocal of the intended ratio. Find the gain of A due to this mistake. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>48</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>72</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>56</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>60</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "a3f57af9-2cba-4feb-8bb7-aea14d69fcdc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> A three-digit number when reversed and subtracted from the original number gives the result as 792. If the sum of the digits of the number is 18, find the tens digit of the number. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>6</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>7</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>5</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+[
+    {
+        "fileName": "Accenture-Model-All-set.json",
+        "name": "Accenture-Model-All-set"
+    },
+    {
+        "fileName": "ai-ml-faculty.json",
+        "name": "ai-ml-faculty"
+    },
+    {
+        "fileName": "AMCAT-Coding.json",
+        "name": "AMCAT-Coding"
+    },
+    {
+        "fileName": "AMCAT-Maths.json",
+        "name": "AMCAT-Maths"
+    },
+    {
+        "fileName": "Amcat-reasoning.json",
+        "name": "Amcat-reasoning"
+    },
+    {
+        "fileName": "CN-Concepts.json",
+        "name": "CN-Concepts"
+    },
+    {
+        "fileName": "CN-Week-2-Immersion.json",
+        "name": "CN-Week-2-Immersion"
+    },
+    {
+        "fileName": "CN-Week-3-Faculty.json",
+        "name": "CN-Week-3-Faculty"
+    },
+    {
+        "fileName": "cn-week-4-faculty.json",
+        "name": "cn-week-4-faculty"
+    },
+    {
+        "fileName": "Code Output MCQs.json",
+        "name": "Code Output MCQs"
+    },
+    {
+        "fileName": "Coding Question 2.json",
+        "name": "Coding Question 2"
+    },
+    {
+        "fileName": "DBMS week 2 Immersion.json",
+        "name": "DBMS week 2 Immersion"
+    },
+    {
+        "fileName": "dbms-concept-one.json",
+        "name": "dbms-concept-one"
+    },
+    {
+        "fileName": "dbms-faculty-week-4.json",
+        "name": "dbms-faculty-week-4"
+    },
+    {
+        "fileName": "DBMS-Week-3-Faculty.json",
+        "name": "DBMS-Week-3-Faculty"
+    },
+    {
+        "fileName": "Ds-group-AiMl.json",
+        "name": "Ds-group-AiMl"
+    },
+    {
+        "fileName": "DS-GROUP-DA-ML.json",
+        "name": "DS-GROUP-DA-ML"
+    },
+    {
+        "fileName": "Ds-Group-Full-Stack.json",
+        "name": "Ds-Group-Full-Stack"
+    },
+    {
+        "fileName": "DS-GROUP-IT-SECURITY.json",
+        "name": "DS-GROUP-IT-SECURITY"
+    },
+    {
+        "fileName": "DSA-Week-2-Immersion.json",
+        "name": "DSA-Week-2-Immersion"
+    },
+    {
+        "fileName": "DSA-Week-3.json",
+        "name": "DSA-Week-3"
+    },
+    {
+        "fileName": "DSA-Week-3_2.json",
+        "name": "DSA-Week-3_2"
+    },
+    {
+        "fileName": "DSA-week-4.json",
+        "name": "DSA-week-4"
+    },
+    {
+        "fileName": "Friday - week - 3 - OS.json",
+        "name": "Friday - week - 3 - OS"
+    },
+    {
+        "fileName": "Friday - week - 3 CN.json",
+        "name": "Friday - week - 3 CN"
+    },
+    {
+        "fileName": "hackwithinfymock-bank.json",
+        "name": "hackwithinfymock-bank"
+    },
+    {
+        "fileName": "Immerision-Dry-Coding-test.json",
+        "name": "Immerision-Dry-Coding-test"
+    },
+    {
+        "fileName": "Immerision-Dry-os-1.json",
+        "name": "Immerision-Dry-os-1"
+    },
+    {
+        "fileName": "Immersion-CN-L1-Dry-run.json",
+        "name": "Immersion-CN-L1-Dry-run"
+    },
+    {
+        "fileName": "Immersion-dry-run-dsa-1.json",
+        "name": "Immersion-dry-run-dsa-1"
+    },
+    {
+        "fileName": "Immersion-Dry-Run-test.json",
+        "name": "Immersion-Dry-Run-test"
+    },
+    {
+        "fileName": "Intell-Wing-Variance.json",
+        "name": "Intell-Wing-Variance"
+    },
+    {
+        "fileName": "Java.json",
+        "name": "Java"
+    },
+    {
+        "fileName": "Leetcode-coding-questions.json",
+        "name": "Leetcode-coding-questions"
+    },
+    {
+        "fileName": "linked-list.json",
+        "name": "linked-list"
+    },
+    {
+        "fileName": "logical - week -3.json",
+        "name": "logical - week -3"
+    },
+    {
+        "fileName": "Logical Ablity.json",
+        "name": "Logical Ablity"
+    },
+    {
+        "fileName": "LOGICAL-WEEK-3.json",
+        "name": "LOGICAL-WEEK-3"
+    },
+    {
+        "fileName": "Logical-Week-4.json",
+        "name": "Logical-Week-4"
+    },
+    {
+        "fileName": "LR .json",
+        "name": "LR "
+    },
+    {
+        "fileName": "LR FACULTY.json",
+        "name": "LR FACULTY"
+    },
+    {
+        "fileName": "OS-concepts-one.json",
+        "name": "OS-concepts-one"
+    },
+    {
+        "fileName": "Os-Week-2-Immersion.json",
+        "name": "Os-Week-2-Immersion"
+    },
+    {
+        "fileName": "os-week-3-faculty.json",
+        "name": "os-week-3-faculty"
+    },
+    {
+        "fileName": "pseudo code type mcqs.json",
+        "name": "pseudo code type mcqs"
+    },
+    {
+        "fileName": "Puzzles Bank.json",
+        "name": "Puzzles Bank"
+    },
+    {
+        "fileName": "Quant FACULTY.json",
+        "name": "Quant FACULTY"
+    },
+    {
+        "fileName": "quant-week-3.json",
+        "name": "quant-week-3"
+    },
+    {
+        "fileName": "quant-week-4.json",
+        "name": "quant-week-4"
+    },
+    {
+        "fileName": "Quant1.json",
+        "name": "Quant1"
+    },
+    {
+        "fileName": "Quant2.json",
+        "name": "Quant2"
+    },
+    {
+        "fileName": "Quant3.json",
+        "name": "Quant3"
+    },
+    {
+        "fileName": "Quant4.json",
+        "name": "Quant4"
+    },
+    {
+        "fileName": "qva set 2.json",
+        "name": "qva set 2"
+    },
+    {
+        "fileName": "qva-set-1.json",
+        "name": "qva-set-1"
+    },
+    {
+        "fileName": "qvl week 2 day 1.json",
+        "name": "qvl week 2 day 1"
+    },
+    {
+        "fileName": "qvl week 2 day 2.json",
+        "name": "qvl week 2 day 2"
+    },
+    {
+        "fileName": "qvl week 2 day 3.json",
+        "name": "qvl week 2 day 3"
+    },
+    {
+        "fileName": "qvl week 2 day 4.json",
+        "name": "qvl week 2 day 4"
+    },
+    {
+        "fileName": "qvl week 3 day 1.json",
+        "name": "qvl week 3 day 1"
+    },
+    {
+        "fileName": "Reasoning1.json",
+        "name": "Reasoning1"
+    },
+    {
+        "fileName": "Reasoning2.json",
+        "name": "Reasoning2"
+    },
+    {
+        "fileName": "set-1.json",
+        "name": "set-1"
+    },
+    {
+        "fileName": "SET-2.json",
+        "name": "SET-2"
+    },
+    {
+        "fileName": "SQL-Coding.json",
+        "name": "SQL-Coding"
+    },
+    {
+        "fileName": "TCS-NQT-Verbal.json",
+        "name": "TCS-NQT-Verbal"
+    },
+    {
+        "fileName": "Upstox Preparation Questions.json",
+        "name": "Upstox Preparation Questions"
+    },
+    {
+        "fileName": "verbal - week -3.json",
+        "name": "verbal - week -3"
+    },
+    {
+        "fileName": "Verbal AMCAT.json",
+        "name": "Verbal AMCAT"
+    },
+    {
+        "fileName": "Verbal Faculty.json",
+        "name": "Verbal Faculty"
+    },
+    {
+        "fileName": "Verbal-week-4.json",
+        "name": "Verbal-week-4"
+    },
+    {
+        "fileName": "Verbal1.json",
+        "name": "Verbal1"
+    },
+    {
+        "fileName": "Verbal2.json",
+        "name": "Verbal2"
+    },
+    {
+        "fileName": "Verbal3.json",
+        "name": "Verbal3"
+    },
+    {
+        "fileName": "Week 5 CN.json",
+        "name": "Week 5 CN"
+    },
+    {
+        "fileName": "Week 5 DBMS.json",
+        "name": "Week 5 DBMS"
+    },
+    {
+        "fileName": "Week 5 DSA.json",
+        "name": "Week 5 DSA"
+    },
+    {
+        "fileName": "Week 5 OS.json",
+        "name": "Week 5 OS"
+    },
+    {
+        "fileName": "week-2-set-1.json",
+        "name": "week-2-set-1"
+    },
+    {
+        "fileName": "WEEK-2-SET-2.json",
+        "name": "WEEK-2-SET-2"
+    },
+    {
+        "fileName": "week-4-quant-verbal-logical-friday.json",
+        "name": "week-4-quant-verbal-logical-friday"
+    }
+]

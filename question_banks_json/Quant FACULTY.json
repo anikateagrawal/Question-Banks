@@ -1,0 +1,1264 @@
+{
+    "bank_id": "2ffbb124-5d27-441d-a5ae-8e4024af6e21",
+    "bank_name": "Quant FACULTY",
+    "questions": [
+        {
+            "id": "ecacf217-50e8-430f-8e0f-04d7eb7e441e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions: </strong>In the following questions two statements have been given with connectors given as options. You have to select that option which could connect both the sentences and make them grammatically and contextually correct. </p><p><br></p><p><strong> I</strong>. Instead of confiscating all properties belonging to a fugitive economic offender, a prudent step would be to quantify the outstanding loan amount. </p><p><strong>II</strong>. Only those properties must be confiscated that have been acquired through proceeds of crime.  </p><p><br></p><p>A. Also, too    </p><p>B. Presently, finally  </p><p>C. Accordingly, hence </p><p>D. Nearby, adjacent to</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Connectors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "63c27ab9-7d62-4a1c-b6f8-456ddc837030",
+                    "questionID": "ecacf217-50e8-430f-8e0f-04d7eb7e441e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Statement A talks about a situation while statement B talks about dealing with it in an appropriate manner.</p><p>Option A: Too does not fit in. </p><p>Option B:  Neither fits in. </p><p>Option D: Neither fits in. </p><p>Only Option C fits in: </p><p> I. Instead of confiscating all properties belonging to a fugitive economic offender, a prudent step would be to quantify the outstanding loan amount and accordingly, only those properties must be confiscated that have been acquired through proceeds of crime.</p><p> II. Instead of confiscating all properties belonging to a fugitive economic offender, a prudent step would be to quantify the outstanding loan amount and hence, only those properties must be confiscated that have been acquired through proceeds of crime. </p><p>Hence, option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3bc05ca5-40ce-4d8b-b6d8-c253c103f758",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: In the following questions two statements have been given with connectors given as options. You have to select that option which could connect both the sentences and make them grammatically and contextually correct. </p><p><br></p><p><strong>I</strong>. Higher interest rates make equity investments unattractive as it weighs on earnings growth.  </p><p><strong>II</strong>. Higher interest rates lead to tightening of earnings yield spread over bond yields.  </p><p><br></p><p>A. Not only, besides  </p><p>B. Even though, for  </p><p>C. In addition, least </p><p>D. Similarly, Otherwise</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Connectors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dbf1eab3-ea22-4f25-8630-e30fe297d7ad",
+                    "questionID": "3bc05ca5-40ce-4d8b-b6d8-c253c103f758",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Both the statements talk about the effects of the same thing i.e. higher interest rates. We need connectors that can portray this relationship.  Option B: Even though is incorrect. Option C: Least does not fit in. Option D: Otherwise does not fit in. Only option A fits in well: I.  Not only do higher interest rates make equity investments unattractive as it weighs on earnings growth, they lead to tightening of earnings yield spread over bond yields. II. Higher interest rates make equity investments unattractive as it weighs on earnings growth besides tightening of earnings yield spread over bond yields. Thus, option A is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ab580049-d3ce-4a95-b2f5-eab6115f29b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the perimeter and area of a square that has a side of length 14 feet. </p><p><br></p><p>A) 176,56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B) 186,36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C)196,56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D) None of these</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6a4ac1dd-b63c-40cd-9dd8-5bf6f09983aa",
+                    "questionID": "ab580049-d3ce-4a95-b2f5-eab6115f29b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint Perimeter of a square p=4s ,where</p><p>s=length of its side =&gt; p=4(14)=56 </p><p><br></p><p>Area of a square A = s x s =&gt; A=196 </p><p><br></p><p>The perimeter is 56 feet, and the area</p><p>is 196 square feet.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "12f01e5c-da00-4e4c-a6d6-c91f1da9bb45",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A rectangular park 60 m long and 40 m wide has two concrete crossroads running in the middle of the park and rest of the park has been used as a lawn. If the area of the lawn is 2109 sq. m, then what is the width of the road? </p><p><br></p><p>A) 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; B) 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; C) 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D) None of these</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "713582ea-13eb-44d1-a9f7-4c1813aa1eb4",
+                    "questionID": "12f01e5c-da00-4e4c-a6d6-c91f1da9bb45",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint&nbsp; Area of the park = (60 x 40) = 2400m<sup>2</sup></p><p>Area of the lawn = 2109m<sup>2</sup> </p><p><br></p><p>Area</p><p>of the crossroads = (2400 - 2109) = 291m<sup>2</sup> </p><p><br></p><p>Let the width of the road be x metres. Then, 60x+40x−X<sup>2</sup>=291 </p><p><br></p><p>x<sup>2</sup>−100x+291=0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p><p><br></p><p>(x- 97)(x - 3) = 0 x = 3.</p><p><br></p><p>&nbsp;</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "340f61cb-8685-4d20-a009-9bf1e3ad08ca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>ΔXYZ is right angled at Y. If sin X = 12/13, then what is the value of cosec Z ? </p><p><br></p><p>A)5/12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;B)&nbsp; 5/13</p><p>C) 13/5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D)&nbsp; None of these</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "47afccc0-4483-450a-b93c-466ddf8800c4",
+                    "questionID": "340f61cb-8685-4d20-a009-9bf1e3ad08ca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint&nbsp; PBP/HHB</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fee2996f-4eb9-4242-ae6d-f49e74a73847",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person ? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>70</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>75</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>85</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "37a1bedb-011f-4d88-a3eb-f8f857de1251",
+                    "questionID": "fee2996f-4eb9-4242-ae6d-f49e74a73847",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint : Let the numbers be x, x + 2, x + 4, x + 6 and</p><p>x + 8. Then&nbsp; [x + (x + 2) + (x + 4) + (x</p><p>+ 6) + (x + 8) ] / 5 = 61. or 5x + 20 = 305 or x = 57. So, required difference</p><p>= (57 + 8) - 57&nbsp; = 8</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "79cd9fed-273b-4d6c-9fc0-7fb86d7f178c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The perimeter of a square is 34 cm. Find its area (in cm<sup>2</sup>).</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>144.5 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>82.25 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>None </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>72.25</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "15630b09-313c-414e-837b-a60a79f6087b",
+                    "questionID": "79cd9fed-273b-4d6c-9fc0-7fb86d7f178c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>4a = 34&nbsp;&nbsp; a = 34/4 = 8.5 </p><p><br></p><p>A = a<sup>2 </sup>&nbsp;&nbsp;&nbsp;A = 8.5*8.5 = 72.25</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5fb35fd9-ba77-4ac8-9a1d-c69d98121bd4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If the circumference of a circle is 22 cm, then what must be its area (in cm²)? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>77</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>38.5 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>31.5&nbsp;</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "68b1ee9c-6c1a-4980-b5e0-e5c6e0aead0b",
+                    "questionID": "5fb35fd9-ba77-4ac8-9a1d-c69d98121bd4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint :A= 22/7r*2        C = 2pi*r&nbsp;&nbsp;&nbsp;&nbsp; 22 = 2*22/7 * r&nbsp;&nbsp;&nbsp;&nbsp; r= 3.5</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2ed8a906-22c8-4412-a347-163c6c2d8e6e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A rectangular park 60 m long and 40 m wide has two concrete crossroads running in the middle of the park and rest of the park has been used as a lawn. If the area of the lawn is 2109 sq. m, then what is the width of the road? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2b44c5e2-988b-402e-a004-43689a8f6e01",
+                    "questionID": "2ed8a906-22c8-4412-a347-163c6c2d8e6e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint : Area of the park = (60 x 40) = 2400&nbsp;&nbsp;&nbsp;&nbsp; Area of the lawn = 2109</p><p><br></p><p>&nbsp;Area of the</p><p>crossroads = (2400 - 2109) = 291</p><p><br></p><p>&nbsp;Let the width</p><p>of the road be x metres. Then, 60x+40x−X<sup>2</sup>=291 </p><p><br></p><p>x<sup>2</sup>−100x+291=0</p><p><br></p><p>&nbsp;(x - 97) *(x</p><p>- 3) = 0 </p><p><br></p><p>x = 3.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cb980858-260a-4291-ad7e-b9f2cc6efc7c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If the diagonal of a rectangle is 17cm long and its perimeter is 46 cm. Find the area of the rectangle. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>110</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>120 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>130</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5054c334-ce43-43aa-bdc7-9a89b149b56b",
+                    "questionID": "cb980858-260a-4291-ad7e-b9f2cc6efc7c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint : let length = x and breadth = y then 2(x+y) =</p><p>46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&gt;&nbsp;&nbsp; x+y = 23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p><p><br></p><p>x²+y² = 17² = 289 now (x+y)² = 23² =&gt; x²+y²+2xy=</p><p>529 </p><p><br></p><p>=&gt; 289+ 2xy = 529</p><p><br></p><p>xy = 120 area </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "14a85120-0ac5-40dd-8acb-63e4da7c5fb5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If each side of a square is increased by 25%, find the percentage change in its area? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>65.25</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>56.25 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>65</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mensuration"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "47a6b3b7-4cc9-41a0-a6ec-a33a46cecd63",
+                    "questionID": "14a85120-0ac5-40dd-8acb-63e4da7c5fb5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint : 25+25+25*25/100 = 56.25</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0a784185-3a5d-469e-bea8-ffbb3680f79f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>The bar graph given below shows the sales of books (in thousand number) from six branches of a publishing company during two consecutive years 2000 and 2001. Sales of Books (in thousand numbers) from Six Branches - B1, B2, B3, B4, B5 and B6 of a publishing Company in 2000 and 2001.</strong></p><p><br></p><p><img src=\"data:image/png;base64,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\"></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "bae13fca-69bd-48eb-8b37-5530a80d0a41",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If the average age of 20 students in Class-I is 10 years and average age of 25 students in Class II is 12 years, find the average age (in years) of all students. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>11</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>11.11</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10.50</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5e34cefe-a95b-4a0a-a249-2a65ed918387",
+                    "questionID": "bae13fca-69bd-48eb-8b37-5530a80d0a41",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint : 20*10+25*12/45 = 11.11 </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd9f17e8-5e90-4d74-8999-b3825ce3f159",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The average of five consecutive odd numbers is 61. What is the difference between the highest and lowest numbers : </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>4</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "11e02765-652c-4618-b2fb-970113356547",
+                    "questionID": "cd9f17e8-5e90-4d74-8999-b3825ce3f159",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint : Let the numbers be x, x + 2, x + 4, x + 6 and</p><p>x + 8. Then&nbsp; [x + (x + 2) + (x + 4) + (x</p><p>+ 6) + (x + 8) ] / 5 = 61. or 5x + 20 = 305 or x = 57. So, required difference</p><p>= (57 + 8) - 57&nbsp; = 8</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "06bae2c1-0be6-4eb6-8428-90d32ed84a91",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A pupil's marks were wrongly entered as 83 instead of 63. Due to that the average marks for the class got increased by half. The number of pupils in the class is :</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>45</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>40</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>39</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "23f6a688-dae9-4cb6-87f9-524ce4f646dc",
+                    "questionID": "06bae2c1-0be6-4eb6-8428-90d32ed84a91",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>: Let there be x pupils in the class. Total increase</p><p>in marks = (x * 1/2) = x/2. x/2 = (83 - 63) </p><p><br></p><p>=&gt; x/2 = 20 =&gt; x = 40.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "48b3c033-7b90-4808-8a33-07d045f67586",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The average of runs of a cricket player of 10 innings was 32. How many runs must he make in his next innings so as to increase his average of runs by 4? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>76</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>79</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>85</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8c85441b-e87a-4dcb-bbc8-7903d26819d8",
+                    "questionID": "48b3c033-7b90-4808-8a33-07d045f67586",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint : Average = total runs / no.of innings = 32 So,</p><p>total = Average x no.of innings = 32 x 10 = 320. </p><p><br></p><p>Now increase in avg = 4runs. So, new avg = 32+4 =</p><p>36runs </p><p><br></p><p>Total runs = new avg x new no. of innings = 36 x 11</p><p>= 396 </p><p><br></p><p>Runs made in the 11th inning = 396 - 320 = 76</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ccb850c3-6593-4cd4-82f7-60b31c1b456b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A vessel full of pure acid 10 litres of it, of which 2 litres are withdrawn. The</p><p>vessel is then filled with water. Next 2 litres of the mixture are withdrawn,</p><p>and again the vessel is filled up with water. The ratio of the acid left in the</p><p>vessel with that of original quantity is</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1:5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>4:5</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>4:25</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>16:25</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mixture and alligation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "6bee8d5d-2350-4d40-a52f-fa1a8bfe76f0",
+                    "questionID": "ccb850c3-6593-4cd4-82f7-60b31c1b456b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Initial acid = 10L. After removing 2L, acid = 8L. Add 2L water.</p><p><br></p><p>Now remove 2L: acid removed = (8/10)×2 = 1.6L → acid left = 6.4L</p><p><br></p><p>Final ratio = 6.4 : 10 = 64 : 100 = <strong>16 : 25</strong></p><p><br></p><p><strong>Answer: 16 : 25</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c1e66c06-fa33-4468-9e45-3133e5bdd819",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Two vessels A and B contain milk and water mixed in the ratio 8:5 and 5:2 respectively. The ratio in which these two mixtures be mixed to get a new mixture containing 69(3/13) % milk is?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>3:5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>5:2</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>5:7</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>2:7</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mixture and alligation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "13f63f5e-7470-4604-85a5-f5a7851231a4",
+                    "questionID": "c1e66c06-fa33-4468-9e45-3133e5bdd819",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Proportion of milk in new mixture = 69(3/13) % = 9/13</p><p><br></p><p>Using the concept of mixture and allegation</p><p><br></p><p>(5/7 - 9/13): (9/13 – 8/13) = 2: 7</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "27ca839e-388f-4270-8d0d-eccf78805c9c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>40\t</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>35</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>45</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>55</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7e9baa08-7e89-4274-8c82-93d3891bb3b0",
+                    "questionID": "27ca839e-388f-4270-8d0d-eccf78805c9c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: black;\">Sum of the present ages of husband, wife and</span></p><p><span style=\"color: black;\">child = (27 x 3 + 3 x 3) years = 90 years.</span></p><p><br></p><p><span style=\"color: black;\">Sum of the present ages of wife and child =</span></p><p><span style=\"color: black;\">(20 x 2 + 5 x 2) years = 50 years.</span></p><p><br></p><p><span style=\"color: black;\">Husband's present age = (90 - 50) years = 40</span></p><p><span style=\"color: black;\">years.</span></p><p><br></p><p><span style=\"color: black;\">&nbsp;</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf5ffa38-da45-4e0a-b763-41318d6b0d99",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>. If average of 20 observations X<sub>1</sub>, X<sub>2</sub>,......, X<sub>20</sub> is y, then the average of (X<sub>1</sub> -101), (X<sub>2</sub>-101),.......(X<sub>20</sub>-101) is&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>y-20</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>y-101</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20y</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>101y</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "02d6ccf5-7ac1-4b16-9ffa-de32422f9083",
+                    "questionID": "cf5ffa38-da45-4e0a-b763-41318d6b0d99",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: black;\">New Average = Old Average – Common Value</span></p><p><span style=\"color: black;\">subtracted from each number = y -110</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "688ad58a-6535-49aa-af20-acc1cab00b21",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The average weight of 3 men A, B and C is 84 kg. Another man D joins the group and the average now becomes 80 kg. If another man E, whose weight is 3 kg more than</p><p>that of D, replaces A then the average weight of B, C, D and E becomes 78 kg. The weight of A is</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>70\t</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>72</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>79</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>78</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1982bde0-212c-4c61-9987-ebbb73643a2f",
+                    "questionID": "688ad58a-6535-49aa-af20-acc1cab00b21",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>A + B + C = 84 x 3 = 252</p><p><br></p><p>A + B + C + D = 80 x 4 = 320</p><p><br></p><p>So, D = 68</p><p><br></p><p>So, E = 71</p><p><br></p><p>B + C + D + E = 78 x 4 = 312</p><p><br></p><p>So, B + C = 312 – 68 -71 = 173</p><p><br></p><p>So, A = 252 – 173 = 79</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c2e62ed7-94ba-4150-ac64-f999fedbbef4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If A's height is 40% less than that of B, how much percent B's height is more than that of A?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>66.66%</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>76.66%</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>96.66%</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>86.66</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Percentage"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "70831437-04da-439c-9236-79c07b4d5ad6",
+                    "questionID": "c2e62ed7-94ba-4150-ac64-f999fedbbef4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>B = 10, A = 6;</p><p>Required percentage = (4/6) x 100 = 66.66%</p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": false
+                }
+            ]
+        },
+        {
+            "id": "a305530f-a758-463f-9c19-564a82883c8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The compound interest on a certain sum for 2 years at 10% per annum is Rs 1260. The simple interest on the same sum for double the time at half the rate per cent per annum is</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1200</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1160</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1208</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1175</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Simple and Compound Interest"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5cb90428-1559-4127-8460-ce12da1fce97",
+                    "questionID": "a305530f-a758-463f-9c19-564a82883c8c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: black;\">Let the sum be Rs. x.</span></p><p><br></p><p><span style=\"color: black;\">Then x[(1+10/100)^2 – 1] = 1260</span></p><p><br></p><p><span style=\"color: black;\">⇒ x = 6000</span></p><p><br></p><p><span style=\"color: black;\">For S.I., P = 6000</span></p><p><br></p><p><span style=\"color: black;\">Then S.I. = (6000 x 5 x 4)/100 = 1200</span></p><p><br></p><p><span style=\"color: black;\">&nbsp;</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": false
+                }
+            ]
+        },
+        {
+            "id": "d8a93a4e-9bb3-4c4a-96e0-d0dc17ca0b56",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Ram earns an interest of 600 over two years on a simple interest basis. On a compound interest basis, at the same interest rate, he would earn Rs. 630. What</p><p>is the rate of interest? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>5% </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>20%\t</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>30% </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>10% </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Simple and Compound Interest"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "07f43734-58e4-4b09-9609-c2fd15fd839b",
+                    "questionID": "d8a93a4e-9bb3-4c4a-96e0-d0dc17ca0b56",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint Now,</p><p>for CI we calculate interest on interest earned in previous time periods,</p><p>whereas SI is computed purely on the principal invested. So, CI for second year</p><p>is 630 – 300 = 330 and Rs30 is the interest earned on interest of 300 which</p><p>amounts to 10%.&nbsp; Therefore, rate of</p><p>interest = 10%.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": false
+                }
+            ]
+        },
+        {
+            "id": "27da0855-0fac-4587-a9ad-1207aaa3bba1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs. 1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is:&nbsp;&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>120</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>121</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>122</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>123</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Simple and Compound Interest"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1dd7282b-c0dd-4992-95fb-101dbe884cea",
+                    "questionID": "27da0855-0fac-4587-a9ad-1207aaa3bba1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Use Amount = P(1 + R/100)^n</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": false
+                }
+            ]
+        },
+        {
+            "id": "31fb4a41-d408-46fd-a5a0-b4cf0f5a11a4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Peter got 30% of the maximum marks in an examination and failed by 10 marks. However, Paul who took the same examination got 40% of the total marks and got 15 marks more than the passing marks. What were the passing marks in the examination?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>35</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>250</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>75</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>85</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Percentage"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "871b95ee-65ba-4ff7-b2ef-d29a5db1226b",
+                    "questionID": "31fb4a41-d408-46fd-a5a0-b4cf0f5a11a4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: black;\">Passing marks = 30% of the total marks + 10 = 40% of the total marks – 15 So, 10% of the total marks = 25 </span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": false
+                }
+            ]
+        },
+        {
+            "id": "a1d20ded-2c85-4e78-af91-8002f5e1a5b6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>An amount was first reduced by 10% and then further reduced by 20% and Rs 10800 were left. What was the original amount?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>12000 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>15000</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>18000</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>21000</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Percentage"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "38c2b519-114a-4448-ab3f-f3782da2bbf2",
+                    "questionID": "a1d20ded-2c85-4e78-af91-8002f5e1a5b6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>10800</p><p>= 80% of (90% of the original amount)</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": false
+                }
+            ]
+        },
+        {
+            "id": "0ee6f3f8-da11-454c-8a71-355e5c813cb4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Find the smallest number that leaves a remainder of 4 on division by 5, 5 on</p><p>division by 6, 6 on division by 7, 7 on division by 8 and 8 on division by 9? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2519</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>5039</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1079</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>979</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "HCF & LCM"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "efe8ba86-f91d-47ee-87df-2030871223c8",
+                    "questionID": "0ee6f3f8-da11-454c-8a71-355e5c813cb4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint LCM</p><p>(a,b,c,d) + difference </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

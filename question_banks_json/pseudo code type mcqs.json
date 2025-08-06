@@ -1,0 +1,972 @@
+{
+    "bank_id": "1fa1d782-95c4-4e5d-adfe-a9e54a0b71cc",
+    "bank_name": "pseudo code type mcqs",
+    "questions": [
+        {
+            "id": "5b941b1e-6220-4ac3-93dd-85543e352cb3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong>What is the output of the code below?</strong></h3><pre class=\"ql-syntax\" spellcheck=\"false\">java\n\nint x = 5;\nSystem.out.println(x++ + ++x);\n</pre><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>11</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>13</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a818c06c-885a-40c1-8958-dfa55834fe27",
+                    "questionID": "5b941b1e-6220-4ac3-93dd-85543e352cb3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>int x = 5;</p><p>System.out.println(x++ + ++x);</p><p>// x++ returns 5, then x becomes 6</p><p>// ++x increments x to 7, then returns 7</p><p>// So, the expression becomes: 5 + 7 = 12</p><ul><li>// Final output: 12</li></ul>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "39e66568-4189-4abb-8e10-3c5bf9364d4f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Overloaded <code>main()</code> Method</p><p>public class Test {</p><p>    public static void main(String[] args) {</p><p>        System.out.println(\"String[] main\");</p><p>        main(10);</p><p>    }</p><p>    public static void main(int a) {</p><p>        System.out.println(\"int main: \" + a);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Compilation error</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Runtime error</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>String[] main ⏎ int main: 10</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only \"String[] main\"</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bea66178-ac33-4078-a750-12057a6bc828",
+                    "questionID": "39e66568-4189-4abb-8e10-3c5bf9364d4f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: C)</strong></p><p>🔍 <strong>Explanation:</strong> <code>main()</code> can be overloaded. JVM invokes <code>main(String[])</code>, which calls overloaded <code>main(int)</code> → prints both lines.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f196ea59-3c85-4fe8-b59f-243c4ecdadf7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Upcasting and Dynamic Dispatch</p><p>class A {</p><p>    void display() { System.out.println(\"Display in A\"); }</p><p>}</p><p>class B extends A {</p><p>    void display() { System.out.println(\"Display in B\"); }</p><p>}</p><p>class C extends B {</p><p>    void display() { System.out.println(\"Display in C\"); }</p><p>}</p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        A obj1 = new B();</p><p>        A obj2 = new C();</p><p>        obj1.display();</p><p>        obj2.display();</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Display in A ⏎ Display in A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Display in B ⏎ Display in C</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Display in C ⏎ Display in B</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>compilation error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "504dd887-2e0c-4dc1-b2cf-42ef8ecc2da8",
+                    "questionID": "f196ea59-3c85-4fe8-b59f-243c4ecdadf7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: B)</strong></p><p>🔍 <strong>Explanation:</strong> Dynamic (runtime) method dispatch: actual object type’s <code>display()</code> is called</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "48e3b4d0-5156-45f0-86c5-862cc5592667",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Private Method \"Overriding\"</p><p>class Parent {</p><p>    private void show() {</p><p>        System.out.println(\"Parent's private method\");</p><p>    }</p><p>}</p><p>class Child extends Parent {</p><p>    void show() {</p><p>        System.out.println(\"Child's method\");</p><p>    }</p><p>}</p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        Parent obj = new Child();</p><p>        obj.show();</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Parent's private method</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Child's method</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Runtime exception</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1bdf1004-d105-441a-9697-b7ed73558b9d",
+                    "questionID": "48e3b4d0-5156-45f0-86c5-862cc5592667",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: C)</strong></p><p>🔍 <strong>Explanation:</strong> <code>private</code> methods aren’t inherited or overridden. <code>Child.show()</code> is a new method. Reference type <code>Parent</code> has no visible <code>show()</code> → compile error</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b5bdcb99-346f-43c2-b302-43d01acdc121",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Overloading Ambiguity</p><p>class Test {</p><p>    void method(int a, double b) {</p><p>        System.out.println(\"int, double\");</p><p>    }</p><p>    void method(double a, int b) {</p><p>        System.out.println(\"double, int\");</p><p>    }</p><p>    public static void main(String[] args) {</p><p>        Test obj = new Test();</p><p>        obj.method(10, 10);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>int, double</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>double, int</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Runtime error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "247a3e55-4356-4b1e-87ee-c174256f2238",
+                    "questionID": "b5bdcb99-346f-43c2-b302-43d01acdc121",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: C)</strong></p><p>🔍 <strong>Explanation:</strong> Call <code>method(10,10)</code> is ambiguous—both overloads match by promotion. Compiler error</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94a968bf-2cbf-423c-8994-ee66bdbafbc2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Static Method Hiding</p><p>class Parent {</p><p>    static void display() {</p><p>        System.out.println(\"Parent's static display()\");</p><p>    }</p><p>}</p><p>class Child extends Parent {</p><p>    static void display() {</p><p>        System.out.println(\"Child's static display()\");</p><p>    }</p><p>}</p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        Parent obj = new Child();</p><p>        obj.display();</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Parent's static display()</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Child's static display()</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Runtime error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1288a361-cd51-407a-99b1-cd96b3786c9c",
+                    "questionID": "94a968bf-2cbf-423c-8994-ee66bdbafbc2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: A)</strong></p><p>🔍 <strong>Explanation:</strong> Static methods are <strong>hidden</strong>, not overridden. Call resolves at compile-time by reference type <code>Parent</code>, so prints Parent's version</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "57ef04b4-421c-4570-bbca-624af799905d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Exception + System.exit in try–catch–finally</strong></p><p><span class=\"ql-cursor\">﻿</span>public class Test {</p><p>    public static void main(String[] args) {</p><p>        try {</p><p>            System.out.print(\"1\");</p><p>            int data = 5 / 0;</p><p>        } catch (ArithmeticException e) {</p><p>            System.out.print(\"2\");</p><p>            System.exit(0);</p><p>        } finally {</p><p>            System.out.print(\"3\");</p><p>        }</p><p>        System.out.print(\"4\");</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1234</p><p><br></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>124</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>134</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "41d354fc-fd4c-4a64-ba3c-b7cae7b90157",
+                    "questionID": "57ef04b4-421c-4570-bbca-624af799905d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) 12</p><p>🧠 <strong>Explanation:</strong> On error, catches prints <code>2</code>, then <code>System.exit(0)</code> prevents <code>finally</code> and the rest <code>\"4\"</code></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f07c7eab-c485-464b-825f-f35ef42f75f1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Ternary with Mixed Types</p><p>public class Geeks {</p><p>    public static void main(String[] args) {</p><p>        char x = 'X';</p><p>        int i = 0;</p><p>        System.out.print(true ? x : 0);</p><p>        System.out.print(false ? i : x);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> XX</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>X88</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>88</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1738ce1b-889a-4b94-9604-f0f23c787b9b",
+                    "questionID": "f07c7eab-c485-464b-825f-f35ef42f75f1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) X88</p><p>🧠 <strong>Explanation:</strong> First <code>true?</code> gives char <code>'X'</code>. Second <code>false?</code> returns <code>x</code>, but since other operand is <code>int</code>, result is <code>int</code> → ASCII 88</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b071e3b1-57ed-4251-a4a1-7ff6fc9992aa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Polymorphism with Wrong Casting</p><p>class Test {</p><p>    void myMethod() { System.out.println(\"GeeksforGeeks\"); }</p><p>}</p><p>public class Derived extends Test {</p><p>    void myMethod() { System.out.println(\"GFG\"); }</p><p>    public static void main(String[] args) {</p><p>        Derived obj = new Test();</p><p>        obj.myMethod();</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>GeeksforGeeks</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>GFG</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Runtime error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "20a1bde6-e8b3-4508-a0e0-53dddec915d1",
+                    "questionID": "b071e3b1-57ed-4251-a4a1-7ff6fc9992aa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) Compilation error</p><p>🧠 <strong>Explanation:</strong> You <strong>cannot assign</strong> <code>new Test()</code> to a <code>Derived</code> reference—child ref cannot hold parent objec</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cfb3d067-844e-4023-9813-56cb9dc7221e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Named Loop Break</p><p>public class Testing {</p><p>    public static void main(String[] args) {</p><p>        loop1:</p><p>        for (int i = 0; i &lt; 5; i++) {</p><p>            for (int j = 0; j &lt; 5; j++) {</p><p>                if (i == 3)</p><p>                    break loop1;</p><p>                System.out.println(\"i = \" + i + \" j = \" + j);</p><p>            }</p><p>        }</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Prints all i and j pairs</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>i=0..2 and j=0..4, then stops</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only i=3, j=0</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f09733ac-3bbf-4f06-b32c-71ee28c2fe54",
+                    "questionID": "cfb3d067-844e-4023-9813-56cb9dc7221e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) i=0..2 and j=0..4, then stops</p><p>🧠 <strong>Explanation:</strong> <code>break loop1;</code> exits both loops when <code>i == 3</code>, so pairs up to i=2 are printed</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "420a51b0-f5c0-4b12-8825-161fa23f12d7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Unicode in Comments</p><p>public class Testing {</p><p>    public static void main(String[] args) {</p><p>        // the line below this gives an output</p><p>        // \\u000d System.out.println(\"comment executed\");</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>No output</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>comment executed</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Runtime error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b2c33540-28dd-4576-8a28-3a84b99f9782",
+                    "questionID": "420a51b0-f5c0-4b12-8825-161fa23f12d7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) comment executed</p><p>🧠 <strong>Explanation:</strong> Java processes <code>\\u000d</code> before tokenization, turning the commented line into a live statement. The program prints</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51f2958a-cdd7-41a3-a9e7-676fdaffb3c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong>HashMap </strong><code><strong>put()</strong></code><strong> for Duplicate Key</strong></h3><p>What happens if we do:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>old is 1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> old is 2</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>old is null</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>old throws exception</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "72c69080-24fc-4c06-bdf2-a5c4b566b798",
+                    "questionID": "51f2958a-cdd7-41a3-a9e7-676fdaffb3c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) old is 1</p><p>🧠 <strong>Explanation:</strong> <code>put()</code> returns previous value if key existed, else null</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "03682043-7ac9-481a-8c5c-5781fdbc7722",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Synchronized vs Volatile</p><p>Which is true about <code>volatile</code> vs <code>synchronized</code>?</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><code>volatile</code> guarantees atomicity for compound ops</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><code>synchronized</code> provides both atomicity and visibility</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Both are functionally identical</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><code>volatile</code> locks the entire block</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3eed7973-58a6-41b0-b60c-08d6ef837fc6",
+                    "questionID": "03682043-7ac9-481a-8c5c-5781fdbc7722",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) <code>synchronized</code> provides both atomicity and visibility</p><p>🧠 <strong>Explanation:</strong> <code>synchronized</code> does both; <code>volatile</code> guarantees visibility only</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d74015fb-1f19-40b4-a8da-01c902c75282",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Static vs Private Method Overriding</p><p>class A { private void foo() { System.out.println(\"A\"); } }</p><p>class B extends A { void foo() { System.out.println(\"B\"); } }</p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        A a = new B();</p><p>        // a.foo(); // uncomment to test</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> Runtime exception</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4c571109-544d-4310-b110-7bcc03d3252b",
+                    "questionID": "d74015fb-1f19-40b4-a8da-01c902c75282",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) Compilation error</p><p>🧠 <strong>Explanation:</strong> <code>private</code> method in superclass isn’t visible to subclass → <code>a.foo()</code> doesn't compile</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cedc8d43-200d-4478-a44c-c64c8a27541e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Ternary with Division by Zero</p><p>double a = 3.0 / 0;</p><p>double b = 0 / 0.0;</p><p>System.out.println(a);</p><p>System.out.println(b);</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Infinity ⏎ NaN</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Infinity ⏎ 0</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Exception ⏎ Exception</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> Infinity ⏎ Infinity</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4b7cc0bf-cf21-403b-bacf-1ecc80c55218",
+                    "questionID": "cedc8d43-200d-4478-a44c-c64c8a27541e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) Infinity ⏎ NaN</p><p>🧠 <strong>Explanation:</strong> Floating-point rules: x/0 = ∞, 0/0 = NaN</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c11d4cea-c03c-4fe3-89d1-65c28227a7bf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>String Interning &amp; Optimization</p><p>String s1 = \"hello\";</p><p>String s2 = \"he\" + \"llo\";</p><p>String s3 = new String(\"hello\");</p><p>String s4 = s3.intern();</p><p>System.out.println(s1 == s2);</p><p>System.out.println(s1 == s3);</p><p>System.out.println(s1.equals(s3));</p><p>System.out.println(s1 == s4);</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>true, false, true, true</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>true, true, true, true</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>false, false, true, false</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>false, true, true, true</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dda1f084-a3c2-4a77-acc8-5c18258aee67",
+                    "questionID": "c11d4cea-c03c-4fe3-89d1-65c28227a7bf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) true, false, true, true</p><p>🧠 <strong>Explanation:</strong> Compile-time concatenation vs <code>new</code> vs <code>intern()</code></p><p><code><span class=\"ql-cursor\">﻿</span></code><img src=\"data:image/png;base64,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\"></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4f7fcb03-a4cc-4427-a23b-cdba76c65953",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Integer Caching Puzzle</p><p>Integer a = 100, b = 100;</p><p>System.out.println(a == b);</p><p>Integer c = 200, d = 200;</p><p>System.out.println(c == d);</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>true true</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>true false</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>false true</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>false false</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "40ec3ada-9005-4b8c-9eb0-4ccd7fd170d7",
+                    "questionID": "4f7fcb03-a4cc-4427-a23b-cdba76c65953",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) true ⏎ false</p><p>🧠 <strong>Explanation:</strong> JVM caches -128 to 127, so 100 is same object, 200 is no</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1225610d-5529-4138-a905-ba0b9cddfe72",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Interface vs Class Static Fields</p><p>interface A { int X = 10; }</p><p>class B implements A { static int X = 20; }</p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        System.out.println(A.X);</p><p>        System.out.println(B.X);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>10 ⏎ 10</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10 ⏎ 20</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20 ⏎ 20</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "06fff9c0-663a-4357-9b3a-8abac2b60b8b",
+                    "questionID": "1225610d-5529-4138-a905-ba0b9cddfe72",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) 10 ⏎ 20</p><p>🧠 <strong>Explanation:</strong> Interface fields are <code>public static final</code>; class hides interface field</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c98c9971-2f7f-45eb-ae1c-37222eca3c46",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Double.MIN_VALUE vs Zero</p><p>public class MinValueTest {</p><p>    public static void main(String[] args) {</p><p>        System.out.println(Math.min(Double.MIN_VALUE, 0.0d));</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2.22507E−308</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>0.0</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>NaN</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "95ec2133-ec60-4625-9179-284936a84873",
+                    "questionID": "c98c9971-2f7f-45eb-ae1c-37222eca3c46",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) 0.0</p><p>🧠 <strong>Explanation:</strong> <code>Double.MIN_VALUE</code> is a positive number, so minimum with zero is zero</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d9a241b-47d7-4297-9b9d-0aa6946547ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>System.exit in Try–Finally</p><p>public class Test2 {</p><p>    public static void main(String[] args) {</p><p>        try {</p><p>            System.exit(0);</p><p>        } finally {</p><p>            System.out.println(\"finally\");</p><p>        }</p><p>    }</p><p>}</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> finally</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>(no output)</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Runtime exception</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d052cbe3-7c11-4ae4-b8e0-a65d248c4869",
+                    "questionID": "4d9a241b-47d7-4297-9b9d-0aa6946547ed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) (no output)</p><p>🧠 <strong>Explanation:</strong> <code>finally</code> is skipped if <code>System.exit()</code> is called</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c4d473f9-e227-4223-a25f-596b6cdc59f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>public class Test {</p><p>    public static int foo() {</p><p>        try {</p><p>            return 1;</p><p>        } finally {</p><p>            System.out.println(\"finally\");</p><p>        }</p><p>    }</p><p>    public static void main(String[] args) {</p><p>        System.out.println(foo());</p><p>    }</p><p>}</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>finally ⏎ 1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>finally</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>compilation error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Java"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4f7d4a63-d5e8-42e1-8e0a-bd7eeeaa671d",
+                    "questionID": "c4d473f9-e227-4223-a25f-596b6cdc59f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) finally ⏎ 1</p><p>🧠 <strong>Explanation:</strong> <code>finally</code> executes even after <code>return</code> in <code>try</code></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

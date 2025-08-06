@@ -1,0 +1,3712 @@
+{
+    "bank_id": "cf725f24-3837-4a17-9543-8ff105f9e9af",
+    "bank_name": "DS-GROUP-DA-ML",
+    "questions": [
+        {
+            "id": "032e6c67-0439-44d9-afb3-36ec29c58d5e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Fastest way to add constant 10 to every element of 1 M-row Series?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "for-loop",
+                    "type": "A"
+                },
+                {
+                    "body": "apply()",
+                    "type": "B"
+                },
+                {
+                    "body": "Vectorised +",
+                    "type": "C"
+                },
+                {
+                    "body": "map()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "efb7ea8e-162e-48df-a3aa-340df5d9d03f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Method to replace all NaN in non-numeric columns with 0?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "fillna(0)",
+                    "type": "A"
+                },
+                {
+                    "body": "dropna()",
+                    "type": "B"
+                },
+                {
+                    "body": "replace(0)",
+                    "type": "C"
+                },
+                {
+                    "body": "interpolate()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "2b277117-4b80-4587-bbf6-75afd57c5e1c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "groupby(&#39;region&#39;)[&#39;sales&#39;].mean() returns…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Row count per region",
+                    "type": "A"
+                },
+                {
+                    "body": "Sum of sales",
+                    "type": "B"
+                },
+                {
+                    "body": "Average sales",
+                    "type": "C"
+                },
+                {
+                    "body": "Cumulative sales",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6f4c8869-c99f-4385-b3bd-675ac9eb0cc8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Choose the correct syntax to merge df1 and df2 on cols id,date using an inner join.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "pD.merge(df1,df2,how=&#39;inner&#39;,on=[&#39;id&#39;,&#39;date&#39;])",
+                    "type": "A"
+                },
+                {
+                    "body": "df1.join(df2)",
+                    "type": "B"
+                },
+                {
+                    "body": "concat([df1,df2])",
+                    "type": "C"
+                },
+                {
+                    "body": "df1 + df2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "2f4428f8-96da-4a81-853f-098c30fab9bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Reading a 5 GB CSV lazily can be done with…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "pDread_csv()",
+                    "type": "A"
+                },
+                {
+                    "body": "pD.read_parquet()",
+                    "type": "B"
+                },
+                {
+                    "body": "pD.read_csv(chunksize=100000)",
+                    "type": "C"
+                },
+                {
+                    "body": "np.loadtxt()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "bc6bad39-0ddb-446a-bf53-75b7607c09da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The code below prints…\ndef demo():\nyield 1\nyield 2\nprint(list(demo()))",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "[1,2]",
+                    "type": "A"
+                },
+                {
+                    "body": "&lt;generator&gt;",
+                    "type": "B"
+                },
+                {
+                    "body": "(1,2)",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-d"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "861a3c47-4851-454f-81a3-aaeb6c0b5dc3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Best visual to decompose a metric hierarchically on-click",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Waterfall",
+                    "type": "A"
+                },
+                {
+                    "body": "Decomposition tree",
+                    "type": "B"
+                },
+                {
+                    "body": "Gauge",
+                    "type": "C"
+                },
+                {
+                    "body": "Area",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f5971904-f40c-495e-9401-81840afc7e42",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You need the second-highest salary from table employees without using LIMIT, OFFSET, or window functions. Which single-line query works?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT MAX(salary) …",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT salary … ORDER BY salary DESC LIMIT 1 OFFSET 1;",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT salary FROM employees WHERE salary &lt; (SELECT MAX(salary) FROM employees) ORDER BY salary DESC LIMIT 1;",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT DISTINCT salary…",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-c"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "0a1ff989-74f6-4bd0-8b7e-12ddef0b9f5b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Scheduled refresh fails often on huge dataset. Fastest remedy",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increase timeout",
+                    "type": "A"
+                },
+                {
+                    "body": "Switch to incremental refresh",
+                    "type": "B"
+                },
+                {
+                    "body": "Add bookmark",
+                    "type": "C"
+                },
+                {
+                    "body": "Turn off query folding",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "161be43c-dff5-4d45-b37d-0696db379bb6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Power BI Drillthrough action can pass filters to another report only if both are…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "In same workspace",
+                    "type": "A"
+                },
+                {
+                    "body": "Using same theme",
+                    "type": "B"
+                },
+                {
+                    "body": "Using same dataset",
+                    "type": "C"
+                },
+                {
+                    "body": "Shared externally",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "9d7c0f4b-6c61-43de-90dd-ae54cb0dc4c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Star schema optimisation advises…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1:M from fact to dimensions",
+                    "type": "A"
+                },
+                {
+                    "body": "M:M everywhere",
+                    "type": "B"
+                },
+                {
+                    "body": "Single gigantic table",
+                    "type": "C"
+                },
+                {
+                    "body": "No relationships",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "123d8116-718b-4ed2-a874-dd07bb27d421",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which view lets you define relationships?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data view",
+                    "type": "A"
+                },
+                {
+                    "body": "Model view",
+                    "type": "B"
+                },
+                {
+                    "body": "Report view",
+                    "type": "C"
+                },
+                {
+                    "body": "Power Query",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "0e52c18a-d330-479d-ba18-81108482ea5e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "KEEPFILTERS() in DAX…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ignores slicers",
+                    "type": "A"
+                },
+                {
+                    "body": "Respects existing filters when overriding",
+                    "type": "B"
+                },
+                {
+                    "body": "Removes all filters",
+                    "type": "C"
+                },
+                {
+                    "body": "Same as ALL()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "ce2b6e1a-2447-4f4c-95ba-723d1da35659",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To create a cumulative YTD measure use…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CALCULATE(SUM([Sales]), DATESYTD(&#39;Calendar&#39;[Date]))",
+                    "type": "A"
+                },
+                {
+                    "body": "TOTALMTD()",
+                    "type": "B"
+                },
+                {
+                    "body": "AVERAGE()",
+                    "type": "C"
+                },
+                {
+                    "body": "EARLIER()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "4f03cb0e-dc2b-4ff8-9d62-94b270ac3bd8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Best visual to decompose a metric hierarchically on-click?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Waterfall",
+                    "type": "A"
+                },
+                {
+                    "body": "Decomposition tree",
+                    "type": "B"
+                },
+                {
+                    "body": "Gauge",
+                    "type": "C"
+                },
+                {
+                    "body": "Area",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b38304f2-f2f0-4d66-887b-5d0f1bb0d9a1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Dynamic vs Static RLS – USERPRINCIPALNAME() is used in…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Static",
+                    "type": "A"
+                },
+                {
+                    "body": "Dynamic",
+                    "type": "B"
+                },
+                {
+                    "body": "Both",
+                    "type": "C"
+                },
+                {
+                    "body": "Neither",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "49bbd6ff-b7ff-4dd0-ad9d-deafd460f6f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which license icon appears as a diamond beside workspace name?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pro",
+                    "type": "A"
+                },
+                {
+                    "body": "Premium capacity",
+                    "type": "B"
+                },
+                {
+                    "body": "Premium per user",
+                    "type": "C"
+                },
+                {
+                    "body": "Free",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4c611219-e71a-4b2d-a2bd-19f91b3a1a4d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a table in DB is truncated from 6k to 1k rows, a fresh Import refresh will load…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "6k",
+                    "type": "A"
+                },
+                {
+                    "body": "1k",
+                    "type": "B"
+                },
+                {
+                    "body": "0",
+                    "type": "C"
+                },
+                {
+                    "body": "Raises error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "fe260eb3-901f-4463-8d81-31910d5787cb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Incremental refresh needs what column type?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Boolean",
+                    "type": "A"
+                },
+                {
+                    "body": "DateTime",
+                    "type": "B"
+                },
+                {
+                    "body": "GUID",
+                    "type": "C"
+                },
+                {
+                    "body": "Decimal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "a92af2f9-f106-45c1-a04f-a317eb3ee1bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Dataflow is created in Power BI Service via…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "“Model view”",
+                    "type": "A"
+                },
+                {
+                    "body": "Workspace → New &gt; Dataflow",
+                    "type": "B"
+                },
+                {
+                    "body": "Power BI Desktop",
+                    "type": "C"
+                },
+                {
+                    "body": " Gateway",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "53d0b868-ebc8-4372-b1cb-a144c959251e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Import vs DirectQuery – which is usually faster for report interactions?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Import",
+                    "type": "A"
+                },
+                {
+                    "body": "DirectQuery",
+                    "type": "B"
+                },
+                {
+                    "body": "Live Connect",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "ee8dbe01-55e1-4871-8647-9646f6b31a40",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To calculate Month-over-Month growth you would use…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "TOTALYTD()",
+                    "type": "A"
+                },
+                {
+                    "body": "PREVIOUSMONTH()",
+                    "type": "B"
+                },
+                {
+                    "body": "NEXTMONTH()",
+                    "type": "C"
+                },
+                {
+                    "body": "PARALLELPERIOD()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "53739d7b-06ee-4c38-ace8-7f86a1831475",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which metric is best when classes are highly imbalanced",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "Precision",
+                    "type": "B"
+                },
+                {
+                    "body": "Recall",
+                    "type": "C"
+                },
+                {
+                    "body": "F1-score",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "0e0e30ff-4c32-4c3c-8c81-f6e7f165799e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "USERNAME() DAX returns…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Power BI desktop PC name",
+                    "type": "A"
+                },
+                {
+                    "body": "Logged-in user’s UPN",
+                    "type": "B"
+                },
+                {
+                    "body": "Dataset owner",
+                    "type": "C"
+                },
+                {
+                    "body": "Workspace name",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "93c6fca5-f1dc-4a1b-b0b0-4b31ea25fc2c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A dual-axis chart in Tableau is created by…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Dragging 2nd measure to opposite axis",
+                    "type": "A"
+                },
+                {
+                    "body": "Using page shelf",
+                    "type": "B"
+                },
+                {
+                    "body": "Creating dashboard action",
+                    "type": "C"
+                },
+                {
+                    "body": "Editing tooltip",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "c1f4585f-6f3f-4e8a-b85e-d5c8ae434c02",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The order of filter execution where Top N is evaluated is…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Extract &gt; Dimension &gt; Measure &gt; Table calc",
+                    "type": "A"
+                },
+                {
+                    "body": "Context &gt; Data source &gt; Dimension",
+                    "type": "B"
+                },
+                {
+                    "body": "Extract &gt; Context &gt; Top N &gt; Measure &gt; Table calc",
+                    "type": "C"
+                },
+                {
+                    "body": "Context &gt; Top N &gt; Dimension",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "52f248e2-e711-4ed9-a45d-c4176aa21a35",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Setting “Show Parameter Control” lets users…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Refresh data",
+                    "type": "A"
+                },
+                {
+                    "body": "Choose parameter values interactively",
+                    "type": "B"
+                },
+                {
+                    "body": "Add filters",
+                    "type": "C"
+                },
+                {
+                    "body": "Create joins",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "ffad8428-9ea4-4d8f-b71f-e95896254422",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "WINDOW_SUM(SUM([Sales]),-2,0) computes…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Total sales for whole window",
+                    "type": "A"
+                },
+                {
+                    "body": "Running total of last 3 rows including current",
+                    "type": "B"
+                },
+                {
+                    "body": "Previous value",
+                    "type": "C"
+                },
+                {
+                    "body": "Moving avg",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d918aac1-609a-44b1-9fc4-7ab5db119759",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "SMOTE technique is mainly for…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Feature scaling",
+                    "type": "A"
+                },
+                {
+                    "body": "Text tokenisation",
+                    "type": "B"
+                },
+                {
+                    "body": "Balancing datasets",
+                    "type": "C"
+                },
+                {
+                    "body": "Hyper-param tuning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "629597e4-50b6-4652-a77a-69f67b6edf9f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Gradient Boosting builds trees…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "In parallel",
+                    "type": "A"
+                },
+                {
+                    "body": "Independently",
+                    "type": "B"
+                },
+                {
+                    "body": "Sequentially correcting errors",
+                    "type": "C"
+                },
+                {
+                    "body": "Randomly",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "8a08ae78-c888-499e-b8cb-662125dbf7f3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "K-means tries to minimise…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Silhouette score",
+                    "type": "A"
+                },
+                {
+                    "body": "Within-cluster sum of squares",
+                    "type": "B"
+                },
+                {
+                    "body": "Gini impurity",
+                    "type": "C"
+                },
+                {
+                    "body": "Entropy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "459cf1cd-2dd2-4ecd-98d5-0553418b490e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which metric is best when classes are highly imbalanced?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Accuracy",
+                    "type": "A"
+                },
+                {
+                    "body": "Precision",
+                    "type": "B"
+                },
+                {
+                    "body": "Recall",
+                    "type": "C"
+                },
+                {
+                    "body": "F1-score",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "51ec41e8-507d-4165-9d5b-7c747fb5d3d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Tableau’s LOD expression {FIXED…} is used to…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sort data",
+                    "type": "A"
+                },
+                {
+                    "body": "Define row-level security",
+                    "type": "B"
+                },
+                {
+                    "body": "Aggregate at custom granularity",
+                    "type": "C"
+                },
+                {
+                    "body": "Create table calc",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "bcb186f3-c268-4e0f-969b-e5d6c72d7a98",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Interactive drill-down in Power BI is called…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bookmarks",
+                    "type": "A"
+                },
+                {
+                    "body": "Drillthrough",
+                    "type": "B"
+                },
+                {
+                    "body": "Tooltip",
+                    "type": "C"
+                },
+                {
+                    "body": "Decomposition tree",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "cb0b114f-214d-4229-a938-4e6c6b945a40",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To plot multiple lines you call…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "plt.plot(x1,y1); plt.plot(x2,y2)",
+                    "type": "A"
+                },
+                {
+                    "body": "plt.scatter()",
+                    "type": "B"
+                },
+                {
+                    "body": "sns.lineplot()",
+                    "type": "C"
+                },
+                {
+                    "body": "Both A &amp; C",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "40faaf84-4e76-4e13-9376-b99eb563e5aa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "df[(df.value&lt;IQR_low)|(df.value&gt;IQR_high)] selects…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Nulls",
+                    "type": "A"
+                },
+                {
+                    "body": "Inliers",
+                    "type": "B"
+                },
+                {
+                    "body": "Outliers",
+                    "type": "C"
+                },
+                {
+                    "body": "All rows",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "9b87d299-6268-45f1-bf3b-bcd571df51dc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Running CPU-bound threads in CPython rarely scales because…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "GIL serialises byte-code execution",
+                    "type": "A"
+                },
+                {
+                    "body": "Threads are deprecated",
+                    "type": "B"
+                },
+                {
+                    "body": "RAM limits",
+                    "type": "C"
+                },
+                {
+                    "body": "No OS threads",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "9cbb40cd-b2e9-4dd5-942b-6d09781f06db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "yield inside a function makes it…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Async coroutine",
+                    "type": "A"
+                },
+                {
+                    "body": "Generator",
+                    "type": "B"
+                },
+                {
+                    "body": "Decorator",
+                    "type": "C"
+                },
+                {
+                    "body": "Context manager",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "bcdb802a-1b3e-499d-889d-4ca089dc8ccc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which technique detects outliers robustly with quartiles?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Z-score",
+                    "type": "A"
+                },
+                {
+                    "body": "IQR method",
+                    "type": "B"
+                },
+                {
+                    "body": "DBSCAN",
+                    "type": "C"
+                },
+                {
+                    "body": "PCA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b9078714-4a7b-43b2-89cf-01f192887ddf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Choose the correct syntax to merge df1 and df2 on cols id,date using an inner join.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "p.merge(df1,df2,how=&#39;inner&#39;,on=[&#39;id&#39;,&#39;date&#39;])",
+                    "type": "A"
+                },
+                {
+                    "body": "df1.join(df2)",
+                    "type": "B"
+                },
+                {
+                    "body": "concat([df1,df2])",
+                    "type": "C"
+                },
+                {
+                    "body": "df1 + df2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "d4369a04-1d70-4712-96ac-ccbe16214814",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Reading a 5 GB CSV lazily can be done with…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "pd.read_csv()",
+                    "type": "A"
+                },
+                {
+                    "body": "pd,read_parquet()",
+                    "type": "B"
+                },
+                {
+                    "body": "pd.read_csv(chunksize=100000)",
+                    "type": "C"
+                },
+                {
+                    "body": "np.loadtxt()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "873f4554-598b-49b3-9d5d-5220d12663fa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The code below prints…\ndef demo():\nyield 1\nyield 2\nprint(list(demo()))",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "[1,2]",
+                    "type": "A"
+                },
+                {
+                    "body": "&lt;generator&gt;",
+                    "type": "B"
+                },
+                {
+                    "body": "(1,2)",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "cfff2adb-b372-46ff-937d-76f980f4939e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "One-liner to flatten matrix=[[1,2],[3]] using list-comprehension?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "[matrix]",
+                    "type": "A"
+                },
+                {
+                    "body": "[i for matrix in i]",
+                    "type": "B"
+                },
+                {
+                    "body": "[x for row in matrix for x in row]",
+                    "type": "C"
+                },
+                {
+                    "body": "flatten(matrix)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "9ea091f4-a99c-4b9f-80fe-f12ce02aaae3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL clause can turn column headers into row values (long → wide) when combined with an aggregate?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "PIVOT",
+                    "type": "A"
+                },
+                {
+                    "body": "UNPIVOT",
+                    "type": "B"
+                },
+                {
+                    "body": "ROLLUP",
+                    "type": "C"
+                },
+                {
+                    "body": "CUBE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "40614c91-ceac-447c-8792-fe9539cc48f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "EXPLAIN ANALYZE primarily helps you…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Grant privileges",
+                    "type": "A"
+                },
+                {
+                    "body": "See physical I/O cost",
+                    "type": "B"
+                },
+                {
+                    "body": "Generate DDL",
+                    "type": "C"
+                },
+                {
+                    "body": "Vacuum the database",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b9cbb768-b9ea-450a-8c14-4bcc3fe11be0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When building an incremental refresh policy in Power BI you must have…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A numeric surrogate key",
+                    "type": "A"
+                },
+                {
+                    "body": "RangeStart &amp; RangeEnd parameters",
+                    "type": "B"
+                },
+                {
+                    "body": "Composite model",
+                    "type": "C"
+                },
+                {
+                    "body": "DirectQuery only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f338b63b-5ad4-42c9-9f51-e64bd9732d49",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "WITH Ranked AS ( … ), SELECT * FROM Ranked WHERE rn=1; is commonly used to…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unpivot data",
+                    "type": "A"
+                },
+                {
+                    "body": "Get first/last row per group",
+                    "type": "B"
+                },
+                {
+                    "body": "Do recursive queries",
+                    "type": "C"
+                },
+                {
+                    "body": "Encrypt data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "73f49ddd-b0f6-41f2-a080-ab3ef0a73d0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "COUNT(DISTINCT CASE WHEN pv_count=1 THEN session_id END)/COUNT(DISTINCT session_id) calculates…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Conversion rate",
+                    "type": "A"
+                },
+                {
+                    "body": "Bounce rate",
+                    "type": "B"
+                },
+                {
+                    "body": "Click-through rate",
+                    "type": "C"
+                },
+                {
+                    "body": "Sessions per user",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "c339894d-fceb-4ece-ad8e-155fe81d60ea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In transaction tables partitioned by order_date, pruning works when the WHERE",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Uses functions on date",
+                    "type": "A"
+                },
+                {
+                    "body": "Compares date directly (e.g., order_date &gt;= &#39;2025-01-01&#39;)",
+                    "type": "B"
+                },
+                {
+                    "body": "Joins another table",
+                    "type": "C"
+                },
+                {
+                    "body": "Mixes OR conditions",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "847ae20b-15b6-4af9-9ebd-a5008a4a1d01",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A query plan shows a full table scan despite an index. Most likely cause?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Function on indexed column",
+                    "type": "A"
+                },
+                {
+                    "body": "Too few rows",
+                    "type": "B"
+                },
+                {
+                    "body": "Outdated statistics",
+                    "type": "C"
+                },
+                {
+                    "body": "Both A and C",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "91c89e91-f9ff-4ed9-bdda-fc585aa3771c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword in MySQL forces the optimizer to fetch rows using an index only (skip row lookup)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "USING INDEX",
+                    "type": "A"
+                },
+                {
+                    "body": "FORCE INDEX",
+                    "type": "B"
+                },
+                {
+                    "body": "ONLY_INDEX",
+                    "type": "C"
+                },
+                {
+                    "body": "INDEX_HINT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "c89241d7-b905-4369-be8d-923833b1fddd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which analytic function lets you compare a row with the previous row in the same group?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "LEAD()",
+                    "type": "A"
+                },
+                {
+                    "body": "LAG()",
+                    "type": "B"
+                },
+                {
+                    "body": "FIRST_VALUE()",
+                    "type": "C"
+                },
+                {
+                    "body": "NTH_VALUE()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "95eb2ab3-b982-4bab-8fe5-d5d00b914bde",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "DELETE FROM Customers WHERE customer_id NOT IN (SELECT MIN(customer_id)…); is a pattern for…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Archiving old customers",
+                    "type": "A"
+                },
+                {
+                    "body": "Deduplication",
+                    "type": "B"
+                },
+                {
+                    "body": "Hard delete cascade",
+                    "type": "C"
+                },
+                {
+                    "body": "Soft delete",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "a17e0ccf-0cb8-48cf-a236-1bfc5a02542c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Snowflake vs Star schema, which statement is true?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Snowflake keeps dimensions denormalized",
+                    "type": "A"
+                },
+                {
+                    "body": "Star has more tables than Snowflake",
+                    "type": "B"
+                },
+                {
+                    "body": "Snowflake normalizes dimension tables",
+                    "type": "C"
+                },
+                {
+                    "body": "Star is harder for BI tools",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "eb39bb9d-c008-4bc5-9a96-85b5ec92b1bf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You are asked to design a star-schem[key=A] The fact table should hold…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Text descriptions",
+                    "type": "A"
+                },
+                {
+                    "body": "Only surrogate keys",
+                    "type": "B"
+                },
+                {
+                    "body": "Quantitative metrics (measures)",
+                    "type": "C"
+                },
+                {
+                    "body": "Lookup codes only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "af2e3fa8-4613-4fd7-8ad9-2a63cb3f7245",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which window function will give dense ranking (no gaps) when two customers share the same purchase total",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ROW_NUMBER()",
+                    "type": "A"
+                },
+                {
+                    "body": "RANK()",
+                    "type": "B"
+                },
+                {
+                    "body": "DENSE_RANK()",
+                    "type": "C"
+                },
+                {
+                    "body": "NTILE()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "c859da28-cfbf-4236-98d5-2a214668b6f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A table has 10 million rows. The best single step to speed up a slow query with multiple joins is usually to…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rewrite in Python",
+                    "type": "A"
+                },
+                {
+                    "body": "Create proper indexes on join keys",
+                    "type": "B"
+                },
+                {
+                    "body": "Convert to JSON and store in S3",
+                    "type": "C"
+                },
+                {
+                    "body": "Cache results in Excel",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f4f8136d-174a-4942-a966-7a13a77fb784",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which join is fastest when you only need matching rows from two large tables",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "LEFT JOIN",
+                    "type": "A"
+                },
+                {
+                    "body": "FULL OUTER JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "INNER JOIN",
+                    "type": "C"
+                },
+                {
+                    "body": "CROSS JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "d356ab91-3c26-4a94-a69a-ecaae7617f63",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You need the second-highest salary from table employees without using LIMIT, OFFSET, or window functions. Which single-line query works",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT MAX(salary) …",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT salary … ORDER BY salary DESC LIMIT 1 OFFSET 1;",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT salary FROM employees WHERE salary &lt; (SELECT MAX(salary) FROM employees) ORDER BY salary DESC LIMIT 1;",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT DISTINCT salary…",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Section-b"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "7d240f16-3b51-4df4-86fa-b81039659319",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Tableau\nWhich file stores Tableau data extract?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": ".tds",
+                    "type": "A"
+                },
+                {
+                    "body": ".twb",
+                    "type": "B"
+                },
+                {
+                    "body": ".hyper",
+                    "type": "C"
+                },
+                {
+                    "body": ".twbx",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "f4613682-14eb-4137-bad6-5d3a7c125fb0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Fastest native way to remove duplicates in a column",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Remove Duplicates ribbon feature",
+                    "type": "A"
+                },
+                {
+                    "body": "Advanced filter",
+                    "type": "B"
+                },
+                {
+                    "body": "Formula",
+                    "type": "C"
+                },
+                {
+                    "body": "Manual delete",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "2f362f91-1a36-4ee5-a04a-c65d3eb28124",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Ctrl + Shift + L does what",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Adds subtotal",
+                    "type": "A"
+                },
+                {
+                    "body": "Applies filter",
+                    "type": "B"
+                },
+                {
+                    "body": "Locks cell",
+                    "type": "C"
+                },
+                {
+                    "body": "Adds hyperlink",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b19541be-a559-483e-ab18-0dc411029f0a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Creating an interactive slicer is available in…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pivot Table",
+                    "type": "A"
+                },
+                {
+                    "body": "Data Validation",
+                    "type": "B"
+                },
+                {
+                    "body": "Macros",
+                    "type": "C"
+                },
+                {
+                    "body": "Solver",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "4ea6ac29-a52a-4d47-a8e2-d755fb0570bb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which function converts text &#34;2025-07-05&#34; to a true date",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DATEVALUE()",
+                    "type": "A"
+                },
+                {
+                    "body": "TEXT()",
+                    "type": "B"
+                },
+                {
+                    "body": "DATEDIF()",
+                    "type": "C"
+                },
+                {
+                    "body": "TODAY()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "ca02a8b6-3d6b-4e80-9809-98c02f306b5b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Excel Essential\n\n=VLOOKUP(id, tbl, 3, FALSE) returns…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Row index",
+                    "type": "A"
+                },
+                {
+                    "body": "Exact match value from 3rd column",
+                    "type": "B"
+                },
+                {
+                    "body": "Approx value",
+                    "type": "C"
+                },
+                {
+                    "body": "#N/A always",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "814e618e-c507-4761-9fec-ebdf995db5d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Re-scaling features into 0-1 range is called…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Standardisation",
+                    "type": "A"
+                },
+                {
+                    "body": "Normalisation",
+                    "type": "B"
+                },
+                {
+                    "body": "One-hot encoding",
+                    "type": "C"
+                },
+                {
+                    "body": "Binning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d52b584e-b9a1-41e9-901b-7b19c518b6cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Principal Component Analysis keeps components with…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Highest variance",
+                    "type": "A"
+                },
+                {
+                    "body": "Lowest variance",
+                    "type": "B"
+                },
+                {
+                    "body": "Largest mean",
+                    "type": "C"
+                },
+                {
+                    "body": "Smallest eigenvalue",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "f57bed5d-5fa6-4766-b1c3-27502d5170cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Early stopping helps prevent…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Under-fitting",
+                    "type": "A"
+                },
+                {
+                    "body": "Over-fitting",
+                    "type": "B"
+                },
+                {
+                    "body": "Data leakage",
+                    "type": "C"
+                },
+                {
+                    "body": "Concept drift",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "152dee13-fd7b-4da6-9d1a-96b62b2642ae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "AUC-ROC plots…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "TPR vs FPR",
+                    "type": "A"
+                },
+                {
+                    "body": "Precision vs Recall",
+                    "type": "B"
+                },
+                {
+                    "body": "FP vs FN",
+                    "type": "C"
+                },
+                {
+                    "body": "Accuracy vs Epoch",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "22b37ee3-956b-4add-87f4-46358878a5c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Regularisation parameter λ in Ridge regression controls…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bias",
+                    "type": "A"
+                },
+                {
+                    "body": "Variance",
+                    "type": "B"
+                },
+                {
+                    "body": "Feature scaling",
+                    "type": "C"
+                },
+                {
+                    "body": "Learning rate",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "6a5fb655-de46-46cb-8d80-97ea1b4a48d5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Supervised vs Unsupervised learning key difference",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Need labelled data",
+                    "type": "A"
+                },
+                {
+                    "body": "Need big data",
+                    "type": "B"
+                },
+                {
+                    "body": "Need GPUs",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "2da9c9ef-a406-4adf-9998-fa5c1fef0a32",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Adding a second y-axis in Matplotlib uses…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "twinx()",
+                    "type": "A"
+                },
+                {
+                    "body": "subplot()",
+                    "type": "B"
+                },
+                {
+                    "body": "add_axes()",
+                    "type": "C"
+                },
+                {
+                    "body": "twiny()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "fb5313ff-e953-40c9-9394-a5b36810f9ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Plotting a categorical variable vs numeric using seaborn",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "lineplot",
+                    "type": "A"
+                },
+                {
+                    "body": "stripplot",
+                    "type": "B"
+                },
+                {
+                    "body": "histplot",
+                    "type": "C"
+                },
+                {
+                    "body": "violinplot",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "40c7257e-cf6a-49f3-8f81-247de26abaeb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which color-blind friendly palette is built-in to Seaborn",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "&#34;husl&#34;",
+                    "type": "A"
+                },
+                {
+                    "body": "&#34;cubehelix&#34;",
+                    "type": "B"
+                },
+                {
+                    "body": "&#34;Set1&#34;",
+                    "type": "C"
+                },
+                {
+                    "body": "&#34;pastel&#34;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b3868bff-ad0b-4e91-b482-8c18a29ffac3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Best chart to compare parts-of-whole over time",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pie",
+                    "type": "A"
+                },
+                {
+                    "body": "Stacked area",
+                    "type": "B"
+                },
+                {
+                    "body": "Heatmap",
+                    "type": "C"
+                },
+                {
+                    "body": "Scatter",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1492e552-4bb9-42d5-8f3e-5dde78469b8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " tight_layout() fixes…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Memory leaks",
+                    "type": "A"
+                },
+                {
+                    "body": "Axis scaling",
+                    "type": "B"
+                },
+                {
+                    "body": "Label overlap",
+                    "type": "C"
+                },
+                {
+                    "body": "Color mapping",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "fe54f70c-8957-401c-845b-c52c68697a1c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Matplotlib default coordinate origin is…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Top-left",
+                    "type": "A"
+                },
+                {
+                    "body": "Bottom-left",
+                    "type": "B"
+                },
+                {
+                    "body": "Center",
+                    "type": "C"
+                },
+                {
+                    "body": "Dynamic",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "6ac304fa-a383-43fd-996f-fa45ac873652",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which Seaborn plot best shows distribution &amp; KDE",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "scatterplot",
+                    "type": "A"
+                },
+                {
+                    "body": "boxplot",
+                    "type": "B"
+                },
+                {
+                    "body": "histplot",
+                    "type": "C"
+                },
+                {
+                    "body": "barplot",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "e38eb139-1904-425d-86bf-b02357469ebf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "NumPy function to compute element-wise natural log",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "np.log()",
+                    "type": "A"
+                },
+                {
+                    "body": "np.exp()",
+                    "type": "B"
+                },
+                {
+                    "body": "np.log10()",
+                    "type": "C"
+                },
+                {
+                    "body": "np.ln()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "70fa22a1-5cc1-4e48-9853-fa516cb5830c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Fastest way to add constant 10 to every element of 1 M-row Series",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "for-loop",
+                    "type": "A"
+                },
+                {
+                    "body": "apply()",
+                    "type": "B"
+                },
+                {
+                    "body": "Vectorised +",
+                    "type": "C"
+                },
+                {
+                    "body": "map()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "6a46ed75-3f2c-4be1-ac33-37bbeddbe313",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "pD merge(..., how=&#39;left&#39;) keeps…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only matches",
+                    "type": "A"
+                },
+                {
+                    "body": "All left rows + matches",
+                    "type": "B"
+                },
+                {
+                    "body": "All right rows + matches",
+                    "type": "C"
+                },
+                {
+                    "body": "Union",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "7c572630-4d0c-454d-abaa-6e5e7b1d734e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which accessor gives quick scalar label lookup",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": ".at",
+                    "type": "A"
+                },
+                {
+                    "body": ".loc",
+                    "type": "B"
+                },
+                {
+                    "body": ".iat",
+                    "type": "C"
+                },
+                {
+                    "body": ".iloc",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "b7d2d05d-85bf-4afd-8064-1a083056ce15",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To get quartiles of value column:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "df.value.quantile([.25,.5,.75])",
+                    "type": "A"
+                },
+                {
+                    "body": "describe()",
+                    "type": "B"
+                },
+                {
+                    "body": "median()",
+                    "type": "C"
+                },
+                {
+                    "body": "mad()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "de700282-685c-4d19-9248-dade66c3c869",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Broadcasting lets you…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Loop manually",
+                    "type": "A"
+                },
+                {
+                    "body": "Copy arrays",
+                    "type": "B"
+                },
+                {
+                    "body": "Vectorise scalar-array ops",
+                    "type": "C"
+                },
+                {
+                    "body": "Transpose array",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b82c8043-2452-4532-8ccf-7e7be056b31d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Creating evenly-spaced 5 numbers 0→1 uses…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "np.arange(5)",
+                    "type": "A"
+                },
+                {
+                    "body": "np.linspace(0,1,5)",
+                    "type": "B"
+                },
+                {
+                    "body": "np.zeros(5)",
+                    "type": "C"
+                },
+                {
+                    "body": "np.random.rand(5)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "cdaa5fa4-9a23-4032-8b33-86846e715ca6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Method to replace all NaN in non-numeric columns with 0",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "fillna(0)",
+                    "type": "A"
+                },
+                {
+                    "body": "dropna()",
+                    "type": "B"
+                },
+                {
+                    "body": "replace(0)",
+                    "type": "C"
+                },
+                {
+                    "body": "interpolate()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "16ebaef4-1df1-4012-b98d-f9e0446be6df",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Pandas / NumPy\n.groupby(&#39;region&#39;)[&#39;sales&#39;].mean() returns…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Row count per region",
+                    "type": "A"
+                },
+                {
+                    "body": "Sum of sales",
+                    "type": "B"
+                },
+                {
+                    "body": "Average sales",
+                    "type": "C"
+                },
+                {
+                    "body": "Cumulative sales",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3d09cb17-cba9-4f65-8f6e-57e787ec1955",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The best container for uniqueness &amp; constant lookup is…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "set",
+                    "type": "A"
+                },
+                {
+                    "body": " list",
+                    "type": "B"
+                },
+                {
+                    "body": "tuple",
+                    "type": "C"
+                },
+                {
+                    "body": "OrderedDict",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "c590fbde-69ee-415a-b64b-5178c654231f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "lambda x: x**2 is equivalent to…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "def f(x): return x**2",
+                    "type": "A"
+                },
+                {
+                    "body": "x**2",
+                    "type": "B"
+                },
+                {
+                    "body": "map(x**2)",
+                    "type": "C"
+                },
+                {
+                    "body": "Partial",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "8a96b7e7-cf45-495f-a4d8-5a9e1c0d46a8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which copy creates a fully independent clone of nested objects",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shallow copy",
+                    "type": "A"
+                },
+                {
+                    "body": "Deep copy",
+                    "type": "B"
+                },
+                {
+                    "body": "Slice copy",
+                    "type": "C"
+                },
+                {
+                    "body": "Reference copy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "32598433-9547-4b82-b64b-62f7527c9a73",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Counter(&#39;a a b&#39;.split())[&#39;a&#39;] returns…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "{&#39;a&#39;:1}",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "Error",
+                    "type": "C"
+                },
+                {
+                    "body": "[&#39;a&#39;]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "a9a63b13-e558-488b-9386-dbf666e4b140",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement about decorators is true",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "They copy a function",
+                    "type": "A"
+                },
+                {
+                    "body": "They wrap a function to extend behaviour",
+                    "type": "B"
+                },
+                {
+                    "body": "They execute at compile time",
+                    "type": "C"
+                },
+                {
+                    "body": "They only work on classes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4522c7a7-b1d3-4320-b6d5-bfa6c1b0fc1b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does df.dropna() do by default",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Drops columns with any nulls",
+                    "type": "A"
+                },
+                {
+                    "body": "Drops rows with any nulls",
+                    "type": "B"
+                },
+                {
+                    "body": "Fills nulls with zeros",
+                    "type": "C"
+                },
+                {
+                    "body": "Nothing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1f715708-0623-4437-9e15-a08186446dff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Choose the correct NumPy multiplication for matrices A &amp; B",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A*B",
+                    "type": "A"
+                },
+                {
+                    "body": "np.dot(A,B)",
+                    "type": "B"
+                },
+                {
+                    "body": "A+B",
+                    "type": "C"
+                },
+                {
+                    "body": "np.cross(A,B)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "289530fe-eb70-41ca-b981-ff473e4187ab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which Pandas accessor is label-based",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": ".iloc",
+                    "type": "A"
+                },
+                {
+                    "body": ".loc",
+                    "type": "B"
+                },
+                {
+                    "body": ".iat",
+                    "type": "C"
+                },
+                {
+                    "body": ".at",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "db466588-9ab2-40a9-9886-77f873301313",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Select the O(1) average-time lookup container.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "list",
+                    "type": "A"
+                },
+                {
+                    "body": "dict",
+                    "type": "B"
+                },
+                {
+                    "body": "deque",
+                    "type": "C"
+                },
+                {
+                    "body": "tuple",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "940ece61-70d7-4a82-8446-ff74b9ee7127",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will arr + 10 broadcast do if arr is a 2×3 NumPy array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Error",
+                    "type": "A"
+                },
+                {
+                    "body": "Add 10 to each element",
+                    "type": "B"
+                },
+                {
+                    "body": "Add column vector",
+                    "type": "C"
+                },
+                {
+                    "body": "Multiply by 10",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b9e2c56c-0be4-4c11-9d22-a2041b3e720b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "*args inside a function is…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "List of keyword args",
+                    "type": "A"
+                },
+                {
+                    "body": "Tuple of positional args",
+                    "type": "B"
+                },
+                {
+                    "body": "Dict of kwargs",
+                    "type": "C"
+                },
+                {
+                    "body": "Generator",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "9f53f542-0791-4b81-bb92-2870591fd0ca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The Global Interpreter Lock (GIL) prevents…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Multi-process parallelism",
+                    "type": "A"
+                },
+                {
+                    "body": "Any I/O calls",
+                    "type": "B"
+                },
+                {
+                    "body": "Multiple threads executing Python byte-code simultaneously",
+                    "type": "C"
+                },
+                {
+                    "body": "Use of C-extensions",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "dca600a0-dced-4e49-976e-2b818afd0992",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which structure is immutable",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "List",
+                    "type": "A"
+                },
+                {
+                    "body": "Tuple",
+                    "type": "B"
+                },
+                {
+                    "body": "Set",
+                    "type": "C"
+                },
+                {
+                    "body": "Dict",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d9a042ee-ef8d-4d6e-91e7-39245edbd252",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Best SQL construct to detect gaps in sequential IDs",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "LAG()/LEAD()",
+                    "type": "A"
+                },
+                {
+                    "body": "CASE",
+                    "type": "B"
+                },
+                {
+                    "body": "HAVING",
+                    "type": "C"
+                },
+                {
+                    "body": "MERGE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "4c81e27d-9d23-4d97-ab94-2eaa21f75693",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will the query SELECT COUNT(*) FROM Orders WHERE DAYOFWEEK(order_date) IN (1,7); return",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Orders on weekdays",
+                    "type": "A"
+                },
+                {
+                    "body": "Orders on weekends",
+                    "type": "B"
+                },
+                {
+                    "body": "Orders on holidays",
+                    "type": "C"
+                },
+                {
+                    "body": "NULL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "8af0a49f-3866-4b5d-9f68-d2796dad3334",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which index type works best for high-cardinality columns queried with = or IN",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bitmap index",
+                    "type": "A"
+                },
+                {
+                    "body": "Hash index",
+                    "type": "B"
+                },
+                {
+                    "body": "B-tree",
+                    "type": "C"
+                },
+                {
+                    "body": "No index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "9acb9725-0422-4656-9ae1-e39945440df7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "PERCENTILE_CONT(0.9) WITHIN GROUP (ORDER BY sales) returns…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mean",
+                    "type": "A"
+                },
+                {
+                    "body": "Median",
+                    "type": "B"
+                },
+                {
+                    "body": "90-th percentile",
+                    "type": "C"
+                },
+                {
+                    "body": "IQR",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b2d1ecf5-84bb-465e-8e18-edd2499a45e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword lets you combine result-sets but also keeps duplicates",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UNION",
+                    "type": "A"
+                },
+                {
+                    "body": "UNION ALL",
+                    "type": "B"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "C"
+                },
+                {
+                    "body": "EXCEPT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "0f0a1d12-1b8b-4afc-bff8-222debe9cf9e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To get the running total of daily revenue you would most likely use…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SUM() OVER (ORDER BY date)",
+                    "type": "A"
+                },
+                {
+                    "body": "COUNT(*)",
+                    "type": "B"
+                },
+                {
+                    "body": "GROUP_CONCAT()",
+                    "type": "C"
+                },
+                {
+                    "body": "PERCENTILE_CONT()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "507ef59b-bb98-4e3a-bb36-da8432e77953",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "SELECT region, AVG(sales_amount) FROM Sales GROUP BY region; calculates…",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Median sales per region",
+                    "type": "A"
+                },
+                {
+                    "body": "Average sales per region",
+                    "type": "B"
+                },
+                {
+                    "body": "Running total per region",
+                    "type": "C"
+                },
+                {
+                    "body": "Max sale per region",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "595778c3-1e84-4348-824e-024589d866a4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is returned by an INNER JOIN between Customers c and Orders o on customer_id",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only rows that match in both tables",
+                    "type": "A"
+                },
+                {
+                    "body": "All rows from Customers, plus matches",
+                    "type": "B"
+                },
+                {
+                    "body": "All rows from Orders, plus matches",
+                    "type": "C"
+                },
+                {
+                    "body": "All rows from both tables, filling nulls",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "7037478f-a3fe-4834-b2ab-fa2014ba2fcd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which clause filters aggregated results in a query that already used GROUP BY",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "WHERE",
+                    "type": "A"
+                },
+                {
+                    "body": "HAVING",
+                    "type": "B"
+                },
+                {
+                    "body": "QUALIFY",
+                    "type": "C"
+                },
+                {
+                    "body": "ORDER BY",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "section-a"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        }
+    ]
+}

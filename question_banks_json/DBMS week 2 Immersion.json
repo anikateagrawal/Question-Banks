@@ -1,0 +1,2616 @@
+{
+    "bank_id": "dd880063-076b-4c78-9573-a86271d15836",
+    "bank_name": "DBMS week 2 Immersion",
+    "questions": [
+        {
+            "id": "fadf4251-418f-4996-8511-79741454bb82",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The minimum number of attributes required to uniquely identify a tuple is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Superkey",
+                    "type": "A"
+                },
+                {
+                    "body": "Foreign key",
+                    "type": "B"
+                },
+                {
+                    "body": "Candidate key",
+                    "type": "C"
+                },
+                {
+                    "body": "Primary key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5d41e520-1b75-4291-a692-847e04ed4939",
+                    "questionID": "fadf4251-418f-4996-8511-79741454bb82",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Candidate key is the minimal superkey unique and smallest in size.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7f5cdfeb-9e7e-40d5-abd0-d616c6fa6d5c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not a constraint in the relational model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Domain constraint",
+                    "type": "A"
+                },
+                {
+                    "body": "Referential integrity",
+                    "type": "B"
+                },
+                {
+                    "body": "Entity integrity",
+                    "type": "C"
+                },
+                {
+                    "body": "Transition constraint",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "469cf851-037f-44bc-99de-a70b98d7422b",
+                    "questionID": "7f5cdfeb-9e7e-40d5-abd0-d616c6fa6d5c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Transition constraints are from temporal DBs not in basic relational model.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5bd7c14d-34ae-48b2-a169-ffd8b53c5586",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a relation, no attribute should have multiple values. This is ensured by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "BCNF",
+                    "type": "A"
+                },
+                {
+                    "body": "1NF",
+                    "type": "B"
+                },
+                {
+                    "body": "2NF",
+                    "type": "C"
+                },
+                {
+                    "body": "3NF",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "dffc220c-2657-4985-9347-012f83be74c1",
+                    "questionID": "5bd7c14d-34ae-48b2-a169-ffd8b53c5586",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1NF requires all attributes to be atomic.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a5a84047-78ec-4020-8a00-9e23454708da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which relational algebra operator is used to rename fields",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "? (Projection)",
+                    "type": "A"
+                },
+                {
+                    "body": "? (Rename)",
+                    "type": "B"
+                },
+                {
+                    "body": "? (Selection)",
+                    "type": "C"
+                },
+                {
+                    "body": "? (Duplicate Removal)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "46af0e01-1963-4228-9262-5d613ae1f5ec",
+                    "questionID": "a5a84047-78ec-4020-8a00-9e23454708da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rename (?) assigns new names to relations or attributes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e081eb9-f7fa-4b81-919c-e1a0407dff0d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the ER model, aggregation is used when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "We need recursive relationships",
+                    "type": "A"
+                },
+                {
+                    "body": "We need to represent an attribute of a relationship",
+                    "type": "B"
+                },
+                {
+                    "body": "We want to merge two entities",
+                    "type": "C"
+                },
+                {
+                    "body": "We want to remove redundancy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f32ac08c-ced7-42db-8568-5c97a69ba768",
+                    "questionID": "3e081eb9-f7fa-4b81-919c-e1a0407dff0d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Aggregation treats a relationship set as an entity for higher-level relations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "925b6566-1166-4ab0-8247-bd8922bb81f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the relational model, which of the following is a property of candidate keys",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unique and nullable",
+                    "type": "A"
+                },
+                {
+                    "body": "Not necessarily minimal",
+                    "type": "B"
+                },
+                {
+                    "body": "Can contain duplicate values",
+                    "type": "C"
+                },
+                {
+                    "body": "Must uniquely identify tuples",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "396edb3e-d015-44b0-abfa-80748cb58670",
+                    "questionID": "925b6566-1166-4ab0-8247-bd8922bb81f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Candidate keys uniquely identify each tuple and are minimal (no subset is a key)",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "712fee22-6fea-4bd2-99c6-c934041ddcd3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the minimum number of tables needed to convert a ternary relationship into relational schema",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8eea39af-b697-4070-b77d-753d7909cd39",
+                    "questionID": "712fee22-6fea-4bd2-99c6-c934041ddcd3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One for each participating entity (3) and one for the ternary relationship = 4 total, but 3 relations at minimum assuming one combined.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "daf0c742-d4ee-4464-b02b-17f33451de30",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following does not affect normalization",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Functional dependencies",
+                    "type": "A"
+                },
+                {
+                    "body": "Multivalued dependencies",
+                    "type": "B"
+                },
+                {
+                    "body": "Transitive dependencies",
+                    "type": "C"
+                },
+                {
+                    "body": "Entity identifiers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d502cb53-c601-4ec5-98d6-345783f0e524",
+                    "questionID": "daf0c742-d4ee-4464-b02b-17f33451de30",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Entity identifiers are part of the conceptual model, not relational normalization.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32f6d3ba-abaa-4bb2-a169-27d33632a88f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A relation has no NULL values and each attribute is atomic. The relation is in",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0NF",
+                    "type": "A"
+                },
+                {
+                    "body": "1NF",
+                    "type": "B"
+                },
+                {
+                    "body": "2NF",
+                    "type": "C"
+                },
+                {
+                    "body": "3NF",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b0518df2-e36c-4eee-9f1c-f69e47d95410",
+                    "questionID": "32f6d3ba-abaa-4bb2-a169-27d33632a88f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1NF requires atomicity of attribute values, but not necessarily elimination of NULLs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "553e9120-f5e8-4338-a209-ec53cada08f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A derived attribute in an ER diagram is represented by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Double oval",
+                    "type": "A"
+                },
+                {
+                    "body": "Dashed oval",
+                    "type": "B"
+                },
+                {
+                    "body": "Rectangle",
+                    "type": "C"
+                },
+                {
+                    "body": "Underlined oval",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b8ca8f3d-9338-43d7-9ec6-c17973be4a85",
+                    "questionID": "553e9120-f5e8-4338-a209-ec53cada08f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Derived attributes are represented using dashed ovals (e.g., Age derived from DOB).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d7ffe95-f526-4ae9-9dfc-e97f63d56c5c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If two attributes A and B form a composite key, then both A and B are",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Superkeys",
+                    "type": "A"
+                },
+                {
+                    "body": "Candidate keys",
+                    "type": "B"
+                },
+                {
+                    "body": "Non-prime attributes",
+                    "type": "C"
+                },
+                {
+                    "body": "Prime attributes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0877948f-3e08-48d5-b001-acf5a6852788",
+                    "questionID": "0d7ffe95-f526-4ae9-9dfc-e97f63d56c5c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Attributes that are part of any candidate key are called prime attributes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a6f704ea-e10e-44ab-9d72-91a2c1a8774c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following operations is not part of relational algebra",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Join",
+                    "type": "A"
+                },
+                {
+                    "body": "Select",
+                    "type": "B"
+                },
+                {
+                    "body": "Rename",
+                    "type": "C"
+                },
+                {
+                    "body": "Group By",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "21c8e192-9495-4b18-b16f-c6e93222bc89",
+                    "questionID": "a6f704ea-e10e-44ab-9d72-91a2c1a8774c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Group By is part of SQL, not basic relational algebra.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8f9dfa8-ccdc-4606-80a9-39f305cd6d69",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In ER diagrams, a diamond shape represents",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Entity",
+                    "type": "A"
+                },
+                {
+                    "body": "Attribute",
+                    "type": "B"
+                },
+                {
+                    "body": "Relationship",
+                    "type": "C"
+                },
+                {
+                    "body": "Primary key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9f7aab82-427c-4159-90bb-dc8b1feef9f7",
+                    "questionID": "e8f9dfa8-ccdc-4606-80a9-39f305cd6d69",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rectangles for entities, ovals for attributes, diamonds for relationships.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6350bbd1-579d-4123-9eba-a013810e0ade",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is used to uniquely identify a weak entity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Partial key + discriminator",
+                    "type": "A"
+                },
+                {
+                    "body": "Foreign key + partial key",
+                    "type": "B"
+                },
+                {
+                    "body": "Composite key only",
+                    "type": "C"
+                },
+                {
+                    "body": "Derived attribute",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0b7ce63a-e90f-40f1-ae62-b4a11999fd5d",
+                    "questionID": "6350bbd1-579d-4123-9eba-a013810e0ade",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Weak entities are identified using a foreign key from a strong entity and their partial key.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4c8383b2-7baa-4cff-8961-0302e0ed00ca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a relation R satisfies 1NF, 2NF, and 3NF but not BCNF, then",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It has no partial dependencies",
+                    "type": "A"
+                },
+                {
+                    "body": "It has no transitive dependencies",
+                    "type": "B"
+                },
+                {
+                    "body": "It has a non-prime attribute functionally determining a key",
+                    "type": "C"
+                },
+                {
+                    "body": "Every determinant is a candidate key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "caded99f-bc24-40dc-9170-897713a90ff3",
+                    "questionID": "4c8383b2-7baa-4cff-8961-0302e0ed00ca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Violation of BCNF happens when a non-candidate key determines part of the primary key.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ae7b959b-c4f7-4087-8f2e-a00210328889",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a foreign key",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "An attribute that uniquely identifies a tuple",
+                    "type": "A"
+                },
+                {
+                    "body": "A primary key in the same table",
+                    "type": "B"
+                },
+                {
+                    "body": "An attribute in one table referring to a primary key in another table",
+                    "type": "C"
+                },
+                {
+                    "body": "A key used only for sorting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e6abc591-0d98-40d9-b7a6-be1de5ef1544",
+                    "questionID": "ae7b959b-c4f7-4087-8f2e-a00210328889",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Foreign keys enforce referential integrity between tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dad80289-b1dd-4ee3-8600-b81bb61d0aeb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Generalization in ER modeling is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bottom-up approach",
+                    "type": "A"
+                },
+                {
+                    "body": "Top-down approach",
+                    "type": "B"
+                },
+                {
+                    "body": "Horizontal partitioning",
+                    "type": "C"
+                },
+                {
+                    "body": "Vertical partitioning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d6dddafa-038e-4004-b0d6-229020b3420b",
+                    "questionID": "dad80289-b1dd-4ee3-8600-b81bb61d0aeb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Generalization groups multiple entities into a higher-level one.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "07884168-0b00-4197-b5f7-506b5e042e7a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following statements is false about a candidate key",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It can be a composite key",
+                    "type": "A"
+                },
+                {
+                    "body": "There can be multiple candidate keys",
+                    "type": "B"
+                },
+                {
+                    "body": "It must be minimal",
+                    "type": "C"
+                },
+                {
+                    "body": "It can have NULL values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c367da71-54d3-4df9-b51c-5af006c84d42",
+                    "questionID": "07884168-0b00-4197-b5f7-506b5e042e7a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Candidate keys cannot contain NULLs because they must uniquely identify tuples.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cfaa2039-8b65-472f-b488-1f0fbba756c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Mapping a many-to-many relationship in ER model requires",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A new relation with foreign keys from both entities",
+                    "type": "A"
+                },
+                {
+                    "body": "Merging both entities",
+                    "type": "B"
+                },
+                {
+                    "body": "Creating a composite key from one entity",
+                    "type": "C"
+                },
+                {
+                    "body": "Using aggregation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "970054a9-611e-4bb9-ba72-8946b36935c3",
+                    "questionID": "cfaa2039-8b65-472f-b488-1f0fbba756c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Many-to-many relationships are resolved using a new table with foreign keys from both entities.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bb2a3228-cd61-4bee-a4e6-a3ff10465195",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is not a feature of the relational model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Tuples are unordered",
+                    "type": "A"
+                },
+                {
+                    "body": "Attributes are ordered",
+                    "type": "B"
+                },
+                {
+                    "body": "Each value is atomic",
+                    "type": "C"
+                },
+                {
+                    "body": "Relations are sets of tuples",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "181b70c0-4ec3-4e34-86a2-493ad2effa25",
+                    "questionID": "bb2a3228-cd61-4bee-a4e6-a3ff10465195",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Attribute names define order, but logically attributes are considered unordered.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a58ba017-a0d6-4a6d-8b8e-b4db4a818f55",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A relation is in 1NF if",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It has only one attribute",
+                    "type": "A"
+                },
+                {
+                    "body": "All its attributes are atomic",
+                    "type": "B"
+                },
+                {
+                    "body": "All its attributes are composite",
+                    "type": "C"
+                },
+                {
+                    "body": "It has no NULL values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9ec3712b-3931-4862-9037-46ad7a524392",
+                    "questionID": "a58ba017-a0d6-4a6d-8b8e-b4db4a818f55",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1NF ensures that all attribute values are indivisible.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "acc703fc-4f32-4eac-b6e7-defeb02cb370",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about weak entities",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "They have their own primary key",
+                    "type": "A"
+                },
+                {
+                    "body": "They depend on a strong entity for identification",
+                    "type": "B"
+                },
+                {
+                    "body": "They can exist independently",
+                    "type": "C"
+                },
+                {
+                    "body": "They do not participate in relationships",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "99c20c7e-33c2-4724-b4bf-21556272a82e",
+                    "questionID": "acc703fc-4f32-4eac-b6e7-defeb02cb370",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Weak entities rely on foreign key from a related strong entity and a partial key.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7bf25937-adee-49b5-b657-bfbac4f5b533",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a relation R has 5 attributes and 2000 tuples, what is the degree and cardinality of R",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Degree: 5, Cardinality: 2000",
+                    "type": "A"
+                },
+                {
+                    "body": "Degree: 2000, Cardinality: 5",
+                    "type": "B"
+                },
+                {
+                    "body": "Degree: 5, Cardinality: 5",
+                    "type": "C"
+                },
+                {
+                    "body": "Degree: 2000, Cardinality: 2000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3ba1b3f7-263f-4705-832f-59c2a4458259",
+                    "questionID": "7bf25937-adee-49b5-b657-bfbac4f5b533",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Degree = columns, Cardinality = number of rows.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51396dec-0be6-4478-a711-5628d2b4fddd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which one of the following is not a valid relationship type in an ER model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One-to-One",
+                    "type": "A"
+                },
+                {
+                    "body": "One-to-Many",
+                    "type": "B"
+                },
+                {
+                    "body": "Many-to-Many",
+                    "type": "C"
+                },
+                {
+                    "body": "One-to-Self",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "81a75722-2e1d-4d00-b46c-62cf2c773dd2",
+                    "questionID": "51396dec-0be6-4478-a711-5628d2b4fddd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One-to-Self is not a formal term. Recursive relationships are allowed but not named like this.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c2956157-45f4-4fa6-8690-95ab9dc2446b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A relation schema has 2 candidate keys: {A, B} and {C, D}. Which of these is not allowed",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A and C as foreign keys",
+                    "type": "A"
+                },
+                {
+                    "body": "Both {A, B} and {C, D} as primary keys",
+                    "type": "B"
+                },
+                {
+                    "body": "Choosing {A, B} as primary and {C, D} as alternate",
+                    "type": "C"
+                },
+                {
+                    "body": "Choosing a subset of {A, B} as primary key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "66921085-64bc-4667-9c46-3e6fb6415479",
+                    "questionID": "c2956157-45f4-4fa6-8690-95ab9dc2446b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A candidate key is minimal; its subset cannot be a key.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8cdd138a-badd-4944-8c45-28424da105a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following cannot be a primary key",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unique and non-null field",
+                    "type": "A"
+                },
+                {
+                    "body": "A field that changes frequently",
+                    "type": "B"
+                },
+                {
+                    "body": "Composite of unique fields",
+                    "type": "C"
+                },
+                {
+                    "body": "Auto-increment field",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "81b1bb8d-cd23-4de1-9765-1a655083214a",
+                    "questionID": "8cdd138a-badd-4944-8c45-28424da105a0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Primary keys should remain stable and unchanged.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a90ac0ca-9f01-4510-b470-d04945db02d9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The cardinality ratio in an ER model tells us",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Total number of entities",
+                    "type": "A"
+                },
+                {
+                    "body": "Number of attributes",
+                    "type": "B"
+                },
+                {
+                    "body": "Number of entity instances that can be associated",
+                    "type": "C"
+                },
+                {
+                    "body": "Number of derived attributes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c58f4482-e3ca-4888-8bbf-59014af56404",
+                    "questionID": "a90ac0ca-9f01-4510-b470-d04945db02d9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cardinality defines the number of entities that participate in a relationship.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ae081026-483f-4141-abe4-ab30527ea785",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following attributes can be part of a composite key",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Derived attribute",
+                    "type": "A"
+                },
+                {
+                    "body": "Multivalued attribute",
+                    "type": "B"
+                },
+                {
+                    "body": "Simple attribute",
+                    "type": "C"
+                },
+                {
+                    "body": "Composite attribute",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c44759a4-03fb-42ba-857f-8c5933a29d88",
+                    "questionID": "ae081026-483f-4141-abe4-ab30527ea785",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Composite keys are made up of simple attributes only.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fa74f320-18bf-4eae-a596-8d50a6fbb9e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The disjoint rule in generalization specifies that",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "An entity can belong to multiple subclasses",
+                    "type": "A"
+                },
+                {
+                    "body": "An entity can belong to exactly one subclass",
+                    "type": "B"
+                },
+                {
+                    "body": "Subclasses must be non-overlapping",
+                    "type": "C"
+                },
+                {
+                    "body": "Subclasses should be weak entities",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a45763e2-b5f2-455e-bf98-9185cd6d479f",
+                    "questionID": "fa74f320-18bf-4eae-a596-8d50a6fbb9e0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Disjoint rule = entity belongs to only one of the subclasses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "36096791-b5e0-4450-845d-a8218f5c5f35",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a relation is in 2NF and no transitive dependency exists, it is in",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1NF",
+                    "type": "A"
+                },
+                {
+                    "body": "3NF",
+                    "type": "B"
+                },
+                {
+                    "body": "BCNF",
+                    "type": "C"
+                },
+                {
+                    "body": "4NF",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c41b294f-e7b7-4914-9409-09d271a0b120",
+                    "questionID": "36096791-b5e0-4450-845d-a8218f5c5f35",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This is the condition for a relation to qualify as 3NF.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "88ba47a0-34f8-4c15-8a11-a9dc9c13fd7c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which normal form ensures no transitive dependency exists in a relation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1NF",
+                    "type": "A"
+                },
+                {
+                    "body": "2NF",
+                    "type": "B"
+                },
+                {
+                    "body": "3NF",
+                    "type": "C"
+                },
+                {
+                    "body": "BCNF",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "883e3f73-0d9b-44cc-a301-4d4445e0835f",
+                    "questionID": "88ba47a0-34f8-4c15-8a11-a9dc9c13fd7c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "3NF removes transitive dependencies while preserving dependency preservation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f3df129e-8617-4748-bdb9-f2aeab612d7b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The cross product of two relations R with m tuples and S with n tuples will have",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "m + n tuples",
+                    "type": "A"
+                },
+                {
+                    "body": "m � n tuples",
+                    "type": "B"
+                },
+                {
+                    "body": "m - n tuples",
+                    "type": "C"
+                },
+                {
+                    "body": "Depends on the primary key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3a88a9ac-4a02-40d1-ac00-162e41dcebcf",
+                    "questionID": "f3df129e-8617-4748-bdb9-f2aeab612d7b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cartesian product returns every combination of tuples from both relations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6f90fc87-b8a2-40f3-b7d1-b1a65c3be1f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an ER diagram, attributes that can take more than one value for an entity are",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Derived attributes",
+                    "type": "A"
+                },
+                {
+                    "body": "Single-valued attributes",
+                    "type": "B"
+                },
+                {
+                    "body": "Multivalued attributes",
+                    "type": "C"
+                },
+                {
+                    "body": "Composite attributes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "aba267c0-c97e-4859-9ab3-8f7b875ea3a1",
+                    "questionID": "6f90fc87-b8a2-40f3-b7d1-b1a65c3be1f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Example: A person may have multiple phone numbers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1687b7e6-dcd0-4851-90f1-30b69aa1cf2d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a relational schema, if A ? B and B ? C, then A ? C is an example of",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transitive dependency",
+                    "type": "A"
+                },
+                {
+                    "body": "Partial dependency",
+                    "type": "B"
+                },
+                {
+                    "body": "Multivalued dependency",
+                    "type": "C"
+                },
+                {
+                    "body": "Candidate dependency",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Dependency"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3b133ce9-493a-4132-88fa-b21c33699416",
+                    "questionID": "1687b7e6-dcd0-4851-90f1-30b69aa1cf2d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Transitivity in functional dependencies implies indirect determination.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d1fbf4be-58c2-464a-9729-dde4f2ac4aa3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which one of the following operations is not a basic operation of relational algebra",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Select",
+                    "type": "A"
+                },
+                {
+                    "body": "Union",
+                    "type": "B"
+                },
+                {
+                    "body": "Intersection",
+                    "type": "C"
+                },
+                {
+                    "body": "Merge",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d1d8c2c6-f3c7-48e9-9c6e-9ce2cdbf36a8",
+                    "questionID": "d1fbf4be-58c2-464a-9729-dde4f2ac4aa3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Violation of BCNF happens when a non-candidate key determines part of the primary key.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b21d7e30-cc2b-4356-92c3-b8ff0eade837",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best defines the concept of referential integrity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "No two rows have the same primary key",
+                    "type": "A"
+                },
+                {
+                    "body": "Foreign key values must match primary key values in another table or be null",
+                    "type": "B"
+                },
+                {
+                    "body": "No attribute should be null",
+                    "type": "C"
+                },
+                {
+                    "body": "Every attribute must be atomic",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Referential Integrity"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8ffcde32-c9cb-4c8f-926b-518708264292",
+                    "questionID": "b21d7e30-cc2b-4356-92c3-b8ff0eade837",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Referential integrity ensures valid links between tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5bf756df-7f11-4d80-aa04-9cc61b9b698d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The minimum number of tables required to represent an ER model with ternary relationship is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7e20d60c-e8a6-42d3-9cc9-e3b20b9029ee",
+                    "questionID": "5bf756df-7f11-4d80-aa04-9cc61b9b698d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One relation for each entity (3), and one for the ternary relationship (1) ? 3+1 = 4. But ternary implies at least 3 relations (entity + combined relation).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "643d62ce-b254-4991-8beb-dfd13a1cce99",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A multivalued dependency exists when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One attribute determines many others independently",
+                    "type": "A"
+                },
+                {
+                    "body": "One attribute determines a unique value",
+                    "type": "B"
+                },
+                {
+                    "body": "Composite key determines another attribute",
+                    "type": "C"
+                },
+                {
+                    "body": "Functional dependency fails",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dc0e7cc8-d3f9-4901-b836-bcd8eee33128",
+                    "questionID": "643d62ce-b254-4991-8beb-dfd13a1cce99",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A ? B means for a single A, there can be multiple independent B values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5941197d-9760-4db8-a632-c4685fccd850",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an ER model, total participation is represented by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Dashed line",
+                    "type": "A"
+                },
+                {
+                    "body": "Thick diamond",
+                    "type": "B"
+                },
+                {
+                    "body": "Double line",
+                    "type": "C"
+                },
+                {
+                    "body": "Bold rectangle",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "053ea6f2-d9a4-4467-b6fb-415e637f0db5",
+                    "questionID": "5941197d-9760-4db8-a632-c4685fccd850",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A double line connects the entity to the relationship to indicate total participation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d7ecbfb7-522d-47b8-aed4-35e988464ab8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A composite attribute in ER model is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A derived attribute",
+                    "type": "A"
+                },
+                {
+                    "body": "An attribute with a multivalued dependency",
+                    "type": "B"
+                },
+                {
+                    "body": "An attribute consisting of multiple sub-parts",
+                    "type": "C"
+                },
+                {
+                    "body": "An attribute repeated over multiple entities",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e3ca1b07-e515-48ca-9d8d-859f7c3e98a7",
+                    "questionID": "d7ecbfb7-522d-47b8-aed4-35e988464ab8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Example: Name ? {FirstName, LastName}",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d10103ef-d8c6-47ea-ad94-93df6e8f0b63",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a valid foreign key constraint action",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ON DELETE INCREMENT",
+                    "type": "A"
+                },
+                {
+                    "body": "ON UPDATE CASCADE",
+                    "type": "B"
+                },
+                {
+                    "body": "ON ADD COMMIT",
+                    "type": "C"
+                },
+                {
+                    "body": "ON CHANGE ABORT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c13398b4-8423-48ea-a3b4-0980d6610446",
+                    "questionID": "d10103ef-d8c6-47ea-ad94-93df6e8f0b63",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ON UPDATE CASCADE is used to automatically update foreign key values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0fab1ff6-3660-4929-b04d-03357956d5b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following cannot be a candidate key",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Composite key",
+                    "type": "A"
+                },
+                {
+                    "body": "Redundant key",
+                    "type": "B"
+                },
+                {
+                    "body": "Single attribute key",
+                    "type": "C"
+                },
+                {
+                    "body": "Minimal superkey",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fda6ed68-1f68-4279-be65-ed2fd0673db2",
+                    "questionID": "0fab1ff6-3660-4929-b04d-03357956d5b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Candidate keys must be minimal; redundant keys are not allowed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dd1a4d71-0ce5-427e-946c-59bb67378847",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The key difference between a primary key and a unique key is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Primary key allows nulls",
+                    "type": "A"
+                },
+                {
+                    "body": "Unique key cannot be composite",
+                    "type": "B"
+                },
+                {
+                    "body": "Unique key allows nulls",
+                    "type": "C"
+                },
+                {
+                    "body": "Primary key can repeat values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b2fd893e-63da-45bb-b3ce-1a9ba7dbc5e5",
+                    "questionID": "dd1a4d71-0ce5-427e-946c-59bb67378847",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Unique key allows one null value, while primary key doesn&#39;t allow any.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2b162c6e-d552-4cd8-b750-5ff624ba415e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a valid mapping for a ternary relationship",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Create three binary relations",
+                    "type": "A"
+                },
+                {
+                    "body": "Merge it into one of the entities",
+                    "type": "B"
+                },
+                {
+                    "body": "Create a new relation with all entity keys",
+                    "type": "C"
+                },
+                {
+                    "body": "Use foreign keys only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b569bd7d-2266-4642-82bd-25c3447a0a68",
+                    "questionID": "2b162c6e-d552-4cd8-b750-5ff624ba415e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ternary relationships are mapped as a separate relation containing all participating primary keys.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "501802ed-415f-438f-81be-56a533348cd3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The degree of a relation refers to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Number of tuples",
+                    "type": "A"
+                },
+                {
+                    "body": "Number of attributes",
+                    "type": "B"
+                },
+                {
+                    "body": "Number of candidate keys",
+                    "type": "C"
+                },
+                {
+                    "body": "Number of relationships",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b0b5264b-051e-4ba7-994b-771b9895d28b",
+                    "questionID": "501802ed-415f-438f-81be-56a533348cd3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Degree = number of columns (attributes) in a relation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "568262b0-f8fb-41e6-a563-5d6489ae54b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is not a property of a relation in the relational model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Atomic values",
+                    "type": "A"
+                },
+                {
+                    "body": "Duplicate tuples",
+                    "type": "B"
+                },
+                {
+                    "body": "Unordered tuples",
+                    "type": "C"
+                },
+                {
+                    "body": "Unordered attributes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9ae1229d-3ce7-47e2-9d86-99bd177464eb",
+                    "questionID": "568262b0-f8fb-41e6-a563-5d6489ae54b2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A relation cannot have duplicate tuples; each one is unique.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95e75f45-cf84-41f8-a863-91f1fa5c72ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Derived attributes in an ER model are represented by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Dashed oval",
+                    "type": "A"
+                },
+                {
+                    "body": "Solid oval",
+                    "type": "B"
+                },
+                {
+                    "body": "Double rectangle",
+                    "type": "C"
+                },
+                {
+                    "body": "Dashed diamond",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "047b8e23-86ed-4bc8-a499-7ad265e52977",
+                    "questionID": "95e75f45-cf84-41f8-a863-91f1fa5c72ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Derived attributes (like age from DOB) are shown using dashed ovals.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94a3959b-c25f-45ed-8dfc-71f6cf6c6876",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a superkey in a relational schema",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A candidate key",
+                    "type": "A"
+                },
+                {
+                    "body": "A foreign key",
+                    "type": "B"
+                },
+                {
+                    "body": "A set of attributes that uniquely identifies a tuple",
+                    "type": "C"
+                },
+                {
+                    "body": "A composite key with only prime attributes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "402af68b-5c7d-43a7-9e4d-45cbb5ea99fd",
+                    "questionID": "94a3959b-c25f-45ed-8dfc-71f6cf6c6876",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Any set of attributes that uniquely identifies rows is a superkey.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8952a4a0-7135-4b95-b531-d0b9f5ffa3d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a many-to-many relationship example",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Student � Enrolls � Course",
+                    "type": "A"
+                },
+                {
+                    "body": "Employee � Manages � Department",
+                    "type": "B"
+                },
+                {
+                    "body": "Customer � Owns � Account (in a bank)",
+                    "type": "C"
+                },
+                {
+                    "body": "Employee � Has � ID",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fcfd058b-8f59-4ff0-9c16-5ce38e2e9479",
+                    "questionID": "8952a4a0-7135-4b95-b531-d0b9f5ffa3d8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A student can enroll in many courses, and a course can have many students.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2aec34d0-931e-4f0b-bdec-5abf589628b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about foreign keys",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Can be null",
+                    "type": "A"
+                },
+                {
+                    "body": "Can be composite",
+                    "type": "B"
+                },
+                {
+                    "body": "Must match a candidate key in another table",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot reference the same table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3f3b8d7d-04fc-46aa-b126-a3e3a653bc2b",
+                    "questionID": "2aec34d0-931e-4f0b-bdec-5abf589628b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Foreign keys can consist of multiple columns referencing a composite primary key.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "78a22688-51b5-45ef-9899-c60a66ee2f21",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The ER model is useful for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Implementing low-level storage",
+                    "type": "A"
+                },
+                {
+                    "body": "Representing database schemas conceptually",
+                    "type": "B"
+                },
+                {
+                    "body": "Performing transactions",
+                    "type": "C"
+                },
+                {
+                    "body": "Query optimization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0365a262-e2bc-4e83-837c-280c95c78fd9",
+                    "questionID": "78a22688-51b5-45ef-9899-c60a66ee2f21",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The ER model is a high-level conceptual design tool.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "379f4178-cc92-4877-8949-2ae924a69c1b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not a valid relational algebra operator",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Union",
+                    "type": "A"
+                },
+                {
+                    "body": "Select",
+                    "type": "B"
+                },
+                {
+                    "body": "Project",
+                    "type": "C"
+                },
+                {
+                    "body": "Rename",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Relational Algebra"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4827663b-79ef-4c36-832f-37808f209302",
+                    "questionID": "379f4178-cc92-4877-8949-2ae924a69c1b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rename is part of extended relational algebra, not basic core.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0309cb98-37b6-465d-84f6-1d6d5fd36173",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The participation of an entity set in a relationship set is said to be total if",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Some entities participate",
+                    "type": "A"
+                },
+                {
+                    "body": "All entities participate",
+                    "type": "B"
+                },
+                {
+                    "body": "No entity participates",
+                    "type": "C"
+                },
+                {
+                    "body": "More than one relationship exists",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bfebcec3-3e74-42e9-a623-2bd5c8bb054e",
+                    "questionID": "0309cb98-37b6-465d-84f6-1d6d5fd36173",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Total participation = every entity of the set must be involved in the relationship.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "517e1c95-3b95-470e-a2be-5b091a14afeb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a valid candidate key",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A non-unique attribute",
+                    "type": "A"
+                },
+                {
+                    "body": "A subset of a superkey",
+                    "type": "B"
+                },
+                {
+                    "body": "A minimal superkey",
+                    "type": "C"
+                },
+                {
+                    "body": "A foreign key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "keys"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ecf802a3-0228-4e84-98e2-2788b3d8900f",
+                    "questionID": "517e1c95-3b95-470e-a2be-5b091a14afeb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A candidate key is a minimal set of attributes that can uniquely identify a tuple.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9812488c-685a-4127-94b9-59f8264420ae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does a diamond symbol represent in an ER diagram",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Attribute",
+                    "type": "A"
+                },
+                {
+                    "body": "Entity",
+                    "type": "B"
+                },
+                {
+                    "body": "Relationship",
+                    "type": "C"
+                },
+                {
+                    "body": "Foreign key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3d96d96f-f554-4ecf-b6e1-aaa057b13a89",
+                    "questionID": "9812488c-685a-4127-94b9-59f8264420ae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Relationships are denoted by diamond shapes in ER diagrams.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4efd153c-b9fe-4e13-bc59-06b4ac9d6154",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A relation is in 1NF if",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All attributes are atomic",
+                    "type": "A"
+                },
+                {
+                    "body": "No transitive dependency",
+                    "type": "B"
+                },
+                {
+                    "body": "No partial dependency",
+                    "type": "C"
+                },
+                {
+                    "body": "It has a primary key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normal Form"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c952b333-ad4c-40b8-8425-eb3defee9bba",
+                    "questionID": "4efd153c-b9fe-4e13-bc59-06b4ac9d6154",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each row in a relation is called a tuple.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "795fb6ef-1347-4410-b8d0-32c2bbde44e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about a weak entity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It always has a primary key",
+                    "type": "A"
+                },
+                {
+                    "body": "It depends on a strong entity",
+                    "type": "B"
+                },
+                {
+                    "body": "It participates in total specialization",
+                    "type": "C"
+                },
+                {
+                    "body": "It cannot have attributes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "10283abc-307f-4ba2-aa03-a5bf6993c71f",
+                    "questionID": "795fb6ef-1347-4410-b8d0-32c2bbde44e8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1NF requires attributes to hold atomic (indivisible) values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c664c623-d268-46b7-bbd4-726c15abd9c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an ER diagram, a double rectangle represents",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Multivalued attribute",
+                    "type": "A"
+                },
+                {
+                    "body": "Weak entity",
+                    "type": "B"
+                },
+                {
+                    "body": "Derived attribute",
+                    "type": "C"
+                },
+                {
+                    "body": "Composite attribute",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ER-Diagram"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "908004cf-e847-4486-83d3-a58b7d6b7aaa",
+                    "questionID": "c664c623-d268-46b7-bbd4-726c15abd9c7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A weak entity relies on a strong one for identification.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

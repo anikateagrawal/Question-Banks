@@ -1,0 +1,2304 @@
+{
+    "bank_id": "e4401be0-14df-40bc-8505-9ed8c1fa3c8c",
+    "bank_name": "Week 5 OS",
+    "questions": [
+        {
+            "id": "ca6967ed-4860-4d0d-b17d-375f772a7ef5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following leads to <strong>thrashing</strong> in a virtual memory system?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Large number of CPU-bound processes</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Excessive page faults and low CPU utilization</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Too many I/O-bound processes</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Large page size</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "99422ccc-2672-4a5b-8f39-d78244de3305",
+                    "questionID": "ca6967ed-4860-4d0d-b17d-375f772a7ef5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> Thrashing occurs when frequent page faults reduce CPU utilization significantly.</p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3fd66877-ca1f-4b09-bcd0-44b082eb5886",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following <strong>is not</strong> a necessary condition for deadlock?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Mutual exclusion</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>No preemption</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Circular wait</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Bounded waiting</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ecdd94f2-0fe4-429c-b24e-53d746cbda12",
+                    "questionID": "3fd66877-ca1f-4b09-bcd0-44b082eb5886",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> D</p><p><strong>Explanation:</strong> Bounded waiting is not part of the Coffman conditions for deadlock.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce2f580e-65ce-4830-a6e0-ae5c70c70006",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is true about <strong>binary semaphores</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>They are used only for resource counting.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>They can only have values 0 or 1.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>They are always initialized to the number of resources</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>&nbsp;They guarantee deadlock-free execution</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b479a209-8554-43d4-922e-1034b6128c23",
+                    "questionID": "ce2f580e-65ce-4830-a6e0-ae5c70c70006",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> Binary semaphores (mutex) have values 0 or 1 and are used for mutual exclusion.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a908afad-fc6d-410f-ab31-51e0a93bae7d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In <strong>Shortest Remaining Time First (SRTF)</strong>, a process is <strong>preempted</strong> when:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A new process arrives with smaller total burst time.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A new process arrives with smaller remaining time.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>The running process completes.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>CPU becomes idle.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "71b4822d-194b-4655-8f6b-7d918c073155",
+                    "questionID": "a908afad-fc6d-410f-ab31-51e0a93bae7d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> SRTF preempts only if the new process has smaller <em>remaining</em> time.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fec4d961-ba19-4062-a1e1-85eda1154129",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>&nbsp;A logical address is 32-bits long, and the page size is 4KB. How many bits are used for the <strong>page number</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>10</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>22</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7eb7f535-c47a-4ded-aee0-8baacb8305a8",
+                    "questionID": "fec4d961-ba19-4062-a1e1-85eda1154129",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C</p><p><strong>Explanation:</strong> 4KB = 2¹² → Offset bits = 12; Page number bits = 32 - 12 = 20.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a8934ef3-6cf0-463a-a545-c9752c14c0cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Consider a system with 4 frames. Using <strong>FIFO page replacement</strong>, what is the <strong>number of page faults</strong> for the reference string 1,2,3,4,1,2,5,1,2,3,4,5?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>9</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5c2a4bf0-9ed6-4c00-b2ff-3dc15fac6401",
+                    "questionID": "a8934ef3-6cf0-463a-a545-c9752c14c0cf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> FIFO replaces the oldest pages first; simulate step by step to get 10 page faults.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0a4244e-c072-4641-a1aa-e73f60336e81",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>&nbsp;In a <strong>wait-for graph</strong>, if there is a cycle:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Deadlock definitely exists.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Deadlock may or may not exist.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>No deadlock is possible.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Deadlock occurs only if resources are sharable.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 10,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dcfb3ad6-51b8-4d00-ade4-836ab9dc8576",
+                    "questionID": "c0a4244e-c072-4641-a1aa-e73f60336e81",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> A</p><p><strong>Explanation:</strong> A cycle in a wait-for graph implies a deadlock for single-instance resources.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f7468c03-4aa6-4ef4-a4b7-20a5838344fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>&nbsp;Which of the following is <strong>not true</strong> about threads compared to processes?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Threads share the same address space.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Thread switching is faster than process switching.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Threads are completely independent like processes.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Threads can share open files.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5cb50119-61d4-45e4-9ad0-7e0ce185eab0",
+                    "questionID": "f7468c03-4aa6-4ef4-a4b7-20a5838344fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Threads are not completely independent—they share resources, unlike processes.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "35257b00-ba13-42c7-853f-07b733ece49c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a priority scheduling algorithm, <strong>aging</strong> is used to:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Increase the burst time of older processes.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Prevent starvation of low priority processes.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Reduce the context switching overhead.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Increase the priority of newly arrived processes.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4b77b3a6-6ece-419f-8fee-823ade8f932c",
+                    "questionID": "35257b00-ba13-42c7-853f-07b733ece49c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> Aging gradually increases the priority of waiting processes to avoid starvation.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e3b55dd6-c888-4c53-87a8-d8ca49569b28",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following statements is <strong>true</strong> regarding LOOK and SCAN disk scheduling algorithms?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>LOOK always results in fewer head movements than SCAN.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>SCAN always scans to the end of the disk regardless of requests.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>LOOK moves the head till the last cylinder.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SCAN ignores requests that are at current head position.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ad67da4d-a6da-4c69-b7e3-b3a6d5a6ddb0",
+                    "questionID": "e3b55dd6-c888-4c53-87a8-d8ca49569b28",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> SCAN moves the head to the extreme end regardless of requests, unlike LOOK, which stops at the last request in the direction.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "487daf15-761d-42f2-b766-e03104f8cd3f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;Which algorithm is used in UNIX systems for CPU scheduling?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>FCFS</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Priority with Aging</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Multilevel Feedback Queue</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SJF</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8c4797e6-b0cb-4fb2-9366-bc4682ff8cb4",
+                    "questionID": "487daf15-761d-42f2-b766-e03104f8cd3f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> C) Multilevel Feedback Queue</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> UNIX systems (e.g., Linux) use </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Multilevel Feedback Queues</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> with aging and dynamic priority.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "104edb7f-8664-4b24-80d3-6aaaf0898524",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>which is true about context switches</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>it improves CPU efficiency</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">It is time-saving</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;It adds overhead</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Happens only in FCFS</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "97792d0c-db54-49ae-8b2a-23f7f43199c5",
+                    "questionID": "104edb7f-8664-4b24-80d3-6aaaf0898524",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> C) It adds overhead</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Every </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">context switch</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> consumes CPU time without doing real work.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ab64367-9a2e-49f9-affe-63a8c024c42b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent;\">&nbsp;In SRTF (preemptive SJF), the CPU switches if:</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">New process with longer burst arrives</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Current process finishes</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">New process with shorter burst arrives</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Time quantum expires</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "17ad5b04-4add-4fbb-9846-6f3ffabd1aaf",
+                    "questionID": "6ab64367-9a2e-49f9-affe-63a8c024c42b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> C) New process with shorter burst arrives</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> SRTF always picks process with </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">shortest remaining time</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9cfbb49b-06ac-4b0c-9e93-9c8c97df5b80",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent;\">Which is <em>not</em> used in Multilevel Feedback Queue scheduling?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Process aging</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>multiple queue</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>movement between queues</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Fixed priority queues with no movement</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "57b94a41-d9da-4b82-b9d1-601e5e4f2551",
+                    "questionID": "9cfbb49b-06ac-4b0c-9e93-9c8c97df5b80",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> D) Fixed priority queues with no movement</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> That describes </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Multilevel Queue</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">, not </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Feedback Queue</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">, where processes </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">can move</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0af99375-02d7-4dcd-b74f-1a838a7f0b6f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent;\">Which scheduling algorithm supports aging to prevent starvation?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>SJF</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Preemptive Priority</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>FCFS</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Priority with aging</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ea336c32-3cd7-42d8-bff2-7b178bc1ee04",
+                    "questionID": "0af99375-02d7-4dcd-b74f-1a838a7f0b6f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> D) Priority with Aging</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Aging</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> increases priority of waiting processes over time, avoiding starvation.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "98d8bb61-e054-44f4-9a3f-6eb59054399e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">With Preemptive Priority Scheduling, which process may face starvation?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>High-priority</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Medium-priority</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Low-priority</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Any process</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8a326945-0a18-4413-9ee8-d40b13a486cc",
+                    "questionID": "98d8bb61-e054-44f4-9a3f-6eb59054399e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> C) Low-priority</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Continuous arrival of higher-priority processes keeps low-priority ones waiting.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "947da3e4-6ea2-4ad7-8d3d-6b28023c23c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Which algorithm may produce the <em>same</em> result as SJF when all processes arrive at time 0 and are sorted by burst time?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>FCFS</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Priority Scheduling</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>RR</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "664780ed-d608-45b5-8b56-d5fcd8a32ecd",
+                    "questionID": "947da3e4-6ea2-4ad7-8d3d-6b28023c23c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> A) FCFS</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> If </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">arrival time = 0</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> and order = burst time order, FCFS = SJF.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f8445b85-59a4-4a55-8708-36ae3cb80d34",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent;\">In Round Robin with quantum = 4, and processes:</strong></p><p><strong style=\"background-color: transparent;\"> P1=10, P2=5, P3=8 — what is the first process to finish?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>P1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>P2</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>P3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Can not determine</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "45784b72-51e5-42a7-8dd2-7425b9426537",
+                    "questionID": "f8445b85-59a4-4a55-8708-36ae3cb80d34",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> B) P2</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong></p><ul><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P1 → 4 left=6</span></li><li><br></li><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P2 → 4 left=1</span></li><li><br></li><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P3 → 4 left=4</span></li><li><br></li><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P1 → 4 left=2</span></li><li><br></li><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P2 → 1 → </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">done</strong></li><li><br></li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "454cf182-3870-4497-80f8-b4ef96ec307b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent;\">In SJF (non-preemptive), with burst times P1=6, P2=2, P3=8, P4=3, what is avg waiting time?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>7</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>4.75</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>6</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "836bd40a-8e23-4bfe-99ad-33fcb68dd30c",
+                    "questionID": "454cf182-3870-4497-80f8-b4ef96ec307b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;</span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:Answer</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Order: P2 (2) → P4 (3) → P1 (6) → P3 (8)</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Wait: 0, 2, 5, 11 ⇒ Avg = </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">4.75</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c2f28f88-b7dc-4c0b-a068-8bde342d55d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Consider processes P1 (burst=6), P2 (burst=8), P3 (burst=7), P4 (burst=3).</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Using FCFS, what is average waiting time?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>5.5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10.25</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>9.5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "70dc828f-f922-4780-9e2d-d7e8d6456935",
+                    "questionID": "c2f28f88-b7dc-4c0b-a068-8bde342d55d2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> B) 10.25</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Order: P1→P2→P3→P4</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Wait times:</span></p><ul><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P1 = 0</span></li><li><br></li><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P2 = 6</span></li><li><br></li><li><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P3 = 14</span></li><li><br></li></ul><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">P4 = 21</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Avg = (0+6+14+21)/4 = </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">10.25</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32728dcf-0e2c-4527-9ce1-8e5cf27dc25f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent;\">Which of the following can cause starvation?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Round Robin</span></p><p><br></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>FCFS</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>SJF</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Multilevel Feedback Queue</span></p><p><br></p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "41b1a92d-12f3-467c-98be-0553452ecb96",
+                    "questionID": "32728dcf-0e2c-4527-9ce1-8e5cf27dc25f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> C) SJF</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> SJF can cause </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">long processes</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> to wait indefinitely if short ones keep arriving</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e005e589-72ff-49e9-a214-fd5118359e23",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;What does increasing the time quantum in Round Robin cause?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">More fairness</span></p><p><br></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Reduced context switch overhead</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">&nbsp;Behavior closer to FCFS</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Both B and C</span></p><p><br></p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e4e1167d-3964-460c-bacc-234f24f3d885",
+                    "questionID": "e005e589-72ff-49e9-a214-fd5118359e23",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> D) Both B and C</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> Large quantum = </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">fewer switches</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> + </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">more like FCFS</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> behavior.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e758b6d0-c02e-4558-a294-4ac10290c590",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Round Robin is most suitable for which type of system?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Batch</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Real-time</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Time-sharing</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Embedded</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e02fb676-b746-47b2-b1b1-105800b90738",
+                    "questionID": "e758b6d0-c02e-4558-a294-4ac10290c590",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> C) Time-sharing</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> RR gives </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">equal CPU time to all</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">, ideal for </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">interactive/multitasking environments</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6df127a8-cada-4905-af39-6f772b33de2f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Which algorithm reduces average waiting time the most in ideal conditions?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>FCFS</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Round Robin</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Shortest Job First</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Priority Scheduling</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "93a0a834-e758-4dc2-a699-dfc0d95c3bf1",
+                    "questionID": "6df127a8-cada-4905-af39-6f772b33de2f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> C) Shortest Job First</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> SJF executes the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">shortest jobs first</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">, reducing the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">average waiting time</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "835d6b46-022c-4fe3-8ffe-03eda67ccfc1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Which scheduling algorithm is non-preemptive by default?</strong></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Round Robin</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">FCFS</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Priority Scheduling</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SRTF</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "42d769e5-b349-45c1-85a3-7612d99ec0cc",
+                    "questionID": "835d6b46-022c-4fe3-8ffe-03eda67ccfc1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Answer:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> B) FCFS</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Explanation:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> FCFS executes processes in the order of arrival and does </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">not allow preemption</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6964f72e-dcf0-41be-8424-5e9de9487d82",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given the page reference string: 1, 2, 3, 2, 4, 1, 5 with 3 page frames, how many page faults occur using FIFO?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>6</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>7</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "979f2d76-3f64-4cf5-acad-015f5477d4ec",
+                    "questionID": "6964f72e-dcf0-41be-8424-5e9de9487d82",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ B) 6</p><p><br></p><p><strong>Explanation:</strong></p><p><br></p><p>FIFO:</p><ul><li><br></li><li><br></li><li>Pages in memory: [1], [1,2], [1,2,3] → page fault</li><li><br></li><li><br></li><li><br></li><li>2 → hit</li><li><br></li><li><br></li><li><br></li><li>4 → replace 1 → [4,2,3] → fault</li><li><br></li><li><br></li><li><br></li><li>1 → replace 2 → [4,1,3] → fault</li><li><br></li><li><br></li><li><br></li><li>5 → replace 3 → [4,1,5] → fault</li><li><br></li><li>➡ Total = 6 page faults</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "83686214-4cf3-488f-99f7-2e2cd94d8ad4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In demand paging, what happens when a page needed by the process is not in memory?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Page is ignored</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Page is replaced with a random one</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Page fault occurs, and the required page is loaded from disk</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>CPU halts</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0c1b055a-8eae-490f-bfaf-86811e6f683a",
+                    "questionID": "83686214-4cf3-488f-99f7-2e2cd94d8ad4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ C) Page fault occurs, and the required page is loaded from disk</p><p><strong>Explanation:</strong></p><p><strong>Demand paging</strong> only loads pages when needed. If not present, a <strong>page fault</strong> is triggered, and the <strong>OS loads the page from disk</strong> into RAM.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ac14ad8d-acb9-47a2-8ecb-0547a1cda3bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following best differentiates paging from segmentation?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Paging deals with variable-sized blocks; segmentation with fixed-sized</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Paging is for protection, segmentation is for performance</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Paging divides memory into fixed-size frames; segmentation into logical units like functions/arrays</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Paging causes external fragmentation</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "08ff9aa1-0e7c-404f-bdfa-9c6283fdd59e",
+                    "questionID": "ac14ad8d-acb9-47a2-8ecb-0547a1cda3bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ C) Paging divides memory into fixed-size frames; segmentation into logical units like functions/arrays</p><p><br></p><p><strong>Explanation:</strong></p><ul><li><br></li><li><br></li><li><strong>Paging</strong>: divides memory into equal-size blocks → avoids external fragmentation.</li><li><br></li><li><br></li><li><br></li><li><strong>Segmentation</strong>: divides based on <strong>logical program structure</strong>, e.g., code, stack, data.</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "77c27d9c-0577-4023-bd87-e228b07cf94c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What major issue arises in contiguous memory allocation strategies?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>External Fragmentation</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Internal Fragmentation</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Page Faults</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Thrashing</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "064856bf-ebc5-4321-9b4e-853fb08eb560",
+                    "questionID": "77c27d9c-0577-4023-bd87-e228b07cf94c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ A) External Fragmentation</p><p><strong>Explanation:</strong></p><p><br></p><p>In contiguous allocation, memory is allocated in one continuous block. Over time, small <strong>free gaps</strong> appear between blocks—this is <strong>external fragmentation</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1a7c388d-6cfa-439a-adb0-7999196ecd79",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a system with virtual memory, which of the following is true about logical and physical addresses?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Logical address is generated by the MMU and used by RAM directly</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Physical address is generated by the CPU</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Logical address is used by the program; physical address is used by memory hardware</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Logical and physical addresses are always the same</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4669e7b5-99c0-4ef8-a30a-d5825fa8dac8",
+                    "questionID": "1a7c388d-6cfa-439a-adb0-7999196ecd79",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ C) Logical address is used by the program; physical address is used by memory hardware</p><p><strong>Explanation:</strong></p><p><br></p><p>The <strong>CPU generates logical addresses</strong>, and the <strong>MMU translates them into physical addresses</strong>. Programs work with logical addresses, unaware of the actual memory location.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0e1a46eb-7da6-4705-bb72-35999fffa3d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Consider the reference string: 7, 0, 1, 2, 0, 3, 0, 4 with 3 page frames. How many page faults occur using <strong>FIFO</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>6</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>7</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f08cc4b7-e321-4a0a-bab1-f6c93ba60007",
+                    "questionID": "0e1a46eb-7da6-4705-bb72-35999fffa3d2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: B (7)</strong></p><p><br></p><p><strong>Explanation</strong>:</p><ul><li><br></li><li><br></li><li>Start with empty memory.</li><li><br></li><li><br></li><li><br></li><li>Insert 7 → PF</li><li><br></li><li><br></li><li><br></li><li>Insert 0 → PF</li><li><br></li><li><br></li><li><br></li><li>Insert 1 → PF</li><li><br></li><li><br></li><li><br></li><li>2 replaces 7 (FIFO) → PF</li><li><br></li><li><br></li><li><br></li><li>0 is present → no PF</li><li><br></li><li><br></li><li><br></li><li>3 replaces 0 → PF</li><li><br></li><li><br></li><li><br></li><li>0 replaces 1 → PF</li><li><br></li><li><br></li><li><br></li><li>4 replaces 2 → PF</li><li><br></li><li><strong>Total = 7 page faults</strong></li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de10ec62-9755-4e85-a12a-24a7f4547856",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which page replacement algorithm gives the <strong>best performance</strong> but is not practically implementable?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> FIFO</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>LRU</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Optimal</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Clock</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3190f43f-74b8-48ef-ad57-fb5d730b04cf",
+                    "questionID": "de10ec62-9755-4e85-a12a-24a7f4547856",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: C</strong></p><p><strong>Explanation</strong>: The <strong>Optimal</strong> algorithm replaces the page that <strong>will not be used for the longest time in the future</strong>, giving the <strong>best page fault rate</strong>, but it's <strong>not possible</strong> to implement because it requires <strong>future knowledge</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d243a9a8-f437-4011-a3ef-d529c215905f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In LRU page replacement, which of the following is replaced?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Page with the lowest frequency</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Page used farthest in future</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Page not used for the longest time</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Oldest loaded page</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "df9ad10f-ce6d-4fbb-b2a9-d5dbc7472624",
+                    "questionID": "d243a9a8-f437-4011-a3ef-d529c215905f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: C</strong></p><p><strong>Explanation</strong>: <strong>LRU (Least Recently Used)</strong> replaces the page that has <strong>not been used for the longest time</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5f544988-ab6e-40c7-828b-cf77d237f8ec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In FIFO page replacement algorithm, which page is replaced?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>The page that is least recently used</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>The page that is most recently used</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>The page that was loaded first</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>The page with the smallest page number</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7bab412f-c893-41b7-83f8-134d08e2f7c8",
+                    "questionID": "5f544988-ab6e-40c7-828b-cf77d237f8ec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: C</strong></p><p><strong>Explanation</strong>: FIFO (<strong>First In First Out</strong>) replaces the <strong>oldest page</strong> in memory (the one that came in <strong>first</strong>) when a new page needs to be loaded.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ed301daf-bc86-46b4-ac3f-9c25c2c4cabf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following causes a page fault?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Referencing a page that is already in memory</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Referencing a page not present in memory</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Writing to a read-only page</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Loading a page into disk</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0f17db38-0484-4c6d-9348-6b4700d76e37",
+                    "questionID": "ed301daf-bc86-46b4-ac3f-9c25c2c4cabf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: B</strong></p><p><strong>Explanation</strong>: A <strong>page fault</strong> occurs when a program tries to access a page that is <strong>not currently in memory</strong>. The operating system then loads it from disk into RAM.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "407bd796-7c9b-4380-a150-3c6a1c4d160a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is NOT a valid process state?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>running</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ready</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>executed</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>blocked</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "35c4f229-0330-411e-8e20-53124b1cca06",
+                    "questionID": "407bd796-7c9b-4380-a150-3c6a1c4d160a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C) Executed</strong></p><p><br></p><p><strong>Explanation:</strong> There is no state called \"Executed\" in process life cycle. Valid states: New, Ready, Running, Waiting (Blocked), Terminated.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0716ff68-98f5-443a-b934-d61898785987",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of these memory management schemes suffers from external fragmentation?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>paging</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>segmentation</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>demand paging</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>virtual memory</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "segmentation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "40a7f962-b45b-4117-b453-9898130cbf70",
+                    "questionID": "0716ff68-98f5-443a-b934-d61898785987",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: B) Segmentation</strong></p><p><br></p><p> <strong>Explanation:</strong> Segmentation allocates memory in variable-size segments, causing <strong>external fragmentation</strong> as free space gets scattered.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9cac3d75-65ac-4f36-8765-715a8cad0a2b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Page fault occurs when:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A page is not found in main memory</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A page is removed from memory</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>The OS crashes</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of the above</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "577d8e27-c38f-490f-b773-7f8d2d7ead2b",
+                    "questionID": "9cac3d75-65ac-4f36-8765-715a8cad0a2b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: A) A page is not found in main memory</strong></p><p><br></p><p> <strong>Explanation:</strong> When a program tries to access a memory page not loaded into RAM, a <strong>page fault</strong> occurs and the OS loads it from disk.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7b3f14ef-1a7d-460b-864d-c73546a56a09",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>which of the following is used to avoid deadlock</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Wait-for graph</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Banker's Algorithm</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Preemptive Scheduling</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Swapping</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1c0df33a-3953-4a11-aa7b-8e80dbebcd6a",
+                    "questionID": "7b3f14ef-1a7d-460b-864d-c73546a56a09",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: B) Banker's Algorithm</strong></p><p><br></p><p> <strong>Explanation:</strong> Banker's algorithm checks whether granting a resource request leads to a <strong>safe state</strong>, preventing deadlocks.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "74ceab0d-8209-47a6-ad93-bd7eeb615cbb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>In Round Robin scheduling, the time quantum is:</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>variable</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>zero</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>fixed</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>based on process size</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d09eab4c-e7fa-418c-b9d4-d692bf27211b",
+                    "questionID": "74ceab0d-8209-47a6-ad93-bd7eeb615cbb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C) Fixed</strong></p><p><br></p><p> <strong>Explanation:</strong> Round Robin assigns a <strong>fixed time slice</strong> to each process. It’s fair and prevents starvation.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eb264d46-9f6a-4dc6-a90e-67cb76372ca4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following ensures that either all operations of a transaction are reflected or none?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Atomicity</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Consistency</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Isolation</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Durability</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e4658c25-0b53-4df3-9702-b6cc9bd0537f",
+                    "questionID": "eb264d46-9f6a-4dc6-a90e-67cb76372ca4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: A) Atomicity</strong></p><p><br></p><p> <strong>Explanation:</strong> Atomicity ensures that all steps of a transaction are completed successfully. If even one step fails, the entire transaction is rolled back.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2c05b15f-acd5-4e34-9079-8a59710d55e7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A foreign key in one table is:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A primary key in the same table</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A unique key in the same table</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>A primary key in another table</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of the above</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "key"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3f70b9e0-7694-4773-a37e-dacbadeef061",
+                    "questionID": "2c05b15f-acd5-4e34-9079-8a59710d55e7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C) A primary key in another table</strong></p><p><br></p><p> <strong>Explanation:</strong> A foreign key is used to link two tables. It refers to the <strong>primary key</strong> of another table to maintain <strong>referential integrity</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5169e5f5-c07e-4718-8964-be388cbb31db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> In normalization, which normal form removes partial dependency?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1NF</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2NF</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3NF</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>BCNF</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Normalization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "33c3e5b6-7fd4-44ef-a659-3f00c12781f9",
+                    "questionID": "5169e5f5-c07e-4718-8964-be388cbb31db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: B) 2NF</strong></p><p><strong>Explanation:</strong> Partial dependency exists when a non-prime attribute depends on part of a candidate key. 2NF removes this by ensuring that all non-prime attributes depend on the <strong>whole</strong> primary key.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9b05b41d-fa5b-4163-b018-5ccdd76c4e06",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does the <code>ROLLBACK</code> command do in SQL?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Saves the changes permanently</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Cancels the last query</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> Undoes all changes made in the current transaction</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Deletes a table</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fee48324-35ff-4fac-9c5b-c66ab6a5132d",
+                    "questionID": "9b05b41d-fa5b-4163-b018-5ccdd76c4e06",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>C) Undoes all changes</strong></p><p><br></p><p> <strong>Explanation:</strong><code>ROLLBACK</code> is part of transaction control. It reverses all changes made by the current transaction, restoring the database to the last stable state.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6b9552c-af38-4c94-9591-3ec07b2606be",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is a DDL command?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>select</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>update</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>create</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>insert</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ddbms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "86cbdeaa-5104-433e-9cb0-4ca585be92c4",
+                    "questionID": "d6b9552c-af38-4c94-9591-3ec07b2606be",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong> DDL (Data Definition Language) includes commands that define the structure of the database (like <code>CREATE</code>, <code>DROP</code>, <code>ALTER</code>). <code>CREATE</code> is used to make new tables or objects.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e80bf2fc-6b7b-484f-a34e-7a0b696cb643",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If a program is loaded into memory starting at physical address 1000, and the logical address is 500, what is the physical address?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>500</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1000</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1500</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>100</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0263a4fe-e1b0-4daf-9725-04ad2a845eec",
+                    "questionID": "e80bf2fc-6b7b-484f-a34e-7a0b696cb643",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Physical Address = Base Address + Logical Address</p><p><br></p><p>→ 1000 + 500 = 1500</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1220fee-85c0-4dd2-9fa7-b8015e2e0671",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In which scheme do logical and physical addresses differ?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Compile-time binding</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Load-time binding</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Execution-time binding</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Static allocation</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8f665aca-26c3-44ba-a171-9883b48368ba",
+                    "questionID": "f1220fee-85c0-4dd2-9fa7-b8015e2e0671",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>When address binding is done <strong>during execution</strong>, logical addresses are mapped to physical ones dynamically, and therefore, they can differ. This provides flexibility and enables features like memory relocation.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d06b9206-a61d-4717-9516-c3156fdc7079",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is true?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Logical and physical addresses are always the same</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Logical address exists only at compile time</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Physical address is generated by the compiler</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Logical address is translated to physical address at runtime </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "193a2c15-5233-4a12-aaa6-909eaccb6d7d",
+                    "questionID": "d06b9206-a61d-4717-9516-c3156fdc7079",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The logical address is created by the CPU, and is <strong>translated to a physical address</strong> by the MMU during program execution. This allows for memory protection and virtual memory.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dee64d14-1dfb-4ce0-835b-1bafce00f652",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The mapping from logical to physical address is handled by:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>CPU</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Compiler</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>MMU (Memory Management Unit)</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>User program</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e52746d6-3204-442f-9702-eaf52b83d1ab",
+                    "questionID": "dee64d14-1dfb-4ce0-835b-1bafce00f652",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The <strong>Memory Management Unit (MMU)</strong> is responsible for translating logical addresses to physical addresses at runtime using memory mapping techniques like paging or segmentation</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5e399d1c-5a95-40d8-b769-7ccfc4bebb60",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is a logical address in an operating system?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>The actual location in RAM</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>The address seen by the CPU</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>The address used by the OS to access I/O devices</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>A pointer to disk block</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0a8db66e-2a8b-4061-b0fa-1f6af84950ce",
+                    "questionID": "5e399d1c-5a95-40d8-b769-7ccfc4bebb60",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Logical address is generated by the <strong>CPU</strong> when a program runs. It’s a virtual reference. The actual physical memory location is calculated later using a mapping mechanism like the MMU (Memory Management Unit).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

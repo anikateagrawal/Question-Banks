@@ -1,0 +1,1581 @@
+{
+    "bank_id": "5283bb7e-3d3d-455e-9797-4ae974940867",
+    "bank_name": "DSA-Week-3",
+    "questions": [
+        {
+            "id": "32f3be6a-32a3-4ded-a148-0daae398e7c1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the Output of given code\n [type=code]\n Node head = new Node(10)\n head.next = new Node(20)\n head.next.next = null\n System.out.println(head.next.next)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "20",
+                    "type": "A"
+                },
+                {
+                    "body": "null",
+                    "type": "B"
+                },
+                {
+                    "body": "10",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ab9fef42-e30a-4fba-ade6-ac6047d75b24",
+                    "questionID": "32f3be6a-32a3-4ded-a148-0daae398e7c1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "next of the last node is null",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "97a27fdd-4bb7-40d4-b950-8ea5dd5299b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What does this code do\n [type=code]\n Node mid(Node head) {\n  Node slow = head, fast = head\n  while (fast != null &amp;&amp; fast.next != null) {\n  slow = slow.next\n  fast = fast.next.next\n  }\n  return slow\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Finds end",
+                    "type": "A"
+                },
+                {
+                    "body": "Deletes node",
+                    "type": "B"
+                },
+                {
+                    "body": "Finds middle",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "acce2f73-3cf1-45d9-8983-58756dce0568",
+                    "questionID": "97a27fdd-4bb7-40d4-b950-8ea5dd5299b2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Slow-fast pointer technique.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "23b32643-6592-4eff-803d-70f44869bf5c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the result\n [type=code]\n Node a = new Node(3)\n Node b = new Node(4)\n a.next = b\n b = null\n System.out.println(a.next.data)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "4",
+                    "type": "B"
+                },
+                {
+                    "body": "null",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "424ab2a9-899b-4de4-83f6-e56fcb34610b",
+                    "questionID": "23b32643-6592-4eff-803d-70f44869bf5c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "a.next still points to b, even if b = null",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4549288b-6e82-43e5-9b62-0936025d50be",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Choose correct insertion at end logic\n [type=code]\n \n Node insertEnd(Node head, int data) {\n  Node temp = new Node(data)\n  if (head == null) return temp\n  Node curr = head\n  while (curr.next != null) curr = curr.next\n  curr.next = temp\n  return head\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Appends at head",
+                    "type": "A"
+                },
+                {
+                    "body": "Reverses",
+                    "type": "B"
+                },
+                {
+                    "body": "Appends at tail",
+                    "type": "C"
+                },
+                {
+                    "body": "Deletes node",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9d5c89fb-d048-4f22-a9ef-621f0cc62579",
+                    "questionID": "4549288b-6e82-43e5-9b62-0936025d50be",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It traverses till end and adds new node.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4a23dc38-d8f0-4292-ab13-4438706563ba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Identify the bug\n [type=code]\n Node head = null\n head.next = new Node(2)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Valid",
+                    "type": "A"
+                },
+                {
+                    "body": "NullPointerException",
+                    "type": "B"
+                },
+                {
+                    "body": "Prints 2",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "87c2ff12-fb8a-4445-90b2-ba52e4eb70ed",
+                    "questionID": "4a23dc38-d8f0-4292-ab13-4438706563ba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cannot access next on null",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "00d207cd-c905-4b21-beda-b1be5606c4eb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the space complexity of a singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n²)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7afca557-f9af-4507-aa9d-ea2a35d69dec",
+                    "questionID": "00d207cd-c905-4b21-beda-b1be5606c4eb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One node stores one value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "289af610-8a0a-490d-a8ff-555033a0fddf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What does the following recursive function do\n [type=code]\n void mystery(Node head) {\n  if (head == null) return\n  mystery(head.next)\n  System.out.print(head.data + &#34; &#34;)\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Prints list in forward order",
+                    "type": "A"
+                },
+                {
+                    "body": "Reverses the list",
+                    "type": "B"
+                },
+                {
+                    "body": "Prints list in reverse order",
+                    "type": "C"
+                },
+                {
+                    "body": "Deletes every alternate node",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "977769cf-2aa3-47be-b4d7-85261dbc5e5d",
+                    "questionID": "289af610-8a0a-490d-a8ff-555033a0fddf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Due to the recursive call before printing, elements are printed in reverse order.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "65d965b2-3a7b-4bc0-95bf-d2b0a7a4eddf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following operations has O(1) time complexity in an array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Insertion at the end",
+                    "type": "A"
+                },
+                {
+                    "body": "Searching an element",
+                    "type": "B"
+                },
+                {
+                    "body": "Insertion at the beginning",
+                    "type": "C"
+                },
+                {
+                    "body": "Deletion at the middle",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "63f912e8-ef70-4fb5-9e59-0d8781f39c0d",
+                    "questionID": "65d965b2-3a7b-4bc0-95bf-d2b0a7a4eddf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Insertion at End (O(1)) - For fixed-size arrays, Java allows constant-time insertion at the last index, unless resizing is required (in case of ArrayList).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c8c0bb80-01f4-417c-affb-00a5af4485a4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is NOT a linear data structure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stack",
+                    "type": "A"
+                },
+                {
+                    "body": "Queue",
+                    "type": "B"
+                },
+                {
+                    "body": "Tree",
+                    "type": "C"
+                },
+                {
+                    "body": "Array",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f348401e-ad58-4f04-8022-c6007b1680f8",
+                    "questionID": "c8c0bb80-01f4-417c-affb-00a5af4485a4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Tree is not linear - Trees have hierarchical (not sequential) relationships, unlike arrays or linked lists",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5915cafd-9b6e-4206-9cb3-920961f28870",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is a data structure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A way to store and organize data efficiently",
+                    "type": "A"
+                },
+                {
+                    "body": "A type of database",
+                    "type": "B"
+                },
+                {
+                    "body": "A programming language",
+                    "type": "C"
+                },
+                {
+                    "body": "A method for writing algorithms",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b15d5102-e967-4d29-89eb-1048a40f1bed",
+                    "questionID": "5915cafd-9b6e-4206-9cb3-920961f28870",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Data Structure - Efficient storage and organization of data using constructs like arrays, lists, stacks, etc. Java provides in-built support for many of these via collections framework.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ddd52a54-3d70-42c0-b022-9ce1158fe5a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the time complexity of deleting the last node in a circular linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cc035570-6296-44a2-97ff-3607d8d15e31",
+                    "questionID": "ddd52a54-3d70-42c0-b022-9ce1158fe5a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "You must find the node before the last node.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ebe2d28e-50c0-4af4-ac65-c04c7b6a7fa5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is a disadvantage of a circular linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Cannot be implemented in Java",
+                    "type": "A"
+                },
+                {
+                    "body": "Cannot traverse easily using a while loop",
+                    "type": "B"
+                },
+                {
+                    "body": "Takes more memory than a singly linked list",
+                    "type": "C"
+                },
+                {
+                    "body": "More complex insertion and deletion operations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a8803ef5-05a4-46c5-8eb7-a8001cb98d98",
+                    "questionID": "ebe2d28e-50c0-4af4-ac65-c04c7b6a7fa5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Maintaining links carefully is more involved.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a224dd05-6c45-40a7-80e6-954dab1c79c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What differentiates a circular linked list from a normal linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "You cannot have the ‘next’ pointer point to null in a circular linked list",
+                    "type": "A"
+                },
+                {
+                    "body": "It is faster to traverse the circular linked list",
+                    "type": "B"
+                },
+                {
+                    "body": "In a circular linked list, each node points to the previous node instead of the next node",
+                    "type": "C"
+                },
+                {
+                    "body": "Head node is known in circular linked list",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b3861126-8a81-46ed-b7eb-3bb7a351df4d",
+                    "questionID": "a224dd05-6c45-40a7-80e6-954dab1c79c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In a normal linked list, the ‘next’ pointer of the last node points to null. However, in a circular linked list, the ‘next’ pointer of the last node points to the head (first element) of the list. Every node in a circular linked list can be a starting point(head).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5ea4589b-b024-44ad-9d37-980ec683fcdd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the time complexity of searching for an element in a circular linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(nlogn)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n2)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "97a6faf9-a59b-4195-9b08-f1923e5e5b4d",
+                    "questionID": "5ea4589b-b024-44ad-9d37-980ec683fcdd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In the worst case, you have to traverse through the entire list of n elements",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "406d9ffb-68ee-4211-b194-01dac64c5676",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following application makes use of a circular linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Undo operation in a text editor",
+                    "type": "A"
+                },
+                {
+                    "body": "Recursive function calls",
+                    "type": "B"
+                },
+                {
+                    "body": "Allocating CPU to resources",
+                    "type": "C"
+                },
+                {
+                    "body": "Implement Hash Tables",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fe4ffde3-4e7f-4972-8b6c-314a0d523109",
+                    "questionID": "406d9ffb-68ee-4211-b194-01dac64c5676",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Generally, round robin fashion is employed to allocate CPU time to resources which makes use of the circular linked list data structure. Recursive function calls use stack data structure. Undo Operation in text editor uses doubly linked lists. Hash tables uses singly linked lists",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8599958f-c858-453c-85c9-0046cd5042ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is false about a doubly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "We can navigate in both the directions",
+                    "type": "A"
+                },
+                {
+                    "body": "It requires more space than a singly linked list",
+                    "type": "B"
+                },
+                {
+                    "body": "The insertion and deletion of a node take a bit longer",
+                    "type": "C"
+                },
+                {
+                    "body": " Implementing a doubly linked list is easier than singly linked list",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9c4be330-96aa-4330-aa15-a13444592f51",
+                    "questionID": "8599958f-c858-453c-85c9-0046cd5042ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A doubly linked list has two pointers ‘left’ and ‘right’ which enable it to traverse in either direction. Compared to singly liked list which has only a ‘next’ pointer, doubly linked list requires extra space to store this extra pointer. Every insertion and deletion requires manipulation of two pointers, hence it takes a bit longer time. Implementing doubly linked list involves setting both left and right pointers to correct nodes and takes more time than singly linked list",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7dec463c-4936-4787-b32c-300b83317ff5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Consider a small circular linked list. How to detect the presence of cycles in this list effectively",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Keep one node as head and traverse another temp node till the end to check if its ‘next points to head",
+                    "type": "A"
+                },
+                {
+                    "body": "Have fast and slow pointers with the fast pointer advancing two nodes at a time and slow pointer advancing by one node at a time",
+                    "type": "B"
+                },
+                {
+                    "body": "Cannot determine, you have to pre-define if the list contains cycles",
+                    "type": "C"
+                },
+                {
+                    "body": "Circular linked list itself represents a cycle. So no new cycles cannot be generated",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09c49512-2a11-4b54-8628-9025b6264e55",
+                    "questionID": "7dec463c-4936-4787-b32c-300b83317ff5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Advance the pointers in such a way that the fast pointer advances two nodes at a time and slow pointer advances one node at a time and check to see if at any given instant of time if the fast pointer points to slow pointer or if the fast pointer’s ‘next’ points to the slow pointer. This is applicable for smaller lists",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "89c8692a-959e-4d91-985a-354d9f40f68c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is false about a circular linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Every node has a successor",
+                    "type": "A"
+                },
+                {
+                    "body": "Time complexity of inserting a new node at the head of the list is O(1)",
+                    "type": "B"
+                },
+                {
+                    "body": "Time complexity for deleting the last node is O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": "We can traverse the whole circular linked list by starting from any point",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "650ed278-d6de-40d1-b2df-49b80ccff604",
+                    "questionID": "89c8692a-959e-4d91-985a-354d9f40f68c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Time complexity of inserting a new node at the head of the list is O(n) because you have to traverse through the list to find the tail node",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0296584d-ff11-4837-9096-3b110c0124b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is a memory efficient double linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Each node has only one pointer to traverse the list back and forth",
+                    "type": "A"
+                },
+                {
+                    "body": "The list has breakpoints for faster traversal",
+                    "type": "B"
+                },
+                {
+                    "body": "An auxiliary singly linked list acts as a helper list to traverse through the doubly linked list",
+                    "type": "C"
+                },
+                {
+                    "body": "A doubly linked list that uses bitwise AND operator for storing addresses",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9c978e43-b661-4fbe-8de2-3de511cce01c",
+                    "questionID": "0296584d-ff11-4837-9096-3b110c0124b4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Memory efficient doubly linked list has only one pointer to traverse the list back and forth. The implementation is based on pointer difference. It uses bitwise XOR operator to store the front and rear pointer addresses. Instead of storing actual memory address, every node store the XOR address of previous and next nodes",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "438fae48-e548-4059-9c0a-ed0a0cfc36a5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Identify the correct way to traverse",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use while (head.next != null)",
+                    "type": "A"
+                },
+                {
+                    "body": "Use while (head != null)",
+                    "type": "B"
+                },
+                {
+                    "body": "Use for (int i = 0; i &lt; head.size(); i++)",
+                    "type": "C"
+                },
+                {
+                    "body": "Use recursion only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c3be26ec-1966-47c5-b5b4-167ed5c2f2bb",
+                    "questionID": "438fae48-e548-4059-9c0a-ed0a0cfc36a5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Traverses till the end",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6185dc22-9146-4d86-a57e-967e6e724bc0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What does this function do\n [type=code]\n Node deleteHead(Node head) {\n  return (head == null) ? null : head.next\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deletes all nodes",
+                    "type": "A"
+                },
+                {
+                    "body": "Deletes head",
+                    "type": "B"
+                },
+                {
+                    "body": "Adds to head",
+                    "type": "C"
+                },
+                {
+                    "body": "No effect",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e573d47a-f51e-40b2-91b2-10a0a32434c6",
+                    "questionID": "6185dc22-9146-4d86-a57e-967e6e724bc0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Head is updated to next node",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9afb67bb-0dc7-4b18-a925-8a396572e8a1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is returned\n [type=code]\n Node head = new Node(1)\n head.next = new Node(2)\n head = insertAtBeginning(head, 0)\n System.out.println(head.data)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "0",
+                    "type": "B"
+                },
+                {
+                    "body": "2",
+                    "type": "C"
+                },
+                {
+                    "body": "null",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4999b4c8-b242-459e-8274-4905f735ca65",
+                    "questionID": "9afb67bb-0dc7-4b18-a925-8a396572e8a1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "0 is inserted at the beginning",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f7bd661b-f92e-4e92-8012-18f651c18d5e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following methods reverses the list\n [type=code]\n Node reverse(Node head) {\n  Node prev = null\n  Node curr = head\n  while (curr != null) {\n  Node next = curr.next\n  curr.next = prev\n  prev = curr\n  curr = next\n  }\n  return prev\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Traverses list",
+                    "type": "A"
+                },
+                {
+                    "body": "Deletes last node",
+                    "type": "B"
+                },
+                {
+                    "body": "Reverses the list",
+                    "type": "C"
+                },
+                {
+                    "body": "Creates copy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a9694208-d27e-44dc-9f03-0c7d479ff79a",
+                    "questionID": "f7bd661b-f92e-4e92-8012-18f651c18d5e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Standard in-place reversal logic",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51900284-e289-475c-94f5-ac9373593ca6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What happens if we call head.next on a null head",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns null",
+                    "type": "A"
+                },
+                {
+                    "body": "Runtime error",
+                    "type": "B"
+                },
+                {
+                    "body": "0",
+                    "type": "C"
+                },
+                {
+                    "body": "Compile error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5585b706-06d1-4bc2-8190-372930e99979",
+                    "questionID": "51900284-e289-475c-94f5-ac9373593ca6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NullPointerException at runtime",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "613d3dc9-0b55-4627-8e52-33f26ec0106c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Identify the functions role\n [type=code]\n Node insertAtBeginning(Node head, int data) {\n  Node newNode = new Node(data)\n  newNode.next = head\n  return newNode\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deletes head",
+                    "type": "A"
+                },
+                {
+                    "body": "Appends at end",
+                    "type": "B"
+                },
+                {
+                    "body": "Inserts at beginning",
+                    "type": "C"
+                },
+                {
+                    "body": "Does nothing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "42e22e5e-927d-43be-ab95-d38049edcd97",
+                    "questionID": "613d3dc9-0b55-4627-8e52-33f26ec0106c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It creates a new node and places it before the head.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1ac2f87f-0217-43f9-8ebe-07fc104bc100",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the output\n [type=code]\n Node head = null\n System.out.println(head == null)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "true",
+                    "type": "A"
+                },
+                {
+                    "body": "false",
+                    "type": "B"
+                },
+                {
+                    "body": "null",
+                    "type": "C"
+                },
+                {
+                    "body": "Error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cb65f35c-98a6-474e-81be-ba489d3d556c",
+                    "questionID": "1ac2f87f-0217-43f9-8ebe-07fc104bc100",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Explanation: head is null, so the condition is true",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "63749f51-c576-4f2d-84e5-9e7302330cf6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the time complexity of counting nodes in a singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n²)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c8c099e1-cf41-470b-a221-4f20a67a5220",
+                    "questionID": "63749f51-c576-4f2d-84e5-9e7302330cf6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each node is visited once.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3fe09f42-e51c-4b99-9c3b-96480b92361b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What does this method return\n [type=code]\n int countNodes(Node head) {\n  int count = 0;\n  while (head != null) {\n  count++;\n  head = head.next;\n  }\n  return count;\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Number of nodes",
+                    "type": "A"
+                },
+                {
+                    "body": "Node data",
+                    "type": "B"
+                },
+                {
+                    "body": "0 always",
+                    "type": "C"
+                },
+                {
+                    "body": "Head value",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "70468237-9318-41c7-ab6e-4ba037837d2f",
+                    "questionID": "3fe09f42-e51c-4b99-9c3b-96480b92361b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It increments count while traversing",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "223226dd-90ff-4add-8aa6-a0b0facd2f6c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which keyword is used to link one node to another",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "dta",
+                    "type": "A"
+                },
+                {
+                    "body": "next",
+                    "type": "B"
+                },
+                {
+                    "body": "prev",
+                    "type": "C"
+                },
+                {
+                    "body": "link",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "728d4649-46b2-4f2e-ac75-c0ef9d670390",
+                    "questionID": "223226dd-90ff-4add-8aa6-a0b0facd2f6c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "next is the reference to the next node",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0f0f0fea-b393-490b-9522-470231b41384",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the output\n [type=code]\n Node head = new Node(1)\n head.next = new Node(2)\n head.next.next = new Node(3)\n System.out.println(head.next.next.data)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "2",
+                    "type": "B"
+                },
+                {
+                    "body": "3",
+                    "type": "C"
+                },
+                {
+                    "body": "null",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "723fb494-4646-4561-b475-36f55f40187a",
+                    "questionID": "0f0f0fea-b393-490b-9522-470231b41384",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "head.next.next points to the third node",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "98beec32-94be-46ee-81a9-730587f41bcd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What does the following method do\n [type=code]\n void printList(Node head) {\n  while (head != null) {\n  System.out.print(head.data + &#34; &#34;);\n  head = head.next;\n  }\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deletes the list",
+                    "type": "A"
+                },
+                {
+                    "body": "Prints the list",
+                    "type": "B"
+                },
+                {
+                    "body": "Counts nodes",
+                    "type": "C"
+                },
+                {
+                    "body": "Creates a new list",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "31f59615-6da5-443d-b28c-ab4ef9149ce6",
+                    "questionID": "98beec32-94be-46ee-81a9-730587f41bcd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This method prints all node data values",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b04a7dae-ec62-4f05-a924-dd846ba6e066",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What does this code print\n class Node {\n  int data;\n  Node next;\n  Node(int data) { this.data = data; }\n }\n public class Main {\n  public static void main(String[] args) {\n  Node a = new Node(5);\n  Node b = new Node(10);\n  a.next = b;\n  System.out.println(a.next.data);\n  }\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "5",
+                    "type": "A"
+                },
+                {
+                    "body": "10",
+                    "type": "B"
+                },
+                {
+                    "body": "null",
+                    "type": "C"
+                },
+                {
+                    "body": "Compile-time error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fdee8811-f35a-46e8-97a0-0a03229785a9",
+                    "questionID": "b04a7dae-ec62-4f05-a924-dd846ba6e066",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "a.next points to b, whose data is 10.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bd2e5ecc-838e-45e1-87ef-76fbe2d4ac2e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the output of the following code\n class Node {\n  int data;\n  Node next;\n  Node(int d) { data = d; next = null; }\n }\n class LinkedList {\n  Node head; \n  void printFirstNode() {\n  System.out.println(head.data);\n  }\n }\n public class Main {\n  public static void main(String[] args) {\n  LinkedList list = new LinkedList();\n  list.head = new Node(10);\n  list.printFirstNode();\n  }\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0",
+                    "type": "A"
+                },
+                {
+                    "body": "10",
+                    "type": "B"
+                },
+                {
+                    "body": "null",
+                    "type": "C"
+                },
+                {
+                    "body": "Compile error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e5d9775c-4995-45fd-b865-dc4fe657f415",
+                    "questionID": "bd2e5ecc-838e-45e1-87ef-76fbe2d4ac2e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The head node is initialized with value 10, which gets printed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "53d29216-60a1-4042-aac5-cafb0f453eda",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " How do you remove the last element of a LinkedList in Java",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "list.deleteLast()",
+                    "type": "A"
+                },
+                {
+                    "body": "list.remove(list.size() - 1)",
+                    "type": "B"
+                },
+                {
+                    "body": "list.removeLast()",
+                    "type": "C"
+                },
+                {
+                    "body": "list.popLast()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6af42f2e-7d04-47db-ac6a-0072ec04f71d",
+                    "questionID": "53d29216-60a1-4042-aac5-cafb0f453eda",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Provided by Java’s LinkedList class.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "806d19d6-748d-4e7c-a24a-a0af6803bb06",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What will be the output of the following code\n [type=code]\n class Node {\n  int data;\n  Node next;\n  Node(int data) {\n  this.data = data;\n  this.next = null;\n  }\n }\n public class Main {\n  public static void main(String[] args) {\n  Node head = new Node(10)\n  head.next = new Node(20)\n  head.next.next = new Node(30)\n  System.out.println(head.next.data)\n  }\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10",
+                    "type": "A"
+                },
+                {
+                    "body": "20",
+                    "type": "B"
+                },
+                {
+                    "body": "30",
+                    "type": "C"
+                },
+                {
+                    "body": "Compilation error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty-DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "57833abf-a63e-4895-829d-234b57f387c7",
+                    "questionID": "806d19d6-748d-4e7c-a24a-a0af6803bb06",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "head.next refers to the second node, which stores 20.\n You may have to check each node sequentially.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

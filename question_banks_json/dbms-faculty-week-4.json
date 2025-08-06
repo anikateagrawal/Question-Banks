@@ -1,0 +1,4191 @@
+{
+    "bank_id": "597486f8-ae61-4f03-a9ca-ad3b501f590b",
+    "bank_name": "dbms-faculty-week-4",
+    "questions": [
+        {
+            "id": "5bb67e3c-6ec8-4723-9f59-c7bca84cd48f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which scenario best describes the downside of using bitmap indexes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Require more storage than B-tree",
+                    "type": "A"
+                },
+                {
+                    "body": "Cannot be used in read-only databases",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow for equality searches",
+                    "type": "C"
+                },
+                {
+                    "body": "Poor performance on high-cardinality columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a24a0169-f4cb-4b9e-8306-c861c8c10ca3",
+                    "questionID": "5bb67e3c-6ec8-4723-9f59-c7bca84cd48f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bitmap indexes perform poorly with many distinct values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d74b90c4-04a8-485b-aa77-0ed636f48e14",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In query optimization, what does cost-based optimization mean",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Using heuristics only",
+                    "type": "A"
+                },
+                {
+                    "body": "Executing all plans and choosing fastest",
+                    "type": "B"
+                },
+                {
+                    "body": "Ignoring indexes",
+                    "type": "C"
+                },
+                {
+                    "body": "Choosing query plan with lowest estimated resource cost",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f697353a-d9bc-439e-b119-6be3c75d2095",
+                    "questionID": "d74b90c4-04a8-485b-aa77-0ed636f48e14",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cost-based optimization selects plans based on estimated resource usage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d419cc75-447a-4b7e-aa72-7c561233de4a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An execution plan shows a full table scan instead of index seek on a frequently queried column. What could be the reason",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The index is not selective enough or outdated statistics",
+                    "type": "A"
+                },
+                {
+                    "body": "The index is unique",
+                    "type": "B"
+                },
+                {
+                    "body": "The table is empty",
+                    "type": "C"
+                },
+                {
+                    "body": "The query uses WHERE clause",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8d30e222-e416-4cd3-93fc-8802104f4b1f",
+                    "questionID": "d419cc75-447a-4b7e-aa72-7c561233de4a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Low selectivity or outdated statistics can cause the optimizer to skip indexes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3fd11227-e205-4c64-917c-5a06cbb90a7a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given two tables without indexes, joining them results in slow execution. What is the best first step to optimize this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use DISTINCT to reduce rows",
+                    "type": "A"
+                },
+                {
+                    "body": "Create indexes on join columns",
+                    "type": "B"
+                },
+                {
+                    "body": "Remove WHERE conditions",
+                    "type": "C"
+                },
+                {
+                    "body": "Rewrite query to use nested subqueries",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "239030d0-23a7-4154-a78c-b9517be3b975",
+                    "questionID": "3fd11227-e205-4c64-917c-5a06cbb90a7a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes on join keys reduce the need for full table scans.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3d7740bd-cdcf-41eb-bdff-879a76ab966f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You have a query with nested correlated subqueries that perform poorly on a large dataset. Which optimization is likely most effective",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rewrite subqueries as JOINs where possible",
+                    "type": "A"
+                },
+                {
+                    "body": "Add unnecessary indexes",
+                    "type": "B"
+                },
+                {
+                    "body": "Use CROSS JOINs instead",
+                    "type": "C"
+                },
+                {
+                    "body": "Increase database cache size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dd4b8bec-58dc-4dc2-b61a-71834d28e6a2",
+                    "questionID": "3d7740bd-cdcf-41eb-bdff-879a76ab966f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rewriting correlated subqueries as JOINs can drastically improve performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d05c59dd-ca75-4db7-9668-3a89b9311bf4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following explains the difference between nested loops join and hash join",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hash join is deprecated",
+                    "type": "A"
+                },
+                {
+                    "body": "Nested loops join uses hashing",
+                    "type": "B"
+                },
+                {
+                    "body": "Nested loops join is good for small datasets; hash join is efficient for large datasets",
+                    "type": "C"
+                },
+                {
+                    "body": "Hash join is always faster",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d618a6a8-d3a4-4e4c-922a-4a13eec04833",
+                    "questionID": "d05c59dd-ca75-4db7-9668-3a89b9311bf4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Nested loops join performs well on small inputs; hash join scales better on large.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4b8ea34b-f644-4676-88b5-ed170b880ae4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the impact of using functions on indexed columns in WHERE clause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Index usage is unaffected",
+                    "type": "A"
+                },
+                {
+                    "body": "Index is not used, causing full scan",
+                    "type": "B"
+                },
+                {
+                    "body": "Query is faster",
+                    "type": "C"
+                },
+                {
+                    "body": "Functions are optimized automatically",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "572fcfe7-a7c7-448d-b972-7f50f39039e2",
+                    "questionID": "4b8ea34b-f644-4676-88b5-ed170b880ae4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Functions on indexed columns usually prevent index usage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fa0702ea-7d2f-4b3c-b6a1-cdb77fcf935e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Explain the concept of join elimination in query optimization",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Joining tables without conditions",
+                    "type": "A"
+                },
+                {
+                    "body": "Replacing joins with UNION",
+                    "type": "B"
+                },
+                {
+                    "body": "Forcing nested loops join",
+                    "type": "C"
+                },
+                {
+                    "body": "Removing unnecessary joins when data is redundant",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "576a106b-e55a-4ba6-bdc5-2d46ef4b32b6",
+                    "questionID": "fa0702ea-7d2f-4b3c-b6a1-cdb77fcf935e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Join elimination removes redundant joins to improve performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b9f946a7-7142-4abd-9899-c9be601f28b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following can cause an execution plan to change unexpectedly",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Using aliases",
+                    "type": "A"
+                },
+                {
+                    "body": "Changing column names",
+                    "type": "B"
+                },
+                {
+                    "body": "Adding comments to SQL",
+                    "type": "C"
+                },
+                {
+                    "body": "Updated table statistics",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e639df69-8266-49b9-a6e8-f03826ede990",
+                    "questionID": "b9f946a7-7142-4abd-9899-c9be601f28b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Updated statistics can cause the optimizer to choose different plans.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f2fe8f15-9a7d-46d3-802c-0a81deddc929",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A correlated subquery references a column with many NULL values. What impact might this have on performance",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Potentially slower due to NULL handling and repeated execution",
+                    "type": "A"
+                },
+                {
+                    "body": "Query optimizer removes NULL rows",
+                    "type": "B"
+                },
+                {
+                    "body": "Faster because NULLs are ignored",
+                    "type": "C"
+                },
+                {
+                    "body": "No impact",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9e303c32-78d3-4c3b-a5b9-79f393c4e130",
+                    "questionID": "f2fe8f15-9a7d-46d3-802c-0a81deddc929",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NULL handling can add overhead in correlated subqueries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c1279a3c-37b6-44d7-920f-8ba5093794fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which scenario best describes the downside of using bitmap indexes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Slow for equality searches",
+                    "type": "A"
+                },
+                {
+                    "body": "Cannot be used in read-only databases",
+                    "type": "B"
+                },
+                {
+                    "body": "Poor performance on high-cardinality columns",
+                    "type": "C"
+                },
+                {
+                    "body": "Require more storage than B-tree",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d76772cd-e136-4b91-b896-7bc70ba56576",
+                    "questionID": "c1279a3c-37b6-44d7-920f-8ba5093794fe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bitmap indexes perform poorly with many distinct values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "30bfabef-632f-4695-ae5a-41c90f7f0111",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In query optimization, what does &#39;cost-based optimization&#39; mean",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ignoring indexes",
+                    "type": "A"
+                },
+                {
+                    "body": "Executing all plans and choosing fastest",
+                    "type": "B"
+                },
+                {
+                    "body": "Using heuristics only",
+                    "type": "C"
+                },
+                {
+                    "body": "Choosing query plan with lowest estimated resource cost",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "cf6d3c18-c306-4414-bac9-a93fb4529b57",
+                    "questionID": "30bfabef-632f-4695-ae5a-41c90f7f0111",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cost-based optimization selects plans based on estimated resource usage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1c9e8512-b521-4492-8613-40815d371f3f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An execution plan shows a full table scan instead of index seek on a frequently queried column. What could be the reason",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The query uses WHERE clause",
+                    "type": "A"
+                },
+                {
+                    "body": "The index is unique",
+                    "type": "B"
+                },
+                {
+                    "body": "The index is not selective enough or outdated statistics",
+                    "type": "C"
+                },
+                {
+                    "body": "The table is empty",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "012c2224-8d5c-4eb6-9c19-c4c7233fae93",
+                    "questionID": "1c9e8512-b521-4492-8613-40815d371f3f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Low selectivity or outdated statistics can cause the optimizer to skip indexes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "38fb1a46-4e07-4ec3-9bb0-94fb5a6a1b34",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given two tables without indexes, joining them results in slow execution. What is the best first step to optimize this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Remove WHERE conditions",
+                    "type": "A"
+                },
+                {
+                    "body": "Use DISTINCT to reduce rows",
+                    "type": "B"
+                },
+                {
+                    "body": "Rewrite query to use nested subqueries",
+                    "type": "C"
+                },
+                {
+                    "body": "Create indexes on join columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7c71d9ea-642c-4897-8aae-b86145f65549",
+                    "questionID": "38fb1a46-4e07-4ec3-9bb0-94fb5a6a1b34",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes on join keys reduce the need for full table scans.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "28489e2c-d7d0-44bb-bc0d-977ee5c2fcac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You have a query with nested correlated subqueries that perform poorly on a large dataset. Which optimization is likely most effective",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use CROSS JOINs instead",
+                    "type": "A"
+                },
+                {
+                    "body": "Increase database cache size",
+                    "type": "B"
+                },
+                {
+                    "body": "Rewrite subqueries as JOINs where possible",
+                    "type": "C"
+                },
+                {
+                    "body": "Add unnecessary indexes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "27f7848e-dfee-4804-941a-705c256325ef",
+                    "questionID": "28489e2c-d7d0-44bb-bc0d-977ee5c2fcac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rewriting correlated subqueries as JOINs can drastically improve performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "db09cbd9-2711-4189-90a9-2dca59bfae47",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following explains the difference between nested loops join and hash join",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hash join is deprecated",
+                    "type": "A"
+                },
+                {
+                    "body": "Hash join is always faster",
+                    "type": "B"
+                },
+                {
+                    "body": "Nested loops join is good for small datasets; hash join is efficient for large datasets",
+                    "type": "C"
+                },
+                {
+                    "body": "Nested loops join uses hashing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ec5fe5c6-4734-44b5-a91a-0d9aa514fed1",
+                    "questionID": "db09cbd9-2711-4189-90a9-2dca59bfae47",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Nested loops join performs well on small inputs; hash join scales better on large.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "594bed6a-3c14-48c7-8ff8-b3c3c1009c35",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the impact of using functions on indexed columns in WHERE clause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Index is not used, causing full scan",
+                    "type": "A"
+                },
+                {
+                    "body": "Index usage is unaffected",
+                    "type": "B"
+                },
+                {
+                    "body": "Query is faster",
+                    "type": "C"
+                },
+                {
+                    "body": "Functions are optimized automatically",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b08f48fc-ccbe-44f0-af26-e3e73529b0cd",
+                    "questionID": "594bed6a-3c14-48c7-8ff8-b3c3c1009c35",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Functions on indexed columns usually prevent index usage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3881dfac-8206-48b2-b18e-30ac8155d80e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Explain the concept of &#39;join elimination&#39; in query optimization",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Replacing joins with UNION",
+                    "type": "A"
+                },
+                {
+                    "body": "Forcing nested loops join",
+                    "type": "B"
+                },
+                {
+                    "body": "Joining tables without conditions",
+                    "type": "C"
+                },
+                {
+                    "body": "Removing unnecessary joins when data is redundant",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c5ca5090-f7a0-4ec5-9c5c-9e118b592c9d",
+                    "questionID": "3881dfac-8206-48b2-b18e-30ac8155d80e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Join elimination removes redundant joins to improve performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "49c39f5f-68cf-49a4-9fe5-2e5fc2ed46e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following can cause an execution plan to change unexpectedly",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Adding comments to SQL",
+                    "type": "A"
+                },
+                {
+                    "body": "Using aliases",
+                    "type": "B"
+                },
+                {
+                    "body": "Updated table statistics",
+                    "type": "C"
+                },
+                {
+                    "body": "Changing column names",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "aacfe152-3059-4c07-83ae-6a27cbb03f3b",
+                    "questionID": "49c39f5f-68cf-49a4-9fe5-2e5fc2ed46e8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Updated statistics can cause the optimizer to choose different plans.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "163c184e-755f-4c33-97ac-1d9353ee90c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A correlated subquery references a column with many NULL values. What impact might this have on performance",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Potentially slower due to NULL handling and repeated execution",
+                    "type": "A"
+                },
+                {
+                    "body": "Faster because NULLs are ignored",
+                    "type": "B"
+                },
+                {
+                    "body": "No impact",
+                    "type": "C"
+                },
+                {
+                    "body": "Query optimizer removes NULL rows",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5ccf4a1a-dd17-4455-affc-00addca8c56e",
+                    "questionID": "163c184e-755f-4c33-97ac-1d9353ee90c7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NULL handling can add overhead in correlated subqueries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "41b8bf60-ed90-48f8-ac1d-d13003f2abc2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which scenario best describes the downside of using bitmap indexes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Cannot be used in read-only databases",
+                    "type": "A"
+                },
+                {
+                    "body": "Require more storage than B-tree",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow for equality searches",
+                    "type": "C"
+                },
+                {
+                    "body": "Poor performance on high-cardinality columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e36a7d78-7e74-42bc-bd20-18174715aaf3",
+                    "questionID": "41b8bf60-ed90-48f8-ac1d-d13003f2abc2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bitmap indexes perform poorly with many distinct values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ea3c7159-46a4-48d2-9b48-10dc37f11fcb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In query optimization, what does &#39;cost-based optimization&#39; mean",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Executing all plans and choosing fastest",
+                    "type": "A"
+                },
+                {
+                    "body": "Choosing query plan with lowest estimated resource cost",
+                    "type": "B"
+                },
+                {
+                    "body": "Ignoring indexes",
+                    "type": "C"
+                },
+                {
+                    "body": "Using heuristics only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "104628c1-111f-461b-b28e-9c142c69e145",
+                    "questionID": "ea3c7159-46a4-48d2-9b48-10dc37f11fcb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cost-based optimization selects plans based on estimated resource usage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "63a6f006-e46d-493f-92b0-8023687bc72d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An execution plan shows a full table scan instead of index seek on a frequently queried column. What could be the reason",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The index is unique",
+                    "type": "A"
+                },
+                {
+                    "body": "The index is not selective enough or outdated statistics",
+                    "type": "B"
+                },
+                {
+                    "body": "The table is empty",
+                    "type": "C"
+                },
+                {
+                    "body": "The query uses WHERE clause",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0ccd9fac-67dd-48cb-8226-be3329f6ee08",
+                    "questionID": "63a6f006-e46d-493f-92b0-8023687bc72d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Low selectivity or outdated statistics can cause the optimizer to skip indexes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0ddb8aab-2ae2-4387-82a5-eb93f9a34c87",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given two tables without indexes, joining them results in slow execution. What is the best first step to optimize this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rewrite query to use nested subqueries",
+                    "type": "A"
+                },
+                {
+                    "body": "Use DISTINCT to reduce rows",
+                    "type": "B"
+                },
+                {
+                    "body": "Remove WHERE conditions",
+                    "type": "C"
+                },
+                {
+                    "body": "Create indexes on join columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "745751cd-20f0-46a3-907b-d5a8eeef44ca",
+                    "questionID": "0ddb8aab-2ae2-4387-82a5-eb93f9a34c87",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes on join keys reduce the need for full table scans.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7239b6f5-9090-40bb-8c10-85c936af6b72",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You have a query with nested correlated subqueries that perform poorly on a large dataset. Which optimization is likely most effective",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rewrite subqueries as JOINs where possible",
+                    "type": "A"
+                },
+                {
+                    "body": "Use CROSS JOINs instead",
+                    "type": "B"
+                },
+                {
+                    "body": "Increase database cache size",
+                    "type": "C"
+                },
+                {
+                    "body": "Add unnecessary indexes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "bdda7985-6fc1-46cf-b0ed-455ad4b94799",
+                    "questionID": "7239b6f5-9090-40bb-8c10-85c936af6b72",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rewriting correlated subqueries as JOINs can drastically improve performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9b568368-9759-49b5-832e-c1247e024216",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which join type can lead to a Cartesian product if not filtered properly",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIGHT JOIN",
+                    "type": "A"
+                },
+                {
+                    "body": "LEFT JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "CROSS JOIN",
+                    "type": "C"
+                },
+                {
+                    "body": "INNER JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "44b87a98-feab-4ae2-bb9b-018bd53fb3bd",
+                    "questionID": "9b568368-9759-49b5-832e-c1247e024216",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CROSS JOIN returns the Cartesian product of two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5b0b414d-f72a-4cc0-bc06-0587b1d16aed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does an execution plan provide for a SQL query",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Temporary data storage",
+                    "type": "A"
+                },
+                {
+                    "body": "SQL syntax validation",
+                    "type": "B"
+                },
+                {
+                    "body": "Data definition commands",
+                    "type": "C"
+                },
+                {
+                    "body": "Step-by-step operations of query execution",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d919d918-a8f8-4f78-a1aa-8f9dd6281ffe",
+                    "questionID": "5b0b414d-f72a-4cc0-bc06-0587b1d16aed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Execution plans describe how the database engine executes a query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54822f93-9fea-4bc9-a8d2-ec8882b6115d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which index type is most suitable for columns with many distinct values",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hash index",
+                    "type": "A"
+                },
+                {
+                    "body": "B-tree index",
+                    "type": "B"
+                },
+                {
+                    "body": "Full-text index",
+                    "type": "C"
+                },
+                {
+                    "body": "Bitmap index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bfeb64ea-2b3b-4c60-b117-11aa16f10758",
+                    "questionID": "54822f93-9fea-4bc9-a8d2-ec8882b6115d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "B-tree indexes are efficient for high-cardinality columns.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "afd87883-9651-4aa7-b0ba-f45e52589093",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is TRUE about the MINUS operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns rows from first query not in second",
+                    "type": "A"
+                },
+                {
+                    "body": "Returns all rows from both queries",
+                    "type": "B"
+                },
+                {
+                    "body": "Joins two tables",
+                    "type": "C"
+                },
+                {
+                    "body": "Returns rows common to both queries",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b0d4d7b2-6fd6-4184-934c-73ecae63aa8c",
+                    "questionID": "afd87883-9651-4aa7-b0ba-f45e52589093",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows in the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "174e7d55-9590-4348-bff5-2a57ae46bf4f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a correlated subquery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Executes independently of outer query",
+                    "type": "A"
+                },
+                {
+                    "body": "Returns multiple rows always",
+                    "type": "B"
+                },
+                {
+                    "body": "Executes once per row of the outer query",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot reference outer query columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c3c86900-1841-4352-b434-f8f9eb77bbbd",
+                    "questionID": "174e7d55-9590-4348-bff5-2a57ae46bf4f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries execute once per each row of the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6cbddc60-a0a7-44f4-b950-4f31f2610db6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these can help identify inefficient SQL queries",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Analyzing the execution plan",
+                    "type": "A"
+                },
+                {
+                    "body": "Checking table size only",
+                    "type": "B"
+                },
+                {
+                    "body": "Ignoring indexes",
+                    "type": "C"
+                },
+                {
+                    "body": "Using SELECT * always",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ab9780f9-06a5-4fff-a391-07ebf281dfb3",
+                    "questionID": "6cbddc60-a0a7-44f4-b950-4f31f2610db6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Execution plans highlight bottlenecks in query processing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "68a40ed9-9d51-4746-8a8d-b74384cdae44",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does a correlated subquery affect query performance compared to a non-correlated subquery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Correlated subqueries are deprecated",
+                    "type": "A"
+                },
+                {
+                    "body": "Usually slower due to repeated execution per outer row",
+                    "type": "B"
+                },
+                {
+                    "body": "No difference",
+                    "type": "C"
+                },
+                {
+                    "body": "Usually faster because it executes once",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "71f8fe06-b878-4344-85ed-859c5a54209c",
+                    "questionID": "68a40ed9-9d51-4746-8a8d-b74384cdae44",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries execute repeatedly and are slower.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "41ad89b9-45be-4c1e-b9d6-7795e9d985ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method is best to optimize a query with multiple joins on large tables",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use correlated subqueries",
+                    "type": "A"
+                },
+                {
+                    "body": "Avoid using indexes",
+                    "type": "B"
+                },
+                {
+                    "body": "Use indexes on join columns",
+                    "type": "C"
+                },
+                {
+                    "body": "Use CROSS JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4dc4904f-91fd-41e2-8c87-dae6bd359377",
+                    "questionID": "41ad89b9-45be-4c1e-b9d6-7795e9d985ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes on join keys improve join performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1d3612b5-29b2-43dc-b2d1-bca4d5fb2c11",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which query will return rows present in either table but not in both",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT * FROM A INTERSECT SELECT * FROM B",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT * FROM A MINUS SELECT * FROM B",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT * FROM A UNION SELECT * FROM B",
+                    "type": "C"
+                },
+                {
+                    "body": "(SELECT * FROM A UNION SELECT * FROM B) MINUS (SELECT * FROM A INTERSECT SELECT * FROM B)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "fbc149bd-6280-4b9c-b427-7f93cd9e30c0",
+                    "questionID": "1d3612b5-29b2-43dc-b2d1-bca4d5fb2c11",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The query returns the symmetric difference using UNION and MINUS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f929435c-a830-43ee-901c-0ce95e42220d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the effect of creating an index on a table column",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Removes duplicate rows",
+                    "type": "A"
+                },
+                {
+                    "body": "Faster SELECT queries",
+                    "type": "B"
+                },
+                {
+                    "body": "Faster INSERT operations",
+                    "type": "C"
+                },
+                {
+                    "body": "Reduces storage size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fe00de1b-2efa-423c-973d-bedd7e86bb28",
+                    "questionID": "f929435c-a830-43ee-901c-0ce95e42220d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes speed up data retrieval but may slow down inserts.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "baf4d3e6-86bd-43d9-b0ec-8cf5c4b4a4ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which join type can lead to a Cartesian product if not filtered properly",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "LEFT JOIN",
+                    "type": "A"
+                },
+                {
+                    "body": "CROSS JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "INNER JOIN",
+                    "type": "C"
+                },
+                {
+                    "body": "RIGHT JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1a45e18a-c20e-41a2-a4b6-0cb86547fe55",
+                    "questionID": "baf4d3e6-86bd-43d9-b0ec-8cf5c4b4a4ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CROSS JOIN returns the Cartesian product of two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "779c6656-7da9-4342-8eb9-277ff660ae05",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does an execution plan provide for a SQL query",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Step-by-step operations of query execution",
+                    "type": "A"
+                },
+                {
+                    "body": "SQL syntax validation",
+                    "type": "B"
+                },
+                {
+                    "body": "Data definition commands",
+                    "type": "C"
+                },
+                {
+                    "body": "Temporary data storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8cc31da0-bb11-4184-bfcb-d847bc9b63aa",
+                    "questionID": "779c6656-7da9-4342-8eb9-277ff660ae05",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Execution plans describe how the database engine executes a query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6180f88a-4adf-4471-84f6-8e015c2a836a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which index type is most suitable for columns with many distinct values",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hash index",
+                    "type": "A"
+                },
+                {
+                    "body": "Bitmap index",
+                    "type": "B"
+                },
+                {
+                    "body": "Full-text index",
+                    "type": "C"
+                },
+                {
+                    "body": "B-tree index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "fb7ca208-e0af-4bd4-b521-d4652469381a",
+                    "questionID": "6180f88a-4adf-4471-84f6-8e015c2a836a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "B-tree indexes are efficient for high-cardinality columns.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5c0483b3-c3d5-40b0-b1c5-5ae597239d68",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is TRUE about the MINUS operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns rows common to both queries",
+                    "type": "A"
+                },
+                {
+                    "body": "Returns rows from first query not in second",
+                    "type": "B"
+                },
+                {
+                    "body": "Returns all rows from both queries",
+                    "type": "C"
+                },
+                {
+                    "body": "Joins two tables",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "674f9e27-c8d0-483f-b341-655f8c6181af",
+                    "questionID": "5c0483b3-c3d5-40b0-b1c5-5ae597239d68",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows in the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "033e5375-918d-4940-8829-7ad59a8c390d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a correlated subquery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Executes independently of outer query",
+                    "type": "A"
+                },
+                {
+                    "body": "Executes once per row of the outer query",
+                    "type": "B"
+                },
+                {
+                    "body": "Cannot reference outer query columns",
+                    "type": "C"
+                },
+                {
+                    "body": "Returns multiple rows always",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "135841ed-a8da-4646-865a-0d3a168aaedf",
+                    "questionID": "033e5375-918d-4940-8829-7ad59a8c390d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries execute once per each row of the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a2cd72cd-b896-412d-9b6a-531e009e1881",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these can help identify inefficient SQL queries",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ignoring indexes",
+                    "type": "A"
+                },
+                {
+                    "body": "Using SELECT * always",
+                    "type": "B"
+                },
+                {
+                    "body": "Analyzing the execution plan",
+                    "type": "C"
+                },
+                {
+                    "body": "Checking table size only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "57b9ceee-eb0b-4029-b854-00312ec000bf",
+                    "questionID": "a2cd72cd-b896-412d-9b6a-531e009e1881",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Execution plans highlight bottlenecks in query processing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "30e7beaa-dad2-4056-9952-1e5a505dc7e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which query will return rows present in either table but not in both",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT * FROM A MINUS SELECT * FROM B",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT * FROM A UNION SELECT * FROM B",
+                    "type": "B"
+                },
+                {
+                    "body": "(SELECT * FROM A UNION SELECT * FROM B) MINUS (SELECT * FROM A INTERSECT SELECT * FROM B)",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT * FROM A INTERSECT SELECT * FROM B",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f70b4ef5-3a1a-4da5-8656-f3028d2c867e",
+                    "questionID": "30e7beaa-dad2-4056-9952-1e5a505dc7e5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The query returns the symmetric difference using UNION and MINUS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c409be2f-4453-41f8-a092-6e297cfa0499",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the effect of creating an index on a table column",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Faster SELECT queries",
+                    "type": "A"
+                },
+                {
+                    "body": "Reduces storage size",
+                    "type": "B"
+                },
+                {
+                    "body": "Faster INSERT operations",
+                    "type": "C"
+                },
+                {
+                    "body": "Removes duplicate rows",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "eddf5876-7b4e-4e57-81f7-0bcea254f86c",
+                    "questionID": "c409be2f-4453-41f8-a092-6e297cfa0499",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes speed up data retrieval but may slow down inserts.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "22ac3562-2072-409f-9c27-0de6e65fa081",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which join type can lead to a Cartesian product if not filtered properly",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CROSS JOIN",
+                    "type": "A"
+                },
+                {
+                    "body": "RIGHT JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "LEFT JOIN",
+                    "type": "C"
+                },
+                {
+                    "body": "INNER JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "30e0e163-60dd-4a1f-b9c5-16ac6ccf94bd",
+                    "questionID": "22ac3562-2072-409f-9c27-0de6e65fa081",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CROSS JOIN returns the Cartesian product of two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0ff8deb7-4971-4dcb-93e2-9b5a0706879c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which index type is most suitable for columns with many distinct values",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "B-tree index",
+                    "type": "A"
+                },
+                {
+                    "body": "Bitmap index",
+                    "type": "B"
+                },
+                {
+                    "body": "Full-text index",
+                    "type": "C"
+                },
+                {
+                    "body": "Hash index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "edf89f1c-6585-4308-a1b3-8b390801c4fb",
+                    "questionID": "0ff8deb7-4971-4dcb-93e2-9b5a0706879c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "B-tree indexes are efficient for high-cardinality columns.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a62056bd-1b04-4a51-81e7-5d07da55d7af",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is TRUE about the MINUS operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns all rows from both queries",
+                    "type": "A"
+                },
+                {
+                    "body": "Returns rows common to both queries",
+                    "type": "B"
+                },
+                {
+                    "body": "Returns rows from first query not in second",
+                    "type": "C"
+                },
+                {
+                    "body": "Joins two tables",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f9cbf9ea-c309-4b63-9160-46ebbe8aa2b2",
+                    "questionID": "a62056bd-1b04-4a51-81e7-5d07da55d7af",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows in the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7b643565-5807-4cf9-9228-353b0ec25215",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a correlated subquery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Executes once per row of the outer query",
+                    "type": "A"
+                },
+                {
+                    "body": "Executes independently of outer query",
+                    "type": "B"
+                },
+                {
+                    "body": "Returns multiple rows always",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot reference outer query columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "81b82909-5631-4282-ab41-593c489ab42c",
+                    "questionID": "7b643565-5807-4cf9-9228-353b0ec25215",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries execute once per each row of the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "866484f8-dfcb-4f29-aa74-3323d20876ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these can help identify inefficient SQL queries",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Using SELECT * always",
+                    "type": "A"
+                },
+                {
+                    "body": "Analyzing the execution plan",
+                    "type": "B"
+                },
+                {
+                    "body": "Ignoring indexes",
+                    "type": "C"
+                },
+                {
+                    "body": "Checking table size only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cbbb1ae1-7461-4b20-a0a9-3500a5843fbb",
+                    "questionID": "866484f8-dfcb-4f29-aa74-3323d20876ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Execution plans highlight bottlenecks in query processing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1785b77c-0994-4e4f-9159-4fafbbdd52da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does a correlated subquery affect query performance compared to a non-correlated subquery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "No difference",
+                    "type": "A"
+                },
+                {
+                    "body": "Correlated subqueries are deprecated",
+                    "type": "B"
+                },
+                {
+                    "body": "Usually faster because it executes once",
+                    "type": "C"
+                },
+                {
+                    "body": "Usually slower due to repeated execution per outer row",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "76830431-54fc-47ce-8fee-8fe30c61c111",
+                    "questionID": "1785b77c-0994-4e4f-9159-4fafbbdd52da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries execute repeatedly and are slower.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d328ff6d-3e51-49db-98df-6e28b8f53c05",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which method is best to optimize a query with multiple joins on large tables",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use indexes on join columns",
+                    "type": "A"
+                },
+                {
+                    "body": "Use correlated subqueries",
+                    "type": "B"
+                },
+                {
+                    "body": "Avoid using indexes",
+                    "type": "C"
+                },
+                {
+                    "body": "Use CROSS JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4f808135-f82c-45bb-bd37-da37bfdd0202",
+                    "questionID": "d328ff6d-3e51-49db-98df-6e28b8f53c05",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes on join keys improve join performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "67cb76b7-dd51-4718-905b-a3b048dde70b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the effect of creating an index on a table column",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Removes duplicate rows",
+                    "type": "A"
+                },
+                {
+                    "body": "Reduces storage size",
+                    "type": "B"
+                },
+                {
+                    "body": "Faster INSERT operations",
+                    "type": "C"
+                },
+                {
+                    "body": "Faster SELECT queries",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "904781c4-6234-4127-831c-0216b1c46c62",
+                    "questionID": "67cb76b7-dd51-4718-905b-a3b048dde70b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes speed up data retrieval but may slow down inserts.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "094b25f3-62c7-47e2-a0fc-081950b4a5cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which join type can lead to a Cartesian product if not filtered properly",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "INNER JOIN",
+                    "type": "A"
+                },
+                {
+                    "body": "LEFT JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "CROSS JOIN",
+                    "type": "C"
+                },
+                {
+                    "body": "RIGHT JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a95911ed-bb42-4982-8263-c0794c122c6a",
+                    "questionID": "094b25f3-62c7-47e2-a0fc-081950b4a5cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CROSS JOIN returns the Cartesian product of two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7500c855-a68a-4d52-af30-72c3d7e8673e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does an execution plan provide for a SQL query",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Step-by-step operations of query execution",
+                    "type": "A"
+                },
+                {
+                    "body": "Temporary data storage",
+                    "type": "B"
+                },
+                {
+                    "body": "SQL syntax validation",
+                    "type": "C"
+                },
+                {
+                    "body": "Data definition commands",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "48bb270f-eff2-4d7f-aa8c-908e092d8392",
+                    "questionID": "7500c855-a68a-4d52-af30-72c3d7e8673e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Execution plans describe how the database engine executes a query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ccdff034-53cc-4ae1-b2ab-6a9823c3529c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which index type is most suitable for columns with many distinct values",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bitmap index",
+                    "type": "A"
+                },
+                {
+                    "body": "Hash index",
+                    "type": "B"
+                },
+                {
+                    "body": "Full-text index",
+                    "type": "C"
+                },
+                {
+                    "body": "B-tree index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "338a823c-9edb-47b3-a0b3-303f5f52b3b6",
+                    "questionID": "ccdff034-53cc-4ae1-b2ab-6a9823c3529c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "B-tree indexes are efficient for high-cardinality columns.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a5c94ef5-7d89-4906-8544-370d43c3766a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is TRUE about the MINUS operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns rows from first query not in second",
+                    "type": "A"
+                },
+                {
+                    "body": "Joins two tables",
+                    "type": "B"
+                },
+                {
+                    "body": "Returns all rows from both queries",
+                    "type": "C"
+                },
+                {
+                    "body": "Returns rows common to both queries",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6cc318e5-8871-4e62-9e39-566b16d57bfd",
+                    "questionID": "a5c94ef5-7d89-4906-8544-370d43c3766a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows in the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54a5c840-7970-447e-b0de-ebb403482808",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a correlated subquery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns multiple rows always",
+                    "type": "A"
+                },
+                {
+                    "body": "Executes once per row of the outer query",
+                    "type": "B"
+                },
+                {
+                    "body": "Executes independently of outer query",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot reference outer query columns",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3f027ef1-60af-4b6d-92f3-944b992c9dc2",
+                    "questionID": "54a5c840-7970-447e-b0de-ebb403482808",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries execute once per each row of the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a5aabaa-0870-4529-bee3-d9d72cb24d8e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL statement removes duplicate rows from the result set",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT ALL",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT DISTINCT",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT UNIQUE",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT DIFFERENT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d1040dad-36be-404d-a47d-e4d971b5ad53",
+                    "questionID": "5a5aabaa-0870-4529-bee3-d9d72cb24d8e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SELECT DISTINCT removes duplicates from the query output.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "327b2d59-5fe6-4ae6-8b56-77eb9edc98db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which operator returns rows common to both SELECT statements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "EXCEPT",
+                    "type": "A"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "B"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "C"
+                },
+                {
+                    "body": "UNION",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2329c58e-de87-444d-b43c-fde3a1b72ef7",
+                    "questionID": "327b2d59-5fe6-4ae6-8b56-77eb9edc98db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "INTERSECT returns rows present in both SELECT results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e585c0da-c83a-49fb-b8f9-130596eb8553",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An index in SQL is primarily used to improve the performance of which operation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "INSERT operations",
+                    "type": "A"
+                },
+                {
+                    "body": "DELETE operations",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT queries",
+                    "type": "C"
+                },
+                {
+                    "body": "UPDATE operations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5f45c4e1-2b4f-4fd6-b359-18eb9dd2bb81",
+                    "questionID": "e585c0da-c83a-49fb-b8f9-130596eb8553",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes improve SELECT query performance by enabling faster searches.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc486be5-86ab-424c-813e-0cfc3f8f5542",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a set operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UNION",
+                    "type": "A"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "C"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cb95a353-142c-4d26-92e0-af5f9477ffc8",
+                    "questionID": "fc486be5-86ab-424c-813e-0cfc3f8f5542",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "JOIN is not a set operation; it combines columns from two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "78bddd24-711f-420a-addc-8082a963f811",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A correlated subquery depends on values from which of the following",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Index",
+                    "type": "A"
+                },
+                {
+                    "body": "Inner query",
+                    "type": "B"
+                },
+                {
+                    "body": "Temporary table",
+                    "type": "C"
+                },
+                {
+                    "body": "Outer query",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9a1c8d69-7304-4bed-a2d0-12231156fd11",
+                    "questionID": "78bddd24-711f-420a-addc-8082a963f811",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries reference columns from the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32d5db5c-c6ed-4e2a-a187-06f4141a9e95",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword is used to remove duplicate rows from a query result",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DISTINCT",
+                    "type": "A"
+                },
+                {
+                    "body": "PRIMARY",
+                    "type": "B"
+                },
+                {
+                    "body": "UNIQUE",
+                    "type": "C"
+                },
+                {
+                    "body": "UNION",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "94344931-0916-4070-ab2f-09b8fa1a6b93",
+                    "questionID": "32d5db5c-c6ed-4e2a-a187-06f4141a9e95",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DISTINCT removes duplicate rows from query results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7d478742-5019-470a-9b19-f41fc807bafe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which set operation returns rows that are in the first query but not in the second",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "JOIN",
+                    "type": "A"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "B"
+                },
+                {
+                    "body": "UNION",
+                    "type": "C"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2efa2ce8-118d-478c-b94d-c091c24d8428",
+                    "questionID": "7d478742-5019-470a-9b19-f41fc807bafe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows from the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b1d8c282-1b9a-4ea0-92e3-4f1fa87c3e39",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of an index in a database",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reduce disk space",
+                    "type": "A"
+                },
+                {
+                    "body": "Increase data redundancy",
+                    "type": "B"
+                },
+                {
+                    "body": "Encrypt data",
+                    "type": "C"
+                },
+                {
+                    "body": "Speed up data retrieval",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c4119de6-d020-4365-893c-613999d4a19d",
+                    "questionID": "b1d8c282-1b9a-4ea0-92e3-4f1fa87c3e39",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes speed up query execution by allowing faster data lookup.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f72c4854-196f-4354-b6b6-3fe53c90435a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL clause is used to combine results of two queries without duplicates",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "INTERSECT",
+                    "type": "A"
+                },
+                {
+                    "body": "UNION",
+                    "type": "B"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "C"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3c0732b0-a4fc-4a9a-abe5-42600a164fdf",
+                    "questionID": "f72c4854-196f-4354-b6b6-3fe53c90435a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UNION combines the results of two queries and removes duplicates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b80e90ba-e6aa-4ff2-ae52-ed54bb786cfc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does a nested query mean in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A query that returns multiple rows",
+                    "type": "A"
+                },
+                {
+                    "body": "A query with only one table",
+                    "type": "B"
+                },
+                {
+                    "body": "A query without conditions",
+                    "type": "C"
+                },
+                {
+                    "body": "A query within anset operation query",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "38da8559-06e6-43c2-b952-235596b96bc9",
+                    "questionID": "b80e90ba-e6aa-4ff2-ae52-ed54bb786cfc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A nested query is a query embedded inside anset operation query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e65dfd6d-f53f-48cb-b654-2fbaf40a9365",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL statement removes duplicate rows from the result set",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT DIFFERENT",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT UNIQUE",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT DISTINCT",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT ALL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fc338a71-b7e8-4980-a2dc-8a375501ef45",
+                    "questionID": "e65dfd6d-f53f-48cb-b654-2fbaf40a9365",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SELECT DISTINCT removes duplicates from the query output.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ca6c77fc-4238-4b6f-94fa-73616eb197e9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which operator returns rows common to both SELECT statements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "EXCEPT",
+                    "type": "A"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "B"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "C"
+                },
+                {
+                    "body": "UNION",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "593c0e6f-40ae-4c1f-a4b8-b90aeee4787f",
+                    "questionID": "ca6c77fc-4238-4b6f-94fa-73616eb197e9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "INTERSECT returns rows present in both SELECT results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8ade812-1655-43c7-b275-53c026b153e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An index in SQL is primarily used to improve the performance of which operation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT queries",
+                    "type": "A"
+                },
+                {
+                    "body": "INSERT operations",
+                    "type": "B"
+                },
+                {
+                    "body": "DELETE operations",
+                    "type": "C"
+                },
+                {
+                    "body": "UPDATE operations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "288d55de-7c49-4b76-b680-f14c92993700",
+                    "questionID": "d8ade812-1655-43c7-b275-53c026b153e5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes improve SELECT query performance by enabling faster searches.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "07dee4e9-b8f7-4e87-b99c-220d1b49140f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a set operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UNION",
+                    "type": "A"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "B"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "C"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "388c592c-f91a-49bd-bb8c-8c9b4c7715a6",
+                    "questionID": "07dee4e9-b8f7-4e87-b99c-220d1b49140f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "JOIN is not a set operation; it combines columns from two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "07603b7b-d1b4-403d-b263-a5fdcedc69c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A correlated subquery depends on values from which of the following",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Outer query",
+                    "type": "A"
+                },
+                {
+                    "body": "Temporary table",
+                    "type": "B"
+                },
+                {
+                    "body": "Inner query",
+                    "type": "C"
+                },
+                {
+                    "body": "Index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8c9cb8d7-59f7-4447-a300-962596da57cf",
+                    "questionID": "07603b7b-d1b4-403d-b263-a5fdcedc69c8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries reference columns from the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0693002-a86c-4117-98c9-934a2c21e94b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword is used to remove duplicate rows from a query result",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DISTINCT",
+                    "type": "A"
+                },
+                {
+                    "body": "UNION",
+                    "type": "B"
+                },
+                {
+                    "body": "UNIQUE",
+                    "type": "C"
+                },
+                {
+                    "body": "PRIMARY",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e39a8602-a359-4864-9e5a-e63e2fdf9613",
+                    "questionID": "c0693002-a86c-4117-98c9-934a2c21e94b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DISTINCT removes duplicate rows from query results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aa6ca126-d383-4877-bce5-562a47fc3d46",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which set operation returns rows that are in the first query but not in the second",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MINUS",
+                    "type": "A"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "B"
+                },
+                {
+                    "body": "UNION",
+                    "type": "C"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e3d0923b-fe71-4d14-adfd-c254f9bac0b7",
+                    "questionID": "aa6ca126-d383-4877-bce5-562a47fc3d46",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows from the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d45dfb62-c8c8-4d08-95c1-1198be662447",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of an index in a database",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reduce disk space",
+                    "type": "A"
+                },
+                {
+                    "body": "Speed up data retrieval",
+                    "type": "B"
+                },
+                {
+                    "body": "Encrypt data",
+                    "type": "C"
+                },
+                {
+                    "body": "Increase data redundancy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "79653487-4e2c-490d-be9d-056e6075b8ab",
+                    "questionID": "d45dfb62-c8c8-4d08-95c1-1198be662447",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes speed up query execution by allowing faster data lookup.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3edd4dab-10c4-4054-92c9-afa0e836e63e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL clause is used to combine results of two queries without duplicates",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MINUS",
+                    "type": "A"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "UNION",
+                    "type": "C"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "22128470-f232-4b4a-83cf-dc60eb728c58",
+                    "questionID": "3edd4dab-10c4-4054-92c9-afa0e836e63e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UNION combines the results of two queries and removes duplicates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1942c288-76c6-417c-b5b1-d6e8e99e6951",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does a nested query mean in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A query with only one table",
+                    "type": "A"
+                },
+                {
+                    "body": "A query without conditions",
+                    "type": "B"
+                },
+                {
+                    "body": "A query that returns multiple rows",
+                    "type": "C"
+                },
+                {
+                    "body": "A query within anset operation query",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "5fb8e65f-697d-43fc-b0c2-c5dba8aa44dc",
+                    "questionID": "1942c288-76c6-417c-b5b1-d6e8e99e6951",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A nested query is a query embedded inside anset operation query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4e38914e-4b90-4349-9d6e-94867fcd3f02",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL statement removes duplicate rows from the result set",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT DIFFERENT",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT UNIQUE",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT ALL",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT DISTINCT",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "b2298bd9-d805-4d3d-9753-1643663fca19",
+                    "questionID": "4e38914e-4b90-4349-9d6e-94867fcd3f02",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SELECT DISTINCT removes duplicates from the query output.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "31bf130c-3caa-406a-82b2-4af991dfb57d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An index in SQL is primarily used to improve the performance of which operation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DELETE operations",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT queries",
+                    "type": "B"
+                },
+                {
+                    "body": "UPDATE operations",
+                    "type": "C"
+                },
+                {
+                    "body": "INSERT operations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3d299fce-3c4d-46b4-b6dd-437a558e5423",
+                    "questionID": "31bf130c-3caa-406a-82b2-4af991dfb57d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes improve SELECT query performance by enabling faster searches.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c5511528-0b51-46c3-807c-43603a86ea2a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a set operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UNION",
+                    "type": "A"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "B"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "C"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ff352280-63c1-4112-8c58-8cf4bfdc07f5",
+                    "questionID": "c5511528-0b51-46c3-807c-43603a86ea2a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "JOIN is not a set operation; it combines columns from two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "96c3f699-55e0-47fe-b613-08b10a66e226",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A correlated subquery depends on values from which of the following",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Outer query",
+                    "type": "A"
+                },
+                {
+                    "body": "Inner query",
+                    "type": "B"
+                },
+                {
+                    "body": "Index",
+                    "type": "C"
+                },
+                {
+                    "body": "Temporary table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "603742ae-85ca-4100-93ed-0b245d2ec737",
+                    "questionID": "96c3f699-55e0-47fe-b613-08b10a66e226",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries reference columns from the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32e2c53c-1533-43e0-a028-4d80ecf3d2e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword is used to remove duplicate rows from a query result",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DISTINCT",
+                    "type": "A"
+                },
+                {
+                    "body": "UNIQUE",
+                    "type": "B"
+                },
+                {
+                    "body": "UNION",
+                    "type": "C"
+                },
+                {
+                    "body": "PRIMARY",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6f78d57a-87c9-4b36-830b-7660395ed667",
+                    "questionID": "32e2c53c-1533-43e0-a028-4d80ecf3d2e8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DISTINCT removes duplicate rows from query results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "58a699d1-ef73-415d-8e30-2bb3ee07351c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which set operation returns rows that are in the first query but not in the second",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UNION",
+                    "type": "A"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "B"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "C"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "30e6e2d9-4e98-450f-96ff-b5330f307867",
+                    "questionID": "58a699d1-ef73-415d-8e30-2bb3ee07351c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows from the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b096902e-914d-4c0c-bd58-91eb2a2e83c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does a nested query mean in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A query within anset operation query",
+                    "type": "A"
+                },
+                {
+                    "body": "A query that returns multiple rows",
+                    "type": "B"
+                },
+                {
+                    "body": "A query without conditions",
+                    "type": "C"
+                },
+                {
+                    "body": "A query with only one table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cd61b85d-5198-41cd-b89a-64910547f8c9",
+                    "questionID": "b096902e-914d-4c0c-bd58-91eb2a2e83c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A nested query is a query embedded inside anset operation query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f94f94df-8104-44b4-983e-5f2ee58b784e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL statement removes duplicate rows from the result set",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT DISTINCT",
+                    "type": "A"
+                },
+                {
+                    "body": "SELECT UNIQUE",
+                    "type": "B"
+                },
+                {
+                    "body": "SELECT DIFFERENT",
+                    "type": "C"
+                },
+                {
+                    "body": "SELECT ALL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f49a2496-f76a-45e4-837b-4e91bf742f9b",
+                    "questionID": "f94f94df-8104-44b4-983e-5f2ee58b784e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SELECT DISTINCT removes duplicates from the query output.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8ffea078-17ec-44be-93c4-b5d4b53466cd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which operator returns rows common to both SELECT statements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "INTERSECT",
+                    "type": "A"
+                },
+                {
+                    "body": "UNION",
+                    "type": "B"
+                },
+                {
+                    "body": "EXCEPT",
+                    "type": "C"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "de70df17-444b-4488-86d5-32e621fb0b9a",
+                    "questionID": "8ffea078-17ec-44be-93c4-b5d4b53466cd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "INTERSECT returns rows present in both SELECT results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "acdf60f9-6cc7-472e-89d2-09ad1c05eaa9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An index in SQL is primarily used to improve the performance of which operation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "SELECT queries",
+                    "type": "A"
+                },
+                {
+                    "body": "DELETE operations",
+                    "type": "B"
+                },
+                {
+                    "body": "UPDATE operations",
+                    "type": "C"
+                },
+                {
+                    "body": "INSERT operations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4e3284b5-2568-4b63-bb6e-6c86a2ee8750",
+                    "questionID": "acdf60f9-6cc7-472e-89d2-09ad1c05eaa9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes improve SELECT query performance by enabling faster searches.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5482c23f-1cc1-44bb-9ded-5dce6bd942a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a set operation in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "JOIN",
+                    "type": "A"
+                },
+                {
+                    "body": "UNION",
+                    "type": "B"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "C"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9851e4ec-3dd5-4f25-88db-e8147f3f9b8f",
+                    "questionID": "5482c23f-1cc1-44bb-9ded-5dce6bd942a0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "JOIN is not a set operation; it combines columns from two tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "43a2d056-e587-4b75-9849-bf9109b02a81",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A correlated subquery depends on values from which of the following",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Index",
+                    "type": "A"
+                },
+                {
+                    "body": "Inner query",
+                    "type": "B"
+                },
+                {
+                    "body": "Outer query",
+                    "type": "C"
+                },
+                {
+                    "body": "Temporary table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5a8216f5-985a-48ae-90bd-f8926de47836",
+                    "questionID": "43a2d056-e587-4b75-9849-bf9109b02a81",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Correlated subqueries reference columns from the outer query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6c5c8014-9a92-4e87-8448-9210ee77f6d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which keyword is used to remove duplicate rows from a query result",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "PRIMARY",
+                    "type": "A"
+                },
+                {
+                    "body": "DISTINCT",
+                    "type": "B"
+                },
+                {
+                    "body": "UNION",
+                    "type": "C"
+                },
+                {
+                    "body": "UNIQUE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0a485d22-66e0-438d-951a-152056d08af3",
+                    "questionID": "6c5c8014-9a92-4e87-8448-9210ee77f6d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DISTINCT removes duplicate rows from query results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "12b518fe-e883-43f1-ab6c-4a584bcf2061",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which set operation returns rows that are in the first query but not in the second",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MINUS",
+                    "type": "A"
+                },
+                {
+                    "body": "UNION",
+                    "type": "B"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "C"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "250b8c73-16b3-4691-8dd9-c4d0afd767c2",
+                    "questionID": "12b518fe-e883-43f1-ab6c-4a584bcf2061",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MINUS returns rows from the first query that do not appear in the second.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d3adb740-9529-4b92-bce9-9ba13132795c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of an index in a database",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reduce disk space",
+                    "type": "A"
+                },
+                {
+                    "body": "Encrypt data",
+                    "type": "B"
+                },
+                {
+                    "body": "Speed up data retrieval",
+                    "type": "C"
+                },
+                {
+                    "body": "Increase data redundancy",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "febd628a-f1a3-4341-b598-81933a9ebfc8",
+                    "questionID": "d3adb740-9529-4b92-bce9-9ba13132795c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Indexes speed up query execution by allowing faster data lookup.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ec78cd49-b50c-427f-9918-363c1b817aba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which SQL clause is used to combine results of two queries without duplicates",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "UNION",
+                    "type": "A"
+                },
+                {
+                    "body": "JOIN",
+                    "type": "B"
+                },
+                {
+                    "body": "INTERSECT",
+                    "type": "C"
+                },
+                {
+                    "body": "MINUS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5f3c2996-7ba6-419f-874f-6822db3cbfc2",
+                    "questionID": "ec78cd49-b50c-427f-9918-363c1b817aba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UNION combines the results of two queries and removes duplicates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6e441e9-6a4a-43b2-8ccb-b55fbc0985eb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does a nested query mean in SQL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A query within anset operation query",
+                    "type": "A"
+                },
+                {
+                    "body": "A query without conditions",
+                    "type": "B"
+                },
+                {
+                    "body": "A query that returns multiple rows",
+                    "type": "C"
+                },
+                {
+                    "body": "A query with only one table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fcc4dd3e-f13e-4e59-bb7f-0ef7e5ced614",
+                    "questionID": "d6e441e9-6a4a-43b2-8ccb-b55fbc0985eb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A nested query is a query embedded inside anset operation query.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

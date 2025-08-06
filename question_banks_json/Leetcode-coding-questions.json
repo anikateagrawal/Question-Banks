@@ -1,0 +1,881 @@
+{
+    "bank_id": "f6b7fde0-653e-43fa-a02d-6ce01b12db55",
+    "bank_name": "Leetcode-coding-questions",
+    "questions": [
+        {
+            "id": "1fc97bd9-3e65-46bb-ab6a-8c7092ea283b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>“The Cipher Sweep”</strong></p><p><br></p><p>Aanya is a cybersecurity analyst working for a digital forensics firm. Her current assignment involves scanning intercepted messages for signs of covert communication. The messages are long strings of lowercase English letters, and she suspects that a particular keyword—say \"spy\"—is being hidden repeatedly in different parts of the message by rearranging its letters.</p><p>To detect these hidden signals, Aanya needs to find <strong>all starting indices</strong> in the message where a substring is an <strong>anagram</strong> of the keyword. An anagram is a rearrangement of letters, so \"spy\", \"pys\", and \"ysp\" would all qualify.</p><p>However, she must follow strict guidelines:</p><p><br></p><ul><li>The message and keyword consist     only of <strong>lowercase English letters</strong>.</li><li>She must return <strong>all starting     indices</strong> of substrings in the message that are <strong>anagrams of the     keyword</strong>.</li><li>The substrings must be <strong>contiguous</strong>     and have the <strong>same length</strong> as the keyword.</li><li>The solution must be <strong>efficient</strong>,     as messages can be up to <strong>30,000 characters long</strong>.</li><li>The output should be a list of     indices in ascending<strong> order</strong>.</li></ul><p><br></p><p><strong>Task:</strong></p><p><br></p><p>Implement a function List&lt;Integer&gt; detectAnagramSignals(String message, String keyword) that returns a list of all starting indices in message where an anagram of keyword begins.</p><p><strong>Example:</strong></p><p><br></p><p><strong>Input:</strong></p><p><br></p><p>message = \"cbaebabacd\"</p><p><br></p><p>keyword = \"abc\"</p><p><br></p><p><strong>Output:</strong></p><p><br></p><p>0 6</p><p><br></p><p><strong>Explanation:</strong></p><p><br></p><ul><li>Substring \"cba\" at index 0 is an anagram of \"abc\"</li><li>Substring \"bac\" at index 6 is also an anagram of \"abc\"</li></ul>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "String"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "88d56db0-9055-4d60-a9bf-4a86ec2f2e92",
+                    "questionID": "1fc97bd9-3e65-46bb-ab6a-8c7092ea283b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static List<Integer> findAnagrams(String s, String p) {\n        List<Integer> result = new ArrayList<>();\n        if (s.length() < p.length()) return result;\n\n        int[] pCount = new int[26];\n        int[] sCount = new int[26];\n\n        // Frequency count of p\n        for (char c : p.toCharArray()) {\n            pCount[c - 'a']++;\n        }\n\n        int window = p.length();\n        for (int i = 0; i < s.length(); i++) {\n            // Add current char to sCount\n            sCount[s.charAt(i) - 'a']++;\n\n            // Remove leftmost char if window size exceeded\n            if (i >= window) {\n                sCount[s.charAt(i - window) - 'a']--;\n            }\n\n            // If frequency arrays match, it's an anagram\n            if (Arrays.equals(sCount, pCount)) {\n                result.add(i - window + 1);\n            }\n        }\n\n        return result;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input strings s and p\n        String s = sc.next();\n        String p = sc.next();\n\n        List<Integer> indices = findAnagrams(s, p);\n\n        for (int index : indices) {\n            System.out.print(index + \" \");\n        }\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "895418e3-f6db-4b35-b1c7-07710c77cff1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>“The Data Vault Spiral”</strong></p><p><br></p><p>Ravi is a systems engineer at a space research lab. His team stores satellite telemetry data in a 2D grid format, where each cell contains a numeric reading. These grids are often rectangular and vary in size depending on the satellite's orbit duration.</p><p>To optimize data visualization for mission control, Ravi needs to extract the readings in a <strong>spiral order</strong>, starting from the <strong>top-left corner</strong> and moving <strong>clockwise</strong> through the grid. This format helps analysts quickly scan outer readings before diving into the core data.</p><p>The grid can have:</p><p>Any number of rows and columns (m x n)</p><p>Positive or negative integers</p><p>Edge cases like a single row, a single column, or even a 1x1 matrix</p><p><br></p><p>Ravi must ensure:</p><p>Every element is visited <strong>exactly     once</strong></p><p>The traversal follows the spiral pattern: <strong>top row → right column → bottom row → left column</strong>, then inward</p><p>The solution works for <strong>non-square matrices</strong> and handles <strong>boundary conditions</strong> gracefully</p><p><br></p><p><strong>Task:</strong></p><p><br></p><p>Write a function List&lt;Integer&gt; extractSpiralData(int[][] grid) that returns a list of integers</p><p>representing the grid’s values in <strong>spiral order</strong>.</p><p><br></p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXoAAAF6CAMAAAAgfmOiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMAUExURYKCgoODg4eHh4mJiYuLi4iIiIqKioaGho6Ojnp6elBQUEBAQERERGBgYHh4eE9PT0VFRWJiYoSEhIyMjIWFhWZmZj4+Pjs7Ozw8PD09PTU1NSIiIh8fHyEhIRsbGyYmJjk5OTQ0NCAgICcnJzo6OkJCQkdHR0ZGRggICA4ODhISEhAQEA8PDxMTEwsLCwQEBBQUFBEREQUFBQICAgoKCllZWU5OTkxMTE1NTVJSUkpKSkFBQV9fX1RUVFFRUTMzMwwMDENDQ1dXV1ZWViUlJQAAAF1dXaampre3t7i4uLm5uba2trq6ur29vaSkpFtbW2RkZKurq7y8vLu7u6GhoRYWFmhoaK2trbW1tZCQkFNTU/f39/v7+/r6+tTU1MDAwPj4+Pn5+dHR0QcHB2FhYcPDw+Li4pKSkjIyMg0NDb6+vv///9/f37+/v9ra2sLCwuzs7JOTk/z8/P39/f7+/tnZ2dXV1V5eXgYGBlpaWubm5lhYWMHBweXl5Y+PjzExMdjY2GNjY+Tk5FxcXJGRkTAwMPb29rOzs6WlpaOjo6mpqfT09PLy8sfHx6ysrMTExNbW1u7u7tvb28XFxaqqqrS0tH19fS8vL+Pj4/X19d7e3oCAgD8/PyQkJHZ2dqenp93d3TY2NoGBgfHx8a6urm9vb9zc3MrKygEBAZSUlM7Ozp2dnSgoKGtra+jo6Hd3d/Dw8HBwcCsrKwMDA3V1dTg4OElJSerq6gkJCe3t7WVlZWpqapubm83NzW1tbdDQ0J+fn0tLS+/v77KyspeXlxUVFSoqKpqamhkZGSwsLM/Pz1VVVRgYGHl5eSMjI8jIyB4eHunp6ZiYmHFxcbCwsOvr65WVleDg4GdnZ3R0dMvLy+fn53t7ex0dHXJychcXF42NjczMzNLS0nx8fKioqK+vr2lpacnJyX9/f3Nzcy0tLdPT00hISJ6enuHh4ZmZmSkpKaKiotfX1xwcHJaWlmxsbBoaGrGxsfPz835+fqCgoG5ubjc3Ny4uLsbGxpycnFHeBqMAAAAJcEhZcwAAFxEAABcRAcom8z8AAEnlSURBVHhe7Z0JXFTV+//JPZOUzNz3VAYGkBmwVMwJPbikgpq5MGziNlwVnXuVkUVRUnPLPcU0LU3HJSsmt8pMU3JJXErtK/mtTLPcMjU1v2b/1/OcO8PMZZB7DzD8ff3u51UId3vued+zPmfz8nqiQsVKFStWrlylStWqFT2pKtWerP5UjRreT1SrJD1V9qpS7emaT9Wo5fNMeRivWLFi5Sq1vZ6tU+u5unXr1atfr379+vU8qucaNGzUuEnTZs/Vr1e3nseNN2/YonGTls+Xi/F6deu2au1VuY2vxk+j8ffXaAP8tJ6VJjAoSNM2WKv112r9/aVny1iaQJ2u3IwHtw3Ue1WpF/J8aLt2NV94sWbNmu08qZrtOzQPDOkY1qlmzfYvSU+WtWq279A5xPBy+Rhv1y68S1fiVfn5thHduvfo+UqPnj169PSkevXuE+nfNqpvv17d+/f3vPFXw7UDXhvYuzyM9+w5aHA94lXhee2Q/tHGmBgj/u9RxXr7BkfExRujE4yeNm00Do1M9Bs2PKF8jI8YOYp4VatvqpnElY9GD0vUhI+RHvWQxkbo/COTpUc9pHHjAf1zmhd7xnBmI88JgvSKMtYEH19DeP8EjuPMZk/b5iamWLSTkozlYzx1ZGfiVbGe5oXuRo5PMJcD+ihfQ1qSkYOv7nHjE8Msmsh0vnyMZ0yeQrwq19W06xHDCZ7/8hyXOTXRlDaG5/hyCDxFnyygcem5Mte0alOIV5W6muq9Ejwf40GZPommtCSIdjzvcfsTUyyarHQBjUvPlbmmTR4FGY62Zk8jB/Y9jh/Qh44xcxwneD70E1N0mohksFsOxlNfHwUZjrZdDyPH8fD9pVeUsTKHWQwUPedp0xwXG2FHXw7GU1+HvP55Tc2eMeVhnqKHDKdcBOghwykXZUyerqKXHvaMVPQq+nKRil5Fr6L3qFT0KvpykYpeRa+i96hU9Cr6cpGKXkWvoveoVPQq+nKRil5Fr6L3qFT0KvpykYpeRa+i96hU9Cr6ctFjiV6AUXp0vBT8VHCnRAzoBRwnByNU6YA5fBX7sEH8S+5ILuXocXAmtUF/F4+6XiVLrOh5HJ6KxOAXBXdKxIbebBYE3gzYzfAf0BDH6gpm8avIEQN6oI6f2TnYAi/ToLMY0SN3uz0MLdpnGLHKgB5tmXmYDgC/IGuMeLyYGGS/hnL0MDIWmQsxCdQo/C4IZrkmC8SGHqI7RDoxnSN6OlhW9iPsYkEPoed5ETDihljAm3kxt5GNgQm9GEZjDB0cjN/c7EH0gmA2Q3xnMOkqFvRupr/wvIAsKHuXU4+QcvRiGSe5BaOhUrGhh2Rn5CHVQ3JzOupykSwxoMesTnoHj9EfXgajorwYoRw9xjpHwUIFA7Sd/pQrRvScIJgh4mN2NyN25huzZs0eOsdT6MV/546d139gtz5v9py/YCE9gWcwJ5YXDRnQ0zKW4+YuWvzKkm5Lli4eO4fSVyxG9PZAYlIb+9aygICARs8sl39/gRjQo8zZK5a+Hb5yVUBA4+dfemf1xLlmmu3Da9EYIUMM6GntcsaapVVD320S0KRB6HuDpiXI/NKuYkNPTcFLmHlu7bqOBPT+epygoFAM6MFu9IaRwzp2DbaAYaupUbOUjZsgALRqKXtOGAN61PrNPk9tCcZQB3ft+MHArdIL5IgRPWRvmOHxHDf0nUbwDqYP13gKPcd/NObjHCsGXZRt+ifD1woclLVQ/ZPeUoTY0MfEVtxmw29OX8F3+6vTYAKoQrGhB/FQo+A4bsfmlTuJlRDDh2sUARTFgJ7jdnX/tJHemTwhQS0+672Q4/gYqP1Iry9KTOhjJlRdpqNGxa+/s9bno6VXFS9m9FCxhuvXzuziRwCD6cM1Su63iwW9efcXTQoCDoJI2PjDPUbanMJGjvQmd2JCv/XL5/ROxiHqB+4dOFd6WbFiRW9P1Pu+8m5CiM1qJaanVyi43yEperEAp78XXOaijP3TMdRBB3IbvNusQVM/TAH6bV8vx+egb6eoe10kRe/8wYp6gHF+RACYsxw81KDB9KZt0faBjw/H0NPyvjmIFb1Ys93V98g3ekL0Nj0xHB2t4H6HXNBDlQnbLBSh2+YLxxl7R/hhVM+LeuPY4T3zvsw6jrEwIKIfTPin9ftCd7mTC3qHcfrxizDOnTiZg5E999vvDm+K21jTnxA90T/16in8XLTNUfguN2JFT32HE0+/EAChtuqtxPTkGQX3O1Qo1kM7jfpksILuppa+6/NmFmIl+ibfj8mGvz/qHvYNoA/atnkfdW043EvFqFCsR+M03RRhnN/wvS989qb/OQvH879eaQLbeT9MoOgFe5O6WDGihxgRcyL5yWXwGlTaH86wtOpcYz38AOcEFUKAapTRue4kjP3hHBg0bV83gx6Z2+0peA993hNnoKkHngZ5L+Ia6+GHwzgeKWyci0mKaqzx1QcfAWAcxw39b2PI9n/8foO9IV226CFDiD/8U81GWMciVihqNEdXwEoH0kuLkwt62iYShJgYp9QODXfnxxp/TsH89dwnE+2Qz04dAEd865w34yvInXbvgl6WcS5m6OefRLTaMurDiRwHrtPUyofgbYIj42LEbFgmeWb05oyvvlgWROO7TQ/oDU+PhnUepJcWJ1f0c9fsgH+hdm6PdYUy3OhjXzQ9/uNO0rTSCIilcGjCLw3xTcLPgk+viEzajVzRr10P+bVo3DnVOcu8cP2mpAuvn+65g3ps83+aDui1oQ70cr87G3qOS0j2HoD1K98fW3yTCL8EAnrlcs3rT1xcN3YfNE9oKefW8R69YPaz/5364rtH3jhBcz6OG/teVyxywvYAeigr5LXsXfP61IHfrf+IrtZQpHHIzBMSYqKjIWmAVry3BdAfiDqLzmNHHaF4saKP7lkTgRva/PLOymAId+A76xmadBL0u2b/OmxyLPyGCd2pP6ZA5o8y1sTunt9z/pl4iJO8kePOfwINav2AT8baazeF7nIrV/Q73njN5/UF8FvRxp240lOXvAMgCjb9bZF4VnaBx4o+YUxaCCGmnLDVEwaFDoD6VeA7a0qOPnpTREjO76t3f+QgiD2Rknscws4yIyfERR6wEqI7NHkHXvyIO1zlij77bOjOy+9c2LT2Ecapaw76afCVjVcqTIHyTnf1wi77XS7XP0Ks6I3JoRrLN+3GH86O7z/JD9Abni6FyqUQP/KgTZuX8mZqAi304EfRi2OJHsp91+oabIT4PrU6mlbNi77DVa7ohfifBti0q7wv5tPcxK1xqMAYwWHOC8boXcN/6RwIiT/vl1hjQUqT9+VZ0cePGVY/anLvDI7jXxmiRfRHr7P4raWVy2NpgYQErKyzfygegBPScov2wor9k0Bn0xc/2qCOFZFOuwk5XqYjT1q5nN8phJADT33/xxU84M44GKDF8L5+z0S90BKz3YNRY7KdajZlil6IHvr1H7uxWh3zVXWK/ukzLOhXRFkMkcML/p7zZgOsrBz6feBE2gFir2w4RNuMZiN2gMOigT81h+zWuqXiCqx8wXnn64vWWG+dJmxewd9rL0xB48s+uThxHz1UyLgjGax/glarLN90fr/XR07ZnDSTKkJs6AXemH1qF7TaOS5mZnv0XBueHq3gCQ6N9YGliJwOLErDxoLtwI2UbmcowkLLY9HhNzAYBNxZf7byhQalX2jvaBGVvLBz3AJcBcrpwM0h2GSwHcgZNnsEfYircchoRLRXPryF6P2u/nRYbNvRzF7md2dE75S0YgZ1QvTuKpf41jFX+g+/VIQ27F6yNyik1u1Lu4/NO3bp0rFLZzclfXBc9Adrn/r1602OmmahB4u1v/w+ezVQw9K/uzG10DVcwtD+86VG7dqwe/XVIMPVk5d+ths/3P+1W6Lx4FZ/bd4DT3A1zht5u/9qz++NsU1jqFcpk9oTC9nC9SK3YkPvrIRBnbRFoIfatcDNuPh+mM9UH7eKem3IKquu4d6o74d5+0T5ePvU+T7lhaY2bB5DdbHla93Gzin8Xlj3o7WP1Fl7DXjtnY9/Fp2H4jVofE7fL7yLNv5SQ6slb29UnQLjHVYVGL/xwexF2RLjOOKEsr00jPZTkeCVv/XKNxcMSygcU9yKHb390xaNHjz6gpnLXhp6xz/YvfwCNBZitZj8/IL92rYN9vcPCAg+YNLr9XZ3uF/uk5mF0jDGL94I9ZCts2icJ5qad+2pXrwGjd/77sg3jzCuI9ZEF+NtnY0HHPp7kdQ49fBAUT4m3EQvsxkaddg4lpZA1HXpfEORKkv0WP01c3MuTrqRV4RWNT2uDQoyHGzYtGveqlWruubldV216gCEXk9z/KYdNp4pVGXgcdgf+BBS71/VQBlPTB1m5btcIxpfu6TLFqlRu9C4zXQwz9l42wLjQVte3L9cYpxW9eHh5vMb//v+/6a2Qu+Rrtnk9bA+q+jtlKWyRI8jpDgue9Azz0o3LLCryuRPHviG/BNVeXClCs9WrlK7SsXaVVO2gG/ISohVc67D5MPZhSuKPAwBApfBiGttqOvUv8Or6PxxEjU+5+4TjzD+e4PEkCl1Kk52GH82silQR+ONXhx/foa0yOSNRizjzWbj3Pxd8dEZA0Ohw4JYWv25VUljrozRi85Xc0bmmRHXR7jV8oy4LomGdhfOZCy/PvrMiOXXR2Scf+2A6JbLm/r1wwzxOc6PxTIWsoHln79sIiSIEG372SecrsCr6F3GaY8y3q+9ztS+74gC45uiAqgzljSts/kYFNtS41CC0IKGfpVd36W1hcKhyRcP47GIdbr40Spb9E614KJ0JkpnSnGqWnNXXsRizrCsU8XFkHsL0IRxE3qOW3O7406MoS3C7u4TR34WXIU+tGKMrw+zaaducDpw+Cp2upqmd6k0D0gWMi4WopjmaBVr4cnmFishIbXegJaAgqVCyxQ9x/EJdNhC0VoflaiJGF5w57TJ4ITcebz67fNz7d2dro/AAZ88J4x+vR4Owwlq+c5D6K1y/cpoHBzqj1JmmE477GHB3yMqNQTjLdqfvHJPdEgVrqXbrUD+Aib7dQmGuu2WSphI3LR/i1BZoqexRqwRFD5HhctJJ5kRKPz9Si0bIS2j9ieLlXR3DSTMA0aPfx7z+cQHT+Dop8KQqHHHk90I1zROxi49vGRmKz0hN+r8MVwsst0Zt0uAdwaPxflvj8N7GD4eSz2m/5+gp7XvR/WZZQ5LNBzpBwUXXMHvOGoK+adm5UtiandU352FrtnlG2mcD766MbOgZ0N6YTHGJ6boTKFxkDWh8dT/BAYue6nKWWimizVF6WOF+LnjUhdt2nAlNdsMDzdzXOYveVjJCjuPZZDL5Y9SWaJHZ3qMuZAbwEWZ3hZDeBI2EWHkbHqXOx2unac+CsFsxJsLZThGjsu/thIdV37t+6bCZyrUOSLLeGxWkCYSfW5gPLv3kDsv3o/dhflcEcbNqemvjn9yUrsPltCEwXPcxA8b4UCgYVfsl8rjX7bosfbtvrfHrkxvnWlSUoxYaI2b/XftHrSaCHFevFkS8XieW3uxJjprm2TdBR+b2MpxuUqO8djIIG1KOlTI4boTb/xdrdc4PIHG6SAv1/vjL32ybdQqbeLlZ8FVhxA2fHYQCvsD/5mAlxbRu1VYpYj+6GhpBMMoJ3YqFKVMb50G0NPiaVfc2WjxhOgVdvtO2UlTf4SGTONfF0tPOa6XYzw2Msgf0FPjp8bsph7BRxiPH1Md654H6uwWy5yEgR0g/EHTX6fpQDL4vmgxokfu9NUSXjmC6E0/nHHxoTj06KeCvz40CXtEBY6L+chOXnqfIxHDv+c/yYM6oH/1i/dcLhKrF053Pto4+Osj0vEWNI5ZF6qo+/gr/8OxZ7a6fUTTi345Dk0BU4c3oZoluhKkt7lTKaDHWG8lmidXlLyDsEiJ4aEZwNY/3rURYtUbmv23duWqoAoV8J+ZJ3A6VaFsoihJh0DJ0MJ/twVBcNumfYfdCZmT62Jx3/YvGIhDm1RlndeL6Y1LWNpeS6x6onm6LIe7gtfE/rH5pCwY86a3WW2JOr3VarXqwfFitVrDhuK8nkdValzEgJ5/+P03OPrhQPv7m8aOjXuimQEa3/opn2N+I486qiToqeIBvcVGDEdLoW/2EYJA0frKjtcv64nN5nAwFqjTWTMNRNmh53bMqhGIbWj/y8917Lgtz4BjjRt/LDYu3LQvilApoB80REt0NhJYpujF+jX8NJ6tAz2S0BtLR77ZRawRu7FtJjvysaDnx1YaZbXPasA3gFJ3ahJk/RS9zOeVBvpOmOEYPlwhPSVHMtGL41BBCy/Uch7f7qyUw9BjUdA0Lk4s6LmEPT/kFAw1BenvhM4UC115dlHM6NE/ACVaAvbN6knghwwzK+SiR5Zii3V0xX8IwdxGL5lZQryvYOu+0BjVoqQcPaSp+KEVHqA5q2g/5/3uC2kVgBbw8viXHH3MxTb0Bb5Yj407hZKJHn9g257b/anGibaLjhxGj6IgmGPKCj02mtfsT3vQ2B9Nmm5NGVL77AzRZwneM7lZTknRc5yxZ+SdwMDAwB/fGi1wMlsTTpKHHiW268/WOR4YGGgAm1JFDcUxl7yxOJelKFb0/NqbA4/uPdQ2MCC3w/vXfh6Hffdi1CjWU20XK3qkjunLfL3Xtf23T568dmwtL7dwd5I89LTHE+0JGT03nzx58o+TbtT7FC1ji+0lEKUcvX09DO5ebK8lm09uXt3jMA5PxsHmtD336AZ0gUoBfcFBuSF2ljz0MNhMfPajIxVN7lJ/Y1FiQA8FfuFw8jEx1I3kqcolGim4SX5sc5I89M6Vy0cK1wyRXdIxoKcZrcstvGCOwbmLYhfBoyOHQyVCL95AvzaYlum9cJZM9KLEMKOnEr+7iz2sXxS4HIoXC3rXfwQB8hoe+uIwD8DsXt4DS4a+FKQMfSmLAb2zaAQQO2QUS0VfAvRQtoquOob0rqIvCXpYjYR69s3K472KvgTooXfLHAPT1+Q1nl2loi8Jej4hhi6FpTy7UdGXDD1Kbq+UVCr6EqCPmTFjRjwufsjyCBU9O3p+z8Cv1vU/hQ4E5aWsir4E6M2DPjsSWhvGoEvbdrKkomdHL/ROO/hP7eX0d+UPUdGXAH3yEUsejL5hK2dV9CVAnx5u2DIyn81jq6IvIXrTjfEY66Wn5EhFXwroGTJ6Fb2KXkXP9IQSSkWvolcuFX0JpKJX0avolUlFXwKp6FX0KnplUtGXQCp6Fb2KXplU9CWQil5Fr6JXJhV9CaSiV9Gr6JVJRV8ClT/6inU11fuXU+gXwXLScdKjHtJNWE56vvSobM1PM904LV1fU7a2Dp5OvKrV07R3Xs/ak8r43mKKuCQ96iFdn6rT+uyWHpWt3VmanH9xaywWzb09hXgd7WzaPis2MzMz8yb88KAmjO3eXhey99WbEzIzJ0yQni1jTRi7tGaQoV2fTDbjEzJnbQ/Me2v+hAmZN2/CMxRq8dv/EK/qDQOnTKKrWQ+TLnddtpr66ZCu+qDG26dGeQ+LihrmWetTP30pT69r2GHqVCbjUT5XW1j8ng+NiooaluJdxGrhj5D3C42J18oWukCtryXRN9FiSfSsduqssD5noq/F4uvraes7dbC4Cqtx38QgvVWXmOjru9M3SCc9W7xCNDuJV8fGidoArclkMGkMHpbJsFOXqA02aTxuucTGTYYQnTUoxKQxaTQmk0l6ulhp/XYSr1Z3tLWiItNC08LTQkPTPKnQrJc6m4Lb+EyKzArv4nnj1UeZAlqzGo9Me7mRzjSqvXdkWpe0SZOU3p4WlpVDvHy6+qUsGZOU1Lt37zFjkjypMcndupja+swekz4mqfcYjxvvM8Rw4NMljMbTk15/OfDWZ+sWpyf1S4qLU3p7Uo9qdYlXhWaa9v3jeWOMEdbk9KwWDEvUTkpK4I2w4oandSXL4p+SHsNo3Jw+yf/G5AzpYbmaNrgz8fqpvqZmP6YWWcl1po6vKS1detRDWu+TqMlib1JdytJe/ho2jmPSro2jiFeFuv7te2LTgGkCaIk0NsrXBBuGwuxf6bky1wJvizZsOOyjRnfwVCYhLlyTs3Gr7C15JEodOYV4VajnN6Q/7jngcfK4pnFWMqwWx/T+JVNsVpDWezEP00IYjAtjumi2wIQetlkl06otI15V6vlX7wWLSJllLlxVisoM89WG9zPjOuYe//CxkRb/yDF0pynlxoX0UG3Lyal0Voniu7kM8OFUqaet2dMIC+nI26a1NJXpvVN7pCekedyLwbOKzUr0D+0HOzOzGBeGR2pvjEwFzyXLqiypI0cRr4r1/F/qlaBgxbRSVKa3BXdtgIAzvH/JBIuog9PYvpq1MgnpoZqc07CervJ7MdZPIV6V64roWZ5QQmUO0xlCIc1LT3hCsHVARLKgwDiuP2X/Pa6L6fL+rZIrZEvtKlHWVYK7Is09sRBemI9LozUcjpuxY5fiZcxV9MrQg4Sx6/rCJtz88Aj/LYMB/dakC8nSlfSLlYpeIXq4eHnfqd6358Vwe1L8W56ewZ356vcjT+xx2QFRjlT0ytDTdcJvdtl5zueVNT26+OfWvjK0UqvEcyeVh0BFrww9Zb+w4ipyoG7EBzX8DkV9v7ep787qDK4QFb1C9Nh+ihn6WRAhQQ1XGe7k+BFCOndj6BxX0StFj8uXGzfDDmw2i94WZCVEn7VI2TNQKnqF6MWtfB8eCXBsXhA0/TTLsAQVvWL02ObP/7Iz7h0AWzIHfjFUcaVeRa8cvbjGHL8+ywrkIdbn/el+Q65ipKJXil5cWzF68BabFbft8OtyVqzvK5OKXil6kb3xUh3YBdFKSIMvTzA50FT0itGLdfsZ91vQUtYbNnRn8Pmq6JWih6sxjv98pC1sQdl0fAJbD6GKXjF6O/sTn2+DLSi/P0Y7GxRLRa8UPQh3BjEuiCCENJ01B8AxdFOp6NnQQ94ePfm43tBlDx5hGFCgomdAL+5Nxj3MMuX8scO160q+VPTK0GPGgvUZnufm7u/a6Sbu3GBUHulV9ErRo78ed58SOO7w05sTOB62gFfyDFEqegb0jn/nLEoVjHQXPOVS0StDLzKie7fD73T8jqJHiFLRK0RPIzzuukazfEfuo1QqesXoYTskKGypC1MwG83ltk2MvTGBLyI9WayY0NM9FqXGMP7hW0jPFCUm9BjjHd5jzmzEFOCgILuGX0roaYBZPj4DekQsht/lOI+DVhW8BhN6jhd3OaRmINhms2PMpNiVIkOlgJ6+DM/DG0hPFC/l6HHfP/suaC6vTFHguF95wWdDL8ZtzOPpixujYxz7bwvilylWpYIed8US4NNLzxQvJvS8EXb5LJy1QB5AqRRKEm7FgJ5u7CruG28foczHixtr46Nk7pVUGuiFgo28lT9BOXoIPmwy6kbwSeRHOzb0RvsGp84HHdmNo7FbvEoHvQOE8icwoH+Ex4RSlxnnmdCDo0z6aQUzRS5mAC7nilZpoOe47Ng3N2++9uqg9cr7hxnQw3tG37x4bfO1zf9uvmbX5s19h84Vs9syRI988XXzd/dYcn9zn6WXRiQUxIdCn6VolQ76iW/laDSaAXvfVDzmkwk9z3GpJ9/VaPz8tBqtXRrNssErsMopM8EzobfXrIw7jn392cstD2gOPvAePPwEZPXijCrZ371U0O/6FwalELKtj/KhQMrRY7Vi0S8H7COQHPJ7bz3UfOj2u7LCohw9J8RHmzluxnyvdlPu+IJV64BlL1belFBQzBaZG0pUGujv9c4ywUuE1FriiViPDfmfv2giJU8aVxgtVnLKsoaTEM1xp5bWaYgmxRFoWz6ZD8Pr7XmO9B73Kg30sT/cCCJ6K9n51GpPoIfXjOkZDn3SdCCMXS2qrsGz0KqR3uNeytFjXr7jQvu2OPjJLv3x9x9CgqdONZnGSwH9rlef32kFCDs7egQ9BC2773YNhNmZPGlceQVFb2/pFCvl6IHRve9q+jvbhbe4XGUFtvNoH4ossaIXUzSMBUof5kcIDIELrDG7FNCLtTSnl5FWos0Ct+/L+pjRumjAEytoY0dmdsOIPmbD95R88JYHz2/LPWAjekJM7ZbewwJe/CFDrOhpmoYIOPrZGzaKPuTlCyVHD21RrJs7DhWKwzwnpFbLwRTvEutbVKDo7a7F4qUcvcBz0yZPIUC7bfjmS1c2zYq4ha/R0Gus/V1lTsFlRo+EBIFb2Hc7xD+rlZCQVheipdcVK1f0MGmaoqYVZCxSC2M0jn0aKjghy4b98hvo799+e+vJtwYnL4Q2FZ14Liv0DOiFGb07mQix2g4eubgQFo8b2AnTgGVIzwQ6MEFuq4oVvSDQVrt58ffnADyiL3lej5Txk1L2bgtMgYu/5K0jhHwT9dDRO2eE7lHRbVjg1ypGytFz3IjBOYB6Z+s+4/DvaZVyrbZEw/FOF7PpzGN8ExliQ49uEswXllfLDSLEGqTTE7LzqTcUz2B0RS9GFwHeHgpLHGUhraXzZm7O0hf1hOgbHx3tdJz6cESnceGU4k4s6Df8OgDQ+30L8zeB9MAOqw49175OhcXxNJHK++rM6GnfJMdl322XiPmszQaVyzfmSK8sVi7ohX2HY7GShstkYHeI6Bt3ukMwc7tmdbQRYsupnAFn7MWaIH6yMi1m49d1CCRWEnTj9j4xlWbOGry/W/fhh/PBkwM9BjLNs6G3O0Zj9nx8jhCSGJio1+shwylpXp/xZaWv1t+zkyyyip46fhugr7vZOZVRjyWmErmOFAb04/Y3sBA9CWz9ncNfJcDyWbCOlNiFULbFrGA2QrrK3//ARkjgcy/khFitpVHMrv0qrNmk+9AygpRlFCuKhZwyZ544pCPEsvc7cFxRYbXO7kmROy6GAf2Iqlt0xEraRrhZDpe+bKHacBFiRA+BE7g53dv7E6Kb/kyVl7UEMpySoueFER/bSP2jS4bOxdhEO54dZYAoQbjy/nEbIb6Rg27u7n6h23e9h26FC7Bcpn1U8jorWNBnfjvARghp9PsCznxm8VcXZi89dp0uLIIfXm4pUwL0YCB+9ye3CCHH/+o3q5WB6EniytWwlJQyuaA3c/ySB0FB2mUfrBsRj9hpP5zkHmN6qBYqGUOqVR327p22XVv9+vXhezwupISXywTPgt68IRQbFDeemLB2XrUuhw5803lS7fm7wHMpZsOFkmhRYkMPuZnAnTrZTE+I5eqbGRdbQdHj27HEsZ7j1vwNfrE7Kz/7cgIYSoAKrHR+XvzSVlCtsuQ1yMHahu5g50kbDydAfKB1L7lpXjn67J7bsT11+b2lX3e6DBGAtM3p8OwGXL6M5nNyO8lY0Zs5LnpMaDAh+qZPnIm/WMNACAmsxeBIWF7HYsqa53TgUgd0EfhuO3p3IlQiOCEmRvJia99YBq04SPh2F5p+meg8FMtaeaFXjn7txVqIvmHap81oUxp+Nv6g31qol9GOUpnxng09RqrYo3lWQgJS4szGJbVgSpehzWy3/nrAUaRuelsM4b2N9A8YsTvi44PIVNd21GsXzvCYcUvCsnxynrMPAS+3Nfogbq4YAtnDTxnRE0K0jZvQWjVV24juc7FIwtQm74Hy0Yv9AI5n79vcXEdI0LYvF3Lx3WisF91n2Nyi1XH4EbPgzZMjT992q/0nf2sWlNj849P7b5/ef/L2xo0b94+MhCIU9eNT/3t1D8RlCfrYp5tI3DfQtm30+257ziS3QcmAfl0bsGcNCiowDm8y4LUN0FsCl5R+k4pGPfGnwMWnR4QQYm34TizHZa9+GdG3upCNlUJATyf2QhEZfbFLwwF3brnXuW8CrfqQtk1uNbl17tytW03uNDneKBgW9xZDlfttHHgEXd9seBh1Hfqeu9y8efMpeRp6w5SRZ8RFzMquhrP2YhtgDd5C24EbnZt33hJAPfe5k6+LQ3FkZnYK0DtlYvBzrFcuIcQU3uMex81YUiMEMpyXV88RB4IWjADjufjv9kKkLFIu0RdisA6mYYtHrcuqrpcGhe/RCcs33/rPvLJ79+7020N+xKf4h8+kOa7scXDK0c+deRXzepgk/trqY7vPXvA5jge0k3rOKBiPKUeK0IsDPOG6XbM6hhASNOX2KVj56wL8QXY+1W0Gx0OdBCvX9nwvYf7bXTod6TTEnY6Etm6h1517rn3akSNHOoHShtRvAt44ZG9tWf3DgRnShnn8/KdX5vkFNTlybT3+feor7+M6WKDjRpUMsVEls0HJgn67Fb0m5FydJKjPxffybqLTE2vQ5cE7HL50WU9Ujh4d6XyyD3TQ3fofbvQR3e25nRALn+sWz/EwKAdDT1OeIMScOXtp9+FNu93p8M11L+oMrf84G7v758OHN53dcPbm4l8OiXm94Xgrr2MfQZPWNQ7PONPvjx+GdfiiP1aA4MDM9sFwg/aLWHEwVpmhX7vuqp7og/TE0OmrtXhk7pvt/CDRBb8Pc3swyslLcvLR2xv0GKOn1b5sJSRw70V0oiRcWAkVwsCOF+LxIdSBRH8YjXx8dExR62QL3E0fX1N4byO0hwTebIzhRvwq5vVNjoyMO2MU3ZHOMkfvy19zZcMCbPHS3O8t7KXWH0mCY2XZLb72YmtIX1aSV/W6GL8n/J2HxruMcRiX3uVWCtBjUqK1jXHragYSYnnuvliZ7NEBillDm6X0TzoAmxY3ON/lEVofleiyOdK9QXUhIDtz2z/REx3ikHc7Xe8sbOvi+9xvgOmk1WrI/9x1rriXcvTZvfZiuaKr1w1qcwBl35+j8FCNJbsUfHVl6Cl3iMpn/4JFkAxZ3TPG7dh64tT1a7Wg3POte/L6qRPjosWKJQ58FqN+0UOQYXXX0N7Y44Hmz37/IyE7v3m54u61+NEclVk34o08OAw5bsagjoj+wUmcSim9rkgpR2+8FI4NCdPerwAYGv+uGR6q9+U4yGqldxQp+ejxLO27m9H3XWjI++a8GJqWFt4l/Ei9Jr5Wq95y8Pkh4d6Vj2XTEha+P7hVeKMRZ164E8dl+vga0gC9+H1mrSLk+KTX+52BP2KM1GoRq1xTBy0MA+zxFEa85iO30pxRJn7l6PmhUb5gSVu9O7wuGJ9ztxnUcazbTp6i6GVaV4AehOj5XScbYQueloZUer2Nlo7PXaDtOngDHto25hgzpgB3QvQmih5iUPSCv9p23ftbEnS5mAUhBnziPHiPnd8hete0FRM3DP95RDR+Y4HnEvqvRPTbbm+lDjR5gWdAL0x45yCEW1PzFbu/PntpXazqg3Ea50q7mBULUPh3x+kWYAz6Yx2y2sQvUQ+GoNEUQvvr3AzNddJN70TtpH50wCjH7ZjV5YWKZ0/Z/8T/6Ui+AhmndR9Z9ffwGt7dYPs/9K7F9FpJP/ufO2g1oEhzrlKOnkutfdmC/qol0HyEI9Hd6+F3r/svXd64DIZAiR8TKvX7oUJh1QfZ9FZo/WALCCrjVkIsNdbBO2HlHgZmFOdHzPRJxLwem8DcuJn/9sSsBp1g+J0LzZqKOfzJ5dxGGlvXv8fCGUgtu+43x9BfnTlXvKvob+0sBvT3/nwK/FVBOeOhWAEzH12gZXytgdTbV/qOBPszBU5YeBp9tc4C9jTar1wyV/QqY9oTv1eRj54w1RedxhR9dAYMsBDDRH8U6qUy/gwrchDiF4rresJLnf9PI0BvCTtLQ1FEv2IhMaA3947EpnTwB7AuBbzY9SpN4YAtdD72mZUBeiSJ//G7vqaDPe2yWq02vbgGW8jVgfccHUyPYi4q04f66+njBRkVBGH039BDQ/S5Py2nR3a90RrG29q6Vp1G00rZ+XA4btF7MPqFBD33L11W1Jj+6TfwOj9+OJa2euQ+TgF6x9h1fs7Z19920ntHh+Ql6q3WoOOd3nr7mVcnxvMCJ3MYkLRvVpbmLGmNtYyQVqdhxBe37+KkO+B3CHlppqOYkWedBf2cN1cmQgpvu/faCPg79q0caMonPv81fAq5UV4heiju0EMirbzOXd0G8r+QjrMTOM5MJ5kVcjcWIQb03NAPoYZFSGDdZ3rHxm64H/4NlvotK68XTZZdDQdyt3daYD3e0Kr28KHne/49Ct/l4AfDsYyTHxL56OGTwoi6GDe+8K+uAnpth6/wL6zbyshrUCzo117cCw5rK9nZsEG95x/kogPHOiArDl3mYuksvcmdmNAv/O5FC3o6DHkNmj0/5Th2mVibfXkCCiwFAVGMHnJxabjil7QC9JrWF+5xPPUau17wCLGg566PbADFuou7OeSFJeOwPiSWztJ73IkJPT/tj7o2qa+765NXsIxREBD56J1qGq5ZqcAlzF4JTuOQjquzOSxfFXx8JvTGBU9MhwzWSf4rPz8hhl1uTs+GXuCE0a8/cLWua/nf+dAKlFu8o+Sjd3qsNErFzK4PqW4nDAYxOvz18gAoRw8PjlkweCW0bBxN6iYR3aZhnVZ+a5IJPU1SZz5/ATM5MerrHrx3FhafU5LalaC3B8hN0zQafHfQQ3cf/PW0ASt1shclBvQYwBF/+tTLE/sJD/7T+kl0F9t7hGVZZkMPzWeO2/Hd+x1bUuuBxx8M+/cmxDclUV4RehB8Vzfz8ecMrH5Qq9X+uLdvtFgBpQN15Eg5ejHzm7Hou7/bN7jl79+4xmsb0zPQo2JnLpe9cvT2Lxt/vcezXabcCf7x8gv/mZWZDe9PO5LkP0wJevtsA0l0FviYFT1nbd68+dVX1lPnPB39W4axnk7Vu5cZ91Wfa9e69dw9rWDspaLQs6CH/Qrhjuj18y/+ufnVdUlXaLcCPSov0CgF6OnALjDgGjjXYh3P0da/LJ4M6OE9zG66AMS3UhB6JvQwvNB1l1CzUSwDFBlXgJ7mJZCTSKAKzh1RmOzo6hlOR4uWcvT4sQvl5+g8RqPix3c97V4s6OnMCRfE1KLTEChZT1SEHqOcG284tm5p2UpfSl6ER7GgFwPuEkrJwC/pK7oXC3r6bHtIxUE/9BF2o/KMK0XvVhQ5TEBT/gQW9KUmNvQOQZmDTbhCkVGOSgU9Wud5vmBdHPl6nNHD0E4xZ5XWPWSoVNDTOgdMZVL+Ao8zeihs6Swelm2aSwU9nSMNE1YVtioec/Q4nQ/6j+3DuxWpFNCDfVri/F/L6zkhwUirWwwBLxX00Iim6KWnZOixRo8q1MaUqdJAD7eJQzuU63FGHz9nzpwZmN+zPKIU0HP8DFgYCau6yvE/xuj5TbMHzu4O44vlj+x2Ummg3zVzuFms5ShPeo8xevOg117qUml0QRNamUoBvfBwyH/G0cEcDA94jNELSWk/Xv5pGv1d+UNKAf3ySre2vbIW8pr/a+iTj1jyXs/3dF4vlq3w6yutAwf8NcHhRVGoxxl9erjhxsh80VuoWKzocWAeus2yqwZY9aO6O44q1OON3nRjPMR6ptdnRU+d5rDi47EjuMTkGvAc/x9Fz5LaS4Je9Jkvf+YGjL1qhauLyh1k6yQVvUL0PHrK4Pp5bXxhsKvf7zDCWf4DHFLRK0RPZ0gKHLd14zli1dsIqdF/DvWjKZSKXil6cbiL8MpLBmKF+SQtPrkJ4y3lP0KUil4Zepx8AwbveQ3Q05UWLe/OZHoHFb1y9FCkRp/tRAd/Wa3E/7d8nmHjVRW9MvQg3ihwZyr+Q9HDFJdafedwytsWKnrF6HEUUnIbXD2dyu/jVDXWKxAjejoSat94mMriq00MDIaJm0/1Vr7+lopeKXrUjB5HdCSxyfMP/M91nN7WRpocnSi9pHip6JWjF7gTv5tI7me3b6f5rfrPv7Xb3yEtZ0kvKl4qeqXoYajvpcjGbSpM5GKjgvN+GpfQ879TbnjRAb9KpKJXip7nuOtLvMZfyue5PVFtu1Y6xWWfGVS5UtJH0guLk4peKXqB405sOIszRx/6BKyqDIvDcKMXD1W8nrSKXil67ItFYPxDb/+GFXEKqcy1l1ykoleK3r54Lc8JD8P88wA9Gz4VvUL04qYWWL2f5+OXBxkOHeStVCp6ZehxgKVIXjgWhXk9jgVRjlBFrww9cDbyghEXG543LHhVlRGcEcfiSC8sVip6hehhFg+iFzju2DBtXqXlsJitil6JEH3Fuprq/ZluB+2uE5xXKUN6VK4W+VgMdGGbctDNFJ0mYr70qGzNTzPlnqZLszBo6+vTiddP9TTt3ez/IFMLPgvoOnmX9KhcZXxvMUVckh71kK5P1WmH/Sw9Klu7szQ5/7pdvFyO5p6eQrw+7Gza/urQ2IkTJ8bCD3m6cgVvmDix20v+jT7uuWBiLD2iTAuWvqQL2f5lLFpWYL1UtODui0GBL77Kajz2/tXAvB/SF0ycGMsQ8onJv10mXjUbhkwPj8hKCUuJjEiRq4gIvDYs5WrjRG3n9t5hYRGTIsOkVxWnYTVX6YMatUkJy4oIC6NP9JyGtWts1TVunZLCZDwsotZxXfCDIxDy0Czp2eKVtb0F8VrZQheiSdTpLBadYll0QVarzWKxWHwTbTalT7AkBkHnotWSGKRLVHhvieUwbmEybtHZrNagRB2GPEj5/b4mX+LVsXGi/wF/rUYD20QrlFZjsFhtIVp/rdYf/lIorSnEkhgcoPH315ik58pcYNyX2bhWE6izBgVqGEOuCW4bQrxevuPf5rWwrIisyKyIiCxlCovYnmcJnN4pyjtyUmREivR0cfLu1EDjd/XTiLCwyEnKjZdQ3kOamwK2sxoPy2rTQmdq3iUqDEOu9PasqWGXidfUpn4pfZPT0+Pi4pKT05VpfvIfe03fRL15bHH6mPThwxXenrz4QrghwKdv8vzk9LhkxcZLpuTF3ToFHvj0TUbj89PH1zCc++vusfksIU9P7z+5LjapXuqfgMut4OQQZbo01a9hBXQksOimT6Jm0hijYKabqHpWsREW/5Rks2AWt5pUJj55kv+NwamsIc8Y3Jl41a6nqcnepNpTJ7gp7FjApjN1dprSyqtJtd4nUZPF3qQ6lqW9/Id9/wLFGrdxFPGqUNe/fU9sGrDMyTk2zH9VpeV0RRjld4+N8jVFxsXg7FvpuTLXAm+LNmy4kYMFlqTnipcQF67J2biVNeSpI6cQrwr1gtv3h9V8GMbHc9w8b3/IcBjnVmR660xZyWbGSTElVGxWkNZ7Mc/46sKYLpotg5lnlUyrtox4Vamnrd4LpibAMjuKdWlqcEPYPQLXmpOeLFaZYb7a8H5muiu18ttLpthIi3/kGJ4u4KnYuJAcqm05OZU15BmDpyN66rlk+nwbovzyKl6nHSfKb8/03qk90hPSvNx9WktRsVmJ/qH9zJhjKDcuDI/U3hiZyhry1JGjiFfFev4v9UoQlypUrEtT/bvWhr5ZhrenG2akJZmxe5Hh/Uum2MggdBqLM64VSkhP0xw6nc90L8b6KcSrcl0RPcsTaDGL6Fm+XOYwnSEU0rz0hCcUmxWkiUguvKtq0YL4bX9VIa6L6fJ+ul8Ag5i7Sgp0bBjtFmf69I9bVwkuurQ29RRuVBKXpsnZCLGem5N/qpidiApLRa8MPUgY++bqPbAqxfwI/y2DIdZP6/lGuvM257KkoleIHi6e9qZP5OvzE7g9Kf4tT0dzK9b976UnzivealdFrww9XeYvM9z3TthXY1854p9bac/uCs/pzn2t5CFUKnpl6OkIpH21W5KAB6Gv1fDL8fFp3TAxZMhw6XXFS0WvED22n2Ji/9IRYmuRF3jwBizp3fwCbsCnTCp6pehhxSXO/GUL2JdGp9fD/qe2lDXSq2RIRa8QvbjT1rzwto5tG4JG7WcZlqCiV4we2/xb/2yOGxfAZmiG968ortSr6JWjF12s/IoU2C0F94zoOouFvIpeMXpxgbf4kbk4noGQgNDdTIFX0StFL7I3nv0VdiWyEvLuq8o2ubWrFNBf8vHPqwK9VNITsvT4oRfbVdF/NqalrM8KcUMmhSoF9GejgnFCz/+Rtc8gkBjQTeEHYHeeLadjWBajKRX0P38a3BjnUrEsc/l4oscfO75sBjtwfraBdjYoVimg3zDVH8bXw+swsH/s0IPoToyZYYSQLW/glr8MOU4poD82zK9pJeggZOqYfyzR07p9/MjGelPoeXqkXNDP8/ZfVXE0rfEqf8LjiB5zVoHjLoWZLm8eB+m9oOtKvkoB/bGwwBZVMK9n6VZ/zNDTmXsQxXmeu/f1lvAJuJI3w3YVpYE+fWrOg2dX4N0Mg2keN/Tor7fjH/rWqwkwdZghypUK+oeVjz59cgXW6xke8Diid/ybPfqEYAQvgpJH2FUK6LdeubJn4kcQF1gGUD1m6EVGAt1wECs78O6KHiGqFNA7BBtbK9bjhp5GeLqfMc3ynTbiVaTSQ89Ss3ws0eNegI6CDXZDZFu5nxG9HbPTHfYj+A8dQV5wsmgxoKelnNhXJ5or+KlETOjti3zCK9AdGZm2qygZend0kQsdKVT4pBuxoodGDe69J454lP2tncWAnlZw6B6Q4lfwLHox+FjWFLqLblBW+LhbMaAHE3TrN7oPKBZ0inZUt0s5enFJFJ63r43CceYEszsKxYoVPW6/52Y+ADwCi1u578KCHlcgQSv4C65szRLv2NCLkRxdVhDleSPLV2dH/wjRrAaSofSMOzGhFzc6dpL0b3lSjh6Tl3S/XbYR2mWAHtKCAPsgy+LJgh4inLHIl1XwFZSjd5e8MA0oCwGIDb1xRI+T+//446Qb9dthpJPxZGa+LOipzCM2dL+w+eT++zMXr3FeVraM0dOr+TPH7t7/4+v7d8+mwgGZdQoXsaHP7h8eGGgwBBq0pkCTyVCgwMCwTWaocslGwIAeH5yQkVTt0xot/QIDb9WdVHXQGpaRMAzoqWZMSx4/tdktk+bOtk9vPzwFc2KklxQvNvRzltYqWEbaVS8co5NzBEHeRqDK0WPanjv8l5dv/OiLJnV+TVd+cBdW2JQdAFGM6O/FfdLx0I86sG358fILzxxjWMuZFX12j+qwfjSOhXAMwqJKO4vuJHMZohc4bmGP74+jOSuMQYJ+uiPr0HEuvfjRYkOffzHsR7RttQbBv3mf9VoovUaG2NDP6VETQg0bZVhp0B3qskFEL/NpytFzHLe231QMvJPaDrm41inLlfcRmNCfWP0iDAMpkPVAVk/FExtY0Wf3RPQY4zDqF+ilS5jzyQs6I3rj7v+ec01vekICotJn2GdgFqp7FiEW9B8NCtc4BxjC3+Sz4YpnNjCin/NKG2frTtJ8toA6lx4ReDjjOM2CPv/rBmhMd6fzU61erttUg+N9tzwz2uFaKtq6i3GF6PHe3d82QePBuXU7PtX8+E6IAfquv91UFgRm9Nm92uuttiAb5Dl6q9UGP/Hzm7b3EVdBK1z9tScG6mu19+uwoD/7xUGI6NamX8y8OXbC/MltgmHsoyF8TLwYBje1bLfGlaHHez/6txmWrwHtTm4Yu6D70eY74VUsbVbvE/E9Oto5iQ19zJo3K1StWrUq/qhatUKVqsNybFYr2Vn35AgzbcdKzAvgWsXD6OvC5jieYECfMGiIhlitQY3+eojjTM+crmslVmJt3metPQyuxvkYWIPTjXFF6LGVHnP+Vy1kb5qr90/Akw+/PT0R/j73TqaY2gqHvQixoS90Yer+ukGE2KZUXoRxqnCM5xNgGUxsDNpP0qsY0M9dXQvKueCaS2FdB47jr7zvD0kuD3bBhGdKrfPxYvnjMC76VRWiFzhu7t02hNgIuVEZxmBwXMyxvxpBmeO7dxCMxxG3qJMlNvRSRfcIhZH+d/47FCv1dCtKl29Pgwr9atTlB3+g6+OmcvRrN29LJIQ0/vCm+Mqnxh+yEEIaVR2NG8xLfSwuxu3fHY0rQC9+tBOfP4AMRl9rZjQ1vut+R8yAblQbLfZWSa0XJVb0dhcZugvMw+vAfjGBR3rG4CoZ9DULJTvqXYAX49eMQLejILCgn3Nt204Y91X5DJLm+LWz6sG3aFEBNptGN770FhohqHHz+uW0Y48F/ZnKl6FqFRixAbtpeM58LMUCJe037/8sjnotY/TYNQN1dzNkoyNqXw4iRD/q2g6OM5oF0Wns+jS6AAQenJExvM98I/Y0CCwZTsKbraF61+LpWHEx910np0DbJnc/ZL8FPXgFoh4lPJY9Lb3PQ0yUPMdNlIUe7xPRj/2lK8TxAR8cxjzdzAkT/rJAZu83qX8MjQmFolwRYkPPwwgIcwLtouH23a0OsbDJX1dwk2v0WTqyFSfBWcgvZn7W6b3dZs7MmY1MeT0flxIA+2CF9hP7BdY8eQC24qtxlzpyMMeVhAUdehzH7bv72pFn92B0NbKgv/kkoLfeef+KmHKE9R8j+sBaq+c6CvninohiQ4/1FXMMBWbc/QU0cHa+MHAtjnbGFGEsNCiIvo95UY9KNRObnD4hcGaeET23pnJTqNXnvD0Rn5nxZy2oXN55/zzN6OBYoTQHP40TelR80dLo31OQJ4JvWzn6BUcRfZP/LhDjN7/+9xDIcHTNb9M0B9cW90QUG3raRyT2hqb+0RkatVsqrzCL47wFDvIhN4r/aN579QN01hrHxD5NNvQz+kVCtNc9eOZh6q5dsX/UhIHuiVe7jaNZfxHBiN+3+O+6wTrr9k0O4wrQww+oFWCsJwP+Oi/eZV70O7oV9Lm1YUltvKyoN3BVSdBjpwjHpw/zg+Qf2TvGPuCV9okXfoEdF4++0DKIkNzapzALwLAwoOd2XKiphXI992poRFbNUWA/qHm1FbCmUJHoTwz8cG9TGyGXBy90GI/NkoPeIYHj1nvlQjG7c0g6LNcGKWnPa4lwxLqlCixKZAYC8h7IjB7wgm9SODH5Hx0h+s4bYU6PEb869pZL6xkxa8ZU2gtTq4nug/UFh1dEWQyRihfdy1/iM4V6balMTduPjBVzfnfoE9b3rrjdH65M/HhFweFFYTpN2DznCx8pgeNSN3ZGj1HnLxfSKUwJ3avT5XnvvHUdhyi4M+9WrOhpXU3guBnDwwwQ6VOS4/GLYOUBk4XL0/i1839bOQBKY0LujIwRzDzED14QMNb3hqZuEXIzhBaaNg+96kHEF9Ui6qtU10E5zuL3pf9QfwA6963nTorGIfJgrI97xBKXduOOZ669WAvRN/lgAz0wusqUIDhAdN9PpF0m0rpdUWJEj5uVYOzOP/0uTFn/p1q+6zJW9m8AdX+Oy1/3d03MJK2EBDabfGx40pi4uPT05OEPZ13Vhbz8evLD9DFxruujJovrpfbohXteORsHG5lV3w0UXdZWQg6EfzfXYRS7SmmLHnP0aX1/eDHPbrzeeIfx+Q/v17IFthmfvNiNcfpv9/7LC0yCjIe/D7ZarcQ35y3M7Uf8W8NfT32oYYcTlCAsAXraeODPYmtKk9Y/his0yFys7hjzxzzTEVM7kLJqOteMzArvkhaalhYaGba3hV7XqMakiLTw0ElpaaFOmhQanpYWHj7prd2uT8VIP++ZWgegt0aUtcWkaxPixTkH9loWNZ7R773n0MuLxrXNqzsZ397Iqmvh3ngaNf72HonxU7ebBwFq27Lf+z6c17MKNDHgWxCrzx5ACAjkcWRFjzVn6C56oz60ZppWWANNGdfsHUaGAYGY7u2bQGuTxlFbotbfPyBYXPvaT2MhVkugVqvx9wvWarRO0mhMcE3LT+iUGWfNecW7hcnm3FUQFNzgt92wfBsmPXhB0Xj8VzXvgJfBjXGtn0ZXjPHcJ6WbiZoX12mLCcgyoOvlfw41gtw2KAgye58r4lCosq3h2Fvi3IJfoKPOt/VM6CqQFDGYW3ICn/Dz261vQej1VqLX60PObcm5nHsjNzc3Jzf3cp5fUJDm3I3LObm5OTm5N1wFVzz/9GHnh4KyF38K1UmifTfs6bfeev8F2leY88QE6j1Cs9S6wMcfe6vWnQLjgcdv5ByyGz+UFxwUpD1Ojee6M17/l0LffVff1iH4tALZbJAOhp03itTlZfaM6O2c45e2h8/e5Iuhbg1irmQ2Cvfm//JUkxAEYCOmeh/uHz/49fEjR27cuPH2k8/7hoz64PU/Tg+u9vr4jSNdNP70+JHjq/0bK83Hbr4HTSqys361Kwkcv2PQp42gnNOv7HMKAw6D8mhNRwDjc9OPPncHC3i9jWifO7p/JDU+fuPppx8kBjb/YiQa3+jW+LWbhUI17Y8auLe0CF/zTVtM0r4fLIixlzGyxIoeEzPPbf0JvDek80ioWRZOZ/asl4s/k/xTB0ioxEp0y/4dtzU1f2tqRkb+1hPD0yyG6m+m7tiaPy0jf2u+k1Lzt27NnzZtxPKPJHWc7HUd4DP6LnuGctnVY9gAAHHu22O0lkVjgcN49Iq4Kq2h7g/GR90/JRpP3bo1rpNO0+liPhrf6t742kIVLH7arOrQoqNFzZ20L9q0JXqr/vh717GO5c6F4las6OmsCuOmqVorIb7tX1mLFUtp9KRvQVPh1u9+e6klxhS/qk6dyGeiLKawY043uZFr6PnRXg0hln/jM1ysya/9cluilRBD6z7jCtxXLsYzBr5VHWtY5EAlp81B13vbtFPPFvztTq7G8XGnln7SqjGkI92tep90fzNyALFabYeq5SvJ6UuIntu3riMEp8l/oYQpNPaQVjMc/XHGe8feo1X7q3cLgj9haqImIvnREcU1NAnHfDDB58JkXXpueMoBYiW2GxXO0Ac56jgFxuc+/JtW7fcuLRg1syBMpx22+NHBdjWOrh8uZsTdp/fm3Gra5v1uiz5a2g4aGLrOp0+4GRT4CLGip/Wb67VzwOqyyXSJU8kHR8eyvb0CB8xr4qrV/IYQ7a9jxTo4x2X6JOLCuu6Gx9p7XVyfO6Nfe+gPJM2/BH8VRu6bP2C9Xfu/m9R1xJvRsKvx9Um1XxxASPAXMOWOGp+YYtFkpYt1IYncG7e3l+5NWPzKxaXDJy7ksmfXguIupNUbc8UEJzPes6IHC5zw8we3MKHPzsYKneQJAg/7QMB70P4TOLbwq19ebElaXrhn77rOHJZoONIPJkAW8vTi6G0efIwuYZnT/QVxMRREDzeN9WqJuUnKUJjFioGH26TGx3335N6m5NDAOXbjEyN0ptA42nEgz3hhRFs3doZi1v/IK3aCMtd2ZkcPdeZB7fyhlyAsHVZoKDwMQDDCKHxwKhQM/o8eN6/qlBtvYycynMv0thjCk3Adc2kBhWOVBcGc4OqTuLd0O6Kf8rnDSzvxaGN0YYXtgc4vejXv1vjDJ5blPLPIbhzWNI5MB59IIeNG98Z5o9kYEx0fLzrMobD6+w6UYD++ttiRdAsnIXdiRY+Jat+X7+qshAx4GjpJC3fMicuEcXSil8PJzK25WKn2cLvXAbYOmJREd22QJFS8ByKea3Zwb+ZVdKPkTM6wp7Q972O7oe236EXHlxMfJ84ycxgX1g+sVG0evCf8GRsZpE1Jh+EKhYyDN8qNceHeoodJA0/+NP7uddz3lTP+HIUV1+NvQ6uCTixyuv4RYkRPC5QRFWE1HusqWD4fOioloyzRuymmeBp6sYjgdi0eisMDKXoNoHdbObVX1VxCE53U3grob317Xozixh5DwCWqv1EZl+VB1604uRInHdmN0xCemn/FCb0/oJdvnDsx8PeU7cvy/vnsZ/q0ubOxn0bf/M9dHHix5Be1bOhpXYY//y2E2FL/jX1iiN0/gEY3l0PZ2fa/oaskNKnoBeQLH+XPf6ZBT1gNcbgVP/bZXKhkJzb7fB/9GDDdSJQ74zPsf0O3eER6Yb52uTmaOviBX4iNGLbPpGvNTcRuKxIcuRi7RWkzWnqTW7Ghp+6ahDGRMOzNNAT2OUH0hXL74sXQS5Vf+waOcx4Qvg63xxl9uyP20Wm6dE+wt6Cl97iXghEJdi38ozOW6I1/3wBGJtTehp1UN6qOtq+KI7OCw4qeM8bwXPa6FwD9N6+BaxEdJooIUjGgn/HKEajYW8mATtc2HN7Uv1Itf2LVE9L12UyxlJUZ71jQxyRFoBNWn/PxusOHe7z9PPpHDJN64Ph+il56j3uxoQdXvcB9dL8VVKua/nITrcrO5FzEgF4YXQl8ODar3r9p83cbLGts0Nv0hGiHdJ+DObT8mMeAnrtehTaLLQdzGjT4Bz2XJKTevzswn8eCRebzWNHD87dWmw4OnEO0sgZZkNxszkkM6LmEeZ/BaN8Cfz1MMbDW+3waZuu0fiPrRVjQx8eFG5yHtsMvU6ogAox9Mk2zoqctjhG/5UHh/g8uAYXoGSI+C3pubtKvLdAJbw87Ib6jKi6iTxH7S6T3uBMLem7H/TaYyTgUOP1vZ0dK2WY4tEvizC95EOubwyY1UJGUX69yEhN67t689+rRiVQi+ZCXN04w0hAoSHoM6HmOH/FlO/Bc2rWz1vibdNwtNSx3iQJW9DDYI/YzLHByYVN5bHl6qJgF8WNfrbOyaQDOZdL7N23162psX9EmjexwMKCHh+ev+3hlYxrzA268/GsfmtEVXFGm6OFS4+FPctoGBARcvb+Vtljl1yycxIieE7IXfecV+dSqAL9V9cOf6D4ae8mwXqmgas2Inru35runX8g5EHDn3UmVe42ei29vj/KOX4sTG3r4sGbjqUvr3ujT541ei2ZAAePG+SdHLOjFaDV30bF+6/q82rfXvPUAnjZXMaeV+yrK0duXOdt3M/lunz4Xuh9bgd+c1mzkV61AjOjRuVHwN2byCqw6iQU9OlYkt4hLUImeGplvwoIeRzw6N9nARYEvpBACG/rCSVpuYAuJBb2bNUns70MrN3LfRjl6fLTryAvRvSxm8fLZs6IH0XHTokdM4b0OMaG3V+AcRh2slRU4DOhBtBsAczY7bMxs8KRs8yVBXypiQ19KYkRfOlLRq+jLRSp6Fb2K3qNS0avoy0UqehW9it6jUtGr6MtFKnoVvYreo1LRq+jLRSp6Fb2K3qNS0avoy0UqehW9it6jUtGr6MtFKnoVvYreo1LRq+jLRSp6Fb2K3qNS0avoy0UqehW9it6jUtGXP/pe5RT6sT4WQ9oY6VEPaUGKTpOVLD3qIeVT9KZ2vaVnPKQzU3WBaeUV+kVhQaasxdKjHtK4wcuIV4Xng8MHLc/ImDZtWoaHlbo4bKc2rMfyjNQMj9vOSE2P9PWb2mtauRjPiB35LvF6tu6BI5PHDx48uNpPkwdP9qQGb3yvgyYgq1q1wSMHT5482NPGf7tqOBBWbfLgkfCXZ41Pnjzy7wfEq0JHw5a6nadMmbJs2fQp0z2pKZ3/abEz5FDdKaNGTVk2ZZSnjV9u4Rt4GYxP97jx6dPfbXaLeFVpI9mv16MqT9vla5yQ/wdMRpDclJRDhgAAAABJRU5ErkJggg==\"></p><p><br></p><p>Input :</p><p>3 3</p><p>1 2 3</p><p>4 5 6</p><p>7 8 9</p><p>Output:</p><p>1 2 3 6 9 8 7 4 5 </p><p><br></p><p>Input :</p><p>3 4</p><p>1  2  3  4</p><p>5  6  7  8</p><p>9 10 11 12</p><p>Output:</p><p>1 2 3 4 8 12 11 10 9 5 6 7 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "MAtrix"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "09c26f2b-285f-4795-8c2e-5865b5a3c649",
+                    "questionID": "895418e3-f6db-4b35-b1c7-07710c77cff1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static List<Integer> spiralOrder(int[][] matrix) {\n        List<Integer> result = new ArrayList<>();\n        if (matrix.length == 0) return result;\n\n        int top = 0;\n        int bottom = matrix.length - 1;\n        int left = 0;\n        int right = matrix[0].length - 1;\n\n        while (top <= bottom && left <= right) {\n            // Traverse Left to Right\n            for (int j = left; j <= right; j++)\n                result.add(matrix[top][j]);\n            top++;\n\n            // Traverse Top to Bottom\n            for (int i = top; i <= bottom; i++)\n                result.add(matrix[i][right]);\n            right--;\n\n            // Traverse Right to Left\n            if (top <= bottom) {\n                for (int j = right; j >= left; j--)\n                    result.add(matrix[bottom][j]);\n                bottom--;\n            }\n\n            // Traverse Bottom to Top\n            if (left <= right) {\n                for (int i = bottom; i >= top; i--)\n                    result.add(matrix[i][left]);\n                left++;\n            }\n        }\n\n        return result;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        // Input m (rows) and n (columns)\n        int m = sc.nextInt();\n        int n = sc.nextInt();\n        int[][] matrix = new int[m][n];\n\n        // Input matrix elements\n        for (int i = 0; i < m; i++)\n            for (int j = 0; j < n; j++)\n                matrix[i][j] = sc.nextInt();\n\n        List<Integer> spiral = spiralOrder(matrix);\n\n        // Print the spiral order\n        for (int num : spiral)\n            System.out.print(num + \" \");\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "294e5b70-ba7c-4c21-9d4c-6a282d27b646",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Priya is a software engineer at a messaging app startup called ChatterBox. Her team is building a smart filter that analyzes user messages in real time to detect patterns and optimize search indexing. One of the key requirements is to identify the <strong>longest sequence of characters</strong> in a message that contains <strong>no repeating characters</strong>—this helps the app tag unique phrases for faster retrieval.</p><p>For example, if a user types \"hello there\", the filter should detect \"lo ther\" as the longest substring without any repeated characters.</p><p><br></p><p>To meet performance goals, Priya must ensure that:</p><ul><li>The input is a <strong>single string</strong>     containing any printable characters (letters, digits, symbols, spaces).</li><li>The solution must find the <strong>length</strong>     of the <strong>longest contiguous substring</strong> with <strong>no repeating characters</strong>.</li><li>The algorithm should be <strong>efficient</strong>,     ideally <strong>linear time</strong>, since messages can be thousands of characters     long.</li><li>The substring must be <strong>continuous</strong>     (not a subsequence).</li><li>The solution must handle <strong>edge     cases</strong>, like empty strings or strings with all identical characters.</li></ul><p><strong>Example</strong></p><p><strong>Inputs:</strong></p><p>\"abcabcbb\" → Output: 3 (\"abc\") </p><p>\"bbbbb\" → Output: 1 (\"b\")</p><p>\"pwwkew\" → Output: 3 (\"wke\")</p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "String"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "ecdb7ab7-1a0a-484a-86b1-ea6a5bdeac59",
+                    "questionID": "294e5b70-ba7c-4c21-9d4c-6a282d27b646",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.HashSet;\nimport java.util.Scanner;\nimport java.util.Set;\n\npublic class Solution {\n    public int lengthOfLongestSubstring(String s) {\n        int n = s.length();\n        int maxLength = 0;\n        Set<Character> charSet = new HashSet<>();\n        int left = 0;\n\n        for (int right = 0; right < n; right++) {\n            if (!charSet.contains(s.charAt(right))) {\n                charSet.add(s.charAt(right));\n                maxLength = Math.max(maxLength, right - left + 1);\n            } else {\n                while (charSet.contains(s.charAt(right))) {\n                    charSet.remove(s.charAt(left));\n                    left++;\n                }\n                charSet.add(s.charAt(right));\n            }\n        }\n\n        return maxLength;\n    }\n\n    public static void main(String[] args) {\n        String inputLine = new Scanner(System.in).nextLine();\n        String s = inputLine.replaceAll(\".*s\\\\s*=\\\\s*\\\"(.*?)\\\".*\", \"$1\");\n        System.out.print(new Solution().lengthOfLongestSubstring(s));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "d6de00c0-6a60-4b6f-82ce-228309d4e69a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Nisha is a backend engineer working on a compiler toolchain for an education platform that automatically checks students' code submissions. One of her modules processes strings containing various symbols and verifies whether the syntax structure is balanced before passing them to the parser.</p><p>Recently, students began submitting answers with symbols like parentheses (), curly braces {}, and square brackets []. Nisha noticed that if these symbols aren't properly paired and nested, the parser throws unexpected syntax errors. She decides to build a pre-checker that can quickly identify whether the symbols in a submission are <strong>valid and well-formed</strong>.</p><p>To meet performance and integration requirements, the module must follow these rules:</p><p><br></p><p><strong>Task</strong></p><p><br></p><p>Implement a function isBalanced(String s) that returns true if the given input string:</p><p><br></p><ul><li>Contains <strong>only the characters      </strong>()<strong>, </strong>{}<strong>, and </strong>[]. </li><li>Has <strong>pairs of brackets that    are properly closed</strong>.</li><li>Has <strong>correct nesting order</strong>,     meaning: \"()\", \"()[]{}\" are valid, \"(]\", \"([)]\" are <strong>invalid</strong>.</li></ul><p><br></p><p><strong>Input Examples:</strong></p><p><br></p><ul><li>\"{}[]\" → ✅ Valid</li><li>\"{[()]}\" → ✅ Valid</li><li>\"{[(])}\" → ❌ Invalid</li><li>\"(((\" → ❌ Invalid</li></ul>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "stack"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "b034c375-70c5-43ad-8174-b68d6de13bc8",
+                    "questionID": "d6de00c0-6a60-4b6f-82ce-228309d4e69a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\nimport java.util.Stack;\n\npublic class Solution {\n    public boolean isValid(String s) {\n\n\n        // Create a new stack to store the characters.\n        Stack<Character> stack = new Stack<>();\n\n\n        // convert string into char array and access the characters using for each loop.\n        for(char ch: s.toCharArray())\n        {\n            // check ch\n            switch (ch)\n            {\n                // open bracket then push it in stack.\n                // close bracket then pop the item and compare.\n                case '(':\n                case '{':\n                case '[':\n                    stack.push(ch);\n                    break;\n                case ')':\n                    if(stack.isEmpty() || stack.pop() != '(')\n\n                    // if the stack is empty then it means string have no open bracket.\n                    // hence it is invalid.\n                    {\n                        return false;\n                    }\n                    break;\n                case '}':\n                    if(stack.isEmpty() || stack.pop() != '{')\n                    {\n                        return false;\n                    }\n                    break;\n                case ']':\n                    if(stack.isEmpty() || stack.pop() != '[')\n                    {\n                        return false;\n                    }\n                    break;\n            }\n        }\n\n\n        // After the loop we have to check one more condition.\n        // return true only if the stack is empty.\n        // if stack is not empty that means we have unused brackets.\n\n        return stack.isEmpty();\n\n    }\n\n    public static void main(String[] args) {\n        boolean out = new Solution().isValid(new Scanner(System.in).next());\n        System.out.print(out);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "e611c2f3-41ed-4df7-b03e-c7e09a52b810",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p class=\"ql-align-justify\">Anjali, a financial analyst at a fintech startup, is building a feature for their investment dashboard. One of her modules analyzes stock price movements stored in a sorted list of positive numbers. For a given day, she wants to help users find <strong>two distinct stock prices</strong> from this list that <strong>add up to a specific target</strong></p><p class=\"ql-align-justify\"><strong>value</strong>—say, an optimal investment threshold. Because the list of prices is <strong>already sorted in ascending order</strong>, Anjali wants to avoid unnecessary looping</p><p class=\"ql-align-justify\">through the entire dataset or using extra memory, since the dashboard must run efficiently on mobile devices.</p><p class=\"ql-align-justify\">She also wants to return the <strong>1-based indices</strong> of the two prices, as that's the format used in their internal reporting tools. Importantly, each test case guarantees <strong>exactly one solution</strong>, so there's no ambiguity in the result.</p><p class=\"ql-align-justify\">Given this context, write an algorithm that helps Anjali find those two indices.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><strong>Task:</strong></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Implement a function that returns the 1-based indices of the <strong>two distinct</strong> numbers whose sum equals the target.</p><p class=\"ql-align-justify\"><strong>Constraints to consider:</strong></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The <code>prices</code> list is <strong>sorted in ascending order</strong>.</p><p class=\"ql-align-justify\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the indices as a list <code>[i, j]</code> with <code>i &lt; j</code>.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use <strong>constant extra space</strong>, as Anjali doesn’t want to use hashing or additional structures.</p><p>There is <strong>exactly one solution guaranteed</strong>.</p><p><br></p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: numbers = \n4     =&gt; n number of elements\n2 7 11 15 \n9 =&gt; target\nOutput: [1,2]\nExplanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: numbers = [2,3,4], target = 6\nOutput: [1,3]\nExplanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We return [1, 3].\n</pre><p><strong>Example 3:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: numbers = [-1,0], target = -1\nOutput: [1,2]\nExplanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].\n</pre><p>&nbsp;</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Binary Search"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "06f30358-cfa2-486b-a672-99e92bbdabfb",
+                    "questionID": "e611c2f3-41ed-4df7-b03e-c7e09a52b810",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n\n    public static int[] twoSum(int[] numbers, int target) {\n        int left = 0, right = numbers.length - 1;\n\n        while (left < right) {\n            int sum = numbers[left] + numbers[right];\n            if (sum == target) {\n                return new int[]{left + 1, right + 1}; // 1-indexed\n            } else if (sum < target) {\n                left++;\n            } else {\n                right--;\n            }\n        }\n\n        return new int[]{-1, -1}; // Should not happen\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        int n = scanner.nextInt();\n        int[] numbers = new int[n];\n\n        for (int i = 0; i < n; i++) {\n            numbers[i] = scanner.nextInt();\n        }\n\n        int target = scanner.nextInt();\n\n        int[] result = twoSum(numbers, target);\n        System.out.println(result[0] + \" \" + result[1]);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "3ca199bd-fbff-466a-9a62-692efdb4b4eb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given a string&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">num</code>&nbsp;that contains only digits and an integer&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">target</code>, return&nbsp;<strong><em>all possibilities</em></strong><em>&nbsp;to insert the binary operators&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">'+'</code><em>,&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">'-'</code><em>, and/or&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">'*'</code><em>&nbsp;between the digits of&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">num</code><em>&nbsp;so that the resultant expression evaluates to the&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">target</code><em>&nbsp;value</em>.</p><p>Note that operands in the returned expressions&nbsp;<strong>should not</strong>&nbsp;contain leading zeros.</p><p>&nbsp;</p><p>Input Format</p><p>num target</p><p><br></p><p>num: A string of digits (\"123\", \"105\", etc.)</p><p><br></p><p>target: The integer result the expression should evaluate to</p><p><br></p><p><br></p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: num = \"123\", target = 6\nOutput: [\"1*2*3\",\"1+2+3\"]\nExplanation: Both \"1*2*3\" and \"1+2+3\" evaluate to 6.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: num = \"232\", target = 8\nOutput: [\"2*3+2\",\"2+3*2\"]\nExplanation: Both \"2*3+2\" and \"2+3*2\" evaluate to 8.\n</pre><p><strong>Example 3:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: num = \"3456237490\", target = 9191\nOutput: []\nExplanation: There are no expressions that can be created from \"3456237490\" to evaluate to 9191.\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= num.length &lt;= 10</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">num</code>&nbsp;consists of only digits.</li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">-231 &lt;= target &lt;= 231 - 1</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Backtracking"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "652c095d-2766-4ad1-9dd9-cdd318602c22",
+                    "questionID": "3ca199bd-fbff-466a-9a62-692efdb4b4eb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n\n    public static List<String> addOperators(String num, int target) {\n        List<String> res = new ArrayList<>();\n        backtrack(res, num, target, \"\", 0, 0, 0);\n        return res;\n    }\n\n    private static void backtrack(List<String> res, String num, int target,\n                                  String path, int pos, long eval, long prevNum) {\n        if (pos == num.length()) {\n            if (eval == target) {\n                res.add(path);\n            }\n            return;\n        }\n\n        for (int i = pos; i < num.length(); i++) {\n            // Skip numbers with leading zero\n            if (i != pos && num.charAt(pos) == '0') break;\n\n            String currStr = num.substring(pos, i + 1);\n            long currNum = Long.parseLong(currStr);\n\n            if (pos == 0) {\n                // First number, no operator\n                backtrack(res, num, target, currStr, i + 1, currNum, currNum);\n            } else {\n                backtrack(res, num, target, path + \"+\" + currStr, i + 1, eval + currNum, currNum);\n                backtrack(res, num, target, path + \"-\" + currStr, i + 1, eval - currNum, -currNum);\n                backtrack(res, num, target, path + \"*\" + currStr, i + 1,\n                        eval - prevNum + prevNum * currNum, prevNum * currNum);\n            }\n        }\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read input: num string and target value\n        String num = sc.next();\n        int target = sc.nextInt();\n\n        List<String> result = addOperators(num, target);\n        if (result.isEmpty()) {\n            System.out.println(\"[]\");\n        } else {\n            for (String expr : result) {\n                System.out.println(expr);\n            }\n        }\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "d387854c-bb4e-4f34-ad0a-cb0f90b42ec6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The demons had captured the princess and imprisoned her in&nbsp;<strong>the bottom-right corner</strong>&nbsp;of a&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">dungeon</code>. The&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">dungeon</code>&nbsp;consists of&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">m x n</code>&nbsp;rooms laid out in a 2D grid. Our valiant knight was initially positioned in&nbsp;<strong>the top-left room</strong>&nbsp;and must fight his way through&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">dungeon</code>&nbsp;to rescue the princess.</p><p>The knight has an initial health point represented by a positive integer. If at any point his health point drops to&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">0</code>&nbsp;or below, he dies immediately.</p><p>Some of the rooms are guarded by demons (represented by negative integers), so the knight loses health upon entering these rooms; other rooms are either empty (represented as 0) or contain magic orbs that increase the knight's health (represented by positive integers).</p><p>To reach the princess as quickly as possible, the knight decides to move only&nbsp;<strong>rightward</strong>&nbsp;or&nbsp;<strong>downward</strong>&nbsp;in each step.</p><p>Return&nbsp;<em>the knight's minimum initial health so that he can rescue the princess</em>.</p><p><strong>Note</strong>&nbsp;that any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><p><strong><span class=\"ql-cursor\">﻿</span></strong><span style=\"background-color: rgb(240, 240, 240); color: rgb(38, 38, 38);\"><img src=\"https://assets.leetcode.com/uploads/2021/03/13/dungeon-grid-1.jpg\"></span></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]\n</pre><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">Output: 7\nExplanation: The initial health of the knight must be at least 7 if he follows the optimal path: RIGHT-&gt; RIGHT -&gt; DOWN -&gt; DOWN.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: dungeon = [[0]]\nOutput: 1\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">m == dungeon.length</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n == dungeon[i].length</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= m, n &lt;= 200</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">-1000 &lt;= dungeon[i][j] &lt;= 1000</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "DP"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "dbc66fab-fee9-41ff-8b62-0d63dfb0b073",
+                    "questionID": "d387854c-bb4e-4f34-ad0a-cb0f90b42ec6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public int calculateMinimumHP(int[][] dungeon) {\n        Integer dp[][] = new Integer[dungeon.length][dungeon[0].length];\n        return fun(dungeon, 0, 0, dp);\n    }\n\n    int fun(int d[][], int i, int j, Integer dp[][]) {\n        if (i >= d.length || j >= d[0].length) return Integer.MAX_VALUE;\n        if (i == d.length - 1 && j == d[0].length - 1) {\n            return dp[i][j] = d[i][j] > 0 ? 1 : 1 - d[i][j];\n        }\n        if (dp[i][j] != null) return dp[i][j];\n        int a1 = fun(d, i + 1, j, dp);\n        int a2 = fun(d, i, j + 1, dp);\n        int e = Math.min(a1, a2) - d[i][j];\n        return dp[i][j] = e > 0 ? e : 1;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read dimensions\n        int m = sc.nextInt(); // number of rows\n        int n = sc.nextInt(); // number of columns\n\n        // Read dungeon grid\n        int[][] dungeon = new int[m][n];\n        for (int i = 0; i < m; i++)\n            for (int j = 0; j < n; j++)\n                dungeon[i][j] = sc.nextInt();\n\n        // Call the function and print result\n        Solution sol = new Solution();\n        int result = sol.calculateMinimumHP(dungeon);\n        System.out.println(result);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "44c0d2c9-9060-4969-b7db-57770033a3ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Suppose LeetCode will start its&nbsp;<strong>IPO</strong>&nbsp;soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the&nbsp;<strong>IPO</strong>. Since it has limited resources, it can only finish at most&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">k</code>&nbsp;distinct projects before the&nbsp;<strong>IPO</strong>. Help LeetCode design the best way to maximize its total capital after finishing at most&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">k</code>&nbsp;distinct projects.</p><p>You are given&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n</code>&nbsp;projects where the&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">ith</code>&nbsp;project has a pure profit&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">profits[i]</code>&nbsp;and a minimum capital of&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">capital[i]</code>&nbsp;is needed to start it.</p><p>Initially, you have&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">w</code>&nbsp;capital. When you finish a project, you will obtain its pure profit and the profit will be added to your total capital.</p><p>Pick a list of&nbsp;<strong>at most</strong>&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">k</code>&nbsp;distinct projects from given projects to&nbsp;<strong>maximize your final capital</strong>, and return&nbsp;<em>the final maximized capital</em>.</p><p>The answer is guaranteed to fit in a 32-bit signed integer.</p><p><br></p><p>The input consists of <strong>4 lines</strong>:</p><p><strong>Line 1:</strong> Two integers <code>k</code> and <code>w</code></p><p><code>k</code> – the <strong>maximum number of projects</strong> you can complete</p><p><code>w</code> – your <strong>initial capital</strong></p><p><strong>Line 2:</strong> An integer <code>n</code></p><p><code>n</code> – the <strong>number of available projects</strong></p><p><strong>Line 3:</strong> <code>n</code> space-separated integers representing the <code>profits[]</code> array</p><p><code>profits[i]</code> – the <strong>profit</strong> gained from completing the i-th project</p><p><strong>Line 4:</strong> <code>n</code> space-separated integers representing the <code>capital[]</code> array</p><p><code>capital[i]</code> – the <strong>minimum capital</strong> required to start the i-th project</p><p><br></p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: k = 2, w = 0, profits = [1,2,3], capital = [0,1,1]\nOutput: 4\nExplanation: Since your initial capital is 0, you can only start the project indexed 0.\nAfter finishing it you will obtain profit 1 and your capital becomes 1.\nWith capital 1, you can either start the project indexed 1 or the project indexed 2.\nSince you can choose at most 2 projects, you need to finish the project indexed 2 to get the maximum capital.\nTherefore, output the final maximized capital, which is 0 + 1 + 3 = 4.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: k = 3, w = 0, profits = [1,2,3], capital = [0,1,2]\nOutput: 6\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><p><br></p><ul><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= k &lt;= 10^5</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">0 &lt;= w &lt;= 10^9</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n == profits.length</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n == capital.length</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= n &lt;= 10^5</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">0 &lt;= profits[i] &lt;= 10^4</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">0 &lt;= capital[i] &lt;= 10^9</code></li></ul>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "greedy"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "8bbb42a9-d065-48b4-8c25-2967f8f4942e",
+                    "questionID": "44c0d2c9-9060-4969-b7db-57770033a3ac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read k and w\n        int k = sc.nextInt();\n        int w = sc.nextInt();\n\n        // Read length of arrays (n)\n        int n = sc.nextInt(); // Number of projects\n\n        // Read profits array\n        int[] profits = new int[n];\n        for (int i = 0; i < n; i++) {\n            profits[i] = sc.nextInt();\n        }\n\n        // Read capital array\n        int[] capital = new int[n];\n        for (int i = 0; i < n; i++) {\n            capital[i] = sc.nextInt();\n        }\n\n        // Compute and print result\n        int result = findMaximizedCapital(k, w, profits, capital);\n        System.out.println(result);\n    }\n\n    public static int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {\n        int n = profits.length;\n        int[][] projects = new int[n][2];\n\n        for (int i = 0; i < n; i++) {\n            projects[i][0] = capital[i];\n            projects[i][1] = profits[i];\n        }\n\n        // Sort projects by capital\n        Arrays.sort(projects, Comparator.comparingInt(a -> a[0]));\n\n        // Max heap for profits\n        PriorityQueue<Integer> maxProfitHeap = new PriorityQueue<>(Collections.reverseOrder());\n\n        int i = 0;\n        for (int round = 0; round < k; round++) {\n            // Push all projects that can be started with current capital\n            while (i < n && projects[i][0] <= w) {\n                maxProfitHeap.add(projects[i][1]);\n                i++;\n            }\n\n            if (maxProfitHeap.isEmpty()) break;\n\n            w += maxProfitHeap.poll();\n        }\n\n        return w;\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "ab3dbdf9-3604-47ba-ae23-e223158607f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A car travels from a starting position to a destination which is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">target</code>&nbsp;miles east of the starting position.</p><p>There are gas stations along the way. The gas stations are represented as an array&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">stations</code>&nbsp;where&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">stations[i] = [positioni, fueli]</code>&nbsp;indicates that the&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">ith</code>&nbsp;gas station is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">positioni</code>&nbsp;miles east of the starting position and has&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">fueli</code>&nbsp;liters of gas.</p><p>The car starts with an infinite tank of gas, which initially has&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">startFuel</code>&nbsp;liters of fuel in it. It uses one liter of gas per one mile that it drives. When the car reaches a gas station, it may stop and refuel, transferring all the gas from the station into the car.</p><p>Return&nbsp;<em>the minimum number of refueling stops the car must make in order to reach its destination</em>. If it cannot reach the destination, return&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">-1</code>.</p><p>Note that if the car reaches a gas station with&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">0</code>&nbsp;fuel left, the car can still refuel there. If the car reaches the destination with&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">0</code>&nbsp;fuel left, it is still considered to have arrived.</p><p>&nbsp;</p><p><strong>Line 1:</strong> Two integers separated by a space:</p><p><code>target</code>: The distance (in miles) to the destination.</p><p><code>startFuel</code>: The amount of fuel (in liters) the car starts with.</p><p><strong>Line 2:</strong> One integer:</p><p><code>n</code>: The number of gas stations on the road.</p><p><strong>Next n lines:</strong> Each line has two integers:</p><p><code>positioni</code>: The location (in miles from the start) of the <code>i</code>-th gas station.</p><p><code>fueli</code>: The amount of fuel available at that station.</p><p><br></p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: target = 1, startFuel = 1, stations = []\nOutput: 0\nExplanation: We can reach the target without refueling.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: target = 100, startFuel = 1, stations = [[10,100]]\nOutput: -1\nExplanation: We can not reach the target (or even the first gas station).\n</pre><p><strong>Example 3:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: target = 100, startFuel = 10, stations = [[10,60],[20,30],[30,30],[60,40]]\nOutput: 2\nExplanation: We start with 10 liters of fuel.\nWe drive to position 10, expending 10 liters of fuel.  We refuel from 0 liters to 60 liters of gas.\nThen, we drive from position 10 to position 60 (expending 50 liters of fuel),\nand refuel from 10 liters to 50 liters of gas.  We then drive to and reach the target.\nWe made 2 refueling stops along the way, so we return 2.\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= target, startFuel &lt;= 10^9</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">0 &lt;= stations.length &lt;= 500</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= positioni &lt; positioni+1 &lt; target</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= fueli &lt; 10^9</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "greedy"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "9e73eac3-7e40-4c4b-b26f-4f75fe9e7cb8",
+                    "questionID": "ab3dbdf9-3604-47ba-ae23-e223158607f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static int minRefuelStops(int target, int tank, int[][] stations) {\n        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());\n        int ans = 0, prev = 0;\n        for (int[] station : stations) {\n            int location = station[0];\n            int capacity = station[1];\n            tank -= location - prev;\n\n            while (!pq.isEmpty() && tank < 0) {\n                tank += pq.poll();\n                ans++;\n            }\n\n            if (tank < 0) return -1;\n            pq.offer(capacity);\n            prev = location;\n        }\n\n        // Handle final stretch to target\n        tank -= target - prev;\n        while (!pq.isEmpty() && tank < 0) {\n            tank += pq.poll();\n            ans++;\n        }\n\n        return (tank < 0) ? -1 : ans;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input: target and startFuel\n        int target = sc.nextInt();\n        int startFuel = sc.nextInt();\n\n        // Input: number of stations\n        int n = sc.nextInt();\n        int[][] stations = new int[n][2];\n\n        // Input: station positions and fuels\n        for (int i = 0; i < n; i++) {\n            stations[i][0] = sc.nextInt(); // position\n            stations[i][1] = sc.nextInt(); // fuel\n        }\n\n        // Output the result\n        System.out.println(minRefuelStops(target, startFuel, stations));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "65576880-2962-4734-9e4e-56a4affe017d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given an array of&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">events</code>&nbsp;where&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">events[i] = [startDayi, endDayi]</code>. Every event&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>&nbsp;starts at&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">startDayi</code>&nbsp;and ends at&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">endDayi</code>.</p><p>You can attend an event&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>&nbsp;at any day&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">d</code>&nbsp;where&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">startTimei &lt;= d &lt;= endTimei</code>. You can only attend one event at any time&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">d</code>.</p><p>Return&nbsp;<em>the maximum number of events you can attend</em>.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: events = \n3\n1 2\n2 3\n3 4\n</pre><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">Output: 3\nExplanation: You can attend all the three events.\nOne way to attend them all is as shown.\nAttend the first event on day 1.\nAttend the second event on day 2.\nAttend the third event on day 3.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: events= [[1,2],[2,3],[3,4],[1,2]]\nOutput: 4\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><p><br></p><ul><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= events.length &lt;= 10^5</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">events[i].length == 2</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= startDayi &lt;= endDayi &lt;= 10^5</code></li></ul>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "greedy",
+                "Activity Selection",
+                "Priority Queue"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "313cf2b9-4503-432a-a1bf-2ba838ed811e",
+                    "questionID": "65576880-2962-4734-9e4e-56a4affe017d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static int maxEvents(int[][] events) {\n        Arrays.sort(events, Comparator.comparingInt(a -> a[0]));\n\n        PriorityQueue<Integer> minHeap = new PriorityQueue<>();\n        int day = 1, i = 0, n = events.length, count = 0;\n\n        int maxDay = 0;\n        for (int[] e : events) maxDay = Math.max(maxDay, e[1]);\n\n        while (day <= maxDay) {\n            while (i < n && events[i][0] == day) {\n                minHeap.offer(events[i][1]);\n                i++;\n            }\n\n            while (!minHeap.isEmpty() && minHeap.peek() < day) {\n                minHeap.poll();\n            }\n\n            if (!minHeap.isEmpty()) {\n                minHeap.poll();\n                count++;\n            }\n\n            day++;\n        }\n\n        return count;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Take number of events\n        int n = sc.nextInt();\n        int[][] events = new int[n][2];\n\n        // Take input of events\n        for (int i = 0; i < n; i++) {\n            events[i][0] = sc.nextInt(); // start day\n            events[i][1] = sc.nextInt(); // end day\n        }\n\n        // Output result\n        System.out.println(maxEvents(events));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "23705680-379d-488d-a7bf-4e8048f2cf77",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given an array&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">points</code>&nbsp;of size&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n</code>&nbsp;and an integer&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">m</code>. There is another array&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore</code>&nbsp;of size&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n</code>, where&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore[i]</code>&nbsp;represents the score achieved at the&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">ith</code>&nbsp;game. Initially,&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore[i] == 0</code>&nbsp;for all&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>.</p><p>You start at index -1, which is outside the array (before the first position at index 0). You can make&nbsp;<strong>at most</strong>&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">m</code>&nbsp;moves. In each move, you can either:</p><p><br></p><ul><li>Increase the index by 1 and add&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">points[i]</code>&nbsp;to&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore[i]</code>.</li><li>Decrease the index by 1 and add&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">points[i]</code>&nbsp;to&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore[i]</code>.</li></ul><p><strong>Note</strong>&nbsp;that the index must always remain within the bounds of the array after the first move.</p><p>Return the&nbsp;<strong>maximum possible minimum</strong>&nbsp;value in&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore</code>&nbsp;after&nbsp;<strong>at most</strong>&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">m</code>&nbsp;moves.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><p><strong>Input:</strong>&nbsp;points = </p><p>2 3            =&gt;  2 =&gt; n =&gt; number of points  ,  3 =&gt; m</p><p>2 4</p><p><br></p><p><strong>Output:</strong>&nbsp;4</p><p><strong>Explanation:</strong></p><p>Initially, index&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i = -1</code>&nbsp;and&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore = [0, 0]</code>.</p><p>Move\t\t\t\tIndex\t\tgameScore</p><p>Increase&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t\t0\t\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[2, 0]</code></p><p>Increase&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t\t1\t\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[2, 4]</code></p><p>Decrease&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t0\t\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[4, 4]</code></p><p>The minimum value in&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore</code>&nbsp;is 4, and this is the maximum possible minimum among all configurations. Hence, 4 is the output.</p><p><strong>Example 2:</strong></p><p><strong>Input:</strong>&nbsp;points = [1,2,3], m = 5</p><p><strong>Output:</strong>&nbsp;2</p><p><strong>Explanation:</strong></p><p>Initially, index&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i = -1</code>&nbsp;and&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore = [0, 0, 0]</code>.</p><p>Move \t\t\t\t\tIndex \tgameScore</p><p>Increase&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t\t\t0\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[1, 0, 0]</code></p><p>Increase&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t\t\t1\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[1, 2, 0]</code></p><p>Decrease&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t\t0\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[2, 2, 0]</code></p><p>Increase&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t\t\t1\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[2, 4, 0]</code></p><p>Increase&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">i</code>\t\t\t\t2\t\t\t<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[2, 4, 3]</code></p><p>The minimum value in&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">gameScore</code>&nbsp;is 2, and this is the maximum possible minimum among all configurations. Hence, 2 is the output.</p><p>&nbsp;</p><p><strong>Constraints:</strong></p><p><br></p><ul><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">2 &lt;= n == points.length &lt;= 5 * 10^4</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= points[i] &lt;= 10^6</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= m &lt;= 10^9</code></li></ul>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Binary Search"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "3a678100-22c3-48be-ab9a-502572d4eb3b",
+                    "questionID": "23705680-379d-488d-a7bf-4e8048f2cf77",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input: n and m\n        int n = sc.nextInt();\n        int m = sc.nextInt();\n\n        // Input: points array\n        int[] points = new int[n];\n        for (int i = 0; i < n; i++) {\n            points[i] = sc.nextInt();\n        }\n\n        // Call and print result\n        System.out.println(maxScore(points, m));\n    }\n\n    public static long maxScore(int[] points, int m) {\n        int n = points.length;\n        if (m < n) return 0;\n\n        long left = 1, right = (long) 1e18, ans = 0;\n\n        while (left <= right) {\n            long mid = left + (right - left) / 2;\n            if (canAchieve(points, n, m, mid)) {\n                ans = mid;\n                left = mid + 1;\n            } else {\n                right = mid - 1;\n            }\n        }\n\n        return ans;\n    }\n\n    private static boolean canAchieve(int[] points, int n, int m, long val) {\n        long total = 0, transfer = 0, skipAdd = 0;\n\n        for (int i = 0; i < n && total <= m; i++) {\n            int point = points[i];\n            long necessary = (val + point - 1) / point;\n\n            if (transfer >= necessary) {\n                transfer = 0;\n                skipAdd++;\n            } else {\n                long p = transfer * (long) point;\n                long ops = ((val - p) + point - 1) / point;\n                total += 2 * ops - 1;\n                total += skipAdd;\n\n                transfer = Math.max(ops - 1, 0);\n                skipAdd = 0;\n            }\n        }\n\n        return total <= m;\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "a41fff7a-b359-4a1b-b948-ef0327ab7fb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given an integer array&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">nums</code>&nbsp;and an integer&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">k</code>, return&nbsp;<em>the number of&nbsp;</em><strong><em>good subarrays</em></strong><em>&nbsp;of&nbsp;</em><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">nums</code>.</p><p>A&nbsp;<strong>good array</strong>&nbsp;is an array where the number of different integers in that array is exactly&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">k</code>.</p><p><br></p><ul><li>For example,&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">[1,2,3,1,2]</code>&nbsp;has&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">3</code>&nbsp;different integers:&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1</code>,&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">2</code>, and&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">3</code>.</li></ul><p>A&nbsp;<strong>subarray</strong>&nbsp;is a&nbsp;<strong>contiguous</strong>&nbsp;part of an array.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: nums = \n5\n1 2 1 2 3 \n2  =&gt; k\nOutput: 7\nExplanation: Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1], [2,1,2], [1,2,1,2]\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: nums = [1,2,1,3,4], k = 3\nOutput: 3\nExplanation: Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1,3], [1,3,4].\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><p><br></p><ul><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= nums.length &lt;= 2 * 10^4</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= nums[i], k &lt;= nums.length</code></li></ul>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "hashmap",
+                "Sliding Window"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "3696e6f4-fa53-4152-9246-47029bd59179",
+                    "questionID": "a41fff7a-b359-4a1b-b948-ef0327ab7fb8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read array size\n        int n = sc.nextInt();\n        int[] nums = new int[n];\n\n        // Read array elements\n        for (int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n\n        // Read k\n        int k = sc.nextInt();\n\n        // Output the result\n        System.out.println(subarraysWithKDistinct(nums, k));\n    }\n\n    public static int subarraysWithKDistinct(int[] nums, int k) {\n        return atMostK(nums, k) - atMostK(nums, k - 1);\n    }\n\n    private static int atMostK(int[] nums, int k) {\n        int left = 0, result = 0;\n        Map<Integer, Integer> freq = new HashMap<>();\n\n        for (int right = 0; right < nums.length; right++) {\n            freq.put(nums[right], freq.getOrDefault(nums[right], 0) + 1);\n            if (freq.get(nums[right]) == 1) {\n                k--; // new unique element\n            }\n\n            while (k < 0) {\n                freq.put(nums[left], freq.get(nums[left]) - 1);\n                if (freq.get(nums[left]) == 0) {\n                    k++; // one unique element removed\n                }\n                left++;\n            }\n\n            result += right - left + 1;\n        }\n\n        return result;\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "ccf184f1-448d-41e4-a62a-88cbbc08c239",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given two&nbsp;<strong>positive</strong>&nbsp;integers&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">x</code>&nbsp;and&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">y</code>, denoting the number of coins with values 75 and 10&nbsp;<em>respectively</em>.</p><p>Alice and Bob are playing a game. Each turn, starting with&nbsp;<strong>Alice</strong>, the player must pick up coins with a&nbsp;<strong>total</strong>&nbsp;value 115. If the player is unable to do so, they&nbsp;<strong>lose</strong>&nbsp;the game.</p><p>Return the&nbsp;<em>name</em>&nbsp;of the player who wins the game if both players play&nbsp;<strong>optimally</strong>.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><p><strong>Input:</strong>&nbsp;x = 2, y = 7</p><p><strong>Output:</strong>&nbsp;\"Alice\"</p><p><strong>Explanation:</strong></p><p>The game ends in a single turn:</p><ul><li>Alice picks 1 coin with a value of 75 and 4 coins with a value of 10.</li></ul><p><strong>Example 2:</strong></p><p><strong>Input:</strong>&nbsp;x = 4, y = 11</p><p><strong>Output:</strong>&nbsp;\"Bob\"</p><p><strong>Explanation:</strong></p><p>The game ends in 2 turns:</p><ul><li>Alice picks 1 coin with a value of 75 and 4 coins with a value of 10.</li><li>Bob picks 1 coin with a value of 75 and 4 coins with a value of 10.</li></ul><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= x, y &lt;= 100</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Game"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "29bf243a-ebe0-478e-9ae5-0d71b64d6a4e",
+                    "questionID": "ccf184f1-448d-41e4-a62a-88cbbc08c239",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n\n    public static String coinGameWinner(int x, int y) {\n        int moves = Math.min(x, y / 4);\n        return (moves % 2 == 1) ? \"Alice\" : \"Bob\";\n    }\n\n    // Main method for contest-style input/output\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int x = sc.nextInt(); // number of 75-value coins\n        int y = sc.nextInt(); // number of 10-value coins\n        sc.close();\n\n        System.out.println(coinGameWinner(x, y));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "b31b0185-40c4-45f1-8ab1-1cd3474e7aab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given two&nbsp;<strong>0-indexed</strong>&nbsp;integer arrays&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">player1</code>&nbsp;and&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">player2</code>, representing the number of pins that player 1 and player 2 hit in a bowling game, respectively.</p><p>The bowling game consists of&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n</code>&nbsp;turns, and the number of pins in each turn is exactly 10.</p><p>Assume a player hits&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">xi</code>&nbsp;pins in the ith&nbsp;turn. The value of the ith&nbsp;turn for the player is:</p><p><br></p><ul><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">2xi</code>&nbsp;if the player hits 10 pins&nbsp;<strong>in either (i - 1)th&nbsp;or (i - 2)th&nbsp;turn</strong>.</li><li>Otherwise, it is&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">xi</code>.</li></ul><p>The&nbsp;<strong>score</strong>&nbsp;of the player is the sum of the values of their&nbsp;<code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n</code>&nbsp;turns.</p><p>Return</p><p><br></p><ul><li>1 if the score of player 1 is more than the score of player 2,</li><li>2 if the score of player 2 is more than the score of player 1, and</li><li>0 in case of a draw.</li></ul><p>&nbsp;</p><p><strong>Example 1:</strong></p><p><strong>Input:</strong>&nbsp; </p><p>4   -  number of turns</p><p>5 10 3 2   - player 1</p><p>6 5 7 3 - player 2</p><p><strong>Output:</strong>&nbsp;1</p><p><strong>Explanation:</strong></p><p>The score of player 1 is 5 + 10 + 2*3 + 2*2 = 25.</p><p>The score of player 2 is 6 + 5 + 7 + 3 = 21.</p><p><strong>Example 2:</strong></p><p><strong>Input:</strong>&nbsp;player1 = [3,5,7,6], player2 = [8,10,10,2]</p><p><strong>Output:</strong>&nbsp;2</p><p><strong>Explanation:</strong></p><p>The score of player 1 is 3 + 5 + 7 + 6 = 21.</p><p>The score of player 2 is 8 + 10 + 2*10 + 2*2 = 42.</p><p><strong>Example 3:</strong></p><p><strong>Input:</strong>&nbsp;player1 = [2,3], player2 = [4,1]</p><p><strong>Output:</strong>&nbsp;0</p><p><strong>Explanation:</strong></p><p>The score of player1 is 2 + 3 = 5.</p><p>The score of player2 is 4 + 1 = 5.</p><p><strong>Example 4:</strong></p><p><strong>Input:</strong>&nbsp;player1 = [1,1,1,10,10,10,10], player2 = [10,10,10,10,1,1,1]</p><p><strong>Output:</strong>&nbsp;2</p><p><strong>Explanation:</strong></p><p>The score of player1 is 1 + 1 + 1 + 10 + 2*10 + 2*10 + 2*10 = 73.</p><p>The score of player2 is 10 + 2*10 + 2*10 + 2*10 + 2*1 + 2*1 + 1 = 75.</p><p>&nbsp;</p><p><strong>Constraints:</strong></p><p><br></p><ul><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">n == player1.length == player2.length</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">1 &lt;= n &lt;= 1000</code></li><li><code style=\"background-color: rgba(0, 10, 32, 0.03); color: rgba(38, 38, 38, 0.75);\">0 &lt;= player1[i], player2[i] &lt;= 10</code></li></ul>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Game"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "e4fa9275-5566-4029-8c6b-1b2fc98ae2e9",
+                    "questionID": "b31b0185-40c4-45f1-8ab1-1cd3474e7aab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n\n    public static int isWinner(int[] player1, int[] player2) {\n        int score1 = calculateScore(player1);\n        int score2 = calculateScore(player2);\n\n        if (score1 > score2) return 1;\n        else if (score2 > score1) return 2;\n        else return 0;\n    }\n\n    private static int calculateScore(int[] player) {\n        int n = player.length;\n        int score = 0;\n\n        for (int i = 0; i < n; i++) {\n            if ((i >= 1 && player[i - 1] == 10) || (i >= 2 && player[i - 2] == 10)) {\n                score += 2 * player[i];\n            } else {\n                score += player[i];\n            }\n        }\n\n        return score;\n    }\n\n    // Contest-style input/output\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input for player 1\n        int n = sc.nextInt();\n        int[] player1 = new int[n];\n        for (int i = 0; i < n; i++) {\n            player1[i] = sc.nextInt();\n        }\n\n        // Input for player 2\n        int[] player2 = new int[n];\n        for (int i = 0; i < n; i++) {\n            player2[i] = sc.nextInt();\n        }\n\n        sc.close();\n\n        System.out.println(isWinner(player1, player2));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "6a649bb6-a423-4ba6-afe1-758be80da531",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Alice and Bob take turns playing a game, with Alice starting first.</p><p>Initially, there is a number&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n</code>&nbsp;on the chalkboard. On each player's turn, that player makes a move consisting of:</p><ul><li>Choosing any&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">x</code>&nbsp;with&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">0 &lt; x &lt; n</code>&nbsp;and&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n % x == 0</code>.</li><li>Replacing the number&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n</code>&nbsp;on the chalkboard with&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n - x</code>.</li></ul><p>Also, if a player cannot make a move, they lose the game.</p><p>Return&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">true</code>&nbsp;<em>if and only if Alice wins the game, assuming both players play optimally</em>.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: n = 2\nOutput: true\nExplanation: Alice chooses 1, and Bob has no more moves.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: n = 3\nOutput: false\nExplanation: Alice chooses 1, Bob chooses 1, and Alice has no more moves.\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= n &lt;= 1000</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Game"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "75a79cee-fa45-4d78-a1b3-e6b670b2fa73",
+                    "questionID": "6a649bb6-a423-4ba6-afe1-758be80da531",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n\n    public static boolean divisorGame(int n) {\n        return n % 2 == 0;\n    }\n\n    // For contest-style input/output\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        sc.close();\n\n        System.out.println(divisorGame(n));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "14336c65-6b9b-4338-af07-b266efab744a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Alice and Bob are playing a game. Initially, Alice has a string&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word = \"a\"</code>.</p><p>You are given a&nbsp;<strong>positive</strong>&nbsp;integer&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">k</code>.</p><p>Now Bob will ask Alice to perform the following operation&nbsp;<strong>forever</strong>:</p><ul><li>Generate a new string by&nbsp;<strong>changing</strong>&nbsp;each character in&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word</code>&nbsp;to its&nbsp;<strong>next</strong>&nbsp;character in the English alphabet, and&nbsp;<strong>append</strong>&nbsp;it to the&nbsp;<em>original</em>&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word</code>.</li></ul><p>For example, performing the operation on&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"c\"</code>&nbsp;generates&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"cd\"</code>&nbsp;and performing the operation on&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"zb\"</code>&nbsp;generates&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"zbac\"</code>.</p><p>Return the value of the&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">kth</code>&nbsp;character in&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word</code>, after enough operations have been done for&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word</code>&nbsp;to have&nbsp;<strong>at least</strong>&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">k</code>&nbsp;characters.</p><p><strong>Note</strong>&nbsp;that the character&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">'z'</code>&nbsp;can be changed to&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">'a'</code>&nbsp;in the operation.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><p><strong>Input:</strong>&nbsp;k = 5</p><p><strong>Output:</strong>&nbsp;\"b\"</p><p><strong>Explanation:</strong></p><p>Initially,&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word = \"a\"</code>. We need to do the operation three times:</p><ul><li>Generated string is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"b\"</code>,&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word</code>&nbsp;becomes&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"ab\"</code>.</li><li>Generated string is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"bc\"</code>,&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word</code>&nbsp;becomes&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"abbc\"</code>.</li><li>Generated string is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"bccd\"</code>,&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">word</code>&nbsp;becomes&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">\"abbcbccd\"</code>.</li></ul><p><strong>Example 2:</strong></p><p><strong>Input:</strong>&nbsp;k = 10</p><p><strong>Output:</strong>&nbsp;\"c\"</p><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= k &lt;= 500</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Game"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "828e1d2d-28ec-4223-b694-f80a30039154",
+                    "questionID": "14336c65-6b9b-4338-af07-b266efab744a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n\n    public static char getKthCharacter(int k) {\n        StringBuilder word = new StringBuilder(\"a\");\n\n        while (word.length() < k) {\n            StringBuilder next = new StringBuilder();\n            for (int i = 0; i < word.length(); i++) {\n                next.append(nextChar(word.charAt(i)));\n            }\n            word.append(next);\n        }\n\n        return word.charAt(k - 1);\n    }\n\n    // Helper function to get next character in alphabet, with 'z' → 'a'\n    private static char nextChar(char c) {\n        return (char)((c - 'a' + 1) % 26 + 'a');\n    }\n\n    // Main method for input/output\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int k = sc.nextInt();\n        sc.close();\n\n        System.out.println(getKthCharacter(k));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "a7bf488d-e731-4d96-a951-30f69fdc93f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given the&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">head</code>&nbsp;of a linked list, return&nbsp;<em>the node where the cycle begins. If there is no cycle, return&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">null</code>.</p><p>There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">next</code>&nbsp;pointer. Internally,&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">pos</code>&nbsp;is used to denote the index of the node that tail's&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">next</code>&nbsp;pointer is connected to (<strong>0-indexed</strong>). It is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">-1</code>&nbsp;if there is no cycle.&nbsp;<strong>Note that</strong>&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">pos</code>&nbsp;<strong>is not passed as a parameter</strong>.</p><p><strong>Do not modify</strong>&nbsp;the linked list.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: head = [3,2,0,-4], pos = 1\n</pre><p><span style=\"background-color: rgb(240, 240, 240); color: rgb(38, 38, 38);\"><img src=\"https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png\"></span></p><pre class=\"ql-syntax\" spellcheck=\"false\">Output: tail connects to node index 1\nExplanation: There is a cycle in the linked list, where tail connects to the second node.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: head = [1,2], pos = 0\n</pre><p><span style=\"background-color: rgb(240, 240, 240); color: rgb(38, 38, 38);\"><img src=\"https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test2.png\"></span></p><pre class=\"ql-syntax\" spellcheck=\"false\">Output: tail connects to node index 0\nExplanation: There is a cycle in the linked list, where tail connects to the first node.\n</pre><p><strong>Example 3:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: head = [1], pos = -1\n</pre><p><span style=\"background-color: rgb(240, 240, 240); color: rgb(38, 38, 38);\"><img src=\"https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist_test3.png\"></span></p><pre class=\"ql-syntax\" spellcheck=\"false\">Output: no cycle\nExplanation: There is no cycle in the linked list.\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li>The number of the nodes in the list is in the range&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">[0, 10^4]</code>.</li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">-10^5 &lt;= Node.val &lt;= 10^5</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">pos</code>&nbsp;is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">-1</code>&nbsp;or a&nbsp;<strong>valid index</strong>&nbsp;in the linked-list.</li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "LinkedList"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "ccd0fa50-f1f9-4217-a30d-ea5df8d0b487",
+                    "questionID": "a7bf488d-e731-4d96-a951-30f69fdc93f9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\nclass ListNode {\n    int val;\n    ListNode next;\n    ListNode(int x) {\n        val = x;\n        next = null;\n    }\n}\n\npublic class Solution {\n\n    public static ListNode detectCycle(ListNode head) {\n        if (head == null || head.next == null) return null;\n\n        ListNode slow = head, fast = head;\n\n        // Detect cycle\n        while (fast != null && fast.next != null) {\n            slow = slow.next;\n            fast = fast.next.next;\n\n            if (slow == fast) {\n                // Find the entry point of the cycle\n                slow = head;\n                while (slow != fast) {\n                    slow = slow.next;\n                    fast = fast.next;\n                }\n                return slow;\n            }\n        }\n\n        return null; // No cycle\n    }\n\n    // Builds linked list from values and connects cycle at `pos`\n    public static ListNode buildList(int[] vals, int pos) {\n        if (vals.length == 0) return null;\n\n        ListNode head = new ListNode(vals[0]);\n        ListNode curr = head;\n        ListNode cycleNode = null;\n\n        if (pos == 0) cycleNode = head;\n\n        for (int i = 1; i < vals.length; i++) {\n            curr.next = new ListNode(vals[i]);\n            curr = curr.next;\n            if (i == pos) {\n                cycleNode = curr;\n            }\n        }\n\n        if (pos != -1) {\n            curr.next = cycleNode;\n        }\n\n        return head;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read linked list values\n        String[] parts = sc.nextLine().split(\",\");\n        int[] vals = new int[parts.length];\n        for (int i = 0; i < parts.length; i++) {\n            vals[i] = Integer.parseInt(parts[i].trim());\n        }\n\n        // Read position to create cycle (-1 means no cycle)\n        int pos = sc.nextInt();\n\n        // Build the list and detect cycle start\n        ListNode head = buildList(vals, pos);\n        ListNode cycleStart = detectCycle(head);\n\n        if (cycleStart != null) {\n            System.out.println(\"tail connects to node with value \" + cycleStart.val);\n        } else {\n            System.out.println(\"no cycle\");\n        }\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "c05b002d-0b19-4658-a84e-4075c6221cea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given a square board of characters. You can move on the board starting at the bottom right square marked with the character 'S'.</p><p><br></p><p>You need to reach the top left square marked with the character 'E'. The rest of the squares are labeled either with a numeric character 1, 2, ..., 9 or with an obstacle 'X'. In one move you can go up, left or up-left (diagonally) only if there is no obstacle there.</p><p><br></p><p>Return a list of two integers: the first integer is the maximum sum of numeric characters you can collect, and the second is the number of such paths that you can take to get that maximum sum, taken modulo 10^9 + 7.</p><p><br></p><p>In case there is no path, return [0, 0].</p><p><br></p><p> </p><p><br></p><p>Example 1:</p><p><br></p><p>Input: board =</p><p>3</p><p>E23</p><p>2X2</p><p>12S</p><p>Output: </p><p>7 1</p><p>Example 2:</p><p><br></p><p>Input: board = </p><p>3</p><p>E12</p><p>1X1</p><p>21S</p><p>Output: </p><p>4 2</p><p>Example 3:</p><p><br></p><p>Input: board = [\"E11\",\"XXX\",\"11S\"]</p><p>Output: [0,0]</p><p> </p><p><br></p><p>Constraints:</p><p><br></p><p>2 &lt;= board.length == board[i].length &lt;= 100</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "DP"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "dae3c2b1-a063-4ddb-88f3-f70184b5d7c9",
+                    "questionID": "c05b002d-0b19-4658-a84e-4075c6221cea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n\n    static final int MOD = 1_000_000_007;\n\n    public static int[] pathsWithMaxScore(List<String> board) {\n        int n = board.size();\n        int[][] maxScore = new int[n][n];\n        int[][] countPaths = new int[n][n];\n\n        // Initialize all as -1 (unreachable)\n        for (int[] row : maxScore)\n            Arrays.fill(row, -1);\n\n        countPaths[n - 1][n - 1] = 1; // Start from 'S'\n        maxScore[n - 1][n - 1] = 0;\n\n        for (int i = n - 1; i >= 0; i--) {\n            for (int j = n - 1; j >= 0; j--) {\n                if (board.get(i).charAt(j) == 'X' || maxScore[i][j] == -1)\n                    continue;\n\n                int currentScore = board.get(i).charAt(j) == 'S' ? 0 :\n                                   (board.get(i).charAt(j) == 'E' ? 0 :\n                                   board.get(i).charAt(j) - '0');\n\n                // Check all 3 directions (up, left, up-left)\n                for (int[] dir : new int[][]{{-1, 0}, {0, -1}, {-1, -1}}) {\n                    int ni = i + dir[0], nj = j + dir[1];\n                    if (ni < 0 || nj < 0 || board.get(ni).charAt(nj) == 'X')\n                        continue;\n\n                    int prevScore = maxScore[i][j] + (board.get(ni).charAt(nj) == 'E' ? 0 :\n                                                     (board.get(ni).charAt(nj) == 'S' ? 0 :\n                                                     board.get(ni).charAt(nj) - '0'));\n\n                    if (prevScore > maxScore[ni][nj]) {\n                        maxScore[ni][nj] = prevScore;\n                        countPaths[ni][nj] = countPaths[i][j];\n                    } else if (prevScore == maxScore[ni][nj]) {\n                        countPaths[ni][nj] = (countPaths[ni][nj] + countPaths[i][j]) % MOD;\n                    }\n                }\n            }\n        }\n\n        return maxScore[0][0] == -1 ? new int[]{0, 0} : new int[]{maxScore[0][0], countPaths[0][0]};\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = Integer.parseInt(sc.nextLine());\n        List<String> board = new ArrayList<>();\n        for (int i = 0; i < n; i++) {\n            board.add(sc.nextLine());\n        }\n\n        int[] result = pathsWithMaxScore(board);\n        System.out.println(result[0] + \" \" + result[1]);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "d6f1e1ac-1b2a-4316-93d9-ab6955b9778f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have a security system connected, and it will automatically contact the police if two adjacent houses were broken into on the same night.</p><p><br></p><p>Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.</p><p><br></p><p> </p><p><br></p><p>Example 1:</p><p><br></p><p>Input: nums = </p><p>3</p><p>2 3 2</p><p>Output: 3</p><p>Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2), because they are adjacent houses.</p><p>Example 2:</p><p><br></p><p>Input: nums = </p><p>4</p><p>1 2 3 1</p><p>Output: 4</p><p>Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).</p><p>Total amount you can rob = 1 + 3 = 4.</p><p>Example 3:</p><p><br></p><p>Input: nums = </p><p>3</p><p>1 2 3</p><p>Output: 3</p><p> </p><p><br></p><p>Constraints:</p><p><br></p><p>1 &lt;= nums.length &lt;= 100</p><p>0 &lt;= nums[i] &lt;= 1000</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "DP"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "9f4b5261-d8e7-4eec-ba07-a3be5eb7a7c4",
+                    "questionID": "d6f1e1ac-1b2a-4316-93d9-ab6955b9778f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    \n    // Rob houses in a linear arrangement (helper function)\n    public static int robLinear(int[] nums, int start, int end) {\n        int prev1 = 0, prev2 = 0;\n        for (int i = start; i <= end; i++) {\n            int temp = Math.max(prev1, prev2 + nums[i]);\n            prev2 = prev1;\n            prev1 = temp;\n        }\n        return prev1;\n    }\n\n    // Rob houses arranged in a circle\n    public static int rob(int[] nums) {\n        int n = nums.length;\n        if (n == 1) return nums[0];\n        if (n == 2) return Math.max(nums[0], nums[1]);\n\n        return Math.max(robLinear(nums, 0, n - 2), robLinear(nums, 1, n - 1));\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        int[] nums = new int[n];\n\n        for (int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n\n        System.out.println(rob(nums));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "9434560a-dafc-4df9-8588-757db2fae75c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie.</p><p><br></p><p>Each child i has a greed factor g[i], which is the minimum size of a cookie that the child will be content with; and each cookie j has a size s[j]. If s[j] &gt;= g[i], we can assign the cookie j to the child i, and the child i will be content. Your goal is to maximize the number of your content children and output the maximum number.</p><p><br></p><p> </p><p><br></p><p>Example 1:</p><p><br></p><p>Input:</p><p>3  - number of elements in g </p><p>1 2 3 - elements of g </p><p>2 -  number of elements in s</p><p>1 1 - elements of s</p><p>Output: 1</p><p>Explanation: You have 3 children and 2 cookies. The greed factors of 3 children are 1, 2, 3. </p><p>And even though you have 2 cookies, since their size is both 1, you could only make the child whose greed factor is 1 content.</p><p>You need to output 1.</p><p>Example 2:</p><p><br></p><p>Input: g = [1,2], s = [1,2,3]</p><p>Output: 2</p><p>Explanation: You have 2 children and 3 cookies. The greed factors of 2 children are 1, 2. </p><p>You have 3 cookies and their sizes are big enough to gratify all of the children, </p><p>You need to output 2.</p><p> </p><p><br></p><p>Constraints:</p><p><br></p><p>1 &lt;= g.length &lt;= 3 * 10^4</p><p>0 &lt;= s.length &lt;= 3 * 10^4</p><p>1 &lt;= g[i], s[j] &lt;= 2^31 - 1</p><p> </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "greedy"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "e272cf21-c7b0-4bd3-a711-d7ca56dcedcc",
+                    "questionID": "9434560a-dafc-4df9-8588-757db2fae75c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static int findContentChildren(int[] g, int[] s) {\n        Arrays.sort(g);\n        Arrays.sort(s);\n        int i = 0, j = 0;\n        int n = g.length, m = s.length;\n\n        while (i < n && j < m) {\n            if (s[j] >= g[i]) {\n                i++; // child satisfied\n            }\n            j++; // move to next cookie\n        }\n        return i; // number of satisfied children\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input number of children and greed factors\n        int n = sc.nextInt();\n        int[] g = new int[n];\n        for (int i = 0; i < n; i++) g[i] = sc.nextInt();\n\n        // Input number of cookies and their sizes\n        int m = sc.nextInt();\n        int[] s = new int[m];\n        for (int i = 0; i < m; i++) s[i] = sc.nextInt();\n\n        System.out.println(findContentChildren(g, s));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "a4fabb5e-1feb-4427-aa09-4e958ec2589b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.</p><p><br></p><p>Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.</p><p><br></p><p> </p><p><br></p><p>Example 1:</p><p><br></p><p>Input: </p><p>4</p><p>1 2 3 1</p><p>Output: 4</p><p>Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).</p><p>Total amount you can rob = 1 + 3 = 4.</p><p>Example 2:</p><p><br></p><p>Input: </p><p>5</p><p>2 7 9 3 1</p><p>Output: 12</p><p>Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).</p><p>Total amount you can rob = 2 + 9 + 1 = 12.</p><p> </p><p><br></p><p>Constraints:</p><p><br></p><p>1 &lt;= nums.length &lt;= 100</p><p>0 &lt;= nums[i] &lt;= 400</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "DP"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "38b9ec8c-3929-480a-ab88-39eca6ba506a",
+                    "questionID": "a4fabb5e-1feb-4427-aa09-4e958ec2589b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    // Function to compute max money that can be robbed\n    public static int rob(int[] nums) {\n        int n = nums.length;\n        if (n == 0) return 0;\n        if (n == 1) return nums[0];\n\n        int[] dp = new int[n];\n        dp[0] = nums[0];\n        dp[1] = Math.max(nums[0], nums[1]);\n\n        for (int i = 2; i < n; i++) {\n            dp[i] = Math.max(dp[i - 1], nums[i] + dp[i - 2]);\n        }\n\n        return dp[n - 1];\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read number of houses\n        int n = sc.nextInt();\n        int[] nums = new int[n];\n\n        // Read money in each house\n        for (int i = 0; i < n; i++) {\n            nums[i] = sc.nextInt();\n        }\n\n        // Output the result\n        System.out.println(rob(nums));\n\n        sc.close();\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "907fdf08-0624-4a52-8dbf-bf208a36ba0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given an integer&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">numRows</code>, return the first numRows of&nbsp;<strong>Pascal's triangle</strong>.</p><p>In&nbsp;<strong>Pascal's triangle</strong>, each number is the sum of the two numbers directly above it as shown:</p><p><span style=\"background-color: rgb(240, 240, 240); color: rgb(38, 38, 38);\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif\"></span>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: numRows = 5\nOutput: \n1 \n1 1 \n1 2 1 \n1 3 3 1 \n1 4 6 4 1 \n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: numRows = 1\nOutput: \n1\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= numRows &lt;= 30</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "maths"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "c7fb19a6-11cc-4ad9-8aaa-fb45542e95de",
+                    "questionID": "907fdf08-0624-4a52-8dbf-bf208a36ba0b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n\n        for (int i = 0; i < n; i++) {\n            int num = 1;\n            for (int j = 0; j <= i; j++) {\n                System.out.print(num + \" \");\n                num = num * (i - j) / (j + 1);\n            }\n            System.out.println();\n        }\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "94939437-4d7a-47d4-93d3-f54d3a2325a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given an&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">m x n</code>&nbsp;2D binary grid&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">grid</code>&nbsp;which represents a map of&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1</code>s (land) and&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">0</code>s (water), return&nbsp;<em>the number of islands</em>.</p><p>An&nbsp;<strong>island</strong>&nbsp;is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: \n3 3\n1 1 1\n0 1 0\n1 1 1\nOutput: 1\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: \n4 5\n1 1 0 0 0\n1 1 0 0 0\n0 0 1 0 0\n0 0 0 1 1\nOutput: 3\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">m == grid.length</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n == grid[i].length</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= m, n &lt;= 300</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">grid[i][j]</code>&nbsp;is&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">0</code>&nbsp;or&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1</code>.</li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Recursion",
+                "2D Arrays"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "a9fe6553-7eab-44ff-b8ed-bfbe5bd34d56",
+                    "questionID": "94939437-4d7a-47d4-93d3-f54d3a2325a0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc=new Scanner(System.in);\n        int n=sc.nextInt();\n        int m=sc.nextInt();\n        int grid[][]=new int[n][m];\n        for (int i=0;i<n;i++){\n            for (int j=0;j<m;j++){\n                grid[i][j]=sc.nextInt();\n            }\n        }\n        System.out.println(numIslands(grid));\n    }\n    public static int numIslands(int[][] grid) {\n        int cnt =0;\n        for(int i=0;i<grid.length;i++)\n        {\n            for(int j=0;j<grid[0].length;j++)\n            {\n                if(grid[i][j]==1)\n                {\n                    cnt++;\n                    cleargrid(grid,i,j);\n                }\n            }\n        }\n        return cnt;\n    }\n    public static void cleargrid(int [][] grid,int i,int j)\n    {\n        if(i<0||j<0||i>=grid.length||j>=grid[0].length||grid[i][j]==0)\n            return ;\n        grid[i][j]=0;\n        cleargrid(grid,i+1,j);\n        cleargrid(grid,i,j+1);\n        cleargrid(grid,i-1,j);\n        cleargrid(grid,i,j-1);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "fc2ff7b7-58b0-483e-83b2-e074bdb722ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Alice and Bob play a game with piles of stones. There are an&nbsp;<strong>even</strong>&nbsp;number of piles arranged in a row, and each pile has a&nbsp;<strong>positive</strong>&nbsp;integer number of stones&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">piles[i]</code>.</p><p>The objective of the game is to end with the most stones. The&nbsp;<strong>total</strong>&nbsp;number of stones across all the piles is&nbsp;<strong>odd</strong>, so there are no ties.</p><p>Alice and Bob take turns, with&nbsp;<strong>Alice starting first</strong>. Each turn, a player takes the entire pile of stones either from the&nbsp;<strong>beginning</strong>&nbsp;or from the&nbsp;<strong>end</strong>&nbsp;of the row. This continues until there are no more piles left, at which point the person with the&nbsp;<strong>most stones wins</strong>.</p><p>Assuming Alice and Bob play optimally, return&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">true</code><em>&nbsp;if Alice wins the game, or&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">false</code><em>&nbsp;if Bob wins</em>.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: piles = [5,3,4,5]\nOutput: true\nExplanation: \nAlice starts first, and can only take the first 5 or the last 5.\nSay she takes the first 5, so that the row becomes [3, 4, 5].\nIf Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points.\nIf Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points.\nThis demonstrated that taking the first 5 was a winning move for Alice, so we return true.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: piles = [3,7,2,3]\nOutput: true\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">2 &lt;= piles.length &lt;= 500</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">piles.length</code>&nbsp;is&nbsp;<strong>even</strong>.</li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= piles[i] &lt;= 500</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">sum(piles[i])</code>&nbsp;is&nbsp;<strong>odd</strong>.</li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Game"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "11fca6e1-c325-49f0-836d-ea918b0f4fb0",
+                    "questionID": "fc2ff7b7-58b0-483e-83b2-e074bdb722ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc=new Scanner(System.in);\n        int n=sc.nextInt();\n        int piles[]=new int[n];\n        for (int i=0;i<n;i++)piles[i]=sc.nextInt();\n        System.out.println(stoneGame(piles));\n    }\n    public static boolean stoneGame(int[] piles) {\n        return true;\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "35b49ab3-bb82-4852-a287-53a13eb07237",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given two jugs with capacities&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">x</code>&nbsp;liters and&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">y</code>&nbsp;liters. You have an infinite water supply. Return whether the total amount of water in both jugs may reach&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">target</code>&nbsp;using the following operations:</p><ul><li>Fill either jug completely with water.</li><li>Completely empty either jug.</li><li>Pour water from one jug into another until the receiving jug is full, or the transferring jug is empty.</li></ul><p>&nbsp;</p><p><strong>Example 1:</strong></p><p><strong>Input:&nbsp;</strong>x = 3, y = 5, target = 4</p><p><strong>Output:&nbsp;</strong>true</p><p><strong>Explanation:</strong></p><p>Follow these steps to reach a total of 4 liters:</p><ol><li>Fill the 5-liter jug (0, 5).</li><li>Pour from the 5-liter jug into the 3-liter jug, leaving 2 liters (3, 2).</li><li>Empty the 3-liter jug (0, 2).</li><li>Transfer the 2 liters from the 5-liter jug to the 3-liter jug (2, 0).</li><li>Fill the 5-liter jug again (2, 5).</li><li>Pour from the 5-liter jug into the 3-liter jug until the 3-liter jug is full. This leaves 4 liters in the 5-liter jug (3, 4).</li><li>Empty the 3-liter jug. Now, you have exactly 4 liters in the 5-liter jug (0, 4).</li></ol><p><br></p><p><strong>Example 2:</strong></p><p><strong>Input:&nbsp;</strong>x = 2, y = 6, target = 5</p><p><strong>Output:&nbsp;</strong>false</p><p><strong>Example 3:</strong></p><p><strong>Input:&nbsp;</strong>x = 1, y = 2, target = 3</p><p><strong>Output:&nbsp;</strong>true</p><p><strong>Explanation:</strong>&nbsp;Fill both jugs. The total amount of water in both jugs is equal to 3 now.</p><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= x, y, target&nbsp;&lt;= 10^3</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Game",
+                "GCD"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "1aeb7fa8-af94-4824-bbd2-f24ab7daf9f3",
+                    "questionID": "35b49ab3-bb82-4852-a287-53a13eb07237",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc=new Scanner(System.in);\n        int x=sc.nextInt();\n        int y=sc.nextInt();\n        int z=sc.nextInt();\n        System.out.println(canMeasureWater(x,y,z));\n    }\n    public static boolean canMeasureWater(int x, int y, int z) {\n        //limit brought by the statement that water is finallly in one or both buckets\n        if(x + y < z) return false;\n        //get GCD, then we can use the property of Bézout's identity\n        return z%GCD(x, y) == 0;\n    }\n\n    public static int GCD(int a, int b){\n        if(b==0)return a;\n        return GCD(b,a%b);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "85e9e1c7-79c1-43c2-865b-b629efc83fd0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are playing the following Nim Game with your friend:</p><ul><li>Initially, there is a heap of stones on the table.</li><li>You and your friend will alternate taking turns, and&nbsp;<strong>you go first</strong>.</li><li>On each turn, the person whose turn it is will remove 1 to 3 stones from the heap.</li><li>The one who removes the last stone is the winner.</li></ul><p>Given&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n</code>, the number of stones in the heap, return&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">true</code><em>&nbsp;if you can win the game assuming both you and your friend play optimally, otherwise return&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">false</code>.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: n = 4\nOutput: false\nExplanation: These are the possible outcomes:\n1. You remove 1 stone. Your friend removes 3 stones, including the last stone. Your friend wins.\n2. You remove 2 stones. Your friend removes 2 stones, including the last stone. Your friend wins.\n3. You remove 3 stones. Your friend removes the last stone. Your friend wins.\nIn all outcomes, your friend wins.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: n = 1\nOutput: true\n</pre><p><strong>Example 3:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: n = 2\nOutput: true\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= n &lt;= 2^31 - 1</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Game"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "586ba22d-e800-4a0c-9c4c-96cf0c1176de",
+                    "questionID": "85e9e1c7-79c1-43c2-865b-b629efc83fd0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc=new Scanner(System.in);\n        int n=sc.nextInt();\n        System.out.println(canWinNim(n));\n    }\n    public static boolean canWinNim(int n) {\n        return (n%4!=0);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "d7af4ee0-0de9-4871-9137-5780eb977b0d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are climbing a staircase. It takes&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">n</code>&nbsp;steps to reach the top.</p><p>Each time you can either climb&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1</code>&nbsp;or&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">2</code>&nbsp;steps. In how many distinct ways can you climb to the top?</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: n = 2\nOutput: 2\nExplanation: There are two ways to climb to the top.\n1. 1 step + 1 step\n2. 2 steps\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: n = 3\nOutput: 3\nExplanation: There are three ways to climb to the top.\n1. 1 step + 1 step + 1 step\n2. 1 step + 2 steps\n3. 2 steps + 1 step\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= n &lt;= 45</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Recursion",
+                "Dynamic Programming"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "2deb1ab7-6fde-4c93-93ba-20b4870a1f6b",
+                    "questionID": "d7af4ee0-0de9-4871-9137-5780eb977b0d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc=new Scanner(System.in);\n        int n=sc.nextInt();\n        System.out.println(climbStairs(n));\n    }\n    public static int climbStairs(int n) {\n        int [] dp = new int[n+1];\n        dp[0]=1;\n        dp[1]=1;\n        for(int i=2;i<=n;i++)\n        {\n            dp[i]=dp[i-1]+dp[i-2];\n        }\n        return dp[n];\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "36f2e664-ad25-4f42-ba1b-75fe1445f055",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given an array of&nbsp;<strong>distinct</strong>&nbsp;integers&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">candidates</code>&nbsp;and a target integer&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">target</code>, return&nbsp;<em>a list of all&nbsp;</em><strong><em>unique combinations</em></strong><em>&nbsp;of&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">candidates</code><em>&nbsp;where the chosen numbers sum to&nbsp;</em><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">target</code><em>.</em>&nbsp;</p><p>The&nbsp;<strong>same</strong>&nbsp;number may be chosen from&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">candidates</code>&nbsp;an&nbsp;<strong>unlimited number of times</strong>. Two combinations are unique if the&nbsp;<span style=\"color: rgb(10, 132, 255);\">frequency</span>&nbsp;of at least one of the chosen numbers is different.</p><p>The test cases are generated such that the number of unique combinations that sum up to&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">target</code>&nbsp;is less than&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">150</code>&nbsp;combinations for the given input.</p><p>&nbsp;</p><p><strong>Example 1:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: \nFirst line contains n - number of elements, target \nSecond line contains n space separated numbers\n4 7\n2 3 6 7\nOutput: \n2 2 3  \n7\nExplanation:\n2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times.\n7 is a candidate, and 7 = 7.\nThese are the only two combinations.\n</pre><p><strong>Example 2:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: \n3 8\n2 3 5\nOutput: \n2 2 2 2  \n2 3 3  \n3 5\n</pre><p><strong>Example 3:</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\">Input: \n1 1\n2\nOutput: \n\n</pre><p>&nbsp;</p><p><strong>Constraints:</strong></p><ul><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= candidates.length &lt;= 30</code></li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">2 &lt;= candidates[i] &lt;= 40</code></li><li>All elements of&nbsp;<code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">candidates</code>&nbsp;are&nbsp;<strong>distinct</strong>.</li><li><code style=\"color: rgba(38, 38, 38, 0.75); background-color: rgba(0, 10, 32, 0.03);\">1 &lt;= target &lt;= 40</code></li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Arrays",
+                "Recursion"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "0010b601-427b-4d3f-93bc-deba2db85002",
+                    "questionID": "36f2e664-ad25-4f42-ba1b-75fe1445f055",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.ArrayList;\nimport java.util.List;\nimport java.util.Scanner;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc=new Scanner(System.in);\n        int n=sc.nextInt();\n        int target=sc.nextInt();\n        int candidates[]=new int[n];\n        for (int i=0;i<n;i++)candidates[i]=sc.nextInt();\n        List<List<Integer>> ans = combinationSum(candidates, target);\n        for (List<Integer> k : ans){\n            for (int i:k) System.out.print(i+\" \");\n            System.out.println();\n        }\n    }\n    static List<List<Integer>> res = new ArrayList<>();\n    static List<Integer> list = new ArrayList<>();\n    public static List<List<Integer>> combinationSum(int[] candidates, int target) {\n        int i = 0;\n        rec(candidates, target, i);\n        return res;\n    }\n\n    public static void rec(int[] arr, int sum, int i)\n    {\n        if(i == arr.length){\n            if(sum == 0)\n                res.add(new ArrayList<>(list));\n            return;\n        }\n        if(arr[i] <= sum){\n            list.add(arr[i]);\n            sum -= arr[i];\n            rec(arr, sum, i);\n            list.remove(list.size()-1);\n            sum += arr[i];\n        }\n        rec(arr, sum, i+1);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        }
+    ]
+}

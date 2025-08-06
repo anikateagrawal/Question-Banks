@@ -1,0 +1,970 @@
+{
+    "bank_id": "56884573-44d8-4128-b906-0f501521173e",
+    "bank_name": "qvl week 2 day 4",
+    "questions": [
+        {
+            "id": "e816772d-e64f-4379-9c68-b20db8591601",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If HEN is coded as 8514, what is the code for COW?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>31523</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>31522</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>41523</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>31623</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "75c82b33-e8d5-4419-8772-ed286964c761",
+                    "questionID": "e816772d-e64f-4379-9c68-b20db8591601",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> A <strong>Solution:</strong> Each letter is replaced by its</p><p>alphabetical position. H=8, E=5, N=14 → 8514 Similarly, C=3, O=15, W=23 → 31523</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d406d6f8-c5e3-41c4-8843-3844df3f8bb7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Statements: </p><p>(i) All books are copies.&nbsp;&nbsp;&nbsp; </p><p>(ii) All copies are pencils&nbsp;&nbsp;&nbsp; </p><p>(iii) No pencils are erasers.&nbsp;&nbsp; </p><p>Conclusions: </p><p>I. No erasers are books.&nbsp;&nbsp;&nbsp; </p><p>II. No copies are erasers.&nbsp;&nbsp;&nbsp; </p><p>III. Some pencils are copies.&nbsp;&nbsp;&nbsp; </p><p>IV. All books are pencils. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I, II and III follow </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II, III and IV follow </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I, III and IV follow </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>All follow</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f475328b-445c-4048-894a-c8a41fb14bb8",
+                    "questionID": "d406d6f8-c5e3-41c4-8843-3844df3f8bb7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Books ⊆ Copies ⊆ Pencils, Pencils ∩ Erasers = ∅  </p><p>I. Books ⊆ Pencils ⇒ Books ∩ Erasers = ∅ ⇒ ✅  </p><p>II. Copies ⊆ Pencils ⇒ Copies ∩ Erasers = ∅ ⇒ ✅  </p><p>III. All copies are pencils ⇒ Some pencils are copies (copies exist) ⇒ ✅  </p><p>IV. Books ⊆ Pencils ⇒ ✅  </p><p>Final Answer: (d) All follow</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1fa03fc0-47ac-4580-816c-a1be5715d204",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Statements: </p><p>(i) All ships are buses.&nbsp;&nbsp;&nbsp; </p><p>(ii) No room is a bus.&nbsp;&nbsp;&nbsp; </p><p>(iii) All boats are rooms.&nbsp;&nbsp; </p><p>Conclusions: </p><p>I. No boat is a ship.&nbsp;&nbsp;&nbsp; </p><p>II. No bus is a boat.&nbsp;&nbsp;&nbsp; </p><p>III. No ship is a room </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I and II follow </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II and III follow </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III follow </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>All follow</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "523c6ac4-73fa-42e4-8868-dd7e921ecf3e",
+                    "questionID": "1fa03fc0-47ac-4580-816c-a1be5715d204",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Given:</p><p>All ships are buses → Ship ⊆ Bus  </p><p>No room is a bus → Room ∩ Bus = ∅  </p><p>All boats are rooms → Boat ⊆ Room</p><p><br></p><p>Conclusion I: Boats ⊆ Rooms and Rooms ∩ Buses = ∅ ⇒ Boats ∩ Ships = ∅ ⇒ ✅  </p><p>Conclusion II: Boats ⊆ Rooms ⇒ Boats ∩ Buses = ∅ ⇒ ✅  </p><p>Conclusion III: Ships ⊆ Buses and Rooms ∩ Buses = ∅ ⇒ Ships ∩ Rooms = ∅ ⇒ ✅  </p><p>Final Answer: (d) All follow</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e9e34586-34ed-4db6-aee2-f4e8e6b440cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">In the question, assuming the given statements to be true, find which of the conclusions among given two conclusions is/are definitely true, and then give your answer according to it.&nbsp;</span></p><p><strong style=\"color: rgb(100, 111, 121);\">Statement:&nbsp;</strong></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">F &gt; Y&nbsp;&nbsp;≥ X &lt; Z, C ≤ X &lt; W&nbsp;</span></p><p><br></p><p><strong style=\"color: rgb(100, 111, 121);\">Conclusion</strong><span style=\"color: rgb(100, 111, 121);\">:</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">I. Z &gt; C</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">II. F &gt; W</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Only conclusion I follow&nbsp;</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Either conclusion I or II follow&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">Only conclusion II follow</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(100, 111, 121);\">None Follows&nbsp;</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "38274995-fe2d-4e24-8c20-f4217f53da7d",
+                    "questionID": "e9e34586-34ed-4db6-aee2-f4e8e6b440cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(100, 111, 121);\">Given Statement: F &gt; Y&nbsp;≥ X &lt; Z, C ≤ X</span></p><p><span style=\"color: rgb(100, 111, 121);\">&lt; W</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">On combining we will get F &gt; Y ≥ X ≥&nbsp;C and F</span></p><p><span style=\"color: rgb(100, 111, 121);\">&gt; Y&nbsp;≥ X &lt; W</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">Conclusions:</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">I. Z &gt; C = True (F &gt; Y ≥ X ≥ C)</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">II. F &gt; W = False (F &gt; Y ≥ X &lt; W,</span></p><p><span style=\"color: rgb(100, 111, 121);\">relationship between F and W cannot be determined.)</span></p><p><br></p><p><span style=\"color: rgb(100, 111, 121);\">Hence, the only conclusion I follow.&nbsp;</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "491ee26c-49f9-4364-976a-319f7af942b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>6, 8, 9, 12, 14, 18, ___________</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>19</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>21</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>23</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>25</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "11703b2c-8f9a-40e2-8a31-d82f66f169de",
+                    "questionID": "491ee26c-49f9-4364-976a-319f7af942b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B</strong></p><p><br></p><p>&nbsp;</p><p><br></p><p>Differences:&nbsp;</p><p><br></p><p>8−6 = 2, 9−8 = 1, 12−9 = 3, 14−12 = 2, 18−14 =</p><p>4&nbsp; </p><p><br></p><p>Pattern: +2, +1, +3, +2, +4 → next difference = +3</p><p><br></p><p>&nbsp;</p><p><br></p><p>Next term = 18 + 3 = 21&nbsp; </p><p><br></p><p>✅ Answer:</p><p>(b) 21</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "187748ec-14f3-45d8-8860-96f1b91c235b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>There are nine members in a family with four females and two married couples. </p><p>B is the son-in-law of D. </p><p>C is the daughter-in-law of H who is the father of I. </p><p>N is the granddaughter of D. </p><p>I is unmarried. E is the son of D. </p><p>D is married to G who is the grandfather of F. </p><p>F is the niece of I who is the brother of B. </p><p>There could be single parent in the family.&nbsp;</p><p><br></p><p>Who is the mother of N?&nbsp;</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>The daughter of H&nbsp;</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>The wife of E&nbsp;</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>F</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8709db17-a27d-49fb-9e04-1396e64cdc60",
+                    "questionID": "187748ec-14f3-45d8-8860-96f1b91c235b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER: D</strong></p><p><br></p><p><span style=\"color: rgb(13, 13, 13);\">N is granddaughter of D. E is son of D, married to C → So C</span></p><p><span style=\"color: rgb(13, 13, 13);\">is mother of N.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4356f8a0-f0fd-4ffe-b5a9-68e9e491dee1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Study the following information carefully and answer the questions given below. </p><p>Six books – English, Hindi, Science, Computer, Maths, and Sanskrit each contains different number of pages. </p><p>Computer book contains fewer pages than only two books. </p><p>English book contains more pages than Science book but less than Sanskrit book. </p><p>Science book does not contain least pages. </p><p>Sanskrit book contains fewer pages than Hindi book. </p><p>The book which contain third lowest pages contain 28 pages.&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "73beda53-af53-4356-8141-b5dc83249d39",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What angle is formed at 5:30?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>15°</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>45°</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>60°</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>75°</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6e5fb513-d8c9-46d7-a340-c63a029f41fa",
+                    "questionID": "73beda53-af53-4356-8141-b5dc83249d39",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> A</p><p><br></p><p><strong>Solution:</strong></p><p><br></p><p>Hour hand: 5×30 + 30×0.5 = 150 + 15 = 165</p><p><br></p><p>Minute hand: 30×6 = 180</p><p><br></p><p>Difference = 180 – 165 = <strong>15°</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d75d0694-995a-48ff-9a68-55d8ecad4b5b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If SNAKE is coded as VQDNH, how will TIGER be written?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>WKJHU</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>WLKHU</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>WLJHU</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>WLKHT</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "63cd8aea-2227-43d7-bac9-3848c587174e",
+                    "questionID": "d75d0694-995a-48ff-9a68-55d8ecad4b5b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C <strong>Solution:</strong> Each letter is shifted forward by 3. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e4803001-b075-4065-9890-e492bcb4881e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each student of class 10 contributed some money for a picnic. The money contributed by each student was equal to the cube of the total number of students. If the total collected amount was 29791, then find the total number of students.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>15</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>27</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>31</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>34</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8720c142-2cd8-4915-b3ed-f64687034147",
+                    "questionID": "e4803001-b075-4065-9890-e492bcb4881e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong></p><p><strong>(c) 31</strong></p><p><br></p><p><strong>Solution:</strong></p><p><br></p><p>Let the number of students be <strong>x</strong>.</p><p><br></p><p>Then, each student contributed <strong>x³</strong>, so total amount = <strong>x × x³ = x⁴</strong></p><p><br></p><p>Given : <strong>x⁴</strong></p><p><strong>= 29791</strong></p><p><br></p><p>Taking 4th root: <strong>x = √√29791 = 31</strong></p><p><br></p><p>So, total number of students = <strong>31</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "116455ef-27dc-4b6f-a2e4-c565dee64385",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>What is the least number to be added to 8200 to make it a perfect square?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>81</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>100</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>264</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>154</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7d8f8db4-340c-4d93-ba72-780eec758577",
+                    "questionID": "116455ef-27dc-4b6f-a2e4-c565dee64385",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Solution:</p><p><br></p><p>Find the square root of 8200 ≈ √8200 ≈ 90.55</p><p><br></p><p>The next whole number is 91 ⇒ 91² = 8281</p><p><br></p><p>Required number to add = 8281 – 8200 = 81 </p><p><br></p><p>Answer: (a) 81</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc9b5420-9cf1-4d51-8b6b-9c7df05115b9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A seller uses 920 g in place of one kg to sell his goods. When he sells his article at 15% gain on cost price, the actual percentage of profit is</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>20%</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>15%</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>25%&nbsp;&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>30%</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b059dee3-f8e5-4b46-b883-6098ae8acffd",
+                    "questionID": "fc9b5420-9cf1-4d51-8b6b-9c7df05115b9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let cost price of 1 kg = ₹100.</p><p><br></p><p>Seller gives only 920 g but charges for 1 kg, so cost of 920 g = (920/1000) ×</p><p>100 = ₹92</p><p><br></p><p>He sells at 15% gain on cost: Selling price = 100 + 15 = ₹115</p><p><br></p><p>Actual profit = 115 – 92 = ₹23</p><p><br></p><p>Profit % = (23/92) × 100 = 25% ✅</p><p><br></p><p><strong>Answer:</strong></p><p><strong>(c) 25%</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7828ea5d-d8dd-422a-85ed-afaad3234590",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a certain school, the ratio of boys to girls is 7 : 5. If there are 2400 students in the school, then how many girls are there in the school? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>500</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>700</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>800 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1000</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "5d52adb6-ed98-455b-bf9f-aafb653f5309",
+                    "questionID": "7828ea5d-d8dd-422a-85ed-afaad3234590",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong></p><p><strong>(d) 1000</strong></p><p><br></p><p><strong>Solution:</strong></p><p><br></p><p>Ratio of boys to girls = 7 : 5 ⇒ Total parts = 12</p><p><br></p><p>Each part = 2400 ÷ 12 = 200</p><p><br></p><p>Girls = 5 × 200 = 1000</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f623d4b-a9a7-4967-86d0-e05b216e646f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A and B together can do a piece of work in 12 days, while B alone can finish it in 30 days. A alone can finish the work in</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>15 days </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>18 days&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20 days</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>25 days</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8f8256f2-7a96-4aef-8c96-7d9fe7c9ee71",
+                    "questionID": "2f623d4b-a9a7-4967-86d0-e05b216e646f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Solution:</p><p><br></p><p><strong>Answer:</strong></p><p><strong>(c) 20 days</strong></p><p><strong>Solution:</strong></p><p><br></p><p>A and B together do 1/12 of the work per day.</p><p><br></p><p>B alone does 1/30 of the work per day.</p><p><br></p><p>A's 1-day work = 1/12 – 1/30 = (5 – 2)/60 = 3/60 = 1/20</p><p><br></p><p>So, A alone can finish the work in 20 days. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7d68ea00-6fcb-461e-9b2b-fabf14aea325",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Two cars are moving in the same direction with their respective speeds of 9km/h and 5km/h. Find the relative speed of 1st car with respect of 2nd.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2 km/h</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>4 km/h&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>8 km/h&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>6 km/h</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fe8fd4fb-cb46-4fd7-87c9-77e3c2e6dabf",
+                    "questionID": "7d68ea00-6fcb-461e-9b2b-fabf14aea325",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong></p><p><strong>(b) 4 km/h</strong></p><p><br></p><p><strong>Solution:</strong></p><p><br></p><p>When two objects move in the <strong>same direction</strong>, relative speed = <strong>difference of</strong></p><p><strong>their speeds</strong>.</p><p><br></p><p>So, Relative speed = <code>9 km/h – 5 km/h = 4 km/h</code>.</p><p><br></p><p>Hence, the relative speed of the 1st car with respect to the 2nd is <strong>4 km/h</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "83eaf90a-811a-4f79-a150-a1e013734a49",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Two stations P and Q are at a distance of 160 km. Two trains start moving from P and Q to Q and P respectively and meet each other after 4 h. If speed of the train starting from P is more than that of other train by 6 km/h, then find the speeds of both the trains, respectively.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>19 km/h, 13 km/h</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>13 km/h, 9 km/h </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>17 km/h, 23 km/h</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>16 km/h, 10 km/h</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4f5543d2-7a3b-4d88-bf2c-7364ed1af3b6",
+                    "questionID": "83eaf90a-811a-4f79-a150-a1e013734a49",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ans: C</p><p><br></p><p>In 4 hours,</p><p>the total distance covered by both trains is 160 km:</p><p><br></p><p>Distance=Time×(Speed1+Speed2)</p><p><br></p><p>⇒4(x+x+6)=160</p><p><br></p><p>⇒4(2x+6)=160</p><p><br></p><p>⇒2x+6=40</p><p><br></p><p>⇒2x=34</p><p><br></p><p>⇒x=17</p><p><br></p><p>Distance=Time×(Speed1​+Speed2​)</p><p><br></p><p>&nbsp;</p><p><br></p><p>4(x+x+6)=160</p><p><br></p><p>⇒x=17 </p><p><br></p><p>So:</p><p><br></p><ul><li><br></li><li> </li><li>Speed of train from Q</li><li>     = 17 km/h</li><li><br></li><li><br></li><li> </li><li>Speed of train from P</li><li>     = 17 + 6 = 23 km/h</li><li><br></li></ul><p>&nbsp;</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c4fb31ad-ebc7-4d78-a6eb-468988152072",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read each sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "957fe7d0-d7e5-456b-8d7e-9ad6cf6de347",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Complete each sentence using the correct conjunction or conjunction pair from the options:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "37ad24d3-f1dd-455b-89cc-9a61480213fc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Two stations A and B, 100 km far away to each other. Two trains starts at the same time from station A and station B. The train starts from station A is running with the speed of 50 km/h to station B. The train starts from station B is running with the speed of 75 km/h to station A. At what distance both the trains meet with each other from station A?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>40 km&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>20 km&nbsp;&nbsp; </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>30 km&nbsp;&nbsp; </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8dd30bd8-1a9f-4bbd-85ea-ee7043408d78",
+                    "questionID": "37ad24d3-f1dd-455b-89cc-9a61480213fc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong></p><p><strong>(a) 40 km</strong></p><p><br></p><p><strong>Solution:</strong></p><p><br></p><p>Let the trains meet after <strong>t</strong> hours.</p><p><br></p><p>Distance covered by Train A = <code>50 × t</code>, Distance by</p><p>Train B = <code>75 × t</code></p><p><br></p><p>Since total distance = 100 km ⇒ <code>50t + 75t = 100</code> ⇒ <code>125t = 100</code> ⇒ <code>t = 0.8</code> hours</p><p><br></p><p>Distance from station A = <code>50 × 0.8 = 40 km</code> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f93d02c1-9455-4b71-8f19-acee552a5e52",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A boat running upstream takes 528 min to cover a certain distance, while it takes 240 min to cover the same distance running downstream. What is the ratio between the speed of the boat and speed of the water current, respectively?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2 : 1&nbsp;&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>3 : 2&nbsp;&nbsp;&nbsp; </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>8 : 3&nbsp;&nbsp; </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Couldn't be determined </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "260f3065-ead1-4f4f-af0e-a56be1367d72",
+                    "questionID": "f93d02c1-9455-4b71-8f19-acee552a5e52",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ans: C</p><p><br></p><p><strong>Solution:</strong></p><p><br></p><p>Let the distance be <strong>D</strong>, speed of boat in still water = <strong>B</strong>,</p><p>speed of current = <strong>C</strong>.</p><p><br></p><p>Upstream time = 528 min = 8.8 hr, Downstream time = 240 min = 4 hr</p><p><br></p><p>So, <code>D = 8.8(B – C) = 4(B + C)</code></p><p><br></p><p>Dividing: <code>8.8(B – C) / 4(B + C) = 1</code> ⇒ <code>2.2(B</code></p><p><code>– C) = (B + C)</code></p><p><br></p><p>Solving: <code>2.2B – 2.2C = B + C</code> ⇒ <code>1.2B = 3.2C</code> ⇒ <code>B : C = 3.2 : 1.2 = 8 : 3</code> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "65ce5264-664f-437f-b7bd-2d3e5225691b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a race of 150 m, A gives B a start of 20 m. What distance will be covered by B?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>100 m</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>130 m</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>170 m</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>160 m</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "323d2218-64f3-442e-a8ea-723b56147fee",
+                    "questionID": "65ce5264-664f-437f-b7bd-2d3e5225691b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ans: B</p><p><br></p><p>Sol: Req.</p><p>Dis.= 150-20 = 130m</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2ffefb56-7ec7-454a-ad09-c28e4dd9efb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The four sentences (labelled 1, 2, 3 and 4) below, when properly sequenced, would yield a coherent paragraph. Decide on the proper sequencing of the order of the sentences and choose the correct option.</p><p class=\"ql-align-justify\">1.&nbsp; Teacher Unions have welcomed this campaign and the opportunity has already come and gone for the Indian Government additionally to think on comparable lines and find a way to lift up the sinking assurance of the teaching profession.</p><p>2.&nbsp; An amount of $100 million has been put aside to battle the shortage of candidates for the teacher training.</p><p>3.&nbsp; They have additionally requested that the campaign ought to be coordinated by improved compensation scales, the workload and confidence in order to steer clear of enrolment issues with an intent to raise the picture of the teaching profession.</p><p class=\"ql-align-justify\">4.&nbsp;A progression of notices is presently being screened demonstrating well-known individuals talking about teachers they remember and appreciate.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>4123</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2341</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>2431</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3412</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9a99fd92-4b94-4a0d-94a3-487851d82244",
+                    "questionID": "2ffefb56-7ec7-454a-ad09-c28e4dd9efb8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Solution: (C) 2nd sentence</p><p>introduces the problem and 4th sentence further extends the solution for that</p><p>problem. In the 3rd sentence, ‘they’ refers to the notices and the word</p><p>‘campaign’ connects with&nbsp; the 1st sentence.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e7810aff-9350-47e7-97ec-3455b5b340de",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following information carefully and answer the questions given besides.</p><p><br></p><p>Agriculture in India needs to become more sustainable even as small and marginal farmers ___A___ to build resilience against many threats. First, they remain price-takers and economically vulnerable, __B__ to traders who set prices, and with limited opportunities to sell at a time of their choice. Further , decades of ___C___ agriculture have added to water stress and decline soil health. Farmers rely on ground water for more than 60% of ___D___ needs. Chemical fertilizers once used to __ E___ soil nutrients have been applied to so intensively that the long-term health of soils is now of deep concern.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "ae47119d-8227-4aeb-bb4d-cc167a18e164",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in two parts of the sentence. Mark the parts with the error as your answer. If there is no error, mark (E). (Ignore errors of punctuation, if any)</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        }
+    ]
+}

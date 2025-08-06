@@ -1,0 +1,926 @@
+{
+    "bank_id": "8a47a954-af68-48dd-b15d-eb8edb2fba14",
+    "bank_name": "Logical-Week-4",
+    "questions": [
+        {
+            "id": "eb5c951c-0493-4a7e-b97e-50917572cb9f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent;\">Shimla is colder than only Ooty. Mussoorie is colder than Mount Abu but not as cold as Nainital. Darjeeling is colder than Shimla but not the coldest. Which among the following is the second coldest?</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Nainital</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Darjeeling </span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Mussoorie</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Either Shimla or Darjeeling </span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order & Ranking"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e607d09e-8211-4842-b5a5-e465b138580b",
+                    "questionID": "eb5c951c-0493-4a7e-b97e-50917572cb9f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Option D&nbsp; is the correct answer.</span></p><h3><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Possible Orders:</strong></h3><ul><li><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Option 1 (from coldest to warmest)</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">:</span></li><li> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Nainital &gt; Darjeeling &gt; Simla &gt; Mussoorie &gt; Mount Abu &gt; Ooty</strong></li><li><br></li></ul><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Option 2 (from coldest to warmest)</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">:</span></p><p> <strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Nainital &gt; Simla &gt; Darjeeling &gt; Mussoorie &gt; Mount Abu &gt; Ooty</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6dae6566-0c38-4394-bc8c-d6d1c732fc86",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Statements: </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">No animal is a dog. </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Some monkeys are animals. </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">All cats are dogs.&nbsp;</span></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Conclusions: </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">I. No animal is a monkey. </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">II. All dogs are definitely not animals.&nbsp;</span></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If only conclusion I follows</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If only conclusion II follows</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If either conclusion I or II follows</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">If neither conclusion I nor II follows</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "52024325-8e92-41ac-a7bb-13ab6a58df9f",
+                    "questionID": "6dae6566-0c38-4394-bc8c-d6d1c732fc86",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANSWER: Some monkeys are animals (I) - conversion - Some animals are monkeys (I). Hence, conclusion I does not follow. Again, No animal is a dog (E) - conversion - No dog is an animal (E). It means all dogs are definitely not animals. hence conclusion II follows. Hence, option B is correct.</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e05c625b-97c7-4568-9f67-b300b7c0a5e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Statements: </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Some papers are books. </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">All papers are words.&nbsp;</span></p><p><br></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Conclusions: </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">I. All words being books is a possibility. </span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">II. Some words are not papers.</span></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;If only conclusion I follows</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;if only conclusion II follows&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">If either conclusion I or II follows </span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If neither conclusion I nor II follows</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "84abcfb8-1c07-413b-8b57-5b6a3ba033e2",
+                    "questionID": "e05c625b-97c7-4568-9f67-b300b7c0a5e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANSWER: </strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">There is no negative statement. Thus the possibility in 1 exists. Hence conclusion I follows. Again, All papers are words (A) - conversion - Some words are papers (I). Hence conclusion II does not follow. Hence, option A is correct</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9948d289-989b-452a-ab43-58c2fbb051b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If the digits in the number '578462139' are arranged in ascending order, then how many digits remain in the same place?</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">One</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Two</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Three</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Four</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order & Ranking"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9f1d4258-523d-41aa-bc55-3f4455ceac49",
+                    "questionID": "9948d289-989b-452a-ab43-58c2fbb051b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">After arranging all the digits in ascending order,&nbsp;</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">we get: 1 2 3 4 5 6 7 8 9</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;Hence, there are two such digits whose positions are remained unchanged.</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;Hence, the correct answer is option B.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "77bdb27d-c5dd-4ff1-a561-eaecbd0e5382",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Riya correctly remembers that she has paid an amount less than Rs.15 but more than Rs. 8 for a ticket from Agra cantt to Sanjay place. Sudha also remembers that she has paid an amount less than Rs.13 but more than Rs.10 for the same distance. The amount paid is not an even number. Find the price of the ticket?&nbsp;</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Rs. 12</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Rs. 11</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Either A or B</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">Can't be determined</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order and Ranking"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "04436fa1-133b-4dfc-96c6-c9c06694b64b",
+                    "questionID": "77bdb27d-c5dd-4ff1-a561-eaecbd0e5382",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">As per Riya the amount paid must be between Rs. 9 and Rs. 14, since it can't be an even number so the possible amounts are- 9, 11 and 13. As per Sudha the amount paid could be Rs. 11 or Rs. 12, but since it can't be an even number so the amount paid for the ticket is Rs. 11. So, the ticket is priced at Rs. 11. Hence option B is correct.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d63c746-b1b5-4d1e-8bdb-976acc8b671a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent;\">C J P ? Y B </span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>W</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>U</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>R</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>T</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1e9b8c45-77d1-4f37-a1e8-423a1802eff4",
+                    "questionID": "0d63c746-b1b5-4d1e-8bdb-976acc8b671a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">&nbsp;</span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANSWER: U is correct</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Hint: Pattern is +7 +6 +5 +4 +3</strong></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b6a252da-bd7a-4fd3-9a0f-b1055ce17628",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">MN QR UV ?&nbsp;</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>XY</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>WX</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>YX</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>YZ</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d91c8f7e-528f-4c7a-a1ba-60852b4c30e0",
+                    "questionID": "b6a252da-bd7a-4fd3-9a0f-b1055ce17628",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANSWER:&nbsp; option D is correct.&nbsp;</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Hint: Pattern is +1+3+1+3+1+3….. So on</strong></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3505cfff-ca57-43f7-a419-14e04f2a6077",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If A = 2, M = 26, Z = 52, then RAT = ?&nbsp;</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>70</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>76</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>78</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>39</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "96711e34-92b8-44d7-a605-e733dffe3655",
+                    "questionID": "3505cfff-ca57-43f7-a419-14e04f2a6077",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANSWER:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Clearly, each letter is assigned a numerical value which is twice the numeral denoting its positing in English alphabet. So RAT = R + A + T = 18 × 2 + 2 + 20 × 2 = 36 + 2 + 40 = 78</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5ec3ff12-2a13-4700-ba5e-f95f32848f90",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent;\">If A = 26, SUN = 27, Then MOON = ? </span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>52</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>51</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>53</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: transparent;\">None of these</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding Decoding"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0debe5aa-a827-4164-92ce-4500aba3fea6",
+                    "questionID": "5ec3ff12-2a13-4700-ba5e-f95f32848f90",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANSWER:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Here, each letter is represented by numeral denoting its position from the end of the English alphabet. i.e. Z = 1, Y = 2, ……..M = 14,….., C = 24, B = 25, A = 26. Then SUN = 8 + 6 + 13 = 27 MOON = 14 + 12 + 12 + 13 = 51.</span></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8849cff1-471d-454b-ba71-0bae9f519817",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If in a certain code BAT = 23 and CAT = 24, then how will you code HEN = ?</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>25</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>35</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>26</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>27</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ff92fc1a-a79c-415f-90fb-7c8e6e268b39",
+                    "questionID": "8849cff1-471d-454b-ba71-0bae9f519817",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">ANSWER:</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">C is one step ahead of B and code for CAT is 1 more than that for BAT. Thus the later are coded by numeral denoting their positions in the English alphabet. i.e. A = 1, B = 2, C = 3 ………, Y = 25, Z = 26. So, HEN ⇒ H + E + N = 8 + 5 + 14 = 27. </span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d469e8f-e776-4f58-8c90-30b068169c0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Saloni is the daughter of the only son of Kartik. </p><p>Nirupama is the mother of Deepak. </p><p>Yamini's only son, Ankit, is married to Nirupama. </p><p>Kartik is the paternal grandfather of Deepak. </p><p>How is Kartik related to Ankit?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Brother</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Son</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Father</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Paternal uncle</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood relations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "07da3f93-9b97-4e05-a87f-d6d438d6882e",
+                    "questionID": "4d469e8f-e776-4f58-8c90-30b068169c0b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ankit is married to Nirupama, who is the mother of Deepak.  </p><p>Kartik is Deepak’s paternal grandfather → So Kartik is the father of Ankit.  </p><p>Also, Saloni is daughter of Kartik's only son → supports that Ankit is his only son.  </p><p>Thus, Kartik is the **father** of Ankit.  </p><p>Answer: **Kartik is the father of Ankit**.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "02ed9ce5-1209-4714-bad6-5f20c178f607",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>'A # B' means 'B is the father of A',</p><p> 'A $ B' means 'B is the son of A',</p><p> 'A * B' means 'B is the daughter of A' and </p><p>'A @ B' means 'B is the wife of A'.</p><p>Which of the following option shows S as the brother in law of P?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> P # Q @ R * S</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>P @ Q # R $ S</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> P * Q $ R # S</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>P $ Q @ R $ S</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood relations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a52a5b90-a7ac-4e9b-83d2-b20bb545ab86",
+                    "questionID": "02ed9ce5-1209-4714-bad6-5f20c178f607",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Option 2: P @ Q # R $ S is correct.</p><p>Q is P’s wife, R is Q’s father, and S is R’s son → S is Q’s brother → S is P’s brother-in-law.</p><p>Answer: **Option 2**</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "59cbfc91-0876-4b4f-ad8a-122863f2d10a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If K + L means K is the son of L; K- L means K is the sister of L; K % L means K is the brother of L and Kx L means K is the mother of L, which of the following shows that D is the niece of A?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>D-B+C-A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>D+ B-C% A</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>D x B-C+A</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D + Bx C-A</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood relations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7e282caa-249b-48a5-8148-8a148fb60e8d",
+                    "questionID": "59cbfc91-0876-4b4f-ad8a-122863f2d10a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Option 1: D - B + C - A is correct.</p><p>D is sister of B, B is son of C, and C is sister of A → So D is A's niece.</p><p>Answer: **Option 1**</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6758035c-78f4-400d-8b6f-84bc1a4b06a4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a row of boys, a boy ranks 19th on either side. How many boys are there in the row?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>36</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>37</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>38</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>20</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order & Ranking"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5b541174-be07-498d-b387-fee194dd3f69",
+                    "questionID": "6758035c-78f4-400d-8b6f-84bc1a4b06a4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The boy ranks 19th from both left and right ends.  </p><p>That means there are 18 boys before him and 18 boys after him.  </p><p>Total number of boys = 18 (before) + 1 (himself) + 18 (after)  </p><p>= 37 boys in total.  </p><p>So, the number of boys in the row is **37**.  </p><p>Answer: **37**.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cbc719cc-ff49-4328-9759-6f41dad5f88e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>There are seven persons A, B, C, D, E, F, and G. Each of them has different heights. C is shorter than only G. The number of persons taller than B is equal to the number of persons shorter than D. Neither A nor E is shortest. Who among the following is shortest?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>G</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>F</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order & Ranking"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "49b9c3b2-cfd8-41df-af2a-29800f0a9c21",
+                    "questionID": "cbc719cc-ff49-4328-9759-6f41dad5f88e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>C is shorter than only G → G is tallest, C is 2nd tallest.  </p><p>Number of persons taller than B = number shorter than D → B and D are at middle positions.  </p><p>That means B is 4th tallest, D is also 4th tallest → So B = D in height.  </p><p>But heights are all different, so B is 4th, D is also 4th is not possible unless D = 4th, B = 4th → contradiction.  </p><p>Only possibility: B is 3rd tallest (3 taller, 4 shorter), D is 5th tallest (2 taller, 5 shorter).  </p><p>Then F is left to be shortest (since A and E are not shortest).  </p><p>Answer: **F is the shortest**.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52f5de9d-3e58-4bb9-a098-099387e1dd45",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Ajay correctly remembers that his mother Radhika's birthday is after the 5th but before the 10th of June, while his sister Sita correctly remembers that her mother's birthday is before the 11th but after the 8th of June. On which date in June is their mother's birthday?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>7th</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>9th</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10th</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>8th</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order & Ranking"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2b424328-14bf-4300-a096-52ac9f93f339",
+                    "questionID": "52f5de9d-3e58-4bb9-a098-099387e1dd45",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ajay says birthday is after 5th and before 10th → Possible dates: 6, 7, 8, 9  </p><p>Sita says birthday is after 8th and before 11th → Possible dates: 9, 10  </p><p>Common date in both ranges is **9th June**.  </p><p>So, both Ajay and Sita agree only on 9th.  </p><p>Therefore, Radhika's birthday is on **9th June**.  </p><p>Answer: **9th June**.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "faa61ad1-9844-46d7-97a1-86a4362b978a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If West is replaced by North - east then South will be replaced by which of the following directions?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Southwest</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>South</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Northwest</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>East</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Distance & Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2d215114-0fbb-43de-99f5-df2aaefff6ad",
+                    "questionID": "faa61ad1-9844-46d7-97a1-86a4362b978a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>If West is replaced by North-East, then direction rotation is 135° clockwise.  </p><p>From West → North-East = 135° clockwise (45° + 90°).  </p><p>Now apply same 135° clockwise rotation to South.  </p><p>South → South-West (45°) → West (90°) → North-West (135°).  </p><p>So, South will be replaced by **North-West**.  </p><p>Answer: **North-West**.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b55a0fa6-9f49-4262-8184-55a7329aa783",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Shweta starts walking from her office and walks 150 m towards the south, then she turns right and walks 80 m, and then she turns left and walks 60 m. She finally turns left and walks 280 m to reach a bank. What is the shortest distance between her office and the bank?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>280 m</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>290 m</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>410 m</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>370 m</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Distance & Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "202367b8-262b-4ccd-9d1a-dbba03ede2ad",
+                    "questionID": "b55a0fa6-9f49-4262-8184-55a7329aa783",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Shweta walks 150 m south from office, then 80 m right (west), then 60 m left (south).  </p><p>Now total southward distance = 150 + 60 = 210 m.  </p><p>She then turns left (east) and walks 280 m to the bank.  </p><p>So final position is 210 m south and 200 m east of the starting point (280 - 80).  </p><p>Using Pythagoras: √(210² + 200²) = √(44100 + 40000) = √84100 = 290 m.  </p><p>So, the shortest distance from office to bank is **290 meters**.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "207ad702-2a27-4fad-9ca1-c79445f8171f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Pillar P is to the South of Pillar Q. Pillar R is to the west of Pillar Q. Pillar S is to the west of Pillar R. Pillar T is to the south of Pillar S. What is the position of Pillar Q with respect to Pillar S?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>East</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>West</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>North</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>South</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Distance & Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "364113e4-4f4e-4daa-8c4f-34c5794e08d6",
+                    "questionID": "207ad702-2a27-4fad-9ca1-c79445f8171f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Pillar P is to the south of Q, so Q is above P.  </p><p>Pillar R is to the west of Q, so R is left of Q.  </p><p>Pillar S is to the west of R, so S is further left.  </p><p>Pillar T is south of S, but we only need Q's position relative to S.  </p><p>Q is two steps east from S and at the same vertical level.  </p><p>So, Pillar Q is to the **east** of Pillar S.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a7c84675-c244-401b-90b9-19b12287db5b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A girl starts from a point P and walks 10 meters in the North-West direction and reaches the point Q. She then turns to her left and walks 10 meters to a point R which is directly west ward to point P. She again turned to her left and walks 10 meters and reaches a point S which is directly southward to point Q. From the point S she turns towards point P and walks 10 meters. What is the shape of the geometrical figure PQRS?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Rhombus</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Rectangle</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Square</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Parallelogram</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Distance & Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "22af706e-0079-45ec-87d1-cd54ece5d193",
+                    "questionID": "a7c84675-c244-401b-90b9-19b12287db5b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The girl walks 10 m NW from P to Q, forming a 45° angle, moving ~7.07 m North and ~7.07 m West.  </p><p>Turning left (from NW), she walks 10 m SW from Q to R, reaching directly West of P.  </p><p>Another left turn leads her SE from R to S, which lies directly South of Q.  </p><p>Finally, she turns towards P and walks NE for 10 m, returning to the starting point.  </p><p>All sides are equal (10 m) and angles are 90°, forming a closed quadrilateral.  </p><p>Hence, PQRS forms a **rhombus**.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1662 @@
+{
+    "bank_id": "dff8d955-4a73-4540-8521-fd653ff42ba3",
+    "bank_name": "Week 5 CN",
+    "questions": [
+        {
+            "id": "ac59798d-ebe7-4c6b-8acb-6274a2e3f495",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Which switching method reads the entire frame before forwarding it?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Cut-through</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Fragment-free</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Store-and-forward</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Fast switching</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "107e8d86-0a62-41b6-9fd9-85921266f83a",
+                    "questionID": "ac59798d-ebe7-4c6b-8acb-6274a2e3f495",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C. Store-and-forward</p><p><strong>Explanation:</strong> This method waits for the full frame and checks for errors before forwarding.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "849631f7-b18a-4c4e-b5a9-ffe0b741a001",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Which routing algorithm is used by OSPF?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Distance-vector</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Flooding</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Link-state</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Bellman-Ford</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "df9213bf-a329-4575-9192-a8caeb66c02c",
+                    "questionID": "849631f7-b18a-4c4e-b5a9-ffe0b741a001",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C. Link-state</p><p><strong>Explanation:</strong> OSPF is a <strong>link-state</strong> protocol using Dijkstra’s algorithm.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aaf273bc-4a40-4e78-8108-a3bb34fa459b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Which of the following is an advantage of using HTTPS over HTTP?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>lower latency</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Guaranteed delivery</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Encryption of data in transit</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Uses less bandwidth</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b3f8be4a-1797-4f4f-9f56-7b8ab8f06fc6",
+                    "questionID": "aaf273bc-4a40-4e78-8108-a3bb34fa459b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C. Encryption of data in transit</p><p><strong>Explanation:</strong> HTTPS encrypts all data using SSL/TLS for security.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fb713e55-44c4-43d7-8c2f-d48ae12b7348",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>What is the key difference between TCP and UDP in handling lost packets?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>TCP drops the connection; UDP retransmits</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>TCP retransmits; UDP does not</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>&nbsp;Both retransmit</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Neither handles it</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d6ed1373-a8a1-44b0-bcfb-9b4e32091612",
+                    "questionID": "fb713e55-44c4-43d7-8c2f-d48ae12b7348",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B. TCP retransmits; UDP does not</p><p><strong>Explanation:</strong> TCP ensures delivery; UDP leaves handling to the application.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7f534954-90e9-437f-937d-b4ffa89af248",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>&nbsp;In TCP/IP, what layer maps most directly to OSI's Data Link and Physical layers?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Network Access</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Internet</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Transport</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Application</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d2e39f0e-0a83-45fd-a0ca-e02b77ddd984",
+                    "questionID": "7f534954-90e9-437f-937d-b4ffa89af248",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> A. Network Access</p><p><strong>Explanation:</strong> The TCP/IP Network Access layer covers both Physical and Data Link layers.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9b7fa376-e5a4-4604-9afc-860022ef8532",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>What layer does HTTP operate at in the OSI model?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Network</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Transport</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Session</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Application</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "23ed23dd-a24a-4248-90bf-62a2c9534e43",
+                    "questionID": "9b7fa376-e5a4-4604-9afc-860022ef8532",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> D. Application</p><p><strong>Explanation:</strong> HTTP operates at the <strong>Application layer (Layer 7)</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d35991c-7153-4cb6-9fae-ceaeecb4983f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>In a NAT environment, what issue occurs with multiple internal devices accessing the same external service using the same port?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>DNS Spoofing</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Port exhaustion</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>IP conflict</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Routing loop</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "77abc353-6354-44c3-bec1-7848743d5234",
+                    "questionID": "4d35991c-7153-4cb6-9fae-ceaeecb4983f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B. Port exhaustion</p><p><strong>Explanation:</strong> NAT uses port mapping. Multiple users needing same port can lead to exhaustion.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5abb2451-d2fc-49db-8fbf-4ceb9c8e79b9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>How many /26 subnets can be created from a /24 network?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>6</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "606a85fa-0697-4804-ae36-e1fddb939abe",
+                    "questionID": "5abb2451-d2fc-49db-8fbf-4ceb9c8e79b9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B. 4</p><p><strong>Explanation:</strong> /26 = 64 IPs → /24 has 256 → 256/64 = <strong>4 subnets</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "abace8b2-fbe5-4382-a313-04006672f355",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Which of the following protocols does NOT guarantee packet delivery?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>TCP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>FTP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>HTTP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>UDP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "df302ee2-ed26-4131-995c-7e0d30c169f9",
+                    "questionID": "abace8b2-fbe5-4382-a313-04006672f355",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> D. UDP</p><p><strong>Explanation:</strong> UDP is connectionless and does not provide reliability or retransmission.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52cb90a4-bb83-4873-b7e1-f1661f4db28d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Which protocol allows for dynamic IP assignment to devices?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>DNS</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>NAT</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DHCP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ARP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "db4dd994-20f3-4eea-80ca-8ee1c22b9a31",
+                    "questionID": "52cb90a4-bb83-4873-b7e1-f1661f4db28d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C. DHCP</p><p><strong>Explanation:</strong> DHCP (Dynamic Host Configuration Protocol) assigns IPs to hosts automatically.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "40148c32-ad36-4bfc-b6e3-9601ed41d233",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>What’s the subnet mask for a network that supports 510 usable hosts?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>255.255.255.0</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>255.255.254.0</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>255.255.252.0</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>255.255.255.128</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6b62b9b4-eacf-43d9-8da6-2eb47915290e",
+                    "questionID": "40148c32-ad36-4bfc-b6e3-9601ed41d233",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B. 255.255.254.0</p><p><strong>Explanation:</strong> /23 = 512 IPs − 2 = 510 usable; mask: 255.255.254.0</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6cf0aa2-e5f2-4c19-925d-9340eb5d9393",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Which address is not a valid private IPv4 address?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>192.168.1.1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>172.20.5.10</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10.0.0.1</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>169.254.5.5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "30efd812-b556-4e11-b3ed-784d27275421",
+                    "questionID": "d6cf0aa2-e5f2-4c19-925d-9340eb5d9393",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> D. 169.254.5.5</p><p><strong>Explanation:</strong> This is a <strong>link-local address</strong>, not part of private IP ranges.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0ac0ff5a-fdd5-45a6-bb8f-cacfdcfd7757",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>What happens if DNS resolution fails during an HTTPS request?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Fallback to HTTP occurs</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>The IP is guessed</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>TLS handshake proceeds anyway</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>The connection is not established</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "db7b8572-d9dd-4a9b-ba7c-bf002da20793",
+                    "questionID": "0ac0ff5a-fdd5-45a6-bb8f-cacfdcfd7757",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> D. The connection is not established</p><p><strong>Explanation:</strong> If DNS fails, the client cannot resolve the server's IP, so no connection (TCP or TLS) is possible.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9e93c230-f348-42cc-996f-8316269792b9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>You ping a server and get high latency but no packet loss. What's the most likely cause?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Faulty network cable</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>DNS resolution failure</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Network congestion</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>NAT overflow</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "afe08eff-3bdc-464a-9886-6724986a7647",
+                    "questionID": "9e93c230-f348-42cc-996f-8316269792b9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C. Network congestion</p><p><strong>Explanation:</strong> High latency with no packet loss usually suggests congestion or long routing paths.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "59dd2814-4230-4be9-a247-a46db299c9bf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Which layer of the OSI model is responsible for detecting and recovering from packet loss?</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Network</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Transport</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Data Link</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Application</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "aa6f4a48-a036-4d7c-ae25-c537991f3066",
+                    "questionID": "59dd2814-4230-4be9-a247-a46db299c9bf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B. Transport</p><p><strong>Explanation:</strong> The Transport layer (Layer 4) is responsible for ensuring reliable delivery (e.g., TCP handles retransmissions due to packet loss).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9f44d6da-b6f3-494c-9a32-317e586bb9f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following symptoms is a likely sign of DNS spoofing in a network?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Browser slows down due to large scripts</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> HTTPS warning or certificate mismatch on legitimate sites</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> Operating system crashes repeatedly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Ads appearing on all websites</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "79926014-8208-462d-9ea3-313c8b8f8246",
+                    "questionID": "9f44d6da-b6f3-494c-9a32-317e586bb9f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ B) HTTPS warning or certificate mismatch on legitimate sites</p><p><strong>Explanation:</strong></p><p><br></p><p>A mismatch in <strong>SSL/TLS certificate</strong> often means the site you are on isn't the legitimate one, which may occur due to DNS spoofing or MITM attempts.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1c05ebe2-6c32-4ad9-80a8-fd486169965b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>An executive receives an email personalized with their name, job title, and company logo, asking for urgent fund transfers. This is an example of:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>whaling</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>MITM</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DNS Hijacking</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Shoulder Surfing</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4deb5e7d-236e-4cf9-a210-0c6058f21a31",
+                    "questionID": "1c05ebe2-6c32-4ad9-80a8-fd486169965b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ A) Whaling</p><p><strong>Explanation:</strong></p><p><strong>Whaling</strong> is a form of <strong>spear phishing</strong> targeting high-level executives with custom messages to steal sensitive data or initiate fraud.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e951332f-bc48-41ec-a77c-6075a1a105e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A user logs into their email via public Wi-Fi without HTTPS. An attacker reads all communication and steals login details. What attack is this?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>DDoS</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>MITM</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Phishing</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>DNS Tunneling</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "33f0b546-dc8f-428b-8c89-12644ca05ac3",
+                    "questionID": "e951332f-bc48-41ec-a77c-6075a1a105e5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ B) MITM</p><p><strong>Explanation:</strong></p><p><br></p><p>A <strong>Man-in-the-Middle</strong> attack occurs when the attacker intercepts and possibly modifies data between two parties—common over unsecured Wi-Fi.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7e97ccf9-8ea7-456a-99cb-e2bcfa8c5ec1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A user receives an email from “admin@paypall.com” asking to verify their password via a link. The link leads to a page identical to PayPal. What kind of attack is this?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>DNS Spoofing</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Spear Phishing</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Phishing</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>MITM</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "282a1c03-c860-4ba1-a367-4471c5b03fc5",
+                    "questionID": "7e97ccf9-8ea7-456a-99cb-e2bcfa8c5ec1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ C) Phishing</p><p><strong>Explanation:</strong></p><p><br></p><p>This is a <strong>generic phishing attack</strong>: fake email + fake login page designed to steal user credentials. \"Paypall.com\" is a typosquatting trick.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95412f48-8db4-448b-b274-2b6f0c63610e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A user types “www.bank.com” into their browser, but is unknowingly redirected to a fake lookalike site. Which type of attack is most likely responsible?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Phishing</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>SQL Injection</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DNS Spoofing</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ARP Poisoning</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4d8d9279-174e-4825-b9db-7f08b261bedc",
+                    "questionID": "95412f48-8db4-448b-b274-2b6f0c63610e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ C) DNS Spoofing</p><p><strong>Explanation:</strong></p><p><br></p><p>DNS spoofing corrupts the DNS resolver's cache or responses, redirecting users to a <strong>malicious site</strong> without changing the URL they typed.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6bd66888-6739-42a4-9946-beefffda2206",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> What is the main role of a <strong>digital certificate</strong> in secure communication?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Encrypts the message body</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Authenticates the sender</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Provides a VPN tunnel</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Blocks malware</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f1d83620-790e-4627-8756-a404ed97ac95",
+                    "questionID": "6bd66888-6739-42a4-9946-beefffda2206",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: B – Authenticates the sender</strong></p><p><strong>Explanation</strong>: A <strong>digital certificate</strong>, issued by a <strong>Certificate Authority (CA)</strong>, helps verify the <strong>identity</strong> of a sender or website, ensuring <strong>trust</strong> in secure communications.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "40ffc029-ee83-4e94-bd68-fe12679eee6c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a secure email communication using public-key cryptography, the sender encrypts the message using:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Their own private key</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Their own public key</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Receiver’s private key</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Receiver’s public key</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c65150c5-1f84-49df-af39-f18f6445fd20",
+                    "questionID": "40ffc029-ee83-4e94-bd68-fe12679eee6c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: D – Receiver’s public key</strong></p><p><strong>Explanation</strong>: The sender encrypts the message with the <strong>receiver's public key</strong>, so that <strong>only the receiver</strong> can decrypt it using their <strong>private key</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f6f2006d-eeb7-417c-8027-ad65b19b1726",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following uses <strong>asymmetric encryption</strong> for secure communication?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>AES</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>DES</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>RSA</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>MD5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fba31ac4-f0ae-4cc9-b5ae-e2b97a4944b6",
+                    "questionID": "f6f2006d-eeb7-417c-8027-ad65b19b1726",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: C – RSA</strong></p><p><strong>Explanation</strong>: <strong>RSA</strong> is a widely used <strong>asymmetric encryption algorithm</strong>, using <strong>public and private keys</strong>. AES and DES are symmetric; MD5 is a hashing algorithm.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d0e6c3cb-42c0-4b8d-85d0-207d0a7254a4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the purpose of encryption in secure communication?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Compress data for faster transmission</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Prevent packet loss</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Ensure only authorized parties can read the data</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Speed up transmission</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7d1a1a7b-f26a-44d8-9f5e-87fe57609506",
+                    "questionID": "d0e6c3cb-42c0-4b8d-85d0-207d0a7254a4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: C – Ensure only authorized parties can read the data</strong></p><p><strong>Explanation</strong>: <strong>Encryption</strong> transforms readable data into unreadable form to <strong>protect confidentiality</strong> during transmission.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "37b04250-10df-47ae-993c-8cf70886e27a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Which of the following protocols is used for secure communication over the internet?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>HTTP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>FTP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>HTTPS</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Telnet</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e85ef667-dbe2-46ad-8502-ac0e15dbb0b6",
+                    "questionID": "37b04250-10df-47ae-993c-8cf70886e27a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: C – HTTPS</strong></p><p><strong>Explanation</strong>: <strong>HTTPS (HyperText Transfer Protocol Secure)</strong> encrypts data using <strong>SSL/TLS</strong>, making it secure. HTTP, FTP, and Telnet send data in plain text.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "38542fed-3df7-408b-a2b2-3c8cb908f073",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following best describes the primary purpose of SSL/TLS in network communication?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>To assign IP addresses to devices in a network</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>To ensure secure, encrypted communication between client and server</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>To filter incoming and outgoing traffic at the network boundary</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>To translate domain names to IP addresses</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "01ad78bd-b8d0-4c2d-9418-b0836b399225",
+                    "questionID": "38542fed-3df7-408b-a2b2-3c8cb908f073",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>SSL (Secure Sockets Layer)</strong> and <strong>TLS (Transport Layer Security)</strong> are cryptographic protocols that provide <strong>encryption, authentication, and integrity</strong> for data transmitted over a network.</p><p><br></p><p><br></p><p>They are commonly used in <strong>HTTPS</strong> (secure HTTP), ensuring that data exchanged between a <strong>client (like a browser)</strong> and a <strong>server (like a website)</strong> is encrypted and cannot be read or modified by attackers.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aafddfb4-baaa-4659-a89a-660ff44cb2e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which protocol is responsible for logical addressing?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>TCP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>IP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>UDP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ARP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "protocol layers"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a0b37eb0-a2b9-405e-b050-75613aa0fb21",
+                    "questionID": "aafddfb4-baaa-4659-a89a-660ff44cb2e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: B) IP</strong></p><p><br></p><p><strong>Explanation:</strong> IP (Internet Protocol) provides <strong>logical addresses</strong> (like 192.168.x.x) to devices for identification in a network.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c199ab81-cda1-48ee-8933-b0cf606e8f00",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>which of the following is a connectionless protocol</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>TCP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>FTP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>UDP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SSH</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "protocol"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "67ad5bfc-de72-4823-a932-c6c43dc5ba32",
+                    "questionID": "c199ab81-cda1-48ee-8933-b0cf606e8f00",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C) UDP</strong></p><p><br></p><p><strong>Explanation:</strong> UDP (User Datagram Protocol) is connectionless and faster but does <strong>not</strong> guarantee delivery or order of packets.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e456f44b-af55-44c6-8685-be181d7fc6c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which topology requires a central controller or hub?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Bus</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Star</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Ring</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Mesh</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "topology"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7225be2a-8c54-4288-910d-a6f9103f5e7d",
+                    "questionID": "e456f44b-af55-44c6-8685-be181d7fc6c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: B) Star</strong></p><p><br></p><p><strong>Explanation:</strong> In star topology, all devices are connected to a central hub/switch which manages traffic.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4347ee09-9504-4abf-86e0-adc6bc581012",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The IP address 192.168.0.1 belongs to which class?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>class A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>class B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>class C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>class D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IP Address"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0a0694c8-deca-45a0-a6d1-010def022928",
+                    "questionID": "4347ee09-9504-4abf-86e0-adc6bc581012",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C) Class C</strong></p><p><br></p><p> <strong>Explanation:</strong> Class C IP addresses range from 192.0.0.0 to 223.255.255.255, used for small networks.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "af045a29-6df5-48ac-93c3-7acdbbbbf171",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which protocol is used to send email?</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>FTP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>HTTP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>SMTP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SNMP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d2ecd1a6-bc3e-4378-8d13-5e93c80b25a2",
+                    "questionID": "af045a29-6df5-48ac-93c3-7acdbbbbf171",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C) SMTP</strong></p><p><br></p><p><strong>Explanation:</strong> SMTP (Simple Mail Transfer Protocol) is used to send emails from a client to a mail server or between mail servers.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e17f2ee-984f-456d-bb81-bd8a4d106423",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which protocol dynamically assigns IP addresses to devices in a network?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>HTTP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>SMTP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DNS</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>DHCP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "88ce4bc3-1fce-4ad8-bff6-1f396c2a8dae",
+                    "questionID": "2e17f2ee-984f-456d-bb81-bd8a4d106423",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>DHCP (Dynamic Host Configuration Protocol)</strong> automatically assigns IP addresses and other network configuration to devices when they connect.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d77b862-bf3b-43ef-b7ad-6fffe82ec836",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>FTP is primarily used for:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Email delivery</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>File transfer</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Resolving domain names</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>IP address assignment</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f134d08b-265d-4b41-8a3b-99ec7a5ece1b",
+                    "questionID": "0d77b862-bf3b-43ef-b7ad-6fffe82ec836",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>FTP (File Transfer Protocol)</strong> is used to transfer files between a client and server over a network</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dfee583c-84af-409a-afd0-cb9b6fdb3735",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which protocol is used to translate domain names to IP addresses?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>SMTP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>DNS</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DHCP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>FTP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "936ae3eb-794d-4007-ac2a-2e78c5147d93",
+                    "questionID": "dfee583c-84af-409a-afd0-cb9b6fdb3735",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>DNS (Domain Name System)</strong> resolves human-readable domain names (like google.com) into IP addresses used by computers to route traffic.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f884355b-80f3-480f-8a6f-e57f727e19e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which protocol is used for sending emails?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>HTTP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>FTP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>SMTP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>DHCP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0d5e909f-afaa-4e3c-86b5-df25d5d84e29",
+                    "questionID": "f884355b-80f3-480f-8a6f-e57f727e19e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>SMTP (Simple Mail Transfer Protocol)</strong> is used to <strong>send</strong> emails. Receiving emails is handled by POP or IMAP.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b2e05e39-5a5e-47c4-9c3f-fc1788fe807d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the default port number for HTTPS?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>20</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>21</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>80</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>443</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "5797dfd8-e715-4432-aa37-1a63879ad01b",
+                    "questionID": "b2e05e39-5a5e-47c4-9c3f-fc1788fe807d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Port <strong>443</strong> is the default for <strong>HTTPS</strong>, which is HTTP over SSL/TLS (secure).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

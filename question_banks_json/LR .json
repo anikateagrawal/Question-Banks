@@ -1,0 +1,3135 @@
+{
+    "bank_id": "408f385c-17b6-4138-ac4d-80a4f1d73a66",
+    "bank_name": "LR",
+    "questions": [
+        {
+            "id": "c0d04b0d-0c12-4513-a98e-5f8e1da626d0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>In a certain code language,   </strong></p><p><br></p><p>‘Happiness Build Upon Ourself’ is written as ‘E8L R10S M3F C6Y’ </p><p>‘Beginnings Are Always Messy’ is written as ‘D4Z R9Y X6N R5Z’ </p><p>‘Never Doubt Your Instinct’ is written as ‘Q6M S7R Q3B S6W’ </p><p>‘Learn Something New Everyday’ is written as ‘F10H V4M X7V M6O’ </p><p><br></p><p><strong>What is the code for the word ‘Heaven’? </strong></p><p><br></p><p>A. E7V   </p><p>B. M5S   </p><p>C. E7N   </p><p>D. Q6H  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b1449b5a-b09a-4e31-9ba0-777dd3d74ebf",
+                    "questionID": "c0d04b0d-0c12-4513-a98e-5f8e1da626d0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>First letter of the code → Preceding letter to the last letter of the respective word  </p><p>The number in the code can be obtained by subtracting 1 from the word which has even number of letters and adding 1 to the word which has odd number of letters. </p><p><br></p><p>The last letter of the code → The opposite letter of the first letter of the given word, in reverse alphabetical order </p><p>Following the common explanation we can say that 'M5S' is the code of the word 'Heaven'.  Hence, the correct answer is option B. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5aa6345c-4216-4f0e-804d-aa76baa62aef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>In a certain code language,   </strong></p><p><br></p><p>‘Happiness Build Upon Ourself’ is written as ‘E8L R10S M3F C6Y’ </p><p>‘Beginnings Are Always Messy’ is written as ‘D4Z R9Y X6N R5Z’ </p><p>‘Never Doubt Your Instinct’ is written as ‘Q6M S7R Q3B S6W’ </p><p>‘Learn Something New Everyday’ is written as ‘F10H V4M X7V M6O’ </p><p><br></p><p><strong>What is the code for the word ‘Always Doubt’? </strong></p><p>A. S6W D4Z  </p><p>B. Q3B R9Y  </p><p>C. Q6M X6N  </p><p>D. NONE OF THESE</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7dbbdeff-e8fd-4629-8012-0d42a68e419b",
+                    "questionID": "5aa6345c-4216-4f0e-804d-aa76baa62aef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p> First letter of the code → Preceding letter to the last letter of the respective word  </p><p><br></p><p>The number in the code can be obtained by subtracting 1 from the word which has even number of letters and adding 1 to the word which has odd number of letters. </p><p><br></p><p>The last letter of the code → The opposite letter of the first letter of the given word, in reverse alphabetical order </p><p> Following the common explanation we can say that 'R5Z S6W' is the code for the word 'Always Doubt'  </p><p><br></p><p>Hence, the correct answer is option D. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cb50a54f-0d09-4839-882b-0d302dfe2e18",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>In a certain code language, </strong></p><p>  </p><p>‘Happiness Build Upon Ourself’ is written as ‘E8L R10S M3F C6Y’</p><p>‘Beginnings Are Always Messy’ is written as ‘D4Z R9Y X6N R5Z’ </p><p>‘Never Doubt Your Instinct’ is written as ‘Q6M S7R Q3B S6W’ </p><p>‘Learn Something New Everyday’ is written as ‘F10H V4M X7V M6O’ </p><p><br></p><p><strong>‘X7V’ is the code for which of the following word?</strong> </p><p>A. Learn  </p><p>B. Something  </p><p>C. New   </p><p>D. Everyday</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7348b0d3-63eb-4693-9463-7fc9b0825a15",
+                    "questionID": "cb50a54f-0d09-4839-882b-0d302dfe2e18",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>First letter of the code → Preceding letter to the last letter of the respective word  </p><p>The number in the code can be obtained by subtracting 1 from the word which has even number of letters and adding 1 to the word which has odd number of letters. </p><p>The last letter of the code → The opposite letter of the first letter of the given word, in reverse alphabetical order </p><p><br></p><p>Following the common explanation we can say that 'X7V' is the code of the word 'Everyday'.  Hence, the correct answer is option D. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "18c309f7-1094-4978-9133-d50bcad22be6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>In a certain code language, </strong></p><p>  </p><p>‘Happiness Build Upon Ourself’ is written as ‘E8L R10S M3F C6Y’</p><p>‘Beginnings Are Always Messy’ is written as ‘D4Z R9Y X6N R5Z’ </p><p>‘Never Doubt Your Instinct’ is written as ‘Q6M S7R Q3B S6W’ </p><p>‘Learn Something New Everyday’ is written as ‘F10H V4M X7V M6O’ </p><p><br></p><p><strong>What is the code of the word ‘Success’? </strong></p><p><br></p><p>A. R8H   </p><p>B. E7U   </p><p>C. R7E   </p><p>D. E9U </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "481bc92c-cf75-4818-af22-f78dbdfb575f",
+                    "questionID": "18c309f7-1094-4978-9133-d50bcad22be6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>First letter of the code → Preceding letter to the last letter of the respective word  </p><p>The number in the code can be obtained by subtracting 1 from the word which has even number of letters and adding 1 to the word which has odd number of letters. </p><p>The last letter of the code → The opposite letter of the first letter of the given word, in reverse alphabetical order </p><p>Following the common explanation we can say that 'R8H' is the code of the word 'Success'  Hence, the correct answer is option A. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e15c026-dca3-481f-bc20-b5f4ed1b2fae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a certain code language, </p><p>  </p><p>‘Happiness Build Upon Ourself’ is written as ‘E8L R10S M3F C6Y’</p><p>‘Beginnings Are Always Messy’ is written as ‘D4Z R9Y X6N R5Z’ </p><p>‘Never Doubt Your Instinct’ is written as ‘Q6M S7R Q3B S6W’ </p><p>‘Learn Something New Everyday’ is written as ‘F10H V4M X7V M6O’ </p><p><br></p><p>What is the code of the word ‘Messy’? </p><p>A. D4Z   </p><p>B. R9Y   </p><p>C. X6N   </p><p>D. R5Z </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "44c2df67-b832-4572-9439-e16614d3c817",
+                    "questionID": "3e15c026-dca3-481f-bc20-b5f4ed1b2fae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>First letter of the code → Preceding letter to the last letter of the respective word  </p><p>The number in the code can be obtained by subtracting 1 from the word which has even number of letters and adding 1 to the word which has odd number of letters. </p><p> The last letter of the code → The opposite letter of the first letter of the given word, in reverse alphabetical order </p><p><br></p><p>Similarly, the first letter from left end in ‘Upon’ is ‘U’ and the reverse of ‘U’ is ‘F’. Hence, the last letter in the code for 'Upon' is ‘F’. </p><p>Following the common explanation we can say that the code of the word 'Messy' is 'X6N'  Hence, the correct answer is option C. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52b689dd-61ce-490a-923e-643459633a04",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements:</strong>  No wire is pin.  Some pins are mugs.  </p><p><strong>Conclusions: </strong>I. All mugs being wires is a possibility. II. Some mugs are not wires. </p><p><br></p><p>A. Only I follows      </p><p>B. Only II follows </p><p>C. If either I or II follows     </p><p>D. If neither I nor II follows </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "93f6ebc0-392b-4f9b-aa6a-d606e6376f5d",
+                    "questionID": "52b689dd-61ce-490a-923e-643459633a04",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p> In both the conclusions we need to derive relationships between the classes 'wire' and 'mugs' which are present in Statement 1 and 2 respectively.    </p><p>Here, the middle term 'pins' is distributed once, therefore, applying the deduction method we get, \"Some mugs are not wires.\" which is given as conclusion II.   </p><p>But, when some mugs are already not wires, the conclusion \"All mugs being wires is a possibility' can't be true. Hence, conclusion I doesn't follow. Option B is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f330fb0e-5adb-47b6-9ae5-3fec86d56ace",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements:</strong>  Men are sinners. Saints are men.  </p><p><strong>Conclusions:</strong> I. Saints are sinners. II. Sinners are saints. </p><p><br></p><p>A. If only conclusion I follows.    </p><p>B. If only conclusion II follows. </p><p>C. If either I or II follows.     </p><p>D. If neither I nor II follows. </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3f332fd0-a72c-4307-97f5-cdacace3c43b",
+                    "questionID": "f330fb0e-5adb-47b6-9ae5-3fec86d56ace",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking C1 : Saints are sinners.   </p><p>Using S2 and S1, we get   </p><p>Saints are men (A) + Men are sinners (A) ⇒ Saints are sinners. Hence, C1 follows.   </p><p>Checking C2 : Sinners are saints.   </p><p>Converse of the derived conclusion above ⇒ Some sinners are saints. However, the given conclusion is of A type. Therefore, C2 doesn't follow.   </p><p>Hence, option A is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "81adb391-0def-47ea-b838-223acc3fa1fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements</strong>:  Only first divisioners are admitted. Ram is a first divisioner.  <strong>Conclusions</strong>: I. Ram is admitted. II. Only Ram is admitted. </p><p><br></p><p>A. If only conclusion I follows.    </p><p>B. If only conclusion II follows. </p><p>C. If either I or II follows.     </p><p>D. If neither I nor II follows. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4e54c95b-193d-4ff8-b82d-b04785687aca",
+                    "questionID": "81adb391-0def-47ea-b838-223acc3fa1fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking C1 : Ram is admitted.   </p><p>Using S1 (which can be written as 'All admitted are first divisoners') and S2, we get    </p><p>Ram is a first divisioner (A) + All admitted are first divisoners (A) ⇒ No definite conclusion. </p><p>Clearly, C1 doesn't follow.   .</p><p>Checking C2 : 'Only Ram is admitted' or 'All admitted are Ram'.   </p><p>Following the explanation given for C1, we can say that C2 doesn't follow either.   Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e644e3d-de6f-488f-8e59-c58f1494d40f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements: </strong> A graduate is a man. This thief is a graduate.  </p><p><strong>Conclusions:</strong>   I. This thief is a man. II. Some men are thieves. </p><p><br></p><p>A. If only conclusion I follows.    </p><p>B. If only conclusion II follows. </p><p>C. If either I or II follows.     </p><p>D.If both I and II follow </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9ddf6f95-5c25-4bd2-9cf3-f9b4c7e6571c",
+                    "questionID": "2e644e3d-de6f-488f-8e59-c58f1494d40f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking C1 : This thief is a man.   Using S2 and S1, we get   </p><p>This thief is a graduate (A) + A graduate is a man (A) ⇒ This thief is a man. Hence, C1 follows.   </p><p>Checking C2 : Some men are thieves.   </p><p>Converse of the conclusion derived above ⇒ Some men are thieves. Hence, C2 follows as well.   </p><p>Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8d85fce-e8a3-4a31-a0c4-e7d818ce0405",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements:</strong>   No man is a monkey. John is a man. <strong> </strong></p><p><strong>Conclusions:</strong>  I. John is not a monkey. II. John may or may not be a monkey. </p><p><br></p><p>A. If only conclusion I follows.    </p><p>B. If only conclusion II follows. </p><p>C. If either I or II follows.     </p><p>D. If neither I nor II follows. </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "72727559-fe30-4ba1-be68-6c419c8fc569",
+                    "questionID": "d8d85fce-e8a3-4a31-a0c4-e7d818ce0405",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking C1 : John is not a monkey.   </p><p>Using S2 and S1, we get   </p><p>John is a man (A) + No man is a monkey (E) ⇒ John is not a monkey. Clearly, C1 follows.   </p><p>Checking C2 : John may or may not be a monkey.   </p><p>In C1, we have already found that John is a monkey is a definite conclusion and therefore John may be a monkey is not a possible preposition. C2, hence, doesn't follow.   </p><p>Option A is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "512839e8-6c02-423e-a44a-1f2f8b4fffb2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements</strong>:  All radios are electric goods. All table-lamps are electric goods.  <strong>Conclusions</strong>: I. Some radios are table-lamps. II. Some table-lamps are radios.</p><p><br></p><p>A. If only conclusion I follows.    </p><p>B. If only conclusion II follows. </p><p>C. If either I or II follows.     </p><p>D. If neither I nor II follows. </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0bc09d76-351b-416c-a7d0-a9119d107ec4",
+                    "questionID": "512839e8-6c02-423e-a44a-1f2f8b4fffb2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking C1 : Some radios are table-lamps.   </p><p><br></p><p>We can observe that the class 'radios' and 'table-lamps' are present in different statements and the middle term 'electric goods' is not being distributed even once in either of the statements. Therefore, no definite relationship is possible between these two classes. C1, doesn't follow.   </p><p><br></p><p>Checking C2 : Some table-lamps are radios.   </p><p><br></p><p>Following the same logic discussed above, we can state that C2 doesn't follow either.  </p><p><br></p><p> Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "45527871-345b-4c95-8d87-8d58caa65780",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements</strong>:  Some plates are knives. Some knives are bottles. Many bottles are bowls.  </p><p><strong>Conclusions:</strong> I. Some plates are bowls. II. Not a single plate is bowl. </p><p><br></p><p>A. If only conclusion I follow     </p><p>B. If only conclusion II follow </p><p>C. If neither conclusion I nor conclusion II follows  </p><p>D.  If either conclusion I or conclusion II follows. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9e8800d5-f38f-44b4-a565-743ccd9afe75",
+                    "questionID": "45527871-345b-4c95-8d87-8d58caa65780",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking Conclusion I and II together : 'Some plates are bowls' and 'Not a single plate is bowl'   </p><p><br></p><p>Clearly, all the statements are I type, we can't define a relationship between classes that exist in two different statements.    </p><p><br></p><p>Similarly, we can't define a relationship between the classes 'plate' and 'bowl' either.    </p><p><br></p><p>But, C1 is an I type statement and C2 an E type, and they together form an E+I combination. Clearly, either C1 or C2 follows.  </p><p><br></p><p>Hence, option E is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "59732559-c9b5-44c7-b649-ef1dabbfc38b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statement:</strong>  All rivers are seas. All lakes are seas. Some seas are not oceans.  <strong>Conclusions:</strong> I. Some rivers are not lakes. II. Some oceans may not be seas. </p><p><br></p><p>A. If only conclusion I follow     </p><p>B. If only conclusion II follow </p><p>C. If neither conclusion I nor conclusion II follows  </p><p>D. If both the conclusions follow </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "81b90cd6-273c-425a-be47-02a7ab3cd88c",
+                    "questionID": "59732559-c9b5-44c7-b649-ef1dabbfc38b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking Conclusion I : Some rivers are not lakes.    </p><p><br></p><p>Here, neither S1 nor S2 is a negative statement, a negative conclusion between the classes of 'rivers' and 'lakes' is not possible. C1, hence, doesn't follow.   </p><p><br></p><p>Checking Conclusion II : Some oceans may not be seas.   </p><p><br></p><p>In S3 it's given that 'Some seas are not oceans'. Here, we are not sure of the elements of the class 'oceans'. Clearly, we can say that 'Some oceans may not be seas'. C2, hence, follows.   </p><p><br></p><p>Option B is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b8149cdd-3296-4dfb-932a-11942099abbf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements</strong>:  No dancers are actors. Some actors are artists. No artist is artisan.   <strong>Conclusions</strong>: I. Some artists are not dancers.   II. Some artisans are not actors. </p><p><br></p><p>A. If only conclusion I follow     </p><p>B. If only conclusion II follow </p><p>C. If neither conclusion I nor conclusion II follows  </p><p>D. If both the conclusions follow </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "32964546-eeed-48a8-85ff-30201ad2a3b3",
+                    "questionID": "b8149cdd-3296-4dfb-932a-11942099abbf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking Conclusion I : Some artists are not dancers.   </p><p><br></p><p>Some artists are actors (Converse of S2) + No actor is dancer (Converse of S1) = Some artists are not dancers. Clearly, C1 follows.   </p><p><br></p><p>Checking Conclusion II : Some artisans are not actors.   </p><p><br></p><p>Some actors are artists + No artist is artisan = Some actors are not artisans. Since converse of an O type statement is not possible, C2 doesn't follow.   Option A is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6c7613c1-7942-4383-a87e-4fcc21031c26",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements</strong>:  All tubes are cubes. No cube is sky. No bird is sky.  </p><p><strong>Conclusions</strong>: I. No tube is bird. II. All birds being cubes is a possibility. </p><p><br></p><p>A. If only conclusion I follow     </p><p>B. If only conclusion II follow </p><p>C. If neither conclusion I nor conclusion II follows  </p><p>D. If both the conclusions follow </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f6e9b6bd-89d5-45a8-b099-785b22df7ff1",
+                    "questionID": "6c7613c1-7942-4383-a87e-4fcc21031c26",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking Conclusion I : No tube is bird.   </p><p>As we can see that the middle term 'Sky' is not distributed even once in either S2 or S3, we can't define a relationship between the classes 'tube' and 'bird'. C1, hence, doesn't follow.   </p><p><br></p><p>Checking Conclusion II : All birds being cubes is a possibility.   Since we can't define a relationship between the classes 'cube' and 'bird', possibilities between them do follow. C2, hence, follows here.  </p><p><br></p><p> Option B is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a7da512f-c04e-4b13-8349-c3c299dc32ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: Following questions are based on the six three-digit numbers given below:  </p><p><strong>428    548    943    297    567    459 </strong></p><p><br></p><p>If in each number the first and the second digits are interchanged then which will be the third highest number? </p><p>A. 428   </p><p>B. 297   </p><p>C. 459   </p><p>D. 548 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b1fc0a8b-2e15-4f01-80b1-83449d4533a0",
+                    "questionID": "a7da512f-c04e-4b13-8349-c3c299dc32ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Now, arranging all the numbers in ascending order, we get:   248    458    493   549    657    927   </p><p><br></p><p>Third highest number will be 549.   </p><p>Hence, the correct answer is option C. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "48b06cf0-c204-4fda-922a-f2ddac020874",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Following questions are based on the six three-digit numbers given below:  </p><p><strong>428    548    943    297    567    459 </strong></p><p><br></p><p>What will be the difference of the square of the last digits of the third lowest and the second highest number?  </p><p><br></p><p>A. 69   </p><p>B. 32   </p><p>C. 25   </p><p>D. 36  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "aebf3992-417c-4b67-90ab-43a7f22e6bbb",
+                    "questionID": "48b06cf0-c204-4fda-922a-f2ddac020874",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The third lowest number = 459, the last digit of 459 is 9.  </p><p> The second highest number = 567, the last digit of 567 is 7.   Square of 9 = 81   </p><p>Square of 7 = 49   </p><p>Difference of 81 and 49 = 32   </p><p>Hence, the correct answer is option B. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "46094ec1-def6-451c-92ef-c54a6c499f83",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: Following questions are based on the six three-digit numbers given below:  </p><p><strong>428    548    943    297    567    459 </strong></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "a2a0a422-712d-4cc0-a95c-e741308d4508",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Cleanliness survey was conducted at 6 different locations among Bhopal, Ranchi, Jaipur, Simla, Patna and Mumbai. These surveys were conducted on 4th and 17th of three different months viz. June, August and October such that no two surveys were conducted on same date of a month. </p><p>The survey at Ranchi was conducted before the survey at Jaipur, which was conducted in a month whose total number of days are odd. 3 surveys were conducted between the surveys at Jaipur and Simla. The survey at Simla and Patna were conducted in same month. The survey in Patna and Ranchi were conducted on same dates but in consecutive months. The survey at Bhopal was conducted just before the survey at Mumbai. </p><p><br></p><p><strong>How many surveys were conducted before the survey at Ranchi? </strong></p><p>A. 1   </p><p>B. 2   </p><p>C. 3   </p><p>D. Can't be determined </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fbdbe508-68cd-4312-9521-64c32af9a4b3",
+                    "questionID": "a2a0a422-712d-4cc0-a95c-e741308d4508",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Month       | Date | Case-2 Location |</p><p>|-------------|------|--------------|</p><p>| June (30)   | 4    | Patna            |</p><p>| June (30)   | 17   | Simla            |</p><p>| August (31) | 4    | Ranchi           |</p><p>| August (31) | 17   | Bhopal           |</p><p>| October (31)| 4    | Mumbai           |</p><p>| October (31)| 17   | Jaipur           |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e28a8ffe-4211-4252-95f2-6e5840a93bd4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Cleanliness survey was conducted at 6 different locations among Bhopal, Ranchi, Jaipur, Simla, Patna and Mumbai. These surveys were conducted on 4th and 17th of three different months viz. June, August and October such that no two surveys were conducted on same date of a month. </p><p>The survey at Ranchi was conducted before the survey at Jaipur, which was conducted in a month whose total number of days are odd. 3 surveys were conducted between the surveys at Jaipur and Simla. The survey at Simla and Patna were conducted in same month. The survey in Patna and Ranchi were conducted on same dates but in consecutive months. The survey at Bhopal was conducted just before the survey at Mumbai. </p><p><br></p><p><strong>Which of the following statements is true? </strong></p><p><br></p><p>I. Survey at Simla and Mumbai were conducted on same dates of different months. </p><p>II. Survey at Patna was conducted before survey at Simla. </p><p>III. The survey at Jaipur was not conducted in the last. </p><p><br></p><p>A. Only I  </p><p>B. Only II  </p><p>C. Only III  </p><p>D. Only I and III </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bec8d2f9-ccca-47ce-9c77-b5e4ef730770",
+                    "questionID": "e28a8ffe-4211-4252-95f2-6e5840a93bd4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Month       | Date | Case-2 Location |</p><p>|-------------|------|--------------|</p><p>| June (30)   | 4    | Patna            |</p><p>| June (30)   | 17   | Simla            |</p><p>| August (31) | 4    | Ranchi           |</p><p>| August (31) | 17   | Bhopal           |</p><p>| October (31)| 4    | Mumbai           |</p><p>| October (31)| 17   | Jaipur           |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9acf8ee3-455e-4007-9bd8-4b770226151e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Cleanliness survey was conducted at 6 different locations among Bhopal, Ranchi, Jaipur, Simla, Patna and Mumbai. These surveys were conducted on 4th and 17th of three different months viz. June, August and October such that no two surveys were conducted on same date of a month. </p><p>The survey at Ranchi was conducted before the survey at Jaipur, which was conducted in a month whose total number of days are odd. 3 surveys were conducted between the surveys at Jaipur and Simla. The survey at Simla and Patna were conducted in same month. The survey in Patna and Ranchi were conducted on same dates but in consecutive months. The survey at Bhopal was conducted just before the survey at Mumbai. </p><p><br></p><p><strong>Survey at which of the following locations was conducted on 4th October? </strong></p><p>A. Mumbai  </p><p>B. Bhopal  </p><p>C. Jaipur  </p><p>D. Can't be determined </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8051a175-6584-44be-a9d3-3e939301c479",
+                    "questionID": "9acf8ee3-455e-4007-9bd8-4b770226151e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Month       | Date | Case-2 Location |</p><p>|-------------|------|-------------|</p><p>| June (30)   | 4    | Patna            |</p><p>| June (30)   | 17   | Simla            |</p><p>| August (31) | 4    | Ranchi           |</p><p>| August (31) | 17   | Bhopal           |</p><p>| October (31)| 4    | Mumbai           |</p><p>| October (31)| 17   | Jaipur           |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cc43c70b-9892-4988-b9cd-dd6df77b26b8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Cleanliness survey was conducted at 6 different locations among Bhopal, Ranchi, Jaipur, Simla, Patna and Mumbai. These surveys were conducted on 4th and 17th of three different months viz. June, August and October such that no two surveys were conducted on same date of a month.   </p><p><br></p><p>The survey at Ranchi was conducted before the survey at Jaipur, which was conducted in a month whose total number of days are odd. 3 surveys were conducted between the surveys at Jaipur and Simla. The survey at Simla and Patna were conducted in same month. The survey in Patna and Ranchi were conducted on same dates but in consecutive months. The survey at Bhopal was conducted just before the survey at Mumbai. </p><p><br></p><p><strong>How many surveys were conducted between the surveys at Patna and Ranchi? </strong></p><p>A. 1   </p><p>B. 2   </p><p>C. None  </p><p>D. Either 1 or 2 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "20a1eba0-07a2-4d1f-a848-c39c777bdfd2",
+                    "questionID": "cc43c70b-9892-4988-b9cd-dd6df77b26b8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Month       | Date | Case-2 Location |</p><p>|-------------|------|-------------|</p><p>| June (30)   | 4    | Patna            |</p><p>| June (30)   | 17   | Simla            |</p><p>| August (31) | 4    | Ranchi           |</p><p>| August (31) | 17   | Bhopal           |</p><p>| October (31)| 4    | Mumbai           |</p><p>| October (31)| 17   | Jaipur           |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a662523c-2eb1-4b78-9e6b-65e6539a75f4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Cleanliness survey was conducted at 6 different locations among Bhopal, Ranchi, Jaipur, Simla, Patna and Mumbai. These surveys were conducted on 4th and 17th of three different months viz. June, August and October such that no two surveys were conducted on same date of a month. </p><p>The survey at Ranchi was conducted before the survey at Jaipur, which was conducted in a month whose total number of days are odd. 3 surveys were conducted between the surveys at Jaipur and Simla. The survey at Simla and Patna were conducted in same month. The survey in Patna and Ranchi were conducted on same dates but in consecutive months. The survey at Bhopal was conducted just before the survey at Mumbai. </p><p><br></p><p><strong>How many surveys were conducted after the survey at Bhopal? </strong></p><p>A. 3  </p><p>B. 2   </p><p>C. 1   </p><p>D. 4  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cacab329-913a-4ba3-a5ec-b5363fa1400b",
+                    "questionID": "a662523c-2eb1-4b78-9e6b-65e6539a75f4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Month       | Date | Case-2 Location |</p><p>|-------------|------|--------------|</p><p>| June (30)   | 4    | Patna            |</p><p>| June (30)   | 17   | Simla            |</p><p>| August (31) | 4    | Ranchi           |</p><p>| August (31) | 17   | Bhopal           |</p><p>| October (31)| 4    | Mumbai           |</p><p>| October (31)| 17   | Jaipur           |</p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5cb79330-fe19-43c3-b2c0-5d3dcfa7d081",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati. </p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p><strong>When was Kashmiri Pulao prepared? </strong></p><p>A. Sunday  </p><p>B. Monday  </p><p>C. Tuesday  </p><p>D. Can't be determined</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5b188880-cfcd-44ef-ac0c-ffb0a4e7a36b",
+                    "questionID": "5cb79330-fe19-43c3-b2c0-5d3dcfa7d081",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Day       | Case-2 Dish     | Case-3 Dish       | Case-3A Dish    |</p><p>|-----------|------------------|---------|-----------------|</p><p>| Sunday    | Paneer Tikka     | Paneer Tikka       | Paneer Tikka    |</p><p>| Monday    | Kashmiri Pulao   | Paneer Tikka    | Kashmiri Pulao  |</p><p>| Tuesday   | Daal-Baati       | Kashmiri Pulao     | Daal-Baati      |</p><p>| Wednesday | Dhokla           | Daal-Baati                | Dhokla      |</p><p>| Thursday  | Rasam-Rice       | Dhokla                |         —         |</p><p>| Friday    | Saundesh         | Rasam-Rice         | Rasam-Rice      |</p><p>| Saturday  | Hakka Noodles    | Saundesh           | Saundesh        |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "608702d5-ebfc-463a-9bfe-89af6b5d0da9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati. </p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p><strong>How many dishes were prepared in between Daal-Baati and Rasam-Rice? </strong></p><p>A. 1   </p><p>B. 2   </p><p>C. 3   </p><p>D. None  </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0401bbee-ec62-4b78-8123-e5a314776097",
+                    "questionID": "608702d5-ebfc-463a-9bfe-89af6b5d0da9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Day       | Case-2 Dish     | Case-3 Dish       | Case-3A Dish    |</p><p>|-----------|------------------|------------|------|</p><p>| Sunday    | Paneer Tikka     | Paneer Tikka       | Paneer Tikka    |</p><p>| Monday    | Kashmiri Pulao   | Paneer Tikka    | Kashmiri Pulao  |</p><p>| Tuesday   | Daal-Baati       | Kashmiri Pulao     | Daal-Baati      |</p><p>| Wednesday | Dhokla           | Daal-Baati         | Dhokla          |</p><p>| Thursday  | Rasam-Rice       | Dhokla             | —               |</p><p>| Friday    | Saundesh         | Rasam-Rice         | Rasam-Rice      |</p><p>| Saturday  | Hakka Noodles    | Saundesh           | Saundesh        |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d32791ee-0d3b-41e4-ae10-1979298b7502",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati.   </p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p><strong>Which dish was prepared on Friday? </strong></p><p>A. Hakka Noodles </p><p>B. Rasam-Rice  </p><p>C. Saundesh  </p><p>D. Daal-Baati     </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1d817dd8-5639-4770-99bb-1d4e98ff97b5",
+                    "questionID": "d32791ee-0d3b-41e4-ae10-1979298b7502",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Day       | Case-2 Dish     | Case-3 Dish       | Case-3A Dish    |</p><p>|-----------|------------------|--------------------|------|</p><p>| Sunday    | Paneer Tikka     | Paneer Tikka   | Paneer Tikka    |</p><p>| Monday    | Kashmiri Pulao   | Paneer Tikka | Kashmiri Pulao  |</p><p>| Tuesday   | Daal-Baati       | Kashmiri Pulao    | Daal-Baati      |</p><p>| Wednesday | Dhokla           | Daal-Baati          |     Dhokla          |</p><p>| Thursday  | Rasam-Rice       | Dhokla              |          —               |</p><p>| Friday    | Saundesh         | Rasam-Rice         | Rasam-Rice      |</p><p>| Saturday  | Hakka Noodles    | Saundesh           | Saundesh        |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "45d400db-c140-40e8-bf84-b2240d104675",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati. </p><p><br></p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p><strong>How many dishes were prepared before Paneer tikka? </strong></p><p><br></p><p>A. None  </p><p>B. 1   </p><p>C. 2   </p><p>D. 3 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e542fb4d-4bf0-41a3-a1e2-ece39c8a6c29",
+                    "questionID": "45d400db-c140-40e8-bf84-b2240d104675",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Day       | Case-2 Dish     | Case-3 Dish       | Case-3A Dish    |</p><p>|-----------|------------------|--------------------|-----------------|</p><p>| Sunday    | Paneer Tikka     | Paneer Tikka       | Paneer Tikka    |</p><p>| Monday    | Kashmiri Pulao   | Paneer Tikka       | Kashmiri Pulao  |</p><p>| Tuesday   | Daal-Baati       | Kashmiri Pulao     | Daal-Baati      |</p><p>| Wednesday | Dhokla           | Daal-Baati         | Dhokla          |</p><p>| Thursday  | Rasam-Rice       | Dhokla             | —               |</p><p>| Friday    | Saundesh         | Rasam-Rice         | Rasam-Rice      |</p><p>| Saturday  | Hakka Noodles    | Saundesh           | Saundesh        |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c95e4414-5544-4101-bb06-ee5dbf63d8ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati.   </p><p><br></p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla.  </p><p><br></p><p><strong>Which dish was prepared in the last?</strong> </p><p>A. Saundesh  </p><p>B. Hakka noodles </p><p>C. Dhokla  </p><p>D. Either A or C E</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e0576c66-9b4a-4a2c-906e-4b9df8d8982a",
+                    "questionID": "c95e4414-5544-4101-bb06-ee5dbf63d8ed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>| Day       | Case-2 Dish     | Case-3 Dish       | Case-3A Dish    |</p><p>|-----------|------------------|--------------------|-----------------|</p><p>| Sunday    | Paneer Tikka     | Paneer Tikka       | Paneer Tikka    |</p><p>| Monday    | Kashmiri Pulao   | Paneer Tikka       | Kashmiri Pulao  |</p><p>| Tuesday   | Daal-Baati       | Kashmiri Pulao     | Daal-Baati      |</p><p>| Wednesday | Dhokla           | Daal-Baati         | Dhokla          |</p><p>| Thursday  | Rasam-Rice       | Dhokla             | —               |</p><p>| Friday    | Saundesh         | Rasam-Rice         | Rasam-Rice      |</p><p>| Saturday  | Hakka Noodles    | Saundesh           | Saundesh        |</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d0f8f3c6-d955-4f59-8e22-75d7d5ce223e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following information carefully and answer the questions given beside. </p><p>Eight cars viz. C1, C2, C3, C4, C5, C6, C7 and C8 are parked in two parallel rows namely row-1 and row-2 facing towards north such that the car standing in the row-2 faces the back side of the car standing in front of it in row-1. Equal number of cars stand in both the rows. </p><p>C3 stands second to the left of C4, which does not stand at any extreme end. C1 and C4 stand in different rows. C5 is third to the right of C2. C8 does not stand at any of the extreme ends. C7, which stands in row-2 is opposite to C1. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "124d6e35-7ddb-47f8-a9de-0dadb6be16b8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following information carefully and answer the questions given beside.</p><p>Eight cars viz. C1, C2, C3, C4, C5, C6, C7 and C8 are parked in two parallel rows namely row-1 and row-2 facing towards north such that the car standing in the row-2 faces the back side of the car standing in front of it in row-1. Equal number of cars stand in both the rows. </p><p>C3 stands second to the left of C4, which does not stand at any extreme end. C1 and C4 stand in different rows. C5 is third to the right of C2. C8 does not stand at any of the extreme ends. C7, which stands in row-2 is opposite to C1. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "99805186-bc9c-4d05-bd11-60173292b825",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following information carefully and answer the questions given beside. </p><p>Sixteen persons are sitting in three parallel rows. Only 4 persons are sitting in Row-1 and all are facing south direction. Only 8 persons are sitting in Row-2 such a way that the first 4 persons from the west face north direction and first 4 persons from the east face south direction. Only 4 persons are sitting in Row-3 and all are facing north direction. Row-1 is north of Row-2 and Row-2 is north of Row-3. First 4 persons from the west of Row-2 are facing the persons in the Row-1. Similarly, first 4 persons from the east of Row-2 are facing the persons in the Row-3. </p><p>Four persons are sitting between P and Q. Neither P nor Q sits at any extreme ends. Q faces the one, who sits immediate right of R. One person sits between R and S. T and U are sitting immediate right of each other. T and Q are facing in same direction. X sits to the immediate left of Y and both are facing in north direction. Y faces the one, who sits second to the right of Z. U faces the one, who sits third to the left of V. V and W are immediate neighbors. N sits second to the left of M, who sits third to the right of O. K sits second to the right of J.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "918400cc-dc85-429f-ad63-91e632feff1b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following information carefully and answer the questions given beside. </p><p>Sixteen persons are sitting in three parallel rows. Only 4 persons are sitting in Row-1 and all are facing south direction. Only 8 persons are sitting in Row-2 such a way that the first 4 persons from the west face north direction and first 4 persons from the east face south direction. Only 4 persons are sitting in Row-3 and all are facing north direction. Row-1 is north of Row-2 and Row-2 is north of Row-3. First 4 persons from the west of Row-2 are facing the persons in the Row-1. Similarly, first 4 persons from the east of Row-2 are facing the persons in the Row-3. </p><p>Four persons are sitting between P and Q. Neither P nor Q sits at any extreme ends. Q faces the one, who sits immediate right of R. One person sits between R and S. T and U are sitting immediate right of each other. T and Q are facing in same direction. X sits to the immediate left of Y and both are facing in north direction. Y faces the one, who sits second to the right of Z. U faces the one, who sits third to the left of V. V and W are immediate neighbours. N sits second to the left of M, who sits third to the right of O. K sits second to the right of J. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "99a40db7-d6c8-420f-a07c-8011b71fb4b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In each question given below are given three statements followed by four conclusions.  You have to take the given statements to be true even if they seem to be at variance with commonly known facts and judge the conclusions on the basis of it. Choose the options based on the conclusions chosen.</p><p> <strong>Statements</strong>:  (i) All proverbs are sentences. </p><p>                           (ii) No men are proverbs. </p><p>                           (iii) Some women are sentences. </p><p><br></p><p><strong>Conclusion</strong>: I. Some sentences are women. </p><p>                        II. No proverbs are men.</p><p>                        III. Some proverbs are men.</p><p>                        IV.   No proverbs are women. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I follows</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II and either III or IV follow</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II follows</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "57d1345a-4b86-43a1-9a4f-d384a6418a33",
+                    "questionID": "99a40db7-d6c8-420f-a07c-8011b71fb4b4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>from the venn diagram, we can see that none of the conclusion follows. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "996d5a66-a80c-41c3-be63-62020e226ab0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions : In question, some statements are given, followed by two conclusions I and II. You have to consider the statements to be true, even if they seem to be at variance from commonly known facts. You have to decide which of the given conclusions, if any, follow from the given statements. Indicate your answer.</p><p><br></p><p><strong>Statements</strong>:  All tubes are cubes. No cube is sky. No bird is sky.  </p><p><br></p><p><strong>Conclusions</strong>: I. No tube is bird. II. All birds being cubes is a possibility. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> If only conclusion I follow  </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> If only conclusion II follow </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> If neither conclusion I nor conclusion II follows </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> If both the conclusions follow </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "20b80a0c-b529-48de-8871-5ba0f6325bd0",
+                    "questionID": "996d5a66-a80c-41c3-be63-62020e226ab0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking Conclusion I : No tube is bird.   As we can see that the middle term 'Sky' is not distributed even once in either S2 or S3, we can't define a relationship between the classes 'tube' and 'bird'. C1, hence, doesn't follow.   Checking Conclusion II : All birds being cubes is a possibility.   Since we can't define a relationship between the classes 'cube' and 'bird', possibilities between them do follow. C2, hence, follows here.   Option B is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "13f2e5cd-45ef-426c-9225-4250358c6583",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements:</strong>  No dancers are actors. Some actors are artists. No artist is artisan.</p><p><br></p><p><strong>Conclusions</strong>: I. Some artists are not dancers.   II. Some artisans are not actors. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> If only conclusion I follow  </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>. If only conclusion II follow </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> If neither conclusion I nor conclusion II follows  </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> If both the conclusions follow </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c428717e-31bf-4bee-b9de-3cec8bb792da",
+                    "questionID": "13f2e5cd-45ef-426c-9225-4250358c6583",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking Conclusion I : Some artists are not dancers.   Some artists are actors (Converse of S2) + No actor is dancer (Converse of S1) = Some artists are not dancers. Clearly, C1 follows.   Checking Conclusion II : Some artisans are not actors.   Some actors are artists + No artist is artisan = Some actors are not artisans. Since converse of an O type statement is not possible, C2 doesn't follow.   Option A is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f17938c5-be9f-49ea-986b-21343db0da13",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following information carefully and answer the questions given beside.  </p><p><br></p><p>Certain number of persons are sitting around a circular table and facing towards the center of the table. Some of them own different cars. No two persons have same car.   Three persons are sitting between Thakur and the one, who owns Renault. Two persons are sitting between Thakur and Prince. Robert is sitting second to the left of Prince. Samuel is sitting second to the left of Robert. Samuel and Thakur are not the immediate neighbors. Qasim is sitting second to the right of Thakur. The one, who owns Ford, is sitting third to the left of Qasim. The one, who owns Hyundai, is sitting second to the left of the one, who owns Ford. Three persons are not sitting between the one, who owns Renault and the one, who owns Honda, when counted from the right of the one, who owns Honda. The one, who sits immediate left of Samuel, owns Honda. Number of persons sitting between Qasim and Prince, when counted from right of Prince is four times as the number of persons sitting between Samuel and Qasim, when counted from left of Samuel. </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "d8169355-ff93-471e-9d98-8d8faa8bcf18",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the following information carefully and answer the questions given beside.  A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati.   Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p>Which dish was prepared in the last? </p><p><br></p><p>A. Saundesh  </p><p>B. Hakka noodles </p><p>C. Dhokla  </p><p>D. Either A or C </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "89ba406e-9d3c-4750-97fd-971785abc384",
+                    "questionID": "d8169355-ff93-471e-9d98-8d8faa8bcf18",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Rasam-Rice on Wednesday, Saundesh just after it on Thursday.</p><p><br></p><p>Kashmiri Pulao on Tuesday, Daal-Baati on Friday, Dhokla on Saturday.</p><p><br></p><p>Paneer Tikka on Monday, Hakka noodles after Dhokla → on Sunday.</p><p><br></p><p><strong>Correct answer: B. Hakka noodles</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1938806d-56d9-4245-9786-2004e631b01e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements</strong>:  No dancers are actors. Some actors are artists. No artist is artisan.   </p><p><strong>Conclusions</strong>: I. Some artists are not dancers.   II. Some artisans are not actors. </p><p><br></p><p>A. If only conclusion I follow     </p><p>B. If only conclusion II follow </p><p>C. If neither conclusion I nor conclusion II follows  </p><p>D. If both the conclusions follow </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dea739e1-bee1-49bc-8f7a-da9565996775",
+                    "questionID": "1938806d-56d9-4245-9786-2004e631b01e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Checking Conclusion I : Some artists are not dancers.   Some artists are actors (Converse of S2) + No actor is dancer (Converse of S1) = Some artists are not dancers. Clearly, C1 follows.   Checking Conclusion II : Some artisans are not actors.   Some actors are artists + No artist is artisan = Some actors are not artisans. Since converse of an O type statement is not possible, C2 doesn't follow.   Option A is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ad05a27-e956-4d43-9bce-5ca9ac2b9d94",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Kindly study the paragraph given below and answer the question that follows. </p><p><br></p><p> It is perhaps no surprise that political parties are deeply divided over the idea of holding simultaneous elections for the Lok Sabha and the State Assemblies. During consultations initiated by the Law Commission of India, nine parties opposed it, arguing that it went against the constitutional fabric and that it would be impractical. Four parties backed the concept. </p><p><br></p><p><strong>Which of the following strengthens the case for simultaneous elections?</strong></p><p><strong> </strong>I. A simultaneous poll, particularly in this era where news is easily and widely disseminated, will privilege national issues over regional ones even if, arguably, the reverse may happen too. </p><p>II. Assemblies can be bunched into two categories based on whether their terms end close to the 2019 or the 2024 Lok Sabha elections and then elections could be held for one group in 2019, and for another in 2024 so that subsequent elections could be synchronised.  </p><p>III. Election expenditure will be drastically cut and ruling dispensations will be able to focus on legislation and governance rather than having to be in campaign mode forever. </p><p><br></p><p>A. Only II  </p><p>B. Only III  </p><p>C. Only I and II  </p><p>D. Only II and III </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Statement & Argument"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "75ab65fc-2789-45e8-91d1-7e12bc2da1be",
+                    "questionID": "6ad05a27-e956-4d43-9bce-5ca9ac2b9d94",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Statement I is incorrect as this weakens the argument for simultaneous elections.  Statement II is incorrect as it does not impact the argument and is merely a suggestion.  Statement III is correct as it shows the advantages of simultaneous elections and thus strengthens the  argument.  Hence, option B is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e7614e40-6694-43ff-9e2a-fd185295d4e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions: Read the statement and arguments carefully and choose the right answer. </strong></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "text",
+                    "body": "<p>There is a growing feeling amongst the larger Asian countries that the West is passé. The news coming out of there, especially since the 2008 financial crisis, is of declining populations, big layoffs and economic meltdowns in several countries of the European Union (EU), Italy being the latest. So much of bad news over an extended period gives the impression that the rise of the West has finally halted; that the West is now in cowering retreat. </p><p><br></p><p><strong>Which of the following weakens the argument provided in the passage above? </strong></p><p><br></p><p>I. The Western media has contributed to perpetuating the news of the decline of the West.   </p><p>II. The rich West hangs together, with a combined GDP several times than that of the rest of the world.   </p><p>III. The U.S., has a growing population and remains the most productive and innovative in the world, as well as militarily the most powerful.  </p><p><br></p><p>A. Only II  </p><p>B. Only III  </p><p>C. Only I and II  </p><p>D. All of the above</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Statement & Argument"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e7ad1b9a-8ae3-41fd-9da6-7572b8fbd654",
+                    "questionID": "e7614e40-6694-43ff-9e2a-fd185295d4e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The argument in the passage is that the West is not doing well.   Statement I is incorrect as it does not impact the argument and simply states that the media plays a role in spreading the news of the West’s decline.   Statements II and III are correct. Both weaken the argument that the West has lost power.   Hence, option D is correct.  </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ef837b4b-ac93-43d1-becd-a869640400db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Statements</strong>:  All tubes are cubes. No cube is sky. No bird is sky.  </p><p><strong>Conclusions</strong>: I. No tube is bird. II. All birds being cubes is a possibility. </p><p><br></p><p>A. If only conclusion I follow     </p><p>B. If only conclusion II follow </p><p>C. If neither conclusion I nor conclusion II follows  </p><p>D. If both the conclusions follow </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "56cf1133-d12a-4e36-8e43-5814dbd51666",
+                    "questionID": "ef837b4b-ac93-43d1-becd-a869640400db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>CChecking Conclusion I : No tube is bird.   As we can see that the middle term 'Sky' is not distributed even once in either S2 or S3, we can't define a relationship between the classes 'tube' and 'bird'. C1, hence, doesn't follow.   Checking Conclusion II : All birds being cubes is a possibility.   Since we can't define a relationship between the classes 'cube' and 'bird', possibilities between them do follow. C2, hence, follows here.   Option B is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "805b63fc-8f58-4352-bc79-042b68d15625",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: Study the following information carefully and answer the questions given beside.  </p><p>In a certain code language  </p><p> ‘life is not easy’ is written as ‘pq rt av ik’   </p><p>‘meet people in life’ is written as ’av mo la ny ‘  </p><p>‘people want easy things’ is written as ‘tp ha ik mo’ </p><p>‘your want is unlimited’ is written as ‘pq ax vy ha’.  </p><p><br></p><p>If the code for ‘life and us’ is ‘xy av ba’, then what is the code for ‘in and meet’ in the given code language? </p><p><br></p><p>A. ba la ny  </p><p>B. av xy ny  </p><p>C. ny xy la </p><p>D.  Either A or C </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f9ccd576-99ed-4d90-bbe9-85c9a599f134",
+                    "questionID": "805b63fc-8f58-4352-bc79-042b68d15625",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>On the basis of following common explanation we know that-   av → life (refer to equation (iv))   la/ ny → meet/ in (refer to equation (xii))   Now,   xy/ ba → and/ us……….(xiv)  The code given as option A 'ba la ny' or as option C 'ny xy la' is a possible set for the words 'in and meet'.   </p><p>Hence , option ‘E’ is the right choice. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "90527c54-ea11-4370-acd7-1d7b9f7c47ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: Study the following information carefully and answer the questions given beside.  </p><p>In a certain code language  </p><p> ‘life is not easy’ is written as ‘pq rt av ik’   </p><p>‘meet people in life’ is written as ’av mo la ny ‘  </p><p>‘people want easy things’ is written as ‘tp ha ik mo’ </p><p>‘your want is unlimited’ is written as ‘pq ax vy ha’.  </p><p><br></p><p>What does code ‘ha’ stands for? </p><p>A. want  B. life   C. easy   D. things </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "66367573-4ccb-4915-a5c6-fb6f001c9b32",
+                    "questionID": "90527c54-ea11-4370-acd7-1d7b9f7c47ad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>On the basis of following Common explanation, we can infer that the code ‘ha’ stands for want.   Hence, option ‘A’ is the correct choice. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f745b8c1-4d7b-4575-858c-06920342a6ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: Study the following information carefully and answer the questions given beside.  </p><p>In a certain code language  </p><p> ‘life is not easy’ is written as ‘pq rt av ik’   </p><p>‘meet people in life’ is written as ’av mo la ny ‘  </p><p>‘people want easy things’ is written as ‘tp ha ik mo’ </p><p>‘your want is unlimited’ is written as ‘pq ax vy ha’.  </p><p>What does code ‘la’ stands for? </p><p><br></p><p>A. meet  </p><p>B. in   </p><p>C. Either A or B </p><p>D. Can't be determined    </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9a736e37-47c8-4d4a-9e86-dac4abb1b299",
+                    "questionID": "f745b8c1-4d7b-4575-858c-06920342a6ad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>On the basis of following Common explanation, we can infer that the code ‘la’ stands for  either meet or in.  Hence, option ‘C’ is the correct choice. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "17ba729c-8bbb-414a-82df-02a2d13958f2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: Study the following information carefully and answer the questions given beside.  </p><p>In a certain code language  </p><p> ‘life is not easy’ is written as ‘pq rt av ik’   </p><p>‘meet people in life’ is written as ’av mo la ny ‘  </p><p>‘people want easy things’ is written as ‘tp ha ik mo’ </p><p>‘your want is unlimited’ is written as ‘pq ax vy ha’.  </p><p><br></p><p>What is the code for ‘things’? </p><p><br></p><p>A. ha   B. tp   C. mo   D. ik  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c3dbb72c-cf2a-4694-9513-6ceed3a22b19",
+                    "questionID": "17ba729c-8bbb-414a-82df-02a2d13958f2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>On the basis of following Common explanation, we can infer that the code for ‘things ‘ is tp.   Hence, option ‘B’ is the correct choice. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "30ab0b7b-3a5e-454a-8b59-82c1422e1254",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following arrangement carefully and answer the questions given below. </p><p>B <strong>C F E A </strong>U D C B F E D U C A B F E A U C D B F E A C F B E D </p><p><br></p><p>How many vowels are there in the above arrangement each of which is immediately followed by a consonant but not immediately preceded by a consonant? </p><p><br></p><p>A. None  B. One   C. Two   D. Three </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0778cf4e-b551-47bd-b5d3-d14befdd44b3",
+                    "questionID": "30ab0b7b-3a5e-454a-8b59-82c1422e1254",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Given Arrangement:   B C F E A U D C B F E D U C A B F E A U C D B F E A C F B E D   We need a vowel which must be immediately followed by a consonant but must not be preceded by a consonant.    B C F E A U D C B F E D U C A B F E A U C D B F E A C F B E D   Clearly, three such permutations are possible.  Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b5c04d38-fc47-4e5f-a77c-2605503540ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following arrangement carefully and answer the questions given below.  </p><p>B <strong>C F E A</strong> U D C B F E D U C A B F E A U C D B F E A C F B E D </p><p><br></p><p>If all the vowels are dropped from the above arrangement, which of the following will be the thirteenth from the left end of the above arrangement? </p><p>A. F   </p><p>B. B   </p><p>C. C  </p><p>D. D </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "e023c219-a09d-487e-ab54-3b4652bef944",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following arrangement carefully and answer the questions given below.  </p><p>B <strong>C F E A</strong> U D C B F E D U C A B F E A U C D B F E A C F B E D </p><p><br></p><p>How many such pairs of letters are there in the arrangement highlighted in bold (C to A), each of which has as many letters between them in the word (in both forward and backward directions) as they have between them in the English alphabetical order? </p><p><br></p><p>A. None  B. One   C. Two   D. Three  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2370a86a-aaed-4b60-9dda-051aff46b4d6",
+                    "questionID": "e023c219-a09d-487e-ab54-3b4652bef944",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Clearly, two such pairs are possible.  </p><p>Hence, option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d9f58610-080d-42b9-87ca-8f1352d70f51",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following arrangement carefully and answer the questions given below.  </p><p><br></p><p>B <strong>C F E A</strong> U D C B F E D U C A B F E A U C D B F E A C F B E D </p><p><br></p><p>How many meaningful English language words starting with F which are highlighted using the letters given in bold (C to A) in the above arrangement can be formed, using each letter only once?</p><p><br></p><p> A. None    B. One     C. Two     D. Three  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ff94acc4-0885-410a-90de-e46499f9304b",
+                    "questionID": "d9f58610-080d-42b9-87ca-8f1352d70f51",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p> Given letters: CFEA   Meaningful English Language Word (starting with F): FACE   Clearly, only 1 such word is possible.   Hence, option B is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "225ca6a5-a97e-443c-bb74-3b91401628c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the following information carefully and answer the questions given beside.  .</p><p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati.   </p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p>How many dishes were prepared in between Daal-Baati and Rasam-Rice? </p><p><br></p><p>A. 1   B. 2   C. 3   D. None </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "63591764-4d55-44f9-94e7-1098a81ff7d6",
+                    "questionID": "225ca6a5-a97e-443c-bb74-3b91401628c8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Following the common explanation, we have  1 dish was prepared in between Daal-Baati and Rasam-Rice.  Hence option A is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f617a2e0-2ec5-4ea2-9899-64b0e0342cbf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the following information carefully and answer the questions given beside.  </p><p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati.   </p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p>Which dish was prepared on Friday? </p><p>A. Hakka Noodles </p><p>B. Rasam-Rice  </p><p>C. Saundesh  </p><p>D. Daal-Baati </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0b10a467-4bf7-47fb-be2d-3725565c6440",
+                    "questionID": "f617a2e0-2ec5-4ea2-9899-64b0e0342cbf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Saundesh was prepared on friday.  Hence option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": false
+                }
+            ]
+        },
+        {
+            "id": "77b3addc-c98f-4de9-abd6-134c81813a19",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the following information carefully and answer the questions given beside.  </p><p>A multi cuisine restaurant prepares 7 dishes on 7 days of a week that starts from Sunday such that only one dish is prepared on one day. The 7 dishes were – Rasam – Rice, Hakka noodles, Paneer tikka , Saundesh , Dhokla , Kashmiri Pulao and Daal –Baati. </p><p>Kashmiri Pulao was prepared 2 days before Dhokla. Saundesh was prepared just after Rasam- Rice, which was not prepared before the third day of the week. Dhokla was prepared just after Daal-Baati, which was prepared after Paneer tikka. Paneer tikka was neither prepared just before Rasam-Rice nor on Tuesday. Hakka noodles was prepared after but not immediately after Dhokla. </p><p><br></p><p>How many dishes were prepared before Paneer tikka? </p><p>A. None  </p><p>B. 1   </p><p>C. 2   </p><p>D. 3  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3637557a-ecc3-47ee-aae3-0dc8057c117b",
+                    "questionID": "77b3addc-c98f-4de9-abd6-134c81813a19",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Paneer Tikka = <strong>Sunday</strong>, which is the <strong>first day</strong> of the week.</p><p><br></p><p>So, <strong>no dish was prepared before it</strong>.</p><p>✅ <strong>Correct answer: A. None</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6f248fd4-d3b4-4215-8bb7-e18d136d6942",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following information carefully and answer the questions given beside. </p><p><br></p><p>Certain number of persons are sitting around a circular table and facing towards the center of the table. Some of them own different cars. No two persons have same car.   Three persons are sitting between Thakur and the one, who owns Renault. Two persons are sitting between Thakur and Prince. Robert is sitting second to the left of Prince. Samuel is sitting second to the left of Robert. Samuel and Thakur are not the immediate neighbors. Qasim is sitting second to the right of Thakur. The one, who owns Ford, is sitting third to the left of Qasim. The one, who owns Hyundai, is sitting second to the left of the one, who owns Ford. Three persons are not sitting between the one, who owns Renault and the one, who owns Honda, when counted from the right of the one, who owns Honda. The one, who sits immediate left of Samuel, owns Honda. Number of persons sitting between Qasim and Prince, when counted from right of Prince is four times as the number of persons sitting between Samuel and Qasim, when counted from left of Samuel.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "9454f6f6-d66a-4bf2-9007-adde7e4a3266",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the given information carefully and answer the questions given beside: </p><p><br></p><p>In a family of 7 persons, there are only 3 females and three married couples. Each child has both the parents alive. The family members – A, B, C, D, E, F and G spent certain amounts in a month.&nbsp;&nbsp; B is the only son of G, who spent the third highest amount. A is not a female and spent an amount just lower than D’s husband. C is the father of two children of different genders one of them is D. E’s mother-in-law was the third highest spender. F is the aunt of A and spent the highest amount. The spendings of E were just lower than A’s uncle, who spent the fourth highest amount. C spent Rs. 4500, which is the second highest amount to be spent. </p><p><br></p><p>How is the lowest spender related to the highest spender? </p><p><br></p><p>A. Sister-in-law         B. Wife&nbsp;&nbsp;          C. Daughter&nbsp;         D. Daughter-in-law </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood Relation"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b4dfdeb5-824f-4d15-a9c1-16d6d2e17ae8",
+                    "questionID": "9454f6f6-d66a-4bf2-9007-adde7e4a3266",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>&nbsp;The lowest spender is the sister-in-law of the highest spender.&nbsp;&nbsp; Hence option A is correct. </strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7b31493d-7cef-4b15-9e6c-6468dbc5aa75",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the given information carefully and answer the questions given beside: </p><p><br></p><p>In a family of 7 persons, there are only 3 females and three married couples. Each child has both the parents alive. The family members – A, B, C, D, E, F and G spent certain amounts in a month.&nbsp;&nbsp; B is the only son of G, who spent the third highest amount. A is not a female and spent an amount just lower than D’s husband. C is the father of two children of different genders one of them is D. E’s mother-in-law was the third highest spender. F is the aunt of A and spent the highest amount. The spendings of E were just lower than A’s uncle, who spent the fourth highest amount. C spent Rs. 4500, which is the second highest amount to be spent. </p><p><br></p><p>Three of the following four are alike in a certain way and thus form a group. Which of the following does not belong to the group? </p><p><br></p><p><strong>A</strong>. E&nbsp;&nbsp;     <strong>B</strong>. B&nbsp;&nbsp;    <strong> C</strong>. G&nbsp;&nbsp;   <strong> D</strong>. A&nbsp;&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood Relation"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f929881d-3ce8-4075-ba7a-eef5eb560320",
+                    "questionID": "7b31493d-7cef-4b15-9e6c-6468dbc5aa75",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>G is the odd one out as rest are male members.&nbsp;&nbsp; Hence option C is correct.</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0557c5a-fbaf-4e17-a022-f03edfe44ee6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the given information carefully and answer the questions given beside: </p><p><br></p><p>In a family of 7 persons, there are only 3 females and three married couples. Each child has both the parents alive. The family members – A, B, C, D, E, F and G spent certain amounts in a month.&nbsp;&nbsp; B is the only son of G, who spent the third highest amount. A is not a female and spent an amount just lower than D’s husband. C is the father of two children of different genders one of them is D. E’s mother-in-law was the third highest spender. F is the aunt of A and spent the highest amount. The spendings of E were just lower than A’s uncle, who spent the fourth highest amount. C spent Rs. 4500, which is the second highest amount to be spent.</p><p><br></p><p>If G's son spent Rs. 2450, then what could be the possible amount spent by G? </p><p><br></p><p>A. Rs. 1450&nbsp;   B. Rs.3250&nbsp;    C. Rs. 2240&nbsp;    D. Rs. 1900&nbsp;</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood Relation"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "45f5d682-0fb9-47a1-9f41-3912a9b70e56",
+                    "questionID": "c0557c5a-fbaf-4e17-a022-f03edfe44ee6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>&nbsp;If G's son spent Rs. 2450 then the possible amount spent by G is Rs. 3250.&nbsp;&nbsp; Hence option B is correct. </strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f7cbde00-645d-4202-9726-f6287e3c1784",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the given information carefully and answer the questions given beside: </p><p><br></p><p>In a family of 7 persons, there are only 3 females and three married couples. Each child has both the parents alive. The family members – A, B, C, D, E, F and G spent certain amounts in a month.&nbsp;&nbsp; B is the only son of G, who spent the third highest amount. A is not a female and spent an amount just lower than D’s husband. C is the father of two children of different genders one of them is D. E’s mother-in-law was the third highest spender. F is the aunt of A and spent the highest amount. The spendings of E were just lower than A’s uncle, who spent the fourth highest amount. C spent Rs. 4500, which is the second highest amount to be spent.</p><p><br></p><p>What could be the possible amount of expenditure done by F? </p><p><br></p><p>A. Rs. 3200&nbsp;   B. Rs. 4050&nbsp;    C. Rs. 4550&nbsp;   D. Rs. 4200&nbsp;</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood Relation"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0758b4e6-1c1a-4ddd-8da6-c3ff12a95f8d",
+                    "questionID": "f7cbde00-645d-4202-9726-f6287e3c1784",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>The possible expenditure by F could be Rs. 4550&nbsp;&nbsp;</strong></p><p><strong>Hence option C is correct.</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a08daf2-5699-4f54-95af-541124c4ffd2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Read the given information carefully and answer the questions given beside: </p><p><br></p><p>In a family of 7 persons, there are only 3 females and three married couples. Each child has both the parents alive. The family members – A, B, C, D, E, F and G spent certain amounts in a month.&nbsp;&nbsp; B is the only son of G, who spent the third highest amount. A is not a female and spent an amount just lower than D’s husband. C is the father of two children of different genders one of them is D. E’s mother-in-law was the third highest spender. F is the aunt of A and spent the highest amount. The spendings of E were just lower than A’s uncle, who spent the fourth highest amount. C spent Rs. 4500, which is the second highest amount to be spent.</p><p><br></p><p>How is the second highest spender related to the second lowest spender? </p><p><br></p><p>A. Father&nbsp;&nbsp; B. Maternal grandfather&nbsp; C. Paternal Uncle&nbsp;&nbsp; D. Can't be determined </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood Relation"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8d6ef5d2-fa7d-497e-9ea8-165ea554fe49",
+                    "questionID": "5a08daf2-5699-4f54-95af-541124c4ffd2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>dfvdvd</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "24560d5c-6fed-4998-834f-9ca2983156b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five persons – Ankit, Sumit, Dinesh, Nitin and Kapil, each having a different height such that Ankit is taller than Nitin and Kapil. Dinesh is shorter than only Sumit. Nitin is taller than Kapil.  Who among the following is third tallest? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Dinesh</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> Ankit</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Sumit </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> Kapil </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order and Ranking"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "506f77dc-ade2-4ce4-bc76-23ac7594a68f",
+                    "questionID": "24560d5c-6fed-4998-834f-9ca2983156b2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Reference: Ankit is taller than Nitin and Kapil.  Nitin is taller than Kapil.   Inference: After using the above hints, we have:   Order of Height: Ankit &gt; Nitin &gt; Kapil   Reference: Dinesh is shorter than only Sumit.   Inference: After using the above hints, we have:   Order of Height: Sumit &gt; Dinesh &gt; Ankit &gt; Nitin &gt; Kapil </p><p><br></p><p>Following the final solution, we can say that Ankit is third tallest.  Hence, the correct answer is option B. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "49381327-fb8a-4762-95f7-5fbc5ed09029",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five persons – Ankit, Sumit, Dinesh, Nitin and Kapil, each having a different height such that Ankit is taller than Nitin and Kapil. Dinesh is shorter than only Sumit. Nitin is taller than Kapil. </p><p><br></p><p>If the height of Nitin is 154 cm then what could be the height of Kapil? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> 150cm </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> 156cm </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> 172cm </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> 164cm </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Order and Ranking"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "89da8b5e-5149-49d0-b7ef-df2768fb9be1",
+                    "questionID": "49381327-fb8a-4762-95f7-5fbc5ed09029",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Reference: Ankit is taller than Nitin and Kapil.  Nitin is taller than Kapil.   Inference: After using the above hints, we have:   Order of Height: Ankit &gt; Nitin &gt; Kapil   Reference: Dinesh is shorter than only Sumit.   Inference: After using the above hints, we have:   Order of Height: Sumit &gt; Dinesh &gt; Ankit &gt; Nitin &gt; Kapil </p><p><br></p><p>Following the final solution, we can say that if the height of Nitin is 154 cm then the height of Kapil can be 150 cm.  Hence, the correct answer is option A. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ef1cea22-e0aa-407f-8dc8-c5a4138e81b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Look carefully for the pattern, and then choose which pair of numbers comes next.</p><p>28 25 5 21 18 5 14</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>11 5</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10 7</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>11 8 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>5 10</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f24c1357-3d54-48f6-8115-7eb57840ee1c",
+                    "questionID": "ef1cea22-e0aa-407f-8dc8-c5a4138e81b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">This is an alternating subtraction series with the interpolation of a random number, 5, as every third number. In the subtraction series, 3 is subtracted, then 4, then 3, and so on.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c542c6cb-de56-4807-a5e6-094a0e79f053",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>3</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>3.3</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3.5</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3.6</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "644e95c4-c27c-4190-9fc2-6a61b5c260a9",
+                    "questionID": "c542c6cb-de56-4807-a5e6-094a0e79f053",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>In this simple subtraction series, each number decreases by 0.4.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "00274a0f-a84b-4cd8-807a-f3b753ecbf2b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">Look at this series: 80, 10, 70, 15, 60, ... What number should come next?</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>20</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>25</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>30</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>50</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ef81298a-e8f9-42c2-9213-5daf9786c9e2",
+                    "questionID": "00274a0f-a84b-4cd8-807a-f3b753ecbf2b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">This is an alternating addition and subtraction series. In the first pattern, 10 is subtracted from each number to arrive at the next. In the second, 5 is added to each number to arrive at the next.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "598f3ead-1938-485d-9e6a-af577edc1ada",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a certain code language, </p><p> ‘Happiness Build Upon Ourself’ is written as ‘E8L R10S M3F C6Y’ </p><p>‘Beginnings Are Always Messy’ is written as ‘D4Z R9Y X6N R5Z’</p><p> ‘Never Doubt Your Instinct’ is written as ‘Q6M S7R Q3B S6W’</p><p> ‘Learn Something New Everyday’ is written as ‘F10H V4M X7V M6O’ </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Coding and Decoding"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "d648b30b-073e-4285-bdc8-7a4be2f06778",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In each question given below are given three statements followed by four conclusions.  You have to take the given statements to be true even if they seem to be at variance with commonly known facts and judge the conclusions on the basis of it. Choose the options based on the conclusions chosen.</p><p> Statements:  (i) Some goats are cats.</p><p>                           (ii) Some pens are boxes.</p><p>                           (iii) Some cats are animals.  </p><p><br></p><p>Conclusion: I. Some goats are pens.</p><p>                        II. Some goats are animals</p><p>                        III. Some pens are animals.</p><p>                        IV.  Some animals are either goats or pens</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>None follows </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only IV follows</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and II follow </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only I, II and III follow</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b4f21062-3cd0-425a-a0cb-9439e6c6d7e8",
+                    "questionID": "d648b30b-073e-4285-bdc8-7a4be2f06778",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p> from venn diagram, we can see that none of the conclusion follows. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "45b4eb0f-d9bc-483b-a064-686f5b0203ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In each question given below are given three statements followed by four conclusions.  You have to take the given statements to be true even if they seem to be at variance with commonly known facts and judge the conclusions on the basis of it. Choose the options based on the conclusions chosen.</p><p> Statements:  (i) Some books are intelligent. </p><p>                           (ii) No intelligent is wise.</p><p>                           (iii) Some wise are wind. </p><p><br></p><p>Conclusion: I. Some books are not wind.</p><p>                        II. Some books are not wise.</p><p>                        III. Some wind is not intelligent.</p><p>                        IV. Some wise are not books.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I and either II or IV follow</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only III follows</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II and III follow</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II, III and IV follow</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5e9faac5-bc9c-45dd-8efc-7b0fd83300f0",
+                    "questionID": "45b4eb0f-d9bc-483b-a064-686f5b0203ed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>from venn diagram, we can see that only II and III follows. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "55be7d5d-b81b-4bd1-be5a-04767c4c707a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In each question given below are given three statements followed by four conclusions.  You have to take the given statements to be true even if they seem to be at variance with commonly known facts and judge the conclusions on the basis of it. Choose the options based on the conclusions chosen.</p><p> Statements:  (i) All boys are pens.  </p><p>                           (ii) Some toys are pens.  </p><p>                           (iii) All pots are toys.    </p><p><br></p><p>Conclusion: I. All pens are pots.    </p><p>                        II. Some boys are toys.    </p><p>                        III. Some pots are boys.    </p><p>                        IV. Only pots are toys. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I, II and IV follow</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II, III and IV follow </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only II and III follow</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Syllogism"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f7a09a98-af59-4d93-86eb-f6dd256bc9ab",
+                    "questionID": "55be7d5d-b81b-4bd1-be5a-04767c4c707a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>From  venn diagram, we can see that none of the conclusion follows.  </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "308238ee-8f0b-4555-98b2-94df0589e07e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> X introduces Y saying, “He is the husband of the granddaughter of the father of my father. How is Y related to X? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Brother</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Son</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Brother-in-law</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Son-in-law</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood Relation"
+            ],
+            "complexityLevel": 10,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "05b041c2-59f3-4ed9-97d1-f50dd036fa7f",
+                    "questionID": "308238ee-8f0b-4555-98b2-94df0589e07e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The father of X’s father is his grandfather. Moreover, X and the granddaughter mentioned in the question are siblings. Hence her husband i.e. Y is the brother-in-law of X.  Correct option is (c) </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "27466a92-7443-4efc-b03e-85c850e80628",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>M, N, O and P are all distinct individuals. Following points give the details of their relationship: </p><p>I. M is the daughter of N. </p><p>II. N is the son of O. </p><p>III. O is the father of P.</p><p>Which of the following statements is true? </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>O is the uncle of M. </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>P and N are brothers.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> M is the daughter of P. </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> If B is the daughter of N, then M and B are sisters. </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood Relation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "3059aa08-2840-4715-ad7b-1a1e0faec729",
+                    "questionID": "27466a92-7443-4efc-b03e-85c850e80628",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>As from the three statements it is clear that O is the grandfather of M and is the father of P and N. So, the first option is wrong. The gender of P is not known so we can’t say that P and N are brothers. Thus the second option is also invalid.   As M is the niece of P hence cannot be the daughter of P, so third option is also incorrect.   Now if B is the daughter of N, then N will have two children M and B, both of which are females, thus will be sisters. Hence the fourth option is correct.  Correct option is (d) </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "10247464-0668-4c44-ab47-910c95ef83c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A $ B means B is the father of A</p><p>A # B means B is the mother of A</p><p>A &amp; B means B is the sister of A  </p><p>A @ B means B is the husband of A </p><p>Which of the following indicates that N is the grandmother of P? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>P &amp; Q # M $ N</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>P @ Q $ M # N</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>P # Q $ N &amp; M</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>None of these</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Blood relations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "65bd8a3e-7e28-4908-ab5e-3090b66c971e",
+                    "questionID": "10247464-0668-4c44-ab47-910c95ef83c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p> From the first expression P is the maternal aunt of M, who is the father of N. Thus, P is the grandmother of N.   The second option says that P is the husband of Q and Q is the father of M, which is not possible because if P and Q is a couple then both of them cannot be males.   Third expression states that P is the mother of Q and Q is the father of N, hence P is the grandmother of N, not vice versa.  Hence none of the given options is correct.  Correct option is (d)</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1b4f58c5-12ae-4e63-95a0-373c078e8a0f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A, P, R, X, S and Z are sitting in a row S and Z are in the center and A and P are at the ends. R is sitting on the left of A. Then who is sitting on the right of P?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>S</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>X</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Z</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 10,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b441f5ce-5fad-4cea-a559-8d28954f6b54",
+                    "questionID": "1b4f58c5-12ae-4e63-95a0-373c078e8a0f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>A and P are at the ends. Since R is to the left of A, A must be on the right end (position 6), and P on the left (position 1). S and Z are in the center (positions 3 and 4), and the remaining person X is at position 2.</p><p><strong>Person to the right of P (position 1) is X (position 2).</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "616aabbe-6128-4685-a6df-dfaf10cfbbef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the following passage and solve the questions based on it. </p><p><br></p><p>Five leaders from undivided India—Pt Nehru (P), M.K. Gandhi (M), Rajendra Prasad (R), Subhash Chandra Bose (S) and Tyagi (T) participated during the 2nd Round Table Conference at London in 1930. It was noted that  Pt Nehru sat two seats to the left of Rajendra Prasad and M.K. Gandhi sat two seats to the right of Rajendra Prasad. </p><p><br></p><p> If Subhash Chandra Bose did not sit next to M. K. Gandhi, then who sat between M K Gandhi and Subhash Chandra Bose? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Rajendra Prasad </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Pt Nehru</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> Tyagi </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Cannot be determined </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "61a7d954-893b-42b7-9e74-54ebccab933f",
+                    "questionID": "616aabbe-6128-4685-a6df-dfaf10cfbbef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Using the data draw diagram :  If Subhash Chandra Bose did not sat next to M K Gandhi.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f25725c-819a-44e6-b2e0-ae0da4f56e91",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Read the following passage and solve the questions based on it.</p><p> Five leaders from undivided India—Pt Nehru (P), M.K. Gandhi (M), Rajendra Prasad (R), Subhash Chandra Bose (S) and Tyagi (T) participated during the 2nd Round Table Conference at London in 1930. It was noted that  Pt Nehru sat two seats to the left of Rajendra Prasad and M.K. Gandhi sat two seats to the right of Rajendra Prasad. </p><p><br></p><p>If Subhash Chandra Bose sat between M. K. Gandhi and Rajendra Prasad, then who sat to the immediate right of Pt Nehru?  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Tyagi</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Subhash Chandra Bose </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>M.K. Gandhi </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Rajendra Prasad </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Seating Arrangement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "28216cff-2d04-4118-be9c-793483cd75df",
+                    "questionID": "2f25725c-819a-44e6-b2e0-ae0da4f56e91",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint:  If Subhash Chandra Bose sat between M. K. Gandhi and Rajendra Prasad. Draw diagram with given information and you can see that Tyagi sat to the immediate right of Pt Nehru.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

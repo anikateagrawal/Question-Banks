@@ -1,0 +1,1435 @@
+{
+    "bank_id": "4c56cc0f-df83-4b57-becd-101fd8278fb4",
+    "bank_name": "WEEK-2-SET-2",
+    "questions": [
+        {
+            "id": "8cafd6d7-8916-4c73-9521-afef54229886",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction :A part of the sentence highlighted below is given alternatives to the underlined part at (a), (b), (c) and (d) which may improve the sentence, choose the correct alternative and mark your answer in the answer sheet.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "It is reliable to learn that there is not substantial evidence to prove his innocence.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "is reliably learnt  ",
+                    "type": "A"
+                },
+                {
+                    "body": "reliably to learn ",
+                    "type": "B"
+                },
+                {
+                    "body": "was reliable to learn ",
+                    "type": "C"
+                },
+                {
+                    "body": "has been reliable learning",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "bbc274fa-7782-4ab5-bb56-8e66bf4710c0",
+                    "questionID": "8cafd6d7-8916-4c73-9521-afef54229886",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It is clear that the writer of the sentence is mentioning a past sentence hence the verb used in the phrase should be in the past participle.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "73210b74-7a8a-4a1d-a03f-4acd34cda005",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction :A part of the sentence highlighted below is given alternatives to the underlined part at (a), (b), (c) and (d) which may improve the sentence, choose the correct alternative and mark your answer in the answer sheet.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "The modifications made by them in the draft were so drastic that the entire emphasis had been shifted.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "shall have been shifted  ",
+                    "type": "A"
+                },
+                {
+                    "body": "had shifted  ",
+                    "type": "B"
+                },
+                {
+                    "body": "was being shifted  ",
+                    "type": "C"
+                },
+                {
+                    "body": "had been shifted",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "90e1df77-e0e4-4ee3-8af5-3add3db88ffc",
+                    "questionID": "73210b74-7a8a-4a1d-a03f-4acd34cda005",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "As the given sentence is in past perfect tense hence change ‘had been shifted’ with ‘had shifted’.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "db9696c2-26cb-4e03-b105-a82da203c44c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction :A part of the sentence highlighted below is given alternatives to the underlined part at (a), (b), (c) and (d) which may improve the sentence, choose the correct alternative and mark your answer in the answer sheet.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "By contrast the construction of great temples which had seemingly have presented great engineering difficulties, was relatively easy.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "had seemingly been presented",
+                    "type": "A"
+                },
+                {
+                    "body": "had been seemed present",
+                    "type": "B"
+                },
+                {
+                    "body": "was seemingly presented ",
+                    "type": "C"
+                },
+                {
+                    "body": "would seemingly have presented",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "60a140ee-7896-4d2c-949b-4f87d2c53d9d",
+                    "questionID": "db9696c2-26cb-4e03-b105-a82da203c44c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;...which would seemingly have presented great engineering difficulties...&#34;\nThis fits the context well: suggesting that building temples looked like it would have been very difficult, but in reality, it wasn’t.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ff88af2c-f87d-48a3-96c6-fc874ff71c15",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction for question: \nEach question below has two blanks. There are five pairs of words below the sentence. Each pair is lettered. Choose the pair of words which can be filled up in the blanks in the sentence in the same order so as to complete the sentences meaningfully.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "The Union cabinet on Wednesday _____________  a proposal for the complete electrification of Indian Railways in the next four years, reducing dependance on imported fossil fuel and saving revenue for the national _____________.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "postponed, railways",
+                    "type": "A"
+                },
+                {
+                    "body": "approved, carrier ",
+                    "type": "B"
+                },
+                {
+                    "body": "discussed, transport ",
+                    "type": "C"
+                },
+                {
+                    "body": "told, railways",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "58c94c3a-11c5-4edb-b2d3-ed6e04151e6f",
+                    "questionID": "ff88af2c-f87d-48a3-96c6-fc874ff71c15",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The phrase ‘reducing dependence on imported fossil fuel…’ suggests that the proposal was approved. For the second blank, the appropriate words are ‘carrier’ and ‘railways’.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0a4cedd6-af27-44d5-b40f-e7d79bfb6ce4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction for question: \nEach question below has two blanks. There are five pairs of words below the sentence. Each pair is lettered. Choose the pair of words which can be filled up in the blanks in the sentence in the same order so as to complete the sentences meaningfully.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "On Monday, the government _____________ that it would merge Bank of Baroda (Bank of Baroda), Vijaya Bank and Dena Bank to form the third largest _____________ in India.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "announced, lender",
+                    "type": "A"
+                },
+                {
+                    "body": "decided, investor ",
+                    "type": "B"
+                },
+                {
+                    "body": "decided, retailor ",
+                    "type": "C"
+                },
+                {
+                    "body": "sought, bank",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "50c1cc29-8e1b-4e37-b899-761cecda99d2",
+                    "questionID": "0a4cedd6-af27-44d5-b40f-e7d79bfb6ce4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Kindly focus on the clause ‘it (government) would merge Bank of Baroda, Vijaya Bank and Dena Bank to form the third largest ______ in India’. Three banks would be merged to give a larger bank. Notice that the word ‘lender’ is a synonym for the word ‘bank’. For the first blank, both ‘announced’ and ‘decided’ are appropriate.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "975da30d-20b4-41f3-a114-8cf88c89906c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction for question: \nEach question below has two blanks. There are five pairs of words below the sentence. Each pair is lettered. Choose the pair of words which can be filled up in the blanks in the sentence in the same order so as to complete the sentences meaningfully.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Solar capacity installations _____________  the country is at 25,000 megawatts (MW), or _____________ of the 2022 target of 100,000 MW, according to Mercom India research.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "on, one-eighth ",
+                    "type": "A"
+                },
+                {
+                    "body": " in, one-fourth",
+                    "type": "B"
+                },
+                {
+                    "body": "below, two-third",
+                    "type": "C"
+                },
+                {
+                    "body": "at, excessive",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "849f696e-51b5-4df8-8200-bb24f9609d6d",
+                    "questionID": "975da30d-20b4-41f3-a114-8cf88c89906c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The context of the sentence suggests that the blank would be filled by a preposition to impart a correct relationship between ‘Solar capacity installations is at 25,000 megawatts (MW)’ and ‘the country’. The phrase ‘______ the country’ is behaving as an adverb-phrase. Among the given alternatives for the first blank, the correct preposition to be used is ‘in’",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1ff05f4f-5b0b-4783-8917-b9e8a35ad7bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction for question: \nEach question below has two blanks. There are five pairs of words below the sentence. Each pair is lettered. Choose the pair of words which can be filled up in the blanks in the sentence in the same order so as to complete the sentences meaningfully.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Jet Airways (India) Ltd _____________ it would _____________ its 49% stake in Jet Privilege Pvt. Ltd, the frequent-flyer loyalty programme subsidiary.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "walked, sell ",
+                    "type": "A"
+                },
+                {
+                    "body": "slept, eat",
+                    "type": "B"
+                },
+                {
+                    "body": "asserted, play ",
+                    "type": "C"
+                },
+                {
+                    "body": "said, monetize",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7232f8d6-e1cd-4463-a1eb-a4d9f7abcd4f",
+                    "questionID": "1ff05f4f-5b0b-4783-8917-b9e8a35ad7bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The word ‘manages’ for the second blank doesn’t impart complete sense to the sense, but an incomplete sense. Jet Airways would manage its 49% stake… If the stakes were already belonged to Jet Airways, what is the need to state that it would manages its own stake. That’s already understood.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0eabe805-f04d-4efe-ab1c-5b965b494186",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction for question: \nEach question below has two blanks. There are five pairs of words below the sentence. Each pair is lettered. Choose the pair of words which can be filled up in the blanks in the sentence in the same order so as to complete the sentences meaningfully.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "With just three months left in state assembly elections, Rashtriya Swayamsevak Sangh (RSS) Sarsanghchalak Dr Mohan Rao Bhagwat will be on a 10day _____________ of Rajasthan where he will _____________ in Jodhpur, Nagaur and Jaipur.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "pleasure, stay ",
+                    "type": "A"
+                },
+                {
+                    "body": "stay, sleep",
+                    "type": "B"
+                },
+                {
+                    "body": "tour, camp",
+                    "type": "C"
+                },
+                {
+                    "body": "running, run",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bb6faeed-cf40-4136-9d5e-4dea07957a47",
+                    "questionID": "0eabe805-f04d-4efe-ab1c-5b965b494186",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The context of the sentence suggests that RSS Sarsanghchalak will be visiting Rajasthan where he stay there for day",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "747e72bd-8c2c-47d0-bd75-d46b11845011",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read each sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Epson is one (a)/ of the most (b)/respected manufacturer (c)/in the print market (d)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "C",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8fe79a56-7c8a-40d4-8934-485737ee6292",
+                    "questionID": "747e72bd-8c2c-47d0-bd75-d46b11845011",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "‘Manufacturer’ should be replaced by ‘manufacturers’ The phrase &#34;one of the&#34; is always a plural noun, whereas use of verbs as singular or plural will entirely depend upon the subject of the statement, i.e. singular verb for singular subject and plural verb for plural subject.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0c608e82-5070-4300-921e-9fba408735f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read each sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "A lot of companies (a)/in Tripura have (b)/now been(c)/ focused on branding(d)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "C",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "23ada5de-25c3-4f96-a58e-92769c54858c",
+                    "questionID": "0c608e82-5070-4300-921e-9fba408735f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "‘Focused’ should be replaced by ‘focusing’  “Have Been + Past Participle” also known as the Present Perfect Progressive or Present Perfect Continuous. It is used for an activity that started in the past and still continues to the present.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "586a4151-4708-47a6-9757-d8683918a074",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "There is a cube in which one pair of adjacent faces is painted black; the second pair of adjacent faces is painted blue and the third pair of adjacent faces is painted green. This cube is now cut into 216 smaller and identical cubes.\nHow many small cubes will be there with only one face painted black",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "36 ",
+                    "type": "A"
+                },
+                {
+                    "body": "32 ",
+                    "type": "B"
+                },
+                {
+                    "body": "64 ",
+                    "type": "C"
+                },
+                {
+                    "body": "48",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c7c6534b-a5cd-40fc-a221-1d0003fff4ac",
+                    "questionID": "586a4151-4708-47a6-9757-d8683918a074",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Updated question with corrected and consistent options:\nThere is a cube in which one pair of adjacent faces is painted black; the second pair of adjacent faces is painted blue, and the third pair of adjacent faces is painted green. This cube is now cut into 216 smaller and identical cubes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6c83f54-cdbe-4018-a9de-26ae101882e7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "There is a cube in which one pair of adjacent faces is painted black; the second pair of adjacent faces is painted blue and the third pair of adjacent faces is painted green. This cube is now cut into 216 smaller and identical cubes.\nHow many small cubes will be there with at least two different colours on their faces",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "64 ",
+                    "type": "A"
+                },
+                {
+                    "body": "56 ",
+                    "type": "B"
+                },
+                {
+                    "body": "33 ",
+                    "type": "C"
+                },
+                {
+                    "body": "44",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "524f3fdc-2056-4318-9fbc-d224af28f6b8",
+                    "questionID": "d6c83f54-cdbe-4018-a9de-26ae101882e7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Total small cubes = 6×6×6 = 216.\nCubes with 3 colors = 8 (at corners).\nCubes with 2 colors = 12 edges × 4 (excluding corners) = 48.\nSo, total with at least 2 colors = 8 + 48 = 56.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1443f42-89b8-4807-b462-a7f3439a74c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "There is a cube in which one pair of adjacent faces is painted black; the second pair of adjacent faces is painted blue and the third pair of adjacent faces is painted green. This cube is now cut into 216 smaller and identical cubes.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "  How many small cubes will be there with no black paint at all",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "144 ",
+                    "type": "A"
+                },
+                {
+                    "body": "150 ",
+                    "type": "B"
+                },
+                {
+                    "body": "125 ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "family"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f810f523-5a8c-41c1-b042-2a32b39ad232",
+                    "questionID": "f1443f42-89b8-4807-b462-a7f3439a74c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "There are 2 adjacent faces which are painted black, so all the small cubes which are formed on these 2 adjacent faces will have black colour at 1 face or 2 faces (which are formed on edge where these adjacent black faces intersect). On each face there are n2 = 62 = 36 small cubes. So, there must be total 2 × 36 = 72 small cubes with black colour in 1 face or 2 faces. But, 6 cubes (which are having 2 black coloured faces are counted twice). So, there are such 72 – 6 = 66 small cubes. There are total 216 small cubes. Therefore, the small cubes with no black colour at all = 216 – 66 = 150.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "220afba6-71e5-4acb-a2b1-4dc5eb1698fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Statements:\n (i) Some channels are mobiles.   \n (ii) Some mobiles are computers.    \n(iii) Some computers are stations. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Conclusions: \nI. Some stations are channels.   \n II. Some mobiles are stations.   \n III. Some computers are channels.    \nIV. All channels are stations.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "None follows  ",
+                    "type": "A"
+                },
+                {
+                    "body": "Only I and II follow ",
+                    "type": "B"
+                },
+                {
+                    "body": "Only I, II and III follow ",
+                    "type": "C"
+                },
+                {
+                    "body": "Only II and III follow",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "a5a3efbe-ab13-47bb-9561-9c78b9168c71",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Gyan Prakash left for his college in his car. He drove 15 km towards north and then 10 km towards west. He then turned to the south and covered 5 km.  Further, he turned to the east and moved 8 km. Finally, he turned right and drove 10 km. how far and in which direction is he from his starting point",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 km West ",
+                    "type": "A"
+                },
+                {
+                    "body": "5 km East ",
+                    "type": "B"
+                },
+                {
+                    "body": "3 km North ",
+                    "type": "C"
+                },
+                {
+                    "body": "6 km South",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1503ce70-6eeb-4e90-8211-a981d691923d",
+                    "questionID": "a5a3efbe-ab13-47bb-9561-9c78b9168c71",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Gyan Prakash drove 15 km from A to B northwards and then 10 km from B to C towards west. He then moves 5 km southwards from C to D and 8 km eastwards up to E. Finally, he turned right and moved 10 km up to F. So we can conclude that A and F lie in the same straight line and F lies to the west of A. Hence Gyan Prakash’s distance from the starting point A = AT = (BC – DE) = (10 – 8) km = 2 km",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a8970954-d675-4bb9-b62a-c6a363a1ae08",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions: Read the following passage and solve the questions based on it. \nA resort has 6 rooms—A, B, C, D, E and F.   Rooms ‘A’ and ‘C’ can accommodate two persons each; the rest can accommodate only one person each.\n (ii) Eight persons P, Q, R, S, T, U, W and X are to live in these rooms. Q, T, and X are females while the rest are males. Persons of different genders can’t be put together in the same room. \nNo man is willing to live in room C or F. \n (iv) P wants to live alone but doesn’t want to live in room B or D. \n (v) S needs a partner but is not ready to live with either U  or W. \n (vi) X does not want to share her room.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Read the information given below and solve the questions based on it. M, N, O and P are all distinct individuals. Following points give the details of their relationship: I. M is the daughter of N.  II. N is the son of O.  III. O is the father of P. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which of the following statements is true",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O is the uncle of M. ",
+                    "type": "A"
+                },
+                {
+                    "body": "P and N are brothers.",
+                    "type": "B"
+                },
+                {
+                    "body": "M is the daughter of P.  ",
+                    "type": "C"
+                },
+                {
+                    "body": "If B is the daughter of N, then M and B are sisters.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Puzzel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0710a762-7b3e-4450-bc99-008c6966b6d6",
+                    "questionID": "a8970954-d675-4bb9-b62a-c6a363a1ae08",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If B is the daughter of N, then M and B are sisters.\nAs from the three statements it is clear that O is the grandfather of M and is the father of P and N. So, the first option is wrong.\nThe gender of P is not known so we can’t say that P and N are brothers. Thus the second option is also invalid.   As M is the niece of P hence cannot be the daughter of P, so third option is also incorrect.   Now if B is the daughter of N, then N will have two children M and B, both of which are females, thus will be sisters. Hence the fourth option is correct.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b1f6a2b4-d8d7-4e0a-a7d3-3e6a605011da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions: Read the following passage and solve the questions based on it. \nA resort has 6 rooms—A, B, C, D, E and F.   Rooms ‘A’ and ‘C’ can accommodate two persons each; the rest can accommodate only one person each.\n (ii) Eight persons P, Q, R, S, T, U, W and X are to live in these rooms. Q, T, and X are females while the rest are males. Persons of different genders can’t be put together in the same room. \nNo man is willing to live in room C or F. \n (iv) P wants to live alone but doesn’t want to live in room B or D. \n (v) S needs a partner but is not ready to live with either U  or W. \n (vi) X does not want to share her room.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "X will live in which of the following rooms",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "C  ",
+                    "type": "A"
+                },
+                {
+                    "body": "F ",
+                    "type": "B"
+                },
+                {
+                    "body": "B  ",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot be determined",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Puzzel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7c477945-5b44-4fe1-bd86-2b56b09d00ab",
+                    "questionID": "b1f6a2b4-d8d7-4e0a-a7d3-3e6a605011da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Room:    A    -    B      -     C         D          E          F\nPerson: S,R  -  U/W  -   Q,T  -  W/U     P          X",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fde77dbc-1bed-424c-a209-95ce79a50d03",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions: Read the following passage and solve the questions based on it. \nA resort has 6 rooms—A, B, C, D, E and F.   Rooms ‘A’ and ‘C’ can accommodate two persons each; the rest can accommodate only one person each.\n (ii) Eight persons P, Q, R, S, T, U, W and X are to live in these rooms. Q, T, and X are females while the rest are males. Persons of different genders can’t be put together in the same room. \nNo man is willing to live in room C or F. \n (iv) P wants to live alone but doesn’t want to live in room B or D. \n (v) S needs a partner but is not ready to live with either U  or W. \n (vi) X does not want to share her room.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "In which of the following rooms will U live",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "B  ",
+                    "type": "A"
+                },
+                {
+                    "body": "D ",
+                    "type": "B"
+                },
+                {
+                    "body": "A  ",
+                    "type": "C"
+                },
+                {
+                    "body": "B or D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Puzzel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4eb2521a-8f94-4cc6-82fd-693e0737ebad",
+                    "questionID": "fde77dbc-1bed-424c-a209-95ce79a50d03",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Room:    A    -    B      -     C         D          E          F\nPerson: S,R  -  U/W  -   Q,T  -  W/U     P          X",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b6629c88-ac98-4143-ac23-9dc3f50406f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions: Read the following passage and solve the questions based on it. \nA resort has 6 rooms—A, B, C, D, E and F.   Rooms ‘A’ and ‘C’ can accommodate two persons each; the rest can accommodate only one person each.\n (ii) Eight persons P, Q, R, S, T, U, W and X are to live in these rooms. Q, T, and X are females while the rest are males. Persons of different genders can’t be put together in the same room. \nNo man is willing to live in room C or F. \n (iv) P wants to live alone but doesn’t want to live in room B or D. \n (v) S needs a partner but is not ready to live with either U  or W. \n (vi) X does not want to share her room.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which of the given statements is not needed to complete the living arrangement so far",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ii ",
+                    "type": "A"
+                },
+                {
+                    "body": "iv ",
+                    "type": "B"
+                },
+                {
+                    "body": "v ",
+                    "type": "C"
+                },
+                {
+                    "body": "All are necessary",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "seating"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e787dfcc-1548-4f2c-ad5b-e7279f0b5e27",
+                    "questionID": "b6629c88-ac98-4143-ac23-9dc3f50406f9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Room:    A    -    B      -     C         D          E          F\nPerson: S,R  -  U/W  -   Q,T  -  W/U     P          X",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "aad7761b-df92-4ef1-a659-9d1dcedbadde",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions: Read the following passage and solve the questions based on it. \nA resort has 6 rooms—A, B, C, D, E and F.   Rooms ‘A’ and ‘C’ can accommodate two persons each; the rest can accommodate only one person each.\n (ii) Eight persons P, Q, R, S, T, U, W and X are to live in these rooms. Q, T, and X are females while the rest are males. Persons of different genders can’t be put together in the same room. \nNo man is willing to live in room C or F. \n (iv) P wants to live alone but doesn’t want to live in room B or D. \n (v) S needs a partner but is not ready to live with either U  or W. \n (vi) X does not want to share her room.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Who among the following will live in room E",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "U  ",
+                    "type": "A"
+                },
+                {
+                    "body": "W ",
+                    "type": "B"
+                },
+                {
+                    "body": "P  ",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot be determined",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "seating"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3bf72f47-6f05-48dc-97d0-b726a0095de9",
+                    "questionID": "aad7761b-df92-4ef1-a659-9d1dcedbadde",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Room:    A    -    B      -     C         D          E          F\nPerson: S,R  -  U/W  -   Q,T  -  W/U     P          X",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1c4a1526-5ac9-4399-bc8f-a2ea32878e7a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The average of 8 numbers is 14. The average of 6 of these numbers is 16. What is the average of the remaining two numbers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "12 ",
+                    "type": "A"
+                },
+                {
+                    "body": "6 ",
+                    "type": "B"
+                },
+                {
+                    "body": "8 ",
+                    "type": "C"
+                },
+                {
+                    "body": "10",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7c0e3f51-b64e-4369-ae0c-8e149aa2acd2",
+                    "questionID": "1c4a1526-5ac9-4399-bc8f-a2ea32878e7a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Total of 8 numbers = 8 × 14 = 112  \nTotal of 6 numbers = 6 × 16 = 96  \nSum of remaining 2 numbers = 112 - 96 = 16  \nAverage of remaining 2 numbers = 16 ÷ 2 = 8",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "814d3c0a-6d35-4eef-b196-54ef94abd690",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The sum of five consecutive odd numbers is equal to 175. What is the sum of the second largest number and the square of the smallest number amongst them together",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "989 ",
+                    "type": "A"
+                },
+                {
+                    "body": "997",
+                    "type": "B"
+                },
+                {
+                    "body": "979 ",
+                    "type": "C"
+                },
+                {
+                    "body": "998",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "dc13cfdc-125d-41e1-88f0-3fbee6a4a11e",
+                    "questionID": "814d3c0a-6d35-4eef-b196-54ef94abd690",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the five consecutive odd numbers be:\n(x−4), (x−2), x, (x+2), (x+4)\nSum = (x−4)+(x−2)+x+(x+2)+(x+4)=5x=175\n⇒x=35\nNumbers are: 31, 33, 35, 37, 39\nSecond largest = 37, smallest = 31\nRequired sum = 37+312=37+961=99837 + 31^2 = 37 + 961 = 998",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "076624f4-d34f-40f7-a802-4e04057e2005",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A container of milk was 4/5full. When 12 bottles of milk were taken out and 8 bottles of milk were poured in to it,it was 3/4 full. How many bottles of milk can the container contain",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "80 ",
+                    "type": "A"
+                },
+                {
+                    "body": "40 ",
+                    "type": "B"
+                },
+                {
+                    "body": "90 ",
+                    "type": "C"
+                },
+                {
+                    "body": "30",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7c4b7b19-10fe-4d24-8270-5d5cfa528e70",
+                    "questionID": "076624f4-d34f-40f7-a802-4e04057e2005",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the total capacity of the container be x bottles.\nInitially, milk = (4/5)x.\nAfter removing 12 and adding 8 bottles, milk = (4/5)x - 12 + 8 = (3/4)x.\nSo, (4/5)x - 4 = (3/4)x → Multiply entire equation by 20 to eliminate denominators:\n16x - 80 = 15x → x = 80",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5238dfc3-dac2-49d6-b51b-a3be4cd914db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the least number to be multiplied with 294 to make it a perfect square",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 ",
+                    "type": "A"
+                },
+                {
+                    "body": "3",
+                    "type": "B"
+                },
+                {
+                    "body": "6 ",
+                    "type": "C"
+                },
+                {
+                    "body": "24",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6ed08ee5-419d-43ce-ade8-60a64bcf2b64",
+                    "questionID": "5238dfc3-dac2-49d6-b51b-a3be4cd914db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Prime factorization of 294 = 2 × 3 × 7 × 7\nTo make it a perfect square, all prime factors must be in pairs.\nMissing pair: 2 and 3 → Multiply 294 by 2 × 3 = 6",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "654f83d2-7ef0-40d4-bf70-a0be715bb308",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the HCF of 132, 204 and 228.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "12 ",
+                    "type": "A"
+                },
+                {
+                    "body": "18 ",
+                    "type": "B"
+                },
+                {
+                    "body": "6 ",
+                    "type": "C"
+                },
+                {
+                    "body": "21",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "137fff1b-637f-4b7a-8704-b48256650dde",
+                    "questionID": "654f83d2-7ef0-40d4-bf70-a0be715bb308",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Find HCF of 132, 204, and 228:\nPrime factors:\n132 = 2 × 2 × 3 × 11\n204 = 2 × 2 × 3 × 17\n228 = 2 × 2 × 3 × 19\nCommon prime factors = 2 × 2 × 3 = 12",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf241033-3426-4271-941f-9e83b0f58df7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "23 25 53 163 657 —",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4096 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2401 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1764 ",
+                    "type": "C"
+                },
+                {
+                    "body": "3291",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "6c9b4c36-24d4-442a-8bb4-d4d5b15fd9d7",
+                    "questionID": "cf241033-3426-4271-941f-9e83b0f58df7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The given number series is based on the following pattern:\n 23 × 1 + 2 = 25 \n25 × 2 + 3 = 53 \n53 × 3 + 4 = 163\n 163 × 4 + 5 = 657 \n657 × 5 + 6 = 3291\n Hence, 3291 will replace the question mark.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "07e2b374-df0b-4775-842e-2140e1aa6c9e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "444  467  513  582  674  789",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "950 ",
+                    "type": "A"
+                },
+                {
+                    "body": "904 ",
+                    "type": "B"
+                },
+                {
+                    "body": "927 ",
+                    "type": "C"
+                },
+                {
+                    "body": "881",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2635f3c8-8eda-4a6c-ad1a-bfea3a082e89",
+                    "questionID": "07e2b374-df0b-4775-842e-2140e1aa6c9e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The given number series is based on the following pattern: 467 – 444 = 23 = 23 × 1\n 513 – 467 = 46 = 23 × 2 \n582 – 513 = 69 = 23 × 3 \n 674 – 582 = 92 = 23 × 4 \n789 – 674 = 115 = 23 × 4 \n ? = 789 + 23 × 6 = 789 + 138 = 927 \nHence, 927 will replace the question mark.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b747ceb1-373f-482d-95a1-81e2e4b752a5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the sum of first 84 even numbers.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "7140 ",
+                    "type": "A"
+                },
+                {
+                    "body": "7540 ",
+                    "type": "B"
+                },
+                {
+                    "body": "6720 ",
+                    "type": "C"
+                },
+                {
+                    "body": "8832",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "71d5a7b9-ce56-4598-aa46-a662b0421846",
+                    "questionID": "b747ceb1-373f-482d-95a1-81e2e4b752a5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "First term (a) = 2, common difference (d) = 2, number of terms (n) = 84\nSum of n terms of an AP: S = n/2 × [2a + (n−1)d]\nS = 84/2 × [2×2 + (84−1)×2] = 42 × [4 + 166] = 42 × 170 = 7140",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ed04161e-7b5f-4634-b551-f80aa93f78c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If the sum of first 11 terms of an arithmetic progression equal that of the first 19 terms ,Then ,what is the sum of first 30 terms",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "-1 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Not unique",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "83fb64ad-8a46-45ca-92ee-15f8543329ee",
+                    "questionID": "ed04161e-7b5f-4634-b551-f80aa93f78c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the first term be a and common difference be d.\nSum of n terms of an AP = Sₙ = n/2 × [2a + (n−1)d]\nGiven:\nS₁₁ = S₁₉\n⇒ 11/2 × [2a + 10d] = 19/2 × [2a + 18d]\n⇒ 11(2a + 10d) = 19(2a + 18d)\n⇒ 22a + 110d = 38a + 342d\n⇒ 16a + 232d = 0\n⇒ a = -14.5d\nNow,\nS₃₀ = 30/2 × [2a + 29d] = 15 × [2(−14.5d) + 29d] = 15 × (−29d + 29d) = 0",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "27f3fda0-438e-4076-809b-5aced2cf75d4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If n is any odd number greater than 1, then n(n2 -1) is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "divisible by 96 always ",
+                    "type": "A"
+                },
+                {
+                    "body": "divisible by 48 always ",
+                    "type": "B"
+                },
+                {
+                    "body": "divisible by 24 always ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "123bd8d9-e410-4a1f-82ff-5f6d7e2f6285",
+                    "questionID": "27f3fda0-438e-4076-809b-5aced2cf75d4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Solving the question by taking two odd numbers greater than 1, i.e., 3 and 5, then n{n2 - 1) for n = 3 =&gt; 3(9-1) =&gt; 3x8 = 24\nn(n2 -1)forn = 5 =&gt; 5(25-1) =&gt; 24x5 = 120 Using option we find that both the number are divisible by 24",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

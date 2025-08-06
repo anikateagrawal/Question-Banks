@@ -1,0 +1,78 @@
+{
+    "bank_id": "8ce430b0-0731-4e3e-a55f-f3733e63550d",
+    "bank_name": "OS-concepts-one",
+    "questions": [
+        {
+            "id": "f32fe035-ab97-4341-9e3f-7c000ae10273",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong>Scenario: Hospital Management System in a Multi-user OS</strong></h3><p>A multi-specialty hospital uses a centralized Hospital Management System (HMS) running on a multi-threaded OS environment. Each department (OPD, Diagnostics, Pharmacy, Billing) runs its own service threads. Resources like patient records, billing counters, and printers are shared across departments.</p><p><br></p><p>Doctors and nurses frequently access the system to read/update patient data. Pharmacy and Billing counters work in real-time to avoid billing mismatches or delays. The system must ensure concurrent access, avoid deadlocks, and maintain high throughput.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "operating system"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "c5874de6-2336-483e-b43e-ccefcf9acf7f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong>ATM Software for a Bank</strong></h3><p>A bank is developing ATM software that interacts with a central server, processes user requests (like cash withdrawal, balance inquiry), and handles multiple customer sessions simultaneously. The OS running the ATM must manage multiple tasks efficiently and safely.</p><p><br></p><p>Now, based on this scenario, here are <strong>five conceptual OS questions</strong> — each covering a different core topic:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "operating system"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "fdd6d06f-b620-4a14-a193-748826998220",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Scenario: Bank Transaction System</strong></p><p><br></p><p>A bank is implementing a concurrent processing system to manage multiple customer transactions on shared accounts. The system supports multiple threads per process (for simultaneous deposit and withdrawal operations), ensures synchronization of access to account balances, uses semaphores to control concurrent transactions, and detects deadlocks when multiple threads hold resources and wait indefinitely. The CPU schedules these threads based on a pre-defined algorithm.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "operating system"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "7b8165fd-a6e8-46f7-bc9c-54e8a4442347",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Scenario</strong>:</p><p><br></p><p>A supermarket has a <strong>self-checkout billing counter system</strong>. Each <strong>customer</strong> arriving at the counter is treated like a <strong>process</strong> requesting billing service. There is <strong>one billing counter (CPU)</strong>, and customers arrive at different times. Each customer takes different time depending on the number of items (Burst Time).</p><p><br></p><p>To make it faster, the system supports <strong>multi-threaded operations</strong> — scanning, payment, and printing can happen in parallel (like threads of a process).</p><p><br></p><p>Due to shared payment devices (card machine, printer), <strong>deadlocks and race conditions</strong> can occur.</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "os-week-6"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        }
+    ]
+}

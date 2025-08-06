@@ -1,0 +1,4703 @@
+{
+    "bank_id": "012122b5-a0e9-423e-8f55-2d31730d6224",
+    "bank_name": "Immersion-CN-L1-Dry-run",
+    "questions": [
+        {
+            "id": "32a98283-ab9f-405b-9a0c-8d163dbe53aa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A security analyst is reviewing packet captures from a corporate firewall. She observes multiple TCP connections to port 21 with separate control and data streams, along with username/password transmissions in plaintext.\nWhich protocol is being used, and what is the major security risk in this Scenario?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " FTP; lacks encryption for credentials",
+                    "type": "A"
+                },
+                {
+                    "body": " HTTP; uses GET requests for authentication",
+                    "type": "B"
+                },
+                {
+                    "body": " TCP; vulnerable to session hijacking",
+                    "type": "C"
+                },
+                {
+                    "body": " UDP; allows spoofed credentials",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCP",
+                "FTP",
+                "Security",
+                "Port 21",
+                "Plaintext Credentials"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5ced4688-a2ed-4685-8dd4-fe3ccbbe4150",
+                    "questionID": "32a98283-ab9f-405b-9a0c-8d163dbe53aa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The description fits FTP (File Transfer Protocol), which uses TCP port 21 for control and often a separate TCP port for data. Standard FTP transmits credentials in plaintext, making it susceptible to credential sniffing unless upgraded to FTPS or SFTP.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "35a44731-6123-4045-a034-967427914b35",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A financial services application requires guaranteed delivery, ordered packets, and error correction for transmitting sensitive data between the server and client. Which protocol best meets these requirements?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " FTP",
+                    "type": "A"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "B"
+                },
+                {
+                    "body": " UDP",
+                    "type": "C"
+                },
+                {
+                    "body": " TCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "error control",
+                "TCP",
+                "Reliable Delivery",
+                "Financial Systems"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "71f9f14e-82a0-4ba8-85e0-5244ed519235",
+                    "questionID": "35a44731-6123-4045-a034-967427914b35",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP (Transmission Control Protocol) provides reliable, connection-oriented communication with sequencing, acknowledgments, and retransmissions - essential for sensitive financial data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "964615db-4efe-4522-92b0-e1c66256a496",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A researcher accesses her home desktop PC from a remote location via a VPN. . Which type of network allows this functionality?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN",
+                    "type": "B"
+                },
+                {
+                    "body": " WAN",
+                    "type": "C"
+                },
+                {
+                    "body": " VPN over WAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "WAN",
+                "Remote Access",
+                "VPN",
+                "Tunneling"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "58f31343-445d-4f3f-bbf2-f513350f2605",
+                    "questionID": "964615db-4efe-4522-92b0-e1c66256a496",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The VPN tunnel is established over a WAN, enabling secure remote access across long distances.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8fb4f91f-9faa-4896-9852-bb17206f82af",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: Two smart vehicles communicate directly using short-range wireless technologies to avoid a collision. What type of network is being formed between these vehicles?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN",
+                    "type": "B"
+                },
+                {
+                    "body": " VANET (Vehicular Ad-hoc Network)",
+                    "type": "C"
+                },
+                {
+                    "body": " WAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PAN",
+                "VANET",
+                "IoV",
+                "Ad-hoc Wireless"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7362812a-6b39-405c-8d3a-c3f8fb0ade67",
+                    "questionID": "8fb4f91f-9faa-4896-9852-bb17206f82af",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This is a Vehicular Ad-hoc Network, a subset of PAN, where nodes (vehicles) form temporary communication links.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "08f3c3d6-fab1-4bab-b701-fd4b633f6bf0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: In a small office with 15 desktop computers, a printer, and a local file server, all devices are interconnected via switches. What type of network is this?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " WAN",
+                    "type": "B"
+                },
+                {
+                    "body": " PAN",
+                    "type": "C"
+                },
+                {
+                    "body": " CAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN",
+                "switch",
+                "Office Network",
+                "File Server"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "071a18f6-9311-420d-b5ef-06621c222ff3",
+                    "questionID": "08f3c3d6-fab1-4bab-b701-fd4b633f6bf0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The interconnection of devices in a single, limited area like an office falls under a LAN.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54eb884b-687b-4df8-b57d-f62b0b560d8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A city-wide surveillance system links all CCTV cameras via fiber optics within a single metropolitan area. What kind of network does this describe?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " PAN",
+                    "type": "A"
+                },
+                {
+                    "body": " LAN",
+                    "type": "B"
+                },
+                {
+                    "body": " MAN",
+                    "type": "C"
+                },
+                {
+                    "body": " WAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "MAN",
+                "City Network",
+                "Surveillance",
+                "Fiber Optic"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8cbfe903-d558-4b89-97d3-5e26c8a32f28",
+                    "questionID": "54eb884b-687b-4df8-b57d-f62b0b560d8c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A Metropolitan Area Network (MAN) spans a city and is larger than a LAN but smaller than a WAN.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dbd5e9b1-35a0-4aa6-988b-4851201bb35a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A data center in California is connected via fiber to another facility in Texas for backup and replication.\n. What type of network is being used here?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " SAN",
+                    "type": "A"
+                },
+                {
+                    "body": " LAN",
+                    "type": "B"
+                },
+                {
+                    "body": " WAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "WAN",
+                "Data Centers",
+                "Fiber Optics",
+                "Replication"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1bb1ce95-f673-4abf-a8ae-9231a3782bad",
+                    "questionID": "dbd5e9b1-35a0-4aa6-988b-4851201bb35a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Interconnecting distant data centers over fiber falls under WAN, as it spans across wide geographical boundaries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dda8382a-5df6-4cd5-9464-4650b45411b7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A traveling executive connects a laptop to a mobile hotspot on their phone to send an urgent report.What type of network is formed between the phone and laptop?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " WAN",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN",
+                    "type": "B"
+                },
+                {
+                    "body": " LAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PAN",
+                "Hotspot",
+                "Mobile Connectivity",
+                "Ad hoc Networking"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "134d2255-33b8-408f-8dd8-788241dad803",
+                    "questionID": "dda8382a-5df6-4cd5-9464-4650b45411b7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The temporary, close-range connection between personal devices (phone and laptop) forms a PAN using Wi-Fi or Bluetooth tethering.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0f694ab6-cec8-4c34-ad2b-d92c7e8361a9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A smart home system connects lighting, thermostats, and security devices using Zigbee and Wi-Fi within the premises. This network is best classified as:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN",
+                    "type": "B"
+                },
+                {
+                    "body": " WAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN",
+                "Smart Home",
+                "IoT",
+                "Zigbee"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3d0b4b87-4895-4328-a4c3-e3b2d6c688d8",
+                    "questionID": "0f694ab6-cec8-4c34-ad2b-d92c7e8361a9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Although some devices use PAN-like protocols (Zigbee), the entire interconnected home network within a building qualifies as a LAN.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a4e21298-4307-4e72-b22b-633092e0576d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A company has offices in New York, London, and Tokyo, all interconnected to share databases and applications in real-time.\nThis configuration best describes what type of network?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " PAN",
+                    "type": "A"
+                },
+                {
+                    "body": " LAN",
+                    "type": "B"
+                },
+                {
+                    "body": " WAN",
+                    "type": "C"
+                },
+                {
+                    "body": " SAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "WAN",
+                "Enterprise Network",
+                "Global Connectivity"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8a231945-f938-45de-b84e-c2d3dcf565e8",
+                    "questionID": "a4e21298-4307-4e72-b22b-633092e0576d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A Wide Area Network (WAN) connects geographically distant sites using leased lines, satellites, or public networks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "59ddee9e-4f9c-4f47-8b30-296e84123126",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A consulting professional syncs data between their smartwatch, smartphone, and wireless earbuds within a range of 2 meters.\nWhat type of network is being used?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " WAN",
+                    "type": "B"
+                },
+                {
+                    "body": " PAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PAN",
+                "Bluetooth",
+                "Wearable Tech",
+                "Proximity Network"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "01d7010d-7123-41b2-a4f2-ab773b7badac",
+                    "questionID": "59ddee9e-4f9c-4f47-8b30-296e84123126",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A Personal Area Network (PAN) connects devices in close proximity, often within a few meters, typically using Bluetooth or IR.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fb19145d-10c5-4068-8c24-2892fcb295bb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Scenario A university deploys a network across all classrooms and administrative offices within a single campus using Ethernet and WiFi Which type of network does this setup best represent",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "WAN",
+                    "type": "A"
+                },
+                {
+                    "body": "LAN",
+                    "type": "B"
+                },
+                {
+                    "body": "PAN",
+                    "type": "C"
+                },
+                {
+                    "body": "MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN Campus Network Ethernet WiFi"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2d7fdee4-1176-4a9d-b02b-41f26e9dce56",
+                    "questionID": "fb19145d-10c5-4068-8c24-2892fcb295bb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A Local Area Network LAN connects devices within a limited area like a university campus using highspeed wiredwireless connections",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dae9a2cd-c2c7-48ea-a836-308443e687e1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A real-time stock ticker app streams updates from a financial data server. The developers chose a protocol that avoids connection setup to reduce latency. However, occasional packet loss and unordered data are reported.\n\nQ2. Which protocol is being used and why is this behavior acceptable for this application?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP; because it ensures reliable delivery",
+                    "type": "A"
+                },
+                {
+                    "body": " FTP; because it supports large file downloads",
+                    "type": "B"
+                },
+                {
+                    "body": " UDP; because low latency is prioritized over reliability",
+                    "type": "C"
+                },
+                {
+                    "body": " HTTP; because it&#39;s stateless and can handle bursts",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "UDP",
+                "Real-Time Data",
+                "Low Latency",
+                "Packet Loss",
+                "Financial Applications"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "79f43b56-1e32-4491-9979-9e3aacfd0320",
+                    "questionID": "dae9a2cd-c2c7-48ea-a836-308443e687e1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP is used in real-time applications like stock tickers or VoIP, where speed is more critical than accuracy. Occasional packet loss and unordered delivery are acceptable trade-offs for avoiding the overhead of connection setup and acknowledgments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cfd6e804-2804-45ed-959c-649820661a9e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A user types a website URL in the browser, initiating a request to a remote web server. The response includes HTML, CSS, and JavaScript files.\nWhich protocol manages this client-server transaction, and at which OSI layer does it primarily operate?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP at Transport Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " HTTP at Application Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " IP at Network Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " FTP at Presentation Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "application layer",
+                "HTTP",
+                "OSI Model",
+                "Web Communication",
+                "Browser Request"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1815bd64-593b-4f93-b164-277198ba0b3f",
+                    "questionID": "cfd6e804-2804-45ed-959c-649820661a9e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HTTP (Hypertext Transfer Protocol) is used for web communication and operates at the Application Layer (Layer 7) of the OSI model. It relies on TCP underneath for transport.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cfad06af-106c-4a86-9636-0df778748133",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A content delivery network (CDN) utilizes IP multicast to send identical video streams to multiple receivers simultaneously without establishing individual connections. Which combination of protocols is most suitable for this use-case?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP over IP",
+                    "type": "A"
+                },
+                {
+                    "body": " UDP over IP",
+                    "type": "B"
+                },
+                {
+                    "body": " HTTP over TCP",
+                    "type": "C"
+                },
+                {
+                    "body": " FTP over TCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "UDP",
+                "IP",
+                "Multicast",
+                "CDN",
+                "Streaming"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b18e76b9-b924-4909-918e-cfccfc31ec5d",
+                    "questionID": "cfad06af-106c-4a86-9636-0df778748133",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Multicast transmission relies on UDP over IP because UDP is connectionless and suitable for broadcast-like operations, reducing overhead for many-to-one streaming.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7bbdd782-e2cb-4f46-8318-698f8dfc9f5a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A network admin notices that a user is downloading multiple large files from a web browser and simultaneously uploading a report through a file transfer client.\nWhich protocols are most likely in use during this [type=text]\n Scenario?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP for both FTP and HTTP",
+                    "type": "A"
+                },
+                {
+                    "body": " UDP for HTTP, TCP for FTP",
+                    "type": "B"
+                },
+                {
+                    "body": " HTTP for downloading, IP for uploading",
+                    "type": "C"
+                },
+                {
+                    "body": " FTP for downloading, HTTP for uploading",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCP",
+                "FTP",
+                "file transfer",
+                "HTTP",
+                "Web Download"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "911d26fb-d7d3-4def-bc80-7b8aa8648374",
+                    "questionID": "7bbdd782-e2cb-4f46-8318-698f8dfc9f5a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Both FTP and HTTP use TCP because they require reliable and ordered delivery. FTP handles file uploads/downloads, and HTTP supports web-based downloads.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "359577d5-5693-419a-a09a-38915084a439",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A live online gaming platform reports delayed packet delivery and unpredictable jitter. The developers state they intentionally chose a connectionless protocol to avoid retransmission overhead.\n\nWhich protocol is most likely being used for real-time transmission, and why?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP, for reliable communication",
+                    "type": "A"
+                },
+                {
+                    "body": " UDP, for minimal delay",
+                    "type": "B"
+                },
+                {
+                    "body": " IP, for routing only",
+                    "type": "C"
+                },
+                {
+                    "body": " FTP, for session control",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "UDP",
+                "real-time",
+                "connectionless",
+                "Gaming",
+                "Latency"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "52db6d54-6578-43e2-a18e-f773b2f5bf58",
+                    "questionID": "359577d5-5693-419a-a09a-38915084a439",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP (User Datagram Protocol) is connectionless and doesn&#39;t guarantee delivery, making it ideal for real-time applications like gaming where low latency is more critical than reliability.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4f05d4af-42ba-408f-a3b6-9cb2326709f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A client uploads a file via FTP, which requires establishing a connection, managing the session, and handling reliable data delivery.\n\nWhich combination of OSI layers are actively involved in this FTP transaction?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Application, Presentation, and Transport",
+                    "type": "A"
+                },
+                {
+                    "body": " Session, Transport, and Network",
+                    "type": "B"
+                },
+                {
+                    "body": " Application, Transport, and Network",
+                    "type": "C"
+                },
+                {
+                    "body": " Application, Session, and Transport",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Session Layer",
+                "Transport Layer",
+                "FTP",
+                "application layer",
+                "OSI Model"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "b11cf28e-5157-403a-8bac-ce3043fd6982",
+                    "questionID": "4f05d4af-42ba-408f-a3b6-9cb2326709f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Application Layer (Layer 7): FTP protocol functionality.\n\nSession Layer (Layer 5): Maintains the session.\n\nTransport Layer (Layer 4): Ensures reliable data delivery (typically via TCP).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "360b10c2-23d9-477d-9c9e-725b48a319c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A network analyzer captures data frames that include both destination MAC addresses and physical transmission details.\n\nThese elements are handled by which OSI layer(s)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Physical Layer only",
+                    "type": "A"
+                },
+                {
+                    "body": " Data Link Layer only",
+                    "type": "B"
+                },
+                {
+                    "body": " Both Physical and Data Link Layers",
+                    "type": "C"
+                },
+                {
+                    "body": " Network Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI Model",
+                "Layer 1",
+                "Layer 2",
+                "MAC Address",
+                "Framing",
+                "Signal Transmission"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5d07fd49-33b8-4b75-95d2-1eb2622da045",
+                    "questionID": "360b10c2-23d9-477d-9c9e-725b48a319c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Physical Layer (Layer 1) manages actual signal transmission, while the Data Link Layer (Layer 2) handles MAC addressing and framing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "71cc7e6c-a195-4a57-9208-699dd1c09f9e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: During a video call, one participant notices significant lag and jitter. A network engineer diagnoses the problem as a lack of proper flow control and congestion management.Which OSI layer is most responsible for flow control and congestion handling in this [type=text]\n Scenario?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Data Link Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Network Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Transport Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Session Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCP",
+                "OSI Model",
+                "Layer 4",
+                "Flow Control",
+                "Congestion Management"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "43b495fa-c1a9-4c9a-9880-c10df1b8c1a8",
+                    "questionID": "71cc7e6c-a195-4a57-9208-699dd1c09f9e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Transport Layer (Layer 4) manages end-to-end communication, including flow control, error recovery, and congestion avoidance (e.g., via TCP).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d14ddf44-53ad-4e0f-8303-66433a73bb1f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A packet arrives at a router and is forwarded to the next hop based on its destination IP address.According to the TCP/IP model, which layer is responsible for this routing functionality?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Transport Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Internet Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Network Access Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Application Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "routing",
+                "Internet Layer",
+                "TCP/IP Model",
+                "IP Address",
+                "Router"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5c5f10d5-4fed-4f7f-8e3c-8e2b522f2989",
+                    "questionID": "d14ddf44-53ad-4e0f-8303-66433a73bb1f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Internet Layer in the TCP/IP model (equivalent to the OSI&#39;s Network Layer) handles IP addressing and routing decisions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cc42248b-ce3b-4b00-8b5a-46b72fef0cea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A user initiates a secure HTTPS request to a banking website. The browser verifies the server�s digital certificate before proceeding.\n\nIn the context of the OSI model, which layer is primarily responsible for SSL/TLS encryption and certificate validation?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Session Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Application Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Presentation Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Security",
+                "OSI Model",
+                "Layer 6",
+                "Encryption",
+                "TLS",
+                "HTTPS"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "31d2235e-4db3-4585-b1a7-32aac6431637",
+                    "questionID": "cc42248b-ce3b-4b00-8b5a-46b72fef0cea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Presentation Layer (Layer 6) of the OSI model handles encryption, decryption, and data translation, including SSL/TLS operations like certificate validation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2abaf3e9-5f95-4029-935a-7ac2e1eacb24",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A hospital network ensures all patient data is encrypted during transmission between departments.\nWhich networking goal is being prioritized?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Latency",
+                    "type": "A"
+                },
+                {
+                    "body": " Interoperability",
+                    "type": "B"
+                },
+                {
+                    "body": " Security",
+                    "type": "C"
+                },
+                {
+                    "body": " Throughput",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Security",
+                "Healthcare IT",
+                "Data Transmission"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1ab686ab-2b1c-4f1e-87c0-d89ce7291a87",
+                    "questionID": "2abaf3e9-5f95-4029-935a-7ac2e1eacb24",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The encryption of data ensures confidentiality and integrity, meeting the security objective of networking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "77acbe8f-83bc-4f41-8047-9228f92ada78",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A disaster recovery plan involves data replication to a remote site every 5 minutes over a dedicated link.What critical goal of networking is this [type=text]\n Scenario primarily addressing?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Efficiency",
+                    "type": "A"
+                },
+                {
+                    "body": " Redundancy",
+                    "type": "B"
+                },
+                {
+                    "body": " Security",
+                    "type": "C"
+                },
+                {
+                    "body": " Throughput",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Networking Goals",
+                "Disaster Recovery",
+                "Redundancy"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6890bcc1-bcb3-4f1e-9e1d-7ddfff9013b5",
+                    "questionID": "77acbe8f-83bc-4f41-8047-9228f92ada78",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Replicating data at a remote site ensures redundancy, a networking goal to avoid data loss in case of failure.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7fa6db81-ad75-4c8b-aa3d-a6d538f8f951",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: An educational institute sets up a campus-wide Wi-Fi network allowing students to access the internet and internal servers uniformly.Which networking principle is being upheld by providing equal access throughout the campus?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Centralization",
+                    "type": "A"
+                },
+                {
+                    "body": " Scalability",
+                    "type": "B"
+                },
+                {
+                    "body": " Availability",
+                    "type": "C"
+                },
+                {
+                    "body": " Load balancing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Availability",
+                "Networking Infrastructure",
+                "Campus Network"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0de34e23-f3ab-4bf6-a62c-0cd41f04e04a",
+                    "questionID": "7fa6db81-ad75-4c8b-aa3d-a6d538f8f951",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ensuring consistent access across users focuses on availability, a key networking goal ensuring services are reachable when needed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8916d889-2cdf-4378-9b80-3e96f376012e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A startup uses cloud-based virtual machines to allow employees to work from different geographical locations using shared tools and environments.This setup best demonstrates which of the following networking goals?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Fault tolerance",
+                    "type": "A"
+                },
+                {
+                    "body": " Security",
+                    "type": "B"
+                },
+                {
+                    "body": " Resource accessibility",
+                    "type": "C"
+                },
+                {
+                    "body": " Bandwidth optimization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Networking Goals",
+                "Cloud Computing",
+                "Remote Access"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "776a297f-9598-42b0-a4e3-4a0ccc8fb9c0",
+                    "questionID": "8916d889-2cdf-4378-9b80-3e96f376012e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Networking enables access to remote resources, such as virtual machines and cloud applications, fulfilling the goal of resource accessibility.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2dbac845-4442-40d4-828b-92b79556129c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Scenario: A multinational corporation needs to establish communication among its branches across different continents to facilitate collaborative product development and real-time video conferencing.\nWhat is the primary networking goal addressed in the corporation&#39;s setup?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Cost reduction",
+                    "type": "A"
+                },
+                {
+                    "body": " Resource sharing",
+                    "type": "B"
+                },
+                {
+                    "body": " Scalability",
+                    "type": "C"
+                },
+                {
+                    "body": " Communication",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Communication",
+                "Networking Goals",
+                "Enterprise Networking"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a49fe3a8-633e-4781-a222-63e9fd9cf9aa",
+                    "questionID": "2dbac845-4442-40d4-828b-92b79556129c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "While all options are networking goals, the key focus in this case is enabling real-time interaction across locations, which relates directly to the communication goal of networking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d5443375-69e4-4e1f-b9da-7b649d5b399a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which component ensures communication in a wireless network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " NIC\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Wi Fi adapter\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " CD drive\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " RAM",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Wireless  \nDevices"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fef8cfe4-3426-4682-ab3e-12d31dee12b6",
+                    "questionID": "d5443375-69e4-4e1f-b9da-7b649d5b399a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Wi Fi adapters allow wireless connectivity",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d07d5ce5-9fe8-41c0-b081-b268ce24137e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol assigns no guarantee of packet delivery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " IP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " FTP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IP  \nBestEffort  \nNoGuarantee"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "66d6e1c0-7200-4285-bef6-44599ed34bc4",
+                    "questionID": "d07d5ce5-9fe8-41c0-b081-b268ce24137e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IP is a best effort delivery protocol and does not guarantee packet delivery or order",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5fbed504-a54d-441d-aa2c-8e3aa6617f38",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following protocols is stateless",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " FTP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " TCP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " HTTP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "HTTP  \nStateless  \nWeb"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "275be863-1435-4766-955c-1a4f45aeed6c",
+                    "questionID": "5fbed504-a54d-441d-aa2c-8e3aa6617f38",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HTTP is stateless \n meaning it does not retain information about previous interactions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "16778466-9db6-4d10-9c01-dee2ab7a7828",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is best suited for real time video or audio streaming",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " HTTP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " FTP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "UDP  \nRealTime  \nStreaming"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ef9ec08d-96f5-4e5c-8391-05e2b29cdda0",
+                    "questionID": "16778466-9db6-4d10-9c01-dee2ab7a7828",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP is used in real time services like video audio streaming where speed is preferred over reliability",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4cef821b-4a3d-4912-bd14-20f839eaef90",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does FTP stand for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " File Transport Protocol\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Fast Transfer Protocol\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " File Transfer Protocol\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Final Transfer Protocol",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "FTP  \nAcronyms  \nFileTransfer"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fe397249-ade4-4ce1-bb11-bce12005b953",
+                    "questionID": "4cef821b-4a3d-4912-bd14-20f839eaef90",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FTP stands for File Transfer Protocol and is used to move files between systems",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4b958555-f3cc-4103-984e-bc3b4073c795",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol works with IP to ensure reliable communication",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " UDP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " TCP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " FTP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCPIP  \nReliableTransmission"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4da49e31-d857-4f84-bf11-9a3652a6e946",
+                    "questionID": "4b958555-f3cc-4103-984e-bc3b4073c795",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP is often paired with IP (as TCP IP) to provide reliable communication over the Internet",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "99147e0c-dbfb-499e-acac-57d28ae76796",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main use of HTTP",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Secure communication\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " File transfer\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Sending emails\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Accessing web pages",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "HTTP  \nWeb  \nApplicationLayer"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "fe963749-4dad-427d-97af-7326f46a16e1",
+                    "questionID": "99147e0c-dbfb-499e-acac-57d28ae76796",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HTTP (Hypertext Transfer Protocol) is used to access and transfer web content like HTML pages",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dbd3fde0-e715-4bdf-ac74-65eaea167a81",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is commonly used for transferring files between computers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " HTTP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " TCP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " FTP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "FTP  \nFileTransfer  \nApplicationLayer"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "377e9d96-ee59-48e3-b022-feca6716a67b",
+                    "questionID": "dbd3fde0-e715-4bdf-ac74-65eaea167a81",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FTP (File Transfer Protocol) is specifically designed for uploading and downloading files over a network",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "63983133-f849-4eec-abef-35c01a1c286d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following protocols is connectionless and faster but less reliable",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " IP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " FTP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " UDP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " TCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "UDP  \nConnectionless  \nFastTransmission"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0943b714-9693-45c5-9d8e-cf167f40c22a",
+                    "questionID": "63983133-f849-4eec-abef-35c01a1c286d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP (User Datagram Protocol) does not establish a connection \n making it faster but less reliable than TCP",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9699bddd-f476-45f5-a552-090965b7860a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol provides reliable \n connection oriented data delivery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " UDP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " HTTP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " TCP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " FTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCP  \nTransportLayer  \nReliable"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3adc8334-2614-4762-aa95-ec6aed7a64f4",
+                    "questionID": "9699bddd-f476-45f5-a552-090965b7860a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP (Transmission Control Protocol) ensures reliable communication through error checking and acknowledgment",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c861d445-823f-4e67-bed0-5c881132f1df",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is responsible for assigning logical addresses and routing data packets",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " FTP\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " TCP\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " IP\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IP  \nRouting  \nNetworkLayer"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "67dbffe5-ee80-4e85-936c-08564aeeedc8",
+                    "questionID": "c861d445-823f-4e67-bed0-5c881132f1df",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Internet Protocol (IP) is used for addressing and routing packets across networks",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3d355570-11c3-46b4-9337-791ad00ddf8a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer in the OSI model establishes \n manages \n and terminates sessions",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Transport layer\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Session layer\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Network layer\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Application layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "SessionLayer  \nOSI  \nConnectionControl"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "971221eb-22d3-4b3e-9130-fe22d6704a04",
+                    "questionID": "3d355570-11c3-46b4-9337-791ad00ddf8a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Session layer is responsible for establishing \n maintaining \n and closing communication sessions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fcc80a2b-6b14-4645-b463-34a68f38b2d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The Application layer in the OSI model provides",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Routing services\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " User interface and network services to applications\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Packet segmentation\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Frame synchronization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ApplicationLayer  \nOSI  \nUserInterface"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "48d249f4-ed71-47f3-a6dc-6aa2defb2ced",
+                    "questionID": "fcc80a2b-6b14-4645-b463-34a68f38b2d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Application layer enables end user services such as email \n file transfer \n and web browsing",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0400f54-05e7-48a5-8ed9-b5488fe67e2a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of the OSI model is responsible for logical addressing and routing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Session layer\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport layer\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Network layer\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Data Link layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI  \nNetworkLayer  \nRouting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c9d3029a-5387-43f9-ac26-94765b25400b",
+                    "questionID": "c0400f54-05e7-48a5-8ed9-b5488fe67e2a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Network layer handles IP addressing and path determination",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bef0b7d9-22b0-4cd1-9f4b-37aa03c9151b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main responsibility of the Physical layer in the OSI model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " IP addressing\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Converting bits to signals\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Error correction\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Routing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI  \nPhysicalLayer  \nDataTransmission"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "15134102-bf7a-4ad2-ba36-3a3c1a6b1aa9",
+                    "questionID": "bef0b7d9-22b0-4cd1-9f4b-37aa03c9151b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Physical layer deals with transmission of raw bits over a medium (e g  \n cables \n signals)",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8886284d-a310-443a-8876-0fe82a14fab7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of the OSI model is responsible for end to end communication and error recovery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Network layer\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport layer\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Session layer\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Physical layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI  \nTransportLayer  \nErrorHandling"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2d0d2ea1-0eec-4156-af73-b45b1d8b663a",
+                    "questionID": "8886284d-a310-443a-8876-0fe82a14fab7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Transport layer handles reliable delivery \n sequencing \n and error recovery",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "761af18f-9c11-42b7-b5ae-b1993a266337",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer in the OSI model establishes \n manages \n and terminates sessions",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Transport layer\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Session layer\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Network layer\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Application layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "SessionLayer  \nOSI  \nConnectionControl"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "26e3c438-565c-4861-bc9b-da501f9656ee",
+                    "questionID": "761af18f-9c11-42b7-b5ae-b1993a266337",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Session layer is responsible for establishing \n maintaining \n and closing communication sessions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ee9c0100-4a34-4299-90ab-17e21559bee0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The Application layer in the OSI model provides",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Routing services\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " User interface and network services to applications\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Packet segmentation\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Frame synchronization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ApplicationLayer  \nOSI  \nUserInterface"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "15f1ed8a-bf09-4473-a9e2-da53c1b92a0c",
+                    "questionID": "ee9c0100-4a34-4299-90ab-17e21559bee0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Application layer enables end user services such as email \n file transfer \n and web browsing",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a311fda3-0dc6-4a9d-b80b-029c6b8152dd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of the OSI model is responsible for logical addressing and routing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Session layer\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport layer\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Network layer\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Data Link layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI  \nNetworkLayer  \nRouting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "62fffdca-2a4a-4aa9-a2ac-50b2e3f0a1ca",
+                    "questionID": "a311fda3-0dc6-4a9d-b80b-029c6b8152dd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Network layer handles IP addressing and path determination",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7016260c-f51b-4338-88f4-b187c5bc776e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main responsibility of the Physical layer in the OSI model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " IP addressing\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Converting bits to signals\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Error correction\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Routing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI  \nPhysicalLayer  \nDataTransmission"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3a2046c3-3e5b-44fa-a1f6-a7ab10628b2e",
+                    "questionID": "7016260c-f51b-4338-88f4-b187c5bc776e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Physical layer deals with transmission of raw bits over a medium (e g  \n cables \n signals)",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8d059f68-b78d-4b3f-a7ab-b96368aec1d0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of the OSI model is responsible for end to end communication and error recovery",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Network layer\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport layer\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Session layer\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Physical layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI  \nTransportLayer  \nErrorHandling"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c6341d4f-7f8d-4650-9b62-eec7217fff5d",
+                    "questionID": "8d059f68-b78d-4b3f-a7ab-b96368aec1d0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Transport layer handles reliable delivery \n sequencing \n and error recovery",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ef67e0e3-9f7a-441e-80f6-4da94099d929",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the TCP/IP model, which layer is responsible for logical addressing and routing?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Transport Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Application Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Internet Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Network Interface Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "routing",
+                "TCP/IP",
+                "Internet Layer"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c2fc5914-2dd1-4dfc-84bb-13be6c2b46eb",
+                    "questionID": "ef67e0e3-9f7a-441e-80f6-4da94099d929",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Internet Layer (Layer 2 in TCP/IP) manages logical addressing (IP) and routing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ae7f5b3d-5f42-409f-8d96-96c1d342ae96",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following layers is not present in the TCP/IP model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Application Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Internet Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Session Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Network Interface Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "comparison",
+                "TCP/IP",
+                "missing layers"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b776a8b9-6fb7-4a19-abd9-36c7be6f8835",
+                    "questionID": "ae7f5b3d-5f42-409f-8d96-96c1d342ae96",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP/IP combines Session, Presentation, and Application into one Application Layer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7fc9af62-f3a2-46d7-b637-f3b14410af39",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol uses port 80 by default and is used for accessing web pages?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " FTP",
+                    "type": "A"
+                },
+                {
+                    "body": " TCP",
+                    "type": "B"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "C"
+                },
+                {
+                    "body": " UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "HTTP",
+                "port",
+                "web"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "971f6582-be09-44a5-8aa6-39f2adbd34e7",
+                    "questionID": "7fc9af62-f3a2-46d7-b637-f3b14410af39",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "HTTP (Hypertext Transfer Protocol) is used to transfer web content and uses port 80 by default.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9b31bebe-9051-433b-9640-daa2c7f1f945",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many TCP connections are established in a typical FTP session (active or passive mode)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 1",
+                    "type": "A"
+                },
+                {
+                    "body": " 2",
+                    "type": "B"
+                },
+                {
+                    "body": " 3",
+                    "type": "C"
+                },
+                {
+                    "body": " Depends on data size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "numerical",
+                "TCP",
+                "FTP"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cd15ffd6-4ad7-4fa6-8d36-ad28d0477f31",
+                    "questionID": "9b31bebe-9051-433b-9640-daa2c7f1f945",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FTP uses two TCP connections: one for control and one for data transfer. This separation allows parallel control and data communication.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f525125-14a3-448a-a61f-1ad4ad635664",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is used to transfer files between a client and a server over a network?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " FTP",
+                    "type": "A"
+                },
+                {
+                    "body": " IP",
+                    "type": "B"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "C"
+                },
+                {
+                    "body": " UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "FTP",
+                "file transfer",
+                "application layer"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9c8dac6d-540e-4bc2-be8a-d92b6d5b5a9e",
+                    "questionID": "2f525125-14a3-448a-a61f-1ad4ad635664",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FTP (File Transfer Protocol) is specifically designed for transferring files and supports user authentication and directory operations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "df2e5cc5-488b-4fb9-ba5f-578b7e07af88",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following protocols is connectionless and used for faster data transmission without reliability guarantees?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP",
+                    "type": "A"
+                },
+                {
+                    "body": " FTP",
+                    "type": "B"
+                },
+                {
+                    "body": " UDP",
+                    "type": "C"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "UDP",
+                "speed vs reliability",
+                "real-time"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "033a1cb9-1438-44c9-a42f-3b29bcbab02f",
+                    "questionID": "df2e5cc5-488b-4fb9-ba5f-578b7e07af88",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UDP (User Datagram Protocol) is faster and suitable for real-time applications like video streaming, but does not guarantee delivery or order.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f05db3a2-fcf6-48c6-95db-cd70423f0567",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol ensures reliable, ordered, and error-checked delivery of data between applications?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " UDP",
+                    "type": "A"
+                },
+                {
+                    "body": " IP",
+                    "type": "B"
+                },
+                {
+                    "body": " TCP",
+                    "type": "C"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCP",
+                "reliability",
+                "protocol comparison"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ca16d9f6-d4e2-4e9b-9c8b-2b570efabd87",
+                    "questionID": "f05db3a2-fcf6-48c6-95db-cd70423f0567",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable communication using acknowledgments, sequencing, and retransmissions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bf96a02c-54ce-410c-a76c-8ceb8d32cba1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A network engineer needs to trace physical cable issues. Which OSI layer is involved?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Data Link",
+                    "type": "A"
+                },
+                {
+                    "body": " Physical",
+                    "type": "B"
+                },
+                {
+                    "body": " Network",
+                    "type": "C"
+                },
+                {
+                    "body": " Transport",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI",
+                "Physical Layer",
+                "troubleshooting"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cf38de50-b761-464c-8aac-e5515b99135e",
+                    "questionID": "bf96a02c-54ce-410c-a76c-8ceb8d32cba1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Physical Layer deals with the actual hardware transmission media (cables, connectors).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ad03729e-a8cb-404a-b638-987aab593a29",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If 1,000 segments are sent over TCP and 5 are lost, how many acknowledgments are expected (assuming cumulative ACKs)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 995",
+                    "type": "A"
+                },
+                {
+                    "body": " 1,000",
+                    "type": "B"
+                },
+                {
+                    "body": " 996",
+                    "type": "C"
+                },
+                {
+                    "body": " 1,005",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "numerical",
+                "TCP",
+                "Transport Laye"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6b184dfc-06df-4dc7-9802-3b627a09bf77",
+                    "questionID": "ad03729e-a8cb-404a-b638-987aab593a29",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP expects acknowledgment for each segment sent, regardless of loss (which will trigger retransmission).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "af02cf60-4f89-4e24-afe3-18a8eec715c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not a function of the Transport Layer?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Error detection",
+                    "type": "A"
+                },
+                {
+                    "body": " Flow control",
+                    "type": "B"
+                },
+                {
+                    "body": " Logical addressing",
+                    "type": "C"
+                },
+                {
+                    "body": " Segmentation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI",
+                "Transport",
+                "responsibilities"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5aa29c88-ee53-4f05-bc27-fdafb0658d95",
+                    "questionID": "af02cf60-4f89-4e24-afe3-18a8eec715c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Logical addressing is handled by the Network Layer, not the Transport Layer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "142f5fee-7a19-48cf-9612-d49f38a62c0e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer in the OSI model is responsible for physical addressing?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Physical Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Network Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Data Link Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Application Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI",
+                "Data Link",
+                "MAC"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "19077f15-f85c-4080-b616-29cd0028ad2e",
+                    "questionID": "142f5fee-7a19-48cf-9612-d49f38a62c0e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Data Link Layer uses MAC addresses to identify devices on the same network segment.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d7d7c936-9bfb-4ca4-8726-f96161102c43",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of TCP/IP corresponds to the Transport Layer of the OSI model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Internet Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Network Interface Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Host-to-Host Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Application Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCP/IP",
+                "Transport",
+                "layer mapping"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d84e7bb9-5b52-4acf-939a-498a08a29721",
+                    "questionID": "d7d7c936-9bfb-4ca4-8726-f96161102c43",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Host-to-Host Layer in TCP/IP is equivalent to the Transport Layer in OSI, providing end-to-end communication.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ff7105a8-2862-49e4-84f5-6c8e7c4ce295",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "At which OSI layer do switches primarily operate?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Network",
+                    "type": "A"
+                },
+                {
+                    "body": " Data Link",
+                    "type": "B"
+                },
+                {
+                    "body": " Physical",
+                    "type": "C"
+                },
+                {
+                    "body": " Transport",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI",
+                "switch",
+                "device mapping"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "34c516f6-92dd-4fc0-a76e-38c20c30700c",
+                    "questionID": "ff7105a8-2862-49e4-84f5-6c8e7c4ce295",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Switches operate at Layer 2 (Data Link Layer), using MAC addresses to forward data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e61d988e-c982-4ff9-8dad-a9ea4fe261e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of the OSI model translates data between the application and the network formats?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Session",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport",
+                    "type": "B"
+                },
+                {
+                    "body": " Network",
+                    "type": "C"
+                },
+                {
+                    "body": " Presentation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI",
+                "Presentation Layer",
+                "data formatting"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f4c67378-6137-4241-a34e-1fdc4b3590e1",
+                    "questionID": "e61d988e-c982-4ff9-8dad-a9ea4fe261e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Presentation Layer handles data translation, encryption, and compression.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "822da1c5-41f7-4104-a03f-9b70df454b02",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OSI layer is responsible for error detection and correction?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Application",
+                    "type": "A"
+                },
+                {
+                    "body": " Network",
+                    "type": "B"
+                },
+                {
+                    "body": " Data Link",
+                    "type": "C"
+                },
+                {
+                    "body": " Presentation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI",
+                "Data Link",
+                "error control"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "84919967-6042-46cf-8cbc-e1fb7ed7f248",
+                    "questionID": "822da1c5-41f7-4104-a03f-9b70df454b02",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Data Link Layer ensures error-free transfer of data frames between two nodes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1b5f95a6-207d-465b-ad50-8987407bdb48",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol operates at the Transport Layer of the TCP/IP model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " IP",
+                    "type": "A"
+                },
+                {
+                    "body": " TCP",
+                    "type": "B"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "C"
+                },
+                {
+                    "body": " FTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "TCP/IP",
+                "Transport Layer",
+                "protocol"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "30df16aa-2cb3-4597-bca2-0efa7930b8d5",
+                    "questionID": "1b5f95a6-207d-465b-ad50-8987407bdb48",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP (Transmission Control Protocol) ensures reliable data transmission and operates at the Transport Layer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "39eb10bf-0b01-4d63-ae99-0eb42efcc131",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the OSI model, which layer is responsible for routing?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Data Link Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Network Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Session Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OSI",
+                "routing",
+                "Network Layer"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3a90eeae-a968-4d6f-87d6-d67880448f05",
+                    "questionID": "39eb10bf-0b01-4d63-ae99-0eb42efcc131",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Network Layer handles logical addressing and routing packets between networks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de045911-707d-446c-a41f-393ae8e09e06",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OSI layer is responsible for establishing, managing, and terminating connections between applications?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Application Layer",
+                    "type": "A"
+                },
+                {
+                    "body": " Transport Layer",
+                    "type": "B"
+                },
+                {
+                    "body": " Session Layer",
+                    "type": "C"
+                },
+                {
+                    "body": " Network Layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "conceptual",
+                "OSI",
+                "Session Layer"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d0513912-7ce5-40d9-b6e9-b25b45476b78",
+                    "questionID": "de045911-707d-446c-a41f-393ae8e09e06",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Session Layer controls dialogues (connections) between computers. It establishes, manages, and terminates connections.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "61fa4358-4750-4043-bc07-c34d644800ce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these networks would use leased telephone lines to communicate between distant cities?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " PAN",
+                    "type": "A"
+                },
+                {
+                    "body": " LAN",
+                    "type": "B"
+                },
+                {
+                    "body": " WAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "WAN",
+                "infrastructure",
+                "leased lines"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "967d522a-1eb0-496a-bfa6-53c25dc8b2ac",
+                    "questionID": "61fa4358-4750-4043-bc07-c34d644800ce",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WANs often use leased lines or telecom infrastructure to span large geographic distances, such as between cities or countries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a69ae79a-3d26-430c-9c92-3ab331ac8225",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a network has a speed of 1 Gbps and covers a distance of 50 meters between devices, what type of network is most likely in use?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " WAN",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN",
+                    "type": "B"
+                },
+                {
+                    "body": " LAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN",
+                "numerical",
+                "performance"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1217d4d0-c6e8-4b34-bc09-c441fba2640a",
+                    "questionID": "a69ae79a-3d26-430c-9c92-3ab331ac8225",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A 1 Gbps speed and 50-meter range suggests a wired LAN (e.g., Ethernet), ideal for offices or labs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "21673ae3-2497-495d-880e-c59d81146f73",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about LANs?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " They have high propagation delay.",
+                    "type": "A"
+                },
+                {
+                    "body": " They are immune to electromagnetic interference.",
+                    "type": "B"
+                },
+                {
+                    "body": " They typically operate within a single building.",
+                    "type": "C"
+                },
+                {
+                    "body": " They require satellite communication.",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN",
+                "characteristics",
+                "technical facts"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "df720f2f-8461-4bb6-acac-b6fbba546c7b",
+                    "questionID": "21673ae3-2497-495d-880e-c59d81146f73",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LANs are designed for use in small, contained areas like a single building, and do not use satellite communication.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "70ddd575-98d7-4e53-8657-15f055a52fe0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A company wants to connect its headquarters in New York with its branch in Tokyo. Which type of network should be used?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN",
+                    "type": "B"
+                },
+                {
+                    "body": " MAN",
+                    "type": "C"
+                },
+                {
+                    "body": " WAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "WAN",
+                "real-world",
+                "corporate networking"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9dab82f6-cbfd-446e-880d-e58d76a5f52d",
+                    "questionID": "70ddd575-98d7-4e53-8657-15f055a52fe0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WAN is the best option for connecting remote offices across continents, often using leased lines or satellite links.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e461b1d4-420c-455a-a3f3-46cea705100e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which network type generally requires the most infrastructure investment?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " WAN",
+                    "type": "B"
+                },
+                {
+                    "body": " PAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "WAN",
+                "cost",
+                "infrastructure"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "dc7e7a36-ba84-47d8-9f33-35a77b639964",
+                    "questionID": "e461b1d4-420c-455a-a3f3-46cea705100e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WANs span large areas and typically involve leasing communication lines, making them the most expensive to build and maintain.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4b8345b1-07e6-4090-95e6-90a54c42a226",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which network type would be most suitable for connecting a smartwatch to a smartphone?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN",
+                    "type": "A"
+                },
+                {
+                    "body": " MAN",
+                    "type": "B"
+                },
+                {
+                    "body": " PAN",
+                    "type": "C"
+                },
+                {
+                    "body": " WAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PAN",
+                "practical",
+                "wearable technology"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c3abf18e-07f8-4e8d-84d4-bb142dc9cc9f",
+                    "questionID": "4b8345b1-07e6-4090-95e6-90a54c42a226",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PAN is ideal for personal devices in close proximity, such as wearables connected via Bluetooth.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d623a2f3-4daf-4214-84bb-7683fbae1a75",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not a feature of LAN?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " High speed",
+                    "type": "A"
+                },
+                {
+                    "body": " Low latency",
+                    "type": "B"
+                },
+                {
+                    "body": " Covers large geographic areas",
+                    "type": "C"
+                },
+                {
+                    "body": " Uses private ownership",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN",
+                "comparison",
+                "features"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "27f0d89d-f6f6-4aa2-88f0-527539b345b5",
+                    "questionID": "d623a2f3-4daf-4214-84bb-7683fbae1a75",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LANs are limited to small geographic areas and are privately owned. Large geographic coverage is a characteristic of WANs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "47ab4f85-18ed-4150-8459-ddf0930c4876",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a WAN?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " A network connecting computers within a single room",
+                    "type": "A"
+                },
+                {
+                    "body": " A network connecting computers across cities or countries",
+                    "type": "B"
+                },
+                {
+                    "body": " A network within a home using Bluetooth",
+                    "type": "C"
+                },
+                {
+                    "body": " A network within a building",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "definition",
+                "WAN",
+                "geography"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4f3e8e85-8e48-4ccb-a354-378d3da37954",
+                    "questionID": "47ab4f85-18ed-4150-8459-ddf0930c4876",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WAN (Wide Area Network) connects geographically distant locations, like the internet or a corporate intranet spread across the globe.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c673cdb4-3731-418b-a35c-6dbd71a4eefc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A university campus with multiple interconnected buildings is best served by which type of network?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " PAN",
+                    "type": "A"
+                },
+                {
+                    "body": " WAN",
+                    "type": "B"
+                },
+                {
+                    "body": " LAN",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "real-world scenario",
+                "LAN",
+                "network design"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f776ed7f-8fe0-42cb-b6e9-5703aee7348d",
+                    "questionID": "c673cdb4-3731-418b-a35c-6dbd71a4eefc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A LAN (Local Area Network) is suitable for small geographic areas like a campus or office, offering high speed and reliability.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2b0b292d-5e9d-4a8c-b56a-92b16dfaa5a9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following networks covers the shortest range?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " WAN",
+                    "type": "A"
+                },
+                {
+                    "body": " MAN",
+                    "type": "B"
+                },
+                {
+                    "body": " LAN",
+                    "type": "C"
+                },
+                {
+                    "body": " PAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "conceptual",
+                "range",
+                "PAN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "61042c22-d63a-43c5-a20b-54efa6d6a017",
+                    "questionID": "2b0b292d-5e9d-4a8c-b56a-92b16dfaa5a9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PAN (Personal Area Network) typically covers a range of a few meters, such as Bluetooth or USB connections between personal devices.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5d0eed4b-081d-44d9-89e0-a214e9120997",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these best reflects the scalability goal of a computer network?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Reducing network speed as more devices connect",
+                    "type": "A"
+                },
+                {
+                    "body": " Maintaining cost while reducing users",
+                    "type": "B"
+                },
+                {
+                    "body": " Adding new devices without affecting existing services",
+                    "type": "C"
+                },
+                {
+                    "body": " Making the network closed and secure",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Scalability",
+                "NetworkDesign"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8b4051da-b62e-4df8-b745-aa6d2c6a06d5",
+                    "questionID": "5d0eed4b-081d-44d9-89e0-a214e9120997",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Scalability refers to the network&#39;s ability to grow and manage increased demand without negatively impacting performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b01fbccb-6843-4be2-9015-bacfb561da04",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the context of networking, what does resource sharing imply?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Sharing files via cloud only",
+                    "type": "A"
+                },
+                {
+                    "body": " Allowing multiple users to access printers, storage, and software over a network",
+                    "type": "B"
+                },
+                {
+                    "body": " Using multiple CPUs on a single system",
+                    "type": "C"
+                },
+                {
+                    "body": " Allocating all resources to one user",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ResourceSharing",
+                "NetworkingBasics"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "05b6a04d-721f-4c45-b797-aaa0552d72ff",
+                    "questionID": "b01fbccb-6843-4be2-9015-bacfb561da04",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Resource sharing in networking allows different users and systems to access common devices and services like printers, storage, and applications.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "578d488d-3abc-4bc6-abdc-f4af5781d606",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main goal of networking when it comes to fault tolerance?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " To reduce cost of the system",
+                    "type": "A"
+                },
+                {
+                    "body": " To simplify software development",
+                    "type": "B"
+                },
+                {
+                    "body": " To ensure system remains operational if part fails",
+                    "type": "C"
+                },
+                {
+                    "body": " To increase storage capacity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "NetworkingGoals",
+                "FaultTolerance",
+                "SystemDesign"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "922ebdda-be6a-4a6f-b463-ad0acb5600c9",
+                    "questionID": "578d488d-3abc-4bc6-abdc-f4af5781d606",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Fault tolerance ensures the system continues to function even if a component fails. This is a crucial goal in networking to maintain service availability.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a4dd6a3d-f3e0-45ab-a5ac-0b5ed7de20ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a goal of computer networking?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Resource sharing",
+                    "type": "A"
+                },
+                {
+                    "body": " Communication",
+                    "type": "B"
+                },
+                {
+                    "body": " Centralized computing",
+                    "type": "C"
+                },
+                {
+                    "body": " Reliability",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "NetworkingGoals",
+                "DistributedSystems"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8bc87a89-b61c-4ed2-b21d-dc470745a953",
+                    "questionID": "a4dd6a3d-f3e0-45ab-a5ac-0b5ed7de20ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One of the key goals of networking is to enable distributed computing, not centralized computing. It emphasizes the use of multiple computers to improve performance and reliability.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e704181b-736b-4442-b1a1-96d972638190",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol works on the Transport Layer, is connection-oriented, and uses three-way handshake to establish a connection?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " UDP",
+                    "type": "A"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "B"
+                },
+                {
+                    "body": " TCP",
+                    "type": "C"
+                },
+                {
+                    "body": " FTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Transport Layer",
+                "TCP",
+                "connection-oriented",
+                "handshake"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9fc9861e-d98e-40a8-b8c3-f7a904b4e1a2",
+                    "questionID": "e704181b-736b-4442-b1a1-96d972638190",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TCP (Transmission Control Protocol) is connection-oriented and establishes a reliable connection using a three-way handshake (SYN, SYN-ACK, ACK).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b486bc2f-3d90-4f6c-bd19-fce685042164",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is responsible for delivering packets to the correct destination IP address but does not guarantee delivery?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " TCP",
+                    "type": "A"
+                },
+                {
+                    "body": " UDP",
+                    "type": "B"
+                },
+                {
+                    "body": " IP",
+                    "type": "C"
+                },
+                {
+                    "body": " HTTP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "routing",
+                "IP",
+                "connectionless",
+                "OSI Layer 3"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7eafda1b-050e-456d-a930-9a6356f36714",
+                    "questionID": "b486bc2f-3d90-4f6c-bd19-fce685042164",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IP (Internet Protocol) provides logical addressing and routing of packets but does not guarantee delivery or order of packets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "333a491b-e624-4d5b-abeb-a40357a77d9c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of network is most suitable for a small office",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " WAN\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " LAN\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN  \nOfficeNetwork"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c9365e4b-52df-4e0f-b433-c16280e26fd2",
+                    "questionID": "333a491b-e624-4d5b-abeb-a40357a77d9c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LAN is ideal for small offices as it efficiently connects a limited number of computers",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5cb7830c-c141-4211-ad11-3cfa8f283f0f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A LAN can be connected to a WAN using a",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Monitor\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Router\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Mouse\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Keyboard",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Router  \nLANtoWAN  \nDevices"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4c4529d2-521e-473f-b3fb-ea34719a4a20",
+                    "questionID": "5cb7830c-c141-4211-ad11-3cfa8f283f0f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A router connects a local area network (LAN) to a wide area network (WAN)",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f740c1f5-acb2-42ad-9236-a54c1ed64172",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Bluetooth connection between a phone and wireless earphones is an example of",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " WAN\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " PAN\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Bluetooth  \nPAN  \nExamples"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7fb05e3b-b6ec-41ff-851a-fdfdb5fa9855",
+                    "questionID": "f740c1f5-acb2-42ad-9236-a54c1ed64172",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bluetooth connections between nearby devices form a PAN",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "42f5eead-4129-4dea-8660-c15501eca6c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following networks is typically the smallest in size",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " WAN\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " LAN\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " PAN\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PAN  \nNetworkSize"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c2c16676-1dc3-4af0-b962-28c12c140aa0",
+                    "questionID": "42f5eead-4129-4dea-8660-c15501eca6c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PAN is the smallest type \n typically covering just a few meters around a person",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c8585033-d15b-4078-9467-f0f03c815cbe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which network type is used for communication within a city",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " WAN\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " MAN\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " LAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "MAN  \nUrbanNetworks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b3124fa4-646a-4878-9fc9-11bf31b2497e",
+                    "questionID": "c8585033-d15b-4078-9467-f0f03c815cbe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "MAN (Metropolitan Area Network) connects networks across a city",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b3ae185b-b6ef-4d2a-8185-40fbab9897b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is an example of a LAN",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " A smartwatch connected to a phone\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Computers connected in a school\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Multiple cities connected through fiber\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " A satellite communication system",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN  \nExamples"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2a1ade5b-ba63-4cb9-ac7a-b8a28d91f35c",
+                    "questionID": "b3ae185b-b6ef-4d2a-8185-40fbab9897b2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A school LAN connects computers within a limited area such as classrooms or labs",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "efbbce0c-3fbb-4e9a-b19f-881ebce6ab07",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The Internet is an example of which type of network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " LAN\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " WAN\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " MAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Internet  \nWAN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "77c8a3da-e66b-4b44-942a-ac34c816935a",
+                    "questionID": "efbbce0c-3fbb-4e9a-b19f-881ebce6ab07",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Internet is a Wide Area Network (WAN) as it spans the globe",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bf6f59d2-c70c-4e77-9e94-4bbf67a3ebcf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "PAN is best described as a network that",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Connects cities\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Connects continents\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Connects devices around a single person\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Connects multiple organizations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PAN  \nPersonalDevices"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "73f5f0be-e003-422e-8cea-f1d80c0340d8",
+                    "questionID": "bf6f59d2-c70c-4e77-9e94-4bbf67a3ebcf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PAN (Personal Area Network) connects devices like smartphones \n tablets \n and smartwatches around one person",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a101e88b-7f36-4474-b943-efb496fe55f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which network type is typically used to connect computers in a single building",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " WAN\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " PAN\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " MAN\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " LAN",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN  \nNetworkTypes"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "9847d6d9-ee85-4a0f-ae4b-0e20afbd0628",
+                    "questionID": "a101e88b-7f36-4474-b943-efb496fe55f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LAN (Local Area Network) connects computers in a small area such as a home \n office \n or building",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e09f51cc-abcc-4765-b24e-6cb30d52a3f3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is an example of a LAN",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Internet\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Intranet in a company\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Email system\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Wireless signals from satellite",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LAN  \nExample"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "93a064bd-55d1-4827-98c6-7744ccdecd06",
+                    "questionID": "e09f51cc-abcc-4765-b24e-6cb30d52a3f3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LAN connects systems within a small area like an office",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "76fab2b7-1194-4808-a2f7-7cad1007a9bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "WAN stands for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Wide Area Network\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Wireless Area Network\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Web Access Network\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " World Access Network",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "WAN  \nNetworkTypes"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c4452f8a-7f5a-4589-8910-364883b76d38",
+                    "questionID": "76fab2b7-1194-4808-a2f7-7cad1007a9bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WAN connects computers across large geographical distances",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "65a64808-5df3-495d-ad3b-90aaf7f5334e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is a major goal of computer networking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Game development\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Security threats\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Communication\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Virus spreading",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Communication  \nGoals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f393f7ea-0dd1-46ae-bfa8-f9fb2dd94bd4",
+                    "questionID": "65a64808-5df3-495d-ad3b-90aaf7f5334e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Enabling efficient communication is a key networking goal",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b13d52d-f8bc-44cd-8c5d-e9e1a487b498",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is resource sharing in networking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Playing games online\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Sharing physical and logical resources among computers\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Installing new programs\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Watching videos",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "ResourceSharing  \nGoals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ff5cb08f-fd0f-4935-8c49-b15703fbda78",
+                    "questionID": "3b13d52d-f8bc-44cd-8c5d-e9e1a487b498",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It refers to sharing printers \n files \n and applications",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "59553831-32b6-4341-a677-16695725e2ca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a benefit of computer networks",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Increased power consumption\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Resource duplication\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Centralized software management\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Isolated data access",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Benefits  \nManagement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "828dc2f2-c327-47f5-97c7-8182d79513ec",
+                    "questionID": "59553831-32b6-4341-a677-16695725e2ca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Networks allow centralized management \n reducing redundancy",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "19c43b05-5dad-4461-a845-4af1b85f1457",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The main purpose of networking is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " To enhance computer design\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " To share information and resources\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " To format hard drives\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " To install software",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Purpose  \nBenefits"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "740e4fc7-0db5-4e0b-a52c-dff166e6350a",
+                    "questionID": "19c43b05-5dad-4461-a845-4af1b85f1457",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Networking allows sharing of files \n printers \n and internet connections",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f9474883-25e2-4c12-9611-b81019fd0057",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does LAN stand for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Local Area Network\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Large Area Network\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Light Access Network\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Low Area Network",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "NetworkTypes  \nLAN"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d2b8caeb-36a4-41e2-8da4-e376ea3eb854",
+                    "questionID": "f9474883-25e2-4c12-9611-b81019fd0057",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LAN connects computers within a small geographical area like a building",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2cbdd474-3382-4c9a-bafa-187b746b84dc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which component is necessary to form a computer network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Printer\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Modem\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " Network Interface Card (NIC)\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Monitor",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Components  \nhardware"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1e06e569-9660-4477-8cd4-753af65dabac",
+                    "questionID": "2cbdd474-3382-4c9a-bafa-187b746b84dc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NIC enables a computer to connect to a network",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "13389d44-f2a7-4483-bc9c-b575fcdd0d32",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A major use of computer networks is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Burning CDs\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " Installing RAM\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " File sharing\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " Changing wallpaper",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Usage  \nFileSharing"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "467015d5-d138-42a3-8dc7-d729fcedc982",
+                    "questionID": "13389d44-f2a7-4483-bc9c-b575fcdd0d32",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "File sharing is one of the primary uses of networking",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a9988c74-1f45-4599-876f-50f33876d19d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a computer network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " A system to print documents\n ",
+                    "type": "A"
+                },
+                {
+                    "body": " A group of connected computers that can share data\n ",
+                    "type": "B"
+                },
+                {
+                    "body": " A single computer with many users\n ",
+                    "type": "C"
+                },
+                {
+                    "body": " A website with multiple pages",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Definition \n Basics"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "14afdbfd-b0be-4aa8-954f-0772d73c412d",
+                    "questionID": "a9988c74-1f45-4599-876f-50f33876d19d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A computer network is a group of interconnected computers that can communicate and share resources",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

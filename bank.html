@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Details</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .question { border: 1px solid #ccc; padding: 15px; margin: 10px 0; background: #fafafa; }
+        .content, .solution { background: #fff; padding: 10px; border: 1px solid #ddd; }
+        .tags { color: #555; font-size: 14px; }
+        .options { margin-top: 10px; }
+        .correct { color: green; font-weight: bold; }
+        .complexity { font-weight: bold; color: #007bff; }
+    </style>
+</head>
+<body>
+    <h1 id="bankTitle">Loading...</h1>
+    <div id="questions"></div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const bankName = params.get("name");
+
+        fetch(`/question_banks_json/${encodeURIComponent(bankName)}`)
+            .then(res => res.json())
+            .then(bank => {
+                document.getElementById("bankTitle").textContent = bank.bank_name;
+
+                const container = document.getElementById("questions");
+                bank.questions.forEach((q, idx) => {
+                    const div = document.createElement("div");
+                    div.className = "question";
+                    div.innerHTML = `
+                        <h2>Question ${idx + 1}</h2>
+                        <div class="content">${q.questionContent ? renderContent(q.questionContent) : "No content"}</div>
+                        <div class="options">${renderOptions(q.questionOptions)}</div>
+                        <div class="correct">Correct Answer: ${q.correctAnswer || "N/A"}</div>
+                        <div class="solution">${renderSolution(q.solution)}</div>
+                        <div class="tags">Tags: ${q.questionTags?q.questionTags.join(", "):"N/A"}</div>
+                        <div class="complexity">Complexity: ${q.complexityLevel || "N/A"}</div>
+                    `;
+                    container.appendChild(div);
+                });
+            });
+
+        function renderContent(content) {
+            if (Array.isArray(content)) {
+                
+                return content.map(c => {
+                    if(c.type==="image"){
+                        return `<img src="${c.body}" />`
+                    }
+                    return c.body || "";
+                }).join("<br>");
+            }
+            
+            
+            return content || "";
+        }
+
+        function renderOptions(options) {
+            if (!options) return "";
+            return "<ul style='list-style-type: upper-alpha;''>" + options.map(opt => `<li>${opt.body}</li>`).join("") + "</ul>";
+        }
+
+        function renderSolution(solution) {
+            if (!solution) return "No solution available";
+            if (typeof solution === "object" && solution && solution.length>0 && solution[0].details) {
+                return `<strong>Solution:</strong> <div>${solution[0].details}</div>`;
+            }
+            return JSON.stringify(solution);
+        }
+    </script>
+</body>
+</html>

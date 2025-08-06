@@ -1,0 +1,4506 @@
+{
+    "bank_id": "56e2984d-0d8c-48f9-ac2e-f94ca5c45c87",
+    "bank_name": "Immerision-Dry-os-1",
+    "questions": [
+        {
+            "id": "1f5f645e-72e7-49d0-a4e3-38995b70e318",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these OS types must ensure all critical tasks meet their deadlines, or system failure occurs",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hard real-time OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "44192217-2c18-4395-8045-a13e7cb61528",
+                    "questionID": "1f5f645e-72e7-49d0-a4e3-38995b70e318",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hard RTOS must meet all deadlines.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32fc7363-9f74-422d-9fac-a79584b9cc6b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which Linux kernel subsystem handles process scheduling",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "VFS",
+                    "type": "A"
+                },
+                {
+                    "body": "Scheduler",
+                    "type": "B"
+                },
+                {
+                    "body": "IPC",
+                    "type": "C"
+                },
+                {
+                    "body": "KVM",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3638432d-a454-4735-99b5-1488a14e12cc",
+                    "questionID": "32fc7363-9f74-422d-9fac-a79584b9cc6b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The scheduler subsystem manages CPU time allocation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "96abe77a-ac2f-4c7f-ac01-3ba1a8fe24f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is a limitation of layered OS architecture",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hard to debug",
+                    "type": "A"
+                },
+                {
+                    "body": "Performance overhead between layers",
+                    "type": "B"
+                },
+                {
+                    "body": "No modularity",
+                    "type": "C"
+                },
+                {
+                    "body": "No security",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Layered"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b1cb1a50-3f5d-418e-b0a7-d58ead8d2a14",
+                    "questionID": "96abe77a-ac2f-4c7f-ac01-3ba1a8fe24f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Layered OS may have performance overhead.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "63cfb66c-907d-4589-ac65-1ad32cf70907",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the use of the &#39;exec&#39; command in shell",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Execute another shell",
+                    "type": "A"
+                },
+                {
+                    "body": "Replace shell with a command",
+                    "type": "B"
+                },
+                {
+                    "body": "Edit files",
+                    "type": "C"
+                },
+                {
+                    "body": "Exit shell",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b6a882c6-8db4-41ed-a4a2-716bcda36c18",
+                    "questionID": "63cfb66c-907d-4589-ac65-1ad32cf70907",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "exec replaces shell with new command.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "078af31c-0ceb-4da4-8e5d-d9d386047c15",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is NOT a typical system call category",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Process control",
+                    "type": "A"
+                },
+                {
+                    "body": "File management",
+                    "type": "B"
+                },
+                {
+                    "body": "Networking",
+                    "type": "C"
+                },
+                {
+                    "body": "Spreadsheet",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "3f23d832-ffe9-45a3-b349-42b4a99016be",
+                    "questionID": "078af31c-0ceb-4da4-8e5d-d9d386047c15",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Spreadsheet is not a system call type.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0692664-aaeb-4782-a293-ca888041ba62",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which process runs first after the Linux kernel boots",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "bash",
+                    "type": "A"
+                },
+                {
+                    "body": "init (or systemd)",
+                    "type": "B"
+                },
+                {
+                    "body": "explorer.exe",
+                    "type": "C"
+                },
+                {
+                    "body": "getty",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "975dd8cc-15f7-4a4e-90f2-9b977aeaed3e",
+                    "questionID": "c0692664-aaeb-4782-a293-ca888041ba62",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "init or systemd is the first process.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a11191db-76d7-48c4-84b2-38c22e4a929f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a characteristic of a soft real-time OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Strict deadline enforcement",
+                    "type": "A"
+                },
+                {
+                    "body": "Occasional deadline misses allowed",
+                    "type": "B"
+                },
+                {
+                    "body": "Only one user",
+                    "type": "C"
+                },
+                {
+                    "body": "No time constraints",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d9daf969-6632-4da7-971f-499f9dfa2d48",
+                    "questionID": "a11191db-76d7-48c4-84b2-38c22e4a929f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Soft RTOS can miss some deadlines.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ca5972cf-6b22-4f91-9b11-94553e781361",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is the main advantage of the layered architecture",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Direct hardware access",
+                    "type": "A"
+                },
+                {
+                    "body": "Improved modularity",
+                    "type": "B"
+                },
+                {
+                    "body": "Fastest performance",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Layered"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7bec5292-05e7-435d-bdea-e46fdd1f5167",
+                    "questionID": "ca5972cf-6b22-4f91-9b11-94553e781361",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Layered design provides modularity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3a942bfd-7d45-4af2-ab3e-e4a93dd0527e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Bash, what is the effect of the command trap echo Exiting EXIT",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ignores exit",
+                    "type": "A"
+                },
+                {
+                    "body": "Executes &#39;echo Exiting&#39; on script exit",
+                    "type": "B"
+                },
+                {
+                    "body": "Causes error",
+                    "type": "C"
+                },
+                {
+                    "body": "Edits file",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f772c065-db1d-4f72-bdb1-63d289764ef9",
+                    "questionID": "3a942bfd-7d45-4af2-ab3e-e4a93dd0527e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "trap runs command on script exit.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6c778912-6ebf-4e0c-a637-5d51440557da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is NOT an essential feature of distributed OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transparency",
+                    "type": "A"
+                },
+                {
+                    "body": "Scalability",
+                    "type": "B"
+                },
+                {
+                    "body": "Single user mode",
+                    "type": "C"
+                },
+                {
+                    "body": "Fault tolerance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c2490489-e113-421b-90f7-b7966bd4a73e",
+                    "questionID": "6c778912-6ebf-4e0c-a637-5d51440557da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Single user mode is not essential for distributed OS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8a6e9930-7ebd-44a8-9f74-a0b99c37dc13",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which memory management scheme is managed directly by the kernel",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Virtual memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Paged segmentation",
+                    "type": "B"
+                },
+                {
+                    "body": "File swapping",
+                    "type": "C"
+                },
+                {
+                    "body": "Segmented memory",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d9f72ea6-e329-40aa-99fb-880caac250d0",
+                    "questionID": "8a6e9930-7ebd-44a8-9f74-a0b99c37dc13",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Virtual memory is managed by kernel.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5297fa4d-a941-4645-be2e-e60a6770330c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call would be used to wait for a child process to finish execution",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "exit()",
+                    "type": "A"
+                },
+                {
+                    "body": "waitpid()",
+                    "type": "B"
+                },
+                {
+                    "body": "fork()",
+                    "type": "C"
+                },
+                {
+                    "body": "write()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3058c3c4-008e-485a-a619-d305e0514f0f",
+                    "questionID": "5297fa4d-a941-4645-be2e-e60a6770330c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "waitpid() waits for child process.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3acaead6-eea1-4f4a-8bfa-d8839780afe9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the &#39;set -e&#39; command do in a shell script",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Echo commands",
+                    "type": "A"
+                },
+                {
+                    "body": "Exit on any error",
+                    "type": "B"
+                },
+                {
+                    "body": "Edit files",
+                    "type": "C"
+                },
+                {
+                    "body": "Enable echo",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c0972165-a252-4530-9f48-37ccec577204",
+                    "questionID": "3acaead6-eea1-4f4a-8bfa-d8839780afe9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "set -e exits script if a command fails.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9fa23775-62f1-4e32-afc7-d7cf21ab2eb4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS architecture is typically used in mobile operating systems like Android",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "C"
+                },
+                {
+                    "body": "Layered",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Hybrid"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "726597fa-00cb-44ee-99dd-a598174f3437",
+                    "questionID": "9fa23775-62f1-4e32-afc7-d7cf21ab2eb4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Android uses a hybrid kernel.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a1c58827-eab9-4611-9dd3-9ff1efe437ab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these OS types supports hard and soft deadlines",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Real-time OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "00b5dbae-935c-4536-b94b-c70f4053614d",
+                    "questionID": "a1c58827-eab9-4611-9dd3-9ff1efe437ab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS can have hard or soft deadlines.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8d86f9d6-5ac2-4dd2-a127-2d910f290d8a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The kernel abstraction for a running program is called",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Thread",
+                    "type": "A"
+                },
+                {
+                    "body": "Process",
+                    "type": "B"
+                },
+                {
+                    "body": "Segment",
+                    "type": "C"
+                },
+                {
+                    "body": "Tasklet",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9426cbe7-f6f8-4ba8-932a-c476add5a88d",
+                    "questionID": "8d86f9d6-5ac2-4dd2-a127-2d910f290d8a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Kernel represents each program as a process.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "04e81b17-4110-4e4d-baaa-ffe1ea1925f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call is used to duplicate an existing file descriptor",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "dup()",
+                    "type": "A"
+                },
+                {
+                    "body": "fork()",
+                    "type": "B"
+                },
+                {
+                    "body": "write()",
+                    "type": "C"
+                },
+                {
+                    "body": "exit()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cd8300c5-646d-42ea-9cb0-4dc59e5c9e67",
+                    "questionID": "04e81b17-4110-4e4d-baaa-ffe1ea1925f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "dup() duplicates file descriptors.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e481a9e7-3a1c-4540-a0c1-5596acaccb4b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is a key challenge in real-time OS design",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Batch job handling",
+                    "type": "A"
+                },
+                {
+                    "body": "Meeting strict deadlines",
+                    "type": "B"
+                },
+                {
+                    "body": "Multi-user scheduling",
+                    "type": "C"
+                },
+                {
+                    "body": "File system design",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "134c0d83-1b0a-4033-80bc-ae612f572320",
+                    "questionID": "e481a9e7-3a1c-4540-a0c1-5596acaccb4b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS must meet deadlines.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f8ff172-0055-41f5-b39e-d4209cb9183a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is command substitution in shell scripting",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Replacing old commands",
+                    "type": "A"
+                },
+                {
+                    "body": "Executing commands and using their output",
+                    "type": "B"
+                },
+                {
+                    "body": "Editing a command",
+                    "type": "C"
+                },
+                {
+                    "body": "Copying a command",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "aebe3ba5-e243-4d61-bee1-49d33d4ae057",
+                    "questionID": "1f8ff172-0055-41f5-b39e-d4209cb9183a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Command substitution inserts output of one command into another.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4cab3a75-64b8-4786-bd92-8c09ef8dffb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS architecture is most resilient against faulty device drivers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Layered",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Microkernel"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "72c9fd90-0c53-4811-8c43-dece3cdf8c7a",
+                    "questionID": "4cab3a75-64b8-4786-bd92-8c09ef8dffb8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Microkernel isolates drivers in user space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "622cb7d1-fe28-42af-a26d-996c1ed8fe63",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a disadvantage of microkernel design",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Inflexibility",
+                    "type": "A"
+                },
+                {
+                    "body": "Large kernel size",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow communication due to IPC",
+                    "type": "C"
+                },
+                {
+                    "body": "Lack of modularity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8de4e73e-30f8-4bc0-a6f1-b8e8d238f777",
+                    "questionID": "622cb7d1-fe28-42af-a26d-996c1ed8fe63",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPC can slow down microkernel systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce282098-9468-4262-80c4-6bab0a29b61f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In distributed OS, what is transparency",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hiding system errors",
+                    "type": "A"
+                },
+                {
+                    "body": "Concealing network details from users",
+                    "type": "B"
+                },
+                {
+                    "body": "User authentication",
+                    "type": "C"
+                },
+                {
+                    "body": "Task scheduling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "162b638f-d1df-4fb2-a308-80ba6dde0f7b",
+                    "questionID": "ce282098-9468-4262-80c4-6bab0a29b61f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Transparency hides distribution complexity from users.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "09ab10d4-f83d-4836-85d2-24beea6f5235",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call is used to map files or devices into memory in UNIX",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "mmap()",
+                    "type": "A"
+                },
+                {
+                    "body": "fork()",
+                    "type": "B"
+                },
+                {
+                    "body": "unlink()",
+                    "type": "C"
+                },
+                {
+                    "body": "exit()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "47ce8c50-ef81-448d-be35-04ec6ba15705",
+                    "questionID": "09ab10d4-f83d-4836-85d2-24beea6f5235",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "mmap() maps files into memory.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "42acbb87-b849-46f1-aa4a-a267b174ef7a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes kernel preemption",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stopping kernel threads",
+                    "type": "A"
+                },
+                {
+                    "body": "Allowing interruption of kernel-mode tasks",
+                    "type": "B"
+                },
+                {
+                    "body": "Preventing process switching",
+                    "type": "C"
+                },
+                {
+                    "body": "User-mode process scheduling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "abd2f30f-1fca-464f-beb2-59ae386d57a1",
+                    "questionID": "42acbb87-b849-46f1-aa4a-a267b174ef7a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Kernel preemption allows task interruption in kernel mode.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "465b1aaf-3259-434b-9b5c-37d96cd9f21d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which architectural flaw makes monolithic kernels prone to system crashes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Single point of failure",
+                    "type": "A"
+                },
+                {
+                    "body": "Layered modules",
+                    "type": "B"
+                },
+                {
+                    "body": "Extensive user-mode code",
+                    "type": "C"
+                },
+                {
+                    "body": "Separate address spaces",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Monolithic"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c1672ed0-3cb7-43ab-8173-7bc46e4fe27b",
+                    "questionID": "465b1aaf-3259-434b-9b5c-37d96cd9f21d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Failure in monolithic kernel can crash the entire system.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5ef53ee8-3c5e-469d-97a7-9ed66d38c1f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS can be described as both interactive and multitasking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Batch OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Real-time OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Time-sharing"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7429c53b-b009-4342-a664-73ab79ec7da5",
+                    "questionID": "5ef53ee8-3c5e-469d-97a7-9ed66d38c1f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Time-sharing OS is interactive and multitasking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "76ad73f7-56f1-442c-8e30-8564ccda8ab4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call is used for writing data to a file",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "read()",
+                    "type": "A"
+                },
+                {
+                    "body": "write()",
+                    "type": "B"
+                },
+                {
+                    "body": "exec()",
+                    "type": "C"
+                },
+                {
+                    "body": "unlink()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "018039b4-f389-419b-887f-7561407804a7",
+                    "questionID": "76ad73f7-56f1-442c-8e30-8564ccda8ab4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "write() sends data to a file.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8e7fe51b-0de8-4265-916c-2befab41039a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is NOT a shell in Linux",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bash",
+                    "type": "A"
+                },
+                {
+                    "body": "Zsh",
+                    "type": "B"
+                },
+                {
+                    "body": "Fish",
+                    "type": "C"
+                },
+                {
+                    "body": "WinShell",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "bd56d497-80e2-4184-b994-a02d99afaf1a",
+                    "questionID": "8e7fe51b-0de8-4265-916c-2befab41039a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "WinShell is not a Linux shell.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "212c27a6-be93-4f78-bbe7-96a7cf3d24fc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which kernel structure allows non-essential services to run as user processes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Layered",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0e93d8b7-9d64-42dc-8fba-d5d3318cf651",
+                    "questionID": "212c27a6-be93-4f78-bbe7-96a7cf3d24fc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Microkernel runs services in user space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "33fabda2-31d7-46e0-b77b-36b6fe4f1725",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS is best for applications where tasks must be completed in a fixed time",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Time-sharing OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Real-time OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Network OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "23ccef64-431b-4ed5-abf4-5fe7bb154498",
+                    "questionID": "33fabda2-31d7-46e0-b77b-36b6fe4f1725",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS is used for time-constrained applications.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "259cd9ba-67f6-4f01-b4ae-0a65994b2b86",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which architecture is easier to maintain due to module separation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Layered",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Layered"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c7e67fac-aeb7-48b8-90e4-6c6cf0fbe79a",
+                    "questionID": "259cd9ba-67f6-4f01-b4ae-0a65994b2b86",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Layered OSs are easy to maintain.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "757004b8-9bef-462c-a011-b0cdba84894c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The kernel&#39;s scheduler is responsible for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Managing user interfaces",
+                    "type": "A"
+                },
+                {
+                    "body": "Assigning CPU to processes",
+                    "type": "B"
+                },
+                {
+                    "body": "Formatting drives",
+                    "type": "C"
+                },
+                {
+                    "body": "Updating BIOS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3c53ae16-7494-4d2d-b882-f0b2d8c66ad2",
+                    "questionID": "757004b8-9bef-462c-a011-b0cdba84894c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Scheduler assigns CPU to running tasks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dbdaf4c8-d0bd-400b-9665-59a101bba336",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of the wait() system call",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Delete file",
+                    "type": "A"
+                },
+                {
+                    "body": "Wait for process to finish",
+                    "type": "B"
+                },
+                {
+                    "body": "Create process",
+                    "type": "C"
+                },
+                {
+                    "body": "Open file",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "695709a4-73ab-4e17-8807-f6b7e3ce6950",
+                    "questionID": "dbdaf4c8-d0bd-400b-9665-59a101bba336",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "wait() pauses until a process finishes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba090717-49a5-4b29-9320-ce3e5c8d43f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which file is used to store user shell configuration in Bash",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/etc/passwd",
+                    "type": "A"
+                },
+                {
+                    "body": "~/.bashrc",
+                    "type": "B"
+                },
+                {
+                    "body": "/bin/bash",
+                    "type": "C"
+                },
+                {
+                    "body": "/home",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4e57ac69-a5ad-49fb-9235-2f9a7a6de2d0",
+                    "questionID": "ba090717-49a5-4b29-9320-ce3e5c8d43f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "~/.bashrc holds Bash shell configs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a57cb44-890a-4cdb-91e3-54217504c410",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which architecture is the user interface usually in user mode, not kernel mode",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Layered",
+                    "type": "C"
+                },
+                {
+                    "body": "Batch",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Microkernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1dc4d9ae-6e4e-4914-977e-a838818acb34",
+                    "questionID": "6a57cb44-890a-4cdb-91e3-54217504c410",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Microkernel keeps UI in user mode.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d89e46f-9e38-4422-8a28-61062617a6fc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS type is mainly used for scientific computations on supercomputers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Batch",
+                    "type": "A"
+                },
+                {
+                    "body": "Time-sharing",
+                    "type": "B"
+                },
+                {
+                    "body": "Distributed",
+                    "type": "C"
+                },
+                {
+                    "body": "Real-time",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4371c00b-6693-4a6a-99ad-64fda92bb526",
+                    "questionID": "0d89e46f-9e38-4422-8a28-61062617a6fc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Distributed OS handles computation across many machines.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e6e30cd2-41b2-4589-99f8-b662f6e792a4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call checks a file&#39;s existence",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "stat()",
+                    "type": "A"
+                },
+                {
+                    "body": "fork()",
+                    "type": "B"
+                },
+                {
+                    "body": "read()",
+                    "type": "C"
+                },
+                {
+                    "body": "exit()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d6e98321-7221-4463-965f-10b96723f761",
+                    "questionID": "e6e30cd2-41b2-4589-99f8-b662f6e792a4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "stat() checks file properties.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e92c3c14-8863-403f-bef7-88934222c0bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is NOT a function of a kernel",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Process scheduling",
+                    "type": "A"
+                },
+                {
+                    "body": "File editing",
+                    "type": "B"
+                },
+                {
+                    "body": "Memory allocation",
+                    "type": "C"
+                },
+                {
+                    "body": "Device management",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5eacd2e1-23d7-4c2d-a2b8-d4545fa44714",
+                    "questionID": "e92c3c14-8863-403f-bef7-88934222c0bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "File editing is not a kernel task.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "be21796e-ebca-40fc-8204-8fd24affbeb0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does &#39;echo&#39; command do in shell",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Lists files",
+                    "type": "A"
+                },
+                {
+                    "body": "Displays message/text",
+                    "type": "B"
+                },
+                {
+                    "body": "Changes directory",
+                    "type": "C"
+                },
+                {
+                    "body": "Edits a file",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "64714457-1d4e-48b0-acc0-f508cc39d909",
+                    "questionID": "be21796e-ebca-40fc-8204-8fd24affbeb0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "echo prints text to terminal.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dace9ffe-cd4f-4441-b6a6-227f17a00f88",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT an example of a distributed OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Windows NT",
+                    "type": "A"
+                },
+                {
+                    "body": "Amoeba",
+                    "type": "B"
+                },
+                {
+                    "body": "Mach",
+                    "type": "C"
+                },
+                {
+                    "body": "Plan 9",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5d537dc4-8fd5-49d2-965f-f237e5344f2c",
+                    "questionID": "dace9ffe-cd4f-4441-b6a6-227f17a00f88",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Windows NT is not a distributed OS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "370866e0-d539-46e3-a088-0934340396e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which architecture is known for high performance and direct hardware access",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Microkernel",
+                    "type": "A"
+                },
+                {
+                    "body": "Monolithic",
+                    "type": "B"
+                },
+                {
+                    "body": "Layered",
+                    "type": "C"
+                },
+                {
+                    "body": "Distributed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Monolithic"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "177beb48-f430-4b92-bf0f-e1677e2fbb47",
+                    "questionID": "370866e0-d539-46e3-a088-0934340396e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Monolithic kernel provides direct hardware access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "122c700f-dcdf-4cb5-8cec-9c53ea195e2f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which command is used to display the current directory in Unix/Linux",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "pwd",
+                    "type": "A"
+                },
+                {
+                    "body": "cd",
+                    "type": "B"
+                },
+                {
+                    "body": "ls",
+                    "type": "C"
+                },
+                {
+                    "body": "mkdir",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cc78f542-34be-4ee6-8dfe-a001b288e116",
+                    "questionID": "122c700f-dcdf-4cb5-8cec-9c53ea195e2f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "pwd shows present working directory.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7f267131-6718-4b18-9e78-a23689125dba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call is responsible for deleting a file",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "fork()",
+                    "type": "A"
+                },
+                {
+                    "body": "unlink()",
+                    "type": "B"
+                },
+                {
+                    "body": "write()",
+                    "type": "C"
+                },
+                {
+                    "body": "exec()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b2a23e28-1be2-4ce7-8b7b-8842ec691912",
+                    "questionID": "7f267131-6718-4b18-9e78-a23689125dba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "unlink() deletes a file in UNIX.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "17d65818-531f-46d7-80a5-e3ea0d4ad1e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Hybrid kernel architecture combines features from which two architectures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Layered and batch",
+                    "type": "A"
+                },
+                {
+                    "body": "Monolithic and microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Time-sharing and real-time",
+                    "type": "C"
+                },
+                {
+                    "body": "Batch and distributed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "eed0336e-a886-4195-aaeb-04fa82d38fa9",
+                    "questionID": "17d65818-531f-46d7-80a5-e3ea0d4ad1e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hybrid kernel = monolithic + microkernel features.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d94cf918-b138-4759-bad3-80fb7d370fc2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS type is most suited for embedded systems requiring strict timing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Time-sharing",
+                    "type": "A"
+                },
+                {
+                    "body": "Batch",
+                    "type": "B"
+                },
+                {
+                    "body": "Real-time",
+                    "type": "C"
+                },
+                {
+                    "body": "Distributed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2217ac59-bb04-48c2-b84a-d16e621aa0fb",
+                    "questionID": "d94cf918-b138-4759-bad3-80fb7d370fc2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS is ideal for embedded, timing-sensitive systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "adcdd6ce-39fe-4574-ab90-23b825405cff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a disadvantage of the monolithic architecture",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Complex debugging",
+                    "type": "A"
+                },
+                {
+                    "body": "Modular code",
+                    "type": "B"
+                },
+                {
+                    "body": "Security",
+                    "type": "C"
+                },
+                {
+                    "body": "Easy updates",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Monolithic"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e54344dd-8ab7-4216-9d35-c217893ec498",
+                    "questionID": "adcdd6ce-39fe-4574-ab90-23b825405cff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Monolithic architecture can be hard to debug.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2197bbc2-1d81-4cc5-8575-6aee588546e7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a GUI shell for Windows",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Command Prompt",
+                    "type": "A"
+                },
+                {
+                    "body": "Explorer.exe",
+                    "type": "B"
+                },
+                {
+                    "body": "Bash",
+                    "type": "C"
+                },
+                {
+                    "body": "zsh",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b8a52497-b97b-4757-b171-12c4047acf46",
+                    "questionID": "2197bbc2-1d81-4cc5-8575-6aee588546e7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Explorer.exe is the graphical shell in Windows.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "60f60113-eff3-4222-a543-de5f0440d85e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call would terminate a process in UNIX",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "open()",
+                    "type": "A"
+                },
+                {
+                    "body": "fork()",
+                    "type": "B"
+                },
+                {
+                    "body": "exit()",
+                    "type": "C"
+                },
+                {
+                    "body": "read()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6db12661-c797-4855-bf6d-5968c8c9e262",
+                    "questionID": "60f60113-eff3-4222-a543-de5f0440d85e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "exit() terminates a process.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2329678e-1690-400a-8a4d-7053ad5a7928",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which function is NOT typically handled by the kernel",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Memory management",
+                    "type": "A"
+                },
+                {
+                    "body": "Scheduling",
+                    "type": "B"
+                },
+                {
+                    "body": "User interface",
+                    "type": "C"
+                },
+                {
+                    "body": "Device management",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e7c4c234-0be0-4e4d-8f22-01c845eef20a",
+                    "questionID": "2329678e-1690-400a-8a4d-7053ad5a7928",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "User interface is managed by shell or GUI, not kernel.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "df319327-962c-430b-bc6a-11a521f6c032",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Distributed OSs are primarily designed to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increase boot speed",
+                    "type": "A"
+                },
+                {
+                    "body": "Support real-time gaming",
+                    "type": "B"
+                },
+                {
+                    "body": "Manage resources across multiple computers",
+                    "type": "C"
+                },
+                {
+                    "body": "Simplify command-line usage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fc278aff-6e8b-4ca5-8938-0e835505f1b1",
+                    "questionID": "df319327-962c-430b-bc6a-11a521f6c032",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Distributed OSs manage networked resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b2aa0580-15e3-4b8c-9815-c42dd5c126a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS architecture may suffer from high performance overhead due to inter-process communication",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Layered",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Microkernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c71a6041-46b6-406d-bc3f-c839d60eef42",
+                    "questionID": "b2aa0580-15e3-4b8c-9815-c42dd5c126a0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Microkernel uses IPC which can slow down performance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "70de16de-47d5-46b7-a6a2-9df41be6dc85",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens when a system call is made",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Control shifts to hardware",
+                    "type": "A"
+                },
+                {
+                    "body": "OS switches to kernel mode",
+                    "type": "B"
+                },
+                {
+                    "body": "The computer shuts down",
+                    "type": "C"
+                },
+                {
+                    "body": "Data is lost",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "db96ef47-e3b6-4d32-b364-7f95199fd06f",
+                    "questionID": "70de16de-47d5-46b7-a6a2-9df41be6dc85",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "System calls switch OS to kernel mode.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4c2b7f25-9ab8-4c67-81bd-16f87fab5351",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is an advantage of the microkernel architecture",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All services run in kernel mode",
+                    "type": "A"
+                },
+                {
+                    "body": "Minimal kernel size",
+                    "type": "B"
+                },
+                {
+                    "body": "No inter-process communication",
+                    "type": "C"
+                },
+                {
+                    "body": "Less security",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e523c9ea-acf8-4253-b1b8-a304334d4f4a",
+                    "questionID": "4c2b7f25-9ab8-4c67-81bd-16f87fab5351",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Microkernel keeps the kernel small.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f50d5e15-68da-4817-98fa-882478733eff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a key characteristic of Real-time OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Batch processing",
+                    "type": "A"
+                },
+                {
+                    "body": "Predictable response times",
+                    "type": "B"
+                },
+                {
+                    "body": "Multithreading",
+                    "type": "C"
+                },
+                {
+                    "body": "Network sharing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9b061b8f-54d1-4e69-ba3e-e2e83a3f82ae",
+                    "questionID": "f50d5e15-68da-4817-98fa-882478733eff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS must provide predictable response.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a388e8b-6515-4665-84fe-7b1cc487e4d6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In layered OS architecture, which layer is closest to the hardware",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Application",
+                    "type": "A"
+                },
+                {
+                    "body": "User interface",
+                    "type": "B"
+                },
+                {
+                    "body": "Kernel",
+                    "type": "C"
+                },
+                {
+                    "body": "Device drivers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Layered"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "394ad9af-9558-4a6c-8373-c7f24b8162e5",
+                    "questionID": "6a388e8b-6515-4665-84fe-7b1cc487e4d6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Device drivers layer interacts directly with hardware.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "397cf52b-55dd-406c-a132-db3c66312bec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which shell feature allows you to automate tasks",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Scripting",
+                    "type": "A"
+                },
+                {
+                    "body": "Formatting",
+                    "type": "B"
+                },
+                {
+                    "body": "Printing",
+                    "type": "C"
+                },
+                {
+                    "body": "Logging",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c4ad6f15-fdfb-4655-82e3-74ba4fa9cb68",
+                    "questionID": "397cf52b-55dd-406c-a132-db3c66312bec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shell scripting automates repetitive tasks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a35530b9-65ee-4bd7-80b8-1992b1ed3c3e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is an example of a Time-sharing OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Windows 3.1",
+                    "type": "A"
+                },
+                {
+                    "body": "UNIX",
+                    "type": "B"
+                },
+                {
+                    "body": "MS-DOS",
+                    "type": "C"
+                },
+                {
+                    "body": "FreeRTOS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Time-sharing"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0361a6eb-f9ed-4a0d-9f5c-f68938ec07ef",
+                    "questionID": "a35530b9-65ee-4bd7-80b8-1992b1ed3c3e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "UNIX supports multiple users at once.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f5caf58e-d196-42be-b137-3beb7b62cc38",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call would you use to open a file in UNIX",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "fork()",
+                    "type": "A"
+                },
+                {
+                    "body": "open()",
+                    "type": "B"
+                },
+                {
+                    "body": "exit()",
+                    "type": "C"
+                },
+                {
+                    "body": "read()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "865c7244-5e4a-4f21-a6cd-120321e719bc",
+                    "questionID": "f5caf58e-d196-42be-b137-3beb7b62cc38",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "open() is used to open files.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8822c9c8-d9e4-4168-a237-4f4cb75edc49",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which component of the OS communicates directly with hardware",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Kernel",
+                    "type": "A"
+                },
+                {
+                    "body": "Shell",
+                    "type": "B"
+                },
+                {
+                    "body": "Application",
+                    "type": "C"
+                },
+                {
+                    "body": "Compiler",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2dd5dcf4-d754-408a-acae-21fcec600141",
+                    "questionID": "8822c9c8-d9e4-4168-a237-4f4cb75edc49",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Kernel interfaces directly with hardware.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba86f5ba-4848-4a68-9895-0a3a5233a442",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a feature of modern operating systems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Multitasking",
+                    "type": "A"
+                },
+                {
+                    "body": "Batch processing",
+                    "type": "B"
+                },
+                {
+                    "body": "Single-threading",
+                    "type": "C"
+                },
+                {
+                    "body": "Networking",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Definition"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "424d7e0d-2e64-4bd9-aabe-7e4ba3954bb7",
+                    "questionID": "ba86f5ba-4848-4a68-9895-0a3a5233a442",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Modern OS support multithreading, not just single-threading.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0fc0dda0-760d-4983-aa0f-b538e810e6ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is NOT a shell command",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ls",
+                    "type": "A"
+                },
+                {
+                    "body": "cd",
+                    "type": "B"
+                },
+                {
+                    "body": "pwd",
+                    "type": "C"
+                },
+                {
+                    "body": "scan",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0dfa4309-98a0-4445-82a1-96b4e1b6cc0e",
+                    "questionID": "0fc0dda0-760d-4983-aa0f-b538e810e6ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;scan&#34; is not a standard shell command.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de0e4d5e-1888-4f33-9bdf-e6bae767744e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of the read() system call",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Print text",
+                    "type": "A"
+                },
+                {
+                    "body": "Read data from file",
+                    "type": "B"
+                },
+                {
+                    "body": "Create file",
+                    "type": "C"
+                },
+                {
+                    "body": "Delete file",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e04aaee7-32ba-4612-b34f-73a481613d58",
+                    "questionID": "de0e4d5e-1888-4f33-9bdf-e6bae767744e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "read() retrieves data from a file.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4276aa09-075d-4755-aa3d-12158623e7d0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which kernel type is most commonly used in Linux",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Microkernel",
+                    "type": "A"
+                },
+                {
+                    "body": "Monolithic",
+                    "type": "B"
+                },
+                {
+                    "body": "Layered",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "994a7157-40c6-45d9-b9c5-a3c14fccb8b2",
+                    "questionID": "4276aa09-075d-4755-aa3d-12158623e7d0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Linux uses a monolithic kernel.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c9816ba2-286a-44d3-b338-8d890eee51f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS is commonly used in embedded systems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Real-time OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2bdb80d6-b591-44eb-94f3-247432061eed",
+                    "questionID": "c9816ba2-286a-44d3-b338-8d890eee51f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS is used for embedded systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "320e7d6d-1eed-4177-a7ac-991c4efa1fd5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An OS acts as an intermediary between user and",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hardware",
+                    "type": "A"
+                },
+                {
+                    "body": "Web browser",
+                    "type": "B"
+                },
+                {
+                    "body": "Applications",
+                    "type": "C"
+                },
+                {
+                    "body": "Networks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Definition"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "299f64ab-571a-4c95-93d5-dabcda35c0c1",
+                    "questionID": "320e7d6d-1eed-4177-a7ac-991c4efa1fd5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OS manages interaction between user and hardware.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c7153c15-d3c2-4e6f-9bb4-2c08e856aa2b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which command is used to list files in a directory in Bash",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "copy",
+                    "type": "A"
+                },
+                {
+                    "body": "move",
+                    "type": "B"
+                },
+                {
+                    "body": "ls",
+                    "type": "C"
+                },
+                {
+                    "body": "del",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a03801da-b1a6-448e-97b7-0bdfd23d2206",
+                    "questionID": "c7153c15-d3c2-4e6f-9bb4-2c08e856aa2b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "&#34;ls&#34; lists files in Bash.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4dd30f48-13e9-4e3b-a640-713f6e8e3436",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS type is most suitable for servers hosting cloud applications",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Distributed OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Real-time OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9e08ceea-0e78-435c-92a2-59be08370920",
+                    "questionID": "4dd30f48-13e9-4e3b-a640-713f6e8e3436",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Distributed OS is suited for cloud environments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9bb051e2-6262-45b1-8cff-7d267e9c3beb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The main advantage of microkernel architecture is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Speed",
+                    "type": "A"
+                },
+                {
+                    "body": "Security and stability",
+                    "type": "B"
+                },
+                {
+                    "body": "Cost",
+                    "type": "C"
+                },
+                {
+                    "body": "Size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Microkernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c2a71678-b0d3-4de9-8f8b-da3519bf45b0",
+                    "questionID": "9bb051e2-6262-45b1-8cff-7d267e9c3beb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Microkernel is more secure and stable.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "90731e7e-f9bd-4709-9c2f-3b7538bf96b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the exec() system call do",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Terminates process",
+                    "type": "A"
+                },
+                {
+                    "body": "Reads a file",
+                    "type": "B"
+                },
+                {
+                    "body": "Replaces process image",
+                    "type": "C"
+                },
+                {
+                    "body": "Writes a file",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d40a5fbb-4491-4ab3-b183-d6b345d29646",
+                    "questionID": "90731e7e-f9bd-4709-9c2f-3b7538bf96b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "exec() replaces the current process image.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b52bacb8-e233-4679-aebc-4a65456c9527",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is not a type of kernel",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Microkernel",
+                    "type": "A"
+                },
+                {
+                    "body": "Monolithic",
+                    "type": "B"
+                },
+                {
+                    "body": "Multithreaded",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "02fabbc0-b3cd-489f-b627-74a30032e78a",
+                    "questionID": "b52bacb8-e233-4679-aebc-4a65456c9527",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Multithreaded is not a kernel type.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "448b1de3-b3fe-4aa1-876c-a1884083ea59",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which shell is the default in most Linux distributions",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "C Shell",
+                    "type": "A"
+                },
+                {
+                    "body": "Korn Shell",
+                    "type": "B"
+                },
+                {
+                    "body": "Bash",
+                    "type": "C"
+                },
+                {
+                    "body": "Z Shell",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "704b3916-db3e-419a-be55-88df5a76e3a1",
+                    "questionID": "448b1de3-b3fe-4aa1-876c-a1884083ea59",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bash is the default shell in many Linux distributions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1019af6b-e143-4165-ab13-15560b767217",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS is used in ATMs and air traffic control systems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Real-time OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1c1a411d-33c7-4676-92c8-1e52c2516f6b",
+                    "questionID": "1019af6b-e143-4165-ab13-15560b767217",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Real-time OS is required for critical systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8fc0d45b-168e-47ba-8d89-ac6d17395da4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best defines an operating system",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Software managing computer resources",
+                    "type": "A"
+                },
+                {
+                    "body": "Database system",
+                    "type": "B"
+                },
+                {
+                    "body": "Text editor",
+                    "type": "C"
+                },
+                {
+                    "body": "Game engine",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Definition"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ee8cc043-16d0-4b24-a62b-61aff5eb7e4f",
+                    "questionID": "8fc0d45b-168e-47ba-8d89-ac6d17395da4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OS manages computer resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3f3f32b5-9c37-4d22-bd23-b9ab4411d47a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS architecture is designed for modularity and easier debugging?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Batch",
+                    "type": "C"
+                },
+                {
+                    "body": "Real-time",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Microkernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6b9506db-3c18-48ea-b2d9-24c75ca5259a",
+                    "questionID": "3f3f32b5-9c37-4d22-bd23-b9ab4411d47a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Microkernel is modular and simplifies debugging.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a4842a78-319d-4f46-8992-d8fac848fff1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is an example of a distributed OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MS-DOS",
+                    "type": "A"
+                },
+                {
+                    "body": "Windows 10",
+                    "type": "B"
+                },
+                {
+                    "body": "Amoeba",
+                    "type": "C"
+                },
+                {
+                    "body": "Mac OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5f6e5007-5c31-4bdf-bfa1-a2662b8687c5",
+                    "questionID": "a4842a78-319d-4f46-8992-d8fac848fff1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Amoeba is a distributed OS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de1ab834-81c5-48bb-b098-2f4ae0ea5020",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An OS that must respond to input instantly is called",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Real-time OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "05dd9647-e978-4712-84a2-46cde664a7b9",
+                    "questionID": "de1ab834-81c5-48bb-b098-2f4ae0ea5020",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS provides immediate response.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fe9ca3d8-9c79-4f78-9202-d154cc05eefc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which system call is used to create a new process in UNIX",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "fork()",
+                    "type": "A"
+                },
+                {
+                    "body": "open()",
+                    "type": "B"
+                },
+                {
+                    "body": "write()",
+                    "type": "C"
+                },
+                {
+                    "body": "close()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "04f6cd2b-a5e7-4125-87e5-a747464822c3",
+                    "questionID": "fe9ca3d8-9c79-4f78-9202-d154cc05eefc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "fork() creates a new process in UNIX.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "82f2848e-e28f-4ed1-9929-70bb97894d3a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is a graphical shell",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Command Prompt",
+                    "type": "A"
+                },
+                {
+                    "body": "Explorer.exe",
+                    "type": "B"
+                },
+                {
+                    "body": "Bash",
+                    "type": "C"
+                },
+                {
+                    "body": "Terminal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8f1c4753-ef74-4e78-81ae-fc424cdd86b8",
+                    "questionID": "82f2848e-e28f-4ed1-9929-70bb97894d3a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Explorer.exe is a graphical shell in Windows.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "747d0235-270f-4165-b703-453dab56a3d0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which component directly manages the CPU, memory, and devices",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shell",
+                    "type": "A"
+                },
+                {
+                    "body": "Kernel",
+                    "type": "B"
+                },
+                {
+                    "body": "File System",
+                    "type": "C"
+                },
+                {
+                    "body": "Compiler",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1af1b653-043c-49b2-b2c6-1a7bcad300a5",
+                    "questionID": "747d0235-270f-4165-b703-453dab56a3d0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Kernel manages hardware resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bd623c8d-2615-4b48-af8c-69e09c4b250d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which architecture splits the OS into separate modules for each function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Layered",
+                    "type": "B"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Layered"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "049b6e88-64da-4bb5-abd7-1133f575731c",
+                    "questionID": "bd623c8d-2615-4b48-af8c-69e09c4b250d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Layered architecture separates OS functions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c501e999-3874-4508-b5b4-d74f9701a354",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The OS is a type of which software",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "System Software",
+                    "type": "A"
+                },
+                {
+                    "body": "Application Software",
+                    "type": "B"
+                },
+                {
+                    "body": "Utility Software",
+                    "type": "C"
+                },
+                {
+                    "body": "Driver Software",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Definition"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "361ce18a-e3fc-4f24-92ad-746824653fc5",
+                    "questionID": "c501e999-3874-4508-b5b4-d74f9701a354",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OS is system software.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c719ff19-905b-4ffe-bad7-7e8d8093338b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a system call",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hardware request",
+                    "type": "A"
+                },
+                {
+                    "body": "OS service request",
+                    "type": "B"
+                },
+                {
+                    "body": "Network packet",
+                    "type": "C"
+                },
+                {
+                    "body": "Error message",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4d80fac7-45d8-4d50-a9c0-a3ab58f6dd2e",
+                    "questionID": "c719ff19-905b-4ffe-bad7-7e8d8093338b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "System calls are used to request OS services.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f4173382-9f30-4a56-8661-fe837e7f47f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The shell acts as a bridge between the user and which part of the OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Applications",
+                    "type": "A"
+                },
+                {
+                    "body": "Kernel",
+                    "type": "B"
+                },
+                {
+                    "body": "Database",
+                    "type": "C"
+                },
+                {
+                    "body": "Printer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "25f35fe2-4f97-46a3-a96e-ac0662479d03",
+                    "questionID": "f4173382-9f30-4a56-8661-fe837e7f47f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shell communicates user commands to the kernel.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "10c3e2b6-c45d-43ea-a37b-a9c29575fd6b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The kernel is responsible for which of the following",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Web browsing",
+                    "type": "A"
+                },
+                {
+                    "body": "Resource allocation",
+                    "type": "B"
+                },
+                {
+                    "body": "Typing",
+                    "type": "C"
+                },
+                {
+                    "body": "Gaming",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d2dec2b6-f494-4264-825d-8762a246b09a",
+                    "questionID": "10c3e2b6-c45d-43ea-a37b-a9c29575fd6b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Kernel manages resource allocation in the system.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6dfa1498-86b2-463f-9884-202fa83bd0c1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS is NOT designed for multitasking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Batch OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Real-time OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Batch"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d4f70684-7944-4693-98c7-d8deada2809b",
+                    "questionID": "6dfa1498-86b2-463f-9884-202fa83bd0c1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Batch OS executes jobs one after another, not multitasking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f2f3536-8c3d-42fb-a4a6-93dcd228e4ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which architecture organizes the OS as hierarchical layers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monolithic",
+                    "type": "A"
+                },
+                {
+                    "body": "Layered",
+                    "type": "B"
+                },
+                {
+                    "body": "Microkernel",
+                    "type": "C"
+                },
+                {
+                    "body": "Distributed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Layered"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "91e47234-0c3e-413e-97db-172759cc7a0c",
+                    "questionID": "2f2f3536-8c3d-42fb-a4a6-93dcd228e4ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Layered OS architecture has ordered layers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "44ba1e2a-34cd-4fc4-a702-fc3813a22832",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which operation would use a system call",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Saving a file",
+                    "type": "A"
+                },
+                {
+                    "body": "Typing text",
+                    "type": "B"
+                },
+                {
+                    "body": "Clicking an icon",
+                    "type": "C"
+                },
+                {
+                    "body": "Drawing a picture",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8c2560dd-b951-4c56-95d5-ca7caa59d09a",
+                    "questionID": "44ba1e2a-34cd-4fc4-a702-fc3813a22832",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Saving a file requires a system call for disk access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d84ecc6f-276d-4f3d-bbe0-3a5eaf57196c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which one is an example of a command-line shell",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bash",
+                    "type": "A"
+                },
+                {
+                    "body": "Microsoft Word",
+                    "type": "B"
+                },
+                {
+                    "body": "PowerPoint",
+                    "type": "C"
+                },
+                {
+                    "body": "Paint",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2c8b2371-7992-4c1f-928d-ec1b3a0bfaab",
+                    "questionID": "d84ecc6f-276d-4f3d-bbe0-3a5eaf57196c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bash is a widely used command-line shell.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "656407c6-fe53-423e-8e18-62e7ddb5a492",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The kernel operates in which mode",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "User mode",
+                    "type": "A"
+                },
+                {
+                    "body": "Graphics mode",
+                    "type": "B"
+                },
+                {
+                    "body": "Kernel mode",
+                    "type": "C"
+                },
+                {
+                    "body": "Demo mode",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6d6adeb6-ad79-4940-9d9a-7da958f3c301",
+                    "questionID": "656407c6-fe53-423e-8e18-62e7ddb5a492",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Kernel runs in privileged kernel mode.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e9d18634-6122-4345-bd87-1a9feaa7307d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is NOT a function of an OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Process management",
+                    "type": "A"
+                },
+                {
+                    "body": "Memory management",
+                    "type": "B"
+                },
+                {
+                    "body": "Hardware design",
+                    "type": "C"
+                },
+                {
+                    "body": "File system management",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Functions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "35c02657-c8a5-4e96-b7b9-d521977f66a9",
+                    "questionID": "e9d18634-6122-4345-bd87-1a9feaa7307d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OS does not design hardware.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86be624f-f5ac-4436-aed7-e49e4f1ea605",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of OS manages computers connected over a network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Batch OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Real-time OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Distributed"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7fa1b6f3-a455-4f01-b336-2e656746127b",
+                    "questionID": "86be624f-f5ac-4436-aed7-e49e4f1ea605",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Distributed OS manages resources across networked computers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9ef4a878-754a-42a7-8c34-f7e46771fd45",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a Real-time Operating System designed for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Office work",
+                    "type": "A"
+                },
+                {
+                    "body": "Banking",
+                    "type": "B"
+                },
+                {
+                    "body": "Time-bound tasks",
+                    "type": "C"
+                },
+                {
+                    "body": "Browsing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Real-time"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "26ed56a0-8677-4bc2-95e6-17f64e98bc2a",
+                    "questionID": "9ef4a878-754a-42a7-8c34-f7e46771fd45",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTOS is used where timely task completion is crucial.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "592ba11e-221d-4e84-9327-aa3939ea984f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS architecture is characterized by a single large process running in kernel mode",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Microkernel",
+                    "type": "A"
+                },
+                {
+                    "body": "Layered",
+                    "type": "B"
+                },
+                {
+                    "body": "Monolithic",
+                    "type": "C"
+                },
+                {
+                    "body": "Hybrid",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Architecture Monolithic"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8ccfb817-e283-4c78-9334-d698e2224cc8",
+                    "questionID": "592ba11e-221d-4e84-9327-aa3939ea984f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Monolithic architecture has the entire OS in one process.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c11ecafe-80b5-4c4c-8c13-887726d5c80f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a system call",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A software update",
+                    "type": "A"
+                },
+                {
+                    "body": "An interrupt",
+                    "type": "B"
+                },
+                {
+                    "body": "Request to OS services",
+                    "type": "C"
+                },
+                {
+                    "body": "A virus scan",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS System Calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3c7635f6-2a44-445c-bc85-572e2edd594d",
+                    "questionID": "c11ecafe-80b5-4c4c-8c13-887726d5c80f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "System calls request services from the OS kernel.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f6d2baa7-630a-46d8-be18-f326dfa76867",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the shell in an OS provide",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hardware management",
+                    "type": "A"
+                },
+                {
+                    "body": "User interface",
+                    "type": "B"
+                },
+                {
+                    "body": "Device drivers",
+                    "type": "C"
+                },
+                {
+                    "body": "File System",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Shell"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3090f647-5ec4-4fbb-98d5-b59a28aae3d0",
+                    "questionID": "f6d2baa7-630a-46d8-be18-f326dfa76867",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shell provides the interface between user and OS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ef3a17a4-afe5-43e2-a598-3a0c82b88e11",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the kernel of an OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hardware",
+                    "type": "A"
+                },
+                {
+                    "body": "User Interface",
+                    "type": "B"
+                },
+                {
+                    "body": "Core of the OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Application Software",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Kernel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "16f97ec6-a6c3-4296-824a-cf802f641b41",
+                    "questionID": "ef3a17a4-afe5-43e2-a598-3a0c82b88e11",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The kernel is the core part of the OS managing resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "68cd71fa-fc13-4c69-9bca-28bf4eab0cfc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which OS allows multiple users to interact with a computer at the same time",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Time-sharing OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Real-time OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Embedded OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Time-sharing"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "afd088bb-d418-4a26-bbe6-1ed3d1e6d276",
+                    "questionID": "68cd71fa-fc13-4c69-9bca-28bf4eab0cfc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Time-sharing OS enables concurrent user access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bf889005-7a3b-4ab0-935f-5de275f5f460",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of OS executes batches of jobs without user interaction",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Real-time OS",
+                    "type": "A"
+                },
+                {
+                    "body": "Batch OS",
+                    "type": "B"
+                },
+                {
+                    "body": "Distributed OS",
+                    "type": "C"
+                },
+                {
+                    "body": "Time-sharing OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Types Batch"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8fd37b8a-8ad5-4162-9f7b-40b205a345a2",
+                    "questionID": "bf889005-7a3b-4ab0-935f-5de275f5f460",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Batch OS processes jobs in batches with no user input during execution.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5103a983-cf99-496b-a91b-c08475987841",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a primary function of an operating system",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Word Processing",
+                    "type": "A"
+                },
+                {
+                    "body": "Hardware Management",
+                    "type": "B"
+                },
+                {
+                    "body": "Database Management",
+                    "type": "C"
+                },
+                {
+                    "body": "Internet Browsing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Functions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6073a24c-f112-44e5-a1e0-2591eb984f25",
+                    "questionID": "5103a983-cf99-496b-a91b-c08475987841",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OS manages hardware resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1dcd7a7f-9321-4173-bc23-378fdf163349",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does OS stand for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Operating System",
+                    "type": "A"
+                },
+                {
+                    "body": "Open Source",
+                    "type": "B"
+                },
+                {
+                    "body": "Output Scheduler",
+                    "type": "C"
+                },
+                {
+                    "body": "Online Service",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS Definition"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "57beef9c-6645-462b-b8f1-f93b4685f61e",
+                    "questionID": "1dcd7a7f-9321-4173-bc23-378fdf163349",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OS stands for Operating System, the software that manages computer hardware and software resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

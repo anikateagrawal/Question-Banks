@@ -1,0 +1,1385 @@
+{
+    "bank_id": "64883d23-008a-414a-b41b-206bb4faf454",
+    "bank_name": "Java",
+    "questions": [
+        {
+            "id": "99a55e6e-1e1b-418f-8fd9-4669d4f67362",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Node reverse(Node head) {</p><p>    Node prev = null;</p><p>    while (head != null) {</p><p>        Node temp = head.next;</p><p>        head.next = prev;</p><p>        prev = head;</p><p>        head = temp;</p><p>    }</p><p>    return prev;</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>reversed the list</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>deleted alternate nodes</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>swaps pairwise nodes</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>return last node only</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1460f378-ac2f-462a-8e26-372823ed8a08",
+                    "questionID": "99a55e6e-1e1b-418f-8fd9-4669d4f67362",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>Classic logic for reversing a singly linked list.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "27eac373-4338-41ee-960f-fcb4be8bface",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>what is the output of this queue simulation?</p><p>Queue&lt;Integer&gt; q = new LinkedList&lt;&gt;();</p><p>q.add(1); q.add(2); q.add(3);</p><p>q.remove(); q.add(4);</p><p>System.out.println(q);</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>[2,3,4]</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>[1,2,3,4]</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>[1,3,4]</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>[3,4]</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ea46f204-a00d-4690-8e97-0d078b0e1d60",
+                    "questionID": "27eac373-4338-41ee-960f-fcb4be8bface",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>explanation:</strong></p><p><br></p><p>Queue is FIFO. First element (<code>1</code>) is removed, <code>4</code> is added at the rear.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9dd90fd0-160e-49c3-922c-e9a299d5cd51",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What will this stack-based code output?</p><p>public static void main(String[] args) {</p><p>    Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();</p><p>    stack.push(10);</p><p>    stack.push(20);</p><p>    System.out.println(stack.peek());</p><p>    stack.pop();</p><p>    System.out.println(stack.peek());</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>20 10</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10 20</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20 20</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>exception</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ec7bff87-18c6-4cfb-8231-36b2d5fb831e",
+                    "questionID": "9dd90fd0-160e-49c3-922c-e9a299d5cd51",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><code>peek()</code> returns the top without removing. After <code>pop()</code>, next element becomes top.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6d4d973a-34d1-4909-b97d-9bbc558e431e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>public int func(int n) {</p><p>    if (n &lt;= 1) return 1;</p><p>    return func(n - 1) + func(n - 2);</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>O(n)</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>O(n^2)</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>O(2^n)</p><p><br></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>O(log n)</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Array"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0c30bca3-b81e-431e-81ba-acc0002e7e7d",
+                    "questionID": "6d4d973a-34d1-4909-b97d-9bbc558e431e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>This is <strong>naive Fibonacci recursion</strong> → exponential time due to repeated subproblems.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9a1cb912-f688-4004-a9f4-de9b06b43c5a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>what will be the result</p><p>public class Test {</p><p>    public static void main(String[] args) {</p><p>        List&lt;Integer&gt; list = new ArrayList&lt;&gt;(List.of(1, 2, 3, 4));</p><p>        for (int i = 0; i &lt; list.size(); i++) {</p><p>            list.remove(i);</p><p>        }</p><p>        System.out.println(list);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>[2,4]</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>[2]</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>[]</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a1d4420d-c345-422e-876e-b2d334b95399",
+                    "questionID": "9a1cb912-f688-4004-a9f4-de9b06b43c5a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>After removing index <code>0</code> (value 1), the next element (2) shifts to index 0, but loop continues to index 1, skipping it.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "435ac9c9-8f31-4021-b4ae-7a4c1718cd3b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the output of this array manipulation code?</p><p>import java.util.Arrays;</p><p><br></p><p>public class Test {</p><p>    public static void main(String[] args) {</p><p>        int[] arr = {1, 2, 3, 4};</p><p>        for (int i = 0; i &lt; arr.length; i++) {</p><p>            arr[i] = arr[(i + 1) % arr.length];</p><p>        }</p><p>        System.out.println(Arrays.toString(arr));</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>[2,3,4,1]</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>[2,3,4,2]</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>[2,3,4,4]</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>[1,2,3,4]</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c04fc2f0-133e-4f1e-9098-20de98ea2d0b",
+                    "questionID": "435ac9c9-8f31-4021-b4ae-7a4c1718cd3b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>The array is modified <strong>in-place</strong>, so later elements overwrite what earlier ones still need.</p><p><br></p><p>Final result: <code>[2, 3, 4, 4]</code></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc054775-987f-4f1c-9bba-65448478725d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> What is the output?</p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        String a = \"Java\";</p><p>        String b = new String(\"Java\");</p><p>        System.out.print((a == b) + \" \");</p><p>        System.out.println(a.equals(b));</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>true true</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>false true</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>false false</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>true false</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "503171ca-9ef8-4e42-b59a-213389d19481",
+                    "questionID": "fc054775-987f-4f1c-9bba-65448478725d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><code>a == b</code> compares references → false.</p><p><code>a.equals(b)</code> compares content → true.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "99dbff56-542e-4cf8-975b-df5b169be987",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>what will this print?</p><p>public class Test {</p><p>    static void change(String s) {</p><p>        s = s.concat(\" World\");</p><p>    }</p><p><br></p><p>    public static void main(String[] args) {</p><p>        String str = \"Hello\";</p><p>        change(str);</p><p>        System.out.println(str);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Hello</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>\tHello world</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>world</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>null</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "705da9b9-f191-4fe4-abfa-ef44790cf3e2",
+                    "questionID": "99dbff56-542e-4cf8-975b-df5b169be987",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>nswer:</strong> A ✅</p><p><strong>Explanation:</strong></p><p><br></p><p>Strings are immutable. <code>change()</code> modifies a <strong>copy of reference</strong>, not the actual object.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c638e663-ba9f-470b-9f9f-a04dd13eb788",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>what does this print:</p><p>public class Test {</p><p>    public static void change(StringBuilder sb) {</p><p>        sb.append(\" world\");</p><p>    }</p><p>    public static void main(String[] args) {</p><p>        StringBuilder sb = new StringBuilder(\"Hello\");</p><p>        change(sb);</p><p>        System.out.println(sb);</p><p>    }</p><p>}</p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Hello</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Hello world</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>world</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>compilation error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "String"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d5b396d9-df97-42d7-be13-375a3db3d88a",
+                    "questionID": "c638e663-ba9f-470b-9f9f-a04dd13eb788",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>E<strong>xplanation:</strong></p><p><code>StringBuilder</code> is <strong>mutable</strong>. Changes made inside the method reflect in the original object.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7b14cfdd-1dc4-4e0d-99b3-54ba915fe0ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>what is the output:</p><p>public class Test {</p><p>    public static void main(String[] args) {</p><p>        Integer a = 128;</p><p>        Integer b = 128;</p><p>        System.out.println(a == b);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>true</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>false</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>runtime error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dda"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b870823f-8182-4173-b492-68d866f326cb",
+                    "questionID": "7b14cfdd-1dc4-4e0d-99b3-54ba915fe0ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<h3>✔️ <strong>Correct Answer: B</strong></h3><p><strong>Explanation:</strong></p><p><br></p><p>Java <strong>caches Integer objects from -128 to 127</strong> (Integer pool).</p><ul><li><br></li><li><br></li><li><code>a == b</code> compares <strong>object references</strong>, not values.</li><li><br></li><li><br></li><li><br></li><li>Since 128 is <strong>outside the caching range</strong>, new objects are created → references are <strong>not the same</strong>.</li><li><br></li><li><br></li></ul><p>So, <code>a == b</code> → <code>false</code>.</p><p><br></p><p>Let me know if you want this same logic used in tricky questions for <strong>Long</strong>, <strong>Float</strong>, or <strong>Double</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fb92a347-bd0c-41a5-824e-14630f327e6f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the output of this recursive tree traversal?</p><p>class TreeNode {</p><p>    int val;</p><p>    TreeNode left, right;</p><p>    TreeNode(int x) { val = x; }</p><p>}</p><p><br></p><p>public class Main {</p><p>    public static void inorder(TreeNode root) {</p><p>        if (root == null) return;</p><p>        inorder(root.left);</p><p>        System.out.print(root.val + \" \");</p><p>        inorder(root.right);</p><p>    }</p><p><br></p><p>    public static void main(String[] args) {</p><p>        TreeNode root = new TreeNode(1);</p><p>        root.right = new TreeNode(2);</p><p>        root.right.left = new TreeNode(3);</p><p>        inorder(root);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1 2 3</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1 3 2</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3 2 1</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1 2</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "714c2740-0202-4abe-875a-fd54dcde2271",
+                    "questionID": "fb92a347-bd0c-41a5-824e-14630f327e6f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B) 1 3 2</p><p><br></p><p><strong>Explanation:</strong> Tree:</p><pre class=\"ql-syntax\" spellcheck=\"false\">markdown\nCopyEdit\n    1\n     \\\n      2\n     /\n    3\n</pre><p>Inorder (L → Root → R): Node 1 → Node 3 → Node 2</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "93bfb6be-8030-4a52-ad96-f575564aaf7c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does this DP code solve?</p><p>public class Main {</p><p>    public static int coinChange(int[] coins, int amount) {</p><p>        int[] dp = new int[amount + 1];</p><p>        Arrays.fill(dp, amount + 1);</p><p>        dp[0] = 0;</p><p>        for (int coin : coins) {</p><p>            for (int i = coin; i &lt;= amount; i++) {</p><p>                dp[i] = Math.min(dp[i], 1 + dp[i - coin]);</p><p>            }</p><p>        }</p><p>        return dp[amount] &gt; amount ? -1 : dp[amount];</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Subset sum problem</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Minimum number of coins to make <code>amount</code></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Total number of coin combinations</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Knapsack 0/1</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9552c061-f084-4eb2-a5f2-989f10ee5743",
+                    "questionID": "93bfb6be-8030-4a52-ad96-f575564aaf7c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B) Minimum number of coins to make <code>amount</code></p><p><br></p><p><strong>Explanation:</strong> Classic unbounded knapsack variation, updating <code>dp[i]</code> for <strong>minimum coins</strong> to reach value <code>i</code>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e27125ee-536d-4ee4-bbb9-224c831cfe13",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Output of this DFS-based code on adjacency list:</p><p>import java.util.*;</p><p><br></p><p>public class Main {</p><p>    static void dfs(int node, boolean[] visited, List&lt;List&lt;Integer&gt;&gt; graph) {</p><p>        visited[node] = true;</p><p>        for (int neighbor : graph.get(node)) {</p><p>            if (!visited[neighbor]) dfs(neighbor, visited, graph);</p><p>        }</p><p>    }</p><p><br></p><p>    public static void main(String[] args) {</p><p>        List&lt;List&lt;Integer&gt;&gt; graph = new ArrayList&lt;&gt;();</p><p>        for (int i = 0; i &lt; 4; i++) graph.add(new ArrayList&lt;&gt;());</p><p>        graph.get(0).add(1);</p><p>        graph.get(1).add(2);</p><p>        graph.get(2).add(0);</p><p>        graph.get(2).add(3);</p><p><br></p><p>        boolean[] visited = new boolean[4];</p><p>        dfs(0, visited, graph);</p><p><br></p><p>        System.out.println(visited[3]);</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>true</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>false</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>compilation error</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>stackOverflow error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3a2d87e2-5009-44ff-abb2-23b77cf4cf4b",
+                    "questionID": "e27125ee-536d-4ee4-bbb9-224c831cfe13",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> A) true</p><p><strong>Explanation:</strong> Graph has edges 0→1→2→3. DFS from node 0 reaches all nodes including 3. So <code>visited[3] = true</code>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e136927b-7226-406b-bbd6-6c4a4f7b8374",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does this code compute?</p><p>public static int kadane(int[] arr) {</p><p>    int max = arr[0], curr = arr[0];</p><p>    for (int i = 1; i &lt; arr.length; i++) {</p><p>        curr = Math.max(arr[i], curr + arr[i]);</p><p>        max = Math.max(max, curr);</p><p>    }</p><p>    return max;</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Minimum subarray sum</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Maximum product subarray</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Maximum subarray sum</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Sum of all elements</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c128b248-5543-4940-aaa8-cd889f828b4a",
+                    "questionID": "e136927b-7226-406b-bbd6-6c4a4f7b8374",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C) Maximum subarray sum</p><p><strong>Explanation:</strong> This is <strong>Kadane’s Algorithm</strong>, optimal for finding maximum contiguous sum in O(n) time</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0bd09f44-66e9-4820-af51-0c025e20da51",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What will be the output of this recursive backtracking code?</p><p>public class Main {</p><p>    public static int countPaths(int x, int y) {</p><p>        if (x == 0 || y == 0) return 1;</p><p>        return countPaths(x - 1, y) + countPaths(x, y - 1);</p><p>    }</p><p><br></p><p>    public static void main(String[] args) {</p><p>        System.out.println(countPaths(3, 2));</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>10</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>6</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>15</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>9</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6361e112-5424-423b-b2b6-8d0a4e5b4177",
+                    "questionID": "0bd09f44-66e9-4820-af51-0c025e20da51",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B) 6</p><p><strong>Explanation:</strong> Number of unique paths in a <code>3x2</code> grid = C(3+2, 2) = 10</p><p><br></p><p>But <code>countPaths(3,2)</code> gives 6 since base case is when <strong>x=0 or y=0</strong>, not when reaching bottom-right cell.</p><p><br></p><p>Recursive tree:</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "80b4973a-7ac5-417f-b040-aed6155de916",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Graph – Access Adjacency List</p><p>import java.util.*;</p><p><br></p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        Map&lt;Integer, List&lt;Integer&gt;&gt; graph = new HashMap&lt;&gt;();</p><p>        graph.put(1, Arrays.asList(2, 3));</p><p>        graph.put(2, Arrays.asList(4));</p><p>        graph.put(3, Arrays.asList(4));</p><p><br></p><p>        System.out.println(graph.get(2).get(0));</p><p>    }</p><p>}</p><p>what will be the output?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>3</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>null</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d714d468-4610-460f-9f09-dc59314b951e",
+                    "questionID": "80b4973a-7ac5-417f-b040-aed6155de916",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: C) 4</strong></p><p><br></p><p>🧠 <strong>Explanation:</strong></p><p><br></p><p><code>graph.get(2)</code> → <code>[4]</code>, and <code>.get(0)</code> = 4</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "36498790-4450-4862-b6d9-e0be9d124732",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Binary Tree – Preorder Traversal</p><p>class Node {</p><p>    int val;</p><p>    Node left, right;</p><p>    Node(int x) { val = x; }</p><p>}</p><p><br></p><p>public class Main {</p><p>    public static void preorder(Node root) {</p><p>        if (root == null) return;</p><p>        System.out.print(root.val + \" \");</p><p>        preorder(root.left);</p><p>        preorder(root.right);</p><p>    }</p><p><br></p><p>    public static void main(String[] args) {</p><p>        Node root = new Node(10);</p><p>        root.left = new Node(20);</p><p>        root.right = new Node(30);</p><p>        preorder(root);</p><p>    }</p><p>}</p><p>what will be the output?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>20 10 30</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10 20 30</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10 30 20</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>30 20 10</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8add2977-4ef4-4fcb-bd06-3990720bdb72",
+                    "questionID": "36498790-4450-4862-b6d9-e0be9d124732",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: B) 10 20 30</strong></p><p><br></p><p>🧠 <strong>Explanation:</strong></p><p><br></p><p>Preorder = Root → Left → Right</p><p><br></p><p>So: 10 → 20 → 30</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a9675d72-0c27-4e47-8f98-44e51dea30f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Stack – Reverse a String</p><p>import java.util.Stack;</p><p><br></p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        Stack&lt;Character&gt; stack = new Stack&lt;&gt;();</p><p>        String str = \"abc\";</p><p>        for (char c : str.toCharArray()) {</p><p>            stack.push(c);</p><p>        }</p><p>        while (!stack.isEmpty()) {</p><p>            System.out.print(stack.pop());</p><p>        }</p><p>    }</p><p>}</p><p>what is printed</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>abc</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>bac</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>cba</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>acb</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "74a1f00a-8231-4722-8d6c-fc83945d4af9",
+                    "questionID": "a9675d72-0c27-4e47-8f98-44e51dea30f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: C) cba</strong></p><p><br></p><p>🧠 <strong>Explanation:</strong></p><p><br></p><p>Pushed order = a, b, c</p><p><br></p><p>Popped = c, b, a → printed: <code>\"cba\"</code></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2921a3c8-4493-4fdc-9772-08fcfccce6c5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>class Node {</p><p>    int data;</p><p>    Node next;</p><p>    Node(int d) { data = d; }</p><p>}</p><p><br></p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        Node a = new Node(1);</p><p>        a.next = new Node(2);</p><p>        a.next.next = a;</p><p><br></p><p>        System.out.println(a.next.next.data);</p><p>    }</p><p>}</p><p>what will be the output?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>NullPointerException</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Compile time Error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "819d4aca-44da-4f56-84dd-68957c2d9d04",
+                    "questionID": "2921a3c8-4493-4fdc-9772-08fcfccce6c5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: B) 1</strong></p><p><br></p><p>🧠 <strong>Explanation:</strong></p><p><br></p><p><code>a.next.next = a</code> → circular link</p><p><br></p><p>So <code>a.next.next.data = a.data = 1</code></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fa00770b-1acd-4566-9f34-7c2dd7e88de9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Arrays – Sum of Even-Index Elements</p><p>public class Main {</p><p>    public static void main(String[] args) {</p><p>        int[] nums = {2, 4, 6, 8};</p><p>        int result = 0;</p><p>        for (int i = 0; i &lt; nums.length; i++) {</p><p>            if (i % 2 == 0)</p><p>                result += nums[i];</p><p>        }</p><p>        System.out.println(result);</p><p>    }</p><p>}</p><p>what will be the output?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>4</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>6</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DSA"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "36875897-aa4f-4aab-9e47-2ad55f40a8e4",
+                    "questionID": "fa00770b-1acd-4566-9f34-7c2dd7e88de9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer: C) 8</strong></p><p><br></p><p>🧠 <strong>Explanation:</strong></p><p><br></p><p>Even indexes: <code>i = 0</code> and <code>i = 2</code></p><p><br></p><p><code>nums[0] = 2</code>, <code>nums[2] = 6</code> → Total = 2 + 6 = 8</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d14f6793-10d7-4da2-a87c-37f2d5d4526e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>what is the output of the following code?</p><p>public class Subsets {</p><p>    public static void generate(String s, int i, String curr) {</p><p>        if (i == s.length()) {</p><p>            System.out.print(curr + \" \");</p><p>            return;</p><p>        }</p><p>        generate(s, i + 1, curr + s.charAt(i));</p><p>        generate(s, i + 1, curr);</p><p>    }</p><p><br></p><p>    public static void main(String[] args) {</p><p>        generate(\"ab\", 0, \"\");</p><p>    }</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>ab a b \"\"</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ab a b</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>ab ba a b \"\"</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ab ba a b aa</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Recursion"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dbee9ed6-4f63-4b79-857d-0ee936dad027",
+                    "questionID": "d14f6793-10d7-4da2-a87c-37f2d5d4526e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<h4> <strong>Dry Run (input = \"ab\")</strong></h4><ul><li><br></li><li><br></li><li>generate(0, \"\")</li><li><br></li><li>→ include 'a' → generate(1, \"a\")</li><li><br></li><li>→ include 'b' → generate(2, \"ab\") → <strong>print \"ab\"</strong></li><li><br></li><li>→ exclude 'b' → generate(2, \"a\") → <strong>print \"a\"</strong></li><li><br></li><li>→ exclude 'a' → generate(1, \"\")</li><li><br></li><li>→ include 'b' → generate(2, \"b\") → <strong>print \"b\"</strong></li><li><br></li><li>→ exclude 'b' → generate(2, \"\") → <strong>print \"\"</strong></li><li><br></li></ul><h4><strong>Output:</strong> <code>ab a b \"\"</code></h4><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "15ee615d-04b9-4559-8b5b-e4ddbc467476",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What will <code>fib(4)</code> return?</p><p>public static int fib(int n) {</p><p>    if (n &lt;= 1) return n;</p><p>    return fib(n - 1) + fib(n - 2);</p><p>}</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>3</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>5</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Recursion"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b3382179-2015-4b44-8cf4-3a817fdf760c",
+                    "questionID": "15ee615d-04b9-4559-8b5b-e4ddbc467476",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>fib(4)</p><p>→ fib(3) + fib(2)</p><p>→ (fib(2) + fib(1)) + (fib(1) + fib(0))</p><p>→ ((1 + 1) + (1 + 0)) = 2 + 1 = 3</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f4d4d2a0-5139-4d33-9f7c-533723a56409",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is <strong>not</strong> a property of an <strong>AVL Tree</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>BST property</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>height balanced</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>HeightDiff&lt;=1</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>B-Tree</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "AVL"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8ec2086e-8552-49f4-9ddd-d7537286d845",
+                    "questionID": "f4d4d2a0-5139-4d33-9f7c-533723a56409",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>An <strong>AVL Tree</strong> is a type of <strong>self-balancing Binary Search Tree (BST)</strong>. It maintains the <strong>BST property</strong>, meaning the left subtree contains smaller values and the right subtree contains larger values. Additionally, it ensures that the tree remains <strong>height balanced</strong> by keeping the <strong>height difference (balance factor)</strong> between the left and right subtrees of any node to <strong>at most 1</strong> (i.e., <code>|height(left) - height(right)| ≤ 1</code>). This guarantees efficient operations with logarithmic time complexity. However, a <strong>B-Tree</strong> is a completely different data structure, typically used in databases and file systems for storing large blocks of sorted data. It is <strong>not related to AVL Trees</strong>, and hence, is <strong>not</strong> a property of an AVL Tree.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "082f5194-5a96-485c-ae83-b55aef18c5e2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In which type of binary search tree does an <strong>inorder traversal</strong> always produce the elements in <strong>sorted (non-decreasing) order</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>AVL</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> Binary Search Tree (BST)</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Red-Black Tree</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>All of the above</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Tree"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "6353e133-c0a3-4724-a281-0874900aa241",
+                    "questionID": "082f5194-5a96-485c-ae83-b55aef18c5e2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Inorder traversal of any <strong>Binary Search Tree (BST)</strong> yields the elements in <strong>sorted (non-decreasing) order</strong>. This is because a BST maintains the property that for any node, all values in its left subtree are smaller, and all values in its right subtree are larger. This property is preserved in all types of BSTs, including <strong>AVL Trees</strong> and <strong>Red-Black Trees</strong>, which are self-balancing versions of BSTs. Therefore, performing an inorder traversal on any of these trees will always produce a sorted sequence of elements. Hence, the correct answer is <strong>all of the above</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e868fcaf-55c3-43bc-85c6-2cb89feff54d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><br></p><p>Given the following array representation of a binary heap:</p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">\n[3, 5, 7, 10, 12, 9]\n</pre><p>Is this a valid <strong>Min-Heap</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Yes, it is a valid Min-Heap</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> No, because 9 is smaller than 7</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>No, because 5 is smaller than 3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>nNo, because 10 is smaller than 5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Min Heap"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6e3db638-a305-4fc1-a5ad-248e55ba01a8",
+                    "questionID": "e868fcaf-55c3-43bc-85c6-2cb89feff54d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>In a <strong>Min-Heap</strong>, every parent node must be <strong>less than or equal to its children</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "36ad5eed-a2f9-4fe8-8bd4-488041905423",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a <strong>singly linked list</strong>, what is the <strong>time complexity</strong> of deleting a node <strong>when only a pointer to that node is given</strong> (and not the head)?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>O(1)</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>O(log n)</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>O(n) </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>O(n log n)</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "LinkedList"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1c6c8af4-5c38-4519-b825-86a6e0c6c106",
+                    "questionID": "36ad5eed-a2f9-4fe8-8bd4-488041905423",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>If you are given only a pointer/reference to the node to be deleted (and not the head of the singly linked list), you cannot traverse backward, as singly linked lists do not store references to previous nodes.</p><p>However, you can still delete the node in <strong>O(1) time</strong> using a trick:</p><p><br></p><p>→ Copy the data from the <strong>next node</strong> into the current node.</p><p><br></p><p>→ Skip the next node by updating the link:</p><p><br></p><p><code>node.data = node.next.data;</code></p><p><br></p><p><code>node.next = node.next.next;</code></p><p>This effectively removes the next node, and the current node now holds its data, which simulates deletion.</p><p><br></p><p><strong>Limitation:</strong> This method <strong>does not work for the last node</strong>, since there is no next node to copy from.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "552bcc30-b130-488c-9579-c6c1dfc183b8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>solve the below code?</p><p>public class Test {</p><p>    public static void main(String[] args) {</p><p>        System.out.print(\"A\");</p><p>        try {</p><p>            System.out.print(\"B\");</p><p>            int x = 5 / 0;</p><p>            System.out.print(\"C\");</p><p>        } catch (ArithmeticException e) {</p><p>            System.out.print(\"D\");</p><p>        } finally {</p><p>            System.out.print(\"E\");</p><p>        }</p><p>        System.out.print(\"F\");</p><p>    }</p><p>}</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>ABDEF</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ABCDEF</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>ABDF</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ABDE</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "try/catch"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3843271e-cd06-44e4-aceb-e75f28ac8b9c",
+                    "questionID": "552bcc30-b130-488c-9579-c6c1dfc183b8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<ol><li><code>\"A\"</code> → printed first</li><li><br></li><li><br></li><li><br></li><li><code>\"B\"</code> → printed inside try</li><li><br></li><li><br></li><li><br></li><li><code>5/0</code> → throws <strong>ArithmeticException</strong></li><li><br></li><li><br></li><li><br></li><li><code>\"C\"</code> is skipped due to exception</li><li><br></li><li><br></li><li><br></li><li><code>\"D\"</code> → from catch block</li><li><br></li><li><br></li><li><br></li><li><code>\"E\"</code> → always runs in finally</li><li><br></li><li><br></li><li><br></li><li><code>\"F\"</code> → is printed after finally</li><li><br></li><li><br></li></ol><p>But since there's <strong>no return</strong>, <code>\"F\"</code> should print.</p><p><br></p><p>So the correct <strong>final output is ABDEF</strong>, hence:</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "36ef1e19-3e35-4659-99c4-e20d31a79463",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Evaluate the following <strong>Postfix Expression</strong>: <code>6 3 2 4 + - *</code></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>74</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>-18</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>22</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>40</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Postfix"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "20018d31-2c68-4800-bd4b-ae6a812087fd",
+                    "questionID": "36ef1e19-3e35-4659-99c4-e20d31a79463",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>(2+4=6), (3−6=−3), (6×−3=−18)</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ac7583f4-7aa5-4436-a306-cf3fbf2d1b9d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Q: What is the worst-case time complexity of Merge Sort, and why is it preferred over Quick Sort in some cases?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>O(n²), because it uses recursion and nested loops</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> O(n log n), because it divides the array and merges in linear time</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>O(log n), because it only splits the array</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>O(n), because it sorts linearly using a single pass</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity",
+                "Space Complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "735e8e0f-5b94-45ac-9406-97fdf96122c7",
+                    "questionID": "ac7583f4-7aa5-4436-a306-cf3fbf2d1b9d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Merge sort counts inversions while merging in O(n log n); brute force is O(n²).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51dae8bb-21cc-4ce1-b9e1-4c13bb44d2bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Map&lt;String, String&gt; m = new HashMap&lt;&gt;();</p><p>m.put(new String(\"a\"), \"x\");</p><p>m.put(new String(\"a\"), \"y\");</p><p>System.out.println(m);</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> {a=x}</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>{a=y} </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Two entries</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>run time error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "hashmap"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4664e1e5-1159-4196-892c-d2c35ded4e00",
+                    "questionID": "51dae8bb-21cc-4ce1-b9e1-4c13bb44d2bd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>HashMap uses <code>.equals()</code> → second key replaces the first.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

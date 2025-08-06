@@ -1,0 +1,492 @@
+{
+    "bank_id": "07dffd0a-3250-4560-aac0-bec6fee9f4a0",
+    "bank_name": "LOGICAL-WEEK-3",
+    "questions": [
+        {
+            "id": "63dfcacd-b381-403c-a56d-81e7706b4dfd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a row of children facing North, Sheila is shifted to her right by four places becomes 18th from the right end of the row. Sahil, who is 15th from the left end of the row, is 5th to the left of Sheila. How many children are there in the row",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 42 \t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "38\t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "41  \t\t",
+                    "type": "C"
+                },
+                {
+                    "body": " None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d45496aa-9044-4320-857e-faaa3885bc82",
+                    "questionID": "63dfcacd-b381-403c-a56d-81e7706b4dfd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This Question is given by Faculty please consult manish sir solutions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4cf9f172-ab34-4297-8e7f-5ccd3c92eb94",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How far and in which direction is Point K with respect to Point C",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "20m, North \t",
+                    "type": "A"
+                },
+                {
+                    "body": " 20m, South \t",
+                    "type": "B"
+                },
+                {
+                    "body": " 20m, East \t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "20m, West \t\t",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1764896d-ba92-465c-a9b8-3501bae7f363",
+                    "questionID": "4cf9f172-ab34-4297-8e7f-5ccd3c92eb94",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This Question is given by Faculty please consult manish sir solutions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "496e7014-6eed-475d-8162-230dcfb690ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read the given information carefully and answer the questions given beside: \nTwo friends Tinu and Dinu are driving car in Paris. Tinu is facing north and Dinu is facing south. They drive their cars for 80 meters in the direction they are facing and reached HDFC Bank and CUB ATM respectively. Then they turn right and drive for another 70 meters and reached PVR cinemas and Phoenix mall respectively. Then they take 90 degree anti clock wise direction for 40 meters and then they turn right. After driving for 30 meters Dinu reaches at CTS and Tinu reached at TCS. \n\nInitially, if Dinu was 270 meters to the east of Tinu, then what is the shortest distance and direction of TCS with respect to CTS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "250 meters, north-west \t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "250 meters, north-east ",
+                    "type": "B"
+                },
+                {
+                    "body": "240 meters, north \t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "Either A or C \t",
+                    "type": "D"
+                },
+                {
+                    "body": "Cannot be determined.",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "35932cfe-f5c0-41d5-b734-2f93079a3dd0",
+                    "questionID": "496e7014-6eed-475d-8162-230dcfb690ad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This Question is given by Faculty please consult manish sir solutions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3baeafd4-b7be-41e9-b719-cf6537a72a8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Initially, if Dinu was 200 meters to the east of Tinu, then what is the shortest distance and direction of TCS with respect to CTS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "250 meters, north-west \t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "250 meters, north-east ",
+                    "type": "B"
+                },
+                {
+                    "body": "240 meters, north \t\t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "Either A or C \t",
+                    "type": "D"
+                },
+                {
+                    "body": "Cannot be determined",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "72ea04a0-8ef8-4bcf-8178-5307f6f2059d",
+                    "questionID": "3baeafd4-b7be-41e9-b719-cf6537a72a8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This Question is given by Faculty please consult manish sir solutions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0931e43-19de-4eb8-8e0c-e4d10253961a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Initially, if Dinu was 130 meters to the east of Tinu, then what is the shortest distance and O of TCS with respect to CTS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "250 meters, north-west \t",
+                    "type": "A"
+                },
+                {
+                    "body": "250 meters, north-east \t",
+                    "type": "B"
+                },
+                {
+                    "body": "240 meters, north ",
+                    "type": "C"
+                },
+                {
+                    "body": "Either A or C \t\t\t",
+                    "type": "D"
+                },
+                {
+                    "body": "Cannot be determined",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8c9cd13d-d4a1-4413-a62c-56dd1803a2fd",
+                    "questionID": "f0931e43-19de-4eb8-8e0c-e4d10253961a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This Question is given by Faculty please consult manish sir solutions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "34090986-54a0-47cf-aa42-64d117e8a080",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Study the information carefully and answer the questions given below. \nA person starts walking from point G he walks 10m north and reach at point H. From point H, He \nwalks 7m in east direction and reach at point K. From point K, he walks 6m south and reach at point \nY. Now he takes a right turn and walks 4m to reach at point B. After reaching at point B he start walking  in south direction and reach at point M, which is east of point G. \n\nIf point S is 5m east of point M than in which direction point S with respect to point K",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "North \t",
+                    "type": "A"
+                },
+                {
+                    "body": "South \t",
+                    "type": "B"
+                },
+                {
+                    "body": "South east \t",
+                    "type": "C"
+                },
+                {
+                    "body": "South west \t",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "00336e49-9d76-4e45-a660-e48bd3ba8bf0",
+                    "questionID": "34090986-54a0-47cf-aa42-64d117e8a080",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This Question is given by Faculty please consult manish sir solutions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94d442ec-5592-402a-8385-b9f4107e7ef2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Study the information carefully and answer the questions given below. \nA person starts walking from point G he walks 10m north and reach at point H. From point H, He \nwalks 7m in east direction and reach at point K. From point K, he walks 6m south and reach at point \nY. Now he takes a right turn and walks 4m to reach at point B. After reaching at point B he start walking  in south direction and reach at point M, which is east of point G. \n \nWhat is the shortest distance between point B and point M",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "6m \t\t",
+                    "type": "A"
+                },
+                {
+                    "body": "7m \t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "4m \t\t",
+                    "type": "C"
+                },
+                {
+                    "body": "3m \t\t",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f5bad0a6-7934-47ab-ab83-aba63e7ef587",
+                    "questionID": "94d442ec-5592-402a-8385-b9f4107e7ef2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This Question is given by Faculty please consult manish sir solutions",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de19a45f-eb5f-42a6-adef-12727904f46e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Pointing to a photograph a woman says: “He is the brother of the daughter of my mother-in-law’s only son”. How is the\nman related to the woman",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Son \t",
+                    "type": "A"
+                },
+                {
+                    "body": "Brother \t",
+                    "type": "B"
+                },
+                {
+                    "body": " Brother-in-law \t",
+                    "type": "C"
+                },
+                {
+                    "body": "Nephew \t",
+                    "type": "D"
+                },
+                {
+                    "body": " Can’t be exactly determined",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a2709cd2-74c3-4583-9699-957bb514ad1a",
+                    "questionID": "de19a45f-eb5f-42a6-adef-12727904f46e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mother-in-law’s only son = husband.\nDaughter of husband = daughter.\nBrother of daughter = son.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b98d8101-6afd-48cc-8b7d-061317ef720e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Pointing to a woman in a photograph a man says: “She is the only daughter of my father’s mother-in-law”. How is the woman related to the man",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "daughter         ",
+                    "type": "A"
+                },
+                {
+                    "body": "mother         ",
+                    "type": "B"
+                },
+                {
+                    "body": "daughter-in-law         ",
+                    "type": "C"
+                },
+                {
+                    "body": "mother-in-law         ",
+                    "type": "D"
+                },
+                {
+                    "body": "None of these",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f5d87546-d157-46c8-b0cc-9e6f4d2505e3",
+                    "questionID": "b98d8101-6afd-48cc-8b7d-061317ef720e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "father’s mother-in-law = grandmother\ndaughter of grandmother = mother",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fc208dae-2ace-4e6e-a059-a4959496cee3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Pointing to a woman in a photograph a man says: “She is the only daughter of my wife’s mother-in-law”. How is the woman related to the man",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Daughter \t",
+                    "type": "A"
+                },
+                {
+                    "body": "Wife \t\t",
+                    "type": "B"
+                },
+                {
+                    "body": "Sister \t",
+                    "type": "C"
+                },
+                {
+                    "body": "Sister-in-law \t\t",
+                    "type": "D"
+                },
+                {
+                    "body": "Mother-in-law",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Faculty Questions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "da5f7247-3d75-4e83-9396-5bbb874f78c5",
+                    "questionID": "fc208dae-2ace-4e6e-a059-a4959496cee3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "wife’s mother-in-law = mother\ndaughter of mother = sister",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1054 @@
+{
+    "bank_id": "1b74d3d6-9926-41c7-9315-30aa403b50e2",
+    "bank_name": "Verbal2",
+    "questions": [
+        {
+            "id": "09f40ce3-130b-4363-8ee0-62263226f029",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Mark the parts with the error as your answer. </p><p>Previous studies have shown that, since the 1950s, (A) / rates of sea level rise along Atlantic coast of (B) / North America were fast than the global average -- leading (C) / to this region coming to be known as a sea level rise hotspot. (D) </p><p><br></p><p>  A. AB   </p><p>  B. CD   </p><p>  C. BD   </p><p>  D. BC</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "71eb6a1f-911a-40f3-8719-5d4d37ce6aea",
+                    "questionID": "09f40ce3-130b-4363-8ee0-62263226f029",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Previous studies have shown that, since the 1950s, (A) / rates of sea level rise along Atlantic coast of (B) / North America were fast than the global average -- leading (C) / to this region coming to be known as a sea level rise hotspot. (D)  </p><p><br></p><p>Fragment B is erroneous.  </p><p><br></p><p>Here, the definite article 'the' is absent before 'Atlantic coast'.   </p><p><br></p><p>Correct 1st fragment: rates of sea level rise along the Atlantic coast of </p><p><br></p><p> Fragment C is erroneous. </p><p><br></p><p> Here, as the fragment is made in compartive degree (presence of 'than') the adjective 'fast' should be made in comperative degree too.  </p><p><br></p><p> Correct 2nd fragment: North America were faster than the global average – leading  </p><p><br></p><p>Correct Sentence:  Previous studies have shown that, since the 1950s, rates of sea level rise along the Atlantic coast of North America were faster than the global average -- leading to this region coming to be known as a sea level rise hotspot.  </p><p><br></p><p>Option D is hence the correct answer.  </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "259dbb67-c6e0-4e9b-99a9-d9e46be7f5ab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions</strong>: In the following questions two statements have been given with connectors given below. You have to select that option which could connect both the sentences and make them grammatically and contextually correct.&nbsp; </p><p>I. Determining the sex of a fetus has been banned since 1994. </p><p><br></p><p>II. Parents wanting sons have continued to find ways to abort girls.&nbsp; </p><p><br></p><p>a. Although </p><p>b. In spite of</p><p>c. Yet </p><p>d. Equally&nbsp; </p><p><br></p><p>A. Only I&nbsp;&nbsp; </p><p><br></p><p>B. Only I, III and IV&nbsp;</p><p><br></p><p>C. Only I, II and IV&nbsp;&nbsp;</p><p><br></p><p>D. Only I, II and III&nbsp;</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Connectors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "66b4971c-7bfa-408f-860a-c67c658f3824",
+                    "questionID": "259dbb67-c6e0-4e9b-99a9-d9e46be7f5ab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanations: Both statements convey contradicting points.&nbsp; </strong></p><p><br></p><p><strong>Equally does not fit in here as it is used where the statements complement each other. </strong></p><p><br></p><p><strong>The other connectors fit in well and are used to convey contradicting things. Ad interim means during the interval or in the meantime and conveys that one of the incidents</strong></p><p><strong>took place during an interval/a gap. This clearly does not fit in. </strong></p><p><strong>I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although</strong></p><p><strong>determining the sex of a fetus has been banned since 1994, parents wanting sons have continued to find ways to abort girls. </strong></p><p><strong>II.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In spite of determining the sex of a fetus being banned since 1994, parents</strong></p><p><strong>wanting sons have continued to find ways to abort girls. </strong></p><p><strong>III.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Determining the sex of a fetus has been banned since 1994 yet, parents wanting sons have continued to find ways to abort girls. </strong></p><p><br></p><p><strong>Thus, option D is correct.</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "20953332-3fa5-426a-84dc-2817b6767a7d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> In this question, you need to replace the bold part of the sentence by the most suitable idiom/expression given as option. </p><p><br></p><p>You don't have to <strong><u>rebuke everyone angrily </u></strong>who misuses the office facilities for personal use. </p><p><br></p><p>A. take everyone to task   </p><p>B. take everyone with a pinch of salt   </p><p>C. give a cold shoulder to everyone  </p><p>D. cut everyone some slack </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idiom"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9e939d57-8609-44b4-b929-51f91b5efd44",
+                    "questionID": "20953332-3fa5-426a-84dc-2817b6767a7d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Take to task (Idiom): To scold, reprimand, rebuke or lecture someone on some wrong or error they have committed. Ex. Mom took me to task over the alcohol she found in my car.  Take someone/something with a pinch of salt (Idiom): To not completely believe something that you are told, because you think it is unlikely to be true. Ex. You have to take everything she says with a pinch of salt, because she tends to exaggerate.  Give someone a cold shoulder (Idiom): To intentionally ignore someone or treat someone in an unfriendly way. Ex. I thought she really liked me, but the next day she gave me the cold shoulder.  Cut someone some slack (Idiom):  To allow one more latitude or freedom than usual; to be lenient with one. Ex. Oh, you know I never make requests like this, cut me some slack. Rain on someone’s parade (Idiom):  To prevent someone from enjoying an event; spoil someone's plans.  Evidently, out of the options given, only option A replaces the bold part most appropriately. Option A is hence the correct answer</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "590d6fb1-a26c-4ce0-a4ba-7913c2fb88cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Direction: Read the following passage carefully and answer the following questions.  </p><p><br></p><p>The blanket of haze over Delhi thickened on Friday morning with the national capital's pollution levels increasing overnight by around 50 points, taking the overall air quality index to 459. A Central Pollution Control Board official said the AQI entered the \"severe plus\" or \"emergency\" category late Thursday night, the first time since January this year. According to official data, the overall AQI was 582 at 12.30 am. As part of the emergency measures, the Delhi government has decided to shut schools till November 5 as the air quality in the national capital deteriorated further. If the air quality persists in the \"severe plus\" category for more than 48 hours, emergency measures such as odd-even car rationing scheme, banning entry of trucks, construction activities and shutting down schools are taken under the Graded Response Action Plan, the official said. </p><p><br></p><p>The hazardous pollution levels forced a number of people to miss morning walks and other activities. Shubhomoy Sikdar, a Delhi-based journalist, said the pollution levels gave him a throat infection and he had to skip his daily sports session. Amanpreet Singh, a resident of Jangpura, said he has been avoiding morning and evening walks and preferring to stay indoors. </p><p><br></p><p>The number of masked faces continued to grow as the city remained shrouded in<strong> pungent</strong> haze for the fourth consecutive day. At 8.30 am, the capital's overall air quality index stood at 459. It was 410 at 8 pm on Thursday. All the 37 air quality monitoring stations across Delhi recorded the air quality in the severe category on Friday morning. Bawana was the most-polluted area with an AQI of 497, followed by Delhi Technological University (487), Wazirpur (485), Anand Vihar (484) and Vivek Vihar (482). Neighbouring Ghaziabad was the most-polluted city in the country, with the levels of PM2.5 – tiny particulate matter less than 2.5 microns that can enter deep into the lungs -- reaching as high as 493. Greater Noida (480), Noida (477), and Faridabad (432) also breathed extremely polluted air. An AQI between 0-50 is considered \"good\", 51-100 \"satisfactory\", 101-200 \"moderate\", 201-300 \"poor\", 301-400 \"very poor\", and 401-500 \"severe\". Above 500 is \"severe-plus or emergency\" category. </p><p><br></p><p>  Delhi is impatiently hoping for favourable meteorological conditions to blow away the toxic air, as health experts said the hazardous air pollution has become a serious health concern for about 2 crore residents. </p><p><br></p><p>\"Intake of every 22 micrograms per cubic metre of polluted air is equivalent to smoking a cigarette. So whether the PM2.5 level is 700 or 300 units, the impact is still as bad. People  need to take precautions, especially those suffering from asthma, bronchitis or other respiratory illness,\" said Dr Arvind Kumar, lung surgeon at Sir Ganga Ram Hospital here. Weather experts said increased wind speed due to a fresh western disturbance approaching the northern region would help disperse pollutants faster from Saturday. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "281e68f2-afe3-4622-ae4e-0a51377c1c98",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the following questions two statements have been given with connectors given as options. You have to select that option which could connect both the sentences and make them grammatically and contextually correct.&nbsp; </p><p><br></p><p>I. The GIFT City has already attracted close to $2 billion in real estate investment II. It is expected that this number could rise to</p><p>nearly $11 billion.&nbsp; </p><p><br></p><p>A. Afterwards, beforehand </p><p><br></p><p>B. At some point, immediately </p><p><br></p><p>C. Eventually, in time </p><p><br></p><p>D. One day, even so&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Connectors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4741f223-a511-4959-aa5a-501e76a5907b",
+                    "questionID": "281e68f2-afe3-4622-ae4e-0a51377c1c98",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanations: Both the statements talk about the same subject over a different time period- present and future. We need appropriate connectors to depict this.</strong></p><p><br></p><p><strong>Option A: This talks about the past and present and is incorrect</strong></p><p><br></p><p><strong>Option B: immediately does not fit in.</strong></p><p><br></p><p><strong>Option D: Even so is incorrect.</strong></p><p><br></p><p><strong>Only option C fits in:</strong></p><p><br></p><p><strong>I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The GIFT City has already attracted close to $2 billion in real estate investment and eventually, it is expected that this number could rise to nearly $11 billion. </strong></p><p><strong>II.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The GIFT City has already attracted close to $2 billion in real estate investment and in time, it is expected that this number could rise to nearly $11 billion. </strong></p><p><br></p><p><strong>Hence, option C is correct.</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fbd397c6-0982-4da9-bce9-efc1eb8f3891",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the following questions two statements have been given with connectors given as options. You have to select that option which could connect both the sentences and make them grammatically and</p><p>contextually correct.&nbsp; </p><p><br></p><p>I. GDP measures income but fails to measure poverty, income</p><p>inequality, health and quality of life. </p><p><br></p><p>II. GDP has become the single most important tool for</p><p>Governments, financial institutions and policymakers since its inception in the</p><p>1930s.&nbsp; </p><p>A. Nonetheless, Moreover&nbsp;</p><p><br></p><p>B. Conversely, Thus&nbsp; </p><p><br></p><p>C. in spite of this, for one thing </p><p><br></p><p>D. Nevertheless, Although </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Connectors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "386731b7-34c9-4e4e-b237-274f021420ca",
+                    "questionID": "fbd397c6-0982-4da9-bce9-efc1eb8f3891",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanations: The two statements above are contradicting in nature and hence need the correct</strong></p><p><strong>connectors to convey this relationshiop. </strong></p><p><strong>Option A: moreover is used between complementing statements and is incorrect. </strong></p><p><br></p><p><strong>Option B: Thus is used to conclude something and is incorrect. </strong></p><p><br></p><p><strong>Option C: For one thing is used to elaborate on the second statement and does not fit in here. </strong></p><p><br></p><p><strong>Only option D fits in:&nbsp; </strong></p><p><br></p><p><strong>I.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GDP measures income but fails to measure poverty, income inequality, health and quality of life nevertheless, GDP has become the single most important tool for Governments, financial institutions and policymakers since its inception in the 1930s. </strong></p><p><br></p><p><strong>II.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Although GDP has become the single most important tool for Governments, financial institutions and policymakers since its inception in the 1930s, it measures</strong></p><p><strong>income but fails to measure poverty, income inequality, health and quality of life. </strong></p><p><br></p><p><strong>Hence, option D is correct.</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a1a9e435-083d-4347-b3c4-54b6f04c6e2f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong style=\"color: rgb(46, 46, 46);\">1.&nbsp;Which word means \"to reduce in amount\"?</strong></h3><p>a.&nbsp;Augment</p><p><br></p><p>b. Diminish</p><p><br></p><p>c. Amplify</p><p><br></p><p>d.&nbsp;Increase</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "58e55bc1-84fa-425f-ba36-623ce90989af",
+                    "questionID": "a1a9e435-083d-4347-b3c4-54b6f04c6e2f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(51, 51, 51);\">Explanation: \"Diminish\"</span></p><p><span style=\"color: rgb(51, 51, 51);\">implies a gradual reduction or weakening.&nbsp; It could be the fading light of day as the sun sets, the decrease in intensity of a storm, or the gradual erosion of a mountain over centuries.&nbsp; It suggests a process of becoming smaller, less significant, or less potent over time.</span></p><p><br></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54f1b706-f95b-40f7-8cf8-37e9e0c99cb0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Direction</strong>: In each of the questions given below, a set of six sentences is given, which are jumbled in any random order. Rearrange the sentences in the right order and answer the questions that follow.  </p><p>A. In that mood of nostalgia, ancient poets—Homer and Aeschylus, in particular—started getting described as vates or prophets, and language—more particularly, “the original” language—as a spiritually potent agency of human liberation.  </p><p>B. The idea that a nation should ideally have a single language that will keep the people bound together was added to its range of signification during the early 19th century.  </p><p>C. This was the time when a new kind of longing for the past was emerging among the English painters and poets as a result of the devastation of the countryside due to rapid industrialisation.  </p><p>D. In its semantic trajectory within the English language, “nation” was initially rooted in the idea of “belonging to a geographical area or location.”  </p><p>E. It decidedly referred to an area, territory and the people who inhabited it.   </p><p>F. The term “nation” was drawn by the English language, during its historical phase known as Middle English, from the Latin root nationem signifying birth and ancestry. </p><p><br></p><p><strong>Which among the following would be the FIRST sentence of the paragraph after the rearrangement? </strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>D</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>F</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "33856135-9243-4245-9dc6-143054eb426c",
+                    "questionID": "54f1b706-f95b-40f7-8cf8-37e9e0c99cb0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The correct sequence of sentences would be:<strong> FDEBCA   </strong></p><p>This makes Option B the correct choice among the given options.  </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d3ccd0b0-d080-4099-b061-cc1216eb9c6a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Direction</strong>: In each of the questions given below, a set of six sentences is given, which are jumbled in any random order. Rearrange the sentences in the right order and answer the questions that follow. </p><p><br></p><p>A. In that mood of nostalgia, ancient poets—Homer and Aeschylus, in particular—started getting described as vates or prophets, and language—more particularly, “the original” language—as a spiritually potent agency of human liberation. </p><p><br></p><p>B. The idea that a nation should ideally have a single language that will keep the people bound together was added to its range of signification during the early 19th century. </p><p><br></p><p>C. This was the time when a new kind of longing for the past was emerging among the English painters and poets as a result of the devastation of the countryside due to rapid industrialisation. </p><p><br></p><p>D. In its semantic trajectory within the English language, “nation” was initially rooted in the idea of “belonging to a geographical area or location.” </p><p><br></p><p>E. It decidedly referred to an area, territory and the people who inhabited it. </p><p><br></p><p>F. The term “nation” was drawn by the English language, during its historical phase known as Middle English, from the Latin root nationem signifying birth and ancestry. </p><p><br></p><p><strong>Which among the following will come after the FOURTH sentence after the rearrangement? </strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>F</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>E</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3227b3a8-f101-4494-bbc7-8b0afd3e85c9",
+                    "questionID": "d3ccd0b0-d080-4099-b061-cc1216eb9c6a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The correct sequence of sentences would be: <strong>FDEBCA</strong>   This makes Option C the correct choice among the given options.  </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a1cbc3e2-5654-4d1a-9e20-4056551f3f0c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Direction: Read the following passage carefully and answer the following questions.  </strong></p><p><br></p><p>The blanket of haze over Delhi thickened on Friday morning with the national capital's pollution levels increasing overnight by around 50 points, taking the overall air quality index to 459. A Central Pollution Control Board official said the AQI entered the \"severe plus\" or \"emergency\" category late Thursday night, the first time since January this year. According to official data, the overall AQI was 582 at 12.30 am. As part of the emergency measures, the Delhi government has decided to shut schools till November 5 as the air quality in the national capital deteriorated further. If the air quality persists in the \"severe plus\" category for more than 48 hours, emergency measures such as odd-even car rationing scheme, banning entry of trucks, construction activities and shutting down schools are taken under the Graded Response Action Plan, the official said.   </p><p><br></p><p>The hazardous pollution levels forced a number of people to miss morning walks and other activities. Shubhomoy Sikdar, a Delhi-based journalist, said the pollution levels gave him a throat infection and he had to skip his daily sports session. Amanpreet Singh, a resident of Jangpura, said he has been avoiding morning and evening walks and preferring to stay indoors.   </p><p><br></p><p>The number of masked faces continued to grow as the city remained shrouded in <strong>pungent</strong> haze for the fourth consecutive day. At 8.30 am, the capital's overall air quality index stood at 459. It was 410 at 8 pm on Thursday. All the 37 air quality monitoring stations across Delhi recorded the air quality in the severe category on Friday morning. Bawana was the most-polluted area with an AQI of 497, followed by Delhi Technological University (487), Wazirpur (485), Anand Vihar (484) and Vivek Vihar (482). Neighbouring Ghaziabad was the most-polluted city in the country, with the levels of PM2.5 – tiny particulate matter less than 2.5 microns that can enter deep into the lungs -- reaching as high as 493. Greater Noida (480), Noida (477), and Faridabad (432) also breathed extremely polluted air. An AQI between 0-50 is considered \"good\", 51-100 \"satisfactory\", 101-200 \"moderate\", 201-300 \"poor\", 301-400 \"very poor\", and 401-500 \"severe\". Above 500 is \"severe-plus or emergency\" category.   </p><p><br></p><p>Delhi is impatiently hoping for favourable meteorological conditions to blow away the toxic air, as health experts said the hazardous air pollution has become a serious health concern for about 2 crore residents.   </p><p><br></p><p>\"Intake of every 22 micrograms per cubic metre of polluted air is equivalent to smoking a cigarette. So whether the PM2.5 level is 700 or 300 units, the impact is still as bad. People  need to take precautions, especially those suffering from asthma, bronchitis or other respiratory illness,\" said Dr Arvind Kumar, lung surgeon at Sir Ganga Ram Hospital here. Weather experts said increased wind speed due to a fresh western disturbance approaching the northern region would help disperse pollutants faster from Saturday. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "ecdadea7-f2d7-4784-a383-954ecbbf1019",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> In each of the questions, a sentence is divided into four parts in which one of the parts is given in bold and is grammatically and contextually correct. You have to identify which fragment, apart from the bold one, is correct in terms of grammar and usage. </p><p><br></p><p>Weeks after announcing that Indian migrant labourers would be ________ orange-coloured passports instead of the usual blue, the government yesterday backed down after ________ criticism. </p><p><br></p><p>A. Issued, sharp          </p><p>B. Give, Stinging          </p><p>C. Advertised, bland </p><p>D. Reported, sudden</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 10,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "676215bc-e842-45ed-b7b6-a2c2270570ab",
+                    "questionID": "ecdadea7-f2d7-4784-a383-954ecbbf1019",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The statement conveys that the government backed down after criticism. Logically, the criticism had to be serious if it caused the government to change its decision. This eliminates options C and E. Looking at the other options: Option B: Give is grammatically incorrect due to incorrect tense usage. Option D: Reported is irrelevant and illogical. Option A is correct as both the blanks fit in well contextually and grammatically. Hence, option A is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "adddc567-ba55-4c0d-83c3-47430edc6642",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In each of the questions, a sentence is divided into four parts in which one of the parts is given in bold and is grammatically and contextually correct. You have to identify which fragment, apart from the bold one, is correct in terms of grammar and usage. </p><p><br></p><p>The __________ of the total eclipse with the blue moon and the super moon is a __________ event.</p><p><br></p><p>A. Meeting, common          </p><p>B. Coincidence, rare          </p><p>C. Accompaniment, only </p><p>D. Divergence, exceptional </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "848e1948-bb87-415e-937b-207a7da86cb0",
+                    "questionID": "adddc567-ba55-4c0d-83c3-47430edc6642",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The use of with indicates that total eclipse, blue moon and super moon are all occurring together. Hence, options D and E can be eliminated. Out of options A, B and C- Option A: Blank two talks about this being a common event which does not sound logical. Hence, this is incorrect. Option C: Blank two talks about this being the only event. This is contextually incorrect and also grammatically absurd. Option B is correct as both the blanks fit in well contextually and grammatically. Hence, option B is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c7ea01c1-b90f-4c51-9b5e-7a25cc826248",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> In this question, you need to replace the bold part of the sentence by the most suitable idiom/expression given as option.  </p><p><br></p><p>You must <strong><u>be extra careful with even minor details</u> </strong>with electrical work. </p><p><br></p><p>A. go the whole hog  </p><p>B. be on your toes </p><p>C. linger on   </p><p>D. dot your i’s and cross your t’s   </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7cd8a17e-5413-40c4-beae-ed966639808d",
+                    "questionID": "c7ea01c1-b90f-4c51-9b5e-7a25cc826248",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Go the whole hog (Idiom): To do something completely or thoroughly. Ex. Vineeta decided to go the whole hog and joined the Army.  Be on toes (Idiom): To stay active and alert. This idiom could have been the correct choice, had ‘with minor details’ part not been there in the sentence.  Linger on (Idiom): To remain alive; continue or persist, although gradually dying, ceasing, disappearing. Ex. She lingered a few months after the heart attack.  Dot your i's and cross your t’s (idiom): To pay complete attention to the details. Ex. Your instructor is a tough grader, be sure to dot your 'i's and cross your 't's on your research.  Stay the course (Idiom) To keep going strongly to the end of a race or contest. Ex. Critics predicted the car could not stay the distance.  Clearly, option D implies the same meaning as given in bold in the sentence.  Option D is hence the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6685ed15-7805-4229-962b-d3f81114d589",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Find the word from the options which is the most opposite to the given context and mark that as your answer. </p><p><br></p><p>INADVERTENT: The company argued the breach was inadvertent and it was unaware of the court order when the automatically generated email went out. </p><p><br></p><p>A. Unintended  B. Deliberate  C. Unpremeditated D. Unwitting </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "68a25878-e4ce-4d4c-a61a-10678502b2a9",
+                    "questionID": "6685ed15-7805-4229-962b-d3f81114d589",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Inadvertent: not resulting from or achieved through deliberate planning.   ‘Deliberate’ means ‘on purpose’ and is most opposite to the context here.   Hence, option B is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f7eba215-e01f-4cfb-977b-762c7513d11f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Mark the parts with the error as your answer. </p><p>No child growing up in India fails to study the Indus Valley Civilisation, (A) / which is now more popularly referred to the Harappan Civilisation (B) / after Harappa, the first of its site to be excavated (C) / in the 1920s by British archaeologist Sir Mortimer Wheeler. (D) </p><p><br></p><p>A. AD   </p><p>B. BC   </p><p>C. AC   </p><p>D. CD </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bf7588db-beba-4b92-9c70-3c85e82908d9",
+                    "questionID": "f7eba215-e01f-4cfb-977b-762c7513d11f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Fragment B is erroneous here.  </p><p>The preposition 'as' is absent before the noun phrase 'The Harappan Civilisation' in the fragment.    </p><p><br></p><p>Correct 1st fragment: which is now more popularly referred to as the Harappan Civilisation </p><p>Fragment C is erroneous too. </p><p>First of its 'site' must be replaced by first of its 'sites'.</p><p>Correct 2nd fragment: after Harappa, the first of its sites to be excavated </p><p>Correct Sentence:  </p><p>No child growing up in India fails to study the Indus Valley Civilisation, which is now more popularly referred to as the Harappan Civilisation after Harappa, the first of its sites to be excavated in the 1920s by British archaeologist Sir Mortimer Wheeler.    </p><p>Therefore, option (B) is the correct answer. </p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3d9e6a1c-98d4-4bea-b227-4a75db975ec4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Mark the parts with the error as your answer. </p><p>A few of the technology to reduce emissions from (A) / agriculture and farming, and to optimise feed yields, (B) / are already available but (C) / adoption of the science is lagging. (D) </p><p><br></p><p>A. AC   </p><p>B. AB   </p><p>C. BC   </p><p>D. AD</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "84dc678d-6bf7-403f-a6ca-66b73328290b",
+                    "questionID": "3d9e6a1c-98d4-4bea-b227-4a75db975ec4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Fragment A is erroneous. </p><p><br></p><p> As 'technology' is uncountable, 'A few' should be replaced by 'Much' to make the fragment grammatically correct.  </p><p><br></p><p>Correct 1st Fragment: Much of the technology to reduce emissions from </p><p><br></p><p>Fragment C is erroneous.  </p><p><br></p><p>The subject in the sentence implies to be 'Much of technology' which is singular in number. Thus, usage of 'are' in this fragment C is ungrammatical. 'Is' should be used here to make the fragment grammatically correct.  </p><p>Correct 2nd Fragment: is already available but </p><p>Correct Sentence:  </p><p>Much of the technology to reduce emissions from agriculture and farming, and to optimise feed yields, is already available but adoption of the science is lagging.  Option A is hence the correct answer.  </p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "652f3678-390b-4cc1-aad6-c00688e00d29",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>The shrewd scheme was about to ________ when unfortunately the authorities wouldn't allow him to fly his planes over the planned route.</p><p><br></p><p>I. work like a charm </p><p>II. Mean business</p><p>III. Get the axe </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II  </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I  </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrase"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1637d332-569f-4d6f-bfb2-309972775001",
+                    "questionID": "652f3678-390b-4cc1-aad6-c00688e00d29",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>work like a charm: Works very well or has the desired effect.  Option I fills the sentence correctly as it implies that the scheme was about to work perfectly but the authorities restricted the flight.  Mean business: Being serious about what you announce.  Eg : Now people are starting to realise that he means business.   Get the axe: Lose the job.  Eg: He got the axe at the end of the first week.  Clearly only I fit in the sentence correctly.  Hence, option B is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86a0f223-8e19-4cec-bc3d-3179e767f402",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>In this generally upbeat environment, hardly any analyst wants to ____________ and state in a research report that the excitement about the rupee depreciation is overdone as far as IT stocks are concerned. I. Put their necks on the line II. Go out on a limb III. Stick their necks out </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only III </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> All of the above </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "991ef576-6481-4c42-b859-5f6eedab7e02",
+                    "questionID": "86a0f223-8e19-4cec-bc3d-3179e767f402",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>All of the idioms refer to doing something they strongly believe in even though it is risky or extreme, and is likely to fail or be criticized by other people. All of these idioms mean the same and fit in well in the present context.   Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "50d118d1-19dd-400c-81ef-de700320f9cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>Pakistan was ____________ with Mr. Trump tweeting about Pakistan’s duplicity in being “a non-NATO ally” and providing safe haven to insurgent groups. I. Put on notice II. Burying the hatchet III. Splitting hairs </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Only I </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only I and II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> Only II and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "357c49a1-e812-481e-952d-db03a23b3035",
+                    "questionID": "50d118d1-19dd-400c-81ef-de700320f9cf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The statement talks about President Trump warning Pakistan of action due to its terrorist activities.  Put on notice: Warn someone of something about or likely to occur, often in a formal or threatening way.  Bury the hatchet: When people who have had a disagreement decide to forget their quarrel and become friends again, they bury the hatchet.  Eg: I didn't agree with my colleague's decision, but for the sake of peace, I decided to bury the hatchet.  Split hairs: If you split hairs, you pay too much attention to differences that are very small or unimportant.  Eg: If we start splitting hairs, we'll never reach an agreement.  Clearly, only I fits in well while the others are meaningless.  Hence, option A is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4fa0bfb0-f065-43da-a29a-b350915e8cd8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>We’re taught that evolution is all about “survival of the fittest” but sometimes evolution can be the result of a lucky animal ___________. </p><p>I. Cherry picking </p><p>II. Arguing the toss </p><p>III. Finding any port in a storm </p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Only I </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only III </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idiom"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "651492d5-1178-45a9-b527-940be364afd9",
+                    "questionID": "4fa0bfb0-f065-43da-a29a-b350915e8cd8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Cherry pick: When you cherry pick, you choose something with great care and select only the best.  Eg: Top university graduates are often cherry-picked by large companies.  Argue the toss: If you argue the toss, you dispute a decision or choice which has already been made.  Eg: One person argued the toss for four hours before he agreed to pay  Finding any port in a storm: Any solution to a difficult situation (is better than none). This clearly fits in.  Only III fits in meaningfully and is correct.  Hence, option B is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "11874b3f-3338-4975-83ef-47bfc8472ec1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>The company ____________ that the project will take at least another six months to conclude given that none of the managers have a better grip on the work.</p><p> I. took on</p><p> II. stands to reason</p><p> III. came down with </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only I </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idiom"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "51eb9372-cfa1-44b4-997d-7ff64407ff9e",
+                    "questionID": "11874b3f-3338-4975-83ef-47bfc8472ec1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Take on: to acquire something. This does not fit in contextually.   Stands to reason: to come to a reasonable deduction.  Come down with: start to suffer from a particular sickness. This does not fit in contextually.  Hence, B is the correct answer. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54f94bfb-b890-447d-921f-dca91dade48c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>In the race to garner a larger share of the pie, the airlines seem to be ____________ in training, supervision and safety – adopting a grow-now-fix-later attitude. </p><p>I. cutting corners </p><p>II. All ears </p><p>III. Call a spade a spade </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Only I </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and III </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idiom"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9ed4314f-5b04-4ca3-987c-9f76762e5895",
+                    "questionID": "54f94bfb-b890-447d-921f-dca91dade48c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p> I. Cut corners: do something perfunctorily so as to save time or money.  Eg: There is always a temptation to cut corners when time is short.  II. All ears: To say that you are all ears means that you are listening very attentively.  Eg: Of course I want to know - I'm all ears!  III. Call a spade a spade: A person who calls a spade a spade speaks openly and truthfully about something, especially difficult matters.  Eg: What I like about the new manager is that he calls a spade a spade - it makes things so much easier for everyone.  As per the meanings of the idioms above, it is clear that the only one fitting meaningfully is the first idioms- cut corners. It talks about how airlines have been taking the short cut route in terms of quality.  Hence, option A is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e5ddb211-07fd-4a94-bb59-1e2ee6429ea3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>Both the Centre and States must ____________ on ending the special treatment for sugar by letting market signals dictate crop prospects and prices. I. Bark up the wrong tree II. Burn the bridges III. Bite the bullet .</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Only II </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Only III </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and II  </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idiom"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1a63f0fb-8035-493d-b7f3-3e96f84edc99",
+                    "questionID": "e5ddb211-07fd-4a94-bb59-1e2ee6429ea3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>I. Bark up wrong tree: A person who is barking up the wrong tree is doing the wrong thing, because their beliefs or ideas are incorrect or mistaken.  Eg: The police are barking up the wrong tree if they think she stole the car as she can't drive.  II. Burn bridges: If you burn your bridges, you do something that will be impossible to rectify in the future.  Eg: If you refuse the offer, be careful not to burn your bridges by insulting them.\"  III. Bite the bullet: to force yourself to do something unpleasant or difficult, or to be brave in a difficult situation.  Eg: I hate going to the dentist, but I'll just have to bite the bullet.  Clearly, I and II do not fit in at all. Only III fits in as it shows the government needs to let markets decide sugar prices.  Hence, option B is correct</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a44120e3-f6c8-4d3e-9b17-0f76e9b3fbb2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the question below, a statement has been given with a blank. In the options are some idioms/phrases, which may or may not fit in meaningfully in the blank. You are required to choose from the options, the one that provides the correct combination of the idioms/phrases which fit in the blanks grammatically and contextually. </p><p><br></p><p>Within 24 hours of announcing a meeting between the External Affairs Ministers’ of the two nations, India ____________ citing the recent attacks in Jammu and Kashmir by Pakistan-based groups. </p><p><br></p><p>I. Hit pay dirt </p><p>II. Drew a blank </p><p>III. Called it off </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Only II </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> Only III </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Only I and II  </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Only II and III </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6181c5bc-228c-4354-a9f5-284f512c5804",
+                    "questionID": "a44120e3-f6c8-4d3e-9b17-0f76e9b3fbb2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span class=\"ql-cursor\">﻿</span>Hit pay dirt: If you hit pay dirt, you are lucky and suddenly find yourself in a successful money-making situation.  Eg: He finally hit pay dirt with his latent invention.  Draw a blank: If you look for or try to remember something, and draw a blank, you fail to find it.  Eg: I nearly won the quiz; unfortunately I drew a blank at the last question!  Called it off: Cancelled it. This phrase fits in well and is correct.  Only III is correct.  Hence, option B is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4506 @@
+{
+    "bank_id": "07b62b9f-b6db-4187-9173-45b076d3ecae",
+    "bank_name": "CN-Week-3-Faculty",
+    "questions": [
+        {
+            "id": "c965bff9-91d6-4592-9845-517c864915b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What ICMP message type is sent when a router cannot forward a packet due to TTL expiry",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Destination Unreachable ",
+                    "type": "A"
+                },
+                {
+                    "body": "Echo Request ",
+                    "type": "B"
+                },
+                {
+                    "body": "Time Exceeded ",
+                    "type": "C"
+                },
+                {
+                    "body": "Redirect",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "281c25c8-77fa-4eaa-aa44-f3589de9990f",
+                    "questionID": "c965bff9-91d6-4592-9845-517c864915b2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The “Time Exceeded” message (Type 11) is sent when a packet’s TTL reaches zero.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4b254874-d849-4550-bb95-161021371ebb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which ICMP message type is used by the ping command",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Type 0 and 8 ",
+                    "type": "A"
+                },
+                {
+                    "body": "Type 3 ",
+                    "type": "B"
+                },
+                {
+                    "body": "Type 5 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Type 11",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cbf7945f-60fd-467f-aa88-432f01dd2dd6",
+                    "questionID": "4b254874-d849-4550-bb95-161021371ebb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ping uses ICMP Echo Request (Type 8) and Echo Reply (Type 0) messages.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "755d0abe-8c7f-45ea-98ab-cd9f6cbd3401",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You added a static route, but it&#39;s not used even though the destination matches. What could be the cause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ARP timeout ",
+                    "type": "A"
+                },
+                {
+                    "body": "Lower administrative distance of another route ",
+                    "type": "B"
+                },
+                {
+                    "body": "TTL expired ",
+                    "type": "C"
+                },
+                {
+                    "body": "OSPF filter",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d5c644a7-43a0-4083-83b9-013044b4c72d",
+                    "questionID": "755d0abe-8c7f-45ea-98ab-cd9f6cbd3401",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A dynamic protocol with a lower AD will override a static route.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9d6ddca8-0cd0-486f-bd8b-4550248415e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Your device fails to reach 192.168.1.100. You verify IP and MAC are correct. Ping works, but file sharing doesn’t. What layer is at fault",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Physical ",
+                    "type": "A"
+                },
+                {
+                    "body": "Network ",
+                    "type": "B"
+                },
+                {
+                    "body": "Application ",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Link",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9fa74438-67ac-4021-bf4e-116f92abb299",
+                    "questionID": "9d6ddca8-0cd0-486f-bd8b-4550248415e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Application-layer protocols handle services like file sharing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eb1d230e-873c-403a-965d-f564fd78e478",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An OSPF router in Area 0 is not receiving routes from Area 1. What&#39;s likely wrong",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Static routes missing ",
+                    "type": "A"
+                },
+                {
+                    "body": "IP conflict ",
+                    "type": "B"
+                },
+                {
+                    "body": "Area misconfiguration ",
+                    "type": "C"
+                },
+                {
+                    "body": "RIP running",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6f98db46-2b27-471a-a642-fe63e9e4bbfd",
+                    "questionID": "eb1d230e-873c-403a-965d-f564fd78e478",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All areas must connect properly to the backbone (Area 0) for inter-area routing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "229f037e-3914-4cfb-a859-f73b26b8bd02",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You notice that OSPF is using a slower link even though a faster one exists. What should you check",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hop count ",
+                    "type": "A"
+                },
+                {
+                    "body": "RIP metric ",
+                    "type": "B"
+                },
+                {
+                    "body": "Interface cost values ",
+                    "type": "C"
+                },
+                {
+                    "body": "TTL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d3773986-c1c8-4905-a9be-ddb7f8409760",
+                    "questionID": "229f037e-3914-4cfb-a859-f73b26b8bd02",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OSPF uses interface cost; lower cost routes are preferred.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a5f44977-5154-4db7-8642-e4e590684875",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two routers are sending each other incorrect routes, forming a loop. What should be implemented",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Static routes ",
+                    "type": "A"
+                },
+                {
+                    "body": "ICMP redirects ",
+                    "type": "B"
+                },
+                {
+                    "body": "Split horizon or route poisoning ",
+                    "type": "C"
+                },
+                {
+                    "body": "MAC filtering",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6c1fda08-ac32-4197-a23a-c2d45413aa63",
+                    "questionID": "a5f44977-5154-4db7-8642-e4e590684875",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "These are loop prevention mechanisms used in distance vector protocols.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fe2ee3e6-7aec-42b1-bdbb-f49711ec5b42",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You enable RIPv2, but the router isn&#39;t sending updates. What could be the cause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "OSPF conflict ",
+                    "type": "A"
+                },
+                {
+                    "body": "Passive interface ",
+                    "type": "B"
+                },
+                {
+                    "body": "Loopback not configured ",
+                    "type": "C"
+                },
+                {
+                    "body": "ARP table full",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a6e57cf5-acbe-48b1-9394-6a39c3abf8c4",
+                    "questionID": "fe2ee3e6-7aec-42b1-bdbb-f49711ec5b42",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A passive interface prevents RIP from sending updates on that interface.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ab1a09d8-08c7-43c9-b443-2d155b30e98b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An ARP entry is missing for a valid IP address. What could be the cause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Incorrect MAC filter ",
+                    "type": "A"
+                },
+                {
+                    "body": "Missing ICMP route ",
+                    "type": "B"
+                },
+                {
+                    "body": "DNS misconfiguration ",
+                    "type": "C"
+                },
+                {
+                    "body": "IP address is on a different subnet",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ee76acca-f042-4044-97cc-7792f990b276",
+                    "questionID": "ab1a09d8-08c7-43c9-b443-2d155b30e98b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ARP only resolves MAC addresses within the same subnet.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9a91f8eb-bde4-4060-b557-e9d70ed02c37",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You add a new route in OSPF, but traffic still goes through a static route. Why",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Static route has a higher metric ",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF is malfunctioning ",
+                    "type": "B"
+                },
+                {
+                    "body": "Static route has lower AD ",
+                    "type": "C"
+                },
+                {
+                    "body": "OSPF doesn&#39;t support VLSM",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7300a2fc-638d-48fd-8bde-361e1f97d05d",
+                    "questionID": "9a91f8eb-bde4-4060-b557-e9d70ed02c37",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Static routes override OSPF because of a lower administrative distance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7c116c27-9f15-4459-9c1f-1d4196543a8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two routers connected via Ethernet aren’t forming OSPF adjacency. OSPF is configured. What should you check",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ARP table ",
+                    "type": "A"
+                },
+                {
+                    "body": "IP MTU size ",
+                    "type": "B"
+                },
+                {
+                    "body": "Hello/Dead intervals ",
+                    "type": "C"
+                },
+                {
+                    "body": "RIP timers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "803d0f46-68fb-4d19-8acf-7740a21e6089",
+                    "questionID": "7c116c27-9f15-4459-9c1f-1d4196543a8c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mismatched Hello/Dead intervals prevent OSPF neighbors from forming adjacencies.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8ff6a53-7f97-4790-b799-155b0945b506",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You ping a device and get “Destination host unreachable.” What layer is likely at fault",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Application ",
+                    "type": "A"
+                },
+                {
+                    "body": "Transport ",
+                    "type": "B"
+                },
+                {
+                    "body": "Network ",
+                    "type": "C"
+                },
+                {
+                    "body": "Physical",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9d8145f8-98cc-42d0-9c15-925ae83164e3",
+                    "questionID": "e8ff6a53-7f97-4790-b799-155b0945b506",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The error suggests a routing or IP address issue at the network layer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "865a2782-d5dc-4e98-8833-0f0212609fe4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a network with multiple routers running RIP, a link fails. Routers take 2 minutes to update. What’s the likely issue",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP convergence is slow ",
+                    "type": "A"
+                },
+                {
+                    "body": "ICMP blocking ",
+                    "type": "B"
+                },
+                {
+                    "body": "Static route failure ",
+                    "type": "C"
+                },
+                {
+                    "body": "ARP timeout",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cf33402d-4ea2-4d04-adf6-dbd05b6681ab",
+                    "questionID": "865a2782-d5dc-4e98-8833-0f0212609fe4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIP is a slow-converging protocol due to periodic updates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4ae6d91e-9684-4793-8349-900187f981b9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You’ve configured two static routes to the same destination. One has an administrative distance of 1, the other 5. Which one is used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Route with AD 5 ",
+                    "type": "A"
+                },
+                {
+                    "body": "Randomly chosen ",
+                    "type": "B"
+                },
+                {
+                    "body": "Both are load-balanced ",
+                    "type": "C"
+                },
+                {
+                    "body": "Route with AD 1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "003bff4e-b53a-4fbb-a9c7-e26804aa46da",
+                    "questionID": "4ae6d91e-9684-4793-8349-900187f981b9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Lower administrative distance is always preferred.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "188b5575-15cf-498f-9a0a-f206233eb8f4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these IP protocols does not perform routing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "OSPF ",
+                    "type": "A"
+                },
+                {
+                    "body": "RIPv2 ",
+                    "type": "B"
+                },
+                {
+                    "body": "ICMP ",
+                    "type": "C"
+                },
+                {
+                    "body": "EIGRP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f1b80965-a1ba-475a-8b67-b42185f56313",
+                    "questionID": "188b5575-15cf-498f-9a0a-f206233eb8f4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ICMP is not a routing protocol but used for diagnostics and control.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4e10abbc-e506-4774-84b3-9defd59268bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the administrative distance (AD) indicate",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Packet loss rate ",
+                    "type": "A"
+                },
+                {
+                    "body": "Link bandwidth ",
+                    "type": "B"
+                },
+                {
+                    "body": "Route trustworthiness ",
+                    "type": "C"
+                },
+                {
+                    "body": "Number of hops",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e70f43bf-c691-43e2-bfc4-70537589070c",
+                    "questionID": "4e10abbc-e506-4774-84b3-9defd59268bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "AD is used to rank route sources by trust; lower is more preferred.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f03149e2-6808-4339-8e30-fdad7f8be73b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What differentiates classful and classless routing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "MAC vs IP ",
+                    "type": "A"
+                },
+                {
+                    "body": "Port number usage ",
+                    "type": "B"
+                },
+                {
+                    "body": "Subnet mask inclusion in updates ",
+                    "type": "C"
+                },
+                {
+                    "body": "Uses TCP vs UDP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d596bf58-afb2-459b-b2aa-63e324bd30de",
+                    "questionID": "f03149e2-6808-4339-8e30-fdad7f8be73b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Classless routing protocols carry subnet mask information with updates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "79a7ceac-f37a-48d0-a150-8e9ad560718f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which router role exists only in OSPF multi-access networks",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Core Router ",
+                    "type": "A"
+                },
+                {
+                    "body": "Edge Router ",
+                    "type": "B"
+                },
+                {
+                    "body": "DR (Designated Router) ",
+                    "type": "C"
+                },
+                {
+                    "body": "Gateway",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a9a2530f-ca1f-4774-98be-3137ea601b17",
+                    "questionID": "79a7ceac-f37a-48d0-a150-8e9ad560718f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The DR is unique to OSPF in multi-access environments like Ethernet.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0182cc51-5a05-49a4-8c85-8d468d110070",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary limitation of RIP in large networks",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Security ",
+                    "type": "A"
+                },
+                {
+                    "body": "Packet loss ",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow convergence and hop limit ",
+                    "type": "C"
+                },
+                {
+                    "body": "IP version compatibility",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "48fe9d99-5068-48e1-880b-0801c07bed2a",
+                    "questionID": "0182cc51-5a05-49a4-8c85-8d468d110070",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIP suffers from slow convergence and a maximum hop count of 15.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c7efa662-0dbc-4dcd-beb7-fb9fbec8799e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which condition triggers an OSPF LSA update",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Timer expiry ",
+                    "type": "A"
+                },
+                {
+                    "body": "Manual configuration ",
+                    "type": "B"
+                },
+                {
+                    "body": "Topology change ",
+                    "type": "C"
+                },
+                {
+                    "body": "Every 30 seconds",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "774fb5b6-a30f-4310-9e83-127f094143a9",
+                    "questionID": "c7efa662-0dbc-4dcd-beb7-fb9fbec8799e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "LSAs are generated when a topology change is detected.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7bbb9a1f-3535-4234-a47c-b0ead7f63fc7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol works directly over Layer 2 without needing IP",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ICMP ",
+                    "type": "A"
+                },
+                {
+                    "body": "RIP ",
+                    "type": "B"
+                },
+                {
+                    "body": "ARP ",
+                    "type": "C"
+                },
+                {
+                    "body": "OSPF",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "01d31eb1-ad82-4c30-b64a-e9a132f58a42",
+                    "questionID": "7bbb9a1f-3535-4234-a47c-b0ead7f63fc7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ARP operates at the data link layer to resolve MAC addresses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b2a2acad-614f-4c6f-abe7-ef739669e7b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does an OSPF DR (Designated Router) do",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Routes traffic directly ",
+                    "type": "A"
+                },
+                {
+                    "body": "Manages ARP table ",
+                    "type": "B"
+                },
+                {
+                    "body": "Minimizes LSA flooding ",
+                    "type": "C"
+                },
+                {
+                    "body": "Encrypts OSPF packets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ef833fa5-92cd-4b5a-9e50-2bb31dcfc0f3",
+                    "questionID": "b2a2acad-614f-4c6f-abe7-ef739669e7b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The DR reduces OSPF traffic by centralizing LSA exchange in multi-access networks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e0cf3327-dba5-42f4-9c8d-5e3dc8423c8b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following uses cost as its routing metric",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP ",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF ",
+                    "type": "B"
+                },
+                {
+                    "body": "ICMP ",
+                    "type": "C"
+                },
+                {
+                    "body": "ARP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ca5593b8-33ba-4071-846d-86f840291dd3",
+                    "questionID": "e0cf3327-dba5-42f4-9c8d-5e3dc8423c8b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OSPF uses cost, based on bandwidth, as its routing metric.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b1b22971-2efc-44fd-9851-24c5077c7b87",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main advantage of link-state routing protocols",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Lower CPU usage ",
+                    "type": "A"
+                },
+                {
+                    "body": "Reduced memory needs ",
+                    "type": "B"
+                },
+                {
+                    "body": "Faster convergence and accuracy ",
+                    "type": "C"
+                },
+                {
+                    "body": "Uses less bandwidth",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "02168093-90fa-4a3e-a141-85bcbc0531a7",
+                    "questionID": "b1b22971-2efc-44fd-9851-24c5077c7b87",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Link-state protocols converge faster and provide a more accurate view of the network.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d673338-cec0-4ef1-8795-699741435374",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field in an IP header helps prevent infinite looping of packets",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Protocol ",
+                    "type": "A"
+                },
+                {
+                    "body": "TTL (Time to Live) ",
+                    "type": "B"
+                },
+                {
+                    "body": "Checksum ",
+                    "type": "C"
+                },
+                {
+                    "body": "Header Length",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b1063d5a-cc54-4766-bcda-2a771abbe3d2",
+                    "questionID": "4d673338-cec0-4ef1-8795-699741435374",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TTL is decremented at each hop, and the packet is dropped when it reaches 0.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ee895656-e209-4ef6-8395-3729cb314aca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is OSPF considered more scalable than RIPv2",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It uses smaller packets ",
+                    "type": "A"
+                },
+                {
+                    "body": "It uses timers ",
+                    "type": "B"
+                },
+                {
+                    "body": "It supports areas and hierarchical design ",
+                    "type": "C"
+                },
+                {
+                    "body": "It uses fewer updates",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b2e2142e-bea3-4a48-98e7-8ab2e6e3c345",
+                    "questionID": "ee895656-e209-4ef6-8395-3729cb314aca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OSPF divides networks into areas for scalability.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0c9888ef-be1a-41de-8202-3df3365e29ba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these routing protocols supports variable length subnet masks (VLSM)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP v1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "RIPv2 ",
+                    "type": "B"
+                },
+                {
+                    "body": "IGRP ",
+                    "type": "C"
+                },
+                {
+                    "body": "Static only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9468816d-cd0a-4365-9a3d-588132c6b588",
+                    "questionID": "0c9888ef-be1a-41de-8202-3df3365e29ba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 supports classless routing and VLSM.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9a5767ea-7c01-45a4-8e12-112226b00e4b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens during OSPF’s Dijkstra SPF algorithm execution",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Finds shortest path from all routers to a destination ",
+                    "type": "A"
+                },
+                {
+                    "body": "Uses hop count as metric ",
+                    "type": "B"
+                },
+                {
+                    "body": "Finds shortest path from a router to all destinations ",
+                    "type": "C"
+                },
+                {
+                    "body": "Rebuilds MAC table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3da66e30-ed16-4a24-8520-5a34031044be",
+                    "questionID": "9a5767ea-7c01-45a4-8e12-112226b00e4b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The SPF algorithm finds the shortest path from one router to all networks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bdbc19d5-3a78-454c-8026-b09f66c80db7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following prevents routing loops in distance vector protocols",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Flooding ",
+                    "type": "A"
+                },
+                {
+                    "body": "Time-to-Live ",
+                    "type": "B"
+                },
+                {
+                    "body": "Split horizon and poison reverse ",
+                    "type": "C"
+                },
+                {
+                    "body": "Dijkstra&#39;s algorithm",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "472d3ae3-5a6b-4cff-a5bd-078b3d6a9587",
+                    "questionID": "bdbc19d5-3a78-454c-8026-b09f66c80db7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Split horizon and poison reverse help avoid routing loops in distance vector routing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0f52c7d4-bbf9-4b3f-a3d1-aa32f6e1b9d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In OSPF, what is a &#34;Hello&#34; packet used for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Load balancing ",
+                    "type": "A"
+                },
+                {
+                    "body": "Encryption ",
+                    "type": "B"
+                },
+                {
+                    "body": "Neighbor discovery ",
+                    "type": "C"
+                },
+                {
+                    "body": "Routing metric calculation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e8e8a8b8-af02-4c52-8cd4-6afdf99b747a",
+                    "questionID": "0f52c7d4-bbf9-4b3f-a3d1-aa32f6e1b9d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hello packets are used to discover and maintain neighbor relationships.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a5169009-c255-48fc-90fe-fa9795b8c4d4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does RIPv2 reduce routing update traffic compared to RIP v1",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Uses broadcast ",
+                    "type": "A"
+                },
+                {
+                    "body": "Multicast updates to 224.0.0.9 ",
+                    "type": "B"
+                },
+                {
+                    "body": "Uses TCP ",
+                    "type": "C"
+                },
+                {
+                    "body": "Uses encryption",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "58ed2e98-9bbc-4948-b36e-38a7d60507e8",
+                    "questionID": "a5169009-c255-48fc-90fe-fa9795b8c4d4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 uses multicast instead of broadcast, reducing unnecessary traffic.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bce3985f-33c8-40e7-9b7c-bb4a42d554ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes the difference between distance vector and link-state routing protocols",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Distance vector shares entire topology; link-state shares next hop ",
+                    "type": "A"
+                },
+                {
+                    "body": "Distance vector sends full table periodically; link-state sends triggered updates ",
+                    "type": "B"
+                },
+                {
+                    "body": "Link-state builds entire network map; distance vector doesn&#39;t ",
+                    "type": "C"
+                },
+                {
+                    "body": "Both are the same",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b2d6ee58-bd0d-4008-a590-b0ac5e4c2a79",
+                    "questionID": "bce3985f-33c8-40e7-9b7c-bb4a42d554ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Link-state protocols like OSPF build a complete network topology, unlike distance vector.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "104b03f6-7c7d-4ab3-b002-172494882a16",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is a classless routing protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP v1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "RIPv2 ",
+                    "type": "B"
+                },
+                {
+                    "body": "IGRP ",
+                    "type": "C"
+                },
+                {
+                    "body": "Static Routing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5cfaed37-65b8-4bd4-9297-972147ae9159",
+                    "questionID": "104b03f6-7c7d-4ab3-b002-172494882a16",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 supports CIDR, making it classless, unlike RIPv1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f2ecf7fe-8de2-4630-991f-9b18bd9aa854",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is used to discover the MAC address of the next hop",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DNS ",
+                    "type": "A"
+                },
+                {
+                    "body": "IP ",
+                    "type": "B"
+                },
+                {
+                    "body": "ARP ",
+                    "type": "C"
+                },
+                {
+                    "body": "OSPF",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9d8ba154-f30f-4f51-af54-fa5b80f2c94a",
+                    "questionID": "f2ecf7fe-8de2-4630-991f-9b18bd9aa854",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ARP resolves MAC addresses on local networks for next-hop delivery.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bc018da7-06d6-4d52-808d-5258266adcdd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol uses type and code fields in its header",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "OSPF ",
+                    "type": "A"
+                },
+                {
+                    "body": "IP ",
+                    "type": "B"
+                },
+                {
+                    "body": "ICMP ",
+                    "type": "C"
+                },
+                {
+                    "body": "RIP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5607ee73-3bbc-4009-97fa-1bbfdb73d475",
+                    "questionID": "bc018da7-06d6-4d52-808d-5258266adcdd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ICMP messages are classified using type and code fields.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d1ef5460-d370-44f4-ab19-b0aaefc4d7d4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the default administrative distance of RIPv2",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "110 ",
+                    "type": "A"
+                },
+                {
+                    "body": "90 ",
+                    "type": "B"
+                },
+                {
+                    "body": "120 ",
+                    "type": "C"
+                },
+                {
+                    "body": "0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "803421ef-93f2-4a3f-8bbc-ed12892d57b2",
+                    "questionID": "d1ef5460-d370-44f4-ab19-b0aaefc4d7d4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 has a default AD of 120, lower preference than OSPF or static.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "343d45f4-d87d-469f-8461-a821a9e46ce8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a feature of dynamic routing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Automatically adapts to changes ",
+                    "type": "A"
+                },
+                {
+                    "body": "Requires manual configuration ",
+                    "type": "B"
+                },
+                {
+                    "body": "Uses algorithms to find paths ",
+                    "type": "C"
+                },
+                {
+                    "body": "Updates routes periodically",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "40df6fd2-dd43-4151-a24f-73709f842763",
+                    "questionID": "343d45f4-d87d-469f-8461-a821a9e46ce8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Manual configuration is a static routing characteristic, not dynamic.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2459b0e5-a6c7-4592-b7b4-249537060bf5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol broadcasts routing updates every 30 seconds",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "OSPF ",
+                    "type": "A"
+                },
+                {
+                    "body": "ICMP ",
+                    "type": "B"
+                },
+                {
+                    "body": "RIPv2 ",
+                    "type": "C"
+                },
+                {
+                    "body": "ARP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "cff58996-8773-44a0-bd8a-61704807689c",
+                    "questionID": "2459b0e5-a6c7-4592-b7b4-249537060bf5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 periodically sends updates every 30 seconds to maintain routing info.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "032f4472-c5f9-458b-b1fa-ba713de2e091",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In routing, what is convergence",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Routing loop ",
+                    "type": "A"
+                },
+                {
+                    "body": "Path redundancy ",
+                    "type": "B"
+                },
+                {
+                    "body": "Agreement on network topology ",
+                    "type": "C"
+                },
+                {
+                    "body": "Packet encryption",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "431351e0-0ddd-4f07-b206-70d8832ceb79",
+                    "questionID": "032f4472-c5f9-458b-b1fa-ba713de2e091",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Convergence is when routers agree on consistent routing tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8e4d111f-8f1f-40a0-9981-23debd8c90b8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol uses Dijkstra&#39;s algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP ",
+                    "type": "A"
+                },
+                {
+                    "body": "ICMP ",
+                    "type": "B"
+                },
+                {
+                    "body": "OSPF ",
+                    "type": "C"
+                },
+                {
+                    "body": "ARP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "73eb8a07-dda3-46ec-9c29-531156a36f09",
+                    "questionID": "8e4d111f-8f1f-40a0-9981-23debd8c90b8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OSPF uses Dijkstra’s Shortest Path First (SPF) algorithm.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e463192-b80e-4367-a19f-35cf5cb8a4d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which version of RIP supports classless routing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RIP v1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "RIP v2 ",
+                    "type": "B"
+                },
+                {
+                    "body": "RIPng ",
+                    "type": "C"
+                },
+                {
+                    "body": "Static RIP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "93a51846-f053-48e1-8bf1-8c205cd880ed",
+                    "questionID": "2e463192-b80e-4367-a19f-35cf5cb8a4d2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 supports subnet masks and CIDR, enabling classless routing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0e09c3aa-2864-4b89-8186-b0e78fa8f743",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What kind of protocol is OSPF",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Distance Vector ",
+                    "type": "A"
+                },
+                {
+                    "body": "Static ",
+                    "type": "B"
+                },
+                {
+                    "body": "Link State ",
+                    "type": "C"
+                },
+                {
+                    "body": "Path Vector",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9dcf1885-5c45-4bc2-9576-c9c919a0ff69",
+                    "questionID": "0e09c3aa-2864-4b89-8186-b0e78fa8f743",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OSPF is a link-state protocol that builds a map of the network topology.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94fa369d-f521-42ec-bce9-894f57f67554",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol sends error messages and operational information",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ARP ",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF ",
+                    "type": "B"
+                },
+                {
+                    "body": "ICMP ",
+                    "type": "C"
+                },
+                {
+                    "body": "TCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "02ac1090-c17f-4897-84c7-5e302d445c1b",
+                    "questionID": "94fa369d-f521-42ec-bce9-894f57f67554",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ICMP is used to send error messages like &#34;destination unreachable.&#34;",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1d108abe-7e7e-43d9-9d9e-91aa0a0762b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of routing is manually configured",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Dynamic Routing ",
+                    "type": "A"
+                },
+                {
+                    "body": "Static Routing ",
+                    "type": "B"
+                },
+                {
+                    "body": "Link State Routing ",
+                    "type": "C"
+                },
+                {
+                    "body": "Distance Vector Routing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a86ae59f-a846-4eef-bb37-1c12da939d2c",
+                    "questionID": "1d108abe-7e7e-43d9-9d9e-91aa0a0762b4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Static routing requires manual configuration and doesn&#39;t change automatically.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5cf45d05-75b6-40c7-a835-bf67893df5be",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer does the IP protocol belong to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Application ",
+                    "type": "A"
+                },
+                {
+                    "body": "Transport ",
+                    "type": "B"
+                },
+                {
+                    "body": "Network ",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Link",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3d98f462-afdb-4aec-aa52-55ad40bc8611",
+                    "questionID": "5cf45d05-75b6-40c7-a835-bf67893df5be",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IP operates at the Network Layer in the OSI model.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0439ffca-1274-4c18-8407-e36f8cb60af1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the function of a routing protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Encrypt data ",
+                    "type": "A"
+                },
+                {
+                    "body": "Assign MAC addresses ",
+                    "type": "B"
+                },
+                {
+                    "body": "Determine best path for packet delivery ",
+                    "type": "C"
+                },
+                {
+                    "body": "Allocate ports",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a2961cce-e338-40df-be5b-9d0dbae33c76",
+                    "questionID": "0439ffca-1274-4c18-8407-e36f8cb60af1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Routing protocols determine the most efficient path to send data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0abda6e4-ef77-474b-a37b-4534093f8b44",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the maximum hop count for RIPv2",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "15 ",
+                    "type": "A"
+                },
+                {
+                    "body": "16 ",
+                    "type": "B"
+                },
+                {
+                    "body": "255 ",
+                    "type": "C"
+                },
+                {
+                    "body": "100",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7b2c0d66-36e3-47ff-9662-a2075d376761",
+                    "questionID": "0abda6e4-ef77-474b-a37b-4534093f8b44",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 considers any route beyond 15 hops as unreachable.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ae93b018-7f1f-438e-be46-f166c91fbbce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol uses hop count as a metric",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "OSPF ",
+                    "type": "A"
+                },
+                {
+                    "body": "RIPv2 ",
+                    "type": "B"
+                },
+                {
+                    "body": "ICMP ",
+                    "type": "C"
+                },
+                {
+                    "body": "BGP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4b783447-e3a1-431b-a938-05d1ca64b0ba",
+                    "questionID": "ae93b018-7f1f-438e-be46-f166c91fbbce",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RIPv2 selects routes based on the number of hops, preferring fewer hops.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "527a3c6a-17d4-4967-9ef8-eea699934b45",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the administrative distance of static routes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "0 ",
+                    "type": "B"
+                },
+                {
+                    "body": "110 ",
+                    "type": "C"
+                },
+                {
+                    "body": "120",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e1fb9a27-4915-45ab-b02d-2f6d14a4626f",
+                    "questionID": "527a3c6a-17d4-4967-9ef8-eea699934b45",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Static routes have an administrative distance of 1, indicating high trust.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4e55297c-1658-4a6d-ba0a-784ecf59fc79",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does ICMP stand for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Internet Communication Message Protocol ",
+                    "type": "A"
+                },
+                {
+                    "body": "Internal Communication Management Protocol ",
+                    "type": "B"
+                },
+                {
+                    "body": "Internet Control Message Protocol ",
+                    "type": "C"
+                },
+                {
+                    "body": "Internal Control Messaging Protocol",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bb9abfd5-2835-4132-938b-1fc29925d967",
+                    "questionID": "4e55297c-1658-4a6d-ba0a-784ecf59fc79",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ICMP is used for diagnostics and error reporting in network devices.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c6d5e7e1-5ee2-4e11-a63e-b83a3f00b149",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol is used for mapping IP addresses to MAC addresses",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ICMP ",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF ",
+                    "type": "B"
+                },
+                {
+                    "body": "ARP ",
+                    "type": "C"
+                },
+                {
+                    "body": "DNS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8c884e91-2300-4044-b2b8-e6b9ec359f7c",
+                    "questionID": "c6d5e7e1-5ee2-4e11-a63e-b83a3f00b149",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ARP translates IP addresses to physical MAC addresses on local networks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6dd93c60-7614-40c6-b239-229e36a27141",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a dynamic routing protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Static Routing ",
+                    "type": "A"
+                },
+                {
+                    "body": "OSPF ",
+                    "type": "B"
+                },
+                {
+                    "body": "Manual Routing ",
+                    "type": "C"
+                },
+                {
+                    "body": "Default Routing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "948a7211-b4e5-4af3-a2cd-2a2816e58e09",
+                    "questionID": "6dd93c60-7614-40c6-b239-229e36a27141",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OSPF is a dynamic protocol that automatically updates routing tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "39e6f2c4-7689-43d4-9c6b-29250d3be413",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why does IPv6 not have a header checksum",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It is obsolete ",
+                    "type": "A"
+                },
+                {
+                    "body": "Efficiency and reliance on link-layer or transport-layer checks ",
+                    "type": "B"
+                },
+                {
+                    "body": "Security reasons ",
+                    "type": "C"
+                },
+                {
+                    "body": "Larger address size compensates",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1b8b719f-7b6b-4a2d-8e68-e42c7fcb37fc",
+                    "questionID": "39e6f2c4-7689-43d4-9c6b-29250d3be413",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Omitting checksum improves processing speed and relies on lower layers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "90635b31-1530-4aaf-9d51-38fa613bd0f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field in IPv6 replaces the IPv4 Protocol field",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Next Header ",
+                    "type": "A"
+                },
+                {
+                    "body": "Flow Label ",
+                    "type": "B"
+                },
+                {
+                    "body": "Traffic Class ",
+                    "type": "C"
+                },
+                {
+                    "body": "Version",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7c2a69f6-c674-467b-9975-6d488a55bde7",
+                    "questionID": "90635b31-1530-4aaf-9d51-38fa613bd0f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Next Header field specifies the upper-layer protocol (like TCP).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c77de44f-3159-4140-a052-64654b26b39b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the Flow Label field in the IPv6 header specify",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Header version ",
+                    "type": "A"
+                },
+                {
+                    "body": "Unique packet flow ",
+                    "type": "B"
+                },
+                {
+                    "body": "Payload length ",
+                    "type": "C"
+                },
+                {
+                    "body": "Checksum",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f77e63b5-25bc-4925-a79f-64a46e693cf6",
+                    "questionID": "c77de44f-3159-4140-a052-64654b26b39b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Flow Label helps identify traffic flows requiring special handling.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f18684c5-f866-45e0-9552-c1a629a8fda4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field in the IPv6 header is used to prioritize traffic",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Traffic Class ",
+                    "type": "A"
+                },
+                {
+                    "body": "Flow Label ",
+                    "type": "B"
+                },
+                {
+                    "body": "Hop Limit ",
+                    "type": "C"
+                },
+                {
+                    "body": "Next Header",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "81a6bba1-b1cb-4756-904e-fa7496cc6575",
+                    "questionID": "f18684c5-f866-45e0-9552-c1a629a8fda4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Traffic Class is used for packet classification and prioritization.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "56e854a2-7c25-42f4-b1cc-89f2359fc29f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the maximum size of the IPv4 header",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "20 bytes ",
+                    "type": "A"
+                },
+                {
+                    "body": "40 bytes ",
+                    "type": "B"
+                },
+                {
+                    "body": "60 bytes ",
+                    "type": "C"
+                },
+                {
+                    "body": "80 bytes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9a7fcb9e-3995-4903-93ff-334ca057434f",
+                    "questionID": "56e854a2-7c25-42f4-b1cc-89f2359fc29f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv4 headers can be 20 to 60 bytes long if options are included.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6e14e78f-c952-4d0b-b9e5-23db4fbc3a92",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field in the IPv4 header ensures data integrity of the header",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Header Checksum ",
+                    "type": "A"
+                },
+                {
+                    "body": "Total Length ",
+                    "type": "B"
+                },
+                {
+                    "body": "Flags ",
+                    "type": "C"
+                },
+                {
+                    "body": "Source Address",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c6ccf278-b2b2-4aa6-bc17-d5818e956d8b",
+                    "questionID": "6e14e78f-c952-4d0b-b9e5-23db4fbc3a92",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Header Checksum verifies the integrity of the IPv4 header only.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "171223de-ca8f-4c44-be46-176dcfae22c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of the Identification field in the IPv4 header",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Identify the destination ",
+                    "type": "A"
+                },
+                {
+                    "body": "Support fragmentation ",
+                    "type": "B"
+                },
+                {
+                    "body": "Indicate protocol type ",
+                    "type": "C"
+                },
+                {
+                    "body": "Determine route",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "739cfae4-17f2-477a-ae42-df068441e734",
+                    "questionID": "171223de-ca8f-4c44-be46-176dcfae22c8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The field helps in identifying and reassembling fragmented packets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d3c22abf-d485-46ee-a44d-7d1513653823",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field in the IPv4 header indicates the protocol used in the data portion of the packet",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Protocol ",
+                    "type": "A"
+                },
+                {
+                    "body": "TTL ",
+                    "type": "B"
+                },
+                {
+                    "body": "Header Length ",
+                    "type": "C"
+                },
+                {
+                    "body": "Identification",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "729b3845-ca9e-4b35-9438-45855b211a56",
+                    "questionID": "d3c22abf-d485-46ee-a44d-7d1513653823",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Protocol field specifies the next-layer protocol (e.g., TCP, UDP).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8e644497-ff31-4e88-93e2-57ded60b9589",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In IPv6, your network needs automatic IP configuration without DHCP. What technique is used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ARP ",
+                    "type": "A"
+                },
+                {
+                    "body": "NAT ",
+                    "type": "B"
+                },
+                {
+                    "body": "SLAAC ",
+                    "type": "C"
+                },
+                {
+                    "body": "SNMP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "50dfbc90-51bc-478a-9e34-afa5c75c1825",
+                    "questionID": "8e644497-ff31-4e88-93e2-57ded60b9589",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SLAAC (Stateless Address Autoconfiguration) allows devices to self-configure.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a9bc626-2d8d-4d1f-ad76-92dbe8dded1c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A router receives a packet for 10.0.1.5. It has two routes: 10.0.0.0/8 and 10.0.1.0/24. Which route will it take",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/8 ",
+                    "type": "A"
+                },
+                {
+                    "body": "/24 ",
+                    "type": "B"
+                },
+                {
+                    "body": "Random ",
+                    "type": "C"
+                },
+                {
+                    "body": "Broadcast",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c41fd9ab-61b0-4c95-afca-b1ffd71b8e07",
+                    "questionID": "6a9bc626-2d8d-4d1f-ad76-92dbe8dded1c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Longest prefix match is used in routing. /24 is more specific than /8.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fefd241e-a088-4716-8024-2f27a0297b08",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You need to assign 20 IP addresses for a department. Which subnet mask will you choose",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/24 ",
+                    "type": "A"
+                },
+                {
+                    "body": "/27 ",
+                    "type": "B"
+                },
+                {
+                    "body": "/28 ",
+                    "type": "C"
+                },
+                {
+                    "body": "/29",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c81655fb-eb4d-4736-9a6e-680be58348ab",
+                    "questionID": "fefd241e-a088-4716-8024-2f27a0297b08",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A /27 subnet provides 32 IPs, 30 usable for hosts, sufficient for 20 devices.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d6bd5617-bdcc-49b1-b233-ab7b78a92c8a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given two subnets: 192.168.10.0/25 and 192.168.10.128/25, what is the supernet",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.168.10.0/25 ",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.10.0/24 ",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.10.0/26 ",
+                    "type": "C"
+                },
+                {
+                    "body": "192.168.10.0/23",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cd2b0b76-3432-4b13-aca3-0c58483d17d1",
+                    "questionID": "d6bd5617-bdcc-49b1-b233-ab7b78a92c8a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supernetting merges adjacent subnets. These two /25 networks combine into a /24 supernet.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c7ea80ea-76f3-44b8-90e8-6b3ea2f6f3fd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Your organization needs 500 hosts. What is the smallest subnet mask you can use",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/23 ",
+                    "type": "A"
+                },
+                {
+                    "body": "/22 ",
+                    "type": "B"
+                },
+                {
+                    "body": "/21 ",
+                    "type": "C"
+                },
+                {
+                    "body": "/20",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d35ca92a-84c3-4f38-bbfe-0a3c473d38fc",
+                    "questionID": "c7ea80ea-76f3-44b8-90e8-6b3ea2f6f3fd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/23 gives 512 total addresses, 510 usable for hosts.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1956bba5-2f73-41ad-bacb-fbcbc70f12ba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An ISP wants to allocate IP ranges to customers in /28 blocks. How many such blocks can be created from 10.0.0.0/24",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "8 ",
+                    "type": "A"
+                },
+                {
+                    "body": "16 ",
+                    "type": "B"
+                },
+                {
+                    "body": "32 ",
+                    "type": "C"
+                },
+                {
+                    "body": "64",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "4733e3bb-dbf7-4999-be58-89de5ab5398d",
+                    "questionID": "1956bba5-2f73-41ad-bacb-fbcbc70f12ba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "2^(28–24) = 16 IPs per block, 256/16 = 16 blocks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4a87cfcd-09e8-4f8e-8c68-5eb9d047d05c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A company has been allocated 172.16.0.0/16. They need 100 subnets. Which subnet mask is suitable",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/17 ",
+                    "type": "A"
+                },
+                {
+                    "body": "/22 ",
+                    "type": "B"
+                },
+                {
+                    "body": "/23 ",
+                    "type": "C"
+                },
+                {
+                    "body": "/25",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7511d7c2-07f5-412b-b306-12f1da4d993a",
+                    "questionID": "4a87cfcd-09e8-4f8e-8c68-5eb9d047d05c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/22 provides 1024 subnets in a /16 block (2^6 = 64 subnets).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "93add398-68c9-422b-b9d4-cbe3aeb73c39",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "You have the network 192.168.1.0/24. You need 4 subnets. What subnet mask will you use",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/25 ",
+                    "type": "A"
+                },
+                {
+                    "body": "/26 ",
+                    "type": "B"
+                },
+                {
+                    "body": "/27 ",
+                    "type": "C"
+                },
+                {
+                    "body": "/28",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "454150f6-7f23-470f-ae2b-39e4a8d7cb5f",
+                    "questionID": "93add398-68c9-422b-b9d4-cbe3aeb73c39",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/27 gives 8 subnets with 32 IPs each, enough for 4 subnets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "00391ea0-fd9c-4419-82ea-a667da29064a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which class has the smallest number of usable hosts",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A ",
+                    "type": "A"
+                },
+                {
+                    "body": "B ",
+                    "type": "B"
+                },
+                {
+                    "body": "C ",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a40217fd-7f41-4006-89a5-b62c58b0d4db",
+                    "questionID": "00391ea0-fd9c-4419-82ea-a667da29064a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Class C provides only 254 usable host addresses.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fa48fc6f-58be-43c3-b530-574068b73d8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of subnetting",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increase the number of networks ",
+                    "type": "A"
+                },
+                {
+                    "body": "Reduce IP wastage ",
+                    "type": "B"
+                },
+                {
+                    "body": "Improve security ",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "993e76f1-2809-4a9b-a137-ad60006b3169",
+                    "questionID": "fa48fc6f-58be-43c3-b530-574068b73d8c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Subnetting enables more efficient IP usage and segmentation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "369797e7-fb30-4208-928f-a4303c84432f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which technique reduces routing table size",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Subnetting ",
+                    "type": "A"
+                },
+                {
+                    "body": "Supernetting ",
+                    "type": "B"
+                },
+                {
+                    "body": "NAT ",
+                    "type": "C"
+                },
+                {
+                    "body": "ARP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3b500767-2fb2-4e87-92f2-bd61a1173e6e",
+                    "questionID": "369797e7-fb30-4208-928f-a4303c84432f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supernetting aggregates multiple entries, reducing table size.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bd187003-62f5-48f3-bb3f-82d119a9b6d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the range of valid host addresses for 192.168.10.0/28",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.168.10.1 to 192.168.10.14 ",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.10.1 to 192.168.10.15 ",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.10.0 to 192.168.10.15 ",
+                    "type": "C"
+                },
+                {
+                    "body": "192.168.10.2 to 192.168.10.14",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "884f2e9a-1a49-4cec-8129-81d860f32f30",
+                    "questionID": "bd187003-62f5-48f3-bb3f-82d119a9b6d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The first address is network and the last is broadcast, leaving 1–14 as valid hosts.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c2542244-1f39-46e0-bd5c-8d6457cbf1eb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "IPv6 uses which type of address resolution",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DHCP ",
+                    "type": "A"
+                },
+                {
+                    "body": "DNS ",
+                    "type": "B"
+                },
+                {
+                    "body": "SLAAC ",
+                    "type": "C"
+                },
+                {
+                    "body": "ARP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "aaa636b3-7ca0-4aea-b204-0b6310231306",
+                    "questionID": "c2542244-1f39-46e0-bd5c-8d6457cbf1eb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SLAAC enables stateless auto-configuration in IPv6.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d28aa934-9b48-4861-bb11-8fabd7cb0bda",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the broadcast address for 10.10.0.0/18",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10.10.0.255 ",
+                    "type": "A"
+                },
+                {
+                    "body": "10.10.63.255 ",
+                    "type": "B"
+                },
+                {
+                    "body": "10.10.255.255 ",
+                    "type": "C"
+                },
+                {
+                    "body": "10.10.0.0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b7986299-4c13-4abe-a611-e83d86c1ae99",
+                    "questionID": "d28aa934-9b48-4861-bb11-8fabd7cb0bda",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/18 gives 16384 addresses; last address is 10.10.63.255.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "226bf569-299f-4a3f-9b97-f2a06ce3dccb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A supernet can be created when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "IPs are not in order ",
+                    "type": "A"
+                },
+                {
+                    "body": "IPs share the same prefix ",
+                    "type": "B"
+                },
+                {
+                    "body": "IPs are in different classes ",
+                    "type": "C"
+                },
+                {
+                    "body": "IPs are random",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0d67ce41-6fd6-47e9-836b-db144fe4186f",
+                    "questionID": "226bf569-299f-4a3f-9b97-f2a06ce3dccb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supernetting aggregates adjacent networks with the same prefix.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1e2afc69-6eb3-446e-a3db-683aee4b2eca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In IPv6, how many possible addresses exist",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2^64 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2^128 ",
+                    "type": "B"
+                },
+                {
+                    "body": "2^32 ",
+                    "type": "C"
+                },
+                {
+                    "body": "2^256",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ce757e15-ff45-4319-a27c-49694da05c87",
+                    "questionID": "1e2afc69-6eb3-446e-a3db-683aee4b2eca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 addresses are 128 bits long.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0a701e63-c032-47f3-a4ae-f38504cbc3f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the network address for IP 172.16.45.14/20",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "172.16.45.0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "172.16.32.0 ",
+                    "type": "B"
+                },
+                {
+                    "body": "172.16.0.0 ",
+                    "type": "C"
+                },
+                {
+                    "body": "172.16.16.0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a343072b-5c46-4a71-aa54-2df2d57ad213",
+                    "questionID": "0a701e63-c032-47f3-a4ae-f38504cbc3f7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The block size is 16, so the nearest lower multiple is 32.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "77893af3-adb3-4adc-82d2-d61848767a91",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many subnets are possible in a /24 network when subnetted to /28",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4 ",
+                    "type": "A"
+                },
+                {
+                    "body": "8 ",
+                    "type": "B"
+                },
+                {
+                    "body": "16 ",
+                    "type": "C"
+                },
+                {
+                    "body": "32",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "43778a7e-a460-4afc-8f3f-d0cf9d7d99de",
+                    "questionID": "77893af3-adb3-4adc-82d2-d61848767a91",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "2⁴ = 16 subnets when moving from /24 to /28.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "69bce51f-0193-408a-aba0-1c4bcc9b31a7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many usable hosts are there in a /26 subnet",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "30 ",
+                    "type": "A"
+                },
+                {
+                    "body": "62 ",
+                    "type": "B"
+                },
+                {
+                    "body": "64 ",
+                    "type": "C"
+                },
+                {
+                    "body": "254",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b857ee1d-a154-4046-80c8-970e3beb534a",
+                    "questionID": "69bce51f-0193-408a-aba0-1c4bcc9b31a7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "2⁶ = 64 addresses, minus 2 for network and broadcast gives 62 usable.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3986eb15-6dbd-442f-b36f-ae12f3488a93",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the subnet mask of a /20 network",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "255.255.255.0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "255.255.0.0 ",
+                    "type": "B"
+                },
+                {
+                    "body": "255.255.240.0 ",
+                    "type": "C"
+                },
+                {
+                    "body": "255.240.0.0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "968cf835-97a6-4180-a717-7be122713c24",
+                    "questionID": "3986eb15-6dbd-442f-b36f-ae12f3488a93",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/20 corresponds to 255.255.240.0, allowing 4096 IPs (minus 2 for network and broadcast).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dd49b15c-3bfd-4eaf-876c-cd7fa38b5481",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The network portion of 10.0.0.0/8 is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "First 24 bits ",
+                    "type": "A"
+                },
+                {
+                    "body": "First 8 bits ",
+                    "type": "B"
+                },
+                {
+                    "body": "First 16 bits ",
+                    "type": "C"
+                },
+                {
+                    "body": "All bits",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6a6d72c2-3831-404d-adfa-e0e71e36f53a",
+                    "questionID": "dd49b15c-3bfd-4eaf-876c-cd7fa38b5481",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/8 means that the first 8 bits represent the network portion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3f95aa7d-b341-4f90-b66d-c2072c41897a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "IPv4 address exhaustion led to the introduction of",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ICMP ",
+                    "type": "A"
+                },
+                {
+                    "body": "Subnetting ",
+                    "type": "B"
+                },
+                {
+                    "body": "IPv6 ",
+                    "type": "C"
+                },
+                {
+                    "body": "Supernetting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "22e8cdac-12f7-4450-9609-8cf32952b580",
+                    "questionID": "3f95aa7d-b341-4f90-b66d-c2072c41897a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 was introduced to provide a vastly larger address space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "141cf89b-78f0-4171-9359-61c8de6fc5f2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which notation is used to denote subnetting in CIDR",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.168.0.1-24 ",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.0.1/24 ",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.0.1:24 ",
+                    "type": "C"
+                },
+                {
+                    "body": "192.168.0.1\\24",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f3e96d13-93df-40d0-a5d1-22a50051389c",
+                    "questionID": "141cf89b-78f0-4171-9359-61c8de6fc5f2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CIDR (Classless Inter-Domain Routing) uses a forward slash to denote prefix length.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52e62f53-2632-4b3d-b08b-bcb1d7d1beba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The binary equivalent of 192 is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10100000 ",
+                    "type": "A"
+                },
+                {
+                    "body": "11000000 ",
+                    "type": "B"
+                },
+                {
+                    "body": "11100000 ",
+                    "type": "C"
+                },
+                {
+                    "body": "10010000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fbec6be1-b9bc-4158-835a-31626e07f932",
+                    "questionID": "52e62f53-2632-4b3d-b08b-bcb1d7d1beba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "192 in decimal is 11000000 in binary.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0434c272-34f8-4119-ba74-2d0a8ab05218",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IP class supports 16 million hosts",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Class A ",
+                    "type": "A"
+                },
+                {
+                    "body": "Class B ",
+                    "type": "B"
+                },
+                {
+                    "body": "Class C ",
+                    "type": "C"
+                },
+                {
+                    "body": "Class D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "64a46685-e85c-44d6-af0e-084bb24f822c",
+                    "questionID": "0434c272-34f8-4119-ba74-2d0a8ab05218",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Class A supports approximately 16 million hosts with its 24 host bits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "37d9f54e-778d-4865-a457-dd3138cb7165",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Supernetting is also referred to as",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Subnetting in reverse ",
+                    "type": "A"
+                },
+                {
+                    "body": "Aggregation of smaller networks ",
+                    "type": "B"
+                },
+                {
+                    "body": "IP Broadcasting ",
+                    "type": "C"
+                },
+                {
+                    "body": "Classful addressing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bec8d720-df6a-4c9b-96b5-c3422c726f22",
+                    "questionID": "37d9f54e-778d-4865-a457-dd3138cb7165",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supernetting merges multiple smaller networks into a larger block.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f63bfdb2-2892-435f-ba39-7f17080f5ad0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol helps in assigning IP addresses dynamically",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DNS ",
+                    "type": "A"
+                },
+                {
+                    "body": "FTP ",
+                    "type": "B"
+                },
+                {
+                    "body": "DHCP ",
+                    "type": "C"
+                },
+                {
+                    "body": "TCP",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d3a9c740-58b7-48cb-8a13-ef8a3f793c48",
+                    "questionID": "f63bfdb2-2892-435f-ba39-7f17080f5ad0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DHCP (Dynamic Host Configuration Protocol) assigns IP addresses automatically.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "965da619-ba41-45d9-b99b-08985e6cc5ba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In IPv6, the abbreviation  means",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Single 0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "Two bits are empty ",
+                    "type": "B"
+                },
+                {
+                    "body": "A string of zero blocks ",
+                    "type": "C"
+                },
+                {
+                    "body": "Loopback only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "72fe9fcb-0b28-4e60-8f42-fa7c07576255",
+                    "questionID": "965da619-ba41-45d9-b99b-08985e6cc5ba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The double colon (::) compresses contiguous blocks of zeros.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e267dd2c-a458-464a-b1f5-d383789f785f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The smallest subnet mask that allows 30 hosts is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "/24 ",
+                    "type": "A"
+                },
+                {
+                    "body": " /27 ",
+                    "type": "B"
+                },
+                {
+                    "body": " /26 ",
+                    "type": "C"
+                },
+                {
+                    "body": "/25",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c6b6f356-09f6-4e9d-bbdd-e637bca6e788",
+                    "questionID": "e267dd2c-a458-464a-b1f5-d383789f785f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "/27 provides 32 addresses, of which 30 are usable (2 are reserved for network and broadcast).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3031db4a-1b19-4012-b019-95a0740b03ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is a private IP address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "8.8.8.8 ",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.10.1 ",
+                    "type": "B"
+                },
+                {
+                    "body": "172.0.0.1 ",
+                    "type": "C"
+                },
+                {
+                    "body": "11.11.11.11",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "01144c56-7e21-4ad2-ad40-9c3a61f34585",
+                    "questionID": "3031db4a-1b19-4012-b019-95a0740b03ed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Private IP ranges are predefined: 10.0.0.0/8, 172.16.0.0–172.31.255.255, 192.168.0.0/16.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "69e92a60-f95e-4df9-b003-9608e5b52867",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IP address is reserved for APIPA",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "169.254.x.x ",
+                    "type": "A"
+                },
+                {
+                    "body": "10.0.0.0 ",
+                    "type": "B"
+                },
+                {
+                    "body": "127.0.0.1 ",
+                    "type": "C"
+                },
+                {
+                    "body": "192.168.0.1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7b64a938-f80d-4274-b1c5-f484d2a2126e",
+                    "questionID": "69e92a60-f95e-4df9-b003-9608e5b52867",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Automatic IP assigned by OS when DHCP fails.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dcb751c4-997b-449f-95bb-f899571f612e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " The broadcast address of 192.168.1.0/24 is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.168.1.1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.1.254 ",
+                    "type": "B"
+                },
+                {
+                    "body": "192.168.1.255 ",
+                    "type": "C"
+                },
+                {
+                    "body": "192.168.1.0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "58f68549-5969-461c-9a1e-8156b5ac07f6",
+                    "questionID": "dcb751c4-997b-449f-95bb-f899571f612e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Last address in subnet is the broadcast.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "659e7d30-0249-4cac-9d2c-773cf0090b4f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the default subnet mask for a Class B address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "255.0.0.0 ",
+                    "type": "A"
+                },
+                {
+                    "body": "255.255.0.0 ",
+                    "type": "B"
+                },
+                {
+                    "body": "255.255.255.0 ",
+                    "type": "C"
+                },
+                {
+                    "body": "255.255.255.255",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3c5c7506-13fd-4841-a28e-4c12319877f3",
+                    "questionID": "659e7d30-0249-4cac-9d2c-773cf0090b4f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Class B uses the first two octets for network.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ab58da9-9752-4182-8d16-95ed4d2e7772",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What does CIDR stand for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Classful Internet Data Routing ",
+                    "type": "A"
+                },
+                {
+                    "body": "Classless Inter-Domain Routing ",
+                    "type": "B"
+                },
+                {
+                    "body": "Centralized IP Design Routing ",
+                    "type": "C"
+                },
+                {
+                    "body": "Classful IP Distribution Rule",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "772b8727-8014-4aa7-b379-eb7a943d3aae",
+                    "questionID": "6ab58da9-9752-4182-8d16-95ed4d2e7772",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CIDR allows for flexible subnetting.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0da7ba5f-6088-4164-a9b6-a63c2e1a31a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which class of IP address is used for multicast",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Class A ",
+                    "type": "A"
+                },
+                {
+                    "body": "Class B ",
+                    "type": "B"
+                },
+                {
+                    "body": "Class C ",
+                    "type": "C"
+                },
+                {
+                    "body": "Class D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0d7315a5-4d42-4e9c-b396-30364fd450d5",
+                    "questionID": "0da7ba5f-6088-4164-a9b6-a63c2e1a31a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Class D (224.0.0.0 to 239.255.255.255) is reserved for multicast.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "410203bd-fd5e-426b-b341-07897600d54c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is a valid IPv6 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1200::AB00:1234::2552:7777:1313 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2001:0db8:85a3:0000:0000:8a2e:0370:7334 ",
+                    "type": "B"
+                },
+                {
+                    "body": "2001:0gfg:85a3:0000:0000:8a2e:0370:7334",
+                    "type": "C"
+                },
+                {
+                    "body": "1200:AB00:1234:2552:7777:1313",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "24c80c18-1841-4603-a6d4-d08ba29db349",
+                    "questionID": "410203bd-fd5e-426b-b341-07897600d54c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Valid IPv6 contains 8 blocks of hex numbers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "934ec207-ff17-465e-844b-10d523debd92",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " IPv6 address consists of how many bits",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "32 ",
+                    "type": "A"
+                },
+                {
+                    "body": "64 ",
+                    "type": "B"
+                },
+                {
+                    "body": "128 ",
+                    "type": "C"
+                },
+                {
+                    "body": "256",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "866c7a33-653f-4f2f-b14b-ce562d9a5124",
+                    "questionID": "934ec207-ff17-465e-844b-10d523debd92",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv6 provides a larger address space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a4f4af6-6c59-4273-8522-7e97884cc186",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the loopback IP address in IPv4",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "127.0.0.1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.1.1 ",
+                    "type": "B"
+                },
+                {
+                    "body": "0.0.0.0 ",
+                    "type": "C"
+                },
+                {
+                    "body": "255.255.255.255",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c696b032-1048-4bb3-9a6f-2c1021d7f85e",
+                    "questionID": "6a4f4af6-6c59-4273-8522-7e97884cc186",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Loopback is used for internal testing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c577addd-2207-40cc-a547-3bc8f55184af",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is a valid IPv4 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "192.168.300.1 ",
+                    "type": "A"
+                },
+                {
+                    "body": "192.168.0.1 ",
+                    "type": "B"
+                },
+                {
+                    "body": "500.500.500.500 ",
+                    "type": "C"
+                },
+                {
+                    "body": "172.32.500.1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3b8139fd-a7ea-4929-9b8c-4ce311259175",
+                    "questionID": "c577addd-2207-40cc-a547-3bc8f55184af",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv4 octets range from 0–255.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "05052064-bfe9-479f-b8cc-910ab4f5278d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the size of an IPv4 address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "32 bits ",
+                    "type": "A"
+                },
+                {
+                    "body": "64 bits ",
+                    "type": "B"
+                },
+                {
+                    "body": "128 bits ",
+                    "type": "C"
+                },
+                {
+                    "body": "256 bits",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN-Faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6142390e-8bf7-4383-b243-a2178fd22467",
+                    "questionID": "05052064-bfe9-479f-b8cc-910ab4f5278d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPv4 uses 32+H2:H93-bit addressing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

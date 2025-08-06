@@ -1,0 +1,1044 @@
+{
+    "bank_id": "2471fee9-57dd-4124-911d-baad7b41b5dd",
+    "bank_name": "verbal - week -3",
+    "questions": [
+        {
+            "id": "8155796e-a253-41cc-b300-b41462a96998",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best explains the meaning of the given <strong>idiom or phrase.</strong>&nbsp; </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "53c033cf-2370-4c45-970d-96afda2e099d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the following passage and answer the questions that follow.&nbsp;&nbsp;&nbsp; </p><p><br></p><p>In recent years, remote work has shifted from being a temporary necessity to a transformative trend shaping global employment. Advocates argue that remote work enhances productivity, reduces overhead costs, and offers flexibility. However, critics note challenges such as diminished collaboration,</p><p>blurred work-life boundaries, and potential burnout. Studies suggest that while remote work suits independent tasks, it may hinder complex teamwork and</p><p>spontaneous creativity that arise from face-to-face interactions. As organizations navigate this transition, hybrid models are emerging as a compromise to harness benefits while mitigating drawbacks.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "b612bcbd-454c-4430-afa2-6ca3d6e9acc2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The director's decision to postpone the premiere <em><u>has met with resistance from both critics and fans alike.</u></em></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>has met with resistance from both critics and fans alike</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>have met with resistance from both critics and fans</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>had met with resistance of both critics and fans</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>has been meeting resistance from critics and fans</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "18d334ca-7390-43c1-a2d1-e715c6c5108c",
+                    "questionID": "b612bcbd-454c-4430-afa2-6ca3d6e9acc2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (a)</p><p><br></p><p><strong>Hint:</strong> \"Decision\" is singular, so \"has met\" is</p><p>correct; \"both...and alike\" is redundant but idiomatic.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b22ce221-1500-4e2f-b9ee-e95728cb0851",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The success of the sustainability initiative <em><u>depend on consistent engagement from all departments and stakeholders.</u></em></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>depend on consistent engagement</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>depends on consistent engaging</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>depends on consistent engagement</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>is depended on consistently engaging</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6a6380c7-a31a-4f43-81f0-7666bf03d1a5",
+                    "questionID": "b22ce221-1500-4e2f-b9ee-e95728cb0851",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (c)</p><p><br></p><p><strong>Hint:</strong> Subject \"success\" is singular → use \"depends.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "991f35a3-4aa4-403f-b43a-71a61eba459e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Neither the executive board nor the CEO <em><u>are willing to approve the merger without a detailed risk analysis.</u></em></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>are willing to approve the merger</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>were willing to approve the merger</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>is willing to approve the merger</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>has been willing to approve the merger</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4685fb3d-c74a-4eaa-9fa2-4ede5a06789b",
+                    "questionID": "991f35a3-4aa4-403f-b43a-71a61eba459e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (c)</p><p><br></p><p><strong>Hint:</strong> With \"Neither...nor,\" the verb agrees with the subject</p><p>closest to it → \"CEO\" (singular) → \"is willing.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "57f4c7f4-45b0-48c5-873d-3fe64e8aaca7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>It is imperative that the newly proposed reforms <em><u>is evaluated thoroughly before implementation.</u></em></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>is evaluated thoroughly before implementation</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>should evaluate thoroughly before implementation</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>are evaluated thoroughly before implementation</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>evaluated thoroughly before implementation</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e7510cb0-5f19-454f-afec-3367885bf7ec",
+                    "questionID": "57f4c7f4-45b0-48c5-873d-3fe64e8aaca7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (c)</p><p><br></p><p><strong>Hint:</strong> \"Reforms\" is plural → verb should be \"are</p><p>evaluated.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c36b7252-718b-442b-b4a3-2d4daacdb7dc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Many a manager, when dealing with high-pressure scenarios, <em><u>tend to lose their composure in public forums.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>tend to lose their composure in public forums</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>tends to lose his composure in public forums</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>tend to lose his composure in public forums</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>tends to lose their composure in public forums</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "89809dce-81aa-44ef-aa8f-d0d06266eb5b",
+                    "questionID": "c36b7252-718b-442b-b4a3-2d4daacdb7dc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> \"Many a\" takes a singular verb and pronoun →</p><p>\"tends,\" \"his.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e01cddac-644c-45b6-8f3b-fd633c8861bf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The guests, along with the host, <em><u>was surprised by the sudden announcement made during the dinner.</u></em></p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>was surprised by the sudden announcement</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>were surprised by the sudden announcement</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>were surprised with the sudden announcement</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>was surprising with the sudden announcement</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "87198f5f-b4a4-46c0-bc9c-24ab9b0b7996",
+                    "questionID": "e01cddac-644c-45b6-8f3b-fd633c8861bf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> The verb agrees with the plural subject \"guests\" despite</p><p>the intervening phrase.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "afe7a3bc-586b-406a-872e-3a33b989d85c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The report, which was initially expected to be completed last quarter, <em><u>are riddled with inconsistencies that need immediate addressing.</u></em></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>are riddled with inconsistencies that need immediate addressing</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>is riddled with inconsistencies that need immediate address</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>is riddled with inconsistencies that need to be addressed immediately</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>are riddled with inconsistencies that are needing immediate address</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c418af7d-c031-4332-a22a-1d8be850bef7",
+                    "questionID": "afe7a3bc-586b-406a-872e-3a33b989d85c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (c)</p><p><br></p><p><strong>Hint:</strong> Subject \"report\" is singular; correct verb is \"is</p><p>riddled\" and proper idiomatic form is \"need to be addressed.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8bc7a820-7c03-4853-a7b3-36c77eaeeec3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The CEO’s statement was so ______ that it left the press confused about the actual direction of the company.</p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>forthright</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ambiguous</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>transparent</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>lucid</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "fill ups"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d7c851ef-df3b-42d8-8d06-f9d9d569cade",
+                    "questionID": "8bc7a820-7c03-4853-a7b3-36c77eaeeec3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> \"Ambiguous\" means unclear or open to multiple</p><p>interpretations</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9452fcd2-c4b5-4f11-a8e0-06e5081d4260",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>As the debate grew more intense, the speaker tried to ______ the situation by appealing to reason and common ground.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>intensify</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>exacerbate</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>mitigate</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>dissolve</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "fill ups"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8ca5ec4b-923b-46e7-bbd6-31a2b71e8740",
+                    "questionID": "9452fcd2-c4b5-4f11-a8e0-06e5081d4260",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (c)</p><p><br></p><p><strong>Hint:</strong> \"Mitigate\" means to make less severe – suitable for</p><p>calming a tense debate.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0e1fd9fa-26f6-446a-8859-246f3fdc3325",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The success of the new product launch was largely due to the ______ efforts of the marketing team, who worked tirelessly for months.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>lackadaisical</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>concerted</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>negligent</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>sporadic</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "fill ups"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "45946515-c856-4508-ba5f-6d0213a3ebf1",
+                    "questionID": "0e1fd9fa-26f6-446a-8859-246f3fdc3325",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> \"Concerted\" means coordinated and focused – the right</p><p>fit for a successful outcome.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7693a67c-1b49-411d-bb49-e032029d2019",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best improves the underlined part of the sentence</p><p><br></p><p>The data collected from various departments over the last two years <em><u>reveal serious discrepancies in the financial reporting practices of the organization.</u></em></p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>reveal serious discrepancies in the financial reporting practices</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>reveals serious discrepancies in the financial reporting practices</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>reveals serious discrepancy in the financial reporting practice</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>revealed serious discrepancies in the financial reporting practices</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c4efbd2a-ea2a-4d6c-ab33-f0d7a637be54",
+                    "questionID": "7693a67c-1b49-411d-bb49-e032029d2019",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> \"Data\" is treated as a singular mass noun in this</p><p>context → use \"reveals.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "02a30556-1544-4058-b206-4440cb8fe831",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word <strong>most similar</strong> in meaning to the given word. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "a04adf6b-64dd-40f0-b208-b7f8220558ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the passage and answer the questions.</p><p class=\"ql-align-justify\"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">As automation continues to reshape the labour market, there is a growing need to redefine the concept of work and skill development. Traditional employment models are giving way to gig-based platforms and remote collaboration tools, demanding flexibility and digital fluency. Governments and educators are thus compelled to reconsider curricular priorities to prepare future generations for an increasingly automated world. However, access to digital infrastructure remains uneven, and without addressing this divide, the benefits of automation may remain concentrated in urban pockets, leaving vast rural populations marginalized.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "7aaa357f-56e6-42c8-abf3-97b0c9d370c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains an error.</p><p><br></p><p>The report, which includes several detailed charts and appendices (A) / provide a comprehensive overview (B) / of the quarterly progress (C) / made across</p><p>various sectors (D).</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "70243071-5571-40b1-9edd-5baa1fd2eb00",
+                    "questionID": "7aaa357f-56e6-42c8-abf3-97b0c9d370c2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><br></p><p><strong>Hint:</strong> Subject \"report\" is singular → verb should be</p><p>\"provides.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d1f5b8e-d319-4469-8595-d2d1ed2965ae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains an error.</p><p><br></p><p>Neither the media nor the opposition leaders (A) / was successful in obtaining (B) / a clear explanation from the administration (C) / regarding the budget</p><p>discrepancies (D).</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "93ed4659-8f4d-4d3c-bff8-16eda5bf5370",
+                    "questionID": "4d1f5b8e-d319-4469-8595-d2d1ed2965ae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><br></p><p><strong>Hint:</strong> Verb agrees with the closer subject → \"opposition</p><p>leaders\" → use \"were.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1df91252-6860-4e92-a438-04434114841e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains an error.</p><p><br></p><p>The economic sanctions imposed by the council (A) / has adversely affected the country’s (B) / ability to import critical medical supplies (C) / and sustain</p><p>public healthcare infrastructure (D).</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5732a505-046d-4658-a80f-2aa27df534cc",
+                    "questionID": "1df91252-6860-4e92-a438-04434114841e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><br></p><p><strong>Hint:</strong> \"Sanctions\" is plural → use \"have affected.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1a6da6cf-7319-4f17-9c07-5320dd1182b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The professor, along with her research assistants, <em><u>have prepared an extensive report on climate-induced migration trends.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>have prepared an extensive report</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>has prepared an extensive report</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>had prepared an extensively report</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>were preparing an extensive report</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e492854f-91ef-4568-9886-78ace1423f5b",
+                    "questionID": "1a6da6cf-7319-4f17-9c07-5320dd1182b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> The main</p><p>subject is \"professor\" (singular) → use \"has prepared.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e97850ee-93f2-4ddd-b912-becbcb3e6590",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>No sooner <em><u>he had entered the hall than the lights went off, causing a brief panic among the attendees.</u></em></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>he had entered the hall than</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>had he entered the hall when</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>did he enter the hall than</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>had he entered the hall than</p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "54328065-8076-43aa-a3c7-0db490225543",
+                    "questionID": "e97850ee-93f2-4ddd-b912-becbcb3e6590",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (d)</p><p><br></p><p><br></p><p><br></p><p><strong>Hint:</strong> \"No</p><p>sooner\" is followed by inversion → \"had he entered.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3c3e2b31-910a-4f01-ae6d-7eb4f9dbbce7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The allegations made by the whistle blower <em><u>was so serious that the regulatory authority initiated an immediate investigation into the matter.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>was so serious that the regulatory authority initiated</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>were so serious that the regulatory authority had initiated</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>was such serious that the regulatory authority was initiating</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>were so serious that the regulatory authority initiated</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c5e320a5-a65a-4cc4-8482-5a7adb18e485",
+                    "questionID": "3c3e2b31-910a-4f01-ae6d-7eb4f9dbbce7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (d)</p><p><br></p><p><strong>Hint:</strong> \"Allegations\" is plural → verb should be \"were so</p><p>serious.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "190c663a-a109-46ac-ad00-c6bcc4837fd9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The recommendation that students <em><u>submit their assignments earlier rather than later were overlooked by most participants despite repeated reminders.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>were overlooked by most participants</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>was overlooked by most participants</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>had overlooked by most of the participants</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>was being overlooked by the most participants</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1199ec28-af77-4a66-b824-578d27477b4f",
+                    "questionID": "190c663a-a109-46ac-ad00-c6bcc4837fd9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> The subject is \"recommendation\" (singular) → verb should</p><p>be \"was overlooked.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a2322b08-849c-44c5-b6b1-8cd9ae1a5d91",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Not only the CEO but also several board members <em><u>was found to have misrepresented the projected earnings during the fiscal briefing.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>was found to have misrepresented</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>were found to misrepresent</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>was found misrepresenting</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>were found to have misrepresented</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2aaa22f0-f3ba-40e9-be89-546b85759a47",
+                    "questionID": "a2322b08-849c-44c5-b6b1-8cd9ae1a5d91",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (d)</p><p><br></p><p><strong>Hint:</strong> Verb agrees with the subject closer to it → \"board</p><p>members\" → plural → \"were found.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "504f3c50-aa7d-47f4-9fc0-47b7f8590acd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each of the research findings presented in the report <em><u>demonstrate significant inconsistencies that could compromise the study’s credibility.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>demonstrate significant inconsistencies</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>demonstrates significant inconsistencies</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>were demonstrating significant inconsistency</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>has demonstrated significant inconsistencies</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1e35289a-8b25-470d-9781-c153884dbc32",
+                    "questionID": "504f3c50-aa7d-47f4-9fc0-47b7f8590acd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b)</p><p><br></p><p><strong>Hint:</strong> \"Each\" is singular → verb should be</p><p>\"demonstrates.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "40319320-2069-43dc-b483-8de5dc5017fd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The committee, having reviewed the multiple proposals with great diligence, <em><u>fail to reach a consensus due to ideological disagreements among its members.</u></em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>fail to reach a consensus due to ideological disagreements</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>failed to reach a consensus due to ideological disagreement</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>failed to reach a consensus owing to ideological disagreements</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>has failed in reaching a consensus because of ideological disagreement</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ddecf9fa-5a40-455c-819d-b63f4104b9b6",
+                    "questionID": "40319320-2069-43dc-b483-8de5dc5017fd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Use past tense \"failed\"; \"owing</p><p>to\" is more formal and fits better with \"due to ideological</p><p>disagreements.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2706 @@
+{
+    "bank_id": "2cb1768b-509c-465e-8ce0-0941ac845f25",
+    "bank_name": "Os-Week-2-Immersion",
+    "questions": [
+        {
+            "id": "05d69e48-ee5d-4373-9daf-9a8be86e0fe2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following issues does Dining Philosophers Problem highlight",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Virtual memory",
+                    "type": "A"
+                },
+                {
+                    "body": " Mutual exclusion and deadlock",
+                    "type": "B"
+                },
+                {
+                    "body": " Scheduling",
+                    "type": "C"
+                },
+                {
+                    "body": " Paging",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "paging"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "27d8c5b2-54ff-4a16-9fdb-d0d662e10539",
+                    "questionID": "05d69e48-ee5d-4373-9daf-9a8be86e0fe2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It models resource-sharing with potential for deadlock and starvation due to improper synchronization.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ac03630c-1170-4dea-872d-a1e3e8e8285e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which mechanism allows communication between processes on different machines",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Pipe",
+                    "type": "A"
+                },
+                {
+                    "body": " Message Queue",
+                    "type": "B"
+                },
+                {
+                    "body": " Socket",
+                    "type": "C"
+                },
+                {
+                    "body": " Semaphore",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9c046ae4-983d-490f-a637-15bd0f4e2083",
+                    "questionID": "ac03630c-1170-4dea-872d-a1e3e8e8285e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sockets are network-based IPC mechanisms suitable for inter-machine communication.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5f687b12-e124-4312-8136-1dd08f7892f4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What condition can break mutual exclusion in a multi-threaded program",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Absence of locks",
+                    "type": "A"
+                },
+                {
+                    "body": " Usage of binary semaphores",
+                    "type": "B"
+                },
+                {
+                    "body": " Use of Peterson’s algorithm",
+                    "type": "C"
+                },
+                {
+                    "body": " Critical sections",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "999e0da5-baa8-4c91-a3ce-6e00a7e60727",
+                    "questionID": "5f687b12-e124-4312-8136-1dd08f7892f4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Without synchronization (like locks), multiple threads can access critical sections simultaneously.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "698636b5-aa37-425e-afec-9912691d3891",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following statements about fork() is true",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " It clones the address space but not the file descriptors",
+                    "type": "A"
+                },
+                {
+                    "body": " It returns 0 to the child process",
+                    "type": "B"
+                },
+                {
+                    "body": " It blocks the parent until the child finishes",
+                    "type": "C"
+                },
+                {
+                    "body": " It is only available in Windows",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "135ec2fc-f264-4043-a621-062d19076160",
+                    "questionID": "698636b5-aa37-425e-afec-9912691d3891",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "fork() returns 0 to the child, positive PID to parent.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d768e076-c44e-49c9-947e-bd8f45ed72c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In a system with 4 processes and 3 printers (identical), what is the minimum number of printers each process must request to avoid deadlock",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 1",
+                    "type": "A"
+                },
+                {
+                    "body": " 2",
+                    "type": "B"
+                },
+                {
+                    "body": " 3",
+                    "type": "C"
+                },
+                {
+                    "body": " 0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "49dc537b-3fd3-4604-8efa-08bb1fc20e20",
+                    "questionID": "d768e076-c44e-49c9-947e-bd8f45ed72c7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Using the formula from deadlock avoidance:\n If each process requests at most (total_instances - 1), deadlock can be avoided.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "92d5704c-9e8b-44cf-b497-96c08f8cee61",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following can cause indefinite blocking (starvation)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Deadlock",
+                    "type": "A"
+                },
+                {
+                    "body": " Priority scheduling without aging",
+                    "type": "B"
+                },
+                {
+                    "body": " Mutual exclusion",
+                    "type": "C"
+                },
+                {
+                    "body": " Semaphores",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "89c499b8-acb3-49e4-900b-d91f793ce487",
+                    "questionID": "92d5704c-9e8b-44cf-b497-96c08f8cee61",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Low-priority processes may be indefinitely postponed if high-priority ones keep executing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "07c18b77-e347-4827-832d-1780cf2a07f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Consider a semaphore S initialized to 1. Three processes call wait(S) one after another without any signal(S). What is the state of the last two",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Both terminated",
+                    "type": "A"
+                },
+                {
+                    "body": " One blocked, one terminates",
+                    "type": "B"
+                },
+                {
+                    "body": " Both blocked",
+                    "type": "C"
+                },
+                {
+                    "body": " Only one runs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5af1fb21-aa9c-41e3-8e11-2414f2ee369c",
+                    "questionID": "07c18b77-e347-4827-832d-1780cf2a07f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "After the first wait, S = 0. Others block as semaphore value is not positive.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "56bbd9fe-261e-4af6-9525-89b210f906db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of these is a non-blocking IPC mechanism",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Blocking pipes",
+                    "type": "A"
+                },
+                {
+                    "body": " Message queues (with blocking send)",
+                    "type": "B"
+                },
+                {
+                    "body": " Shared memory",
+                    "type": "C"
+                },
+                {
+                    "body": " Semaphore",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fcf2ff19-d0fc-49f5-9c00-ab587ed2d5d3",
+                    "questionID": "56bbd9fe-261e-4af6-9525-89b210f906db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shared memory allows direct access and doesn&#39;t block, but synchronization must be handled separately.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6f0748cb-2024-443b-8299-7a99dbacb180",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which concept is best demonstrated by the Banker’s Algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Deadlock detection",
+                    "type": "A"
+                },
+                {
+                    "body": " Deadlock prevention",
+                    "type": "B"
+                },
+                {
+                    "body": " Deadlock avoidance",
+                    "type": "C"
+                },
+                {
+                    "body": " Starvation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ab253655-0c7d-4051-90a6-d2e0315e4f26",
+                    "questionID": "6f0748cb-2024-443b-8299-7a99dbacb180",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Banker’s algorithm checks safe states before granting resources, thus avoiding deadlock.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7cb89791-5e5e-4bce-b040-9d145babf8d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is used for mutual exclusion in a critical section",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Barrier",
+                    "type": "A"
+                },
+                {
+                    "body": " Monitor",
+                    "type": "B"
+                },
+                {
+                    "body": " Pipe",
+                    "type": "C"
+                },
+                {
+                    "body": " Thread",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fcafa15e-fd7a-4253-8781-2e740e79d972",
+                    "questionID": "7cb89791-5e5e-4bce-b040-9d145babf8d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A monitor encapsulates shared variables and synchronization methods to ensure mutual exclusion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "109d9175-15f5-487c-bc76-878d8e39bdd3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " If two processes are in circular wait and holding resources, which Coffman condition is definitely true",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Mutual Exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": " No Preemption",
+                    "type": "B"
+                },
+                {
+                    "body": " Hold and Wait",
+                    "type": "C"
+                },
+                {
+                    "body": " All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "39debf22-9647-4fbb-9bab-700fb8b7493e",
+                    "questionID": "109d9175-15f5-487c-bc76-878d8e39bdd3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For a circular wait to occur, all Coffman conditions must hold true.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1da25381-2f67-4b43-9ec6-989af9c16d11",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " The dining philosophers problem is a classic example of",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Starvation",
+                    "type": "A"
+                },
+                {
+                    "body": " Race condition",
+                    "type": "B"
+                },
+                {
+                    "body": " Synchronization problem",
+                    "type": "C"
+                },
+                {
+                    "body": " Memory leak",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6570e6b9-0609-41c5-8a56-a46db5031746",
+                    "questionID": "1da25381-2f67-4b43-9ec6-989af9c16d11",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It illustrates how improper resource access can cause deadlock/starvation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ed69848e-626e-48a8-9ad1-136432f669ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A process is waiting on a counting semaphore S initialized to 3. After three wait() calls, the value is 0. What happens on the fourth wait()",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Proceeds",
+                    "type": "A"
+                },
+                {
+                    "body": " Terminates",
+                    "type": "B"
+                },
+                {
+                    "body": " Blocks",
+                    "type": "C"
+                },
+                {
+                    "body": " Returns error",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "137d7659-eddb-4d08-88bf-434a49157618",
+                    "questionID": "ed69848e-626e-48a8-9ad1-136432f669ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A counting semaphore blocks if the value is 0 and no signal() has occurred.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dea52dc3-58e2-4710-b7cc-170acaa574d7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What type of process can successfully use unnamed pipes for IPC",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Unrelated processes",
+                    "type": "A"
+                },
+                {
+                    "body": " Child-parent processes",
+                    "type": "B"
+                },
+                {
+                    "body": " Kernel processes",
+                    "type": "C"
+                },
+                {
+                    "body": " Processes on different machines",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ad780cab-d79c-430f-a132-22091ab05f6b",
+                    "questionID": "dea52dc3-58e2-4710-b7cc-170acaa574d7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Unnamed pipes are used for IPC between processes with common ancestry.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "10a6ed41-a3a1-4b19-9f79-0507dab6e6bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In the Producer-Consumer problem, what does the full semaphore track",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Number of empty slots",
+                    "type": "A"
+                },
+                {
+                    "body": " Number of full slots",
+                    "type": "B"
+                },
+                {
+                    "body": " Mutex availability",
+                    "type": "C"
+                },
+                {
+                    "body": " Number of producers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Consumer-Producer"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "71b4576d-3540-407a-aed2-a9f27f37a8c1",
+                    "questionID": "10a6ed41-a3a1-4b19-9f79-0507dab6e6bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "full indicates how many items are currently in the buffer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "96aae1d4-cbe8-45b0-8bef-95cca82a16c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A binary semaphore is also known as",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Counter",
+                    "type": "A"
+                },
+                {
+                    "body": " Spinlock",
+                    "type": "B"
+                },
+                {
+                    "body": " Mutex",
+                    "type": "C"
+                },
+                {
+                    "body": " Mailbox",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ede3a6ea-6348-438f-a104-1f52954163d4",
+                    "questionID": "96aae1d4-cbe8-45b0-8bef-95cca82a16c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Binary semaphores are typically used to implement mutual exclusion (mutex).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "efedc92f-50b5-4eec-9a71-10bee5e5492d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which deadlock avoidance algorithm uses a resource allocation graph",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Banker&#39;s Algorithm",
+                    "type": "A"
+                },
+                {
+                    "body": " Round Robin",
+                    "type": "B"
+                },
+                {
+                    "body": " RAG with cycle detection",
+                    "type": "C"
+                },
+                {
+                    "body": " Shortest Job First",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a7e45acc-1c6e-466d-b833-02989576ee53",
+                    "questionID": "efedc92f-50b5-4eec-9a71-10bee5e5492d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A cycle in RAG with single instances implies deadlock.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a0f9a6bd-f694-45fd-8b9b-d7cdac6f57ec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " If two processes simultaneously execute wait(S) on a binary semaphore S initialized to 1, what will happen",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Both enter CS",
+                    "type": "A"
+                },
+                {
+                    "body": " One enters, one waits",
+                    "type": "B"
+                },
+                {
+                    "body": " Both blocked",
+                    "type": "C"
+                },
+                {
+                    "body": " One gets terminated",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2916ae27-9685-4433-ad77-2c5f8e8c6e35",
+                    "questionID": "a0f9a6bd-f694-45fd-8b9b-d7cdac6f57ec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Binary semaphore allows only one entry; second process blocks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "85abf69d-c312-465f-a503-23535943ee39",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is NOT an inter-process communication method",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Shared Memory",
+                    "type": "A"
+                },
+                {
+                    "body": " Message Queue",
+                    "type": "B"
+                },
+                {
+                    "body": " Semaphore",
+                    "type": "C"
+                },
+                {
+                    "body": " Threading",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Communication Methods"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "68f493f7-8131-47f0-9632-d70a1049aeae",
+                    "questionID": "85abf69d-c312-465f-a503-23535943ee39",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threading is for intra-process (within same process); IPC is between processes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6cdbeb9d-9359-452b-b672-ca8a5d14dc25",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Consider the code below. How many total processes are created\n [type=code]\n fork();\n fork();\n fork();",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 6",
+                    "type": "A"
+                },
+                {
+                    "body": " 7",
+                    "type": "B"
+                },
+                {
+                    "body": " 8",
+                    "type": "C"
+                },
+                {
+                    "body": " 9",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5c639e4c-e9d4-499d-b4a4-8a38d2ff0b16",
+                    "questionID": "6cdbeb9d-9359-452b-b672-ca8a5d14dc25",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each fork doubles the processes. After 3 forks → 23=82^3 = 8 processes total.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2065bf02-faed-4c73-9661-ab403ffd3803",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A semaphore initialized to 2 is shared between 3 processes. If all 3 call wait() once, what will happen",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " All three enter critical section",
+                    "type": "A"
+                },
+                {
+                    "body": " Two enter, one blocks",
+                    "type": "B"
+                },
+                {
+                    "body": " One enters, others block",
+                    "type": "C"
+                },
+                {
+                    "body": " All block",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Shared Resources"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "52542a5b-0d61-46b0-b347-3e1f6303d8e9",
+                    "questionID": "2065bf02-faed-4c73-9661-ab403ffd3803",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Semaphore allows 2 concurrent accesses. Third process will block until one process performs signal().",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7e89e389-73ee-4539-8e1e-4592e0b63c8a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In a system with semaphores, what does wait() do if the semaphore value is 0",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Throws error",
+                    "type": "A"
+                },
+                {
+                    "body": " Decrements and returns",
+                    "type": "B"
+                },
+                {
+                    "body": " Blocks the process",
+                    "type": "C"
+                },
+                {
+                    "body": " Increments the semaphore",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0019dbaf-1f41-43d1-ab9d-921fa1382739",
+                    "questionID": "7e89e389-73ee-4539-8e1e-4592e0b63c8a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If the value is 0, the calling process is suspended until the value is incremented by signal().",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f9b428a-04d1-44d4-b90e-4fbbfec1d2aa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which problem may occur if two processes simultaneously perform a wait() operation on a binary semaphore initialized to 1",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Starvation",
+                    "type": "A"
+                },
+                {
+                    "body": " Deadlock",
+                    "type": "B"
+                },
+                {
+                    "body": " Race condition",
+                    "type": "C"
+                },
+                {
+                    "body": " One process blocks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a5f7386f-3622-4c9d-af31-f4c0d6995143",
+                    "questionID": "2f9b428a-04d1-44d4-b90e-4fbbfec1d2aa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Only one can enter the critical section; the other must wait (block).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4205f38d-4ce3-4eb3-ad5a-129c4bbe09ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In a system,fork() is called 2 times. What is the maximum number of child processes created",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 2",
+                    "type": "A"
+                },
+                {
+                    "body": " 3",
+                    "type": "B"
+                },
+                {
+                    "body": " 4",
+                    "type": "C"
+                },
+                {
+                    "body": " 5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2a68ffa8-d265-49b6-b2fa-e7df900684d7",
+                    "questionID": "4205f38d-4ce3-4eb3-ad5a-129c4bbe09ac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each fork() doubles the number of processes: $2^2 = 4$.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f3131be5-2346-478e-852f-967251e4105e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the main advantage of using shared memory over message passing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " More secure",
+                    "type": "A"
+                },
+                {
+                    "body": " Easier to implement",
+                    "type": "B"
+                },
+                {
+                    "body": " Faster communication",
+                    "type": "C"
+                },
+                {
+                    "body": " Supports multiple OS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "53810b7d-0a22-49a0-bc24-24d06b7d78fe",
+                    "questionID": "f3131be5-2346-478e-852f-967251e4105e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shared memory allows direct data access, making it faster than message passing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c120c6a2-83d2-4030-a97d-9adb903c1138",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In the producer-consumer problem using semaphores, which semaphore must be initialized to the buffer size",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " mutex",
+                    "type": "A"
+                },
+                {
+                    "body": " full",
+                    "type": "B"
+                },
+                {
+                    "body": " empty",
+                    "type": "C"
+                },
+                {
+                    "body": " wait",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2b78a299-2a2a-470b-ab23-982c16be7d87",
+                    "questionID": "c120c6a2-83d2-4030-a97d-9adb903c1138",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "empty tracks available buffer slots, so it is initialized to buffer size.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7fc52711-ea94-43b2-979b-7783dc55de93",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which operation on a semaphore is not atomic",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " wait()",
+                    "type": "A"
+                },
+                {
+                    "body": " signal()",
+                    "type": "B"
+                },
+                {
+                    "body": " initialization",
+                    "type": "C"
+                },
+                {
+                    "body": " All of the above are atomic",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "86bb7d98-d8cb-4310-a315-7963f56d76d8",
+                    "questionID": "7fc52711-ea94-43b2-979b-7783dc55de93",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Semaphore wait() and signal() are atomic, but initialization is not a synchronized operation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e4ee4592-a93b-496e-b5f2-9e0cc3d9c3e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which IPC mechanism requires the use of a key to access the resource",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Named Pipes",
+                    "type": "A"
+                },
+                {
+                    "body": " Shared Memory",
+                    "type": "B"
+                },
+                {
+                    "body": " Message Queues",
+                    "type": "C"
+                },
+                {
+                    "body": " Sockets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Shared Resources"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fbd49a7e-1a78-44be-aa67-630c3c9b502b",
+                    "questionID": "e4ee4592-a93b-496e-b5f2-9e0cc3d9c3e5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "System V IPC (e.g., message queues) requires a unique key to identify the resource.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3cd07721-3889-4004-a32e-d2e6b2e8a205",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A deadlock can be prevented by breaking which of the following conditions",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Mutual Exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": " Hold and Wait",
+                    "type": "B"
+                },
+                {
+                    "body": " No Preemption",
+                    "type": "C"
+                },
+                {
+                    "body": " All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Shared Resources"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "5be1e766-6834-4075-8fca-f519e612052b",
+                    "questionID": "3cd07721-3889-4004-a32e-d2e6b2e8a205",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Deadlock occurs if all four Coffman conditions hold. Preventing any one avoids deadlock.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bbf152b4-c0f6-4c4e-a192-cafb633f7e8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " After executing the following code, how many processes are created\n [type=code]\n int i;\n for(i = 0; i &lt; 3; i++) {\n  fork();\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 3",
+                    "type": "A"
+                },
+                {
+                    "body": " 4",
+                    "type": "B"
+                },
+                {
+                    "body": " 8",
+                    "type": "C"
+                },
+                {
+                    "body": " 6",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4f573d28-0dbb-4835-b514-a8af3067e66d",
+                    "questionID": "bbf152b4-c0f6-4c4e-a192-cafb633f7e8c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each fork doubles the processes. So total = 2³ = 8 processes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd9585bf-d46a-4692-806f-af2c60fa1461",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the main issue solved by Peterson’s Algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Deadlock",
+                    "type": "A"
+                },
+                {
+                    "body": " Starvation",
+                    "type": "B"
+                },
+                {
+                    "body": " Mutual Exclusion in user-space",
+                    "type": "C"
+                },
+                {
+                    "body": " Priority inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mutual Exclusion"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3352a62b-a737-4881-b874-6074e47328e6",
+                    "questionID": "cd9585bf-d46a-4692-806f-af2c60fa1461",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Peterson&#39;s algorithm solves mutual exclusion problem for two processes using shared memory without hardware support.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "11b10023-d499-4da0-afe9-633df0fa08de",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A counting semaphore S is initialized to 5. Five wait() calls are followed by one more wait(). What happens",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Value becomes 0",
+                    "type": "A"
+                },
+                {
+                    "body": " Value becomes –1",
+                    "type": "B"
+                },
+                {
+                    "body": " Last wait() blocks",
+                    "type": "C"
+                },
+                {
+                    "body": " All six wait() succeed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bc53cbd8-2988-4cd7-bb48-d3678f6b5fa4",
+                    "questionID": "11b10023-d499-4da0-afe9-633df0fa08de",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "After 5 wait() calls, S = 0. The 6th wait() causes the process to block.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "df498c2c-c1fa-4976-8bc5-c1fe48128904",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What happens if fork() fails",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Parent process exits",
+                    "type": "A"
+                },
+                {
+                    "body": " A zombie process is created",
+                    "type": "B"
+                },
+                {
+                    "body": " Returns -1 to the calling process",
+                    "type": "C"
+                },
+                {
+                    "body": " Child gets PID 0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4f98aa74-a512-4458-afbc-f40dd8a03c34",
+                    "questionID": "df498c2c-c1fa-4976-8bc5-c1fe48128904",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If system resources are insufficient, fork() returns -1 indicating failure.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "90ac7fa0-954d-47ae-8885-5bb39e2db1db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " The turn variable in Peterson’s algorithm is used to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Store the process ID",
+                    "type": "A"
+                },
+                {
+                    "body": " Give priority to one process",
+                    "type": "B"
+                },
+                {
+                    "body": " Prevent starvation",
+                    "type": "C"
+                },
+                {
+                    "body": " Ensure fairness",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Priority Scheduling"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "365d4db9-25b9-45b0-b338-1b20cc3b3a8a",
+                    "questionID": "90ac7fa0-954d-47ae-8885-5bb39e2db1db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The turn variable indicates whose turn it is to enter the critical section and resolves conflict if both want to enter.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a3b571c4-3b2f-4868-96be-2a76528471c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which scenario best demonstrates a race condition",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Sequential execution of functions",
+                    "type": "A"
+                },
+                {
+                    "body": " A thread modifies a global variable while another reads it",
+                    "type": "B"
+                },
+                {
+                    "body": " Forking a child process",
+                    "type": "C"
+                },
+                {
+                    "body": " Memory allocation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Race Conditions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5664d8b9-aa41-48f4-b2c1-f50b44902d93",
+                    "questionID": "a3b571c4-3b2f-4868-96be-2a76528471c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A race condition occurs when multiple processes/threads access shared data concurrently without synchronization.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9f44e787-3929-4b24-a249-76cc9f2df178",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the main purpose of the wait() system call in parent-child process handling",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Terminate child",
+                    "type": "A"
+                },
+                {
+                    "body": " Wait for I/O",
+                    "type": "B"
+                },
+                {
+                    "body": " Block until child finishes",
+                    "type": "C"
+                },
+                {
+                    "body": " Resume from suspension",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "system calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3fb474cd-052c-4f66-b175-aa4bb46d3bcc",
+                    "questionID": "9f44e787-3929-4b24-a249-76cc9f2df178",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "wait() ensures the parent halts execution until its child terminates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "49535b09-06a6-458c-a577-eadfbede20de",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is NOT a valid semaphore operation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Initialize",
+                    "type": "A"
+                },
+                {
+                    "body": " Wait",
+                    "type": "B"
+                },
+                {
+                    "body": " Sleep",
+                    "type": "C"
+                },
+                {
+                    "body": " Signal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Life Cycle"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "86f74255-fb19-46e9-affd-6a3f39d31361",
+                    "questionID": "49535b09-06a6-458c-a577-eadfbede20de",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sleep is unrelated to semaphores. The valid operations are wait() and signal() (or P and V)",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e58ff8f6-eed1-4938-bba3-2beb5e11bcca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the output of the following code\n [type=code]\n fork();\n fork();\n printf(&#34;Hi\\n&#34;)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " &#34;Hi&#34; printed once",
+                    "type": "A"
+                },
+                {
+                    "body": " &#34;Hi&#34; printed twice",
+                    "type": "B"
+                },
+                {
+                    "body": " &#34;Hi&#34; printed 3 times",
+                    "type": "C"
+                },
+                {
+                    "body": " &#34;Hi&#34; printed 4 times",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f8e45d55-4647-48df-a671-d3462ddd2dfa",
+                    "questionID": "e58ff8f6-eed1-4938-bba3-2beb5e11bcca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Two fork() calls create 22=42^2 = 4 processes, so the statement executes 4 times.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "69e93bdc-3c42-4b24-9df6-dbd0893c286f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which IPC mechanism is unidirectional by default",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Message queue",
+                    "type": "A"
+                },
+                {
+                    "body": " Pipe",
+                    "type": "B"
+                },
+                {
+                    "body": " Shared memory",
+                    "type": "C"
+                },
+                {
+                    "body": " Socket",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b7091856-8ce5-4323-b395-4f14b01adcb1",
+                    "questionID": "69e93bdc-3c42-4b24-9df6-dbd0893c286f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Traditional unnamed pipes are unidirectional, allowing communication in one direction only.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "09382393-fec9-4fd3-befd-f6f234c155e9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following does NOT require process synchronization",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Multiple threads updating a counter",
+                    "type": "A"
+                },
+                {
+                    "body": " Processes printing to the same printer",
+                    "type": "B"
+                },
+                {
+                    "body": " Two processes reading the same file",
+                    "type": "C"
+                },
+                {
+                    "body": " Processes writing to shared memory",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "86a883f6-20cb-452e-b61c-06081b77a5b6",
+                    "questionID": "09382393-fec9-4fd3-befd-f6f234c155e9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reading operations are non-conflicting and don&#39;t require synchronization.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6bd3e79f-0890-402c-af73-ca37fe2657af",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In UNIX, what is the result of this code\n [type=code]\n for (i = 0; i &lt; 2; i++) \n fork()",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 2 processes",
+                    "type": "A"
+                },
+                {
+                    "body": " 3 processes",
+                    "type": "B"
+                },
+                {
+                    "body": " 4 processes",
+                    "type": "C"
+                },
+                {
+                    "body": " 5 processes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8782ba8d-7d3e-4b8c-b3dc-6d8153c172a6",
+                    "questionID": "6bd3e79f-0890-402c-af73-ca37fe2657af",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each fork() doubles the number of processes. After two forks: $2^2 = 4$ total processes (including parent).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "24b37ee7-345f-4d74-9591-4b1444027faa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following statements about wait() system call is true",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " It causes process creation",
+                    "type": "A"
+                },
+                {
+                    "body": " It resumes the calling process immediately",
+                    "type": "B"
+                },
+                {
+                    "body": " It waits for child process to terminate",
+                    "type": "C"
+                },
+                {
+                    "body": " It is used for I/O wait",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "60710d01-3a4f-43f6-b8ba-7fb0b225d955",
+                    "questionID": "24b37ee7-345f-4d74-9591-4b1444027faa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "wait() suspends the parent process until any of its child processes terminates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bfebe003-ec25-4601-b7d8-88a1f6cf30ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In Peterson’s algorithm, what ensures mutual exclusion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Random delays",
+                    "type": "A"
+                },
+                {
+                    "body": " Busy waiting",
+                    "type": "B"
+                },
+                {
+                    "body": " Shared turn and flag variables",
+                    "type": "C"
+                },
+                {
+                    "body": " Test-and-set instruction",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a810012e-cea3-43bd-bb18-c81409910dd5",
+                    "questionID": "bfebe003-ec25-4601-b7d8-88a1f6cf30ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "These variables coordinate turns and intent, enabling correct synchronization.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "56cef9e3-96a0-4fdf-a0ff-ab606b01f041",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following conditions must be prevented to avoid deadlock",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Mutual exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": " Circular wait",
+                    "type": "B"
+                },
+                {
+                    "body": " Preemption",
+                    "type": "C"
+                },
+                {
+                    "body": " All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5360d2c0-821d-4072-af17-537ac6946363",
+                    "questionID": "56cef9e3-96a0-4fdf-a0ff-ab606b01f041",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Eliminating circular wait can prevent deadlocks. Mutual exclusion is often necessary, and preemption isn’t always possible.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "696dc97f-e653-4295-8734-ece738f51623",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What will happen if a process performs signal() operation on a semaphore initialized to 1 without prior wait()",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Semaphore goes to 0",
+                    "type": "A"
+                },
+                {
+                    "body": " Semaphore value becomes negative",
+                    "type": "B"
+                },
+                {
+                    "body": " Semaphore value increases",
+                    "type": "C"
+                },
+                {
+                    "body": " Error occurs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "68101a04-ad09-45c9-a68c-6a4990d0a5d0",
+                    "questionID": "696dc97f-e653-4295-8734-ece738f51623",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Semaphores can increase beyond 1 unless specifically implemented as binary.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4262cd56-3af9-4717-99a9-6087a83b2410",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " The value of a binary semaphore can be",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Any positive integer",
+                    "type": "A"
+                },
+                {
+                    "body": " 0 or 1",
+                    "type": "B"
+                },
+                {
+                    "body": " Only 1",
+                    "type": "C"
+                },
+                {
+                    "body": " Any value",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a60f80b2-61dc-4be9-afd3-ddd5bbfad91a",
+                    "questionID": "4262cd56-3af9-4717-99a9-6087a83b2410",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Binary semaphores function like a lock — only two states: locked (0) and unlocked (1)",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54f0ed6f-19b1-4bd5-b31b-391084c2988a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In a multithreaded program, semaphores are initialized to 3. How many threads can enter the critical section simultaneously",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 1",
+                    "type": "A"
+                },
+                {
+                    "body": " 2",
+                    "type": "B"
+                },
+                {
+                    "body": " 3",
+                    "type": "C"
+                },
+                {
+                    "body": " 4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e7fcbd5d-ba41-45da-91ec-7e629d9525fa",
+                    "questionID": "54f0ed6f-19b1-4bd5-b31b-391084c2988a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A counting semaphore initialized to 3 allows up to 3 concurrent accesses before blocking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a916a673-b3b1-4aeb-91a4-45f1e0a3c77b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which synchronization tool is best for protecting a critical section shared by multiple threads",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Message passing",
+                    "type": "A"
+                },
+                {
+                    "body": " Mutex",
+                    "type": "B"
+                },
+                {
+                    "body": " Signals",
+                    "type": "C"
+                },
+                {
+                    "body": " Stack",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Mutual Exclusion"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3604758f-2a8c-43ae-8d1a-74f5b3df6d72",
+                    "questionID": "a916a673-b3b1-4aeb-91a4-45f1e0a3c77b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mutexes allow only one thread at a time to access a shared resource, ensuring mutual exclusion",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ffe33a2-aff3-43cc-8c51-e1bf1ccae0ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In UNIX, a process uses fork() and then exec() What happens to the process address space",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " It is retained",
+                    "type": "A"
+                },
+                {
+                    "body": " It is expanded",
+                    "type": "B"
+                },
+                {
+                    "body": " It is completely replaced",
+                    "type": "C"
+                },
+                {
+                    "body": " It remains unchanged but code changes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bd91b721-f197-4089-8919-dbe6292876c3",
+                    "questionID": "6ffe33a2-aff3-43cc-8c51-e1bf1ccae0ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "exec() replaces the current process&#39;s memory space with a new program image.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "beeae3a9-9627-4478-b1f2-7244a05d2639",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following IPC mechanisms is suitable for unrelated processes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Shared Memory",
+                    "type": "A"
+                },
+                {
+                    "body": " Pipes",
+                    "type": "B"
+                },
+                {
+                    "body": " Message Queues",
+                    "type": "C"
+                },
+                {
+                    "body": " Semaphores",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9e60767e-b094-472e-9f78-801b8cc79256",
+                    "questionID": "beeae3a9-9627-4478-b1f2-7244a05d2639",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Message queues can be used by unrelated processes using a key, while pipes and shared memory typically require related processes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54addf53-9231-4f6f-8f7d-644007e41196",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which system call transforms an executable file into a running process and never returns to caller",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " fork",
+                    "type": "A"
+                },
+                {
+                    "body": " exec",
+                    "type": "B"
+                },
+                {
+                    "body": " getpid",
+                    "type": "C"
+                },
+                {
+                    "body": " ioctl",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "system calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5c7ff494-0524-4826-be83-42fc61d50a6c",
+                    "questionID": "54addf53-9231-4f6f-8f7d-644007e41196",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "exec overlays current process with new program and does not return",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52278b27-9bdd-4db6-9c21-8963f8d03e1d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " For a counting semaphore that starts at 7, after 20 P operations and x V operations, the final value is 5. What is x",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 15",
+                    "type": "A"
+                },
+                {
+                    "body": " 22",
+                    "type": "B"
+                },
+                {
+                    "body": " 18",
+                    "type": "C"
+                },
+                {
+                    "body": " 13",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9be8e22b-ffee-4bae-a2a4-7941c775bdd0",
+                    "questionID": "52278b27-9bdd-4db6-9c21-8963f8d03e1d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Value becomes 7−20+x=5⇒x=187 - 20 + x = 5 \\Rightarrow x=187−20+x=5⇒x=18",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0f1fe58-d733-4523-81bf-ec365dbf6ff1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In Peterson’s algorithm, how many variables are needed for mutual exclusion between two processes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 1",
+                    "type": "A"
+                },
+                {
+                    "body": " 2",
+                    "type": "B"
+                },
+                {
+                    "body": " 3",
+                    "type": "C"
+                },
+                {
+                    "body": " 4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8afebe06-c885-4b3b-a249-538ad35d2c87",
+                    "questionID": "f0f1fe58-d733-4523-81bf-ec365dbf6ff1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Two flag[] entries and one turn variable are required",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "82e9c212-6b13-4f6b-95df-af3271591aa1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which description correctly defines a critical section",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Area executed by interrupt handlers",
+                    "type": "A"
+                },
+                {
+                    "body": " Protected code region where only one process can execute",
+                    "type": "B"
+                },
+                {
+                    "body": " Code region executed at zero interrupt level",
+                    "type": "C"
+                },
+                {
+                    "body": " Code that always runs atomically",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "critical Section"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c5cf44f8-53f4-4129-a0b7-d6c0ab9d311f",
+                    "questionID": "82e9c212-6b13-4f6b-95df-af3271591aa1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Critical section ensures exclusive access to shared resources",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd88a8bb-4ac1-4588-84ef-bd09539f7a8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following ensures mutual exclusion and progress in semaphore-based synchronization",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Using only wait (P)",
+                    "type": "A"
+                },
+                {
+                    "body": " wait (P) before and signal (V) after critical section",
+                    "type": "B"
+                },
+                {
+                    "body": " signal (V) before P",
+                    "type": "C"
+                },
+                {
+                    "body": " Removing signal entirely",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "683cbe56-ed89-4592-89d8-cf784dab6a4c",
+                    "questionID": "cd88a8bb-4ac1-4588-84ef-bd09539f7a8c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Standard semaphore protocol uses P before entering and V after exiting to ensure mutual exclusion",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "445ec4e4-9ac3-42fa-aea7-dcfa603be9b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A binary semaphore is initialized to 1. After two wait (P) operations without a signal, what happens",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Value is –1",
+                    "type": "A"
+                },
+                {
+                    "body": " Second P blocks",
+                    "type": "B"
+                },
+                {
+                    "body": " Value wraps to max",
+                    "type": "C"
+                },
+                {
+                    "body": " Second P succeeds",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4149ef09-806e-4833-a216-eeabd07a3582",
+                    "questionID": "445ec4e4-9ac3-42fa-aea7-dcfa603be9b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Binary semaphores stay between 0–1; the second wait blocks when it becomes 0",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6291080d-ef3a-41e2-a5a5-2046ab64453e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is not a characteristic of semaphores",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " A shared integer variable",
+                    "type": "A"
+                },
+                {
+                    "body": " Cannot drop below zero",
+                    "type": "B"
+                },
+                {
+                    "body": " Both wait (P) and signal (V) are atomic",
+                    "type": "C"
+                },
+                {
+                    "body": " Provides FIFO queue ordering",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8a72a138-fefe-4e0f-a723-4a6f4b6052ba",
+                    "questionID": "6291080d-ef3a-41e2-a5a5-2046ab64453e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Standard semaphores are shared integer variables with atomic P/V; fairness queueing is implementation-dependent",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "682918eb-ef19-4029-948b-eae4bcbd7ae0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is Inter-Process Communication (IPC)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Sharing memory but no synchronization",
+                    "type": "A"
+                },
+                {
+                    "body": " Allowing processes to communicate and sync actions",
+                    "type": "B"
+                },
+                {
+                    "body": " Only message passing",
+                    "type": "C"
+                },
+                {
+                    "body": " Synchronization without data exchange",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Processors"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9a65293a-3680-4704-966f-7efe226b30b1",
+                    "questionID": "682918eb-ef19-4029-948b-eae4bcbd7ae0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPC enables cooperating processes to exchange data and coordinate execution",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e28061d-cf52-4ee4-8362-b89b2c9114c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " If three fork() calls are executed sequentially in a process, how many processes will exist at the end (including parent)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 4",
+                    "type": "A"
+                },
+                {
+                    "body": " 7",
+                    "type": "B"
+                },
+                {
+                    "body": " 8",
+                    "type": "C"
+                },
+                {
+                    "body": " 3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphore"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f4c6cf4e-b5d9-4323-9f37-a581fb24ee88",
+                    "questionID": "2e28061d-cf52-4ee4-8362-b89b2c9114c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each fork() doubles the number of processes. 23−1=72^3 - 1 = 723−1=7 children + parent = 8, but children count = 7",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e6d608c1-7feb-4c7c-beb3-e9ff7f25fabe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In UNIX, after calling fork(), what value does the child process get",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Child’s PID",
+                    "type": "A"
+                },
+                {
+                    "body": " Parent’s PID",
+                    "type": "B"
+                },
+                {
+                    "body": " 0",
+                    "type": "C"
+                },
+                {
+                    "body": " –1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "system calls"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c521f003-a58f-424a-b38c-85ead33a6796",
+                    "questionID": "e6d608c1-7feb-4c7c-beb3-e9ff7f25fabe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "fork() returns 0 to the child, and returns the child’s PID to the parent",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

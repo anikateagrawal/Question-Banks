@@ -1,0 +1,316 @@
+{
+    "bank_id": "5f4564ea-2e99-4c40-9548-fc922cafda13",
+    "bank_name": "AMCAT-Coding",
+    "questions": [
+        {
+            "id": "d3a1e6fe-2a01-4fe6-a669-5034fee76529",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The task is to determine the number of elements within a specified range in an unsorted array. Given an array of size n, the goal is to count the elements that fall between two given values, i and j, inclusively.</p><p>Examples:</p><p>Input:</p><p>6    = &gt; n number of elements</p><p>1 3 3 9 10 4   =&gt; array elements</p><p>2   =&gt;  number of queries</p><p>1 4   =&gt; i and j for each query</p><p>9 12</p><p>Output:</p><p>4</p><p>2</p><p>Explanation:</p><p>In the first query, the numbers within the range 1 to 4 are 1, 3, 3, and 4.</p><p>In the second query, the numbers within the range 9 to 12 are 9 and 10.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Queries"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "4e9bba41-f890-4a2e-8c5d-db9f279a4a3d",
+                    "questionID": "d3a1e6fe-2a01-4fe6-a669-5034fee76529",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static int countInRange(int[] arr, int i, int j) {\n        int count = 0;\n        for (int num : arr) {\n            if (num >= i && num <= j) {\n                count++;\n            }\n        }\n        return count;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input array size\n        int n = sc.nextInt();\n        int[] arr = new int[n];\n\n        // Input array elements\n        for (int i = 0; i < n; i++) {\n            arr[i] = sc.nextInt();\n        }\n\n        // Input number of queries\n        int q = sc.nextInt();\n\n        // For each query input i, j and print result\n        for (int k = 0; k < q; k++) {\n            int i = sc.nextInt();\n            int j = sc.nextInt();\n            System.out.println(countInRange(arr, i, j));\n        }\n\n        sc.close();\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "fa8ae68c-14c4-4a69-a813-6df5e7a53e6a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given an array, You have to choose a contiguous subarray of length ‘k’, and find the minimum of that segment, return the maximum of those minimums.</p><p>Sample input 0 :</p><p>1 → Length of segment x =1</p><p>5 → size of space n = 5</p><p>1 → space = [ 1,2,3,1,2]</p><p>2</p><p>3</p><p>1</p><p>2</p><p>Sample output :</p><p>3</p><p>Explanation :</p><p>The subarrays of size x = 1 are [1],[2],[3],[1], and [2],Because each subarray only contains 1 element, each value is minimal with respect to the subarray it is in. The maximum of these values is 3. Therefore, the answer is 3</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Arrays"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "04651e4f-c2ce-45a9-8cfb-b8a8a1cdb7ba",
+                    "questionID": "fa8ae68c-14c4-4a69-a813-6df5e7a53e6a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\npublic class Solution{\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int x = sc.nextInt();\n        int n = sc.nextInt();\n        int arr[] = new int[n];\n        for (int i = 0; i < n; i++)\n            arr[i] = sc.nextInt();\n\n        int min = Integer.MAX_VALUE;\n        int max = Integer.MIN_VALUE;\n\n        for (int i = 0; i <= n - x; i++) {\n            min = Integer.MAX_VALUE;\n            for (int j = i; j < (i + x); j++)\n                min = Math.min(min, arr[j]);\n            max = Math.max(min, max);\n        }\n        System.out.println(max);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "2b54b75a-a1cf-4a4b-a72c-f69fdfceb5b1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>There is an encryption game going on. You will be given a number. If a digit is prime, it will take a vowel. Otherwise it will take a consonant value.</p><p>By this process, you have to make the string the lexicographically smallest possible. For a given number, print the output as a string.;</p><p>Input Format:</p><p>An integer n denoting the number.</p><p>Output Format:</p><p>The encrypted word.</p><p>Sample Input:&nbsp;123421</p><p>Sample Output:&nbsp;baecab</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Encryption"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "3abbd1dc-1a29-4d42-b922-5b6fad52aa86",
+                    "questionID": "2b54b75a-a1cf-4a4b-a72c-f69fdfceb5b1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\nclass Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n = sc.nextInt();\n        String vowel = \"aeiou\";\n        char arr[] = new char[10];\n        arr[2] = 'a';\n        arr[3] = 'e';\n        arr[5] = 'i';\n        arr[7] = 'o';\n        char ch = 'b';\n        for (int i = 1; i < arr.length; i++) {\n            if (vowel.indexOf(ch) != -1) {\n                ch++;\n                continue;\n            } else if (arr[i] == 0)\n                arr[i] = (char) ch++;\n        }\n        int temp = n;\n        int res = 0;\n        while (temp != 0) {\n            res = res * 10 + temp % 10;\n            temp = temp / 10;\n        }\n        int i = 1;\n        while (res != 0) {\n            System.out.print(arr[res % 10]);\n            res = res / 10;\n        }\n    }\n\n}",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "575e2064-8136-4ac0-a4bb-a3a89c5153cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Anirudh is attending an astronomy lecture. His professor who is very strict asks students to</p><p>Write a program to print the trapezium pattern using stars and dots as shown below . Since Anirudh is not good at astronomy can you help him?</p><h4>Sample Input:</h4><ul><li>N = 3</li></ul><h4>Output:</h4><h5>**.**</h5><h5>*…*</h5><h5>…..</h5><h5>*…*</h5><h5>**.**</h5><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Pattern"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "4bbca80d-ec2b-418d-9eff-fedce9606bc1",
+                    "questionID": "575e2064-8136-4ac0-a4bb-a3a89c5153cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\npublic class Solution{\n  public static void main(String[] args){\n      Scanner sc=new Scanner(System.in);\n      int n=sc.nextInt();\n      int i,j;\n      for(i=0;i<n;i++){\n          for(j=0;j<n;j++){\n              if(j<n-i-1)\n                  System.out.print(\"*\");\n              else\n                  System.out.print(\".\");\n          }\n          for(j=0;j<n-1;j++){\n              if(j<i)\n                  System.out.print(\".\");\n              else\n                  System.out.print(\"*\");\n          }\n          System.out.println();   \n      }\n\n      for(i=2;i<=n;i++){\n          for(j=0;j<n;j++){\n              if(j<i-1)\n                  System.out.print(\"*\");\n              else\n                  System.out.print(\".\");\n      }\n      for(j=0;j<n-1;j++){\n          if(j<n-i)\n              System.out.print(\".\");\n          else\n              System.out.print(\"*\");\n      }\n      System.out.println();\n   }\n }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "df77edbb-775a-49b1-b551-160b57156917",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Problem Statement</p><p>A left rotation operation on an array shifts each of the array’s elements unit to the left. For example, if 2 left rotations are performed on array [1, 2, 3, 4, 5], then the array would become [3, 4, 5, 1, 2].</p><p>Given an array of integers and a number, , perform left rotations on the array. Return the updated array to be printed as a single line of space-separated integers.</p><p><br></p><p>Input Format</p><p>The first line contains two space-separated integers and , the size of and the number of left rotations you must perform.</p><p>The second line contains space-separated integers a[i].</p><p>Constraints</p><ul><li>1 &lt;= n &lt;= 10^5</li><li>1 &lt;= d &lt;= n</li><li>1 &lt;= a[i] &lt;= 10^8</li></ul><p>Output Format</p><p>Print a single line of space-separated integers denoting the final state of the array after performing&nbsp;d&nbsp;left rotations.</p><p>Sample Input</p><p>5 4</p><p>1 2 3 4 5</p><p>Sample Output</p><p>5 1 2 3 4</p><p>Explanation</p><p>When we perform&nbsp;d=4&nbsp;left rotations, the array undergoes the following sequence of changes:</p><p>[1,2,3,4,5] → [2,3,4,5,1] → [3,4,5,1,2] → [4,5,1,2,3] → [5,1,2,3,4]</p><p>Test Case : 1</p><p>Input (stdin)</p><ul><li>5 4</li><li>1 2 3 4 5</li></ul><p>Expected Output</p><ul><li>5 1 2 3 4</li></ul><p>Test Case : 2</p><p>Input (stdin)</p><ul><li>20 10</li><li>41 73 89 7 10 1 59 58 84 77 77 97 58 1 86 58 26 10 86 51</li></ul><p>Expected Output</p><ul><li>77 97 58 1 86 58 26 10 86 51 41 73 89 7 10 1 59 58 84 77</li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Arrays"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "0c2d4560-7d06-45e6-a546-1538849a1e02",
+                    "questionID": "df77edbb-775a-49b1-b551-160b57156917",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\nclass Solution\n{\n    public static void rotateLeft(int a[],int n, int d)\n    {\n        int first,i,j;\n        for(i=0;i<d;i++)\n        {\n            first=a[0];\n            for(j=0;j<n-1;j++)\n                a[j]=a[j+1];\n            a[j]=first;\n        }\n    }\n    public static void main(String[] args)\n    {\n        Scanner sc=new Scanner(System.in);\n        int n=sc.nextInt();\n        int d=sc.nextInt();\n        int a[]=new int[n];\n        for(int i=0;i<n;i++)\n            a[i]=sc.nextInt();\nrotateLeft(a,n,d);\n\nfor(int i=0;i<n;i++)\nSystem.out.print(a[i]+\" \");\n}\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "72426c45-20fe-4471-9af5-481680e6bc60",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rohan is weak in mathematics. He is giving mathematics&nbsp;Olympiad , but he got stuck in one of the question . Help Rohan to solve the question. In Question there are two positive integer A and B. You have to find the product of all integer between A and B which is represented in the form C=D*10^E , where&nbsp;C is the product of numbers , D and E are non-negative integers and the last digit of D is non-zero.</p><h4>Function Description&nbsp;</h4><ul><li>Complete the function formatProducts in the editor below, formatProduct must return a string that represents C in the above described form.</li><li>Function has the following parameters</li><li>A:&nbsp;an integer</li><li>B:&nbsp;an integer</li></ul><h4>Constraints</h4><ul><li>&nbsp;&nbsp;&nbsp;A will between 1 and 1,000,000 . Inclusive.</li><li>&nbsp;&nbsp;&nbsp;B will be between A and 1,000,000. Inclusive.</li></ul><h4>Sample Input 0&nbsp;</h4><ul><li>1</li><li>5</li></ul><h4>Sample Output 0</h4><ul><li>12 * 10^1</li></ul><h4>Explanation&nbsp;</h4><ul><li>1*2*3*4*5=120 = 12 * 10^1</li></ul><h4>Sample Input 1</h4><ul><li>3</li><li>10</li></ul><h4>Sample Output 1</h4><ul><li>18144 * 10^2</li></ul><h4>Explanation</h4><ul><li>3*4*….*10=1814400 =18144 * 10^2</li></ul><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Formatting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "50bd17a0-e68a-49f4-9b29-b9c790115ce1",
+                    "questionID": "72426c45-20fe-4471-9af5-481680e6bc60",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\npublic class Solution\n{\n  public static String formatProducts (int a, int b)\n  {\n    int result = 1;\n    for (int i = a; i <= b; i++)\n        result = result * i;\n    int temp = result;\n    int power = 0;\n    while ((result % 10) == 0)\n      {\n\tpower = power + 1;\n\tresult = result / 10;\n      }\n    return result + \" * 10^\" + power;\n  }\n  public static void main (String[]args)\n  {\n    Scanner sc = new Scanner (System.in);\n    int a = sc.nextInt ();\n    int b = sc.nextInt ();\n    System.out.println (formatProducts (a, b));\n  }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "e99bf6b6-c88d-46d6-9535-f974d7276260",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Semester exams are going on for university students. Examiners noticed that a group of people are trying to cheat. They marked students of that group as ‘1’ and students of another group ( who are not cheating ) as ‘0’&nbsp;</p><p>We can reduce cheating by not allowing students from group 1 to sit together, means no two students from group 1 can sit together.&nbsp;Seatings are marked using above conditions.&nbsp;Your task is to give the seating placement of nth possibility&nbsp;Possibility order from 1 to 10 is given below</p><p>[1&nbsp;10&nbsp;100&nbsp;101&nbsp;1000&nbsp;1001&nbsp;1010&nbsp;10000&nbsp;10001&nbsp;10010]</p><p>Sample input :</p><p>3 → number of test cases</p><p>4</p><p>6</p><p>9</p><p>Sample output :</p><p>101</p><p>1001</p><p>10001</p><p>Explanation :</p><p>4th possibility is 101&nbsp;</p><p>6th possibility is 1001</p><p>9th possibility is 10001</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Binary Number"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "ceff245d-fd18-45da-af32-ad221ab57c15",
+                    "questionID": "e99bf6b6-c88d-46d6-9535-f974d7276260",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\nclass Solution {\n    public static void possibilities(int n) {\n        int c = 0;\n        String b = \"\";\n        for (int i = 1; n != c; i++) {\n            String s = Integer.toString(i, 2);\n            if (!s.contains(\"11\")) {\n                c++;\n                b = s;\n            }\n        }\n        System.out.println(b);\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int tc = sc.nextInt();\n        int[] a = new int[tc];\n        for (int i = 0; i < tc; i++) {\n            a[i] = sc.nextInt();\n        }\n        for (int i = 0; i < tc; i++) {\n            possibilities(a[i]);\n        }\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "f78c9c08-bb8c-43e5-8151-4a4e27fb7a60",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>After JEE Mains, some students got admission into an engineering college. Now there is a class consisting of such n students, and the HOD came to say it is time to select the class monitor. But He never gets all of them at one time. So he brought a register, every time he gets someone with less rank than the previous time he cut the name and wrote the name of the student and the rank.</p><p>For a given number of ranks he gets each time, you have to predict how many names are cut in the list.</p><p>Constraints:</p><p>Number of Visiting&lt;=10^9</p><p>ranks &lt;=10000</p><p>Input Format:</p><p>Number of Visiting N in their first line</p><p>N space separated ranks the HOD gets each time</p><p>Output Format:</p><p>Number of ranks cut in the list</p><p>Sample Input:</p><p>6</p><p>4 3 7 2 6 1</p><p>Sample Output:</p><p>3</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Logic"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "0da780b0-0df9-488d-85cb-241d6fe89e6f",
+                    "questionID": "f78c9c08-bb8c-43e5-8151-4a4e27fb7a60",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\n\npublic class Solution {\n\n    public static void main(String[] args) {\n        int n, p, ans = 0, m = Integer.MAX_VALUE;\n        Scanner sc = new Scanner(System.in);\n        n = sc.nextInt();\n        for (int i = 0; i < n; i++) {\n            p = sc.nextInt();\n            if (p < m) {\n                m = p;\n                ans++;\n            }\n        }\n        System.out.print(ans - 1);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "e2f99a2c-da2d-4f37-89bc-3216528bfb4a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Krishna loves candies a lot, so whenever he gets them, he stores them so that he can eat them later whenever he wants to.</p><p>He has recently received&nbsp;N boxes of candies each containing Ci candies where Ci represents the total number of candies in the ith box. Krishna wants to store them in a single box. The only constraint is that he can choose any two boxes and store their joint contents in an empty box only. Assume that there are an infinite number of empty boxes available.</p><p>At a time he can pick up any two boxes for transferring and if both the boxes contain X and Y number of candies respectively, then it takes him exactly X+Y seconds of time. As he is too eager to collect all of them he has approached you to tell him the minimum time in which all the candies can be collected.</p><p>Input Format:</p><ul><li>The first line of input is the number of test case T</li><li>Each test case is comprised of two inputs</li><li>The first input of a test case is the number of boxes N</li><li>The second input is N integers delimited by whitespace denoting the number of candies in each box</li></ul><p>Output Format:&nbsp;Print minimum time required, in seconds, for each of the test cases. Print each output on a new line.</p><p>Constraints:</p><ul><li>1 &lt; T &lt; 10</li><li>1 &lt; N&lt; 10000</li><li>1 &lt; [Candies in each box] &lt; 100009</li></ul><p>S. No.\t\tInput\t\t\tOutput</p><p>1\t\t\t\t\t\t1\t\t\t\t\t\t19</p><p>\t\t\t\t\t\t4</p><p>\t\t\t\t\t\t1 2 3 4\t\t</p><p>2\t\t\t\t\t\t1\t\t\t\t\t\t34</p><p>\t\t\t\t\t\t5</p><p>\t\t\t\t\t\t1 2 3 4 5\t</p><p>Explanation for sample input-output 1:</p><p>4 boxes, each containing 1, 2, 3 and 4 candies respectively. Adding 1 + 2 in a new box takes 3 seconds. Adding 3 + 3 in a new box takes 6 seconds. Adding 4 + 6 in a new box takes 10 seconds. Hence total time taken is 19 seconds. There could be other combinations also, but overall time does not go below 19 seconds.</p><p>Explanation for sample input-output 2:</p><p>5 boxes, each containing 1, 2, 3, 4 and 5 candies respectively. Adding 1 + 2 in a new box takes 3 seconds. Adding 3 + 3 in a new box takes 6 seconds. Adding 4 + 6 in a new box takes 10 seconds. Adding 5 + 10 in a new box takes 15 seconds. Hence total time taken is 34 seconds. There could be other combinations also, but overall time does not go below 34 seconds.</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "sorting"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "3a11c3aa-212c-445c-a069-5689aeb999c5",
+                    "questionID": "e2f99a2c-da2d-4f37-89bc-3216528bfb4a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.Scanner;\npublic class Solution {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int n, i, k = 0, sum = 0, s1 = 0, t, temp = 0, j;\n        long c[] = new long[1000009];\n        long s[] = new long[100009];\n        t = sc.nextInt();\n        for (int l = 0; l < t; l++)\n        {\n            n = sc.nextInt();\n            for (i = 0; i < n; i++)\n                c[i] = sc.nextLong();\n            for (i = 0; i < n; i++) {\n                for (j = i + 1; j < n; j++) { if (c[i] > c[j])\n                    {\n                        temp = (int) c[i];\n                        c[i] = c[j];\n                        c[j] = temp;\n                    }\n                }\n            }\n            sum = 0;\n            k = 0;\n            for (i = 0; i < n; i++)\n            {\n                sum = (int) (sum + c[i]);\n                s[k] = sum;\n                k++;\n            }\n            s1 = 0;\n            for (i = 1; i < k; i++)\n                s1 = (int) (s1 + s[i]);\n            System.out.println(s1);\n        }\n    }\n\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "05fc8528-7444-40c6-9878-8da3c3d73be2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p class=\"ql-align-justify\">Fountains are installed at every position along a one-dimensional garden of length n. Array locations[] represents the coverage limit of these fountains. The ith fountain (where 1sisn) has a coverage limit of locations[i] that can range from the position max((i – locations[i]), 1) to min((i + locations[i]), n ). In other words, the h fountains do not reach outside the boundaries of the garden. In the beginning, all the fountains are switched off. Determine the minimum number of fountains that need to be activated to cover the n length garden by water.</p><p>Example</p><ul><li>n = 3</li><li>locations[] = {0, 2, 13, then</li><li>For position 1: locations[1] = 0, max((1 – 0),</li><li class=\"ql-indent-1\">1) to mini (1+0), 3) gives range = 1 to 1</li><li>For position 2: locations[2] = 2, max((2-2),</li><li class=\"ql-indent-1\">1) to min( (2+2), 3) gives range = 1 to 3</li><li>For position 3: locations[3] = 1, max( (3-1),</li><li class=\"ql-indent-1\">1) to min( (3+1), 3) gives range = 2 to 3</li></ul><p>For the entire length of this garden to be covered, only the fountain at position 2 needs to be activated.</p><p><br></p><p>Constraints</p><ul><li>1&lt;_n&lt;_ 10^5</li><li>&nbsp;O&lt;_locations[i] &lt;_ mini (n,100) (where 1 &lt;_1&lt;_10^5)</li></ul><p>► Input Format For Custom Testing</p><p>Sample Case 0</p><p>Sample Input For Custom Testing</p><ul><li>3 -&gt;locations[] size n = 3</li><li>1 -&gt;locations[] [1, 1, 1</li></ul><p><br></p><p>Sample Output</p><ul><li>1</li></ul><p>Explanation</p><p>Here, locations = {1, 1, 1</p><ul><li>For position 1: locations[1] = 1, maxi (1 -1), 1) to min((1+1), 3) gives range = 1 to 2</li><li>For position 2: locations[2] = 1, max( (2 -1), 1) to min( (2+1), 3) gives range = 1 to 3</li><li>For position 3: locations[3] = 1, max((3 -1), 1) to min((3+1), 3) gives range = 2 to 3</li></ul><p>If the 2nd fountain is active, the range from position 7 to 3 will be covered. The total number of fountains needed is 1.</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "DP"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "f239caba-1878-4822-a023-cfae85da01a1",
+                    "questionID": "05fc8528-7444-40c6-9878-8da3c3d73be2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\nclass Solution {\n\n    static int minCntFoun(int a[], int N) {\n\n        int[] dp = new int[N + 1];\n        Arrays.fill(dp, -1);\n\n        // Mark the reachable indices for each fountain\n        for (int i = 0; i < N; i++) {\n            int left = Math.max(i - a[i], 0);\n            int right = Math.min(i + a[i]+1, N);\n            dp[left] = Math.max(dp[left], right);\n        }\n\n        int cntfount = 1;\n         int idxRight = dp[0];\n        int idxNext = 0;\n\n        // Traverse the reachable indices and activate fountains\n        for (int i = 0; i < N; i++) {\n\n            idxNext=Math.max(idxNext,dp[i]);\n            if(i==idxRight){\n            cntfount++;\n            idxRight = idxNext;\n            }\n\n        }\n\n        return cntfount;\n    }\n\n    // Driver Code\n    public static void main(String[] args) {\n        Scanner scan=new Scanner(System.in);\n        int n = scan.nextInt();\n        int[] location=new int[n];\n        for(int i=0;i < n;i++){\n            location[i]=scan.nextInt();\n\n        }\n\n        System.out.print(minCntFoun(location, n));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        }
+    ]
+}

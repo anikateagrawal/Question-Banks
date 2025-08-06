@@ -1,0 +1,1460 @@
+{
+    "bank_id": "57a31533-825c-4165-a4fb-f1beb466b797",
+    "bank_name": "Friday - week - 3 - OS",
+    "questions": [
+        {
+            "id": "7718c8f3-1f73-49ae-a313-49398aaf6c03",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which condition is typically denied in deadlock prevention strategies",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutual exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": "Hold and wait",
+                    "type": "B"
+                },
+                {
+                    "body": "No preemption",
+                    "type": "C"
+                },
+                {
+                    "body": "Circular wait",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "39bc806b-96d7-4795-8b52-89df27da3913",
+                    "questionID": "7718c8f3-1f73-49ae-a313-49398aaf6c03",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Deadlock prevention often requires processes to request all needed resources upfront.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1926478f-a152-4bc0-a6c4-4a4a7a14acbe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a user-level threading model which of the following is true",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Kernel schedules each thread individually",
+                    "type": "A"
+                },
+                {
+                    "body": "A thread blocking leads to process blocking",
+                    "type": "B"
+                },
+                {
+                    "body": "Threads use separate memory spaces",
+                    "type": "C"
+                },
+                {
+                    "body": "Threads cannot exist",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c68a67c7-ab86-4aa3-90c5-6f197541a540",
+                    "questionID": "1926478f-a152-4bc0-a6c4-4a4a7a14acbe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All threads block if one thread blocks in user-level threading as the kernel is unaware.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1ce79ebd-1043-4d02-b414-417f2a8ff845",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which real-world example best illustrates the deadlock condition",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Two trains at a crossing waiting for each other to move",
+                    "type": "A"
+                },
+                {
+                    "body": "Elevator stopping at every floor",
+                    "type": "B"
+                },
+                {
+                    "body": "Water bottle with no cap",
+                    "type": "C"
+                },
+                {
+                    "body": "Fan running at different speeds",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fe4fe324-4d65-4de4-a554-297c18987d98",
+                    "questionID": "1ce79ebd-1043-4d02-b414-417f2a8ff845",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Classic example of circular wait and no preemption.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e7b69a2-d829-42be-9d87-e2a7dc200b0d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Starvation can occur in semaphore-based solutions when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "No mutual exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": "Processes are scheduled fairly",
+                    "type": "B"
+                },
+                {
+                    "body": "One process always preempts the lock",
+                    "type": "C"
+                },
+                {
+                    "body": "Deadlock occurs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5557919b-6f43-4298-98af-d60719279c7c",
+                    "questionID": "2e7b69a2-d829-42be-9d87-e2a7dc200b0d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Unfair locking or non-FIFO access can cause indefinite postponement of some processes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "62e1a4d4-3844-454a-8c7c-833ced334528",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPC method provides the fastest communication speed",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Message Queues",
+                    "type": "A"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "B"
+                },
+                {
+                    "body": "Shared Memory",
+                    "type": "C"
+                },
+                {
+                    "body": "Sockets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f221c0d9-5db3-4087-aab0-232e37bcf71e",
+                    "questionID": "62e1a4d4-3844-454a-8c7c-833ced334528",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shared memory avoids kernel intervention and allows direct read/write access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f222e15b-ea6b-4df6-90f5-24eacb767690",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Threads are scheduled",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only in user space",
+                    "type": "A"
+                },
+                {
+                    "body": "By compiler",
+                    "type": "B"
+                },
+                {
+                    "body": "By OS or thread library",
+                    "type": "C"
+                },
+                {
+                    "body": "Randomly",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "17783d1d-f18e-4a5e-b0fe-07dd24cb5f9c",
+                    "questionID": "f222e15b-ea6b-4df6-90f5-24eacb767690",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Depends on model: OS-managed (kernel-level threads) or user-thread libraries.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8f525678-af27-4250-8b88-0728c1d79996",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A cycle in a wait-for graph indicates",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlock in all cases",
+                    "type": "A"
+                },
+                {
+                    "body": "Possibility of deadlock",
+                    "type": "B"
+                },
+                {
+                    "body": "Safe state",
+                    "type": "C"
+                },
+                {
+                    "body": "Starvation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "555205fe-2aa0-4fc2-b2eb-5e71f101c6bb",
+                    "questionID": "8f525678-af27-4250-8b88-0728c1d79996",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A cycle is a necessary condition for deadlock but not sufficient when resources are reusable.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "01bff883-84e6-4d1e-bbb9-1f329efbf506",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens if two processes execute wait(S) on a semaphore initialized to 1 without signal(S) in between",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Both proceed",
+                    "type": "A"
+                },
+                {
+                    "body": "One proceeds one blocks",
+                    "type": "B"
+                },
+                {
+                    "body": "Both block",
+                    "type": "C"
+                },
+                {
+                    "body": "Semaphore resets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "34ac1e5b-adbd-4354-be95-79f2906141c7",
+                    "questionID": "01bff883-84e6-4d1e-bbb9-1f329efbf506",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The first acquires the lock the second blocks until signal(S) is called.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5f644106-a35f-4dc4-8e43-3ca3810907a7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following operations is typically faster for threads than for processes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "File I/O",
+                    "type": "A"
+                },
+                {
+                    "body": "Memory allocation",
+                    "type": "B"
+                },
+                {
+                    "body": "Context switching",
+                    "type": "C"
+                },
+                {
+                    "body": "Inter-thread communication",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ea3a6ffc-161c-4b8e-aee6-6b05b3e8fdaf",
+                    "questionID": "5f644106-a35f-4dc4-8e43-3ca3810907a7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threads have less overhead during context switching due to shared memory space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "18822cb9-a192-47e7-9e7d-bc467faea15b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following IPC mechanisms is unidirectional in most operating systems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shared Memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Sockets",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "C"
+                },
+                {
+                    "body": "Message Queues",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2210e40a-4af7-445b-942b-2c41838f1ffb",
+                    "questionID": "18822cb9-a192-47e7-9e7d-bc467faea15b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Standard pipes support data flow in one direction; for two-way communication two pipes are needed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1d2de4c-c211-4a8f-b28d-eb2162029b64",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In synchronous message passing the sender blocks until the receiver",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Acknowledges receipt",
+                    "type": "A"
+                },
+                {
+                    "body": "Is ready to receive",
+                    "type": "B"
+                },
+                {
+                    "body": "Is created",
+                    "type": "C"
+                },
+                {
+                    "body": "Replies",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "18c100c6-7cd9-4c71-aa35-b8831883e6b2",
+                    "questionID": "f1d2de4c-c211-4a8f-b28d-eb2162029b64",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Synchronous IPC ensures handoff only when receiver is waiting or consuming.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9897378c-38f1-49b9-9d04-7cd2e7ecd7c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following breaks the circular wait condition",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Grant all resources upfront",
+                    "type": "A"
+                },
+                {
+                    "body": "Use atomic resource allocation",
+                    "type": "B"
+                },
+                {
+                    "body": "Request resources in a fixed global order",
+                    "type": "C"
+                },
+                {
+                    "body": "Let processes wait indefinitely",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1f0397fc-7117-46c5-85a0-cd72312bc580",
+                    "questionID": "9897378c-38f1-49b9-9d04-7cd2e7ecd7c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Imposing a global acquisition order prevents circular chains of waiting.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6729a16f-82a7-44c2-a92b-d57277288ea2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To enforce mutual exclusion which semaphore should be used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Counting semaphore &gt; 1",
+                    "type": "A"
+                },
+                {
+                    "body": "Binary semaphore",
+                    "type": "B"
+                },
+                {
+                    "body": "Semaphore initialized to 0",
+                    "type": "C"
+                },
+                {
+                    "body": "None use mutex lock",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ce3b2969-eda2-46d1-a807-760cfe4f2967",
+                    "questionID": "6729a16f-82a7-44c2-a92b-d57277288ea2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A binary semaphore essentially acts as a lock with two states: locked or unlocked.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d1204769-d84b-4723-85a3-4b7f2fcc2974",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which resource allocation method simplifies deadlock detection",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical locking",
+                    "type": "A"
+                },
+                {
+                    "body": "Single instance resources",
+                    "type": "B"
+                },
+                {
+                    "body": "Multiple identical resources",
+                    "type": "C"
+                },
+                {
+                    "body": "No preemption",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2ad89c68-ef94-4ca9-8e85-1556b7f98d6e",
+                    "questionID": "d1204769-d84b-4723-85a3-4b7f2fcc2974",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Deadlock detection with single-instance resources uses cycle detection in graph models.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51b6819b-7657-4eb9-86a9-8966da83d71e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Each thread within a process has its own",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Heap",
+                    "type": "A"
+                },
+                {
+                    "body": "Code segment",
+                    "type": "B"
+                },
+                {
+                    "body": "Stack",
+                    "type": "C"
+                },
+                {
+                    "body": "Global variables",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "80aa4cc3-321a-4708-b9f4-3becf51d35d3",
+                    "questionID": "51b6819b-7657-4eb9-86a9-8966da83d71e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each thread requires a separate stack for function calls locals and returns.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "390d4f2e-8817-493a-b36e-c289f6fec206",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which approach avoids deadlock through preemption",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ostrich algorithm",
+                    "type": "A"
+                },
+                {
+                    "body": "Bankers algorithm",
+                    "type": "B"
+                },
+                {
+                    "body": "Lock-Free",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority inheritance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c0dbd468-777b-41d6-936c-aef7f038665f",
+                    "questionID": "390d4f2e-8817-493a-b36e-c289f6fec206",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bankers algorithm may preempt resource requests to maintain a safe state.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95e9ed49-75f1-4be6-a9a6-e997a992e9bf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is an advantage of shared memory over pipes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Synchronous communication",
+                    "type": "A"
+                },
+                {
+                    "body": "Kernel buffering",
+                    "type": "B"
+                },
+                {
+                    "body": "Faster inter-process data exchange",
+                    "type": "C"
+                },
+                {
+                    "body": "No need for semaphores",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "51b1d572-384c-457e-a7e8-6f277269ffc5",
+                    "questionID": "95e9ed49-75f1-4be6-a9a6-e997a992e9bf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shared memory avoids kernel involvement and works directly in user space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "565cb94d-29b7-47de-86ae-fce5952dcf70",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Binary semaphore “mutex” initialized to 1 is used to protect a resource. If a thread executes wait(mutex) and never signals what happens",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlock",
+                    "type": "A"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "B"
+                },
+                {
+                    "body": "Resource leak",
+                    "type": "C"
+                },
+                {
+                    "body": "Starvation of others",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "13546122-2c63-4fc1-b44c-195450931fff",
+                    "questionID": "565cb94d-29b7-47de-86ae-fce5952dcf70",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Without the signal the resource stays locked and no one else can proceed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9c4816a6-4d32-4b10-93bd-d88d732bd730",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which gets duplicated when a process is forked but not when a thread is created",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "File descriptors",
+                    "type": "A"
+                },
+                {
+                    "body": "Heap memory",
+                    "type": "B"
+                },
+                {
+                    "body": "Registers",
+                    "type": "C"
+                },
+                {
+                    "body": "Address space",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0411505a-8d6b-4e26-b204-1e32526cea82",
+                    "questionID": "9c4816a6-4d32-4b10-93bd-d88d732bd730",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threads share address space but each process fork has its own separate copy.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5141ba84-00a5-41f2-a23a-6ee445355542",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When two threads share a counter variable without synchronization which issue may occur",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlock",
+                    "type": "A"
+                },
+                {
+                    "body": "Race condition",
+                    "type": "B"
+                },
+                {
+                    "body": "Livelock",
+                    "type": "C"
+                },
+                {
+                    "body": "Memory leak",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b3c5490e-9619-4073-9f0b-fbcbd91c23da",
+                    "questionID": "5141ba84-00a5-41f2-a23a-6ee445355542",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Without mutual exclusion multiple threads may read/update the counter unpredictably.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "beda2f0f-2d3d-4d23-96df-a067001107ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When a process is selected as a victim in deadlock recovery by preemption what happens",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Release all its resources",
+                    "type": "A"
+                },
+                {
+                    "body": "Terminate entire system",
+                    "type": "B"
+                },
+                {
+                    "body": "Increase priority",
+                    "type": "C"
+                },
+                {
+                    "body": "Perform rollback/restart",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c932a5e9-6140-4a30-a610-bc3ade12b18a",
+                    "questionID": "beda2f0f-2d3d-4d23-96df-a067001107ad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Preemption means rolling back and releasing allocated resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b6006baf-1418-4bef-ba38-9e66d6a86d93",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which semaphore operation is atomic",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "P(V)",
+                    "type": "A"
+                },
+                {
+                    "body": "V(P)",
+                    "type": "B"
+                },
+                {
+                    "body": "wait()",
+                    "type": "C"
+                },
+                {
+                    "body": "Both P() and V()",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f72a81c3-fef6-4167-b6a0-9631f3769e4c",
+                    "questionID": "b6006baf-1418-4bef-ba38-9e66d6a86d93",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Both increment and decrement operations are atomic to ensure correctness.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "63973d04-47fc-4074-b54d-57b801a6773b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Deadlock detection in resource-allocation graph is not applicable to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Single-instance resources",
+                    "type": "A"
+                },
+                {
+                    "body": "Multi-instance resources",
+                    "type": "B"
+                },
+                {
+                    "body": "Singleton semaphores",
+                    "type": "C"
+                },
+                {
+                    "body": "Shared variables",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "393064d8-4118-4a1e-8312-4f60ac08e603",
+                    "questionID": "63973d04-47fc-4074-b54d-57b801a6773b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Detection only for resource allocation not for basic shared data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d2da406a-8c18-4291-8ccc-85fd8b9acedb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Petersons algorithm solves critical-section problem with only",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Semaphores",
+                    "type": "A"
+                },
+                {
+                    "body": "Busy waiting",
+                    "type": "B"
+                },
+                {
+                    "body": "Message passing",
+                    "type": "C"
+                },
+                {
+                    "body": "Shared variables",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "1a2969d9-a875-4ec6-869d-8991198d3435",
+                    "questionID": "d2da406a-8c18-4291-8ccc-85fd8b9acedb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Uses flag and turn variables—no semaphores or hardware",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "439bef52-3fa9-4335-a967-f08595906b40",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Bankers algorithm resource allocation state where safe sequence exists is called",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlocked",
+                    "type": "A"
+                },
+                {
+                    "body": "Safe",
+                    "type": "B"
+                },
+                {
+                    "body": "Unsafe",
+                    "type": "C"
+                },
+                {
+                    "body": "Starved",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ef97982b-8979-4613-87ff-316dc0b01506",
+                    "questionID": "439bef52-3fa9-4335-a967-f08595906b40",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Safe state means deadlock can be avoided with proper allocation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7b330445-bada-489a-a478-479610c134bc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is shared by all threads of a process",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stack",
+                    "type": "A"
+                },
+                {
+                    "body": "Program Counter",
+                    "type": "B"
+                },
+                {
+                    "body": "Address space",
+                    "type": "C"
+                },
+                {
+                    "body": "Thread ID",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2dfecb04-65e5-4ae3-afe1-e4ea6ec66979",
+                    "questionID": "7b330445-bada-489a-a478-479610c134bc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threads share address space global variables open files etc.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dd82d738-9a46-4903-9b65-860816b8fd75",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Binary semaphore initialized to 1 ensures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One process enters critical section; others busy wait",
+                    "type": "A"
+                },
+                {
+                    "body": "Counting of users",
+                    "type": "B"
+                },
+                {
+                    "body": "Deadlock freedom",
+                    "type": "C"
+                },
+                {
+                    "body": "Preemptive scheduling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dde98330-8466-4979-81e4-6a9019c1b7fc",
+                    "questionID": "dd82d738-9a46-4903-9b65-860816b8fd75",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Binary semaphores act like mutex locks with mutual exclusion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9704a8b8-97e8-4193-9601-f6d10d1224e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPC method offers asynchronous communication",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shared memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Message queues",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "C"
+                },
+                {
+                    "body": "Semaphores",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ed19992f-5c7a-45b8-9dab-3701cfa9be25",
+                    "questionID": "9704a8b8-97e8-4193-9601-f6d10d1224e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Message queues buffer messages so sender doesnt wait for receiver.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "90ed08df-236e-4ba6-b45d-7e9668ef78b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In visual IPC (like pipes) which direction is data flow",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Full-duplex",
+                    "type": "A"
+                },
+                {
+                    "body": "Half-duplex",
+                    "type": "B"
+                },
+                {
+                    "body": "Broadcast",
+                    "type": "C"
+                },
+                {
+                    "body": "No flow",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "58c720e0-2eca-4771-a660-dcdf7eb5dd74",
+                    "questionID": "90ed08df-236e-4ba6-b45d-7e9668ef78b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Standard UNIX pipes allow communication in one direction at a time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94ba00e4-1e22-4369-a2b6-9bd0aaad8406",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If there are 6 processes and 4 identical resources deadlock is possible if each process holds 1 resource and waits for 1 more. True or False",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "True",
+                    "type": "A"
+                },
+                {
+                    "body": "False",
+                    "type": "B"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a472c5da-42f1-4405-8d21-46524e199a29",
+                    "questionID": "94ba00e4-1e22-4369-a2b6-9bd0aaad8406",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "4 resources each process holds one  4 processes use resources others wait circular wait among active processes is possible.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "80ee5d6a-d31a-4429-88a4-f0903ee14c28",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not a necessary condition for deadlock",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutual exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": "No preemption",
+                    "type": "B"
+                },
+                {
+                    "body": "Circular wait",
+                    "type": "C"
+                },
+                {
+                    "body": "Busy waiting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "93985375-f512-43cd-a686-7dec7e372c2a",
+                    "questionID": "80ee5d6a-d31a-4429-88a4-f0903ee14c28",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Busy waiting is unrelated to deadlock conditions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6d669896-fcac-465f-88a5-ef960b8d5aec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which condition is not required for solving the critical-section problem",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutual exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": "Progress",
+                    "type": "B"
+                },
+                {
+                    "body": "Bounded waiting",
+                    "type": "C"
+                },
+                {
+                    "body": "Fairness",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0be5932a-6b1f-42ce-b218-cbd6cc165fca",
+                    "questionID": "6d669896-fcac-465f-88a5-ef960b8d5aec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Fairness (equal chance) is desirable but not strictly required",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5215479d-a087-4844-962a-00cc00f26f36",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Threads are more lightweight than processes mainly because they",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Share address space",
+                    "type": "A"
+                },
+                {
+                    "body": "Have separate file tables",
+                    "type": "B"
+                },
+                {
+                    "body": "Have independent PID",
+                    "type": "C"
+                },
+                {
+                    "body": "Require separate kernel data structures",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d0ad5a60-01f7-4834-bfba-097f39a672d3",
+                    "questionID": "5215479d-a087-4844-962a-00cc00f26f36",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threads share code data and OS resources of the process; processes do not.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b7d6121e-5cc0-44af-a840-8d4a73983be4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is not an advantage of using threads over processes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Lower context-switch overhead",
+                    "type": "A"
+                },
+                {
+                    "body": "Shared memory within process",
+                    "type": "B"
+                },
+                {
+                    "body": "Independent blocking on system calls",
+                    "type": "C"
+                },
+                {
+                    "body": "Faster creation/deletion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "80085142-3fa3-492d-8e8e-65d1d07e7fc0",
+                    "questionID": "b7d6121e-5cc0-44af-a840-8d4a73983be4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threads within same process block the entire process on certain system calls.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

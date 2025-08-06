@@ -1,0 +1,291 @@
+{
+    "bank_id": "a7792dca-d214-4faa-bb3f-5a3f32c502f1",
+    "bank_name": "hackwithinfymock-bank",
+    "questions": [
+        {
+            "id": "f30ed901-e599-4afd-9edc-dfe1a9e5f4d3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A group of N people are seated around a circular table to play a game.</p><p>The game involves jumping from one chair to another. Each person sitting on chair i can jump A[i] chairs to either the right or left in one jump where 0</p><p>&lt; i &lt; N+1. </p><p>Bob, sitting on chair X, needs to reach chair Y, where the escape door is located.</p><p>Find the minimum number of jumps required to reach chair Y from chair X. If this is impossible using the given jump distances, then return -1.</p><p>Input Format</p><p>The first line contains an integer, N, denoting the number of people playing the game.</p><p>The next line contains an integer, X, denoting the chair on which Bob is seated.</p><p>The next line contains an integer, Y, denoting the chair which Bob wants to reach.</p><p>Each line i of the N subsequent lines (where 1 ≤ i ≤ N) contains an integer describing A[i] is the number of chairs the person sitting in chair number i can</p><p>jump either right or left.</p><p>Constraints</p><p>1 &lt;= N &lt;= 10^5</p><p>1 &lt;= X &lt;= N</p><p>1 &lt;= Y &lt;= N</p><p>1 &lt;= A[i] &lt;= 10^5</p><p>Sample Test Cases</p><p>Case 1</p><p>Input:</p><p>5</p><p>5</p><p>1</p><p>1</p><p>2</p><p>3</p><p>2</p><p>4</p><p>Output:</p><p>1</p><p>Case 2</p><p>Input:</p><p>5</p><p>2</p><p>4</p><p>5</p><p>4</p><p>3</p><p>2</p><p>1</p><p>Output:</p><p>3</p><p>Case 3</p><p>Input:</p><p>6</p><p>2</p><p>3</p><p>2</p><p>2</p><p>2</p><p>2</p><p>2</p><p>2</p><p>Output:</p><p>-1</p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "HWI",
+                "BFS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "e2c08fa0-7ebc-43d0-8bb3-2bbd0ed3652b",
+                    "questionID": "f30ed901-e599-4afd-9edc-dfe1a9e5f4d3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        int N = sc.nextInt();    // Number of chairs\n        int X = sc.nextInt();    // Starting chair (1-indexed)\n        int Y = sc.nextInt();    // Target chair (1-indexed)\n\n        int[] A = new int[N];    // Jump values (0-indexed)\n        for (int i = 0; i < N; i++) {\n            A[i] = sc.nextInt();\n        }\n\n        // Convert 1-indexed chairs to 0-indexed\n        int start = X - 1;\n        int target = Y - 1;\n\n        int result = bfs(N, start, target, A);\n        System.out.println(result);\n    }\n\n    static int bfs(int N, int start, int target, int[] A) {\n        boolean[] visited = new boolean[N];\n        Queue<int[]> queue = new LinkedList<>();\n        queue.add(new int[]{start, 0});\n        visited[start] = true;\n\n        while (!queue.isEmpty()) {\n            int[] curr = queue.poll();\n            int chair = curr[0];\n            int steps = curr[1];\n\n            if (chair == target) return steps;\n\n            int jump = A[chair];\n            int right = (chair + jump) % N;\n            int left = (chair - jump + N) % N;\n\n            if (!visited[right]) {\n                visited[right] = true;\n                queue.add(new int[]{right, steps + 1});\n            }\n            if (!visited[left]) {\n                visited[left] = true;\n                queue.add(new int[]{left, steps + 1});\n            }\n        }\n        return -1; // unreachable\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "eb6b5301-9863-4406-a191-d991ee1b30cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>There is a battle between heroes and villains going on. You have M heroes, all of them have the same health H. There are N villains, health of the ith villain is Vi. When a hero, with health H battles a villain with health Vi, one of the three scenarios can happen:</p><p>if H &gt; Vi: The villain is defeated and the health of the hero is decreased by Vi</p><p>if H &lt; Vi: The villain wins, his health is not affected and the hero is no longer able to fight.</p><p>if H = Vi: Both of them are considered defeated and neither can fight.</p><p>The heroes start fighting villains one by one in the same order, first villain 1 then villain 2 and so on. It is might be possible that before defeating all the villains, all the heroes are defeated. Therefore, to ensure the victory of the heroes, you want to remove some villains from the front.</p><p>Your task is to find the minimum number of villains you need to remove from the front such that the victory of the heroes is guaranteed.</p><p>Note: If in the last battle, both the hero and villain are defeated and no more heroes or villains remain, it would still be considered a victory since all the villains are defeated.</p><p>Parameters:</p><p>N :: INTEGER</p><p>The first line contains an integer, N, denoting the number of villains</p><p>N :: 1 -&gt; 2*10^5</p><p>M :: INTEGER</p><p>The next line contains an integer, M, denoting the number of heroes</p><p>M :: 1 -&gt; 2*10^5</p><p>H :: INTEGER</p><p>The next line contains an integer, H, denoting the health of each of the heroes</p><p>H :: 1 -&gt; 10^9</p><p>array :: INTEGER ARRAY</p><p>Each line i of the N subsequent lines (where 0 ≤ i &lt; N) contains an integer describing the health of each of the villains.</p><p>array[i] :: 1 -&gt; 10^9</p><p>Case#: 1</p><p>Input:</p><p>4</p><p>4</p><p>3</p><p>3</p><p>1</p><p>3</p><p>3</p><p>Output:</p><p>0</p><p>[3, 1, 3, 3]. We have 4 heroes will health 3. The heroes 1 will fight villain 1. Both get defeated. The hero 2 fights villain 2. It wins the battle and now his health is 2. He fights the third villain and loses, the villain still has health 3. The hero 3 fights villain 3 and both get defeated. Hero 4 fights villain 4 and both get defeated. So no need to remove any villain.</p><p>Case#: 2</p><p>Input:</p><p>5</p><p>3</p><p>3</p><p>1</p><p>2</p><p>3</p><p>1</p><p>1</p><p>Output:</p><p>0</p><p>The fight will take place and hero 1 will defeat villain 1 and 2. Hero 2 will defeat villain 2. Hero 3 will defeat villain 3 and 4</p><p>Case#: 3</p><p>Input:</p><p>5</p><p>1</p><p>4</p><p>1</p><p>2</p><p>3</p><p>1</p><p>3</p><p>Output:</p><p>3</p><p>Only 1 hero is present with health 4. Since you can only remove villain from the front, you will have to remove the first 3 villains to ensure victory. The hero can fight the last 2 villain of health 1 and 3 respectively and win the battle.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Binary Search"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "9c0cd042-864e-4ba4-bbff-3d09d65a07b0",
+                    "questionID": "eb6b5301-9863-4406-a191-d991ee1b30cf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n\n    // Function to check if heroes can win starting from index `start`\n    static boolean canHeroesWin(int[] villains, int start, int m, int h) {\n        int heroIndex = 0;\n        int heroHealth = h;\n\n        for (int i = start; i < villains.length; i++) {\n            int villainHealth = villains[i];\n\n            if (heroHealth > villainHealth) {\n                heroHealth -= villainHealth;\n            } else if (heroHealth == villainHealth) {\n                heroIndex++;\n                if (heroIndex == m) {\n                    if (i == villains.length - 1) return true;\n                    return false;\n                }\n                heroHealth = h;\n            } else {\n                heroIndex++;\n                if (heroIndex == m) return false;\n                heroHealth = h;\n                i--; // This villain still remains since hero lost\n            }\n        }\n        return true;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Input format\n        int n = sc.nextInt(); // Number of villains\n        int m = sc.nextInt(); // Number of heroes\n        int h = sc.nextInt(); // Health of each hero\n\n        int[] villains = new int[n];\n        for (int i = 0; i < n; i++) {\n            villains[i] = sc.nextInt();\n        }\n\n        // Binary search on minimum number of villains to remove from front\n        int low = 0, high = n, answer = n;\n        while (low <= high) {\n            int mid = (low + high) / 2;\n            if (canHeroesWin(villains, mid, m, h)) {\n                answer = mid;\n                high = mid - 1; // try to remove fewer\n            } else {\n                low = mid + 1;\n            }\n        }\n\n        System.out.println(answer);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "d2aa7399-5603-4dfe-9797-81d2d113699e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>There is a restaurant that offers different types of dishes.</p><p>Your friend knows that there are exactly N dishes in the restaurant.</p><p>The type of the dishes is described by an array Arr. This means that if two elements of Arr have the same value, then they are from the same type.</p><p>Your friend wants to eat as many dishes as possible. However, your friend will never order more than one serving of a particular dish.</p><p>It is given that the restaurant will not let you order the dishes of the same type more than once. Moreover, if you order A dishes in the restaurant your next order must contain (2*A) dishes. It is also given that the restaurant does not accept orders containing more than one type of dishes in the same order.</p><p>Your friend can start eating with any number of dishes. Find the maximum number of dishes that your friend can eat.</p><p>Notes:</p><p>Your friend is a foodie and can eat any amount of food that is served to him by the restaurant.</p><p>Parameters:</p><p>N :: INTEGER</p><p>The first line contains an integer, N, denoting the number of</p><p>elements in Arr.</p><p>N :: 1 -&gt; 10^5</p><p>Arr :: INTEGER ARRAY</p><p>Each line i of the N subsequent lines (where 0 ≤ i &lt; N) contains an</p><p>integer describing Arr[i].</p><p>Arr[i] :: 1 -&gt; 10^9</p><p>Case#: 1</p><p>Input:</p><p>5</p><p>1</p><p>2</p><p>4</p><p>2</p><p>3</p><p>Output:</p><p>3</p><p>N=5</p><p>A=[1,2,4,2,3]</p><p>For example, start with type 1 or 4, then double the amount by eating two of type 2 dishes.</p><p>Case#: 2</p><p>Input:</p><p>7</p><p>2</p><p>2</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>Output:</p><p>6</p><p>N=7</p><p>A=[2,2,1,1,1,1,1]</p><p>Start with eating two dishes of type 2, then eat four dishes of type 1.</p><p>Note that you can’t start with one dish of type one, then two dishes of type 2, and get back to eat to a dish of size 1 again, your friend cannot eat the same type of dishes multiple times.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "HWI",
+                "PriorityQueue"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "0c31ee15-2793-4f83-a04f-87cfc70d0895",
+                    "questionID": "d2aa7399-5603-4dfe-9797-81d2d113699e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n\n    public static int maxDishesEaten(int[] arr) {\n        // Frequency map: type -> count\n        Map<Integer, Integer> freqMap = new HashMap<>();\n        for (int type : arr) {\n            freqMap.put(type, freqMap.getOrDefault(type, 0) + 1);\n        }\n\n        // Get all frequencies sorted (for greedy processing)\n        List<Integer> freqs = new ArrayList<>(freqMap.values());\n        Collections.sort(freqs);\n\n        int maxDishes = 0;\n\n        // Try starting count from 1 to max frequency\n        for (int start = 1; start <= Collections.max(freqs); start++) {\n            int count = start;\n            int total = 0;\n\n            // Copy of frequency list to simulate available dish types\n            PriorityQueue<Integer> pq = new PriorityQueue<>(freqs);\n\n            while (!pq.isEmpty()) {\n                // Find the smallest type that can serve at least `count` dishes\n                PriorityQueue<Integer> nextPQ = new PriorityQueue<>();\n                boolean used = false;\n\n                while (!pq.isEmpty()) {\n                    int available = pq.poll();\n                    if (!used && available >= count) {\n                        total += count;\n                        used = true;\n                    } else {\n                        nextPQ.add(available);\n                    }\n                }\n\n                if (!used) break; // no type could serve this round\n                count *= 2;\n                pq = nextPQ;\n            }\n\n            maxDishes = Math.max(maxDishes, total);\n        }\n\n        return maxDishes;\n    }\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int N = sc.nextInt();\n        int[] Arr = new int[N];\n        for (int i = 0; i < N; i++) {\n            Arr[i] = sc.nextInt();\n        }\n        System.out.println(maxDishesEaten(Arr));\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "836c1fe5-7815-4cdc-8352-e1dc30094e4d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Today you decided to go to the gym. You currently have E energy.</p><p>There are N exercises in the gym. Each of these exercises drains Ai amount of energy from your body. You feel tired if your energy reaches 0 or below. Calculate the minimum number of exercises you have to perform such that you become tired. Every unique exercise can only be performed at most 2 times as others also have to use the machines. If performing all the exercises does not make you feel tired, return -1.</p><p>Parameters:</p><p>E :: INTEGER</p><p>The first line contains an integer, E, denoting the Energy.</p><p>E :: 1 -&gt; 10^5</p><p>N :: INTEGER</p><p>The next line contains an integer, N, denoting the number of</p><p>exercises.</p><p>N :: 1 -&gt; 10^5</p><p>A :: INTEGER ARRAY</p><p>Each line i of the N subsequent lines (where 0 ≤ i &lt; N) contains an</p><p>integer describing the amount of energy drained by ith exercise.</p><p>A[i] :: 1 -&gt; 10^5</p><p><br></p><p>Case#: 1</p><p>Input:</p><p>6</p><p>2</p><p>1</p><p>2</p><p>Output:</p><p>4</p><p>E = 6</p><p>Do 1st exercise 2 times</p><p>Do 2nd exercise 2 times</p><p>Hence, total exercise done 4.</p><p>Case#: 2</p><p>Input:</p><p>10</p><p>2</p><p>1</p><p>2</p><p>Output:</p><p>-1</p><p>E = 10</p><p>By doing both the exercises 2 times you won’t feel tired</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "greedy",
+                "HWI"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "18844f6a-7b25-4715-b70c-b839aacf0a1c",
+                    "questionID": "836c1fe5-7815-4cdc-8352-e1dc30094e4d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read energy E\n        int E = sc.nextInt();\n\n        // Read number of exercises N\n        int N = sc.nextInt();\n\n        // Read energy drain for each exercise\n        int[] A = new int[N];\n        for (int i = 0; i < N; i++) {\n            A[i] = sc.nextInt();\n        }\n\n        // Call and print result\n        int result = minExercisesToGetTired(E, A);\n        System.out.println(result);\n    }\n\n    public static int minExercisesToGetTired(int E, int[] A) {\n        List<Integer> allUses = new ArrayList<>();\n\n        // Each exercise can be used at most 2 times\n        for (int energy : A) {\n            allUses.add(energy); // First use\n            allUses.add(energy); // Second use\n        }\n\n        // Sort in descending order to use max energy drain first\n        allUses.sort(Collections.reverseOrder());\n\n        int count = 0;\n        for (int drain : allUses) {\n            E -= drain;\n            count++;\n            if (E <= 0) {\n                return count;\n            }\n        }\n\n        // If energy never went to 0 or below\n        return -1;\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "a987a9ef-0d80-4ebc-9927-44d867343602",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given a graph with n nodes. Initially, the graph is disconnected, meaning it contains zero edges.</p><p>Each node has a value written on it such that the ith node has a value i. We say that a range [l, r] is covered in a set s, if for each i from l to r, i appears in s.</p><p>Now, let’s define beauty(s), as the minimum number of covered ranges, such that each element of s belongs to at least one of these ranges. For</p><p>example: beauty([1, 2, 4, 5, 8, 11]) = 4 (covered ranges are [1, 2], [4, 5], [8] and [11]).</p><p>You have to process q queries that are either of the following types:</p><p>• Type 1 - (1, i, j): Add an edge between i and j.</p><p>• Type 2 - (2, u, 0): Find the number of covered ranges in the connected component of u.</p><p>Find the sum of answers to all type 2 queries. </p><p>Sample Input 1</p><p>2</p><p>1</p><p>3</p><p>2 1 0</p><p>Sample Output 1</p><p>1</p><p>Sample Output Description 1</p><p>Here, n = 2, q = 1, t = 3</p><p>queries = [[2, 1, 0]]</p><p>for query1 -&gt; As there are no edges in the graph, the connected component of 1 contain only node 1. only one covered range required i.e. [1, 1]</p><p>Hence, answer for this query is 1. So, the answer is 1.</p><p>Sample Input 2</p><p>2</p><p>3</p><p>3</p><p>2 1 0</p><p>1 1 2</p><p>2 1 0</p><p>Sample Output 2</p><p>2</p><p><br></p><p>Sample Output Description 2</p><p>Here, n = 2, q = 3, t = 3</p><p>queries = [[2, 1, 0], [1, 1, 2], [2, 1, 0]]</p><p>for query1 -&gt; (2, 1, 0) connected component of 1 = {1} only one covered range required i.e. [1, 1] Hence, answer for this query is 1.</p><p>for query2 -&gt; (1, 1, 2) Add an edge between 1 and 2. for query3 -&gt; (2, 1, 0) connected component of 1 = {1, 2} only one covered range required i.e. [1, 2]</p><p>Hence, answer for this query is 1.</p><p>So, the answer is 1 + 1 = 2.</p><p><br></p><p>Input Format</p><p>The first line contains an integer, n, denoting the size of the graph.</p><p>The next line contains an integer, q, denoting the number of rows in queries.</p><p>The next line contains an integer, t, denoting the number of columns in queries.</p><p>Each line i of the q subsequent lines (where 0 ≤ i &lt; q) contains t space separated integers each describing the row queries[i].</p><p>Constraints</p><p>1 &lt;= n &lt;= 10^5</p><p>1 &lt;= q &lt;= 10^5</p><p>3 &lt;= t &lt;= 3</p><p>0 &lt;= queries[i][j] &lt;= n</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "DSU"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "3a7b0ad8-f9fc-4260-8a6c-07077e3e9762",
+                    "questionID": "a987a9ef-0d80-4ebc-9927-44d867343602",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.io.BufferedReader;\nimport java.io.IOException;\nimport java.io.InputStreamReader;\nimport java.util.ArrayList;\nimport java.util.List;\nimport java.util.StringTokenizer;\n\npublic class Solution {\n\n    static int[] parent;\n    static int[] size;\n    static int[] beauty;\n    static List<Integer>[] members;\n    static int n;\n\n    // Find operation with path compression\n    public static int findSet(int v) {\n        if (v == parent[v]) {\n            return v;\n        }\n        return parent[v] = findSet(parent[v]);\n    }\n\n    // Unite operation with union-by-size\n    public static void uniteSets(int a, int b) {\n        int rootA = findSet(a);\n        int rootB = findSet(b);\n\n        if (rootA != rootB) {\n            // Union-by-size: merge smaller component into larger one\n            if (size[rootA] < size[rootB]) {\n                int temp = rootA;\n                rootA = rootB;\n                rootB = temp;\n            }\n\n            // New beauty = sum of old beauties - reduction from new connections\n            int reduction = 0;\n            // Iterate through the smaller component to find new adjacencies\n            for (int node : members[rootB]) {\n                // Check for adjacency with the larger component\n                if (node > 1 && findSet(node - 1) == rootA) {\n                    reduction++;\n                }\n                if (node < n && findSet(node + 1) == rootA) {\n                    reduction++;\n                }\n            }\n\n            // Update beauty of the new root\n            beauty[rootA] += beauty[rootB] - reduction;\n\n            // Perform the merge\n            parent[rootB] = rootA;\n            size[rootA] += size[rootB];\n            members[rootA].addAll(members[rootB]);\n            members[rootB].clear(); // Free up memory\n        }\n    }\n\n    @SuppressWarnings(\"unchecked\")\n    public static void main(String[] args) throws IOException {\n        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));\n\n        // Reading input according to the unusual sample format\n        String nStr = br.readLine();\n        if (nStr == null || nStr.isEmpty()) return;\n\n        n = Integer.parseInt(nStr);\n        int q = Integer.parseInt(br.readLine());\n        br.readLine(); // Skip the third unused number\n\n        parent = new int[n + 1];\n        size = new int[n + 1];\n        beauty = new int[n + 1];\n        members = new ArrayList[n + 1];\n\n        // Initialization\n        for (int i = 1; i <= n; i++) {\n            parent[i] = i;\n            size[i] = 1;\n            beauty[i] = 1;\n            members[i] = new ArrayList<>();\n            members[i].add(i);\n        }\n\n        long totalAnswer = 0;\n\n        for (int k = 0; k < q; k++) {\n            StringTokenizer st = new StringTokenizer(br.readLine());\n            int type = Integer.parseInt(st.nextToken());\n\n            if (type == 1) {\n                int u = Integer.parseInt(st.nextToken());\n                int v = Integer.parseInt(st.nextToken());\n                uniteSets(u, v);\n            } else { // type == 2\n                int u = Integer.parseInt(st.nextToken());\n                int root = findSet(u);\n                totalAnswer += beauty[root];\n            }\n        }\n\n        System.out.println(totalAnswer);\n    }\n}",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "d29caddc-f968-4008-bb21-b72a38ff74a1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A company ABC has N employees.</p><p>For some reason, the company’s building is a bit weird.</p><p><br></p><p>• It has one office on each floor and in each office works one employee.</p><p>• Each employee i works on the ith floor and has skill Ai.</p><p>• Each employee can belong to at most one team.</p><p>• Each team should have employees working in consecutive floors from i to j. In other words, the teams should be divided in such a way that no employee of one team can walk into the project space of another team.</p><p><br></p><p>ABC uses a metric which is called the expert number which is calculated as the sum of all the absent expert values from each team of employees.</p><p>The absent expert value of each team is the first skill starting from 0 which is not present in the team. It is given that a bigger expert number is a better</p><p>expert number. Hence, you need to divide the employees into teams such that the company’s expert number is as large as possible.</p><p><br></p><p>Find the maximum expert number that can be obtained.</p><p><br></p><p>Sample Input 1</p><p>4</p><p>0</p><p>2</p><p>1</p><p>1</p><p>Sample Output 1</p><p>3</p><p>Sample Output Description 1</p><p>Here, N = 4</p><p>A = [0, 2, 1, 1]</p><p>We can divide the employees in the following teams</p><p>-&gt; [0, 2, 1], [1]</p><p>expert value of team [0, 2, 1] = 3</p><p>expert value of team [1] = 0</p><p>So, expert number = 3+0 = 3</p><p>Please note that there is no other way to divide the employees such that expert number is greater than 3.</p><p>Hence, the maximum value of expert number is 3.</p><p><br></p><p>Sample Input 2</p><p>5</p><p>0</p><p>1</p><p>2</p><p>1</p><p>0</p><p>Sample Output 2</p><p>5</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Dynamic Programming"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "bcb2c764-d90a-4e92-9c8d-34e3c0aded1b",
+                    "questionID": "d29caddc-f968-4008-bb21-b72a38ff74a1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.HashSet;\nimport java.util.Scanner;\nimport java.util.Set;\n\npublic class Solution {\n\n    public static int calculateAbsentExpert(int[] skills) {\n        Set<Integer> seenSkills = new HashSet<>();\n        for (int skill : skills) {\n            seenSkills.add(skill);\n        }\n\n        int expertValue = 0;\n        while (seenSkills.contains(expertValue)) {\n            expertValue++;\n        }\n        return expertValue;\n    }\n\n    public static int maxExpertNumber(int N, int[] A) {\n        int[] dp = new int[N + 1];\n\n        for (int i = 1; i <= N; i++) {\n            for (int j = 0; j < i; j++) {\n                int[] currentTeamSkills = new int[i - j];\n                for (int k = 0; k < (i - j); k++) {\n                    currentTeamSkills[k] = A[j + k];\n                }\n\n                int currentExpertValue = calculateAbsentExpert(currentTeamSkills);\n\n                dp[i] = Math.max(dp[i], dp[j] + currentExpertValue);\n            }\n        }\n        return dp[N];\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        int N = scanner.nextInt();\n        int[] A = new int[N];\n        for (int i = 0; i < N; i++) {\n            A[i] = scanner.nextInt();\n        }\n\n        int result = maxExpertNumber(N, A);\n        System.out.println(result);\n\n        scanner.close();\n    }\n}",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "0e85781b-7aef-41af-a812-2e49ee70409a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You’re given an array A of n integers and q queries.</p><p>Each query can be one of the following two types:</p><p>• Type 1 Query: (1, l, r) - Replace A[i] with (i-l+1)*A[l] for each index i, where l &lt;= i &lt;= r.</p><p>• Type 2 Query: (2, l, r) - Calculate the sum of the elements in A from index l to index r.</p><p>Find the sum of answers to all type 2 queries. Since answer can be large, return it modulo 10^9+7.</p><p>Sample Input 1</p><p>7</p><p>1</p><p>4</p><p>5</p><p>1</p><p>6</p><p>7</p><p>8</p><p>5</p><p>1 1 6</p><p>1 1 5</p><p>2 5 5</p><p>2 3 4</p><p>2 3 3</p><p>Sample Output 1</p><p>60</p><p>Sample Output Description 1</p><p>Here, n = 7</p><p>A = [1, 4, 5, 1, 6, 7, 8]</p><p>q = 5</p><p>queries = [[1, 1, 6], [1, 1, 5], [2, 5, 5], [2, 3, 4], [2, 3, 3]]</p><p>for query 1 -&gt; (1, 1, 6) Applying the operation on subarray from index 1 to 6, A becomes, A = [1, 4, 8, 12, 16, 20, 24]</p><p>for query 2 -&gt; (1, 1, 5) Applying the operation on subarray from index 1 to 5, A becomes, A = [1, 4, 8, 12, 16, 20, 24]</p><p>for query 3 -&gt; (2, 5, 5) calculate sum of array from index 5 to 5 -&gt; sum = A[5] = 20</p><p>for query 4 -&gt; (2, 3, 4) calculate sum of array from index 3 to 4 -&gt; sum = A[3]+A[4] = 28</p><p>for query 5 -&gt; (2, 3, 3) calculate sum of array from index 3 to 3 -&gt; sum  A[3] = 12</p><p>Hence, answer is 20+28+12 = 60</p><p><br></p><p>Sample Input 2</p><p>7</p><p>3</p><p>7</p><p>4</p><p>2</p><p>5</p><p>3</p><p>7</p><p>5</p><p>1 0 4</p><p>2 0 1</p><p>1 3 6</p><p>2 3 3</p><p>2 0 5</p><p>Sample Output 2</p><p>111</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "HackWithInfy",
+                "RangeQuery"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "b854de5e-ef81-480e-9e14-575bd02e2918",
+                    "questionID": "0e85781b-7aef-41af-a812-2e49ee70409a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    static final int MOD = 1_000_000_007;\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n\n        // Read array size\n        int n = sc.nextInt();\n        int[] A = new int[n];\n\n        // Read array elements\n        for (int i = 0; i < n; i++) {\n            A[i] = sc.nextInt();\n        }\n\n        // Read number of queries\n        int q = sc.nextInt();\n\n        long totalSum = 0;\n\n        // Process each query\n        for (int i = 0; i < q; i++) {\n            int type = sc.nextInt();\n            int l = sc.nextInt() ;  // Convert to 0-based index\n            int r = sc.nextInt() ;\n\n            if (type == 1) {\n                int base = A[l];\n                for (int j = l; j <= r; j++) {\n                    A[j] = (int)(((long)(j - l + 1) * base) % MOD);\n                }\n            } else if (type == 2) {\n                long sum = 0;\n                for (int j = l; j <= r; j++) {\n                    sum = (sum + A[j]) % MOD;\n                }\n                totalSum = (totalSum + sum) % MOD;\n            }\n        }\n\n        // Output the final result\n        System.out.println(totalSum);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "a0a30f40-4373-4cf0-b6a3-8f154b5da820",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Bob is playing a game called “Some Help”.</p><p>In this game, there are N soldiers, where N is an even number. There are also N treasure chests, each with a bonus value given by the array Bonus. Here,</p><p>Bonus[i] denotes the bonus value for the ith chest. The power of each soldier is described by an array A of size N. For each i, the power of the ith soldier</p><p>is an integer between 1 and N/2, and each number between 1 and N/2 occurs exactly twice in A.</p><p>The game has N rounds and each round proceeds as follows:</p><p>1. For each ith player, Bob finds the first player on their right whose power is a multiple of the power of the ith player. Let’s call this player R.</p><p>2. If no such player R is found, Bob does nothing.</p><p>3. If such a player R is found, Bob can choose a chest in the range [i, R] that gives the maximum bonus. Let’s call the bonus of this chest as X.</p><p>4. The total XP is initially zero and for each round it is increased by X.</p><p><br></p><p>Find the total XP that Bob can obtain from all N rounds.</p><p>Note:</p><p>• Each treasure chest can be used any number of times.</p><p>Input Format</p><p>The first line contains an integer, N, denoting the number of elements in A.</p><p>Each line i of the N subsequent lines (where 1 ≤ i ≤ N) contains an integer describing A[i].</p><p>Each line i of the N subsequent lines (where 1 ≤ i ≤ N) contains an integer describing Bonus[i].</p><p>Constraints</p><p>1 &lt;= N &lt;= 10^5</p><p>1 &lt;= A[i] &lt;= 10^5</p><p>1 &lt;= Bonus[i] &lt;= 10^5</p><p><br></p><p>Sample Test Cases</p><p>Case 1</p><p>Input:</p><p>4</p><p>1</p><p>1</p><p>2</p><p>2</p><p>4</p><p>8</p><p>2</p><p>1</p><p>Output:</p><p>18</p><p>Explanation:</p><p>Given N = 4, A = [1, 1, 2, 2], Bonus = [4, 8, 2, 1].</p><p>1. For the first soldier (power 1):</p><p>The next soldier to the right with a power that is a multiple of 1 is the second soldier (power 1).</p><p>The maximum bonus in the range [1st soldier, 2nd soldier] is 8.</p><p>Add 8 to the total XP</p><p>2. For the second soldier (power 1):</p><p>The next soldier to the right with a power that is a multiple of 1 is the third soldier (power 2).</p><p>The maximum bonus in the range [2nd soldier, 3rd soldier] is 8. Add 8 to the total XP.</p><p>3. For the third soldier (power 2):</p><p>The next soldier to the right with a power that is a multiple of 2 is the fourth soldier (power 2).</p><p>The maximum bonus in the range [3rd soldier, 4th soldier] is 2. Add 2 to the total XP.</p><p>4. The fourth soldier (power 2) has no subsequent soldiers to the right with a power that is a multiple of 2, so no bonus is added.</p><p>Total XP = 8 (from soldier 1) + 8 (from soldier 2) +2 (from soldier 3) = 18</p><p>Therefore, the total XP that Bob can get from N rounds is 18.</p><p><br></p><p>Case 2</p><p>Input:</p><p>6</p><p>1</p><p>2</p><p>3</p><p>1</p><p>2</p><p>3</p><p>4</p><p>2</p><p>1</p><p>4</p><p>5</p><p>9</p><p>Output:</p><p>23</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "HackWithInfy",
+                "Segment Tree"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "b717614c-fef3-480b-b03d-8255be4cfbf5",
+                    "questionID": "a0a30f40-4373-4cf0-b6a3-8f154b5da820",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    static int[] A, Bonus;\n    static int[] segTree;\n    static int n;\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        n = sc.nextInt();\n\n        A = new int[n];\n        Bonus = new int[n];\n\n        for (int i = 0; i < n; i++) A[i] = sc.nextInt();\n        for (int i = 0; i < n; i++) Bonus[i] = sc.nextInt();\n\n        buildSegmentTree();\n\n        long xp = 0;\n        for (int i = 0; i < n; i++) {\n            int r = -1;\n            for (int j = i + 1; j < n; j++) {\n                if (A[j] % A[i] == 0) {\n                    r = j;\n                    break;\n                }\n            }\n\n            if (r != -1) {\n                int maxBonus = rangeMax(i, r);\n                xp += maxBonus;\n            }\n        }\n\n        System.out.println(xp);\n    }\n\n    // ------------------ Segment Tree for Range Max ------------------\n    static void buildSegmentTree() {\n        int size = 4 * n;\n        segTree = new int[size];\n        build(0, 0, n - 1);\n    }\n\n    static void build(int node, int l, int r) {\n        if (l == r) {\n            segTree[node] = Bonus[l];\n            return;\n        }\n        int mid = (l + r) / 2;\n        build(2 * node + 1, l, mid);\n        build(2 * node + 2, mid + 1, r);\n        segTree[node] = Math.max(segTree[2 * node + 1], segTree[2 * node + 2]);\n    }\n\n    static int rangeMax(int ql, int qr) {\n        return query(0, 0, n - 1, ql, qr);\n    }\n\n    static int query(int node, int l, int r, int ql, int qr) {\n        if (r < ql || l > qr) return Integer.MIN_VALUE;\n        if (ql <= l && r <= qr) return segTree[node];\n\n        int mid = (l + r) / 2;\n        int left = query(2 * node + 1, l, mid, ql, qr);\n        int right = query(2 * node + 2, mid + 1, r, ql, qr);\n        return Math.max(left, right);\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        },
+        {
+            "id": "ee1c9671-8b01-4bee-b05d-ff4604459927",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>You are given a permutation p of length n and an integer m. You now need to construct a directed graph from the given permutation.</p><p><br></p><p>It is given that an edge exists between i and j if ai &lt; aj and abs(i - j) &lt;= k, where abs(x) is the absolute value of x.</p><p><br></p><p>Find the minimum value of k such that the longest path of the resulting graph is greater than or equal to m.</p><p><br></p><p>Notes:</p><p>• The length of the path is equal to the number of nodes in that path.</p><p><br></p><p>Sample Input 1</p><p>5</p><p>2</p><p>1</p><p>3</p><p>2</p><p>5</p><p>4</p><p>Sample Output 1</p><p>1</p><p>Sample Output Description 1</p><p>Here, n = 5, m = 2</p><p>p = [1, 3, 2, 5, 4]</p><p>If k &gt;= 1 then, directed edge 1 -&gt; 2 exists, so, we can take the path 1 -&gt; 2.</p><p>Hence, the minimum value of k required is 1.</p><p>So, answer is 1.</p><p><br></p><p>Sample Input 2</p><p>5</p><p>3</p><p>1</p><p>3</p><p>2</p><p>5</p><p>4</p><p><br></p><p>Sample Output 2</p><p>2</p><p>Sample Output Description 2</p><p>Here, n = 5, m = 3</p><p>p = [1 ,3, 2, 5, 4]</p><p>If k &gt;= 2, then we can take the path 1 -&gt; 2 -&gt; 3.</p><p>Hence, the minimum value of k required is 2.</p><p>So, the answer is 2.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "HackWithInfy",
+                "Graph"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": null,
+            "solution": [
+                {
+                    "id": "ef463f66-4894-466a-b36c-0d2a8bb247f1",
+                    "questionID": "ee1c9671-8b01-4bee-b05d-ff4604459927",
+                    "name": "Solution 1",
+                    "programmingLanguage": "java",
+                    "details": "import java.util.*;\n\npublic class Solution {\n    static int[] p;\n    static int n, m;\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        n = sc.nextInt();\n        m = sc.nextInt();\n        p = new int[n];\n        for (int i = 0; i < n; i++) {\n            p[i] = sc.nextInt();\n        }\n\n        int low = 0, high = n, answer = n;\n\n        while (low <= high) {\n            int mid = (low + high) / 2;\n            if (isValid(mid)) {\n                answer = mid;\n                high = mid - 1;\n            } else {\n                low = mid + 1;\n            }\n        }\n\n        System.out.println(answer);\n    }\n\n    // Check if with distance k, we can get a path of length >= m\n    private static boolean isValid(int k) {\n        List<List<Integer>> graph = new ArrayList<>();\n        for (int i = 0; i < n; i++) graph.add(new ArrayList<>());\n\n        // Build the graph\n        for (int i = 0; i < n; i++) {\n            for (int j = Math.max(0, i - k); j <= Math.min(n - 1, i + k); j++) {\n                if (i != j && p[i] < p[j]) {\n                    graph.get(i).add(j);\n                }\n            }\n        }\n\n        // Find longest path using DFS + memo\n        int[] dp = new int[n];\n        boolean[] visited = new boolean[n];\n        int maxLen = 0;\n\n        for (int i = 0; i < n; i++) {\n            maxLen = Math.max(maxLen, dfs(i, graph, dp, visited));\n            if (maxLen >= m) return true;\n        }\n\n        return false;\n    }\n\n    private static int dfs(int node, List<List<Integer>> graph, int[] dp, boolean[] visited) {\n        if (visited[node]) return dp[node];\n        visited[node] = true;\n\n        int maxPath = 1;\n        for (int nei : graph.get(node)) {\n            maxPath = Math.max(maxPath, 1 + dfs(nei, graph, dp, visited));\n        }\n\n        return dp[node] = maxPath;\n    }\n}\n",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true,
+                    "timeLimit": 4000,
+                    "memoryLimit": 512
+                }
+            ]
+        }
+    ]
+}

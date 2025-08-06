@@ -1,0 +1,1386 @@
+{
+    "bank_id": "a2055978-f513-4a56-965a-16486f50a3c1",
+    "bank_name": "Code Output MCQs",
+    "questions": [
+        {
+            "id": "8e5a7471-b7b9-4b7b-a069-b206c8110994",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int n = 9; // 1001</p><p>int res = 0;</p><p>for (int i = 0; i &lt; 4; i++) {</p><p>    res &lt;&lt;= 1;</p><p>    res |= (n &amp; 1);</p><p>    n &gt;&gt;= 1;</p><p>}</p><p>System.out.println(res);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 6</p><p><br></p><p>B) 9</p><p><br></p><p>C) 12</p><p><br></p><p>D) 3</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Reverse bits of 4-bit number java Copy Edit"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1a16fe63-66c6-485e-8cee-fe3f5059154a",
+                    "questionID": "8e5a7471-b7b9-4b7b-a069-b206c8110994",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<h3><strong>Explanation:</strong></h3><ul><li><br></li><li><br></li><li>This code <strong>reverses the last 4 bits</strong> of <code>n = 1001</code> (binary for 9).</li><li><br></li><li><br></li><li><br></li><li>Iteration-wise, bits processed: 1 → 0 → 0 → 1 → builds <code>res = 1001</code> → reversed to <code>1001</code></li><li><br></li><li><br></li><li><br></li><li>So <code>res = 9</code></li><li><br></li><li><br></li></ul><p>✅ <strong>Answer: B) 9</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e88f1004-6844-4103-a0b4-301bb985d133",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int a = 8, b = 0;</p><p>boolean oneBitDiff = (a ^ b) != 0 &amp;&amp; ((a ^ b) &amp; ((a ^ b) - 1)) == 0;</p><p>System.out.println(oneBitDiff);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) true</p><p><br></p><p>B) false</p><p><br></p><p>C) error</p><p><br></p><p>D) sometimes true</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Check if 2 numbers differ at exactly one bit java Copy Edit"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6efb205b-ee7d-414c-91b8-4e8901654585",
+                    "questionID": "e88f1004-6844-4103-a0b4-301bb985d133",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) true</p><p><strong>Explanation:</strong></p><p><br></p><p>a ^ b = 1000</p><p><br></p><p>Is a power of 2 → true</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8bb14f03-5664-4981-94d3-6c1ea8ee9062",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int n = 29, count = 0;</p><p>while (n &gt; 0) {</p><p>    n = n &amp; (n - 1);</p><p>    count++;</p><p>}</p><p>System.out.println(count);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 2</p><p><br></p><p>B) 3</p><p><br></p><p>C) 4</p><p><br></p><p>D) 5</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Count Set Bits"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1d53c156-1642-4518-b478-49996f6b1aa7",
+                    "questionID": "8bb14f03-5664-4981-94d3-6c1ea8ee9062",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) 4</p><p><strong>Explanation:</strong></p><p><br></p><p>29 = 11101 → 4 bits set → each <code>n &amp; (n-1)</code> removes one set bit</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3023691b-21e9-4540-8917-9ad0d16e6ec4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int[] arr = {2, 3, 2, 4, 4};</p><p>int res = 0;</p><p>for (int x : arr) res ^= x;</p><p>System.out.println(res);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 3</p><p><br></p><p>B) 2</p><p><br></p><p>C) 4</p><p><br></p><p>D) 0</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "XOR"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9f7861de-aece-49c5-a3fd-6ed4b2cd1527",
+                    "questionID": "3023691b-21e9-4540-8917-9ad0d16e6ec4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) 3</p><p><strong>Explanation:</strong> XOR of duplicates cancels out</p><p><br></p><p>→ 2^2^3^4^4 = 3</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6b2f8e52-9ac4-4fc1-b8f5-8f99a8c3bb8a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: inherit;\">Choose the equivalent prefix form of the following expression (a + (b − c))* ((d − e)/(f + g − h))</span></p><p>A) <span style=\"color: inherit;\">* +a − bc /− de − +fgh</span></p><p>B) <span style=\"color: inherit;\">* +a −bc − /de − +fgh</span></p><p>C) <span style=\"color: inherit;\">* +a − bc /− ed + −fgh</span></p><p>D) <span style=\"color: inherit;\">* +ab − c /− ed + −fgh</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Notation"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "116f7f63-c0d5-4eb7-865c-d51acaf0383d",
+                    "questionID": "6b2f8e52-9ac4-4fc1-b8f5-8f99a8c3bb8a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation</strong></p><p>We can write the prefix form of the expression as: (a + (b − c))* ((d − e) / (f + g − h)) = (a + (- b c)) * ((- d e) / ( + f g - h)) = (+ a - b c) * ((- d e) / (- + f g h) = (+ a - b c) * (/ - d e - + f g h) = * + a - b c / - d e - + f g h</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "480c632b-fe1f-44e6-b45f-fcd28486aff2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: inherit;\">Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an initially empty binary search tree. The binary search tree uses the reversal ordering on natural numbers i.e. 9 is assumed to be smallest and 0 is assumed to be largest. The in-order traversal of the resultant binary search tree is</span></p><p>A) <span style=\"color: inherit;\">9, 8, 6, 4, 2, 3, 0, 1, 5, 7</span></p><p>B) <span style=\"color: inherit;\">0, 1, 2, 3, 4, 5, 6, 7, 8, 9</span></p><p>C) <span style=\"color: inherit;\">0, 2, 4, 3, 1, 6, 5, 9, 8, 7</span></p><p>D) <span style=\"color: inherit;\">9, 8, 7, 6, 5, 4, 3, 2, 1, 0</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "tree traversal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2e671912-5ee1-40a6-b4bf-3a1df099c4ed",
+                    "questionID": "480c632b-fe1f-44e6-b45f-fcd28486aff2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation</strong></p><p>Inorder traversal of a binary search tree always produces the keys in increasing order. In this question Reverse ordering of natural numbers are used i.e. 9 is assumed to be the smallest and 0 to be the largest. So the sequence in increasing order will be 9, 8, 7, 6, 5, 4, 3, 2, 1, 0. So, option (D) is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c39c2ba4-361f-4b94-9668-aee035d0d61c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The post-order traversal of a binary search tree is given by 2, 7, 6, 10, 9, 8, 15, 17, 20, 19, 16, 12. Then the pre-order traversal of this tree is:</p><p>A) 2, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20</p><p>B) 7, 6, 2, 10, 9, 8, 15, 16, 17, 20, 19, 12</p><p>C) 7, 2, 6, 8, 9, 10, 20, 17, 19, 15, 16, 12</p><p>D) 12, 8, 6, 2, 7, 9, 10, 16, 15, 19, 17, 20</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "tree traversal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "b6a2548c-fa90-43aa-9220-09d2a45ca3e2",
+                    "questionID": "c39c2ba4-361f-4b94-9668-aee035d0d61c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Given <strong>post-order</strong>:</p><p><br></p><p><code>2, 7, 6, 10, 9, 8, 15, 17, 20, 19, 16, 12</code></p><p><br></p><ul><li><br></li><li><br></li><li>Last node is root → <code>12</code></li><li><br></li><li><br></li><li><br></li><li>Left subtree (values &lt; 12): <code>2, 7, 6, 10, 9, 8</code> → root <code>8</code></li><li><br></li><li><br></li><li><br></li><li>Right subtree (values &gt; 12): <code>15, 17, 20, 19, 16</code> → root <code>16</code></li><li><br></li><li><br></li></ul><p><br></p><p>BST structure:</p><p><br></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">markdown\nCopyEdit\n        12\n       /   \\\n      8     16\n     / \\    / \\\n    6   9 15  19\n   / \\   \\     / \\\n  2   7  10   17 20\n</pre><p><br></p><p><strong>Pre-order (Root → Left → Right):</strong></p><p><br></p><p>✅ <code>12, 8, 6, 2, 7, 9, 10, 16, 15, 19, 17, 20</code></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "af762a6a-01ee-4720-8c81-39004c482b11",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following sequences denotes the post order traversal sequence of the given tree?</p><pre class=\"ql-syntax\" spellcheck=\"false\">         a\n       /   \\\n      b      e\n     / \\    /\n   c   d  f\n   /\n  g\n</pre><p>A) f e g c d b a</p><p>B) g c b d a f e</p><p>C) g c d b f e a</p><p>D) f e d g c b a</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "tree traversal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "18f844cd-b5d0-487e-9c21-b200907d4bb9",
+                    "questionID": "af762a6a-01ee-4720-8c81-39004c482b11",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Post-order = Left → Right → Root</strong></p><p><br></p><ul><li><br></li><li><br></li><li>From <code>b</code>: visit <code>g</code>, then <code>c</code>, then <code>d</code>, then <code>b</code> → <code>g, c, d, b</code></li><li><br></li><li><br></li><li><br></li><li>From <code>e</code>: visit <code>f</code>, then <code>e</code> → <code>f, e</code></li><li><br></li><li><br></li><li><br></li><li>Finally, root <code>a</code> → add <code>a</code></li><li><br></li><li><br></li></ul><p>✅ Final sequence: <strong>g, c, d, b, f, e, a</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f996e892-cfbb-4de0-9584-04058dcb72fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: inherit;\">Consider the following sequence of nodes for the undirected graph given below.</span></p><p><br></p><p><br></p><p><span style=\"color: inherit;\">1) a b e f d g c</span></p><p><br></p><p><span style=\"color: inherit;\">2) a b e f c g d</span></p><p><br></p><p><span style=\"color: inherit;\">3) a d g e b c f</span></p><p><br></p><p><span style=\"color: inherit;\">4) a d b c g e f</span></p><p><br></p><p><span style=\"color: inherit;\">A Depth First Search (DFS) is started at node a. The nodes are listed in the order they are first visited. Which all of the above is (are) possible output(s)?</span></p><p><br></p><p><img src=\"http://www.geeksforgeeks.org/wp-content/uploads/gq/2016/05/2008_46-300x221.jpg\" alt=\"2008_46\" height=\"221\" width=\"300\"></p><p>A) <span style=\"color: inherit;\">1 and 3 only</span></p><p>B) <span style=\"color: inherit;\">2 and 3 only</span></p><p>C) <span style=\"color: inherit;\">2, 3 and 4 only</span></p><p>D) <span style=\"color: inherit;\">1, 2, and 3</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Graph DFS"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1faaf650-7d7e-4ea8-a341-06b8e6bff051",
+                    "questionID": "f996e892-cfbb-4de0-9584-04058dcb72fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation</strong></p><p>1: abef-&gt;c or g should be covered</p><p><br></p><p>4: adbc-&gt;e or f should be covered</p><p><br></p><p>2: abefcgd correct</p><p><br></p><p>3: adgebcf correct</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce46dd40-a7eb-47a8-ad5a-ff71dc2d3290",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: inherit;\">A binary search tree contains the numbers 1, 2, 3, 4, 5, 6, 7, 8. When the tree is traversed in pre-order and the values in each node printed out, the sequence of values obtained is 5, 3, 1, 2, 4, 6, 8, 7. If the tree is traversed in post-order, the sequence obtained would be&nbsp;</span></p><p>A) <span style=\"color: inherit;\">8, 7, 6, 5, 4, 3, 2, 1</span></p><p>B) <span style=\"color: inherit;\">1, 2, 3, 4, 8, 7, 6, 5</span></p><p>C) <span style=\"color: inherit;\">2, 1, 4, 3, 6, 7, 8, 5</span></p><p>D) <span style=\"color: inherit;\">2, 1, 4, 3, 7, 8, 6, 5</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "tree traversal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d985e865-f980-483d-be4f-7648e538dee6",
+                    "questionID": "ce46dd40-a7eb-47a8-ad5a-ff71dc2d3290",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Given pre-order: <code>5, 3, 1, 2, 4, 6, 8, 7</code></p><p><br></p><p>From this, root is <strong>5</strong>.</p><p><br></p><p>Left of 5 is subtree <code>3, 1, 2, 4</code> → forms:</p><pre class=\"ql-syntax\" spellcheck=\"false\">markdown\nCopyEdit\n     3\n    / \\\n   1   4\n    \\\n     2\n</pre><p>Right of 5 is <code>6, 8, 7</code> → forms:</p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">markdown\nCopyEdit\n   6\n    \\\n     8\n    /\n   7\n</pre><p>Post-order (Left, Right, Root): <strong>2, 1, 4, 3, 7, 8, 6, 5</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "07411c5d-e074-4ea6-b6d6-b6124c5b72ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: inherit;\">Which one of the following binary trees has its inorder and preorder traversals as BCAD&nbsp;and ABCD, respectively?</span></p><p><br></p><p><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAF9CAYAAAB1UebwAAAAAXNSR0IArs4c6QAAAAlwSFlzAAASdAAAEnQB3mYfeAAAABl0RVh0U29mdHdhcmUATWljcm9zb2Z0IE9mZmljZX/tNXEAAGd6SURBVHhe7Z0FnBXl18cfdkEFu1H/tmAnBigWdmOgKHYAFgYoBraCnSh2KyZ2d3eiIgiK7asYoIL0+3zP7m99GO/u3thdZnafR+/nLvfOzJ05c35z+pzm0/1ycUUKRAoURYHmRe0Vd4oUiBQwCkQARUaIFCiBAhFAJRAv7hopEAEUeSBSoAQKRACVQLy4a6RABFDkgUiBEigQAVQC8eKukQIRQJEHIgVKoEAEUAnEi7tGCkQARR6IFCiBAhFAJRAv7hopEAEUeSBSoAQKRACVQLy4a6RABFDkgUiBEigQAVQC8eKukQIRQJEHIgVKoEAEUAnEq2lX6hSbNWvm9M6248aNs8/mnHPOevrVeNiGpkAEUD1QHNBMmTLFjszfzZs3d9OmTXPnn3++GzVqlLv44ovdIossYp8BKF5xZZMCEUB1fN8ADK+ysjIDSIsWLQwgw4YNc8stt5z79ttv3VtvveV22mkn+57tIoDq+CY04OEigOqY2IABYCCBkDys8ePHu7ffftstscQSbqONNnLPPfec22CDDdyCCy5o28aVXQpEANXDvQNE5eXldmT+Rm377rvv3BxzzOFatmxpUujDDz90W2yxhUmguLJLgQigOr53qG9SzQDHn3/+6T777DPXrl0717FjRwPM119/7R577DG3+uqru4UWWqjKVtKpRJWujm9KPR4uAqgeiCu1DCB8/PHH7oUXXnC77babm2uuuQxcOBDefPNN9/rrr7vtt9++ysnAdwAQ6SUJVg+nFw9ZhxSIAKpDYkplg/kFhjXWWMOttNJKbt5557VfQgLts88+Bihtj70kqcW+ckRESVTHN6ceDhcBVA9EBSSSIL/99pv7/PPPze75v//7P/t87rnndosuuqhbZpllXNu2bc1Tx5o6dWoVeOrhtOIh64ECEUD1QFQkB67qe+65x73//vvu77//drPPPrupbkgXQDV27FiTRm3atHGdO3d2W2+9tTkYAFF0b9fDTamnQ0YAlUBYdUUOMw5+/fVXd/XVV7u77rrLLb300qaqrb/++m7JJZd0s8wyiwEIkPz888/ugw8+MGfCSSed5B566CF3/PHHm7onVU+nFv5OCacbd60HCkQAFUlU2SlK1UGafPXVV+60005z7733njvssMPcnnvu6eabb76cvzDPPPOY+rbLLru4p556yl1wwQXukEMOsXcAxwrTgELvXq4DRnupyBtZ4m4RQCUQUNIEyfL777+7c845x3300UfuoosuMpWMNWnSJFPV9Er+HMFWPHHLL7+8O/LII92JJ57orrnmGrfCCivYpmG6T3QulHCz6mnXCKAiCcsTP0zDue+++9zzzz/vzjjjjCrwoKqFAdVcPyVQYAudffbZJrkA0FlnnWWBV0kejhOlTJE3qx53iwAqkbiAiCwDHAYbb7yx23XXXe2I8qgJaGGOXPiTSBi2xRNHsLVbt27u+uuvdzvssIPr1KlTVU4d+0QAlXiz6mH3CKA8iBqqTjB8GOfhbzINfvzxR7f//vu7Vq1a2RGVohM6AHIBgP3ZViDq0KGDGzx4sDkYAKR+KzxmHqccN2kgCkQA5UloGFwqm9QqJYsOHz7c1C2SRbUEltqkhgCmYxEf4kXsaOLEiQbIyZMn228DJm2X52nHzeqZAhFAeRBY5QmSFOwiRn722WfdDTfcYCqYpE8eh5wBaGHqD/GiWWed1T3++ONuxx13NFWOf6u+SDGiQn4jblt/FIgAyoO2oTqmTGuCo9dee6277bbbzDaBwYkBFbNCdzXePCQPi/jQhAkT3O67724AlUeumN+I+9QPBRolgJLxE0gXBjvD76sja/IY+jdq1DfffGMesxdffNEdfPDBbp111nEnnHCCxX+23HLLGu9U8rfDOBI7Dh061I0ePdr169fPffrpp/Y7AIr8uVj6UD8gKOWojQZAIWOGdof+VnJnbSXUchgk4y9yRwMa4j2UKQwYMMC8bkiftdde29QuMg9wSctmCjOsQ2eEzoN92ZY0Ho55//33W67czjvv7Pbdd1+TQri02X7vvfe2e80x5cxI2lylMEPct3AKNBoAcemoUCRtUgGKLSGp07p1a6u7UeCzJkNcDB+qbYAHJr/lllvcueeea+k2l156qVt55ZWN4hwP5iaGc95551kgFRDIRR3eFtlTqlzl2ARiWbivX375ZXf66ac7zplFXIkFiAAbnr7QFuOzMHm1cBaIe5RCgUYDINkhBDTJM5PxTXoNXrIuXbq49dZbz4DAUgZ0SDw92UMPGsxJFnX//v1Nwuy1117u6KOPtvIEbQ8ocD8jLVDljjvuOGP4hRde2H5HDgBJMf7NPgIy9hT5c1deeaWpapwri3Ml5efMM8+049CUhMyGAw44YAabqDZPXykMEvetmQKNAkByBcOw9BmAUQlCIoV++uknS9KksA0mzwWckERqBiIVi8I3GPiHH36wd/Lb+D25lmFySRPUN0CBiodqR2oO58E5hUvn8Ndff1mvBJwR7777ruXCHXXUUebNAygsjo00O/XUU+26kID//POP6969u5ttttnsXOKaeRRoFAAKn8AwH0HIJ554wlSjN954w+IqGPfKDqjOGBcQYHAAcuedd7pLLrnE/e9//zP1CjuHBXMDFAU52VbeOWwX8touu+wys5FuvPFGt9pqq9ln888/vwGYcoaRI0e6Tz75xMq7F198cdue/DmpiyqskxpINSsg4qFwxRVXmHeuT58+VdtX5zjhfMNgbj4OlJnHjtn75UYBIJFdNs5iiy3mqASF2Xg9+eSTVlaNesSS3SApI6nDO8DAluJJP2TIEMuWRiVT7wL2Jy4jpgQQ7CN7i8+xkVDJqAnC6UBLK17YZmwHsGmuSMIo6tiGG25oqprUtjDHTgzPO9eCigi4yJfj/ZhjjpkBRKFXL9w3lFTsRz0S2RMAFHAi5Xj4CLh6KEXANREVTgyMJ4ubvsACCxhTwqgAiC44++23nzGw1C85DNhe9gmuaFzHI0aMsMxojPZcTodcnr7kZ+3bt3e8cENjl2Hr8Ft43LChYFqt0Hkhb10IJB0b8PXu3dskGVKL/VD7ALUkYRiYDUvF1WoLWpD4SqkFL6QgKuqBBx5oHkRJ4mhb1S4RG4UE0o2GCVBtANFLL71kjIA0gSmwRQBJaLvImwVTwmiobNTjUDl68803W3xHKlAhzCQAaF+YGzUtudguDI4mA7bVbY/tc+yxx9r1DBw40ICJZAKYqJehFNGDhd/hQUCK0FVXXWUOFWw2rh1wc+2//PKLlZkrPy90u9fOSk1zi0YBIN06XL9IDFzZY8aMMcaaf4H53aqrrurtoMVsM57c2EIy/mEgQEa7XZgIGwaVDRCxMNhhvHxz0EJVSQyoWI+67YQAC+NU/J7qhnIBVp/xEOA6ABHnj53GbyAxVQLBsabh4KisRdK+OC1wXmBvsS37YeMdeuih9neYKlTIQ6NpwseHMLJ44WFwkvPHtkDiPPPMMxa9l40Dk038Z6JXof7xEsB3Bd14I7f5Zpu7Nm3bVKlsH3/0sY+1nO4+967uk08+2ewkJIYkg1rz5ksnPfHZnr8BhECV/Du0m0J1Tb+dy9khZ4XUscMPP9y18pIHFzdgP91XxM7pbZqpU3yDkmm+wb3v28i2kiocGwBKZdV1qeE95xpjS/ne7QwCiJsbPhkBDvETYj2USNPtEyMe3Z7t/vEq3Xfffufd2B+5W2662d1+620Wy+natat56M728RqM80FXDTKAaYl5k4yWD2nlnNC2AlKufZPbSgpV9/TXeQmMvB/k04kAxkUXXuhBM82dcsopbl5//VMm+T5zHkTlgHiq/9vTY83V13BPP/W0e/jhh+1hgdoH8CjJ4FqhIQ8QVnSR1363MyeBFMnn0m666SbLCEBvv9AzD3Ee1JJcq5vb2/cs+NINvmOwuaTvvvtuU/HY55hjj3HL+sbvaVn5qk7hdof4uFDL2Vpa5sKkiZPcOQP6m5Pin/ETXPMWzV1ZM9+rzoNo9TXXcD169HCPPvao0Q/1DQCx1l133Rk8jGFMLC20Sdt5ZA5AchmTBa1cNAKlalwoFaRZmR8Z4mOMzfyrjIbvnvJLL72MO+nkk8yA7tWrl7ltcQMDnmle5TFpUJ7BXtUWS53u9t53HwuunuwzIiZ6EJ19js+G8Hbh1Mk+3af5v9e18SYbu1VWXcWSVlm4sZdddtkZ1E0+l8MlbUybpvPJHIBgcqL25JttuummlrWMCibX7QxJlh5DHhJG7zJ0e89IPI0322JzM7yxeZBEx/Y+1s06i4/t+P+yOKnH4l9Mg/A23267V6QBYQv1Pb6vO//CCyryAL1q99lnw9xQn5ExYuQI97P3uJWXlZszgu9xtKC+ASRoLCdLzACvGa6ZAxA39vbbbzfdHS8U4JFXKsygNvWmMstFunyFexfj3rktt9rKveZ7U1M+3WmzzVz7Du29tMpuWky5l5x43cqalxuI8M5hC53a7xS3sw8GP+9Hqrzkg7pc4XLeiTJPZath3N7EhcgChz6MX8E2UqJsGFNK05M/LeeSOQCRHPrOO++4zTf33jQf32HJ0P/P0xJxYoBBFAWyBS7y/6Ti83Hf2PC1V1/1aTrt7AmeyWWX5qUGSapIW+802LHzTm7ipInuuD7HuUcfecS182lIeOzWWmdtKz3HVpQXkCK+77//3r3q6cADhflF5OVRThHz7RqZBCIlBolDflmYglMI40sKLbnkEqa2DPfBRVzhcwWZAYUcb2Zvi5o6lWYnlaMksf9wkLz7zruWiQEQ9j/wgP8ktUpiKyMBNY4sdgKtpDKRhU6AFjUvpvTkvsuZk0AESFHf5G3TUzRfz1UFGSpE0GyVxyEvDPso06tqtGRFefmggVe6+31pxyneFtpv//3s0lDxpnpPXLlX88IGKfZd5bxWvHKUYpD4StIq9hHSqDD6ZpqSBZ185gCEx4jcMlJ2tLCL8s0UCKnDMXihphQT7ymI0vW5sWmolc4Sb8e88MxzloqE5Nl7n70tBoSEklGYTNERePgcmwj7CS/ll19+aaUWpDSttdZa9XkFmT125gC04oor2k3GFpLLWrlfZglUzijV31WqR6UthKetwtvWzLKRvxz9ldus02aulXdGZHUZIGysZJnFdIY8MMTNM9+8rpt3a4s2vrmw2X14Ucoqx0/qeiWNws4/qG09e/a0QWAEXddcc80ohXIwSOYAxMQDOnhSHUqpAf9WlamewgKR/p2MqOvzV155xWpz8MC1mCWjDoTKh4ZGrZJZPerLUW5tLzVQx/QgaVae20EfqmZIcXnd2I+JEmR10O+bhFMKFuOakQKZAxD2DyXPlFVTrEb/gLD4TKkxyZQXlV9L1cN1S0YCtTi4brO8QgOfCtxx48ZZrZFScvK9NuUYyq6E1ng6edBge0YA/ZeSmQMQl0BpArUrFK2RgYB7FmYRkEKGCgOsKqVm6BU1NRjKiiVpuywGDiVxkw+NfIHDdiqtkDoXPoiiA6F6SmYSQEgR8rlwJlCZ+cUXX1hHHNywuRI5uXwYg3jHgw8+aMmngIfeBZRaJ+tyCmG8tGwrNZXrQnLQu04B5vCBUp07GrpB11Ddhb4ch2B1dXOO0nL9M+s8MgcgOQ6Ib5ADh4qBJKI0epNNNrE8N5JLqUiFISiuo9CO/gMMsqJWiCDsEUccYdtpIb2y+qQN64sIklLLhIqK2sXfYfcglTXkulb1X1CbLMAD3VBzw5L2mcWsafzdzAEIIsIEeIxQyWh7S9n0o48+amXKr732miWJSv/HwaCiONJTKJaDIaTuqa6G44bFZGm8WdWdk6QG77j5CYZiG0ITYjhqVKI8weoeFJZTVzlqhd+69957rfhuu+22y7abvx5vZiYBJDVE3jeeuqhw9Dwgw5gnJ1WmgANJhfGLt45mI9L3xXTK7g69T/VI73o5tOwWAYRqU9JxUFXJtGBMipwnyrDOBSJoou0eeOABd8cdd5jDhjKHmImQ+9ZlDkCSEppmzQ1X5jC6OlJGiZC5Llmgk8Et4GQ5kBoGRrk+Hhq0wEJNxVtJ1jl5fwRIa/LMQUsCy7feeqvVV+GdxMlCoDmctlcvT4GMHjRzAFIlJk9QMb2eprmkSCitpNuHNkMyVpR2O6g6NZPzDqt1AQoFdUhkAETlLlW45BCqfDvkWRwsdCQig4FyEQBHjwXVWWX5AVOf2MwcgKpSViojh/l4mCBgCIww4FqfxK3rY0vt1INC1664jdRRyttJAiXTYtCgQXbtlIAgkegOhFqHUwBbERuH7UaNGmUZ2cv54kI6E6EGaqRKFl37dU376o6XOQBVB4bk58kLTkqWtEuamhhAQJLLPiwipJEjdUBsAxBwmLCIndGx9XVfA4Xbn/ZWcluj+lLavsEGG1iWBxJKnjvZjFmmV32CKZMAqk+CpPnYYbAzZGypV3fddZc1hUTC0KUHaaJ2xvTnpr0xLxwJlG+g8mHfoO7JeQBwlBMnyRbVt+q5IgIozYhJnJskDu/hzFbAoOkO2267rUkgVLQwR1D2EWBANQu7ogqM8tAB1NCzlyESNfipRgDVMclhPhga5oVp8XzxdOc97Dwa2i/VnUKYFaDt5URR4JfcN6TNI77qlOaIvFDJciXYqgCR3wv/VipQ6JQJ23pF9S1KoDqGSfWHAzR0/4ShyYam/IKYFAmeBHxpeh9KkOrUIwU1YeTQiA9z9rBlaKpCTzc8ber9Lbd+Mq1JwNHZh8et7jwieGpmnSiB6hhaqEcAh3JoDHjSi5BIZDSTt0fDjo4dO1bZHDUFKGWDhI09xOjU6QAaSrfpMER6EitssBKDn3V8c3McLgKoHmiMFwsbhARMEjt57bTTTjbuhAg/sRhSbmrreANYlJ8W5upxjNN8qfZSSy1lZdfU7Kjfd7hPMVW69UCORn3ICKB6uL2ocUgClZ1LEjDoiyAlnwMgGes1nQJSSGUYHBMpBmhIz6ELKcmi8rQJZPnYV/Vw2U3ykBFAJdz2XBIkzJAgUMniM4x9bBXiLHjAwmwIecFCe0M2kFQ2bCg6sd5zzz3W64B6Jk1i0G+G8aFcxyzhUuOu1VAgAqgE1pAzQJJEni2i+pRAE7jkMyQODTpwKOyxxx5VuWXan/fQQyfmlwpGmTbShiAo2eTKsE7aONHgL+FmFrlrBFCRhNNuybw6mJg6I4YAU49D8xNULFJo8MKpME0lBgKPHAaSIpI81PX07dvX0m1oZ0xpAUsjS+SujsHOEm9kkbtHABVJuBBASlLF20bXVBI3ySsDQKpFIg5EpgAFgGQD0OWGzyRt1FoqdC0zKPkk3yiewWFMUkD9YymhNFm/U+KlxN2LoEAEUBFE0y4wssZDMsSYJiVDhw61bjarr7661dEgcZASdP9BtaN9LoVquLjp6wAoFMgM1TgAQ0kB/djoEoprPIzvCEhRbSvhBtbBrhFAeRAx6SwIc8RQpS6//HLrEETuGbloJG5WN6cIqfTss8+aREHNo95mzz33rCrNIK5DEig1OXxOVjVu8TArQaBBbYuqWx43sB43iQDKg7gCjIrKZLzT4JHZqriWmc1KVSxJmzUtejVQl7P++usbUGijC0AJsBJ8JTj68ssvm93TrVu3qjmmUhPzON24SQNSIAIoT2LrqS9bhX/TsZMCNBqaICmkzlVXPyODHwBShk5XII5D6TVg1IxXVDaaRrI0uj6qanneqAbeLAIoD4ILNIryAxD6LiB5aKV15JFHGngEkOoOmSz+I5jap08fSwDlGAwMw46isxBLGdf6XT6LQMrjhjXgJhFAeRAbpkUSqOKTXcgowJ5B9aLsWT0aqrNJVPSmrAGBCUm0zTbbWJAVpwLgUd2PjpWsQM3jlOMmDUSBCKA8CK2sZhiZtBrA9LEflUhGgaYWhMHUXIcMywOSkgQphreO8mpWMkAaS6rzuEkzaZMIoDwID0OHyZwAiMAmEolOoCzV6dR2uFwqGOAh7YcGkIUcq7bfit/XPwUigPKgcbKuBrBo9KHKn5WRUExzRo6B+5pjxpUtCkQA5XG/FIORKoXDgIwCsg5GjhxpaTphu608DjnDJqT7kLGAPZRLhSv0eHH7hqNAugA0+Q839NOf3WIrtnHzzZqegfNhnppy1zD28ZiRtoP3LFw1FbLJoyc7COA8/fTT1jWV9J6kA6HhWCH+UjEUSBWAxj5zojvqxHfcrEfd7h7ZfwXX3A9VS8PKVRpN91OqQIcMGWK5bQRGYX7FbWQzJatKuR5iPuoQSuyHNCAyrElCrc0VngZ6xHP4lwIpAtD37r7bxrtte2zrXrvvYfdh52Xc2vNVJFumcWH0k3lA7htZAwMHDrT8N9Q7ACJVTO9IHkkm2To0w6eydG0/gp5MBpZUwWJsqTTSqbGfU2oANHnove7ZNtu6U/fZw+0weVd3/du/uLW38s3g06PJ/YcXkBjnnXee5bOR10atzvbbb/8fZ0BY78NBcBgMHjzYMhA4BiAixUcgU0upxs58jeH6UgKgSe7Nux5w378/v7v+wi9ci1E/uMEvPuV6b32ga51yKtNlh0nW5LWRx0Z6D32lkUYEWJFIAIhhVVSl4nh46KGHrDMotT1HHXWUOQ9C2yjllxxPL6BAKgA09dvH3A0/reTW6LC6W3GRMjd5/s3dZoNvcLe9v4c7egXfZ21ymZt97lYuFScbEE8qGVnYl112meWyYRNR+MYisRTJwnZUqPICUEr/0dgR7CbNK8plb0WOTS8FUsGTY0Z87lbcqJPbY78ubimj1US36lzj3X3Dh7qR337k7h86v9vr5N3cMilS5+QtE8Nj1zDYiqbsuLaHDRtmgVF6wrENtUFIGob/MqsorP0JU4TSyyrxzHJRIBUAWnizE13fGc5uVtdx/4tcR7PA13Mn70gSZbpuoBp5JM+KVB96H/DKZ8Xk0HyolN5tUgGgGsnjkZMy7KT3bsYza3AKpB9ADU6S+IORAvlTIAIof1rFLSMF/kOBCKDIFJECJVAgAqgE4sVdIwUigCIPRAqUQIEIoBKIF3eNFIgAijwQKVACBSKASiBe3DVSIAIo8kCkQAkUiAAqgXhp3lU9GpQqxDtjVigfp/pVU7rDRpFpvp60nlsEUFrvTB2cl5rRq77oxRdftInee+21lzv44IOrmtpXl9dXB6fQ6A8RAdRIb7FAoX51TLhDAnXu3NlqkRjaxYxVFfvFgcTFMUIEUHF0S/1e6q0gFe6TTz6x8grKKuiq+tprrxmAInBKu5URQKXRL7V7h5Pu6PyD1KHuCGAxv+jtt9+22iUaQ6oHdyytKPx2RgAVTrPU7RE6AiRRNK+V7wALo1Po/IPzgNlF/fv3t9JyBhZXB5wonWq/1RFAtdMo1VsAkLCDjxqT8I7EYTIefbwBDWXjFPzx9yKLLGITJlDraAwZpU9xtzkCqDi6pWYvSRoN/9K/VTJOT4YePXrMMFmCHg6XXHKJXQP9GDR5IjaxL/y2RgAVTrNU7ZGM92iMCicJqL788ks3fPhwa4b/559/mgRaaKGFrC8DQFI8KBwhmaoLTPnJRACl/Ablc3qoagIMf9N3jpbDDzzwgMP7Riegli1bmgoHqHghdZi9yrDj3XbzDVt8f7q4CqdABFDhNEvVHtguTHdA/QI8n376qfWow3Gw2mqr2fS7lVZayS266KIGGLb95ZdfbGL466+/7u677z53//33u8MPP9yGGiOhknZUtI+qv+URQKmCQ+EnEw72Yjjx8ccfb0AaMGCA9e6effbZ/3NQGj62bdvWJuPtvffebtCgQe6MM85wo0ePti6rOBnUqy6Cp+Z7EgFUOM+mbg+kDz26AQ9xnUsvvdTGr0it0wkLDPLcodItv/zytj396kjz4VgnnniiqXtx1U6BCKDaaZTqLQAFaTowP0wv8GjwFycvz1yYWMrfmr3KfuTG4Wi4++67bWzltttua1kKcUUJ1Oh5gPEoH374oevVq5dJHg0ylhTRiMpwWLGmQKjDKmofdtAbb7zh7r33XrfJJpvY2MkYTI0AahQAkrs6ZGiBgCzreeaZx+YUheqa4jqhpNH+oftbkgn3NnbTo48+alPDGbvCCn8zAmpGdooqXEbgBZMjWcI4D6dObAfVq3Xr1tbMnpVrpmvSDkpuI2DgsbvtttvMoQCABC4BTsfPCNnq/TQjgOqdxHX3A6rrAUS4m2Hqe+65xzKrGZVCvKfYJaAwOU+ePUkffg/wouYlMx2K/b3Gsl8EUEbuZDjhDkbGzcyMVoZ0EThFEjGDqJhJD3IWACJy5/744w/3wQcf2LAwzTeSxAolUUZIV6+nGQFUx+QNmTG0H5Kf1/azuWwNSR5GSDIZ79Zbb3UHHXSQgQdHwogRI2xQcVLNq86G0eeSPkgZArFIIbxx48ePN9f4wgsvPIMnL5kzV99l4YXSrjba1uX3EUB1SE1utMqoBR55wEIbREZ9dcmb4aDhsDwBtW3s2LEWJEV1w+vG66OPPnJPPfWUe+SRRwxAeN9wY6vaNIz7cDykF7/N8cJaIMDDkLAuXbo4hihffPHFBspTTjnFCvHYRx4+HTtU8/g+34RUSbIQfBwzBLWAU98ALYUFIoBKoV5iX6k5AoBsllw2RW01OHIvAwYxEBPuYOZnn33W3hlMzHEw/PGeAap11lnHMgxkqwAkjiGPXegECLMN/vrrLwMmv8VxCawSZGV+6wEHHOBOPfVUt/vuu9uxkIBykSuNqNCMBV2fbKskWEIPYgjWOrxddXKoCKA6IeO/B4GxckXxJZ3YMgRWkvFCr5eCndg15K6dcMIJpmIRNN11112rpAcqF7NWybzu06ePSRjmtIZMGP7N+SkBlfP5/vvvDSBIsnPOOcfAw0Lq3HjjjfYZ2QlM3TviiCOqBiJL2uoBUQiIBIrwPEQb3gGmpHchx63j21nr4SKAaiVR4RtQQv3777+bDTHXXHNZjEYeLDGJ1LhczKGnsxwC77//vk0AR0pcddVVFuTUknpGgRyzWQECIGKYcdeuXS3nDVVNKwQ36uDTTz9tQ5JxHlClStMRZWzz+zouUu7yyy+3+BBgQlVkSYKoHilfagEQCv04T5JcsbO4Ps4V4OKS50EgcKY1/hQBlO8dT2wXGrbhzeUpjkEPaEjaRCrwPcxMRrQYPlSlwvZTsg0EHsoSkDwkeJL0SZqNfptj6CmNWkVl6cCBAy2Og4MBuwhGJ55DuQKSCsZVlepbb71lk8PbtWvnLrzwQpssrqe/JANMzH6HHXaYgRGQkbHQt29ft9NOO5mUk7QohJQAmYcHNhfePmhDShIZ4mSS4xxhpqxsrgigQqibkW3D0fQwA407cCtTY4MKRSoMRjjGPYOHYZKkbaNL1VOf44h5yQggS/p///uflShQABcCL5QmKkMg+7pnz56WlYCtRGoOthHSRoBjWwKvHTp0cJ06dXLrrbfeDFJKrmsBVQDHzlp22WXdWWedZVKOa+O3kCAALfT+1Wb4AzwaPPJiniwSjsXfXDMPgWOOOcZoKDsrjWwRJVAJdyUZVHzuueeM+Xkyo7rBgHizUEckWUKXsWyhEBQCD25kGBUJgnEPiGpbYYIoEqd79+5un332MYmDqxvVEvBQXDfffPOZlMy1QrUyjP/AyFSyXnbZZabO3XDDDe6LL74wlY7PpdJpn6SHLflbCtCiumlRIYskRb0D9ACIla93rzYa1fX3EUBFUDRU30JmQQXh6Z3MCCDHjMVTmoXkEKD08xxH7mcYE5Vqq622Mi8YAAwbh1TH9FJzeJf3DbDwlM+1QtVLnrrkdqH3jr9VyXryySe7VVZZxZ199tmWyY1XENuM4yigqwrY6pwAs802mz1wUE+1sBtJI4JmSDaBp7brL+I21skuEUBFkFEMEVZuwlyoRBj52EC4ktkO24RaHZiBTGn2EXPzDgPxGaAjo4CnOwCizBomRZLBtAJqTR4pfReen9zguszQlgi9ZzU5M/T01/aKMSFpkTw4LvDOHXnkka5bt24GCLYxR4mnQa413U237qh4APEwIg2hFU0f+b099tjDjiMaF3GbGmSXCKAiyCyXdOhm5W9sn19//dU9//zzluCJmkQ7XcBBfMZAwH/+vSqQOWWqm2XWWXz6zO/urDPPdkOGDHG9juplhjr7qa5HACrkdAWKsB5I0jOX+lid9Em6qeUI4fiUjV999dXuiiuusE4/w7yXjuyFRSulnoHIlxUBGFueTs2QZBMnu7/+/MscHNAI5wsqJg+Mo48+2po/hlI6rQV+EUCFcGTltqE0CIOmfE18Bq8WUxBQUWAIJA9gmDbZP5XhIc9UkydO8p+1cOUePDQ9PPmkk9wrL73ipc5J7sCDD3JlzcpKioMkbQb9O2TEfOIruRhXjg45RHBInH7G6W7llXz2gnelD/98uOvv7bY111qzwks3ycd0pvlkVG9/AR4WD42OG3a0V64VZjzwe9ELVwSjpnWX0AbiHGW/8DdqCJIH1y9/AyLeAVBZC5/N7LeZNrmyGtQz0+ivRrs+vXt7pvvcnX/B+W6nnTvbZSfb7aaJgUJVUY6AFs1buL267WUPi9O93XaQz1443ru6d9u9i2s+C8/pimc1zozPPxvmhnsP3jfffmOJqyxK0dkXLxzeRsWu5AHMB+wzg1+iBCqS6pJCutG4dFHdsHfo9onnC/ULIC204EJuqSWXcu3Xb+86bbqpm8t7mspcuRv68VB3nHcHo/ZdOegqt9HGG1eoLdOmp74nQZjPJ5UOqbnOuuu4m266yZJdkaqfD//c9e7dx6iMW/5e71LHSUCMbOFFWpuXDZBgCz355JPmeVt11VWtQ9Bmm21W1SVID6oib1e97RYBVCRpBSDAct1117nHHnvMbjZu64022sgi+ICHJ+w3X3/jPvY6/pNPPuFuWupGcy/jVDjrzLMMLFd58Kzjo+/8XWEj5Da8izzVetlNLvOqWJg/72nTpiCP3UKtF3bnnnuupQTdcsst7vNhnxtIRn4x0nVYv4P16F7BS5oFF1rQugbx0MCBAi1xXz/88MNmBxHL6u2lM/ZQWlcEUC13Jgx8hlnS2AZvvvmmuZlxGBBvIQ1G3XCSh50wfoL7wKfkwFB9/BMZhmnfvr3ZCsu18QFSGNAzmec/V97sv7clbSqMMq+rVEsy0b1DxM7TPwdaeBvnkB7d3a9eEqPSbexd3BddfJHrtFmn/3jm2IcHCsmrvKAjveoAIdKKIDKfp3FFAOUBIIFIzAJ4SDnBU4YBffPNN1uKTU2rZauWbv2OG5iKc9utt/mUmHPs6asYzeRJk82ljbcqTfZOrmtKBlptGzyMlS8eBvx76Ecfuxe8Wrvzzju7s84+yz8ofKst/9UU70zxbgFX5q8314MBOpD6RCoPkogYE+59pHraVgRQLXdELmc5DgAPHrYzzzzTDF/ctxi9cjcns4s5PPtOpgSgjOkIs5iXbc655nT9+p1i+x93XB9XXjm7J63u2nwYt4zWwZRP0F74r78td4/g8sWXXmLgwfNocS8vadkmF3jklOC79ddf39J6SBu644477D1tKwIoDwCFsROAQjvcb7/91rKfAY8M6uoOReynebnPiJ7ug6g+KNrcu6933XU373D4xIzqTb16s856FTaQSR/0uAwu0YnTJyD66iuvuB4+Vw67cNrUac4ABnjKK9iuOkkbxn+22GILcyY8/vjjVo+EVErTigCq5W6E2dNIB+wd2kgRACR1RUmg3PRc0scYpVIt42+YaLoxU5nr4rMNHvfOB5gDAPEZT+dswqfiOsub+wJAf33v+Izqueeex1RWVkXWhe926h0kxMHM2KvmSpWprUyNjb13kqx0SikigNL0+CjgXBSIJO2EWp8ddtjBYjzJ/gO5DmlqYHMfATLToCIoyFp8ySVcm7Zt3Eh/TNy3JFL6LbM97Mpf35Qpk93XPsaz0CILu0V8BjqLwCkS1nu6XbPm1T8ilDURSnVAg9sbh0LaVpRAeahweiKy6ZgxYyxZUtnRMpyr1Jdqjmf6fiXfSPfH7b2Yzzwe6TOaOS4AkvqSNq9bIYyLJCUpFDDwkNHKxz2vNKmwv4LSnlSSUci51Pe2EUAFUlg5ZHIahFnChTI96t84L3nIUlDafjE5bwVeQr1tHmYo4J1khCR9HNTwMd8flm2kdyQ+rzTGgyKA8pBA4SZIHrKE6U1AvEJes5pKtKv7CWJBVKwSO2IUI6tQEObLlA25HTTBRiSWw4AvnAj5LqVFharxe++9Z6oy5RNpWxFAtdyRUKXi5sLspPDjSKDsmCetpFBNalzyOPwsjIHqFg62yjKIRAfoRF8D6ESj+q233rpKPa1S5xIJopI2ySI8xlMCxI4dO1o1bNpWBFAeANLTELUNO4U6GFL2yfmiGhO1joRRluylUJJIOoVlAd99952lAAFACudYofs2rRWYNZFL18z1EiCm0I6aJsoceA+n3wkwocoaejzxaGLz0IOBbWmtRXFg2lYEUB53JGnYE5vYZZddDABLLbWUSRDsGJwLApsKwUKbSYYxjEGrKNQ3Kk9RC5NP3jxOK3WbKD9OQMJTSdEcRYY8fOhxQPCZFQZMLQOD+FfQD4JgNUFUGp9AK3UBSttFRwDlIYFUgg0AMPxJwSG9BKlDxxzcq6hzKt0Wg4RZBVYP5J/MdJwhAEvW9kk+WxnpI9Wn2CaFaWEqAQcwKIbDjFY8cddcc421sOrRo4cl22LzhVJW+xKgfuKJJ6wqlwWtaJwvCZ02GzECqAbuC1UuGCLsfcbNR6WgmhJVjgkJdK2hKhVdHXWFJyv7kJENYGg6Qso+QCO3i+3FGGGTwrTnwlVHMj0IeLBIGvHgoCUWNhEtt2iUgleOFlrEd5SNDY2QyFSm4gJHypO1Di31YEmjWhsBVAOAxARJVzX1O2Rh0zYKHZ2yZkbKP/TQQ/ZOGQOVqHjrYAxUNkkunshUrUpahTX/ACeMOaVFsuR7HgoSq8+DJDf745WjgSNSiFZbPFAoXQhzDGn7hTpM5kEaPW656BABlAd3hLNxqFnBgYAHDR2d5hcsnrDEPXBv0+oJ4AAOJBFdN2EIUvKJqIdLNpKYL20qSh7kqdokdAiEPRe0AdJogw02sBe0oZ0VrnwWcTBKGnJJmepSpAo5t/raNgIoDxtIbXmpOgU8GMYY/+jmMv55kqKS8KIjT3WrOnct22cZPMnrre1aAApSmleWVwRQLTaQ1CokDun0dI6hBIG4RHKUifoYyHaSfROqaWGftSwzTqnnLtUtl+u+NvCV+tt1uX8EUA3UlFuVPm/Ee3ha0pGTmv1Q8oRMEEqYMNYRShjFhXKpOXV5c7NwLEu0rezUo048aVbZkjRtFACSPk0DwrD7Jzo3gU+W4g7VdeAMYz2hBKERBuChWwwlxrTMVcAv2VtNNkASIDpeaDBn1dNWV6AMbT7RPo1ettqut1EAiBvATE+aqBMBx2CnKw5uUdylBPTkGeIph5csqSZwDKlkegLiniaIh1eIFraUFGubmrxlSUYIkyx1Q7KkptTGRMV+H9Ilq/RoFACCmQnMEZOhEwxGPJLorrvucoMHDzY3Mzlsoccr103ne/V2phz50ksvtXp+gqb0elNL29DbVCzzxP0aBwUyDyCpQqhqxF1IAWEgFRIIrxnjO5BK4dCoXLdOujhBPFQ1GoUQs6GtklrsyqEgVSyrT83GwbrpuIrMAyhMH4GxYXZVihKDoY6EQKYmTVdnoHIcYjfEdgiIYveQdqL0HW6XGrUDxnDqWzpuZTyLmUGBTAEoLBsIjXCYX0xN7Ql2Dy/mzOB6JgpOzplSa0LvmOwVOmOiqpGSc/rpp7t9993X7kfoUNDvZDlbYGYwWWP+zUwBKEytkR0ibw69CghwvvrqqwYmVDE+I3ER+yfMNdPfYVtekkLZnpa0FMoBnLC+RUyQ5bZTjZmRZ9a1ZQpAcneKiXEUqMYE9zJqFx42OQsYG0gyotQwBTQ1fxTwkZNFmj0pJcR48LjJTR26nWfWDYq/m24KZApAkFKRfJhcQJAXjtwqSguwewAX+VX8m1p6AJa0f6gqZfo1w53wuq2xxhpVkifLsYl0s1zjOrvMAQjyCzz8zfBehvi+/PLL1pycbAGNDkRVA0yk1+PK3nbbba28mDIE9unXr5+VHdN7WdPj1P86jJA3rlser6YuKZApAMn4R5IACjqEIjlgepoc4jVDZcOdjVRCCjG8irp6Rr4zipDO/2QV4GlD4hAoDVtUSapFV3VdslnjPVamACTHAQmdBDmvv/56y4ju1atXtQ0niAHR+J0SbLpbUsjGCPUuXbqYw4CeBABNwNGtjjGexsv0dXllmQKQ7B9q7AEP0xEYbosjIczuZTtNoFanS5wLzJvBzY2zAecBXjcA1BhqceqSKeKx8qdApgDEZTFW5MYbbzQJguTRaPgwoMp2SVCg8lknUC+RUNvoYYDtg3OBHDclgOZPurhlpIAGV2aEEjA5Yy7o7ELLJMAT1uSEhn+YAZ0sGyDAypQ0nAiUKuy11145KyEzQpZ4mjORApmSQJRMU0dPrEZtXnN1doGeihUlywb07/XWW8+kD1PmdtxxR3M8xBUpUCgFMgUgvGnYNmRch73Earro6pwBNPVo27atucHJgYsAKpR14vZQIFMAolwByUIrpNDO0d/53FIBCnuIDG6aIYazT/M5RtwmUkAUyBSAqPnB5UzHf61C3c1S4cha+Omnn6xLTjiCI7JGpEAhFMgUgAiAkmlAvQ/SiIwC9SaoCVBhUFSAY9LcsGHDLAALiJp6iXUhTBO3/ZcCKQHQH+7NG691g18f4f72w9tmnWsTd2j/rm6VljOeHt43CuTuvvtua9BHprXcz6EHLuyCkwSWAERmApIMh4Ta7hYqzSIjRQqkBEC/uncHD3OzbrKd23fHNu7l87u6Kx5cy12150rOT9WcYdG5ko6g9Ewmf40YjkqttaH6G6huJ2zywTa02KXNLN432lNF6ROBUCwFUgKg5q7VPNPdmG8/88Npf3ffjGvt1lp1yf+AB2Of5E8yCfr27WtlCJRfMyFBS2CSl04TEfgeoDz99NPWEJ7WVMcee6yVP2BXAbZY61MsGzXd/VICID/YvdkUN/7PP9y431q6BZdY13302jvu5xU3cQsFIkh1PTQeB0xUju63337Wu4B2sQRIqyvZZsIzDUYY+NS+fXsr3SYrQeCRndR0WSFeeTEUSAmAJruJ/yzrOh92rOu6ie/j9tOdbofNn3Qj99/YA2jGic5idMoSCIRSBDdgwABr1r7OOutY/2ny25AsFMlRD0S/6nfffdckTM+ePW1Yk/rFqQF6lD7FsE/cJyUAKnPTJw919ww6w/3wweLu70/fceVdD3TLNJ/svn3nJffud3O5DXZezy3o75cSRWF4AqFkZdMTjuI4HAtkFiiBlHflv1HqsOmmmxrowpXFZn6RbdNDgZQAqLXb8sR9XfkHX7qxEye7Odrt6S45aHPXunyS+8aralOmTnPeOVfVDFFMjzRCZUPy8ML+of6H8SO4uXF5MzKD9+hhSw/TNaYzSQmAWrplN+rsX0nSzuKWaL+1WyL4uKamhoAJu4ZXXJECDUGBlACoIS41/kakQN1TIAKo7mkaj9iEKBAB1IRudrzUuqdABFDd0zQesQlRIAKoCd3seKl1T4EIoLqnaTxiE6JABFATutnxUuueAhFAdU/TeMQmRIEIoCZ0s+Ol1j0FIoDqnqbxiE2IAo0CQJqkoBGMr7zyijWb33///S2tRxWq6mwaZ5w2IQ6v50ttFACCRmqkOG7cOPf5559bw0TAw6Q5dSnNNTCrnukbD9/IKdAoAERxnaQPPa/JwKbzKOMaKb4DSCGIYu1PI+fqBry8RgEgwAEoKKD78MMPDSyAhk6mjHzcY489YjlDAzJVU/qpRgEgbhigYUYqPd7od7Dgggta1x6K7BisNeecc1bNPG1KNzhea/1SIHMACnsXqJsO0ocp2/fcc4+pbwzOolXVmmuu6R599FH7nG4+al+lcfVyJiS79tQvyePRGxMFMgcgOQx0E8KmiQzSAkCqWKV8m1JuZqBiJ8kLJ6+dJFesVm1MLN2w15IpAGn0vCRHCB6As8MOO7jffvvNffnllzYCErVtp512mqF1r8ahhGXhEUANy3SN6dcyBSBJEW4AapdUMTxvaiqC4wBg0ZWH7SnzZm4qLXyxiejYI8mTBGQEUmNi7Ya5lkwBKByUxd+MaGRa3ZNPPml9spn5Q6dRHAhqawWg6AlHA0YGEu+zzz6ua9eurlWrVuZ4iEHVhmG0xvormQIQzC7Jw8Dg0047zTFwmOaKtOldYoklck6aY4TJJ598YsOFAdJbb73lTjnlFJvOLXsotrdqrCxev9eVKQBBCtQ2Yjt9+vQxdYyp26uvvrpRSSk74bxTtsf71q5dO5vWjYQCeLQHPv/88623trqT1i+p49EbIwUyBSAk0A8//OD69+9vc1LpSkqvbNky8tBJSqnBIv/mBZB22203s4uOP/54d8UVV7hTTz3V1D2l+TTGmxyvqf4okCkAQYYhQ4ZYwJTpDCF4pN7xDkAEGnnd+IzGi7x37tzZZgw9+OCDbvPNN7eRKdGBUH9M1piPnCkA/f777+6JJ55wHTp0qBpLIlCEGddJFS60cwAUah2OhGeeecZhS6HWIZ3iihQolAKZAhBZ1sR5SM1hKLASSGUb1TaZWyoe78SNVlppJcfgYoC58MILF0q7uH2kQLaGDNP3GkkRMruyrEMVLKmO5VLPCLLihKAZPZ68uCIFiqFApiQQ4EFlI8tA0iQc7ZgPAQQmVDnc2xwzurDzoVzcJhcFMgUgMgpg/BEjRlR5zZSdkK8TQAmoqIIMGSYWhDSKK1KgGApkDkAM0CIQyoh67JhcwEnOPFXOXAg2wPPdd9+ZR45k09A+Cj16+QJTxK9u3qo+j/NYi2HT9O6TKQDhgsZ7xmzT22+/3WI5GvsoEssm4t/8HYIG7xzH+OOPP9xVV11lsSTc2CF4wrJv7ZuvipccExn2alDJeS6bLb3sEc+sNgpkCkBcDDEbMqzJgSN1B0DhfYPZ5aIWqMTAcmtj79Az4eKLL7ZJ3zgjaECy5JJLVgFRJQ/sU2ieXFg2zrkqdy9XkDamENXGmtn4PlMAUpY1aTxIkX79+lkh3cEHH2wzTzXvVMHU5C3AZU0u3HvvvefOOussUwPPOeccm2p31FFHmUNBgVdJq2JUuKTECv8dlmAUeuxssFTTOstMAQiGwwu3wAILGOMz3v6WW24xadKlSxe37rrrWi+Eeeed1+4iOW5jxoyx3giMt3/44YcNJGeffbYln3IsgHf11VcbiE466SQ333zzmYNC2QyFSKEwgMuxJcX4m+NQbh5B07gAlikAQXqpa9gvJ5xwgtX5kGV93XXXueuvv95AxUxUFgxM7hzgoHwB1Y9yBlQ2zVft3bu32UIklrIdwEQ1lDootSyUHLJnkqyg3Ds+R0I+9NBDJiFXWGEFAw8Sj3PbaqutDOTRoZB9MGUOQDB02Jaqffv2NmCYLAVKFqgRAjQAAOmy8sorOzx3NBrR7FQkQjjJ+8ADDzQQkVjas2dPd8EFF9h+yqeTJNE+YvykNOFzfpdFpgQgAkDdunWzGqVvv/3WDRgwwD7nN2P6UARQKigAoGB4XjUtgAB4WrRoMUPpA/sjnVANKXOgp9x5553nNtxww6rDSX1EtWPlkh7hZ2R4E2MaOXKkqZEEfwETjgt6NchVnq+HLxWEjifxHwpkTgLluodhkxAxd+gB0z6SDip/4B0wyV29wQYbuGuuucZAdPjhh7vTTz/d7bLLLibxVDNUk/cszIrQb5AmhOqG9++NN94wIAFUgJh0e0f+zB4FGgWAkCxhzCa0W1QblLRhJEmkpilmtOKKK1rpN/bVcccdZ3YREklAC4/j5ZAHQUW8iSWHg1Q+PltyyaXclltuaSXndEnF1sJWQ5VDxYwr2xRoFABC2iQzsUNJIcZOqktyBoQdegAiVapUuuLyxh4CRDgb1JzRQFdp60yd4ssjWjR3Za7Zv4V9Zc3chPET3Fe+O9Bnn37q3nrzLTfX3HO5v/76y6QRKhz2z4xgrFALBcRss1XTOftGAaBcmdj5uJ/D/UIwYSeR3nPmmWdaxvbAgQOtjOKMM86o8p5Nm+4DrdMqvIJu2nT/v395iYRIal7e3KTRaquu5hZffAmzuwAOyas777yzW2211apiTqEqF13c2QNeowBQXZBdzIutA1PzjpQ4+uijTSIReP3555/NuYAbfMpk73Gb5ttmASAPmrLmZa6sUpXjfNh/VQ+U6V5a/eV7diOB8MShymkpbhSqnBFEdXE3G+4YEUCVtFYGAhJFmQyKBdGcHomEmxt76NzzBri11mznpvttp3npggrnd3JjfvnFvfbqaxa0HT169L9l5fSw89vM5bO+aTuMLUTbYewqLXnlqosxNRxLxF8qhAIRQJXUCt3KoWRQHhvBTyRI7z693WGHHe7O7T/AbbLppq58lhZu4j8T3UO+vwIJrj/++KNbbrnlLMBLUJd4UDNvE/3k7SjKMBi5cvfdd7v111/f2g4DJK2w9XCURIWw8czbNgKokvYwbzjBTsa8gqNIJtpi3XD9DeahO+LwI9wZZ57hOm22mbvo/Avc/b7ZCaDhu7V9YHeWWXP3WEANfOqpp9xNN91kOXxsv+uuu1b1p4uzi2YeGIr55QigBNVyPfklhXjHg0Y29/kDznUXnn+hu3LgleZg6ONd3vv4aXizeIlkyzsWUOtYU6dOwb1ga6GFFrJ0IoK0pA3Row6bC+cCdpMCvcXczLhPw1MgAqgWmiOBZBfZJDz/HxkGZw/o7w7t0dMNeeABN8jXFu1/4AEVR8IbN9W75/wy97gHUZmXXlOYDuH/BiSAFPUONznucd75N+ocAIo5cg0PhGJ/MQIoDwApB86CrxVCxWydX7zToEf37q7LHrtXYMdLHYROMw8c2VQAqnKXf0FlUmmq5d/16tXLHBPYT6QihfGhYm9q3K/hKBABVAutZRexWZW72UuhF1940WI7fb0NM/vsszsCqhXb/js5okIdrMhWKPOOhPKy8qpgqYKmtCXGQYHnjnolkl6jA6HhAFDqL0UA1ULBME1HICKj4JNPP3FLL7uMW3a5Ze0ISB1EjZ/34FW2yr8NQHzy70oeT86Jxx9/vApApd7UuH/DUSACKA9aJyXChAkTLMOapFAK8Ex9IzOh2b8gyuOwVZvgHqdOCJUwrmxRIAKoiPuFqoatQmY1ToEKAKGqYQOF8ia/g5Piw4uiu7iyRYEIoCLuFzYPXrPXX3/dnAk4A6TeFXE499VXXzmkGpWwcWWLAhFARdwvJAVVsGQU0Bp4lVVWmaGhiQ6pjIbQESGgSVr9+eeflp2gXt2SZsVIsiIuJe5SIgUigIokIKk45LXdcccd1mqLAKvUOL2HdUFhwxEV8vHT999/vwGob9++lrQazoEt8tTibg1IgQigIomN8+CYY46xbG3KHqgbwhmg4j4Oq1IFgqO81ANBSaSMVyGICgDpb8c2ACj2SijypsyE3SKASiA6Q43pbEqVKSXbSBE+Cwv0+BvAKMObnxs/fry799573SWXXGJxHwCIFw6HhLYt4bTirg1IgQigIolNLIjSbxJD6UlHp53DDjvMpMn222/vaIRPCQT1P0glQENlK5PxAA8dhOi3QJtiJJc6q6LeRQlU5E2ZCbtlHkCh+1h2hnrHyVAPywSqy3YOG3zIgA8/C+t0qPUhEZSGjrTBAjgAYPDgwda88YUXXrDKVQrvABDubiQUDR75ff5m0X8B8LDU8ETZDrmcCNU1IYkOh5mAnMqfzDyAYB6YT91E9bdIGhaqhYBKkjzJuGJWSyCt7N7DPi+++KIV1tFth6xssqi1Dj30UEfx3dChQy2rAKAhmeT2phsqJRG0vKIRJNWtv/76qzviiCOqSrxjp56ZB4ZifjnzAAolg7xeIcPztIdheam2p7pebKHkCVNucAYAGDqgYrcwGpIyBOwXDH+WzgPnwsYbb2yvmhZ1QHRLvfLKKy0DgUkTqHzFBmOLuflxn9IpkHkAhYyupzeGOA3ksTNQodgGm4Xe2WQ852LSUBUMVSJULuYI4SggX2333Xe3dleoaKhmUg9VEi43dHI0Cv/GSSCnAh1+ABH1QXjiABHOBFzZcWWHApkHkJ7+MD0vGBTb5LHHHnOb+WpRamxQk4b4ilFARLk10ii5qmspBRCZAkG7YBot4m5GIoUA4W95z8IedZJ4OjfAGAKO41DKQCYDx8aeol8cEi68rkLZKUqxQilW/PaNBkAwDQwJoxPcZHT9dtttZ6CiJzZFcF/6Pm3knKm1LwwdzgFKOiTuu+8+cxYgFa699lpzUbPCIVxSF7Wviu+0nZg5VCvV7FHHwRuHMwGJpN7c/JYkoeywXA4Q/a5YQLZgdSwRDhzTcdVksng2arp7Zh5AMFAY5aeBO+pQ27ZtjQHVkhfbRKNLuN3hEC4BSe2AMfwvvPBCd+edd5pLmvgOIJQKJnaRZOHf4d/6PrS1QrUw/FznR4k3bYVRD5FKSCIeAJJE4W/mkp4CI8dG4mL7cV08LHCLI3VpcKI2xQJN9OCVBv7MAwgGEAAgBUmePM0/+OAD6zugqD/Jmr///ruBCIYSwwmAAs8XX3xh6hRzWCm3hpk1eEtSRb9ZGun/bQnMcZAG5NQxepIGjsSHsL3o3COVMRezcx1cQ9iZlYcIE/ygA+lGgEkdUbfeeuuqOJMqbUWLUq+nKe6feQCJqfWkZvrBfvvt526++WZ7rb322uYpg6lglE023cTKBtTkg+/koXvkkUds+BaAYeiW5qeqTwH7h73cSmWYUJWTu33ppZeuaFrinRYahcL0vOpKHST59CAAbEhLqa5IMZwdn332mYEK6cRoFbn/9eAo9Vqa6v6ZB5BsDOnzMAbtpUiNwQHwzjvvGPMhmVb0xvnsrWavKKtG9fMvwDN27Fh3zbXXuOuuvc76teEN0xAuBThhEIEntJXqgnFC9zmgQkpyDjwMrrjiCiveY2KEivfC35Q6OLVy5hHfNfdq25xeXeO6+Z534k/Dh4/wQ78edEghbEIeDAAugqj4u5gpAMlVrKe1mCfp5YIcMAwvi/p7vMwx5xxVOWp8L5Xny1FfurN929633n7bnsw87YnPhKUIoc0Sxp2KJ3vFnrniUfLcIQVJVsVD179//6p5rtQMSdpADwGA0nGamvgu964Zzwf6dVc2wNdDppV36aPK4kgRDaLHrrS7mCkAVT1tKxkj7NcGIwGkv30f6nfffde97QHx1chRbpyvt5GqRMwFt/a63sNFrhrzek73AVH2OffcAW5br+6Eg4pzgaW+jW654iUd9vW95gAR81u7+w5AF110kcWytB1ttui/TR0s+5Q3r2hNzLnP0qKiuSP//tVLsTfffMOt6W0iTerTtUYbqHgQZQpAUp3URVS2CeDhqYoNQ7bA119/bQVqiy2yqFvU2wOzz97KjRs7zqpHARe2Ed9/6kePEHMhzrP8iisYFRUPCj17xZO3+D0lZXnHjkF9A0R0M8U2Qk2FDpMmTnLTK7uqlns6TPPdgRirwjQ81NOnnnjSjfVS+Mfvf3ALzL+A2233LhU2YGX5eVizVPzZNt09MwUgPU15V+N3GIycM/LKSOLEhmG6HJIGhqEvtdZkb0yPHv21e8nns9166602T5UuoQKPPFqhV6uhWYPflvSRqoak6NChQ5Wbm9w5bCTiR7QQtpZadAKqXMt46cpDQcf522eCr7LqKq7Ncm1cC985ddLkSa5F84oxl9Wpkg193Vn9vUwCKAxkkrRJHhlShxEk9JmewbaQu83jqIW3K9q0bWOv7XfY3tryEiBl1s+RvsEhToLkKMeZ0ataHrJQCvE3sS28g+Thcc1jfh3juh/S3dS2//vp/xwueIYt466nC2pLL2kW9vON2i7f1i25xJIGHrN9fH86PSyyyrhpOe9MASjJUAQ8kTzESy6//HK30UYbGV2rsgswpittgCq/tX/CA5LWPrvgjLPONKYigInHq9vee1d5pOSwaGj7gGtUJWsYb0Iacd5kReDmRo275upr3A9eNWs162zuueefN+BgLzE6styrdRP81IixY/+wFCYGhW3ng8IEhhddbFGTTrINoyOheDhmDkByuXLTH3roIeuMg20AeEL3cgVTMHgxsSrbTk3x6lxzL5GO7X2s+2LEFzZ1AedCmzZtTD2sMtIrxy4WT+Li9kw6K+RpJKZDRgEqGhPA+/tUo3Xare129FPGO6zfwS27zLI2zAsp84+3C3nIDPdSifxAMr/vH3K/BYiJcVWXlV7cGTfNvTIFoBAgMMYDvrE7rmpsAZZ5oSoHZBkDSn1L3Ntyr6pN9yCZMnmKZ8Y5zX1Nb4Pnn3/Bkk3DCP3MUOFqYkXUTFzRjJ38bNhnrk+fPu6AAw40tTS5Ws0xu5tv/vncMr6D6lbbbO3eefsdm/3KtRJX2ttL3FCqN00IlHbVmQQQl4wDgBepLjyRpY4ISKb++KdwcuHyNenkje7p3vgmoIqNAAMSdN1zz64WhJUrOC3qjRwbnNcNN9xgKitxoiOPPLIiwOsfFgRT9ZCpcMH7DHVPA5Om/nrXa7+eG9h2oDv55JPdAO+2J9WHoGpcxVMgUwCSGsPl0oyQgCfuaJZUnrA6NRdZJJQs6AjXeebCRbyId3mPHDXSCucAECttEXqu8dVXX7VqVipfGfJlmeU8CLzADXMCeUCweGDYdVryxXS7VpwQBx90sLvQdxKirJysi7iKo0CmABSm4oe1NVy6XLIz2C7/enarqGNubcONDzZWurhJfWnuZ5iqulQbh96+4shbd3txvoCbZo7EcVA7NQWvzHvhtMoSUrcZQ5Arlx4yOBR6du/hJ0v0dc8+/Yw76JCD6+5Em9iRMgWg0Oglmo4tQJbxv8zDeJGK/tTVZQyEkkr2Dd4rRi9yTCVthuXh1R2roXkFqUvwl3JxMimSmdj5nI/o034D73Dwx3j1lVdd1257+RzBVvnsHrdJUCBzAFKmADlhuHQ/+ugjyzZWyn9YJFfT3Q5Tdoglffzxx2ZPob6FWQhp8lRRLEjGxQorrGBZBkjMQs9PXkkanbT1HscRPnb0s2+3RRZ4XIVTIFMACp+4xG0wgLEHnvcxEP7W9/Ki1dbCiu2QYlSeEjtRHCmNKhznpGkQygrXQ6OQ225T9MorYk1z+L4M/0z4x78mFHKIuG1AgUwBKKl+0VKK+AZtdVG/1CVHKhyACu2Y0KOmJzejFemfgEeL/VlKIq1JFZwZXEQjEsBDYFTnKYkcno+uM3T763uST5FCgPH77753c841p5u3csbRzLimrP9mpgAkYivVBTXulFNOqXLnkh+WlCLKJ1MzDzkZkDykxRAX2W233RxZzwJo2mI/um5qmsg0oFq2W7duM7jbQ9qELng+17/tbybp+TXmlzFu1Fej3KqrrOrmn69iPEtchVMgRQCa7j5/+HJ3y7Oj3N/lLd2aXY5xB6zf+j9XVJWmU9nvgFZVBBWpJCUm0rlzZ2u1S0AUh0ASDFRkEu8hI5uCu4MOOsgASCwp7QuX/QYbbOBuueUWuwa6DoXgCEEk6ROWLNj4yUoAPf74Y+63Mb+6LbbYoipHLu3Xn8bzSwmAJrk3rz7OXf1emVvfM8XCzSa6n9540n2+3j5uhcANCwGTnXRwbZN5TS8BWuvSd5r2uqhjJF/yxKY4DbWHsm5Km8mdA2DsIyZs6Jy3QplBaiUPBwYSX3rppZZ2pKFcUuUkcTm+pG5V1nVlbOjll15yg64a5Dq0b+86eXrHVTwF0gGgca+5Oz9o5dbbs5fr3qmyseDE8W5SAjyhTi9JBIDwRuFUIEWFbOxXXnnFmrh/+OGH1gMAzxXeNewknuC8aBulxu8kaaa9tZMkDXOIpLZSPUuBHZ9J/VRqTqi6hVL4JQ+eE/ue4BZffHHX23cAauVrpSoybotnoqa8ZyoANO2Loe6jFi3dxosEuvisrVxFPeW/S8wRZgjI0Be4YIy99trLXtg5vFT6jOs21+SDrExDUKCXYjr61dG9hwYqh/bsYV7I+Xz9kyRPqM7x9+jRX5m38fbbbvfSt42pvKQwUUtEOURcxVEgFQBqNvdCbv6f3nfDfxzjRxZUpOZMG/uzm+A/nz0BoKSkCIOcyYAnEoZXTavQOEpxZC59r7ByFA/atttu65b0ToWrfIb1eeed6+2im7xk7ehW9q2xKCQkzWnsuLHupx9/8sHXT3wK0Cs+k2GiOUwO8FkMSGM7ZlBwWPpZNr0jpANAy+3qTt7xdXfewFNc/+Ed3SLNJ7rfvJeo7Sabu1l/L3OrbbWua52KM515DBKmKCnOtbIvR8cWotfBSy887971ThFiYuXe1mnuK06neNV0qgcJ6u2uu+7mSxi28JWpq9lFqElkVh4gM4/yNf9yStiyhWu37/nulNludQ99+pX7qvkcrt3OPdx6Uz5wT302zf1TTVlCWolaH+clVTWsVSKTnLjQhhtuZK8J4/+2vg9m93kphReSRipIm/Lyf2+1MtclsdOScV4fdKvvY6YEQFzmbG7V3bu7ilCm1pZunzXqmwTZOv4MbvnK4kBdQUvf826ZZZezV2NQW7NwZ1IEoCyQK55jpMCMFIgAihwRKVACBSKASiBe3DVSIAIo8kCkQAkUiAAqgXhx10iBCKDIA5ECJVAgAqgE4sVdIwUigCIPRAqUQIEIoBKIF3eNFIgAijwQKVACBSKASiBerl2T/bnD/grUKQ0bNsztvvvubp555qmaRZSWtll1TIomcbgIoDq+zapZSjZlZArem2++6Z544gmbT0o5QgROHRN/JhwuAqgeiK5SakkjapiokGXkPEV9TJRgEJikUARSPdyEBjpkBFA9EFpdgzg0YPrTz2kFQDQuATRPPvmkNYSkw2hc2aZABFAd3z9JHVQ4TdBmjg9l4zQyYSIC7Xmxh+jNkKywjbU5dXxD6vlwEUB1TGB1xVHzezoAPfroo9Y9h551SCdUuUGDBlk3IQZd0aZXwON0auvvXcenHA9XAgUigEogXq5dw6aGSCEqSBkfotH07LP88subJ86mbFf29Y6gqeMb0UCHiwCqY0KrP5v6VwMeJsHRHYgpEEibVXzjj9VWq+hNwFKZtsCXtpbCdUyiRnW4CKA6vp1IFV6MS3n77bfN48YEcfoUsAAWfQpWX311G12/km8MgmdO0gqbKOzpXcenFw9XxxSIACqBoJI2oRt63Lhx7q677nL33HOP++WXX6w7Ki9muWIXEQ/6Pz9OhIb2119/vdlD9HbbdNNNK6bN2US5uLJCgQigEu4UAFLTRkCEt+2ss86yvtVbbrml9WBDVdPISP0U+wEuPHFMnKOnN83i6TSKq1sqXQmnFndtIApEAJVAaKlagGfEiBGuV69ebuzYsdZud5tttpnhyOEYErZHjaMNMc3dr732WpsUgY10+umnG4hyjS0p4VTjrvVEgQigIgkrtzNq1x9//GGtcrFzmBRB320WrXjVEJF/VzV59zYS+/M9M38YVc+AL9r1Minu0EMPLXjyXJGXEXcrkQIRQEUSEAAo1vPggw9antupp55aBR7UMKli4bYCHo4GHAaACBBiBw0dOtRGl5DmQ4worvRTIAIoz3uUdBioJS5q1wMPPGBete22286OJkkDQJKqWNhhlG21DZkK+++/v3vhhRfcU089ZccL2+7GDIU8b1QDbxYBlAfBlV2gOI0avSOBmDmE6rb99ttbnhtLyaT8XV2iaDhhAknFsYgZMUAYZ8T48ePNFpJ7m+/ZTm7yPE47btIAFIgAypPIAAF1CzAhNdRi94MPPrAgKak6NU2KSP6Mtg0He9HLGhARPxo1apRJIZYAHKVQnjerATeLAMqD2OHUN4Aj8JDjxoBj1DiYv9glYGALocq9++67jnmv559/vlt22WWrVLlQahX7W3G/uqVABFAe9AxTbZA+5K9dd9117oYbbrDiOGYQITGQUIVOugsnyuECR31r166dTVk47LDD3GmnnWZOhTDZNI9Tjps0EAUaBYBCz1ZYUh0yp2bqyI6paS6OJILeNagXcJBpgGQg2wCjv2fPnjakmNGJBxxwgFtggQVqjOHksol0Lp9//rl54gioMru1b9++7pBDDrHg7C677GIqYjhkObzu2vglGYcKt8+VUVHb8eL3FRRoFADSzdTQqHAEiAx6pIgCn3I/J5lAsRkYVceQgc+2o0ePtvmkFMeddNJJBiCOT3k2cSBGKAIoMTr7ckwBRCCWXaOBybzjNCC1BwAywpEBwsSUkEAAidy6A/1kOVQ8jssK58QqeTUXYyc9gWG6UKyGLe1R0CgAJNcwKhRBTVQhezp4icF3pNLg0QqZJZdBHhr0qGkwvBjzPT/9jTjP999/b3YPoBEj7rjjjmb4X+nHLS7lxy4yr5R9FUgNf0ufh9IN4F988cUmxchEIHeOxVh7JtD179/fj3E8z3LokE54++SR03tNwEmCJMz6FphLY6Omu3ejAJCYAMYg+xlJgAcLAxwD/6uvvrLAJHEaAFGTNytUkSQ5iMuceOKJbt5553U33nijJYZKovFONjVq3A8//OCOP/54N2bMGMuDCx0LoZoUSgtsHQBJMBabh5w4efy4Lo7NMGGmzF1yySXmNsfBALgEnkKkiK69EI9h04VH7VfeKAAEU8BMMCYl00gejbLnO57gBDup/oQhkQy5PFpSjWAuVCW2u+mmm4zB11lnHZNAgDIEmdRC3NjkwPGCwQHdnnvu6VZddVXXunXrKknGLaFHAsB58cUX3b333mvq2cknn2wqIeqc3OXKZqCGCHBxHI5Nqg9pP9QVSZWr/VZX1B1JysquKwR8+fxGU9umUQAovGkAZOLEiQ6VCzWMkmoYtHPnzqbGhWpV6HDgGGImOQt44gOgPfbYw2we8tWSKpPURD7HI3fuuee6Tp06udtvv93sJdQtVDKADWgpZ0BSffPNNzbot3379qa+ATSWRtmHAVPZYTgSFllkkSrnwoABA8xeYluBX1JT1yJ1Tdf3zz//WBb48OHDLe+OB8Vff/1lthcPHZWXhzSNIKv+sdBoABQGJnErw+zzzTefBTlhXhwAlBDAKDyFJbX4W3U4MB9PZmwNmJ+0mqOPPtqe/jCactoEPLbV78rpAAPusMMOBqIPP/zQuu/g4uYF8wLiZZZZxm211VYm1SjvDj2COk51TEsRHu7zfv36mSRCvaM8XJkKYf4dx9Cx5cxo1aqVgfjVV1+1MnMyH3jAPP744xZ/wuuHqqoHjezLpiZZ8r3eRgEggUHqDxcPc+iFlMAY5wkLmKT2iLmQBACEf3/22WemTlGewBMeWya0sUTY6hhc4EIS8nu8WDXZK6FKWNPTXsfGQ3fZZZeZhw4goQ4CJqmdCvxKTZV3UUFgVMHFF1/cugShevJCUnI81EqktSRWeG75MlVT2q5RAEhuZ1zBSBrUtmeeecbUJBiXNlJ4xnjah6qOntZIDY7x3HPPGRPxN4FSApgCTwiimphcKpOkXCgFtF9NUqI2dYl9ATwgQPUDSFdccYV5B4877jh7QMjOEeAkOfXAQLroOHJuIBWRzkhMJGh583I3beo0o0VNTpemBJZc19ooAMSFwRx4vTbccEOTPFJZeMfOwHaQ5NF3IXMPHjzYYjnYIjgdYCi2g1lzxY1qYqrwOzEx58ex1C8uKcm0nZ78uW5WCC5UU6Qc3kE8cri5sa1wLpBPpweFz6T7tyZpesVRUXGbt2juZvX00jF//OknU3HxVoZ9GZqjpvpzjys3BTIHoLAKVDc/LC34yTMCOj3uXp60qCaoKzgUYCxtK8McqcUTHLsCN/cJJ5zgFl544SqwSe1JgiKXWicSh4FTfcb+SvPhvHOpRrVJHx1D56J3vHcLL7iQ6+fttkN79HT9B/R3a3ggmCpnUsQ7J6ZOsQcBn33tpfSP3/3gRn3xhZvogQhtnnjiSbfC8iu4bbbepqLYb7JPS/Lbx1UzBTIJIIABMyiegr1CYif6O8BRC12+x8MEqOaff357utKrAAMfewGg8eTGxY2jADuCp7rAEbq6C4mb5AJC8rNkKlFt4AklU65tt9luWwP+CT5rocfB3d0AvIFbbGaq2KSJFUHhsnIvSbwUar1wa7PNfvn5Fzdh/ASTVht27OjWareWSaWpU3x5BVWzFYRwHn9xVUOBzAFI6pRct6hepLzw1CTOAwiI1eCF4zM8XwQ28TAxGQE7ARDhBSMG89Zbb1lshd5t4ZJtkA9jp4K7PLevtXY7d+VVV7lTvGMB7+FJJ5/kuu61p5tl1lnsFH/1dBj26WdmG3J9JK429w8Z1Fuk9BQPnFn9doBuupdcU6eRMgTo/MERY3H9hwKZA5DsFyQLXjK62uy8886ue/fulj+Wa5Fes/baa7t99tnHPfzww9bAg7wz7B28c0gkVtizQDl02TCgPYMjLjyTt1m+rRt41UB3bv9zzRWPlN3CPzCe8G5qnCQU/7WcraVbdLFFzRZCAj3lm90T3KXRCQ+WLt4tzvdldFb1LwAVV24KZA5AXAZShYg/0ufYY4+1BE6VRsv7JX1fqg+fo56RHUCaDzllBFwBl8ATShtJoCxIIgTEdPrJ+f/B0QLeHup/3rnuf4svYdL5Ki+VAAfTIPBG4iBp6eNBFVJ8io8LjXdfffmlxYKg6SMPP+KOPuZot61XC1uU+bL0aV6NK4sSKBeEMgcgbvrzzz/v7rjjDstOPuKII+y6Qm9XGIXXRUui8B3dQMkY6NGjhzEY5QKyfbR9rmOk9insUYOkkHOCa8XGQ+ua5B8S23rnyFFHH+WW90HTXGteH3D+3+L/cxtuvJH79JNP3YD+57jjfKegH3x86ZDuhxh4siGJG/4OZQ5AuG/p+onkkN0iKZE0zENyJm0ZitZI0SE5lH4GUuMa/haU/oswuEolcBRM9//deP0NJnl6epsQaTKbV9cQT0iqnG5pBIz/fuVVVnaX+tjSgAHnuou9lJ/bZ7LvsWfX0k+ykR4hcwAiJYbAKBkCUr8KfTrKhY3bGhuKDG5GjxRaTZoWntD185DgGt59+x036KpB5lQ5qhI8uKXL/PcWGM0BIrmuUXUX8MHYfqf0cz/44OzAKwe6tdddxxwzcf2XApkDEEmQqCcES2W7FGqnSFIReec4gJL8MDx3WVwmXf3/BEehxZAhQywGhm2Io2Ca966Z9KlwTNt7ebMKl3bV8n+bq9t/PnnSZMuHw7V/5JG93MMPPeSO8bZmXI0AQJRUk3qjGJAFCysTQvO+wZVuWY7BsQDPNHPZZnT56zEp5P8jjekTL6Hpjrpsm+XMBV3hufSSx1/e1OkVk/NmAI//XOlQVkVb2eB+dd/4vk3bNt7V/7aVsid7fGeUWnV62pmTQOR6YQdpXEit7mbvQfrPqvyIAOPY3/+wrO0W5S3qlLANfTBJFwLJf4z9w3XarJNJHzwJZd4NXZXTNr1Cjcu1zBHjvygHYH61bNXSLb/i8tYsn2B0BFAjkEAUkfGUJGs6LA4rJODJk5o12leqohLuu+++nlkqMhCyuCpCQBXXRFoO9KFsIUkT/l0bnTiMxX4q03jmmN2Xwvv/cPnH1QgARGkzCaMvv/yyo4sNLulCbSCv6PscsakW90CCbegdCOXNK22CDIY7QmBguwAesrNJXq2p2UiSHXQckQA7ilIJaEQT/LgaAYBgCMaCEFXHTUv2cUHGf2VA8OmnnrbeCV27dvWJl2sYZUyikS+WsRU+QKgyJSeO1CWaq+AoyWeF2eDyRpLFgMeTDA8l2OZzrKa0TeZsIG4O5QnM4qH8gBIGzdRJ3jgzhitTXMJI+pM+85icOMoAuvfsUVGR6j1VZWQrk/5fqeIV6h6fWYzDeaK2wfjYKfSUo3cdFbVdunSZoaanumvKFYimpgpJxgAws6fi+g8FMgcg2T3ktaHvk0nADFKSSAEW6otWMmD4pU9XuevOwe5uH4hlXzr2PO8l2R5eCmFoo9bJ5aBk1bA3QVr5R3aNQESbLZqaQBukB2Mk5a3Uu1Kf+HfYR0/HIjaGhCc+Rt+FuHJTIHMAkqqF1CDOgVOB5h88Jclxo4qUoB+2AEzyp3e/fvftd9bx85VXXjV3dQ+feLq5nwx3p08HOu3U09yokaMse3mOueasYrSw71qSydLGTAqgYvNw3pRuUGhHmlPv3r1NUtNLgWVualzegScu6VxAcrE/+XMa/pW2a07L+WQOQLrx6kPd0dex8ITlpuMUuP/++422Vvbgg4KocRO9u3qhhRb0iaRd3VZbb1WVE0annXnmnscK6n768Sd32pmnW0m0GKxg58RMvKshyAESD5MLL7zQSjV40JD2RCItnYNyNS5hfyQ0mRnkGRJgZt/qMtxn4qWm6qczByCoJwZX+QEFdNTx81I1KjVAVGPO7lW6xXyi5KK+5oUMZJNgU6d7UE3wQdTZ3NG9j3GtF2ltzohDex7qzj7nbOtUo95s+r1U3bXEySgDPQQ8KirB1Guuucb6O9x5551WOEgnIAYfY/+h7hJTU3oUUpoKXXp8U+WqDkY15RimmS4NcW6ZAxASKOxwo54FeqqidvDKtSgS83FES3shuRKAsSg6o6CMkuiDDjrIsrNJLrX8sMqZQKFUUlCSfXPFVdQSKrQtkucjZq/uGIXcfJ2D7EP+reRSJA6tr+h4+sgjj1gL4i8o5fZxHTU34QGEyouUYugx5Q5x5UeBzAGIywqTPrGFagsOVnji/P/eRR2GeSxNvzKxcoMNO7qrr7naWlodfvjhVf3WOH7YRcckWGWqS64ncwgMitRwA5MGQ7kEjEr1J5kPitHURQKrbJjqzofvae6IPUQtFX3vfvvtNzsHvJhIGl7kGCZXlD41AymTAAovqVbw2CM+NxGM2YnOV35N2yuqVZFA2EeUPgMmXLgyvsNmitWRFlCQ+nLbbbeZJKCXNhW0lJQDJDyGuJvDVrv5Pe8K20qNS+R5U+cimqvwiqt0CmQeQMWQQFIibDwoycKTmF7YSAqcC7SKwiOFcwHVTA1NqnsyA2jsCCo7ieLTZ06BXryD9GBACtAtiPf6fsJL3ZVKJ/VOcZ9QNQ2bqBRD16a4T5MEEDe6IkP536yD0DGBKkN7K+qNkEYAgcbyK664YpX6VhOzkN398ccfW+cbNTeBcekEypOf38IGKSTNphjmTIIl7OsdOhxCcBXzO015nyYLoKQjIHSPyyVMmg8pLKhzxJnw1OHZYsl5YRpiIqYCMFD78Agmv0e9C7uj5qWClsihodtav6f3EEhZybwokRx1unuTBFBNTMt3sh14Mm+66abWwYe5P7h26aWw0047mfQIJz1IqrE/zgKadxBTefrpp6si+Xi/qNchxqL5PnXhRKiOI5IB0lzqYhJQdcpdTeBgTRJANd1X9Z0LDW8Y/tprr7U2UXiyqLlRJ6BkDEZqEuk0ZAS88cYbJomQSMRdsIPoa90QkqcJ8O9Mv8QIoOAWhOqMJJGMbcoocCrgYCBRE7sIMOGSFogkTQARoMGW4nsaGFL5iiuZ4+GRw4mgaXkznQviCRRNgQigHKQLvXRSzQAFLmikECUDNKBnEgROBgKPqEc4BkjCfOyxx6ycAC8bXj1iLWQGkODJNkggMqbJnIju5KJ5NxU7RgAFt6E6tUrSSN189ttvPwMGZRTEdAATbm+aPRLrAWDM2KEbKp9r6pvmtTLcisl35O0x0IoBWUgvTaeT9yyqeanASI0nEQGU5z3SSHp5qmiJhYcOCYSHTuPnGUmPkwEVLblIFyIPje/JUNAYe5I4yXoGaEiqmlKA8jzduFkDUSACqABCSxKxCyobEgbGRyIhaQYNGmQAYckuUtMTgKG0I46DY4IBWTgnLr/8cvsOmwoQyQtYwKnFTWcSBSKA8iR8GHhVbhzOAJrVY9OgvgEe5clJ/ZJXTgVsKtTjeHjmqNkhL40OqaT8kMwZ5tPleXpxs5lEgQigPAivoGuY7cxuZDYzl4ge3QRY5bELg7SKveSKwXA81DXsIJwPTPam3IDsBf1WHqcXN5mJFIgAypP4oUEPGDD433zzTUsKpYUu3/NZmF+XDGTqp5IJqbjImZxAkxPsISRRXNmgQARQnvcp6RGjRIFCNAKjZBWwBJjqgKOfCo8lpwTtuQAf/R0AUPTA5XljZvJmEUBF3gCcAiSNIoHUsUYOg0KYX9sSYyJexDHjyg4FIoCKvFd4y2g2SO81AamUZMw//vjDyqsL6nFX5LnH3eqOAhFARdISRqcA76677rLCO9zYUuN4T5Zs15T1zHfEhbCNNLKlyNOKuzUwBVICoL/dsCeGuEffGenGTfINAmdfwe3Sa2+3aorbVVtLYN9imKpTsg/wnoWN7sP6ItlE6q/AvxWYJf5DrhwTxtddd10DUAi2BuaH+HMFUiAlAPo/9/ylD7sPFlnRddp4WTf5qzfded1Hu30vONFtuWh6B9xi7JOyw7Rv+q4xoBdwqFZIKTkCkwCmeiCyF1D/SFIlzYe2U6iFijMVYksVeN/j5nVEgZQAaLprPlsbt9nO+7uDdqIjzHZugdN7uQtvftVtetLGLo2DRwAF0oNcOCZFkMLDAkQAg+/D8m9lJgAKnAUsmo6Q2U0/O8rGkWhSAyN46ojD6/kwKQEQYzemuAl/j3MT/AW3dPO79ltu5B64ZrT71W3sWtczEYo9PJKGLIQBAwZY1SrdTSm6o5KVLOuwZBuVTTluZGSTrU0u3EcffWSTxkkHEuiy0E64WJo1tv1SAiCM7nI3a8s5PHhY49xHr/pCtKX3dwumlOKSEICIXgfkwZHXxnhFshMIjNIdlL5suLrZDjWN2BFdVGliSNY2KUBUr3K8sH1WKR69lJKsUZ5WagA0ZcJo9/5zD7r5ytq4ySNfc4+8tbg77KIO7o8RH7gRv7ZyK3ZY3s2ToluQzI1TP2pqfJhq8NJLL9k78R1UOlQ46oPIiaPzab9+/SyDgYI7rZiFnaIbnOeppARAC7j1D97Q/fjGCPfSc9+45q1WcL2uPcytN/8kN+KZYe7DkfO7/7X3AErR8KvQkxbaKzS750XJN1WrjAfB1gEcgAXVLuycGiVNnpya0s1SAqC53Jq7H+ZfSSrN4tpusZd/pZR6/rSq6+tGdgKVqrW1yY3OgvTe23zOLCUAyudU4zaRAumjQARQ+u5JPKMMUSACKEM3K55q+igQAZS+exLPKEMUiADK0M2Kp5o+CkQApe+exDPKEAUigDJ0s+Kppo8CEUDpuyfxjDJEgQigDN2seKrpo0AEUPruSTyjDFEgAihDNyueavooEAGUvnsSzyhDFIgAytDNiqeaPgpEAKXvnsQzyhAFIoAydLPiqaaPAv8Pmntv6o1Q44QAAAAASUVORK5CYII=\" alt=\"tree\" height=\"305\" width=\"166\"></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "tree traversal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "85f15a9d-6e77-4394-bca7-a40683aa2d14",
+                    "questionID": "07411c5d-e074-4ea6-b6d6-b6124c5b72ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Inorder Traversal:&nbsp;</p><p><strong>Left -Root&nbsp;-Right</strong></p><p>PreOrder Traversal:&nbsp;</p><p><strong>Root-Left-Right</strong></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">    InOrder  PreOrder\n\nA. &nbsp; BADC &nbsp; ABCD\n\nB. &nbsp; BCAD&nbsp; &nbsp;ACBD\n\nC. &nbsp; ACBD &nbsp; ABCD\n</pre><p><strong>D.&nbsp;&nbsp;BCAD&nbsp;ABCD</strong></p><p><strong>Therefore, D is Correct</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1e7e7253-b5ea-41fb-9475-d657a83f5b12",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: inherit;\">Consider the following rooted tree with the vertex P labeled as root</span></p><p><br></p><p><img src=\"http://www.geeksforgeeks.org/wp-content/uploads/gq/2014/04/GATECS2014Q19.png\" alt=\"GATECS2014Q19\" height=\"240\" width=\"300\"></p><p><br></p><p><span style=\"color: inherit;\">The order in which the nodes are visited during in-order traversal is</span></p><p>A) <span style=\"color: inherit;\">SQPTRWUV</span></p><p>B) <span style=\"color: inherit;\">SQPTURWV</span></p><p>C) <span style=\"color: inherit;\">SQPTWUVR</span></p><p>D) <span style=\"color: inherit;\">SQPTRUWV</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "tree traversal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3ffdd439-716f-4d89-8e0b-9542b3c4961d",
+                    "questionID": "1e7e7253-b5ea-41fb-9475-d657a83f5b12",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<pre class=\"ql-syntax\" spellcheck=\"false\">Algorithm Inorder(tree) - Use of Recursion\nSteps:\n1. Traverse the left subtree, \n   i.e., call Inorder(left-subtree)\n2. Visit the root.\n3. Traverse the right subtree, \n   i.e., call Inorder(right-subtree)\n\nUnderstanding this algorithm requires the basic \nunderstanding of Recursion\n\nTherefore, We begin in the above tree with root as\nthe starting point, which is P.\n\n# Step 1( for node P) :\nTraverse the left subtree of node or root P.\nSo we have node Q on left of P.\n\n-&gt; Step 1( for node Q)\nTraverse the left subtree of node Q.\nSo we have node S on left of Q.\n\n* Step 1 (for node S)\nNow again traverse the left subtree of node S which is \nNULL here.\n\n* Step 2(for node S)\nVisit the node S, i.e print node S as the 1st element of \ninorder traversal.\n\n* Step 3(for node S)\nTraverse the right subtree of node S.\nWhich is NULL here.\n\nNow move up in the tree to Q which is parent\nof S.( Recursion, function of Q called for function of S).\nHence we go back to Q.\n\n-&gt; Step 2( for node Q):\nVisit the node Q, i.e print node Q as the 2nd\nelement of inorder traversal.\n\n-&gt; Step 3 (for node Q)\nTraverse the right subtree of node Q.\nWhich is NULL here.\n\nNow move up in the tree to P which is parent\nof Q.( Recursion, function of P called for function of Q).\nHence we go back to P.\n\n# Step 2(for node P)\nVisit the node P, i.e print node S as the 3rd\nelement of inorder traversal.\n\n# Step 3 (for node P)\nTraverse the right subtree of node P.\nNode R is at the right of P.\n\nTill now we have printed SQP as the inorder of the tree. \nSimilarly other elements can be obtained by traversing \nthe right subtree of P.\n\nThe final correct order of Inorder traversal would \nbe SQPTRWUV. \n</pre><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dabe934b-695f-44c0-a334-e6bad2d6cd47",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(39, 50, 57);\">The inorder and preorder traversal of a binary tree are d b e a f c g and a b d e c f g, respectively. The postorder traversal of the binary tree is:</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>d e b f g c a</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>e d b g f c a</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>e d b f g c a</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>d e f g b c a</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "tree traversal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a71df088-432b-442c-b3d3-eb81d5803797",
+                    "questionID": "dabe934b-695f-44c0-a334-e6bad2d6cd47",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: rgb(240, 243, 245); color: rgb(39, 50, 57);\">Below is the given tree.</span></p><pre class=\"ql-syntax\" spellcheck=\"false\">                              a\n                           /    \\\\\n                        /          \\\\\n                      b             c\n                   /   \\\\          /   \\\\\n                 /       \\\\      /       \\\\\n               d         e    f          g\n</pre><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "257cbe16-74f4-4e0a-8983-24a10451489d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int x = 10, y = 5;</p><p>if ((x-- &gt; 9 &amp;&amp; ++y == 6) || --x == 8) {</p><p>    y -= x--;</p><p>} else {</p><p>    x += ++y;</p><p>}</p><p>System.out.println(x + \", \" + y);</p><p><br></p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 8, 1</p><p><br></p><p>B) 7, 2</p><p><br></p><p>C) 9, 2</p><p><br></p><p>D) 8, -3</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "01b0bd9c-2158-4b02-a672-ea1428fa7587",
+                    "questionID": "257cbe16-74f4-4e0a-8983-24a10451489d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><ul><li><br></li><li><br></li><li>x-- = 10 → true, x = 9</li><li><br></li><li><br></li><li><br></li><li>++y = 6 → true</li><li><br></li><li><br></li><li><br></li><li>OR not evaluated</li><li><br></li><li><br></li><li><br></li><li>y -= x-- → y = 6 - 9 = -3, x = 8</li><li><br></li><li>→ Final: x = 8, y = -3 </li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "498c8bbd-f98d-4382-9364-cefabce02562",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int a = 1, b = 2, c = 3;</p><p>if (a++ &lt; 2 &amp;&amp; b++ &gt; 2 || c-- == 3) {</p><p>    a += --b;</p><p>} else {</p><p>    c += a--;</p><p>}</p><p>System.out.println(a + \", \" + b + \", \" + c);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 2, 2, 3</p><p><br></p><p>B) 4, 2, 2</p><p><br></p><p>C) 1, 1, 3</p><p><br></p><p>D) 2, 2, 2</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "90edc554-003b-4b91-8f43-7ab3418bd933",
+                    "questionID": "498c8bbd-f98d-4382-9364-cefabce02562",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<h3><strong>Explanation:</strong></h3><ul><li><br></li><li><br></li><li><code>a++ &lt; 2</code> → 1 &lt; 2 → <strong>true</strong>, then <code>a = 2</code></li><li><br></li><li><br></li><li><br></li><li><code>b++ &gt; 2</code> → 2 &gt; 2 → <strong>false</strong>, then <code>b = 3</code></li><li><br></li><li><br></li><li><br></li><li>Since <code>true &amp;&amp; false</code> = <strong>false</strong>, next part: <code>c-- == 3</code> → true (then <code>c = 2</code>)</li><li><br></li><li><br></li><li><br></li><li>Entire <code>if</code> is <strong>true</strong>, so we enter the block: <code>--b = 2</code>, then <code>a += 2</code> → <code>a = 4</code></li><li><br></li><li><br></li><li><br></li><li>Final values: <code>a = 4</code>, <code>b = 2</code>, <code>c = 2</code></li><li><br></li><li><br></li></ul><p>✅ <strong>Output: </strong><code><strong>4, 2, 2</strong></code></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd2d6e09-9cfb-4758-8a50-7e1325d205df",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int p = 4, q = 2;</p><p>if (--p == 3 &amp;&amp; ++q == 3) {</p><p>    p *= --q;</p><p>} else {</p><p>    q += p--;</p><p>}</p><p>System.out.println(p + \", \" + q);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 2, 5</p><p><br></p><p>B) 3, 3</p><p><br></p><p>C) 2, 3</p><p><br></p><p>D) 6, 2</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d686b3fd-f01a-4d17-969a-c5abba07a87a",
+                    "questionID": "cd2d6e09-9cfb-4758-8a50-7e1325d205df",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><ul><li><br></li><li><br></li><li><code>--p = 3</code>, <code>++q = 3</code> → true</li><li><br></li><li><br></li><li><br></li><li><code>--q = 2</code>, so <code>p *= 2 → 3*2 = 6</code></li><li><br></li><li><br></li><li><br></li><li>But <code>p</code> was already 3. After multiply → 6</li><li><br></li><li>Wait! <code>q = 3 → --q = 2</code>, p = 3 → p = 6</li><li><br></li><li>Final: p = 6, q = 2 </li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f52e984b-1d09-45f2-a8b6-f77241ecebe7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int x = 2, y = 3;</p><p>if (++x == 3 || y-- == 3) {</p><p>    y += x--;</p><p>} else {</p><p>    x -= y++;</p><p>}</p><p>System.out.println(x + \", \" + y);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 1, 5</p><p><br></p><p>B) 2, 6</p><p><br></p><p>C) 2, 4</p><p><br></p><p>D) 3, 4</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f288abeb-15c2-42cc-9b41-3e49d2602cfd",
+                    "questionID": "f52e984b-1d09-45f2-a8b6-f77241ecebe7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><ul><li><br></li><li><br></li><li><code>++x = 3</code> → true, so OR short-circuits</li><li><br></li><li><br></li><li><br></li><li>Inside if: <code>y += x-- → y = 3 + 3 = 6</code>, then x = 2</li><li><br></li><li><br></li><li><br></li><li>Final: x = 2, y = 6</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b0251554-5a97-406e-b1f2-72a6d147cf55",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int a = 5, b = 3;</p><p>if (--a &gt; 3 &amp;&amp; b-- &gt; 2) {</p><p>    a += b;</p><p>} else {</p><p>    b -= a--;</p><p>}</p><p>System.out.println(a + \", \" + b);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 4, 2</p><p><br></p><p>B) 3, 4</p><p><br></p><p>C) 6, 2</p><p><br></p><p>D) 3, 1</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e0a7099e-4fb0-4eec-9f39-c6277599e48c",
+                    "questionID": "b0251554-5a97-406e-b1f2-72a6d147cf55",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<h3>Explanation:</h3><p><br></p><ul><li><br></li><li><br></li><li><code>--a</code> → <code>a = 4</code>, check <code>4 &gt; 3</code> → true</li><li><br></li><li><br></li><li><br></li><li><code>b--</code> → returns 3, then <code>b = 2</code>, check <code>3 &gt; 2</code> → true</li><li><br></li><li><br></li><li><br></li><li>Condition is true, so inside <code>if</code>: <code>a += b</code> → <code>a = 4 + 2 = 6</code></li><li><br></li><li><br></li><li><br></li><li><code>else</code> is skipped</li><li><br></li><li><br></li><li><br></li><li>Final values: <code>a = 6</code>, <code>b = 2</code></li><li><br></li><li><br></li></ul><p><br></p><p><code>✅ </code><strong>Output: </strong><code><strong>6, 2</strong></code></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8472e24f-a84d-4a85-ac6e-042fd7e598d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int x = 10, y = 5;</p><p>if ((x++ &gt; 10) || (++y &gt; 5))</p><p>    x += y;</p><p>System.out.println(x + \", \" + y);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 17, 6</p><p><br></p><p>B) 15, 6</p><p><br></p><p>C) 11, 6</p><p><br></p><p>D) 10, 5</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0fde5ea2-81da-41a8-a981-36f0bcfdc2dc",
+                    "questionID": "8472e24f-a84d-4a85-ac6e-042fd7e598d2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><ul><li><br></li><li><br></li><li><code>x++ &gt; 10</code> → 10 &gt; 10 → false, x becomes 11</li><li><br></li><li><br></li><li><br></li><li><code>++y = 6 → 6 &gt; 5 → true</code></li><li><br></li><li><br></li><li><br></li><li>So if is true ⇒ <code>x = 11 + 6 = 17</code>? Wait</li><li><br></li><li>Actually: x = 11, then <code>x += y → x = 11 + 6 = 17</code></li><li><br></li><li>But y = 6</li><li><br></li><li>Answer: 17, 6</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4671e8d9-0327-49cb-95c7-8d149a08de48",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int a = 1;</p><p>a = a++ + a++ + ++a;</p><p>System.out.println(a);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 4</p><p><br></p><p>B) 6</p><p><br></p><p>C) 7</p><p><br></p><p>D) 5</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "dcb8f27c-02bd-400d-9478-dbab64586dbb",
+                    "questionID": "4671e8d9-0327-49cb-95c7-8d149a08de48",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><ul><li><br></li><li><br></li><li>First <code>a++</code> returns <strong>1</strong>, then <code>a = 2</code></li><li><br></li><li><br></li><li><br></li><li>Second <code>a++</code> returns <strong>2</strong>, then <code>a = 3</code></li><li><br></li><li><br></li><li><br></li><li><code>++a</code> increments to <strong>4</strong>, then returns 4</li><li><br></li><li><br></li><li><br></li><li>So, expression becomes: <code>1 + 2 + 4 = 7</code></li><li><br></li><li><br></li><li><br></li><li>Final value of <code>a</code> is <strong>7</strong></li><li><br></li><li><br></li></ul><p>✅ <strong>Output: 7</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d656d2a5-ddbe-48f7-9f9e-82f15fcabb0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int a = 5;</p><p>if (a++ == 5 &amp;&amp; a++ == 6)</p><p>    a++;</p><p>System.out.println(a);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 7</p><p><br></p><p>B) 6</p><p><br></p><p>C) 5</p><p><br></p><p>D) 8</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "24628158-5806-4d55-a127-ff494ca9fb20",
+                    "questionID": "d656d2a5-ddbe-48f7-9f9e-82f15fcabb0b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><ul><li><br></li><li><br></li><li>First <code>a++ == 5</code> → true (a=6)</li><li><br></li><li><br></li><li><br></li><li>Then <code>a++ == 6</code> → true (a=7)</li><li><br></li><li><br></li><li><br></li><li>Enters if → <code>a++</code> → a becomes 8</li><li><br></li><li><br></li><li><br></li><li>Final a = 8</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9f5aa7ae-1fea-4bf2-a9de-5af00e566ca0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int a = 1;</p><p>while (a++ &lt; 5) {</p><p>    if (a++ % 2 == 0)</p><p>        a++;</p><p>}</p><p>System.out.println(a);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 7</p><p><br></p><p>B) 6</p><p><br></p><p>C) 8</p><p><br></p><p>D) 9</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "10e4a009-b429-465d-b8ec-6a62eab0542f",
+                    "questionID": "9f5aa7ae-1fea-4bf2-a9de-5af00e566ca0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><ul><li><br></li><li><br></li><li>1st loop: <code>a = 1</code>, <code>a++ &lt; 5</code> is true → <code>a = 2</code>, then <code>a++ % 2 == 0</code> is true → <code>a = 4</code></li><li><br></li><li><br></li><li><br></li><li>2nd loop: <code>a = 4</code>, <code>a++ &lt; 5</code> is true → <code>a = 5</code>, <code>a++ % 2 == 1</code> is false → <code>a = 6</code></li><li><br></li><li><br></li><li><br></li><li>3rd loop: <code>a = 6</code>, <code>a++ &lt; 5</code> is false → loop ends, <code>a = 7</code></li><li><br></li><li><br></li><li><br></li><li>Final output: <strong>7</strong></li><li><br></li><li><br></li></ul><p><strong>Correct Answer: A) 7</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95dc9502-ced9-442a-9c7c-9d3233711474",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int i = 0;</p><p>if (i++ == 0) {</p><p>    if (i++ == 1) {</p><p>        i++;</p><p>    }</p><p>}</p><p>System.out.println(i);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 1</p><p><br></p><p>B) 2</p><p><br></p><p>C) 3</p><p><br></p><p>D) 4</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "758f3972-7e67-43ad-82db-a5d42abb236c",
+                    "questionID": "95dc9502-ced9-442a-9c7c-9d3233711474",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ C) 3</p><p><br></p><p><strong>Explanation:</strong></p><ul><li><br></li><li><br></li><li><code>i = 0</code></li><li><br></li><li><br></li><li><br></li><li>First <code>if (0 == 0)</code> → true → i becomes 1</li><li><br></li><li><br></li><li><br></li><li>Inside second <code>if (1 == 1)</code> → true → i becomes 2 → i++ inside becomes 3</li><li><br></li><li><br></li><li><br></li><li>Final: i = 3</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4cb8173a-1fbd-48bf-ba32-6e6558948650",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int x = 1, y = 2;</p><p>int z = x++ &gt; 1 ? ++y : y++;</p><p>System.out.println(x + \", \" + y + \", \" + z);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 2, 3, 2</p><p><br></p><p>B) 2, 2, 2</p><p><br></p><p>C) 2, 3, 3</p><p><br></p><p>D) 2, 2, 3</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "448a34d9-16e1-43b6-a962-15afc4f20a43",
+                    "questionID": "4cb8173a-1fbd-48bf-ba32-6e6558948650",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ A) 2, 3, 2</p><p><br></p><p><strong>Explanation:</strong></p><ul><li><br></li><li><br></li><li><code>x++ &gt; 1</code> → 1 &gt; 1 ⇒ false, but x becomes 2</li><li><br></li><li><br></li><li><br></li><li>So <code>z = y++ ⇒ z = 2</code>, y becomes 3</li><li><br></li><li><br></li><li><br></li><li>Final: x = 2, y = 3, z = 2</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c750b3d8-e9dd-41f3-948c-e508d9cf26e9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int a = 3, b = 4;</p><p>if (--a == 2 || b-- == 4) {</p><p>    b += a;</p><p>}</p><p>System.out.println(a + \", \" + b);</p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 2, 6</p><p><br></p><p>B) 2, 5</p><p><br></p><p>C) 2, 4</p><p><br></p><p>D) 2, 7</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6add421b-2452-4b74-9814-fcc00efd15be",
+                    "questionID": "c750b3d8-e9dd-41f3-948c-e508d9cf26e9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ A) 2, 6</p><p><br></p><p><strong>Explanation:</strong></p><ul><li><br></li><li><br></li><li><code>--a == 2</code> ⇒ <code>2 == 2</code> ⇒ true ⇒ <code>b-- == 4</code> is <strong>not</strong> evaluated (short-circuit)</li><li><br></li><li><br></li><li><br></li><li>Inside <code>if</code>: <code>b = 4 + 2 = 6</code></li><li><br></li><li><br></li><li><br></li><li>Final: a = 2, b = 6</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8a40385e-9f68-4c2e-ba97-c66f4167579d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>int x = 5, y = 10;</p><p>if (x++ &gt; 5 &amp;&amp; ++y &gt; 10)</p><p>    y++;</p><p>else</p><p>    x += y++;</p><p><br></p><p>System.out.println(x + \", \" + y);</p><p><br></p><p><br></p><p><strong>Options:</strong></p><p><br></p><p>A) 15, 11</p><p><br></p><p>B) 16, 11</p><p><br></p><p>C) 15, 12</p><p><br></p><p>D) 16, 12</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Prefix Postfix Increment Decrement"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3e1024d6-c78d-404d-b774-29bdc7453b80",
+                    "questionID": "8a40385e-9f68-4c2e-ba97-c66f4167579d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<ul><li>Condition is false ⇒ else: <code>x += y++ → x = 6 + 10 = 16</code>, y = 11 after post-increment</li><li><br></li><li><br></li></ul><p><strong>So final:</strong> x = 16, y = 11</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1b3eeb4-5dd1-4767-9449-a89ea5bc8a01",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>public static int fun(int x, int y) {</p><p>    if (x == 0) return y;</p><p>    return fun(x - 1, x + y);</p><p>}</p><p>System.out.println(fun(4, 3));</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>13</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>9</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Recursion"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8e84f107-2299-4684-9d4b-1af0a9b23a6c",
+                    "questionID": "f1b3eeb4-5dd1-4767-9449-a89ea5bc8a01",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> 13</p><p><br></p><p><strong>Explanation:</strong> Calls unfold as:</p><pre class=\"ql-syntax\" spellcheck=\"false\">fun(4,3) → fun(3,7)\n→ fun(2,10)\n→ fun(1,12)\n→ fun(0,13)\n</pre><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "edc4696a-f872-4a42-b38f-213b1852111e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>public static int fun(int n) {</p><p>    if (n == 4) return n;</p><p>    else return 2 * fun(n + 1);</p><p>}</p><p>System.out.println(fun(2));</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>4</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>16</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Runtime Error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Recursion"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3c2ab2ce-ba51-4120-a596-3c21c2189983",
+                    "questionID": "edc4696a-f872-4a42-b38f-213b1852111e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C) 16</p><p><strong>Explanation:</strong> Calls: fun(2) → 2<em>fun(3); fun(3) → 2</em>fun(4); fun(4)=4. So fun(2)=2<em>2</em>4=16</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3de95e03-fd56-4335-8ae0-40813aa05551",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Integer value, n</p><p>Set value = 1, n = 45</p><p>while (value &lt;= n)</p><p>    value = value &lt;&lt; 1</p><p>end loop</p><p>Print value</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>16</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>32</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>64</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>36</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "mcqs"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a514a340-a613-4154-ad75-08f8688a3f51",
+                    "questionID": "3de95e03-fd56-4335-8ae0-40813aa05551",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C) 64</p><p><strong>Explanation:</strong><code>value</code> doubles each iteration: 1→2→4→8→…→32→64. Since 64 &gt; 45, loop stops and prints 64 .</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e26f10d3-994f-4b42-9ef7-460c6f4da27e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Initialize Integer x, y, z</p><p>Set y = 1, x = 2</p><p>z = x ^ y</p><p>Print z</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>4</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "mcqs"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "1235e105-8c7a-4d21-82e7-551f1aee903b",
+                    "questionID": "e26f10d3-994f-4b42-9ef7-460c6f4da27e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> D) 3</p><p><strong>Explanation:</strong> XOR (^) of 2 and 1 yields 3 because 10₂ ⊕ 01₂ = 11₂ = 3</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

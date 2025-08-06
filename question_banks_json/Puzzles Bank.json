@@ -1,0 +1,466 @@
+{
+    "bank_id": "361ee869-8368-465b-a42c-5cd9443f67e2",
+    "bank_name": "Puzzles Bank",
+    "questions": [
+        {
+            "id": "13355a78-bac6-46b1-b434-e44a33a62280",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/8_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"></span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "af7d0a1b-f4cc-46e9-af6c-544391f33787",
+                    "questionID": "13355a78-bac6-46b1-b434-e44a33a62280",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><br></p><p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/8_item_solved.png\"></span></p><p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">A</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "44098747-7c44-4746-b981-4c7a83d88927",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/10_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "388bee24-525f-49da-b9cd-cb28f3e74f20",
+                    "questionID": "44098747-7c44-4746-b981-4c7a83d88927",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/10_item_solved.png\"></span></p><p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">D</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8cacc094-936d-4b81-b2f3-20ef7fd97ec9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/9_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"></span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"></span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ea73ebcb-adfe-4fa2-ace4-b55f9136d470",
+                    "questionID": "8cacc094-936d-4b81-b2f3-20ef7fd97ec9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/9_item_solved.png\"></span></p><p><span style=\"color: rgb(33, 37, 41);\">C</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d28dbf66-d28b-4791-b093-70202889a7a8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/7_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"></span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6519374f-54db-4817-879f-5dee2a18a2b2",
+                    "questionID": "d28dbf66-d28b-4791-b093-70202889a7a8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/7_item_solved.png\"></span></p><p><span style=\"color: rgb(33, 37, 41);\">A</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3ff118fa-4de8-4b29-a46c-7a5dabbacaaf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/3_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"></span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fc0dc84b-577c-4950-9e8b-f462537b926a",
+                    "questionID": "3ff118fa-4de8-4b29-a46c-7a5dabbacaaf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/3_item_solved.png\"></span></p><p><span style=\"color: rgb(33, 37, 41);\">A</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f8e668db-7451-45f1-877f-4dc51e4fa66b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/6_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f231cb74-86a5-4f28-b363-1cd72307fb9b",
+                    "questionID": "f8e668db-7451-45f1-877f-4dc51e4fa66b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/6_item_solved.png\"></span></p><p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">B</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b109483f-f45f-4f36-8802-72138b1a7f46",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/5_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"><span style=\"color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "06db3ae0-b970-47fd-a38c-aec62808cce4",
+                    "questionID": "b109483f-f45f-4f36-8802-72138b1a7f46",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/5_item_solved.png\"></span></p><p><span style=\"color: rgb(33, 37, 41);\">C</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "87cde533-d733-4479-b72f-92341adf67d2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/4_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8c216c41-40e6-49e6-a40c-de5874d4fc5a",
+                    "questionID": "87cde533-d733-4479-b72f-92341adf67d2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/4_item_solved.png\"></span></p><p>D</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d25f45f5-b50f-4c9e-8a46-55124db6591d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/2_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"></span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "df5ca885-88b2-47b9-b094-2e034c866f1a",
+                    "questionID": "d25f45f5-b50f-4c9e-8a46-55124db6591d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/2_item_solved.png\"></span></p><p><span style=\"background-color: rgb(248, 249, 250); color: rgb(33, 37, 41);\">A</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0fd9ce60-9979-495a-890d-ef80fffd4b93",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/1_item.png\"></span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/1.png\"><span style=\"color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/2.png\"><span style=\"color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/3.png\"><span style=\"color: rgb(33, 37, 41);\">&nbsp;</span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/options/4.png\"></span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "puzzles"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f7dbbc00-bf1a-426d-8ca4-517cf3f6e49b",
+                    "questionID": "0fd9ce60-9979-495a-890d-ef80fffd4b93",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(33, 37, 41);\"><img src=\"https://www.123test.com/deductive-reasoning-test-figures/items/1_item_solved.png\"></span></p><p><span style=\"color: rgb(33, 37, 41);\">A</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

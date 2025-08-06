@@ -1,0 +1,972 @@
+{
+    "bank_id": "d3ed9cb6-be50-44e4-96ed-d03976e4b5af",
+    "bank_name": "SET-2",
+    "questions": [
+        {
+            "id": "0e8e7e30-c8d4-4dd3-91df-0f52e91fb10c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the enhanced ER model, which concept allows for modeling subtypes of an entity type",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Weak entities",
+                    "type": "A"
+                },
+                {
+                    "body": "Strong entities",
+                    "type": "B"
+                },
+                {
+                    "body": "Superclasses and subclasses",
+                    "type": "C"
+                },
+                {
+                    "body": "Multivalued attributes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "eb812bbe-0f27-4f5f-bf8e-a15bf4b585c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main purpose of minimizing an ER diagram",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To reduce the number of attributes in each entity",
+                    "type": "A"
+                },
+                {
+                    "body": "To reduce the number of relationships between entities",
+                    "type": "B"
+                },
+                {
+                    "body": "To simplify the ER diagram and improve its understandability",
+                    "type": "C"
+                },
+                {
+                    "body": "To make the ER diagram more visually appealing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "bd65ef76-a159-4e84-9737-9bf6d9580999",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which mapping method is commonly used for derived attributes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Creating a separate table",
+                    "type": "A"
+                },
+                {
+                    "body": "Storing the derived attribute in the same table as its base attributes",
+                    "type": "B"
+                },
+                {
+                    "body": " Ignoring the derived attribute",
+                    "type": "C"
+                },
+                {
+                    "body": "Storing it in a different table",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "06682cfb-d2e3-48cc-8eeb-7af092dfc895",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens to a many-to-many relationship when mapping to the relational model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The relationship is ignored",
+                    "type": "A"
+                },
+                {
+                    "body": "A single table is created with foreign keys",
+                    "type": "B"
+                },
+                {
+                    "body": "A separate table is created with foreign keys from both entities",
+                    "type": "C"
+                },
+                {
+                    "body": "It is split into multiple one-to-many relationships",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "9af7a333-9aff-4365-acdc-8dbe9c9502cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In an ER diagram, if each employee in Capgemini must be assigned to one project, but a project can have multiple employees, what is the cardinality",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One-to-One",
+                    "type": "A"
+                },
+                {
+                    "body": "Many-to-One",
+                    "type": "B"
+                },
+                {
+                    "body": "One-to-Many",
+                    "type": "C"
+                },
+                {
+                    "body": "Many-to-Many",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "c76a5adf-6e99-4c97-874b-78d3f07162b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "During a technical round, you�re asked: Which of the following best explains logical data independence",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Changing storage media without altering external schema",
+                    "type": "A"
+                },
+                {
+                    "body": "Changing indexes and hashing mechanisms without affecting user queries",
+                    "type": "B"
+                },
+                {
+                    "body": "Modifying the conceptual schema without changing external views",
+                    "type": "C"
+                },
+                {
+                    "body": "Allowing direct access to physical storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b8ed6a69-dd93-4b42-be42-bacbb790f724",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which DBMS type is data organized using records and sets with multiple parent-child relationships allowed",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Relational DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "NoSQL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1b950c7e-3448-43e2-a56e-e33d4b4902ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not a valid reason to choose DBMS over RDBMS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Simpler application requirements",
+                    "type": "A"
+                },
+                {
+                    "body": "No need for relational constraints",
+                    "type": "B"
+                },
+                {
+                    "body": "Need for high data consistency and ACID compliance",
+                    "type": "C"
+                },
+                {
+                    "body": "Lower system overhead",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "531e7bc8-8992-4df2-aa07-f1046d58480e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the three-schema architecture, what is the main responsibility of the conceptual level",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Managing indexes and storage devices",
+                    "type": "A"
+                },
+                {
+                    "body": "Providing user-specific data views",
+                    "type": "B"
+                },
+                {
+                    "body": "Defining logical structure and constraints of the entire database",
+                    "type": "C"
+                },
+                {
+                    "body": "Encrypting user credentials",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "a045db52-1ce5-49e5-b7eb-f09901773d36",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When a user sees a customized view of a database with restricted access to certain fields, which level is in effect",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Internal level",
+                    "type": "A"
+                },
+                {
+                    "body": "Conceptual level",
+                    "type": "B"
+                },
+                {
+                    "body": "Physical level",
+                    "type": "C"
+                },
+                {
+                    "body": "External level",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "47f1bf46-f0c8-40f0-8134-907abd2fb760",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Evaluate the recurrence: T(n) = 2T(n/2) + n/log n using Master�s Theorem",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n log log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n�)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "2d481d65-195b-4d42-80d1-767f9fa89511",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Given string &#34;abcabcbb&#34;, what is the length of the longest substring without repeating characters",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 3",
+                    "type": "A"
+                },
+                {
+                    "body": " 4",
+                    "type": "B"
+                },
+                {
+                    "body": "5",
+                    "type": "C"
+                },
+                {
+                    "body": " 7",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "cf65bf07-cd1f-420d-9840-19dbb70232f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "For the regular expression (0*10*10*)*, which binary strings are matched",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Strings with exactly 1 one",
+                    "type": "A"
+                },
+                {
+                    "body": " Strings with even number of 1s",
+                    "type": "B"
+                },
+                {
+                    "body": "Strings starting with 1",
+                    "type": "C"
+                },
+                {
+                    "body": " Palindromes only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4355c36e-cd67-4e2b-88b3-579e83897200",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An array of size n is traversed backwards. What is the time complexity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n^2)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "0490d82a-60b8-45bf-b63b-f28a5036c256",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How many shifts are required in the worst case when inserting an element in a sorted array of size n",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "log n",
+                    "type": "B"
+                },
+                {
+                    "body": " N",
+                    "type": "C"
+                },
+                {
+                    "body": " n/2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "59a0f2d5-1217-4bdd-be33-61fbd0ae70e7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the best-case time complexity of deleting an element from an unsorted array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "e8c1ee69-d377-4775-a21a-8d9ad018a0b9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity to insert an element at the beginning of an unsorted array of size n",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "9dd24b76-a1f3-456f-a01a-fc56a4af53c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consider a stack implemented using a singly linked list. Which of the following operations takes O(1) time in both best and worst cases",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Push at bottom",
+                    "type": "A"
+                },
+                {
+                    "body": "Pop from bottom",
+                    "type": "B"
+                },
+                {
+                    "body": "Push at top",
+                    "type": "C"
+                },
+                {
+                    "body": "Search for an element",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "577a2ac5-c777-47f3-81a1-3794130862ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a program uses 2 variables in a loop and 1 constant, what&#39;s the space complexity of that program",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n^2)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "41619018-70a5-4d62-a524-1aa894a40809",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If an algorithm takes 5 ms to process input size n = 1000, and it has O(n^2) time complexity, what is the expected time for n = 2000",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10 ms",
+                    "type": "A"
+                },
+                {
+                    "body": "20 ms",
+                    "type": "B"
+                },
+                {
+                    "body": "40 ms",
+                    "type": "C"
+                },
+                {
+                    "body": "25 ms",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1f855c89-c6f1-41fd-9648-58938a318482",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a benefit of multithreading",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Responsiveness",
+                    "type": "A"
+                },
+                {
+                    "body": "Resource sharing",
+                    "type": "B"
+                },
+                {
+                    "body": "Security",
+                    "type": "C"
+                },
+                {
+                    "body": "Scalability",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "11acba45-c8a9-4319-9fe5-8fb2901b3a90",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of an Operating System",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Provide security",
+                    "type": "A"
+                },
+                {
+                    "body": "Make the system user-friendly",
+                    "type": "B"
+                },
+                {
+                    "body": "Manage hardware resources",
+                    "type": "C"
+                },
+                {
+                    "body": "Debug user programs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "134ef7e5-6fda-409f-afc8-771dae0e646e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A process executes the code\n fork ()\n fork ()\n fork ()\nThe total number of child processes created is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "4",
+                    "type": "B"
+                },
+                {
+                    "body": "7",
+                    "type": "C"
+                },
+                {
+                    "body": "8",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "81a67ba2-faa9-4750-a147-fe104966995d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of the following program",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"486\" height=\"200\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 |  masn ()</text>\n<text x=\"40\" y=\"60\" >2 |  { snt a ? 10;</text>\n<text x=\"40\" y=\"80\" >v | sf ((fork ( ) ?? 0))</text>\n<text x=\"40\" y=\"100\" >4 |  a77 ;</text>\n<text x=\"40\" y=\"120\" >5 |  prsntf  (�xdn�, a) ;</text>\n<text x=\"40\" y=\"140\" >6 |  }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10 and 11",
+                    "type": "A"
+                },
+                {
+                    "body": "10",
+                    "type": "B"
+                },
+                {
+                    "body": "11",
+                    "type": "C"
+                },
+                {
+                    "body": "11 and 11",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "0a58387c-4ae5-4fd7-9cf9-33cc673129e4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is the service not provided by an OS",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "File system manipulation",
+                    "type": "A"
+                },
+                {
+                    "body": "Memory management",
+                    "type": "B"
+                },
+                {
+                    "body": "Process scheduling",
+                    "type": "C"
+                },
+                {
+                    "body": "compilation of a program",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "58e00017-efef-4baf-a902-519cde7050e5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "OSI model is a ______ model, while TCP/IP is a ______ model",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Conceptual, Theoretical",
+                    "type": "A"
+                },
+                {
+                    "body": "Theoretical, Practical",
+                    "type": "B"
+                },
+                {
+                    "body": "Practical, Conceptual",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "be62eed5-9ccf-4018-92e3-c8bfca7e971e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The sharing of a medium and its link by two or more devices is called _________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Fully duplexing",
+                    "type": "A"
+                },
+                {
+                    "body": "Multiplexing",
+                    "type": "B"
+                },
+                {
+                    "body": "Micropleixng",
+                    "type": "C"
+                },
+                {
+                    "body": "Duplexing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "598f8739-fe85-46bb-9509-1501416279b8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The data link layer takes the packets from _________ and encapsulates them into frames for transmission",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "network layer",
+                    "type": "A"
+                },
+                {
+                    "body": "physical layer",
+                    "type": "B"
+                },
+                {
+                    "body": "transport layer",
+                    "type": "C"
+                },
+                {
+                    "body": "application layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "cef93ba8-0fc3-4926-8cc7-42077ba434a9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Traffic problem can be minimized using",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Star topology",
+                    "type": "A"
+                },
+                {
+                    "body": "Bus topology",
+                    "type": "B"
+                },
+                {
+                    "body": "Ring topology",
+                    "type": "C"
+                },
+                {
+                    "body": "Mesh Topology",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "5f4c6975-2eb0-4532-ab03-0cd2fd7c536f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The first Network was called ________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CNNET",
+                    "type": "A"
+                },
+                {
+                    "body": "NSFNET",
+                    "type": "B"
+                },
+                {
+                    "body": "ASAPNET",
+                    "type": "C"
+                },
+                {
+                    "body": "ARPANET",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        }
+    ]
+}

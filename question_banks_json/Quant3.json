@@ -1,0 +1,1850 @@
+{
+    "bank_id": "c4cc2c37-366d-4adc-8c9a-e353a23459a8",
+    "bank_name": "Quant3",
+    "questions": [
+        {
+            "id": "44ad38e6-dca1-4761-9900-c8cfae600dfc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Kindly study the following information carefully and answer the question that follows: </p><p>Using all the letters of the word <strong>LINEAR. </strong></p><p>How many different words can be formed that start and end with vowel? </p><p><br></p><p>A.  126     B.  108    C.  144 D.  216 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PNC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a5a940ab-18c3-4d8c-ab0c-5699c1d462a0",
+                    "questionID": "44ad38e6-dca1-4761-9900-c8cfae600dfc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The word LINEAR has three vowels - I, E and A. If a word starts and ends with a vowel, the two letters to occupy the first and the last positions can be selected and arranged in 3P2 = 6 ways.  The remaining 4 letters can be arranged among themselves in 4P4 = 4! = 24 ways. ∴   The number of words that start and end with a vowel = 24 × 6 = 144. If a word starts with a vowel but ends with a consonant, its first letter can be selected from I, E and A in 3 ways. Its last letter can be selected from L, N and R in 3 ways. The remaining three letters can be arranged in 4! ways. ∴   The number of words that start with a vowel but end with a consonant = 3 × 3 × 4! = 9 × 24 = 216. </p><p><br></p><p>Following the common explanation, we get The number of words that start and end with a vowel = 144. Hence, option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "da9b1f62-b69f-4598-a6b2-99c786181b1d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Kindly study the following information carefully and answer the question that follows: </p><p>Using all the letters of the word <strong>LINEAR</strong></p><p>How many words start with a vowel but end with a consonant? </p><p><br></p><p>A.  224     B.  316    C.  212 D.  216  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PNC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "a944559e-475e-42e2-855c-6d9893b69670",
+                    "questionID": "da9b1f62-b69f-4598-a6b2-99c786181b1d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The word LINEAR has three vowels - I, E and A. If a word starts and ends with a vowel, the two letters to occupy the first and the last positions can be selected and arranged in 3P2 = 6 ways.  The remaining 4 letters can be arranged among themselves in 4P4 = 4! = 24 ways.  ∴   The number of words that start and end with a vowel = 24 × 6 = 144.  If a word starts with a vowel but ends with a consonant, its first letter can be selected from I, E and A in 3 ways. Its last letter can be selected from L, N and R in 3 ways. The remaining three letters can be arranged in 4! ways.  ∴   The number of words that start with a vowel but end with a consonant = 3 × 3 × 4! = 9 × 24 = 216. </p><p><br></p><p>we get The number of words that start with a vowel but end with a consonant = 9 × 24 = 216.  Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51f14bcc-545f-4416-97af-f8ad38c48ea9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five students are to be arranged on five chairs for a photograph. Three of these are girls and the rest are boys. </p><p> Find out the number of ways in which all three girls do not occupy consecutive seats. </p><p><br></p><p>A.  120     B.  36    C.  84  D.  136  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PNC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "696d2236-8e2c-404f-b127-0c1dc63356af",
+                    "questionID": "51f14bcc-545f-4416-97af-f8ad38c48ea9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>As per the question, three girls can’t occupy consecutive seats but two can.  Therefore, if we find the number of ways in which all three girls occupy consecutive seats and subtract this number from the total number of ways in which the five people can be arranged among themselves, we will get the required answer.  5 students can be arranged among themselves in 5p5 ways = 120 ways.  Assume that the 3 girls are one entity. The total number of ways in which they can be arranged among themselves = 3! = 6  Also, the set of three girls and the other students can be arranged among themselves in 3! = 6 ways.  Thus, total number of ways in which three girls are together = 6 × 6 = 36  Thus, number of ways in which all 3 girls will not occupy consecutive seats = 120 – 36 = 84 </p><p>Following the common explanation, we get Thus, number of ways in which all 3 girls will not occupy consecutive seats = 120 – 36 = 84 Hence, option C is correct. </p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2cbfdf73-5599-4af3-8fd9-f585b0a9ddbc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five students are to be arranged on five chairs for a photograph. Three of these are girls and the rest are boys. Find out the total number of ways in which three girls are together. </p><p><br></p><p>A.  36     B.  84    C.  100  D.  120   </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PNC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "46f19b82-10f8-4f21-b8d7-57650b1b1623",
+                    "questionID": "2cbfdf73-5599-4af3-8fd9-f585b0a9ddbc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>As per the question, three girls can’t occupy consecutive seats but two can. Therefore, if we find the number of ways in which all three girls occupy consecutive seats and subtract this number from the total number of ways in which the five people can be arranged among themselves, we will get the required answer.  5 students can be arranged among themselves in 5p5 ways = 120 ways.  Assume that the 3 girls are one entity. The total number of ways in which they can be arranged among themselves = 3! = 6  Also, the set of three girls and the other students can be arranged among themselves in 3! = 6 ways.  Thus, total number of ways in which three girls are together = 6 × 6 = 36  Thus, number of ways in which all 3 girls will not occupy consecutive seats = 120 – 36 = 84 </p><p><br></p><p>As per the common explanation, we get Total number of ways in which three girls are together = 6 × 6 = 36  Hence, option A is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "82d2d479-66a9-42e9-8429-c9cdbb33d9ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following pie chart carefully and answer the questions given beside.  Given below is the pie chart which shows the percentage distribution of the five type of icecreams available in a ice-cream parlor.   </p><p>Total number of ice-creams is 550.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752914621537050307_Screenshot%20%2889%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143557Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=aa2c0d19880c4ed7767c36a21e4c3ca35763eb31e0773fcca98bbc768a75a11b",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "di"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "001d783e-4c93-448f-b1d6-87d8cf12d147",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following pie chart carefully and answer the questions given beside.  The pie chart given below shows the percentage distribution of the number of male employees in a company in five different departments.   </p><p><br></p><p>Total number of male employees = 2100 </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752913765459923976_Screenshot%20%2888%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143557Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=88d7e1ee2cc46293b7360dab8261f856a8acd62801131870c27047f78f8f6ac1",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "di"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "b934d509-7d08-46b5-bed5-0406f640de5e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A sum of Rs. 9960 was borrowed at 15/2% per annum compound interest and paid back in two years in two equal annual installments. What was the amount of each installment? </p><p><br></p><p>A. Rs. 5,345  </p><p>B. Rs. 5547  </p><p>C. Rs. 5847  </p><p>D. Rs. 5397 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CI"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9c82a88c-896d-4962-822e-1d77a988cfc2",
+                    "questionID": "b934d509-7d08-46b5-bed5-0406f640de5e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>x / (1.075)^2 + x / (1.075) = 9960</p><p>=&gt; x(1/1.155625 + 1/1.075)</p><p>=&gt; x(0.86533 + 0.93023) = 9960</p><p>=&gt; x × 1.79556 = 9960</p><p>=&gt; x = 9960 / 1.79556</p><p><strong>=&gt; x ≈ ₹5547</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fde5d43a-458f-45d5-b96f-15adcf573ce4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Aditya and Bhushan invested 10000 each in scheme A and scheme B respectively for 3 years. Scheme A offers Simple interest @ 12% per annum and scheme B offers compound interest @ 10%. After 3 years, who will have larger amount and by how much? </p><p><br></p><p>A. Aditya, 280  </p><p>B. Bhushan, 280 </p><p>C. Adiya, 290  </p><p>D. Bhushan, 290 </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CI"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1c23002c-195e-4d93-b4cd-8ff405e8fb0f",
+                    "questionID": "fde5d43a-458f-45d5-b96f-15adcf573ce4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Aditya (Simple Interest):</strong></p><p><br></p><p>SI = (10000 × 12 × 3) / 100 = Rs. 3600</p><p><br></p><p>Amount = 10000 + 3600 = Rs. <strong>13,600</strong></p><p><strong>Bhushan (Compound Interest @10% for 3 years):</strong></p><p><br></p><p>Amount = 10000 × (1.1)³ = 10000 × 1.331 = Rs. <strong>13,310</strong></p><p><strong>Difference = 13,600 - 13,310 = Rs. 290</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e728cdf1-842a-43eb-beba-51931b636be1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A man gave 50% of his savings of Rs 67,280 to his wife and divided the remaining sum between his two sons A and B of 14 and 12 years of age respectively. He divided it in such a way that each of his sons, when they attain the age of 18 years, would receive the same amount at 5% compound interest per annum. The share of B was </p><p><br></p><p>A. 16500  </p><p>B. 15000  </p><p>C. 15020  </p><p>D. 16000 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CI"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "50b89979-f8be-482c-8f35-488cde0460ae",
+                    "questionID": "e728cdf1-842a-43eb-beba-51931b636be1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>50% given to wife ⇒ Remaining = 67,280 × 0.5 = Rs. 33,640</p><p><br></p><p>Let A get Rs. A and B get Rs. B such that:</p><p><br></p><p>A × (1.05)⁴ = B × (1.05)⁶  ⟶ (since A will get CI for 4 years and B for 6 years)</p><p><br></p><p>⇒ A / B = (1.05)² = 1.1025</p><p>Also, A + B = 33,640</p><p><br></p><p>⇒ A = 1.1025B</p><p><br></p><p>So, 1.1025B + B = 33,640</p><p><br></p><p>⇒ 2.1025B = 33,640</p><p><br></p><p>⇒ B = 33,640 / 2.1025 = <strong>Rs. 16,000</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d99881d7-16d4-4f21-8072-b8072afb59cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> A certain amount of money is lent out at compound interest at the rate of 20% per annum for two years, compounded annually. It would give Rs. 482 more if the amount is compounded half yearly. Find the principle. </p><p><br></p><p>A. Rs. 30000  </p><p>B. Rs. 10000  </p><p>C. Rs. 15000  </p><p>D. NONE</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CI"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "09dda52c-ad35-45d2-bedf-82ddf7fe7537",
+                    "questionID": "d99881d7-16d4-4f21-8072-b8072afb59cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let the principal be Rs. P.</p><p><br></p><p>Annual CI = P × 1.44</p><p><br></p><p>Half-yearly CI = P × 1.4641</p><p><br></p><p>Difference = 482</p><p><br></p><p>So, P × (1.4641 – 1.44) = 482</p><p><br></p><p>⇒ P × 0.0241 = 482 ⇒ P = 482 ÷ 0.0241 = 20000 </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e08fdf8e-1c43-4aae-9039-c92520ef1510",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Shantanu borrowed Rs. 2.5 lakh from a bank to purchase one car. If the rate of interest be 6% per annum compounded annually, what payment he will have to make after 2 years 6 months? </p><p><br></p><p>A. Rs. 189,325 </p><p>B. Rs. 186,325  </p><p>C. Rs. 389,325  </p><p>D. Rs. 289,325</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CI"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "5a775083-b688-4e76-b317-077364e069bd",
+                    "questionID": "e08fdf8e-1c43-4aae-9039-c92520ef1510",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>CI for 2 years at 6% p.a. = 6 + 6 + (6×6)/100 = 12.36%</p><p><br></p><p>For next 6 months: 3% + (12.36×3)/100 = 3 + 0.37 = 3.37%</p><p><br></p><p>Total CI = 12.36 + 3.37 = <strong>15.73%</strong></p><p><br></p><p>Amount = 250000 × (1 + 15.73/100) = ₹<strong>2,89,325</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "821f14b8-ebc7-4121-8198-ef4089d0c63d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In how many ways can the letters of the word ‘PARAGLIDING’ be arranged such that all the vowels occur together?  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>88322 ways</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> 120960 ways </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> 740 ways </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> 144868 ways </p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Combinations & Permutations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6b1f353d-2571-4a9a-821e-885bebaec88c",
+                    "questionID": "821f14b8-ebc7-4121-8198-ef4089d0c63d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Word: PARAGLIDING (11 letters)</p><p><br></p><p>Vowels = A, A, I, I ⇒ treated as one block ⇒ total units = 8 (7 consonants + 1 vowel block, with G repeating)</p><p><br></p><p>Consonant arrangements = 8! / 2! = 20160</p><p><br></p><p>Vowel arrangements = 4! / (2! × 2!) = 6</p><p><br></p><p>Total arrangements = 20160 × 6 = <strong>120960</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c3a3791c-e5ce-4c99-abf8-ffd10713b44d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A man saves Rs.20,000 at the beginning of each year and puts the money in a bank that pays 10% interest per year, interest being compounded annually. What would be the total savings of the man at the end of 6 years? </p><p><br></p><p>A. Rs. 196840  </p><p>B. Rs. 169840  </p><p>C. Rs. 189480  </p><p>D. Rs. 199480  </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Compound Interest"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9165e89c-7b75-48d4-a123-f3ce5fdaa0b6",
+                    "questionID": "c3a3791c-e5ce-4c99-abf8-ffd10713b44d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Amount = 20000 × 1.1 × [(1.1⁶ – 1) / 0.1]</p><p><br></p><p>= 20000 × 1.1 × (1.7716 – 1) / 0.1</p><p><br></p><p>= 22000 × 7.72 = ₹169840</p><p><strong>Answer: Option B. ₹169840</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "89332cbb-1009-4aa5-8d7c-0a975d1d4241",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The ratio of zinc and copper in a brass pieces is 13 : 7. How much zinc will be there in 100 kg of such a piece? </p><p><br></p><p>A. 20 kg          B. 5kg          C. 55kg          D. 65kg </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio and Proportion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "eed2a799-54bb-4ccc-811c-1cfe45b17f1f",
+                    "questionID": "89332cbb-1009-4aa5-8d7c-0a975d1d4241",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Zinc : Copper = 13 : 7</p><p><br></p><p>Total parts = 13 + 7 = 20</p><p><br></p><p>Zinc in 100 kg = (13/20) × 100 = <strong>65 kg</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "57430429-bd56-4869-afa3-f4ab4ae63201",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Radhe does 70% of some work in 15 days. Later, with Shyam’s help, she completes the remaining work in 4 days. In how many days can Shyam alone complete the entire work?</p><p><br></p><p> A. 35 days  B. 35.2 days  C. 35.3 days  D. 38.4 days  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Time and Work"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d4ffd03d-27a5-4fbe-9db3-d8f3c3a178e0",
+                    "questionID": "57430429-bd56-4869-afa3-f4ab4ae63201",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Radhe's 70% work in 15 days → 1-day work = 70/15 = 14/3%</p><p><br></p><p>Remaining 30% done with Shyam in 4 days → 1-day combined work = 30/4 = 7.5%</p><p><br></p><p>Shyam’s 1-day work = 7.5% − 14/3% = (15/2 − 14/3)% = (45 − 28)/6 = 17/6%</p><p><br></p><p>Shyam alone does 100% in = 100 ÷ (17/6) = <strong>600/17 ≈ 35.3 days</strong> </p><p><br></p><p><strong>Correct answer: C. 35.3 days</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8818694-376a-46db-8def-7dea3c9e786a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The total number of students in a school is 2140. If the number of girls in the school is 1200, then what is the respective ratio of the total number of boys to the total number of girls in the school? </p><p><br></p><p>A.  26 : 25    </p><p>B.  47 : 60   </p><p>C.  18 : 13  </p><p>D.  31 : 79</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio & Proportion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "923dccc0-78ae-46d8-933d-970214cb0c59",
+                    "questionID": "e8818694-376a-46db-8def-7dea3c9e786a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Total students = 2140, Girls = 1200</p><p><br></p><p>Boys = 2140 − 1200 = 940</p><p><br></p><p>Ratio of boys to girls = 940 : 1200 = <strong>47 : 60</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5870d21a-1deb-48dd-bf31-8e3ecd429e2e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Speed of a boat in still water is 8 kmph and speed of stream is 1.5 kmph. A man rows to a place at a distance of 61.75 km and come back to starting point. The total time taken by him. </p><p><br></p><p>A.  6 hrs   B.  8 hrs   C.  16 hrs   D.  22 hrs </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Boats and streams"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "56892c7f-3b72-4448-927a-0636ae915e61",
+                    "questionID": "5870d21a-1deb-48dd-bf31-8e3ecd429e2e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Downstream speed = 8 + 1.5 = 9.5 kmph, Upstream speed = 8 − 1.5 = 6.5 kmph</p><p><br></p><p>Time = 61.75/9.5 + 61.75/6.5 = 6.5 + 9.5 = <strong>16 hours</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd8625d6-627e-4db7-8358-31cb75369935",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A boat takes 19 hours for travelling downstream from point A to Point B and coming back to a Point C midway between A and B. If the velocity of the stream is 4 kmph and the speed of the boat in still water is 12 kmph, what is the distance between A and B? </p><p><br></p><p>A.  160 km   B.  152 km   C.  200 km   D.  220 km </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Boats and streams"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8106fc6c-c69d-4e30-a118-c3e19c5b9e58",
+                    "questionID": "cd8625d6-627e-4db7-8358-31cb75369935",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let distance A to B = D km.</p><p><br></p><p>Time downstream = D/16, time upstream (B to C = D/2) = (D/2)/8 = D/16</p><p><br></p><p>Total time = D/16 + D/16 = D/8 = 19 ⇒ D = 19 × 8 = <strong>152 km</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cbdb154b-cc41-4903-b0c4-1400afbae8b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In Ashish’s  opinion, his weight is greater than 55 kg but less than 62 kg. His father does not agree with Ashish and he thinks that Ashish’s weight is greater than 50 kg but less than 60 kg. His sister’s view is that his weight can't be greater than 58 kg. If all of them are correct in their estimation, what is the average of different probable weights of Ashish ? </p><p><br></p><p>A.  56.5 kg   </p><p>B.  68 kg   </p><p>C.  69 kg   </p><p>D. Data inadequate </p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4a9d437d-95d3-4d2a-a50d-d397ef0e1af5",
+                    "questionID": "cbdb154b-cc41-4903-b0c4-1400afbae8b4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Valid weight range considering all conditions:</p><p><br></p><p>Ashish: &gt;55&gt;55 and &lt;62&lt;62</p><p><br></p><p>Father: &gt;50&gt;50 and &lt;60&lt;60</p><p><br></p><p>Sister: ≤58\\leq 58</p><p>⇒ Combined valid range: 55&lt;weight≤5855 &lt; \\text{weight} \\leq 58</p><p><br></p><p>This is an arithmetic sequence from 55.1 to 58.0 (step = 0.1)</p><p><br></p><p>Number of terms = 58−55.10.1+1=30\\frac{58 - 55.1}{0.1} + 1 = 30</p><p><br></p><p>Average = 55.1+582=56.55&nbsp;kg\\frac{55.1 + 58}{2} = \\boxed{56.55\\ \\text{kg}}</p><p>✅ <strong>Answer: 56.55 kg</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2191a8b1-dba3-487b-a59b-b6bca0ec9d09",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Vibhor obtained 66, 74, 55, 92, 79 (out of 100) in English, Maths, Physics, Chemistry and Biology. What's his average marks? </p><p><br></p><p>A.  75%   B.  69%    C.  73.2%   D. 76%  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f69dc3e1-12e2-4d5d-b142-83ba8808d89c",
+                    "questionID": "2191a8b1-dba3-487b-a59b-b6bca0ec9d09",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Total marks = 66 + 74 + 55 + 92 + 79 = 366</p><p><br></p><p>Number of subjects = 5</p><p><br></p><p>Average = 366 ÷ 5 = <strong>73.2</strong></p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "838c5ee5-7876-4108-a42d-385af0b07cff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>If the ratio of speed of doing work of three persons is 1 : 3 : 5, what is the ratio of time taken by these people to do the same amount of work? </strong></p><p><br></p><p><strong>A</strong>. 15 : 5 : 7  </p><p><strong>B</strong>. 3 : 15 : 5  </p><p><strong>C</strong>. 15 : 3 : 5  </p><p><strong>D</strong>. 15 : 5 : 3</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Time and Work"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d8dca538-3585-452a-951d-b78ddf73b770",
+                    "questionID": "838c5ee5-7876-4108-a42d-385af0b07cff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Speed ratio = 1 : 3 : 5</p><p><br></p><p>Time is inversely proportional to speed → Time ratio = 1⁻¹ : 3⁻¹ : 5⁻¹ = 1 : (1/3) : (1/5)</p><p><br></p><p>Multiply all by 15 → Time ratio = <strong>15 : 5 : 3</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d1714b20-7f07-4dc5-abfc-3cdf8b674f40",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The average weekly salary per head of all employees (supervisors and labourers) is Rs. 100. The average weekly salary per head of all the supervisors is Rs. 600 while the average weekly salary per head of all the labourers is Rs. 75. Find the number of supervisors in the factory if there are 840 labourers in it.     </p><p><br></p><p>A. 46   B. 42   C. 44   D. 48  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4b4e2dc2-43c4-41ff-a590-320cc192c93f",
+                    "questionID": "d1714b20-7f07-4dc5-abfc-3cdf8b674f40",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let number of supervisors = x</p><p><br></p><p>Total salary = (x × 600) + (840 × 75)</p><p><br></p><p>Average = 100 → Total people = x + 840</p><p><br></p><p>So, [(600x + 840×75) / (x + 840)] = 100</p><p><br></p><p>⇒ (600x + 63000) = 100(x + 840)</p><p><br></p><p>⇒ 600x + 63000 = 100x + 84000</p><p><br></p><p>⇒ 500x = 21000 ⇒ x = <strong>42 supervisors</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "83486542-aad4-4fce-93ac-660caf25cdb7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The average temperature of Delhi in the first four days of June 2017 was 52 degrees. The average for the second, third, fourth and fifth days was 55 degrees. If the temperatures of the first and fifth days were in the ratio 5 : 7, then what was the temperature of Delhi on 5th June 2017? </p><p><br></p><p>A. 36 degrees  B. 30 degrees  C. 48 degrees  D. 42 degrees  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "bac8d4d9-610a-4809-85da-2111440542c8",
+                    "questionID": "83486542-aad4-4fce-93ac-660caf25cdb7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Sum of temperature on 1st, 2nd, 3rd, and 4th days = (52 × 4) = 208----------(I)   Sum of temperature on 2nd, 3rd, 4th, and 5th days = (55 × 4) = 220---------(II)   Subtracting equation (I) from (II)   Temperature on 5th June 2017 –  temperature on 1st June 2017 = 12 degrees.    Let the temperature on 1st and 5th June 2017 be 5x and 7x degrees respectively.    Then, 7x – 5x = 12   2x = 12   X = 6   Since temperature on the 5th June 2017 in Delhi = 7x = 7 × 6 = 42 degrees.    Hence, option (D) is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "81be3162-1a35-4d10-8c51-5934d8198870",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Ashok and Bimal runs on a 450 m long circular track at a speed of 12 m/s and 18 m/s respectively. They start at same time but run in opposite direction. Find the number of times, they would have met when Bimal covers 3240 meters. </p><p><br></p><p>A. 12    B. 10   C. 14    D. 16   </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time speed and distance"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "819e94d3-0ca7-4bc5-a50d-2bd26fe69934",
+                    "questionID": "81be3162-1a35-4d10-8c51-5934d8198870",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Distance between them each time they meet = 450 m (since they run in opposite directions)</p><p><br></p><p>Relative speed = 12 + 18 = 30 m/s</p><p><br></p><p>Time to meet once = 450 / 30 = 15 seconds</p><p><br></p><p>Time for Bimal to cover 3240 m = 3240 / 18 = 180 seconds</p><p><br></p><p>Number of meetings = 180 / 15 = <strong>12 times</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2c128895-5c29-456b-bce5-3265b3226f17",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Amit, Anil and Ajit ride from home to their common office with speeds in the ratio 5 : 4 : 3. If in total they take 94 minutes (sum of the individual time taken) to cover the individual distance (which is same for all), then find the time taken by 'Anil' to cover his distance.</p><p><br></p><p>A. 30 min.  B. 48 min.  C. 24 min.  D. 40 min. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time speed and distance"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "258db008-ddcc-445f-ad93-6636701ef37a",
+                    "questionID": "2c128895-5c29-456b-bce5-3265b3226f17",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Ratio of the speeds is given by = 5 : 4 : 3   For a given distance, speed and time are inversely proportional.    So, their respective time will be in the ration of 1/5 : 1/4 : 1/3 Multiplying with their LCM which is    60, we get the ratio as 12 : 15 : 20             Give: 12x + 15x + 20x = 94   x = 2   Time taken by Anil to cover the distance = 2 × 15 = 30 minutes  Hence, option A is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fffc9a35-bfa1-4cf1-82e2-597cfaac7db5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Sohan bought an old Honda Bike and spent Rs. 1500 on its repairs. Then Sohan sold it to Rakesh at a prolit of 20%. Rakesh sold it to Raj at a loss of 10%. Raj finally sold it for Rs. 12100 at a profit of 10%. How much did Sohan pay for the old Honda Bike? </p><p><br></p><p>A. Rs. 10185  B. Rs. 10800  C. Rs. 8685  D. Rs. 8600 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Profit and Loss"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "377d4ae1-b455-4f77-a35e-f0957566cee9",
+                    "questionID": "fffc9a35-bfa1-4cf1-82e2-597cfaac7db5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let Sohan’s cost price be xx, he spent Rs.1500 on repairs → total cost = x+1500x + 1500</p><p><br></p><p>He sold it at 20% profit → Selling price = 1.2(x + 1500)</p><p><br></p><p>Rakesh sold at 10% loss → Selling price = 0.9 × 1.2(x + 1500)</p><p><br></p><p>Raj sold at 10% profit and got Rs.12100 → 1.1 × 0.9 × 1.2(x + 1500) = 12100</p><p><br></p><p>⇒ 1.188(x + 1500) = 12100 ⇒ x + 1500 = 12100 / 1.188 = 10185</p><p><br></p><p>⇒ x = 10185 − 1500 = <strong>₹8685</strong> </p><p><br></p><p><strong>Correct answer: C. ₹8685</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ca2973ec-18e6-4b75-96a9-9ebb336a6c4a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Tarak Mehta sold a pair of Tshirt and jeans at 25% profit. The profit obtained on Tshirt was 20%. Had he reduced the both cost price of the Tshirt and selling price of the Tshirt by Rs. 200, his profit on the pair would have risen to 30%. Earlier cost price of the jeans was Rs.80 less than half of the selling price of the Tshirt. What price should he mark on a pair of Tshirt and jeans to earn a profit of 50%? </p><p><br></p><p>A. Rs. 1680  </p><p>B. Rs. 1800  </p><p>C. Rs. 2420  </p><p>D. Rs. 2740</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Profit and Loss"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e68856d8-8c48-4538-9947-1ff6603e1e17",
+                    "questionID": "ca2973ec-18e6-4b75-96a9-9ebb336a6c4a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let Cost price of each Tshirt = s   Cost price of each Jeans = p   Selling price of each Tshirt = h    And, Selling price of each Jeans = a   From question    h + a = 1.25 (s + p) …….(i) h = 1.2s …… (ii) (h + a – 200) = 1.3 (s + p – 200) …. (iii) And, p =  h – 80 ……… (iv) 2  Solving the above system of equation we get,    s = 800, p = 400, h = 960 and, a = 540    Total cost price of a pair of Tshirt and jeans = 800 + 400 = 1200 Required marked price = 1200 × 1.5 = Rs.1800 Hence, option (B) is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5f6780e9-9690-4503-9fbd-4817e6c65329",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A man lent Rs. 4500 at 30% compound interest per annum for 3 years. What is the difference between the interest earned by the man in the 2nd year only and the interest earned by the man in the 3rd year only?   </p><p><br></p><p>A. Rs. 545.5  B. Rs. 502  C. Rs. 526.5  D. Rs. 532  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Compound Interest"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "068bcbe5-4deb-4b62-b7fb-1b40b37bd0f9",
+                    "questionID": "5f6780e9-9690-4503-9fbd-4817e6c65329",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Principal = 4500, Rate = 30%, Time = 3 years</p><p><br></p><p>Year 1 interest = 30% of 4500 = 1350 → Amount = 5850</p><p><br></p><p>Year 2 interest = 30% of 5850 = 1755 → Amount = 7605</p><p><br></p><p>Year 3 interest = 30% of 7605 = 2281.5</p><p>Difference = 2281.5 − 1755 = <strong>₹526.5</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ab1d0516-9498-4fee-81bc-502adb01ca52",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What will come in place of question mark (?) in the following series? </p><p>144     167     193     222       ?       289 </p><p><br></p><p>A. 233   B. 254   C. 244   D. 267</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2dbc627d-1442-43d2-ac84-4de50dfe05f1",
+                    "questionID": "ab1d0516-9498-4fee-81bc-502adb01ca52",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Differences:</p><p><br></p><p>167 − 144 = 23</p><p><br></p><p>193 − 167 = 26</p><p><br></p><p>222 − 193 = 29</p><p><br></p><p>Next difference = 32 (increasing by 3 each time)</p><p>Next term = 222 + 32 = <strong>254</strong></p><p><br></p><p><strong>Correct answer: B. 254</strong> ✅</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9769d9f7-5319-44a0-bfac-6de04a8e83aa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What will come in place of question mark (?) in the following series? </p><p><br></p><p> 188     269     333     382       418       ?   </p><p><br></p><p>A. 443   B. 388   C. 414   D. 43</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Series"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4f0e4e8c-ff12-4699-8162-122dce975764",
+                    "questionID": "9769d9f7-5319-44a0-bfac-6de04a8e83aa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>269 − 188 = 81</p><p><br></p><p>333 − 269 = 64</p><p><br></p><p>382 − 333 = 49</p><p><br></p><p>418 − 382 = 36</p><p><br></p><p>Next difference = 25 (since 81, 64, 49, 36... are decreasing squares)</p><p>Next number = 418 + 25 = <strong>443</strong> ✅</p><p><br></p><p><strong>Correct answer: A. 443</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5fbca3b5-3768-4a21-80eb-bccd368c42e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A and B undertake a project worth Rs. 54000 . A alone can do the work in 10 days. They work together for 3 days. After 3 days, B works alone for 3 days and A completes the remaining work in 3 more days.What is the share of B in the earnings? </p><p><br></p><p>A. Rs. 21600  B. Rs. 33400  C. Rs. 27800  D. Rs. 35780  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Time and Work"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "77055aa5-2a0c-4f19-9484-e16b7a4a3112",
+                    "questionID": "5fbca3b5-3768-4a21-80eb-bccd368c42e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>A’s 1-day work = 1/10</p><p><br></p><p>Work in 3 days together = 3 × (A + B) = 3/10 + 3B</p><p><br></p><p>B works alone for 3 days = 3B, A works alone for 3 days = 3/10</p><p><br></p><p>Total work: (3/10 + 3B) + 3B + 3/10 = 6/10 + 6B = 1</p><p><br></p><p>→ 6B = 4/10 → B = 2/30 = 1/15</p><p><br></p><p>B’s total work = 6B = 6 × 1/15 = 2/5</p><p><br></p><p>B’s share = (2/5) × 54000 = <strong>Rs. 21,600</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e48f09b8-d92b-43b6-a69d-d4dceff4be6a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> The hourly wages of a mason have increased by 25%. Since the increase, the number of hours he works daily has reduced by 16%. If he was earning Rs. 120 per day before the increase, how much (in Rs.) is he earning now? </p><p><br></p><p>A. 124.5  </p><p>B. 115.5  </p><p>C. 126   </p><p>D. 120  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Time and Work"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "637a308c-dc0a-476e-be15-51d916fe661e",
+                    "questionID": "e48f09b8-d92b-43b6-a69d-d4dceff4be6a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Daily wages = hourly wages × work hours.   Let the original hourly wages and work hours be Rs. x and y hours respectively.    Since he used to earn Rs. 120 earlier, xy = 120    New hourly wages = Rs. (1.25x) and new working hours = 0.84y   ∴ New daily wages = (1.25x)(0.84y) = 1.05xy = 1.05 × 120 = Rs. 126   Hence, option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e95957b4-a2ec-4605-8cb7-37983876443d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Two numbers A and B are such that the sum of 5% of A and 4% of B is two third of the sum of 6% of A and 8% of B. Find the ratio of A : B is </p><p><br></p><p>A. 4 : 3          B. 3 : 4          C. 1 : 1          D. 2 : 3 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio and Proportion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "86e7984c-562a-4b62-a748-7571e0671e68",
+                    "questionID": "e95957b4-a2ec-4605-8cb7-37983876443d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>0.05A + 0.04B = (2/3) × (0.06A + 0.08B)</p><p><br></p><p>Multiply both sides by 100 to eliminate decimals:</p><p><br></p><p>5A + 4B = (2/3) × (6A + 8B) → 5A + 4B = (2/3)(6A + 8B)</p><p><br></p><p>⇒ 5A + 4B = 4A + (16/3)B ⇒ A = (4/3)B ⇒ A : B = <strong>4 : 3</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b3edadc4-193f-4217-98ad-bfa3c38cbdde",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the ratio whose terms differ by 40 and the measure of which is 2/7 ? </p><p><br></p><p>A. 12 : 56          B. 16 : 56          C. 23 : 58          D. None of these </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio and Proportion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bc3d55a5-e08f-4a9e-ba73-a2e16ffe0adf",
+                    "questionID": "b3edadc4-193f-4217-98ad-bfa3c38cbdde",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let the ratio be x:yx : y, with x−y=40x - y = 40 and x/y=2/7x/y = 2/7</p><p><br></p><p>So, x=2kx = 2k, y=7ky = 7k, then 7k−2k=40⇒5k=40⇒k=87k - 2k = 40 \\Rightarrow 5k = 40 \\Rightarrow k = 8</p><p><br></p><p>Then, x=2×8=16x = 2×8 = 16, y=7×8=56y = 7×8 = 56 → Ratio = <strong>16 : 56</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8bca473d-073e-4ec8-be77-e6e8d7627b5d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> The ratio of number of men and women in a factory of 720 workers is 7 : 5. How many more women should be joined to make the ratio 1 : 1?  </p><p><br></p><p>A. 80          B. 100          C. 120          D. 150 </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio and Proportion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fbb756cc-f200-4a2f-bce5-c7cedfc0d7ed",
+                    "questionID": "8bca473d-073e-4ec8-be77-e6e8d7627b5d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Men : Women = 7 : 5 → Total workers = 720</p><p><br></p><p>Each part = 720 ÷ (7 + 5) = 60 → Men = 7×60 = 420, Women = 5×60 = 300</p><p><br></p><p>To make ratio 1:1 → Women needed = 420 → Add = 420 − 300 = <strong>120 women</strong> </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86c93b5e-ba0c-458c-9f2d-dfe20ab15ae3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Study the following pie chart carefully and answer the questions given beside.  </p><p><br></p><p>The following pie-chart represents the child mortality for children below five years of age in Asia in the year 2019-2020.</p><p>    </p><p>Child Mortality (below five years) for Asia in 2019-2020 = 18 lakhs </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752482918790436063_Screenshot%20%2883%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143604Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7fc9a4a988aa638d397be0be843003b4e6fc6b537b48792a362f32f6aa542f8a",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Data Interpretation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "cd6b8dd4-95fa-4f9a-9a6b-b2cb9e4c774a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Directions: </strong>Study the following pie chart carefully and answer the questions given beside. </p><p>The following pie-chart represents the child mortality for children below five years of age in Asia in the year 2019-2020. </p><p> </p><p>Child Mortality (below five years) for Asia in 2019-2020 = 18 lakhs </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752473453267481943_Screenshot%20%2883%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143604Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=3c5cf3a707cd99f014e9debafd55b27173b72d8308f4beb61724cafd58284dc8",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Data Interpretation"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "c81c6c86-5be1-4f80-bd16-e646cfe982d5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A bag contains 35 balls of three different colors viz. red, orange and pink. The ratio of red balls to orange balls is 3 : 2, respectively and probability of choosing a pink ball is 3/7. If two balls are picked from the bag, then what is the probability that one ball is orange and one ball is pink? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>24/119</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>60/119</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>96/595</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3/17</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probability"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "782af113-6538-40b5-9929-1c02f3ee2b81",
+                    "questionID": "c81c6c86-5be1-4f80-bd16-e646cfe982d5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Total balls = 35; pink = (3/7)×35 = 15; orange = 8</p><p><br></p><p>P(orange then pink) = (8/35)×(15/34), P(pink then orange) = (15/35)×(8/34)</p><p><br></p><p>Total probability = (8×15 + 15×8)/(35×34) = 240/1190 = <strong>24/119</strong></p><p><br></p><p><strong>Answer: A. 24/119</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "60501ee5-df3f-44c3-aa0e-c86e21593080",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The names of 5 students from section A, 6 students from section B and 7 students from section C were selected. The age of all the 18 students was different. Again, one name was selected from them and it was found that it was of section B. What was the probability that it was the youngest student of the section B? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1/18</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1/15</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1/6</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1/12</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probability"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d027e928-9b8b-4889-a9ff-7ed02a833a2d",
+                    "questionID": "60501ee5-df3f-44c3-aa0e-c86e21593080",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The total number of students = 18  When 1 name was selected from 18 names, the probability that he was of section B =  6  =  1 18 3  But from the question, there are 6 students from the section B and the age of all 6 are different therefore, the probability of selecting one i.e. youngest student from 6 students will be 1/6  Hence, option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c73e2131-5644-4ecc-b6eb-488a24a077fd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>8 members are to be selected from a group of 9 males and 7 females. In how many ways will the members with at most 3 females and at least 4 males be selected? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>6472</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>6286</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>6435</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>6225</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Combinations & Permutations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e2737213-be4e-46a5-898d-af690b122da2",
+                    "questionID": "c73e2131-5644-4ecc-b6eb-488a24a077fd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Case I: 5 males and 3 females can be selected   Number of ways of selection = 9C5 × 7C3 = 126 × 35 = 4410   Case II: 6 males and 2 females can be selected   Number of ways of selection = 9C6 × 7C2 = 84 × 21 = 1764   Case III: 7 males and 1 female can be selected   Number of ways of selection = 9C7 × 7C1 = 36 × 7 = 252   Case IV: 8 males can be selected   Number of ways of selection = 9C8 = 9   So, total number of ways of selecting the members = 4410 + 1764 + 252 + 9 = 6435 ways   Hence, option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f783e2e1-e4fa-491a-8d22-7afa644ab02e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A boy is playing a Snake &amp; Ladder game; he is on 91 and has to get to 100 to complete the game. There is a snake on 93 and 96.  In how many ways he can complete the game, if he doesn’t want to roll the dice more than three times.  </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>20</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>15</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>16</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>18</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Combinations & Permutations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8abd55eb-3b60-4ab6-822e-e76f770600e8",
+                    "questionID": "f783e2e1-e4fa-491a-8d22-7afa644ab02e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>91  --92 —  93 — 94 — 95 — 96 — 97 — 98 — 99 — 100   Total position advance needed = 100 – 91 = 9 One roll of dice can’t complete the game. If he completes in two roll of dice. Possible dice throws are – (3&amp;6), (4&amp;5), (5&amp;4), (6&amp;3)   But (5&amp;4) will bring the token on 96, so this is rejected.    If he completes the game in three roll of dices   First dice reading options are 1,3,4,6   After checking all option and rejecting those in which token reaches on 93 or 96   Possible dice throws  are (1,2,6), (1,3,5),(1,5,3), (1,6,2) ;                                            (3,1,5),(3,3,3),(3,4,2),(3,5,1);                                            </p><p>(4,2,3),(4,3,2),(4,4,1)                                           </p><p> (6, 1, 2), (6, 2, 1)   </p><p>Total number of ways = 16  Hence, option C is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6b4efa85-ca5c-49d9-ad36-f3e3957bfc55",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Five people out of whom only two can drive are to be seated in a five seater car with two seats in front and three in the rear. The people who know driving don’t sit together. Only someone who knows driving can sit on the driver’s seat. Find the number of ways the five people can be seated. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>40</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>60</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>48</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>36</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Combinations & Permutations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ca60a75c-8740-4a97-8bd0-a1720dfcd5a9",
+                    "questionID": "6b4efa85-ca5c-49d9-ad36-f3e3957bfc55",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Number of people who can drive = 2   Number of ways of selecting driver = 2C1   The other person who knows driving can be seated only in the rear three seats in 3 ways   Total number of ways of seating the two persons = 2C1 × 3   Number of ways of seating remaining = 3!   Total number of all five can be seated = 2C1 × 3 × 3!  = 36   Hence, correct answer is 36   Hence, option D is correct. </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

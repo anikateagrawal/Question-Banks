@@ -1,0 +1,4569 @@
+{
+    "bank_id": "180f0ad0-96f3-46ed-ba99-d60fb97f9460",
+    "bank_name": "os-week-3-faculty",
+    "questions": [
+        {
+            "id": "d9318834-d8ed-433e-95b0-00e7104cee05",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of the Two-Phase Commit (2PC) protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Load balancing",
+                    "type": "A"
+                },
+                {
+                    "body": "Ensuring atomicity in distributed transactions",
+                    "type": "B"
+                },
+                {
+                    "body": "Reducing network latency",
+                    "type": "C"
+                },
+                {
+                    "body": "Encrypting data transfers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "eefb2c49-0069-4265-bb7b-015e46900413",
+                    "questionID": "d9318834-d8ed-433e-95b0-00e7104cee05",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "2PC ensures all nodes in a distributed system either commit or abort a transaction atomically.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "278f7247-3a3d-4f5d-b419-ed38af2c75d6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The CAP theorem states that a system cannot guarantee",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Consistency, Availability, Partition Tolerance",
+                    "type": "A"
+                },
+                {
+                    "body": "Speed, Accuracy, Cost",
+                    "type": "B"
+                },
+                {
+                    "body": "Security, Latency, Throughput",
+                    "type": "C"
+                },
+                {
+                    "body": "Atomicity, Durability, Isolation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "019a97e1-ed0b-4473-a332-912ec17e44ac",
+                    "questionID": "278f7247-3a3d-4f5d-b419-ed38af2c75d6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A system can only achieve two of Consistency, Availability, Partition Tolerance.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cb5d1db9-6fea-40f5-9d1e-32a463fdac7f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Vector clocks track",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Causal dependencies",
+                    "type": "A"
+                },
+                {
+                    "body": "Memory usage",
+                    "type": "B"
+                },
+                {
+                    "body": "Thread priorities",
+                    "type": "C"
+                },
+                {
+                    "body": "Cache lines",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "daf3fd6b-4f14-48f0-a489-36af2d71871e",
+                    "questionID": "cb5d1db9-6fea-40f5-9d1e-32a463fdac7f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "They capture happened-before relationships in distributed systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c5744215-d6ca-43c5-ae90-cfc383a02466",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "FLP impossibility states",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Consensus is impossible in async systems",
+                    "type": "A"
+                },
+                {
+                    "body": "Deadlocks are unavoidable",
+                    "type": "B"
+                },
+                {
+                    "body": "Livelocks always occur",
+                    "type": "C"
+                },
+                {
+                    "body": "Mutexes are flawed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e9ae07ca-d36c-4e5f-ac3e-d150cb485109",
+                    "questionID": "c5744215-d6ca-43c5-ae90-cfc383a02466",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In asynchronous systems, consensus cannot be guaranteed with one fault.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "405c5316-b622-44b4-9c7a-c5c5524c7b71",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Raft uses __________ for leader election",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Randomized timers",
+                    "type": "A"
+                },
+                {
+                    "body": "Priority queues",
+                    "type": "B"
+                },
+                {
+                    "body": "Mutual exclusion",
+                    "type": "C"
+                },
+                {
+                    "body": "Semaphores",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4dfd9800-cf82-464a-b506-fd4d18f46417",
+                    "questionID": "405c5316-b622-44b4-9c7a-c5c5524c7b71",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Randomized election timeouts prevent ties.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "47246c00-7543-4185-8a8f-42893ee7db40",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Paxos achieves consensus in",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Synchronous networks",
+                    "type": "A"
+                },
+                {
+                    "body": "Asynchronous networks",
+                    "type": "B"
+                },
+                {
+                    "body": "Shared memory",
+                    "type": "C"
+                },
+                {
+                    "body": "Real-time systems",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c4edd424-77fe-4cce-b98b-78c58a7ce14d",
+                    "questionID": "47246c00-7543-4185-8a8f-42893ee7db40",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It tolerates delays and failures in asynchronous environments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "44e82c8b-9465-45dd-9f24-3ce3c6c9db06",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The Chandy-Lamport algorithm is used for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlock detection",
+                    "type": "A"
+                },
+                {
+                    "body": "Global snapshotting",
+                    "type": "B"
+                },
+                {
+                    "body": "Mutual exclusion",
+                    "type": "C"
+                },
+                {
+                    "body": "Leader election",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8e9a41f5-99d7-4b46-8def-948488137eff",
+                    "questionID": "44e82c8b-9465-45dd-9f24-3ce3c6c9db06",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It captures a consistent global state of distributed systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "731277e7-38f9-4d4c-9c94-6058d6214b7f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Byzantine fault tolerance handles",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Crash failures",
+                    "type": "A"
+                },
+                {
+                    "body": "Arbitrary failures",
+                    "type": "B"
+                },
+                {
+                    "body": "Network delays",
+                    "type": "C"
+                },
+                {
+                    "body": "Deadlocks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e1d2fb22-7a54-43aa-9977-accaf34a8de4",
+                    "questionID": "731277e7-38f9-4d4c-9c94-6058d6214b7f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Nodes may behave maliciously or unpredictably.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ab500844-964f-4634-844d-9bbd398cf751",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Sequential consistency is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Easy to implement",
+                    "type": "A"
+                },
+                {
+                    "body": "Equivalent to linearizability",
+                    "type": "B"
+                },
+                {
+                    "body": "Weakly ordered",
+                    "type": "C"
+                },
+                {
+                    "body": "Expensive in hardware",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Memory"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c6ded3eb-ae17-4f18-845f-c60975915c20",
+                    "questionID": "ab500844-964f-4634-844d-9bbd398cf751",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It requires strict ordering, limiting hardware optimizations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7137d40e-5555-4e25-b79c-a20b37396fa0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A strong memory model ensures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Program order = execution order",
+                    "type": "A"
+                },
+                {
+                    "body": "No cache coherence",
+                    "type": "B"
+                },
+                {
+                    "body": "Weak atomicity",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Memory"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f16f140d-ca26-4497-a5b3-d3005eb4078f",
+                    "questionID": "7137d40e-5555-4e25-b79c-a20b37396fa0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Instructions execute in the order they appear in code.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0a8b6fbc-fe68-454f-b770-80f4cce17726",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Software Transactional Memory simplifies",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlock detection",
+                    "type": "A"
+                },
+                {
+                    "body": "Concurrency control",
+                    "type": "B"
+                },
+                {
+                    "body": "Memory allocation",
+                    "type": "C"
+                },
+                {
+                    "body": "File I/O",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "941c3788-73fa-4e69-91fb-5ac8bd27c999",
+                    "questionID": "0a8b6fbc-fe68-454f-b770-80f4cce17726",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "STM abstracts locking by using transactions for atomicity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "897eccd0-72f4-4377-ad0f-d56ffd9601d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Consensus algorithms require",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A majority agreement",
+                    "type": "A"
+                },
+                {
+                    "body": "Asynchronous networks",
+                    "type": "B"
+                },
+                {
+                    "body": "Faulty processes",
+                    "type": "C"
+                },
+                {
+                    "body": "Atomic registers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Distributed"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e21b78a3-eba0-4321-901a-84e4f1423b54",
+                    "questionID": "897eccd0-72f4-4377-ad0f-d56ffd9601d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Nodes must agree on a value despite failures.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a67095d-d276-4ecc-9cb6-0940623c1576",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A lock-free queue ensures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "At least one thread progresses",
+                    "type": "A"
+                },
+                {
+                    "body": "All threads progress",
+                    "type": "B"
+                },
+                {
+                    "body": "No CAS operations",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority scheduling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Lock-Free"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2342c1bb-b82e-4a46-b1ed-2af8d1626efe",
+                    "questionID": "5a67095d-d276-4ecc-9cb6-0940623c1576",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Lock-free guarantees system-wide progress but not per-thread.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26e7cb5c-d0ec-48ee-83a5-5d4d1463ae3b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Wait-Die, a younger transaction",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Waits for older ones",
+                    "type": "A"
+                },
+                {
+                    "body": "Aborts itself",
+                    "type": "B"
+                },
+                {
+                    "body": "Preempts older ones",
+                    "type": "C"
+                },
+                {
+                    "body": "Spins indefinitely",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Deadlocks"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b4e95bfe-378a-422a-8a11-a95df910d0be",
+                    "questionID": "26e7cb5c-d0ec-48ee-83a5-5d4d1463ae3b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Younger transactions abort to prevent deadlocks (age-based).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "af278de4-4cdc-4a8b-90d8-4bf723516b67",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In RCU, a grace period is the time",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "All readers finish",
+                    "type": "A"
+                },
+                {
+                    "body": "Writers acquire locks",
+                    "type": "B"
+                },
+                {
+                    "body": "Memory is allocated",
+                    "type": "C"
+                },
+                {
+                    "body": "Threads sleep",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b239a29b-1e07-401a-92ca-5791b31b6bba",
+                    "questionID": "af278de4-4cdc-4a8b-90d8-4bf723516b67",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Writers wait for all readers to complete before reclaiming memory.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32d98caf-b25d-4ca7-84ac-bac655f8aac6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Hazard pointers prevent",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ABA problems",
+                    "type": "A"
+                },
+                {
+                    "body": "Memory reclamation issues",
+                    "type": "B"
+                },
+                {
+                    "body": "Deadlocks",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Memory"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e39d4bb0-362d-44ec-90f6-e60064d1bcac",
+                    "questionID": "32d98caf-b25d-4ca7-84ac-bac655f8aac6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "They track pointers in use to delay memory reuse.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3dbd338a-476f-4c4f-85a0-1c8e5b8bc511",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Lock convoys occur when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Locks are too fine-grained",
+                    "type": "A"
+                },
+                {
+                    "body": "High-priority threads starve",
+                    "type": "B"
+                },
+                {
+                    "body": "Threads form a queue for a lock",
+                    "type": "C"
+                },
+                {
+                    "body": "Locks are non-reentrant",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f95376fc-b424-4e89-a3f1-823712d40166",
+                    "questionID": "3dbd338a-476f-4c4f-85a0-1c8e5b8bc511",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Frequent contention for a lock creates a serialized queue.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f2fa2533-df91-4880-9cca-6d04cf42068b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Linearizability ensures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlock freedom",
+                    "type": "A"
+                },
+                {
+                    "body": "Real-time order of operations",
+                    "type": "B"
+                },
+                {
+                    "body": "Atomic visibility",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority inheritance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f99fac06-153b-4741-86c0-6bc11b92f0cd",
+                    "questionID": "f2fa2533-df91-4880-9cca-6d04cf42068b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Operations appear to execute instantaneously between invocation and response.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "382f4062-b78a-4cf6-9b4e-6c6edfd8c2d4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When is a spinlock preferable over a mutex",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Long critical sections",
+                    "type": "A"
+                },
+                {
+                    "body": "Multi-core systems",
+                    "type": "B"
+                },
+                {
+                    "body": "User-mode programs",
+                    "type": "C"
+                },
+                {
+                    "body": "Low contention",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Spinlocks"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fd4cdcfe-da06-4035-b4c0-2b9cf717351b",
+                    "questionID": "382f4062-b78a-4cf6-9b4e-6c6edfd8c2d4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Spinlocks avoid context switches in multi-core systems with short waits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d957799-db28-492b-bf2c-87f5d2d23b27",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To prevent deadlock in Dining Philosophers, which strategy is invalid",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Allow only 4 philosophers to eat",
+                    "type": "A"
+                },
+                {
+                    "body": "Use asymmetric picking",
+                    "type": "B"
+                },
+                {
+                    "body": "Allow preemption",
+                    "type": "C"
+                },
+                {
+                    "body": "use a mutex per fork",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Deadlocks"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c8eb478c-d543-4327-9316-e1d6f05a6592",
+                    "questionID": "0d957799-db28-492b-bf2c-87f5d2d23b27",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Preemption does not resolve circular wait; limiting philosophers does.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ffc4c507-3d58-4f5d-8c4b-8c428e677663",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a limitation of Peterson&#39;s algorithm",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Works only for 2 processes",
+                    "type": "A"
+                },
+                {
+                    "body": "Requires hardware support",
+                    "type": "B"
+                },
+                {
+                    "body": "High memory usage",
+                    "type": "C"
+                },
+                {
+                    "body": "Slow performance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Algorithms"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "39c08234-4335-456d-9135-c01afe8423cf",
+                    "questionID": "ffc4c507-3d58-4f5d-8c4b-8c428e677663",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Peterson’s algorithm is designed for two processes only.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6c272bcf-ab1e-421b-98c4-3ace7320b3eb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Reducing critical section size improves",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Latency",
+                    "type": "A"
+                },
+                {
+                    "body": "Throughput",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B",
+                    "type": "C"
+                },
+                {
+                    "body": "Neither",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "31fccab9-dccc-4e5a-8d8b-2aba4bb0abf0",
+                    "questionID": "6c272bcf-ab1e-421b-98c4-3ace7320b3eb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shorter waits (latency) and more concurrency (throughput).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c86e283e-c886-4c0d-9e52-c913dd2af177",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Wait groups synchronize",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Thread completion",
+                    "type": "A"
+                },
+                {
+                    "body": "Resource allocation",
+                    "type": "B"
+                },
+                {
+                    "body": "Message passing",
+                    "type": "C"
+                },
+                {
+                    "body": "File I/O",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "dac5f095-1d04-4f86-a780-ff327bfd253c",
+                    "questionID": "c86e283e-c886-4c0d-9e52-c913dd2af177",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "They block until a group of threads finishes execution.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "05e0fd7c-1609-4802-8a8e-24e4c1778a6b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "False sharing occurs when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Threads access unrelated data in the same cache line",
+                    "type": "A"
+                },
+                {
+                    "body": "Mutexes are overused",
+                    "type": "B"
+                },
+                {
+                    "body": "Deadlocks recur",
+                    "type": "C"
+                },
+                {
+                    "body": "Semaphores leak",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b4d15c08-739a-4dd4-9525-e9cbe927362f",
+                    "questionID": "05e0fd7c-1609-4802-8a8e-24e4c1778a6b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It degrades performance due to unnecessary cache invalidations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0279e9a8-9ba2-4c69-81fd-e2ce87690c35",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Fine-grained locking improves",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Concurrency",
+                    "type": "A"
+                },
+                {
+                    "body": "Simplicity",
+                    "type": "B"
+                },
+                {
+                    "body": "Memory usage",
+                    "type": "C"
+                },
+                {
+                    "body": "Portability",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b09c117a-e8a6-4788-9a30-02806488d4fc",
+                    "questionID": "0279e9a8-9ba2-4c69-81fd-e2ce87690c35",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Smaller locks reduce contention by protecting fewer resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "96bd0336-93e2-4ba9-b3f9-1236ca6e55e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Thread pools reduce",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Memory usage",
+                    "type": "A"
+                },
+                {
+                    "body": "Thread creation overhead",
+                    "type": "B"
+                },
+                {
+                    "body": "Deadlocks",
+                    "type": "C"
+                },
+                {
+                    "body": "Context switches",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Threads",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "49e6a420-6d6c-44e7-8c10-ae28daf7e584",
+                    "questionID": "96bd0336-93e2-4ba9-b3f9-1236ca6e55e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reusing threads avoids the cost of frequent creation/destruction.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4b0b46db-b0c5-4e7d-af58-e42c4a0b3035",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Cache coherence protocols address",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Race conditions",
+                    "type": "A"
+                },
+                {
+                    "body": "Inconsistent cached data",
+                    "type": "B"
+                },
+                {
+                    "body": "Deadlocks",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "487870ab-2222-473a-9497-2d8c3e3a8705",
+                    "questionID": "4b0b46db-b0c5-4e7d-af58-e42c4a0b3035",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "They ensure all cores see the same memory value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3fdfbdba-ca22-467e-b7ed-5e464eb936ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Preemptive scheduling prevents",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlocks",
+                    "type": "A"
+                },
+                {
+                    "body": "Starvation",
+                    "type": "B"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "C"
+                },
+                {
+                    "body": "Monopolized CPU",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Scheduling",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "04f52cfe-e8bb-4442-b387-a363a95f48d3",
+                    "questionID": "3fdfbdba-ca22-467e-b7ed-5e464eb936ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Preemption allows the OS to interrupt long-running threads.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "67ded7fc-9e8f-4ed9-8c94-15fb6ec4b840",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Futexes (Fast Userspace Mutex) combine",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Spinlocks and mutexes",
+                    "type": "A"
+                },
+                {
+                    "body": "User and kernel space",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipes and signals",
+                    "type": "C"
+                },
+                {
+                    "body": "Shared memory and semaphores",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3a64c236-8d93-4bda-ae50-b122f58e3bbc",
+                    "questionID": "67ded7fc-9e8f-4ed9-8c94-15fb6ec4b840",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Futexes use user-space checks with kernel support for blocking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c4a06f25-32c8-4dc4-9088-754ff18460d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "RCU is optimized for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Frequent writes",
+                    "type": "A"
+                },
+                {
+                    "body": "Frequent reads",
+                    "type": "B"
+                },
+                {
+                    "body": "Small data",
+                    "type": "C"
+                },
+                {
+                    "body": "Network I/O",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e0887b80-fee1-4f5e-b071-047ee9641d41",
+                    "questionID": "c4a06f25-32c8-4dc4-9088-754ff18460d8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RCU allows lock-free reads but requires careful write handling.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "467790bc-a93d-4d90-8d2d-fb95bd098358",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The ABA problem occurs in",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutexes",
+                    "type": "A"
+                },
+                {
+                    "body": "Lock-free algorithms",
+                    "type": "B"
+                },
+                {
+                    "body": "Semaphores",
+                    "type": "C"
+                },
+                {
+                    "body": "Monitors",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Atomic Operations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "43064a37-df36-4911-a2dd-1ee74606f256",
+                    "questionID": "467790bc-a93d-4d90-8d2d-fb95bd098358",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A variable changes from A to B and back to A, causing incorrect CAS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3571843c-47ba-4d6a-af2d-d95f46daee82",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two-phase locking ensures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Serializability",
+                    "type": "A"
+                },
+                {
+                    "body": "Deadlock prevention",
+                    "type": "B"
+                },
+                {
+                    "body": "Priority inheritance",
+                    "type": "C"
+                },
+                {
+                    "body": "Atomicity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b120658d-9d72-47b6-a927-385e83b96ed8",
+                    "questionID": "3571843c-47ba-4d6a-af2d-d95f46daee82",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Transactions acquire all locks first (growing phase), then release (shrinking phase).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ca7046aa-f1b1-4b10-8573-03088cabd4c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Deadlock recovery mechanisms include",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Process termination",
+                    "type": "A"
+                },
+                {
+                    "body": "Resource preemption",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Deadlocks"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "89951cc6-69df-488d-bcf9-387895817d51",
+                    "questionID": "ca7046aa-f1b1-4b10-8573-03088cabd4c7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Terminating processes or preempting resources breaks deadlocks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "268c5408-8ae1-41e0-9465-a7bfdb10c1d7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Hybrid threading combines",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "User and kernel threads",
+                    "type": "A"
+                },
+                {
+                    "body": "Mutexes and semaphores",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipes and sockets",
+                    "type": "C"
+                },
+                {
+                    "body": "Shared and distributed memory",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Threads",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cbb8cb0e-0fa9-4bb9-813a-1f1b32a96126",
+                    "questionID": "268c5408-8ae1-41e0-9465-a7bfdb10c1d7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hybrid models use both user and kernel threads for flexibility.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0ef4487f-aa20-42b9-9405-913db790ac3e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "User-level threads are managed by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The OS",
+                    "type": "A"
+                },
+                {
+                    "body": "The application",
+                    "type": "B"
+                },
+                {
+                    "body": "Hardware",
+                    "type": "C"
+                },
+                {
+                    "body": "Kernel modules",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Threads",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "256ac2a5-a99d-4f9a-a8b8-ecebcc1b76c5",
+                    "questionID": "0ef4487f-aa20-42b9-9405-913db790ac3e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Applications handle scheduling via libraries (e.g., pthreads).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "baa05e84-edec-40a8-b08d-1bbdf1cd6ee3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Kernel-level threads are scheduled by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The OS",
+                    "type": "A"
+                },
+                {
+                    "body": "The process",
+                    "type": "B"
+                },
+                {
+                    "body": "User libraries",
+                    "type": "C"
+                },
+                {
+                    "body": "Hardware",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Threads",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "907707b1-2901-4b56-be47-aa740b469374",
+                    "questionID": "baa05e84-edec-40a8-b08d-1bbdf1cd6ee3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The OS scheduler manages kernel-level threads.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0be965b2-cfcf-40ed-a001-364da3600f11",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A smaller critical section improves",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Concurrency",
+                    "type": "A"
+                },
+                {
+                    "body": "Memory usage",
+                    "type": "B"
+                },
+                {
+                    "body": "Code readability",
+                    "type": "C"
+                },
+                {
+                    "body": "Portability",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ccbf51bc-4749-45a0-b4bc-2876e80ea547",
+                    "questionID": "0be965b2-cfcf-40ed-a001-364da3600f11",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shorter critical sections reduce contention among threads.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0f681aed-e923-46d4-8d24-7335260c81da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Non-blocking synchronization uses",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutexes",
+                    "type": "A"
+                },
+                {
+                    "body": "Atomic operations",
+                    "type": "B"
+                },
+                {
+                    "body": "Semaphores",
+                    "type": "C"
+                },
+                {
+                    "body": "Condition variables",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "37074e90-7f21-4c6d-a129-d4aa238cd71e",
+                    "questionID": "0f681aed-e923-46d4-8d24-7335260c81da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Atomic operations avoid locks, enabling progress guarantees.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "250c9151-7a42-4ab5-abf9-94323c7a5f14",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The &#34;thundering herd&#34; problem occurs when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Many threads wake up for one event",
+                    "type": "A"
+                },
+                {
+                    "body": "Deadlocks cascade",
+                    "type": "B"
+                },
+                {
+                    "body": "Resources are overused",
+                    "type": "C"
+                },
+                {
+                    "body": "Livelocks persist",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "626b2a9f-16de-4a18-8c58-f8ab4225f417",
+                    "questionID": "250c9151-7a42-4ab5-abf9-94323c7a5f14",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Waking all waiting threads wastes CPU resources.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d2e95e28-12de-4149-9a59-58319fc783a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Compare-and-Swap (CAS) is used for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Atomic updates",
+                    "type": "A"
+                },
+                {
+                    "body": "Memory allocation",
+                    "type": "B"
+                },
+                {
+                    "body": "File I/O",
+                    "type": "C"
+                },
+                {
+                    "body": "Thread creation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Atomic Operations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3ce03d91-0e08-42af-9212-ed2b50ce3b17",
+                    "questionID": "d2e95e28-12de-4149-9a59-58319fc783a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CAS atomically updates a variable if it matches an expected value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dd0374e5-43ec-4179-903b-89c5b15ea41a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Lamport’s Bakery Algorithm solves",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutual exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": "Deadlock detection",
+                    "type": "B"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "C"
+                },
+                {
+                    "body": "Starvation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Algorithms"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "917f2559-683b-4a99-8a3c-732d6029fa08",
+                    "questionID": "dd0374e5-43ec-4179-903b-89c5b15ea41a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It ensures mutual exclusion for N processes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "05165023-71b0-4ebe-b67c-6c982f3f89ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Wait-free algorithms guarantee",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "No starvation",
+                    "type": "A"
+                },
+                {
+                    "body": "No deadlocks",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Algorithms"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7bf48c71-2970-4348-9758-9d839c9214c7",
+                    "questionID": "05165023-71b0-4ebe-b67c-6c982f3f89ed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Wait-free algorithms ensure every thread completes in finite steps.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "586fbaec-f2e5-4d51-8d0d-8646935f0eb1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Reentrant code is safe for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Single-threaded use",
+                    "type": "A"
+                },
+                {
+                    "body": "Interrupt handlers",
+                    "type": "B"
+                },
+                {
+                    "body": "Kernel modules",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7ba0e8a3-afc3-49fa-b252-125f43cbdc55",
+                    "questionID": "586fbaec-f2e5-4d51-8d0d-8646935f0eb1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reentrant code avoids static variables, enabling concurrency safety.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba29f6f7-9544-4831-a46d-28daf1713793",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Memory barriers ensure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Cache coherence",
+                    "type": "A"
+                },
+                {
+                    "body": "Instruction ordering",
+                    "type": "B"
+                },
+                {
+                    "body": "Deadlock prevention",
+                    "type": "C"
+                },
+                {
+                    "body": "Data encryption",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e47a2910-8275-4aff-9f31-d0bc8f2c4975",
+                    "questionID": "ba29f6f7-9544-4831-a46d-28daf1713793",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "They enforce order of memory operations across threads.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "633e5dac-fb6f-4125-9f82-71ebee7b29c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Priority ceiling protocol prevents",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlocks",
+                    "type": "A"
+                },
+                {
+                    "body": "Priority Inversion",
+                    "type": "B"
+                },
+                {
+                    "body": "Starvation",
+                    "type": "C"
+                },
+                {
+                    "body": "Livelock",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "62830168-07c1-49f9-861b-0827945018ec",
+                    "questionID": "633e5dac-fb6f-4125-9f82-71ebee7b29c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It bounds priority inversion by assigning a ceiling to resource priorities.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9602e342-d291-45a1-a088-c33016515f29",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPC method is suitable for real-time systems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shared Memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Message Queues",
+                    "type": "B"
+                },
+                {
+                    "body": "Signals",
+                    "type": "C"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Message Queues"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d1eec025-56ec-4cab-bf3d-6013c4ba043d",
+                    "questionID": "9602e342-d291-45a1-a088-c33016515f29",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Message queues provide deterministic timing for real-time systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e7d11510-13fc-4484-b7d3-fc9ed59f48ae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which algorithm is used for deadlock avoidance",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Banker’s Algorithm",
+                    "type": "A"
+                },
+                {
+                    "body": "Round Robin",
+                    "type": "B"
+                },
+                {
+                    "body": "FIFO",
+                    "type": "C"
+                },
+                {
+                    "body": "LRU",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Deadlocks"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9de19a4d-165b-45dc-8925-76223b370617",
+                    "questionID": "e7d11510-13fc-4484-b7d3-fc9ed59f48ae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Banker’s Algorithm ensures safe resource allocation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0558143e-d4f2-4572-b19a-1477f83d23cb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A monitor’s invariant must hold when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A thread enters the monitor",
+                    "type": "A"
+                },
+                {
+                    "body": "A thread exits the monitor",
+                    "type": "B"
+                },
+                {
+                    "body": "Both A and B",
+                    "type": "C"
+                },
+                {
+                    "body": "Never",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Monitor"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "334275f3-ae0b-4c3d-ab5c-754dbb6a3ea5",
+                    "questionID": "0558143e-d4f2-4572-b19a-1477f83d23cb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Invariants must be true before entering and after exiting the monitor.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0f9c3a0e-5780-43c6-a0d4-41ca9251453c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Lock-free programming relies on",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Atomic operations",
+                    "type": "A"
+                },
+                {
+                    "body": "Mutexes",
+                    "type": "B"
+                },
+                {
+                    "body": "Semaphores",
+                    "type": "C"
+                },
+                {
+                    "body": "Spinlocks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Atomic Operations"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "75f718f9-2c37-419e-bb31-3894f873521c",
+                    "questionID": "0f9c3a0e-5780-43c6-a0d4-41ca9251453c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Atomic operations ensure progress without locks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ee237f0f-677a-495b-936d-469190220271",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the bounded buffer problem, a full buffer is managed by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A counting semaphore",
+                    "type": "A"
+                },
+                {
+                    "body": "A binary semaphore",
+                    "type": "B"
+                },
+                {
+                    "body": "A mutex",
+                    "type": "C"
+                },
+                {
+                    "body": "A condition variable",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Producer-Consumer"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "54e70e8f-58ee-4ce3-89b7-79ecc131edac",
+                    "questionID": "ee237f0f-677a-495b-936d-469190220271",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Counting semaphores track the number of free/full buffer slots.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0a7ae1de-fc2c-4a47-a15e-4d51beb3ed04",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A rendezvous in IPC ensures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data encryption",
+                    "type": "A"
+                },
+                {
+                    "body": "Synchronized handshake",
+                    "type": "B"
+                },
+                {
+                    "body": "Memory allocation",
+                    "type": "C"
+                },
+                {
+                    "body": "Thread creation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5fdd2bd1-e83b-4bdb-8825-97beaa617936",
+                    "questionID": "0a7ae1de-fc2c-4a47-a15e-4d51beb3ed04",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rendezvous synchronizes two processes at a certain execution point.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce529e58-b743-4577-a1fd-2271a80c8e3d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Priority inversion is mitigated by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Priority inheritance",
+                    "type": "A"
+                },
+                {
+                    "body": "Random priorities",
+                    "type": "B"
+                },
+                {
+                    "body": "Disabling interrupts",
+                    "type": "C"
+                },
+                {
+                    "body": "Spinlocks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Priority Inversion"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e37dd2df-3667-4205-aaa4-f8a3a40cf909",
+                    "questionID": "ce529e58-b743-4577-a1fd-2271a80c8e3d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Priority inheritance temporarily raises the priority of a low-priority thread.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "71bbf8f1-e410-4441-84f2-278b8932ed93",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How does a semaphore differ from a mutex",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ownership",
+                    "type": "A"
+                },
+                {
+                    "body": "Speed",
+                    "type": "B"
+                },
+                {
+                    "body": "Kernel/User mode",
+                    "type": "C"
+                },
+                {
+                    "body": "Data size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphores",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7ced86de-4f08-4e48-bd45-c215b5d718da",
+                    "questionID": "71bbf8f1-e410-4441-84f2-278b8932ed93",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A mutex is owned by the acquiring thread; semaphores have no ownership.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "25a91a7b-a6bc-4a89-be79-49693b9efdaa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In message passing, blocking send/receive is termed",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Synchronous",
+                    "type": "A"
+                },
+                {
+                    "body": "Asynchronous",
+                    "type": "B"
+                },
+                {
+                    "body": "Buffered",
+                    "type": "C"
+                },
+                {
+                    "body": "Unbuffered",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Message Passing"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "93da828e-c846-4f77-bb10-3e498929fbb8",
+                    "questionID": "25a91a7b-a6bc-4a89-be79-49693b9efdaa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Blocking operations wait until the message is transmitted/received.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f22b118e-7372-402a-8a32-0d63428d952e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Spinlocks are inefficient in which scenario",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Multi-core systems",
+                    "type": "A"
+                },
+                {
+                    "body": "Single-core systems",
+                    "type": "B"
+                },
+                {
+                    "body": "Short critical sections",
+                    "type": "C"
+                },
+                {
+                    "body": "Low contention",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Spinlocks"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ea184a25-b9f4-4445-a22d-e4320549d215",
+                    "questionID": "f22b118e-7372-402a-8a32-0d63428d952e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "On single-core systems, spinlocks waste CPU cycles.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "88679466-9b1c-41ab-8073-747e8b27d266",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What must a thread do before waiting on a condition variable",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Acquire a mutex",
+                    "type": "A"
+                },
+                {
+                    "body": "Release all resources",
+                    "type": "B"
+                },
+                {
+                    "body": "Sleep",
+                    "type": "C"
+                },
+                {
+                    "body": "Signal another thread",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Condition Variables"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "73b3ce9a-8fd3-4b44-96d1-cbd0bce3755c",
+                    "questionID": "88679466-9b1c-41ab-8073-747e8b27d266",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A thread must hold the associated mutex before waiting.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2d03dc85-2ee9-41be-bae5-26412ec60870",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "To prevent starvation in the reader-writer problem, a common solution is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Priority to writers",
+                    "type": "A"
+                },
+                {
+                    "body": "FIFO queues",
+                    "type": "B"
+                },
+                {
+                    "body": "Random selection",
+                    "type": "C"
+                },
+                {
+                    "body": "Timeouts",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Reader-Writer"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "01abd73d-2f0c-445a-8cf0-802eda77fa34",
+                    "questionID": "2d03dc85-2ee9-41be-bae5-26412ec60870",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FIFO queues ensure fair access to both readers and writers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b2669ff9-e1d3-4548-8d0b-af17f8e89bb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which condition is NOT part of Coffman&#39;s deadlock requirements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutual Exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": "Hold and Wait",
+                    "type": "B"
+                },
+                {
+                    "body": "Priority Inversion",
+                    "type": "C"
+                },
+                {
+                    "body": "No Preemption",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Deadlocks"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "adf31119-b5de-4eb9-b37d-ea6a6919bf35",
+                    "questionID": "b2669ff9-e1d3-4548-8d0b-af17f8e89bb8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Priority inversion is a scheduling issue, not a deadlock condition.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "02098172-2fa2-45d3-8c83-7e0ac67a29fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPC method is fastest for large data transfers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shared Memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Message Queues",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "C"
+                },
+                {
+                    "body": "Sockets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Shared Memory"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a100b43c-34ac-4f4f-b108-b85a81ea1f82",
+                    "questionID": "02098172-2fa2-45d3-8c83-7e0ac67a29fe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shared memory avoids kernel overhead, enabling direct process access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0303a045-15b6-4185-9ad3-8374dfc0b4da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the producer-consumer problem, which primitive manages empty slots",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutex",
+                    "type": "A"
+                },
+                {
+                    "body": "Semaphore",
+                    "type": "B"
+                },
+                {
+                    "body": "Condition Variable",
+                    "type": "C"
+                },
+                {
+                    "body": "Pipe",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphores",
+                "Synchronization"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8dfb2f25-ba16-4bcf-8711-e9bc40c1fbf7",
+                    "questionID": "0303a045-15b6-4185-9ad3-8374dfc0b4da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A semaphore tracks the number of available slots in the buffer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "346ce966-8a0f-4010-a088-ebbb40c9bb7e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Sleep-wait in synchronization avoids",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Busy waiting",
+                    "type": "A"
+                },
+                {
+                    "body": "Deadlocks",
+                    "type": "B"
+                },
+                {
+                    "body": "Starvation",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f5f80344-6c2c-48e4-9f89-4836da9a118a",
+                    "questionID": "346ce966-8a0f-4010-a088-ebbb40c9bb7e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sleep-wait puts the thread to sleep instead of wasting CPU cycles.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0dac15af-1fe2-41a4-98df-db6cc39714ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The test-and-set instruction is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A synchronization primitive",
+                    "type": "A"
+                },
+                {
+                    "body": "A file operation",
+                    "type": "B"
+                },
+                {
+                    "body": "A network protocol",
+                    "type": "C"
+                },
+                {
+                    "body": "A memory allocator",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "09b10152-e184-4004-bc04-ac4eb59aeb25",
+                    "questionID": "0dac15af-1fe2-41a4-98df-db6cc39714ad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Test-and-set is an atomic hardware operation for mutual exclusion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a6113a81-d206-480b-a785-7693899af301",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Interrupts during critical sections can cause",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Race conditions",
+                    "type": "A"
+                },
+                {
+                    "body": "Priority inversion",
+                    "type": "B"
+                },
+                {
+                    "body": "Deadlocks",
+                    "type": "C"
+                },
+                {
+                    "body": "Livelocks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "bd15bad2-7ad1-4cf6-ab21-a1cbdfe63e3a",
+                    "questionID": "a6113a81-d206-480b-a785-7693899af301",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Interrupts may lead to inconsistent states if not handled properly.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6731d25d-e97a-46f2-a8e0-9031516d426c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A spinlock is suitable when",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Wait time is long",
+                    "type": "A"
+                },
+                {
+                    "body": "Wait time is short",
+                    "type": "B"
+                },
+                {
+                    "body": "CPU is single-core",
+                    "type": "C"
+                },
+                {
+                    "body": "Processes are I/O-bound",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Spinlocks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c40256cf-ec5a-4160-88cf-17219e19f353",
+                    "questionID": "6731d25d-e97a-46f2-a8e0-9031516d426c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Spinlocks are efficient for short waits (avoids context switching).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9ff05f85-faae-4e6d-9f51-95acea3fb016",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A condition variable is used with a",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Semaphore",
+                    "type": "A"
+                },
+                {
+                    "body": "Mutex",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipe",
+                    "type": "C"
+                },
+                {
+                    "body": "Signal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e137817b-6876-4b11-9670-7c2698544267",
+                    "questionID": "9ff05f85-faae-4e6d-9f51-95acea3fb016",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Condition variables work with mutexes to manage complex waits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "77bc0d9a-a840-498d-8f43-83e611fb3527",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Deadlock detection involves",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ignoring deadlocks",
+                    "type": "A"
+                },
+                {
+                    "body": "Periodically checking resource allocation graphs",
+                    "type": "B"
+                },
+                {
+                    "body": "Rebooting",
+                    "type": "C"
+                },
+                {
+                    "body": "Random delays",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Deadlocks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b141ff8b-0c8b-4a6b-a066-2c6ce77b14c9",
+                    "questionID": "77bc0d9a-a840-498d-8f43-83e611fb3527",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Resource allocation graphs identify circular waits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6d8cf318-0a30-4a47-86fe-9e5758d6d76a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Non-blocking IPC allows a process to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Wait indefinitely",
+                    "type": "A"
+                },
+                {
+                    "body": "Continue execution immediately",
+                    "type": "B"
+                },
+                {
+                    "body": "Crash",
+                    "type": "C"
+                },
+                {
+                    "body": "Ignore errors",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a2bc7b60-e2ac-44c7-b3ca-1e76ca7258e1",
+                    "questionID": "6d8cf318-0a30-4a47-86fe-9e5758d6d76a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Non-blocking calls return immediately, even if the operation isn’t done.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b6165161-7988-45fa-ad23-93b3ea193d95",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Event flags are used to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Track process states",
+                    "type": "A"
+                },
+                {
+                    "body": "Signal specific conditions",
+                    "type": "B"
+                },
+                {
+                    "body": "Allocate memory",
+                    "type": "C"
+                },
+                {
+                    "body": "Terminate threads",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "dd01bbb8-cf94-4812-9884-9d29ad8e34e8",
+                    "questionID": "b6165161-7988-45fa-ad23-93b3ea193d95",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Event flags notify threads about specific events.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a14ff50f-dd66-4639-8a2c-65c5e35be1f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A barrier ensures",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mutual Exclusion",
+                    "type": "A"
+                },
+                {
+                    "body": "All threads reach a point before proceeding",
+                    "type": "B"
+                },
+                {
+                    "body": "Priority order",
+                    "type": "C"
+                },
+                {
+                    "body": "Deadlock prevention",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Barrier"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "655cefa8-30a2-4be6-834c-60c0d56714b5",
+                    "questionID": "a14ff50f-dd66-4639-8a2c-65c5e35be1f6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Barriers synchronize threads at a specific execution phase.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ee52815e-7419-47d9-b721-ae66c456cca6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Threads share __________ compared to processes.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Nothing",
+                    "type": "A"
+                },
+                {
+                    "body": "Code and Data",
+                    "type": "B"
+                },
+                {
+                    "body": "PID",
+                    "type": "C"
+                },
+                {
+                    "body": "File descriptors",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Threads",
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bc9c6fa2-239c-4336-bd82-bc57bd981941",
+                    "questionID": "ee52815e-7419-47d9-b721-ae66c456cca6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threads share code, data, and resources within a process.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b5573d90-d7b4-4511-a898-5c1269be65f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Busy waiting wastes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Memory",
+                    "type": "A"
+                },
+                {
+                    "body": "CPU cycles",
+                    "type": "B"
+                },
+                {
+                    "body": "Disk space",
+                    "type": "C"
+                },
+                {
+                    "body": "Network bandwidth",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6fb38435-8b87-4dd1-b65e-7ea2c6fb6117",
+                    "questionID": "b5573d90-d7b4-4511-a898-5c1269be65f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Busy waiting repeatedly checks for a condition, consuming CPU.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a180c089-839b-4761-9562-85ca61ac94e1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A mutex is a special case of a",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Binary Semaphore",
+                    "type": "A"
+                },
+                {
+                    "body": "Counting Semaphore",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipe",
+                    "type": "C"
+                },
+                {
+                    "body": "Signal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6c3d0c26-50d8-49f7-bc7d-b00c5095a325",
+                    "questionID": "a180c089-839b-4761-9562-85ca61ac94e1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A mutex is a binary semaphore (value=1).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "56be6e0d-5657-4d54-8302-6777be09fa3d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPC method requires kernel intervention",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shared Memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Message Queues",
+                    "type": "B"
+                },
+                {
+                    "body": "Atomic Variables",
+                    "type": "C"
+                },
+                {
+                    "body": "Spinlocks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Message Queues"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "95df8f2e-9767-47dd-aa22-6308833e56f2",
+                    "questionID": "56be6e0d-5657-4d54-8302-6777be09fa3d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Message queues are managed by the kernel.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1d2ca37c-1030-4b46-8eff-48d274c374fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "After fork(), how do parent and child communicate",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shared Memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "B"
+                },
+                {
+                    "body": "Signals",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Processes"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2bed7463-4e16-4fab-97d5-a136a7b00608",
+                    "questionID": "1d2ca37c-1030-4b46-8eff-48d274c374fe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All IPC methods can be used post-fork().",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0a8c478-1004-4e3b-983a-bc424ed1d53a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "File locking is used to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Prevent concurrent writes",
+                    "type": "A"
+                },
+                {
+                    "body": "Encrypt files",
+                    "type": "B"
+                },
+                {
+                    "body": "Delete files",
+                    "type": "C"
+                },
+                {
+                    "body": "Compress files",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "File Locking"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "91fa3e2c-6c00-480b-b23a-bbea16707ae5",
+                    "questionID": "c0a8c478-1004-4e3b-983a-bc424ed1d53a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "File locking ensures exclusive access to files.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de9744ae-ec70-42c7-ae4a-7c93406fb0c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Priority scheduling can lead to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Deadlocks",
+                    "type": "A"
+                },
+                {
+                    "body": "Starvation",
+                    "type": "B"
+                },
+                {
+                    "body": "Livelock",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority Inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Scheduling",
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ec64e2be-5b69-4e2b-8f1e-43b81f56afc5",
+                    "questionID": "de9744ae-ec70-42c7-ae4a-7c93406fb0c2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Low-priority processes may starve if high-priority ones dominate.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "39c58d87-20cf-44a3-b181-143d2790a27f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Code is thread-safe if",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It uses global variables",
+                    "type": "A"
+                },
+                {
+                    "body": "It avoids race conditions",
+                    "type": "B"
+                },
+                {
+                    "body": "It runs slowly",
+                    "type": "C"
+                },
+                {
+                    "body": "It uses pipes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "97862f2b-78a9-49e8-96c4-9996da513867",
+                    "questionID": "39c58d87-20cf-44a3-b181-143d2790a27f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Thread-safe code ensures no race conditions during concurrent execution.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6881d0ac-7833-4b91-8565-6efaa5b25338",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A semaphore with value 5 allows how many processes to enter",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1",
+                    "type": "A"
+                },
+                {
+                    "body": "5",
+                    "type": "B"
+                },
+                {
+                    "body": "10",
+                    "type": "C"
+                },
+                {
+                    "body": "Unlimited",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphores"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c1a8083a-9559-4ff9-93d5-982e86152f12",
+                    "questionID": "6881d0ac-7833-4b91-8565-6efaa5b25338",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A semaphore’s value indicates available resource slots.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1ea8756-b8eb-487e-a1ba-95baa5aa307b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Sockets are primarily used for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Local IPC",
+                    "type": "A"
+                },
+                {
+                    "body": "Network IPC",
+                    "type": "B"
+                },
+                {
+                    "body": "Thread synchronization",
+                    "type": "C"
+                },
+                {
+                    "body": "File I/O",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Sockets"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9905a5e8-edc8-470d-a62f-be2d86d800f8",
+                    "questionID": "f1ea8756-b8eb-487e-a1ba-95baa5aa307b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sockets enable communication over networks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8a1f0afe-92f2-4dcd-8da7-f66cfa562d38",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A livelock is similar to a deadlock but processes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Terminate",
+                    "type": "A"
+                },
+                {
+                    "body": "Continuously retry",
+                    "type": "B"
+                },
+                {
+                    "body": "Release resources",
+                    "type": "C"
+                },
+                {
+                    "body": "Sleep",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Deadlocks",
+                "Livelock"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8eb27032-2dee-464b-85f1-396f8caa7503",
+                    "questionID": "8a1f0afe-92f2-4dcd-8da7-f66cfa562d38",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In livelock, processes keep retrying without progress.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a57f0777-c1b2-4eda-a75f-ae6899bac83d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Starvation occurs when a process",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Lacks CPU time",
+                    "type": "A"
+                },
+                {
+                    "body": "Waits indefinitely",
+                    "type": "B"
+                },
+                {
+                    "body": "Terminates early",
+                    "type": "C"
+                },
+                {
+                    "body": "Uses too much memory",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Starvation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9cd955e8-cd82-4bc2-8ec2-982d59265f13",
+                    "questionID": "a57f0777-c1b2-4eda-a75f-ae6899bac83d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Starvation is the inability to gain necessary resources (e.g., CPU).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e252c485-2614-4d87-9144-547ad9632ccd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Named pipes (FIFOs) differ from regular pipes by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Speed",
+                    "type": "A"
+                },
+                {
+                    "body": "Bidirectionality",
+                    "type": "B"
+                },
+                {
+                    "body": "Persistence",
+                    "type": "C"
+                },
+                {
+                    "body": "Kernel support",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Pipes"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0a2b91c6-ab60-425f-9705-eb227bc0e262",
+                    "questionID": "e252c485-2614-4d87-9144-547ad9632ccd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Named pipes persist beyond process termination.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "33f86461-407c-472c-8057-7081e61b440e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which strategy prevents deadlocks",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ignoring them",
+                    "type": "A"
+                },
+                {
+                    "body": "Resource preallocation",
+                    "type": "B"
+                },
+                {
+                    "body": "Random delays",
+                    "type": "C"
+                },
+                {
+                    "body": "Rebooting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Deadlocks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c141a4fc-a14a-41b5-9692-5755f3173e79",
+                    "questionID": "33f86461-407c-472c-8057-7081e61b440e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Preallocating resources avoids hold-and-wait conditions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8971a523-d85c-4b35-b03e-048a7e9948f3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What operation increments a semaphore",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Wait",
+                    "type": "A"
+                },
+                {
+                    "body": "Signal",
+                    "type": "B"
+                },
+                {
+                    "body": "Lock",
+                    "type": "C"
+                },
+                {
+                    "body": "Acquire",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphores"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0b6cad06-e5f8-4db4-aef5-97bec7de1295",
+                    "questionID": "8971a523-d85c-4b35-b03e-048a7e9948f3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "signal() increments the semaphore value.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba023819-cbb3-410f-97da-916a015fa075",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A mutex is released by",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The kernel",
+                    "type": "A"
+                },
+                {
+                    "body": "The acquiring thread",
+                    "type": "B"
+                },
+                {
+                    "body": "Any thread",
+                    "type": "C"
+                },
+                {
+                    "body": "The scheduler",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Mutex"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a58ea9b2-7a18-4964-b9f7-ba14a9568baf",
+                    "questionID": "ba023819-cbb3-410f-97da-916a015fa075",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Only the thread that acquired the mutex can release it.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba395a52-92e2-45f2-962c-3167c58989c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Threads within a process share",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stack",
+                    "type": "A"
+                },
+                {
+                    "body": "Heap",
+                    "type": "B"
+                },
+                {
+                    "body": "Registers",
+                    "type": "C"
+                },
+                {
+                    "body": "Program counter",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Threads",
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b52a4f99-a5d3-4491-ae27-90048419b81b",
+                    "questionID": "ba395a52-92e2-45f2-962c-3167c58989c8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Threads share the heap but have separate stacks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "047e61fb-049b-447d-b7b8-8afa123c51ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Pipes in Linux are",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unidirectional",
+                    "type": "A"
+                },
+                {
+                    "body": "Bidirectional",
+                    "type": "B"
+                },
+                {
+                    "body": "Network-based",
+                    "type": "C"
+                },
+                {
+                    "body": "Persistent",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Pipes"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e7f333a1-f2d3-4f22-ba7e-3a470c301925",
+                    "questionID": "047e61fb-049b-447d-b7b8-8afa123c51ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Pipes are unidirectional communication channels.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4e9fca3c-3f91-4987-b0d1-617cc377417c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A monitor synchronizes threads using",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Shared variables",
+                    "type": "A"
+                },
+                {
+                    "body": "Condition variables",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "C"
+                },
+                {
+                    "body": "Signals",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Monitor"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "26a34785-0103-463f-a5fa-07d5d09eb8eb",
+                    "questionID": "4e9fca3c-3f91-4987-b0d1-617cc377417c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Monitors use condition variables for thread synchronization.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "820d973c-14a2-4a34-9364-f72eb2a918c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the producer-consumer problem, the buffer is &#34;bounded&#34; to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Prevent overflow",
+                    "type": "A"
+                },
+                {
+                    "body": "Speed up IPC",
+                    "type": "B"
+                },
+                {
+                    "body": "Reduce latency",
+                    "type": "C"
+                },
+                {
+                    "body": "Avoid deadlocks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Producer-Consumer"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5cff6615-d8f3-47b9-8612-ac40789eeae2",
+                    "questionID": "820d973c-14a2-4a34-9364-f72eb2a918c2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A bounded buffer limits the number of items to prevent overflow.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7d896032-8796-4261-af72-acef10cb75d5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An atomic operation is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Interruptible",
+                    "type": "A"
+                },
+                {
+                    "body": "Non-divisible",
+                    "type": "B"
+                },
+                {
+                    "body": "Slow",
+                    "type": "C"
+                },
+                {
+                    "body": "Memory-intensive",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4e201185-f437-444b-94a8-5af5792ac828",
+                    "questionID": "7d896032-8796-4261-af72-acef10cb75d5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Atomic operations execute without interruption.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b2b12fc9-141e-4ac6-971c-e487b776d7b7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What causes a race condition",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unordered thread execution",
+                    "type": "A"
+                },
+                {
+                    "body": "Low CPU usage",
+                    "type": "B"
+                },
+                {
+                    "body": "Fixed priorities",
+                    "type": "C"
+                },
+                {
+                    "body": "Single-threaded code",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Race Condition"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d76c0ecd-f5b7-4c90-ab6c-58aaef4c4832",
+                    "questionID": "b2b12fc9-141e-4ac6-971c-e487b776d7b7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Race conditions arise when outcomes depend on thread execution order.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0dc4ffc-35e0-43ad-944b-903ed51339f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A critical section is a code segment that",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Allocates memory",
+                    "type": "A"
+                },
+                {
+                    "body": "Accesses shared resources",
+                    "type": "B"
+                },
+                {
+                    "body": "Terminates a process",
+                    "type": "C"
+                },
+                {
+                    "body": "Creates threads",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9b25264f-f22f-4504-bddd-9779f6218cfc",
+                    "questionID": "c0dc4ffc-35e0-43ad-944b-903ed51339f7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Critical sections access shared resources requiring mutual exclusion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "98c273a4-cd8e-4393-9609-8163a957fce4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPC method stores messages in a kernel-managed queue",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pipes",
+                    "type": "A"
+                },
+                {
+                    "body": "Shared Memory",
+                    "type": "B"
+                },
+                {
+                    "body": "Message Queues",
+                    "type": "C"
+                },
+                {
+                    "body": "Sockets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Message Queues"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8d126674-e044-4291-9522-e02407bee49f",
+                    "questionID": "98c273a4-cd8e-4393-9609-8163a957fce4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Message queues buffer messages between processes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "34aa5232-ad14-430a-a936-32673bc26c15",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What do signals in IPC typically represent",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data packets",
+                    "type": "A"
+                },
+                {
+                    "body": "Software interrupts",
+                    "type": "B"
+                },
+                {
+                    "body": "Memory addresses",
+                    "type": "C"
+                },
+                {
+                    "body": "Thread IDs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Signals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "75d0236a-3bdc-4821-a656-566e0436a035",
+                    "questionID": "34aa5232-ad14-430a-a936-32673bc26c15",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Signals notify processes of events (e.g., termination requests).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "30bcbe4b-0c1b-4b22-8c2d-21275f744698",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which term describes a process waiting indefinitely for a resource",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Starvation",
+                    "type": "A"
+                },
+                {
+                    "body": "Deadlock",
+                    "type": "B"
+                },
+                {
+                    "body": "Livelock",
+                    "type": "C"
+                },
+                {
+                    "body": "Priority Inversion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Deadlocks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "eaf3a33a-82e0-4dd7-ae9a-6e4add2da11b",
+                    "questionID": "30bcbe4b-0c1b-4b22-8c2d-21275f744698",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Deadlock occurs when processes hold resources and wait indefinitely.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3238efb8-1164-4306-9098-f521cd1dc550",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which IPC method allows processes to access the same memory region",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pipes",
+                    "type": "A"
+                },
+                {
+                    "body": "Shared Memory",
+                    "type": "B"
+                },
+                {
+                    "body": "Signals",
+                    "type": "C"
+                },
+                {
+                    "body": "Sockets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Shared Memory"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2b5b2d3b-e6dc-4bb2-8f8c-24341c2e0ae8",
+                    "questionID": "3238efb8-1164-4306-9098-f521cd1dc550",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Shared memory enables direct read/write access to a common memory space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a2c27b21-9996-40bc-b084-198e846c2cb3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A semaphore initialized to 1 is typically used for",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Counting",
+                    "type": "A"
+                },
+                {
+                    "body": "Mutual Exclusion",
+                    "type": "B"
+                },
+                {
+                    "body": "Signaling",
+                    "type": "C"
+                },
+                {
+                    "body": "Deadlock Prevention",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Semaphores",
+                "Synchronization"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "767023ce-3256-4b4a-b991-795ab762ac61",
+                    "questionID": "a2c27b21-9996-40bc-b084-198e846c2cb3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A binary semaphore (value=1) enforces mutual exclusion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5ad8f64c-7660-4258-84ab-bba9c0ae69a7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What ensures mutual exclusion in critical sections",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Pipe",
+                    "type": "A"
+                },
+                {
+                    "body": "Mutex",
+                    "type": "B"
+                },
+                {
+                    "body": "Message Queue",
+                    "type": "C"
+                },
+                {
+                    "body": "Signal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synchronization",
+                "Mutex"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5de1e9b3-2bc2-42ff-bc76-c270e3568474",
+                    "questionID": "5ad8f64c-7660-4258-84ab-bba9c0ae69a7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A mutex locks a resource to prevent simultaneous access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "864dce98-678c-4358-95b5-95dc10a3b355",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a method of IPC",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Threads",
+                    "type": "A"
+                },
+                {
+                    "body": "Semaphores",
+                    "type": "B"
+                },
+                {
+                    "body": "Pipes",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Pipes"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b2bb5f1e-7c54-447a-84d3-bc303e1d4c24",
+                    "questionID": "864dce98-678c-4358-95b5-95dc10a3b355",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Pipes directly facilitate data exchange between processes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e40fe204-c833-444d-8684-13db619c5b01",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the primary purpose of Inter-Process Communication (IPC)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Memory Management",
+                    "type": "A"
+                },
+                {
+                    "body": "Process Termination",
+                    "type": "B"
+                },
+                {
+                    "body": "Data Exchange",
+                    "type": "C"
+                },
+                {
+                    "body": "CPU Scheduling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "IPC",
+                "Basics"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "43e8108c-c892-4427-ac7e-1bf40a60033c",
+                    "questionID": "e40fe204-c833-444d-8684-13db619c5b01",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "IPC allows processes to exchange data and information.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

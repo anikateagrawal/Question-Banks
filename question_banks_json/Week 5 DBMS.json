@@ -1,0 +1,3368 @@
+{
+    "bank_id": "7bc67950-c44a-440b-8d33-bdb3d553cd80",
+    "bank_name": "Week 5 DBMS",
+    "questions": [
+        {
+            "id": "98fd8c36-96c5-4b84-979e-236601ddcb89",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong>At the database level, how can we ensure that no patient is inserted with a NULL name?</strong></h3><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752744389785496770_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2002_35_35%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143606Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=379854639b22ec1e3a8d2b1ffaa7e9110eb3686f747517b476e53048b9ee6fa2",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Add a unique constraint to the name column</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Use a NOT NULL constraint on name column in Patient table</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Use foreign key reference on name</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Insert blank instead of NULL manually</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sql"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "47b0947f-300a-44a6-94f0-7f3f1aad9422",
+                    "questionID": "98fd8c36-96c5-4b84-979e-236601ddcb89",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ To ensure data integrity, a&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">NOT NULL</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;constraint must be applied on the&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">name</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;column in the&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Patient</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;table. This prevents insertion of records without a name.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0c79c2e-84de-4798-add1-fbaff342cef7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3>Which SQL query retrieves patients who have consulted more than one doctor?</h3>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752744224102756807_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2002_35_35%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143606Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b8534e48fbf1a4a98b4611b0761febcc541f241273a1bd90a720e3f6df8275a0",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>SELECT P.name</p><p>FROM Patient P</p><p>JOIN Visits V ON P.patient_id = V.patient_id</p><p>GROUP BY P.name</p><p>HAVING COUNT(*) &gt; 1;</p><p><br></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>SELECT P.name</p><p>FROM Patient P</p><p>WHERE P.patient_id IN (</p><p>  SELECT patient_id</p><p>  FROM Visits</p><p>  GROUP BY patient_id</p><p>  HAVING COUNT(DISTINCT doctor_id) &gt; 1</p><p>);</p><p><br></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>SELECT P.name</p><p>FROM Patient P</p><p>JOIN Visits V ON P.patient_id = V.patient_id</p><p>GROUP BY P.patient_id, P.name</p><p>HAVING COUNT(DISTINCT V.doctor_id) &gt; 1;</p><p><br></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SELECT name FROM Visits WHERE COUNT(doctor_id) &gt; 1;</p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sql"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8caeb760-9b4c-41ca-847e-b55ec7939765",
+                    "questionID": "f0c79c2e-84de-4798-add1-fbaff342cef7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ We're counting how many&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">distinct doctors</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;each patient has seen. So we use&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">GROUP BY patient_id</code><span style=\"color: rgb(0, 0, 0);\">, and filter with&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">HAVING COUNT(DISTINCT doctor_id) &gt; 1</code><span style=\"color: rgb(0, 0, 0);\">.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ee78abf4-5a52-4ed9-ba6d-8ff4f74a0c3c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>How would you design a query to retrieve names of doctors who have not had any visits recorded yet</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752743481459551596_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2002_35_35%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143606Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=43e0caeb8dfc20e0938eed1dc10c9db9e9ef85e6362fc2e439a49907335cf19a",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>SELECT name FROM Doctor WHERE doctor_id IS NULL;</p><p><br></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>SELECT D.name FROM Doctor D</p><p>JOIN Visits V ON D.doctor_id = V.doctor_id;</p><p><br></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>SELECT D.name</p><p>FROM Doctor D</p><p>LEFT JOIN Visits V ON D.doctor_id = V.doctor_id</p><p>WHERE V.visit_id IS NULL;</p><p><br></p><p><br></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SELECT name FROM Visits WHERE doctor_id NOT IN Doctor;</p><p><br></p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b2b87bc8-4af2-4268-bb0f-fb0be0a27766",
+                    "questionID": "ee78abf4-5a52-4ed9-ba6d-8ff4f74a0c3c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ A&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">LEFT JOIN</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;returns all doctors, even those with no visits. The&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">WHERE V.visit_id IS NULL</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;filters out those who never had any visits. Classic&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">anti-join</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;pattern</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "050a1f86-8929-47ee-be4e-fd28ed9cfa1b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is the&nbsp;<strong>minimum set of attributes</strong>&nbsp;required to uniquely identify a patient’s visit?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752743371988184416_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2002_35_35%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143607Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=39a2bf4f61ccbf497d4796ccfbfabceb37e1a617ebef755b17bbeee30c883f16",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>patient_id</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>doctor_id</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>visit_date</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>visit_id</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "bf7b689c-a788-4910-9b83-aff1772f0c37",
+                    "questionID": "050a1f86-8929-47ee-be4e-fd28ed9cfa1b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">visit_id</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;is a surrogate key that uniquely identifies each visit. Even if&nbsp;</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "effd04e2-a7bf-4bf5-8e3d-6cacb9c164db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What normalization problem may arise if department_name is stored directly in the Doctor table instead of using dept_id?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752743200828036386_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2002_35_35%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143607Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b49f8dbf9734e90dc76609d1f38a2a1a2d8b6074d76cce379679aba2d4fa0098",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Repetition of primary key</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Partial dependency</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Transitive dependency</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Multivalued dependency</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9a8894ed-0091-403e-87eb-234e47a72657",
+                    "questionID": "effd04e2-a7bf-4bf5-8e3d-6cacb9c164db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">doctor_id → dept_id → dept_name</code></p><p><span style=\"color: rgb(0, 0, 0);\">If&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">dept_name</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;is stored in Doctor, it becomes transitively dependent on&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">doctor_id</code><span style=\"color: rgb(0, 0, 0);\">. This violates&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">3NF</strong><span style=\"color: rgb(0, 0, 0);\">, since non-prime attribute (</span><code style=\"color: rgb(0, 0, 0);\">dept_name</code><span style=\"color: rgb(0, 0, 0);\">) depends on another non-prime attribute (</span><code style=\"color: rgb(0, 0, 0);\">dept_id</code><span style=\"color: rgb(0, 0, 0);\">).</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32bfd15e-debd-41af-a1f7-4a2888fa026f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the transitive dependency if we store publisher_address in Book?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752738290080178443_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_57_18%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143607Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7ad1a74cac8c40d824dd66a1294253c1461792a2bb92a3a4608695b3579710b4",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>book_id → publisher</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>publisher → publisher_address</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>book_id → isbn</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>isbn → title</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "783c1f2c-6e71-454a-8296-a31615597f43",
+                    "questionID": "32bfd15e-debd-41af-a1f7-4a2888fa026f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">The attribute&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">publisher_address</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;does&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">not directly depend on the primary key&nbsp;</strong><code style=\"color: rgb(0, 0, 0);\"><strong>book_id</strong></code><span style=\"color: rgb(0, 0, 0);\">, but rather on&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">publisher</code><span style=\"color: rgb(0, 0, 0);\">, which depends on&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">book_id</code><span style=\"color: rgb(0, 0, 0);\">. This forms a&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">transitive dependency</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7efbc3eb-0529-4b5b-9987-33c24ad276ec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What normal form is violated by storing publisher_address in Book table?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752738089733212403_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_57_18%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143607Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=26009d138f09f20a59a26480dade3ccd5153059e4c483e86c8ab8244bd9898d3",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1NF</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2NF</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3NF</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>BCNF</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a2a78e84-9de6-4045-8a3f-6637b1378691",
+                    "questionID": "7efbc3eb-0529-4b5b-9987-33c24ad276ec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">3NF is violated</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;because&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">publisher_address</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;has a&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">transitive dependency</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;through another non-key attribute (</span><code style=\"color: rgb(0, 0, 0);\">publisher</code><span style=\"color: rgb(0, 0, 0);\">). It should be moved to a separate&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">Publisher</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;table to preserve 3NF.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "68fb40e6-8aaf-4c84-98da-2c73adf879fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which SQL query will return the list of books that are currently issued (i.e., books that have not been returned yet)?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752737941763213584_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_57_18%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143607Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f05357c65bba9e6b443d3146ddcacf7ff73b9d041feca9e47aa3ee9b4ad7adce",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>SELECT title</p><p>FROM Book</p><p>WHERE return_date IS NULL;</p><p><br></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>SELECT B.title</p><p>FROM Book B</p><p>JOIN Member M ON B.book_id = M.member_id</p><p>WHERE B.return_date IS NULL;</p><p><br></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>SELECT B.title</p><p>FROM Book B</p><p>JOIN Issue I ON B.book_id = I.book_id</p><p>WHERE I.return_date IS NULL;</p><p><br></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SELECT title</p><p>FROM Issue</p><p>WHERE return_date IS NOT NULL;</p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a04d06e8-5161-4005-859a-e974aca53898",
+                    "questionID": "68fb40e6-8aaf-4c84-98da-2c73adf879fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>🔴&nbsp;<strong>Explanation:</strong></p><p>→ Option&nbsp;<strong>(c)</strong>&nbsp;is correct because it correctly joins the&nbsp;<code>Book</code>&nbsp;and&nbsp;<code>Issue</code>&nbsp;tables using&nbsp;<code>book_id</code>, and filters records where&nbsp;<code>return_date IS NULL</code>, meaning the book has&nbsp;<strong>not been returned</strong>&nbsp;yet.</p><p>Other options either reference wrong tables or filter the wrong condition (<code>IS NOT NULL</code>).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1b4e8fa-29a0-4bef-9870-8c1e547795e1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following can be a primary key for the Issue table?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752737771748693349_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_57_18%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143608Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f9bf11fd2abf513d930964cd2ac937f2d93492ad42eed9710ba490d159e3ec94",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>issue_id</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>book_id</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>member_id</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>return_date</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4616fc9a-33f3-4c59-9636-d861d9880a22",
+                    "questionID": "f1b4e8fa-29a0-4bef-9870-8c1e547795e1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">issue_id</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;is the unique identifier for each issue transaction, so it's the best choice for a&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">primary key</strong><span style=\"color: rgb(0, 0, 0);\">. Other fields are not unique by themselves.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "384708ea-0df4-4ac5-8599-a84847817acb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which relationship exists between Member and Book through Issue?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752737315870187004_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_57_18%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143608Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ac62e5587f5e1f1137290743945d9c887e1fc31218e1027c7d34ec67a53e9ec8",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1:1</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1:N</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>M:N</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>N:1</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9cda9f5f-622b-46f5-a710-da72d9d5e994",
+                    "questionID": "384708ea-0df4-4ac5-8599-a84847817acb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ A single member can issue multiple books, and the same book can be issued to multiple members at different times. This is a&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">many-to-many (M:N)</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;relationship, implemented through the&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Issue</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;table.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "33612f5c-4d15-4ddf-ac7d-5eace2f2fded",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>ER Diagram 1: University Enrollment System</strong></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752734789167005889_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_00_22%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143608Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f3c2577e1d0000985799c2f6270d316ae5c4d0f5a4b44239bf254eac88c80faa",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "text",
+                    "body": "<p>What is the type of relationship between Student and Course?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>One-to-One</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Many-to-Many&nbsp;</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>One-to-Many</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Many-to-One</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e1a6d31d-4084-4afe-8a52-e008fa96cfae",
+                    "questionID": "33612f5c-4d15-4ddf-ac7d-5eace2f2fded",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ A student can enroll in&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">multiple courses</strong><span style=\"color: rgb(0, 0, 0);\">, and each course can have&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">multiple students</strong><span style=\"color: rgb(0, 0, 0);\">, so this is a&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">many-to-many</strong><span style=\"color: rgb(0, 0, 0);\">relationship.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "36b025d7-c7f8-4693-8c3d-1dca4a0877ec",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is a candidate key in the Enrollment table?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752736273814013519_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_00_22%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143608Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ada6c278c9658aceb9f866eef865818bd5e0f4aa7a636e2323edf000571d15bb",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>student_id</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>course_id</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>(student_id, course_id)</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>enrollment_id</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "21f5ee5f-58e4-4d6b-90fe-294dc520128a",
+                    "questionID": "36b025d7-c7f8-4693-8c3d-1dca4a0877ec",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ Since multiple students can enroll in the same course and vice versa, only the&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">combination (student_id, course_id)</strong><span style=\"color: rgb(0, 0, 0);\">uniquely identifies each record — hence it's a&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">composite candidate key</strong><span style=\"color: rgb(0, 0, 0);\">.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd7c2378-a62b-451a-b0de-8fe631dbe70c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which SQL query fetches names of students enrolled in any course from the 'CSE' department?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752735977234783666_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_00_22%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143608Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a1a1d44c7e5718ea054875310dee1cf7c0a3299519aa5d7a04faced30d430331",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>SELECT name</p><p>FROM Course</p><p>WHERE dept_name = 'CSE';</p><p><br></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>SELECT S.name</p><p>FROM Student S</p><p>JOIN Department D ON S.department_id = D.department_id</p><p>WHERE D.dept_name = 'CSE';</p><p><br></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>SELECT S.name </p><p>FROM Student S</p><p>JOIN Enrollment E ON S.student_id = E.student_id</p><p>JOIN Course C ON E.course_id = C.course_id</p><p>JOIN Department D ON C.dept_id = D.department_id</p><p>WHERE D.dept_name = 'CSE';</p><p><br></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>SELECT S.name</p><p>FROM Student S</p><p>JOIN Course C ON S.student_id = C.course_id</p><p>WHERE C.dept_id = 'CSE';</p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f7dbaf78-dfb0-491e-85b8-9c93701ca699",
+                    "questionID": "cd7c2378-a62b-451a-b0de-8fe631dbe70c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ Only option&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">(c)</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;correctly performs&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">joins across Student → Enrollment → Course → Department</strong><span style=\"color: rgb(0, 0, 0);\">, and filters where&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">dept_name = 'CSE'</strong><span style=\"color: rgb(0, 0, 0);\">. All others miss the correct joins or filter.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1fcc9050-fe21-4132-a627-217555fe4181",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which normal form is violated if multiple phone numbers are stored in one column?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752735817810943271_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_00_22%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143609Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a53c2ec83279dbf77c03e18244b068c7df43e42c94f0f51cb58d7cfbdb65ee6d",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1NF</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2NF</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3NF</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>BCNF</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "512567ed-3754-475e-a3bc-6e2fa4d4bfa4",
+                    "questionID": "1fcc9050-fe21-4132-a627-217555fe4181",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">1NF is violated</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;because storing&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">multiple phone numbers in one column</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;breaks the rule of&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">atomicity</strong><span style=\"color: rgb(0, 0, 0);\">&nbsp;— each field should store only one value.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "380baf8c-c30d-4a31-a184-f5b5a1a0c2e9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which attribute is multi-valued in Student?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                },
+                {
+                    "type": "image",
+                    "body": "https://quicktest-prod-media.s3.ap-south-1.amazonaws.com/questions/images/1752735721212196066_ChatGPT%20Image%20Jul%2017%2C%202025%20at%2012_00_22%20PM.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4V756IAS5555JRNY%2F20250802%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20250802T143609Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=2cc149b31e397b4769020533d2323fe2afcda3b3eb22de64ce1766b116fbd044",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>name</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>phone_number</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>department_id</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>course_id</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "er"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "80d0fa10-190a-4b09-b22e-d3dc5fa14c76",
+                    "questionID": "380baf8c-c30d-4a31-a184-f5b5a1a0c2e9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(0, 0, 0);\">🔴&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">Explanation:</strong></p><p><span style=\"color: rgb(0, 0, 0);\">→ A student can have&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">more than one phone number</strong><span style=\"color: rgb(0, 0, 0);\">, so&nbsp;</span><code style=\"color: rgb(0, 0, 0);\">phone_number</code><span style=\"color: rgb(0, 0, 0);\">&nbsp;is a&nbsp;</span><strong style=\"color: rgb(0, 0, 0);\">multi-valued attribute</strong><span style=\"color: rgb(0, 0, 0);\">, violating 1NF if not handled properly.</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "51ccf0a7-cba0-477a-886c-c741611ed0ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> What will be the result of an INNER JOIN if there is no matching row in the second table?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>NULL values</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>no row is returned</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>All rows returned with NULLs</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>error</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 10,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "54fa5031-0af1-4e92-8081-53789e22570c",
+                    "questionID": "51ccf0a7-cba0-477a-886c-c741611ed0ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><br></p><p><strong>Explanation:</strong> INNER JOIN only returns rows with matching values in both tables.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c7eba157-dca7-4d26-9f46-7488e3cb30b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which isolation level avoids dirty reads but may allow non-repeatable reads and phantoms?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Read uncommitted </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>read committed</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><br></p><p>Repeatable Read</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>serializable</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 10,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1cbfdd91-f79a-4245-a77c-02b0e0a15cf4",
+                    "questionID": "c7eba157-dca7-4d26-9f46-7488e3cb30b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> Read Committed prevents dirty reads but not non-repeatable reads or phantoms.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7903095e-8b27-4459-862b-36dc1dad4351",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Phantom read occurs when:</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<h3>A transaction reads uncommitted data</h3>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A new row is added between reads in the sa<strong>m</strong>e transaction</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>A transaction overwrites another's update</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Deadlock occurs between two transactions</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "be984030-f57d-45e4-a3d0-bc0c96cdd35e",
+                    "questionID": "7903095e-8b27-4459-862b-36dc1dad4351",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>a<strong>nswer:</strong> B</p><p><strong>Explanation:</strong> Phantom reads occur when new rows appear due to inserts by other transactions between reads.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a4030196-3189-4d48-b0ab-be3b09ee01c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which anomaly is most likely to occur in a poorly normalized table?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Deadlock</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>data loss</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>update anomaly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>phantom reads</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e318821e-2c0b-42bd-96ea-386cc68a8314",
+                    "questionID": "a4030196-3189-4d48-b0ab-be3b09ee01c4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C</p><p><strong>Explanation:</strong> Poor normalization leads to anomalies like update, insert, and delete anomalies</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ff4d981d-1ffe-486f-96bf-6e022dbf0c47",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> In ER modeling, which type of key can consist of multiple attributes?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>super key</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>primary key</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>composite key</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>foreign key</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": null,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b0da7294-6f24-4e0c-8a9f-5d5a9309aab8",
+                    "questionID": "ff4d981d-1ffe-486f-96bf-6e022dbf0c47",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C</p><p><strong>Explanation:</strong> Composite key is a combination of two or more attributes to uniquely identify a record.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d4648b4-f3cb-4d6b-9740-386969b91a9e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which index type stores a copy of all selected columns and doesn't reference the table?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>clustered index</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Non-clustered index</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>covering index</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>composite  index</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c441e167-7887-4919-93ec-d21163e5c2ea",
+                    "questionID": "0d4648b4-f3cb-4d6b-9740-386969b91a9e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C</p><p><strong>Explanation:</strong> Covering index stores all necessary columns to answer a query without accessing the base table.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7f5597c9-cc11-4b4f-9699-be0dc7b06b5b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span class=\"ql-cursor\">﻿</span>Which of the following ACID properties ensures that the database remains consistent before and after a transaction?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>atomicity</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>consistency</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>isolation</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>durability</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b449f869-3870-488f-8820-81af8802fa85",
+                    "questionID": "7f5597c9-cc11-4b4f-9699-be0dc7b06b5b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong> Consistency ensures integrity constraints are maintained before and after transaction execution.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e6f7b12-492f-4df3-8888-f439a5f644a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Denormalization is generally used to:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>increase normalization</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Reduce data redundancy</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>improve query performance</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>enforce constraints</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e10148e3-2764-47d5-862e-56a21a36e992",
+                    "questionID": "3e6f7b12-492f-4df3-8888-f439a5f644a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> C</p><p><strong>Explanation:</strong> Denormalization is often used for performance optimization by introducing controlled redundancy.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ed9f28a3-2def-48c3-b743-ab6aabc23054",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which normal form removes partial dependency?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1NF</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2NF</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>3NF</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>BCNF</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0ea75f68-d515-4d9e-a1a4-d8e4dd3c713e",
+                    "questionID": "ed9f28a3-2def-48c3-b743-ab6aabc23054",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> 2NF removes partial dependencies (i.e., non-prime attribute depending on part of a composite key).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "449eb3a8-bfde-465f-acdc-7899d6daf420",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is a dirty read in the context of transactions?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Reading data that has been committed</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Reading data that is not committed</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Reading data from an index</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> Reading data without a WHERE clause</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "1f9a183a-6ee9-42c5-b0ca-d17821e2872c",
+                    "questionID": "449eb3a8-bfde-465f-acdc-7899d6daf420",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> B</p><p><strong>Explanation:</strong> Dirty read happens when a transaction reads data written by another uncommitted transaction.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2b993e48-5d2d-4af2-871d-62176eb0e49c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<h3><strong>Which of the following is an example of a lost update problem?</strong></h3><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Two users reading the same data simultaneously</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Dirty read</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Phantom read</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>A transaction overwriting another transaction’s update without checking</p><p><br></p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A,D",
+            "solution": [
+                {
+                    "id": "aadc43a7-3e2f-42dc-ad6f-f206242997b8",
+                    "questionID": "2b993e48-5d2d-4af2-871d-62176eb0e49c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> D</p><p><strong>Explanation:</strong> Lost update occurs when two transactions update the same data concurrently and one update overwrites</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6b96752d-168d-4e8f-b790-db2b78011c54",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What process does DHCP use to assign IPs?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>static allocation</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ARP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DORA process</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>DNS resolution</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0d1a9507-5e7b-45c7-b8e7-186a2693630e",
+                    "questionID": "6b96752d-168d-4e8f-b790-db2b78011c54",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>DHCP uses <strong>DORA</strong>: Discover, Offer, Request, Acknowledge — to dynamically assign IPs.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0a347095-b884-4669-bce5-8247a03221f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does a CNAME record do?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Mail server mapping</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>domain alias to another domain</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Maps IP to domain</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Maps IP to MAC</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a0055cb8-f68a-4923-9ef5-e93025702751",
+                    "questionID": "0a347095-b884-4669-bce5-8247a03221f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>CNAME creates <strong>aliases</strong>, so multiple domain names can point to one actual domain.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6f931eed-9e42-40ed-8a45-96b553c2ea4e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which DNS record maps a domain to an IP?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>MX</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>CNAME</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>A</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>PTR</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2a3d1d1c-591e-4ef9-afa8-50971b32f5f6",
+                    "questionID": "6f931eed-9e42-40ed-8a45-96b553c2ea4e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>A (Address)</strong> records resolve domain names to IPv4 addresses.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0e65c18-f4cc-4053-b0b6-fc2189c5897f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Why is HTTPS more secure than HTTP?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>uses UDP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Prevents packet loss</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>encrypts data during transmission</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>fewer TCP handshakes</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "54cb16e9-504b-4a39-b159-5be73c92c615",
+                    "questionID": "c0e65c18-f4cc-4053-b0b6-fc2189c5897f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>HTTPS encrypts data using SSL/TLS, protecting it from eavesdropping and tampering.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f38fc06b-33a6-429e-a28a-56cc5f434ab5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which protocol provides <strong>sequencing</strong> of packets?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>UDP</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>TCP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> ICMP</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ARP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CN"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e503d343-765f-4bfb-868f-bcd2aaba03d4",
+                    "questionID": "f38fc06b-33a6-429e-a28a-56cc5f434ab5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>TCP tracks packet order using <strong>sequence numbers</strong> to ensure proper data reassembly.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "27184733-c372-41b3-9066-22dfc05d565d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does <code>nslookup google.com 8.8.8.8</code> do?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Sets DNS permanently</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Uses default system DNS</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Uses 8.8.8.8 to resolve google.com</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Traces google.com route</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ec112520-3ea8-47d8-99c9-c368de604445",
+                    "questionID": "27184733-c372-41b3-9066-22dfc05d565d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>The second argument in <code>nslookup</code> specifies the DNS server to use for resolving the domain.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "75f10194-3f1a-4493-ad7c-484b058256a2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which <code>ipconfig</code> option releases the current DHCP lease?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>ipconfig /renew</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>ipconfig /flushdns</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>ipconfig /release</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ipconfig /showclassid</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a30058c6-0355-46ad-b013-0410ffcf764c",
+                    "questionID": "75f10194-3f1a-4493-ad7c-484b058256a2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><code>ipconfig /release</code> sends a DHCPRELEASE to the server, freeing the IP address. <code>/renew</code> requests a new one.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a0dbeea2-cc53-47e4-bed6-c6e5c4a146df",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does the command <code>netstat -an</code> display?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> DNS names only</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Active routes only</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>All active connections in numeric form</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Network statistics only</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0b2174dd-b21e-49dc-a7a0-31ebf4e52621",
+                    "questionID": "a0dbeea2-cc53-47e4-bed6-c6e5c4a146df",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><code>-a</code> shows all connections/listening ports, <code>-n</code> displays IP addresses and ports numerically (no DNS names).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f286c8e7-300d-442b-bc77-d1be5887480c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What mechanism does <code>traceroute</code> use to identify each hop in a path?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Changing port numbers</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Increasing TTL values</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DNS lookups</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>ARP requests</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "24135faf-e9b3-4d16-9a7d-72892cd2b154",
+                    "questionID": "f286c8e7-300d-442b-bc77-d1be5887480c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>Traceroute sends packets with increasing <strong>TTL (Time To Live)</strong>. Each router along the path decreases TTL by 1 and replies when it hits zero, revealing the path hop by hop.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6385f958-a9fc-4d00-94b8-c95ae0375fef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which layer of the OSI model does the <code>ping</code> utility primarily test?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Application</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Transport</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Network</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Data Link</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "505c3380-839d-429a-9077-644b7d877e13",
+                    "questionID": "6385f958-a9fc-4d00-94b8-c95ae0375fef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Explanation:</strong></p><p><br></p><p>Ping uses the <strong>ICMP protocol</strong>, which operates at the <strong>Network Layer (Layer 3)</strong> to check if a host is reachable.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b03fd01-e24f-4ced-8001-db1b2bd8877b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> Thrashing in an operating system occurs when:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Processes use less memory than required.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Too many processes are waiting in the ready queue.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>The system spends more time swapping pages than executing processes.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Multiple processes enter deadlock.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "613c7bcf-bef2-4581-96c9-9b94655c4f11",
+                    "questionID": "3b03fd01-e24f-4ced-8001-db1b2bd8877b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) The system spends more time swapping pages than executing processes.</p><p><br></p><p>💡 <strong>Explanation:</strong> Thrashing reduces CPU utilization due to excessive paging.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "80692e52-cfda-4f12-a1bb-e12cc0abd7b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Internal fragmentation occurs when:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>There is not enough total memory but free spaces are non-contiguous.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Allocated memory block is larger than the requested memory.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Processes are too large to fit into memory.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p> Memory pages are swapped out.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "61ae4053-23f0-4ac7-9249-00b5cfbce2cb",
+                    "questionID": "80692e52-cfda-4f12-a1bb-e12cc0abd7b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) Allocated memory block is larger than the requested memory.</p><p><br></p><p>💡 <strong>Explanation:</strong> Unused space inside an allocated block is internal fragmentation.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "88d76f22-2433-494f-9802-e89e02790a6c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is a <strong>safe state</strong> in deadlock avoidance?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>The system is deadlocked.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>All processes can finish without circular wait.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Some processes will definitely starve.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Resources are always underutilized.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f943e41c-7bda-458c-a530-888a79cdbb6a",
+                    "questionID": "88d76f22-2433-494f-9802-e89e02790a6c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) All processes can finish without circular wait.</p><p><br></p><p>💡 <strong>Explanation:</strong> In a safe state, there's at least one sequence of execution where every process completes.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a2ad1215-6792-492a-a95f-f0689b28b90a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>When a process is in the <strong>Ready</strong> state, it means:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>It is currently using the CPU.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>It is waiting for I/O.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>It is ready to run and waiting to be assigned to a CPU.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>It has completed execution.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "df5f62dc-1911-4ab2-b399-81d5aa4fb39e",
+                    "questionID": "a2ad1215-6792-492a-a95f-f0689b28b90a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) It is ready to run and waiting to be assigned to a CPU.</p><p><br></p><p>💡 <strong>Explanation:</strong> Ready state = loaded in memory and waiting for CPU time.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9973d19e-801e-4b07-b885-5f26737808e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>For the reference string: <code>7, 0, 1, 2, 0, 3, 0, 4, 2, 3</code>, and 3 page frames, how many <strong>page faults</strong> occur using <strong>LRU</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>8</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>9</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>7</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "7765d881-629d-4119-a87b-95af94df55e9",
+                    "questionID": "9973d19e-801e-4b07-b885-5f26737808e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) 8</p><p><br></p><p>💡 <strong>Explanation:</strong> Use LRU policy simulation. Least Recently Used page is replaced when a new page needs space.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3c55215c-4874-4bfc-8425-342542786a8c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Consider the following pseudocode using a binary semaphore <code>S</code> initialized to 1:</p><p>wait(S);</p><p>critical section;</p><p>signal(S);</p><p>Which of the following problems <strong>does this solve</strong>?</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Deadlock</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Race condition</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Thrashing</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Paging overhead</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f532c417-cd80-4352-951f-6d06187a1494",
+                    "questionID": "3c55215c-4874-4bfc-8425-342542786a8c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) Race condition</p><p><br></p><p>💡 <strong>Explanation:</strong> The wait-signal mechanism ensures mutual exclusion, preventing race conditions in critical sections.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "98804244-71da-4767-9396-c42929508891",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a demand paging system, what happens when a page fault occurs?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>OS suspends the process and frees memory.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>OS kills the process.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>OS loads the required page from secondary memory to main memory.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>OS skips the instruction causing the fault.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7eadb653-c290-4745-b90b-718e48cf822d",
+                    "questionID": "98804244-71da-4767-9396-c42929508891",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) OS loads the required page from secondary memory to main memory.</p><p><br></p><p>💡 <strong>Explanation:</strong> A page fault triggers the OS to fetch the missing page from disk.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "01f8bbc1-ab8b-46f4-9402-d6b7c53c82e9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In Priority Scheduling, what is <strong>aging</strong> used for?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>To terminate long processes</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>To prevent starvation of low-priority processes</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>To improve CPU utilization</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>To speed up context switching</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "71f06acf-4c9d-439f-afdd-94ce43b87f05",
+                    "questionID": "01f8bbc1-ab8b-46f4-9402-d6b7c53c82e9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) To prevent starvation of low-priority processes</p><p><br></p><p>💡 <strong>Explanation:</strong> Aging gradually increases priority of waiting processes.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c1cfc93a-838b-4520-85cc-57987c1af092",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>When a thread calls <code>join()</code> on another thread, what happens?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>It terminates both threads.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>It makes the current thread wait until the other thread finishes.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>It merges both threads into one.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>It sends a signal to the thread to pause.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ab12807f-f8ae-4927-8c4a-aec230bfecab",
+                    "questionID": "c1cfc93a-838b-4520-85cc-57987c1af092",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) It makes the current thread wait until the other thread finishes.</p><p><br></p><p>💡 <strong>Explanation:</strong><code>join()</code> is used for synchronization between threads.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de1e422c-9367-44e2-b54f-0c6f937a088b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following statements is <strong>true</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> Paging suffers from external fragmentation.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Segmentation divides memory into fixed-size blocks.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Paging makes memory access slower due to fragmentation.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Paging uses fixed-size pages; segmentation uses variable-size segments.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d8ec0c2b-d98e-4a11-b4bc-cae440e0f922",
+                    "questionID": "de1e422c-9367-44e2-b54f-0c6f937a088b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> D) Paging uses fixed-size pages; segmentation uses variable-size segments.</p><p><br></p><p>💡 <strong>Explanation:</strong> Paging = fixed-size → no external fragmentation; Segmentation = logical division → variable-size.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ac9cb182-21ee-4c65-a180-e210bfec9152",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a <strong>Multilevel Queue Scheduling</strong>, which of the following is true?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>All processes can freely move between queues.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> Each queue has its own scheduling algorithm.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Round Robin is mandatory for all queues.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>It avoids starvation completely.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ac69c431-6980-40c8-b944-3d1093b92845",
+                    "questionID": "ac9cb182-21ee-4c65-a180-e210bfec9152",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) Each queue has its own scheduling algorithm.</p><p><br></p><p>💡 <strong>Explanation:</strong> Multilevel queues are separated by priority or type and can use different algorithms (e.g., RR for foreground, FCFS for background).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "47ccfd86-5527-4a6d-8076-1b1f8bc7e7bb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which strategy can be used to <strong>prevent deadlocks</strong> by ensuring that the system is always in a safe state?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Banker's algorithm</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>FIFO</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Round Robin</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>LRU</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9b6bf42d-a054-4c98-867d-5dcf90125ef6",
+                    "questionID": "47ccfd86-5527-4a6d-8076-1b1f8bc7e7bb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) Banker's algorithm</p><p><br></p><p>💡 <strong>Explanation:</strong> Banker's algorithm checks if resource allocation keeps system in a safe state.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ca9341a4-40be-4587-8ed7-75bab3557293",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In Peterson’s solution, which variables are used to achieve <strong>mutual exclusion</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>turn only</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>flag[ ] only</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>both flag[ ] and turn</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>semaphore</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c971cf28-5c6a-45f3-a7de-2f8fe8296f79",
+                    "questionID": "ca9341a4-40be-4587-8ed7-75bab3557293",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) both flag[ ] and turn</p><p><br></p><p>💡 <strong>Explanation:</strong> Peterson’s solution uses <code>flag[i]</code> and <code>turn</code> for mutual exclusion in two-process systems.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a3725b77-0324-462f-b6ff-1ee35f12ff35",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>For reference string: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 page frames, what is the <strong>number of page faults</strong> using <strong>FIFO</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>9</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>12</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>8</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1c486bd6-705c-415a-9a88-ff49c5da4465",
+                    "questionID": "a3725b77-0324-462f-b6ff-1ee35f12ff35",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> A) 9</p><p><br></p><p>💡 <strong>Explanation:</strong> Standard FIFO simulation shows 9 faults.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eeea9bee-3d8f-413c-a54b-967293485216",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A system uses <strong>paging</strong> with 4 KB page size and 32-bit logical address space. How many pages are there in the logical address space?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2^10</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>2^20</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>2^22</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>2^18</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4bda636d-398c-458a-92ff-1db430226fa7",
+                    "questionID": "eeea9bee-3d8f-413c-a54b-967293485216",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) 2^20</p><p><br></p><p>💡 <strong>Explanation:</strong></p><ul><li><br></li><li><br></li><li>Page size = 2^12</li><li><br></li><li><br></li><li><br></li><li>Logical address space = 2^32</li><li><br></li><li><br></li><li><br></li><li>Pages = 2^32 / 2^12 = 2^20</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6c1504ad-d9dc-48d1-bde3-5558a84633d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following conditions is <strong>not necessary</strong> for deadlock?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Mutual Exclusion</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Hold and Wait</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Circular Wait</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Preemption</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "73db1076-5fcd-4fe9-b686-a79a4a3651ef",
+                    "questionID": "6c1504ad-d9dc-48d1-bde3-5558a84633d8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> D) Preemption</p><p><br></p><p>💡 <strong>Explanation:Preemption</strong> prevents deadlock; deadlock requires <strong>non-preemption</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9b2d02f8-ecaa-4aba-975c-e0ba4db1310b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Given processes with arrival time = 0, and burst times: P1=8, P2=4, P3=2. Using <strong>Shortest Job First (non-preemptive)</strong>, what is the average waiting time?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p> 6 ms</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>4.33 ms</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>5 ms</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>3 ms</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "703b09df-233b-4f09-a935-557b4bcf0056",
+                    "questionID": "9b2d02f8-ecaa-4aba-975c-e0ba4db1310b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) 4.33 ms</p><p><br></p><p>💡 <strong>Explanation:</strong></p><ul><li><br></li><li><br></li><li>Order: P3 → P2 → P1</li><li><br></li><li><br></li><li><br></li><li>Waiting: P3=0, P2=2, P1=6</li><li><br></li><li><br></li><li><br></li><li>Avg = (0+2+6)/3 = 8/3 ≈ 4.33</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a2820ad4-f941-4a26-a839-79d3166e5523",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is <strong>true</strong> regarding threads?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Threads have separate address spaces.</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Threads are more expensive to create than processes.</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Threads within the same process share code, data, and heap.</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Threads cannot communicate with each other.</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "011356d8-e135-4868-b23f-9dce295cebfb",
+                    "questionID": "a2820ad4-f941-4a26-a839-79d3166e5523",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) Threads within the same process share code, data, and heap.</p><p><br></p><p>💡 <strong>Explanation:</strong> Threads share the memory of their parent process, making context switch faster.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4aa4cb33-56d1-4476-ad18-c0ddf9a847f1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is <strong>not</strong> a valid file operation provided by most file systems?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Open</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>truncate</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>fork</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>seek</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0692d1b2-5bc2-49f2-b8e8-eb4a38cf98e7",
+                    "questionID": "4aa4cb33-56d1-4476-ad18-c0ddf9a847f1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> C) Fork</p><p><br></p><p>💡 <strong>Explanation:</strong><code>fork()</code> is a process creation system call, not a file operation.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5b096593-16f0-427c-8941-d98ebc6effea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p> In indexed file allocation, what is the maximum number of disk blocks a file can occupy if each index block can store pointers to 256 blocks and each file can have one index block?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>255</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>256</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>257</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>unlimited</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "OS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e5c27393-9c3c-420e-91ee-de473522a87e",
+                    "questionID": "5b096593-16f0-427c-8941-d98ebc6effea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Answer:</strong> B) 256</p><p><br></p><p>💡 <strong>Explanation:</strong> One index block points to 256 data blocks, and each file has one such index block</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "28826201-5f27-4a34-a09d-7028660cfa79",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is true about BCNF but not necessarily true about 3NF?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Every determinant is a candidate key</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>There are no partial dependencies</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>There are no transitive dependencies</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>The relation is in 1NF</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d6dcff6b-1c45-418b-bf3d-dc0356895ac0",
+                    "questionID": "28826201-5f27-4a34-a09d-7028660cfa79",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ A) Every determinant is a candidate key</p><p><strong>Explanation:</strong></p><p><strong>BCNF</strong> is a stricter version of 3NF. It requires that <strong>every determinant (LHS of FD)</strong> must be a <strong>candidate key</strong>.</p><p><br></p><p>3NF allows a determinant to be a non-key if the RHS is a prime attribute.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5bea16d0-bab9-4554-bc2a-5b78721bf31c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is a violation of Third Normal Form (3NF)?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A → B and B → C, hence A → C</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> A → B where B is not a key</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Every non-prime attribute is transitively dependent on key</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>A → C, where C is a prime attribute</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0baeef7a-9bf7-4040-a122-a67878f7b4dc",
+                    "questionID": "5bea16d0-bab9-4554-bc2a-5b78721bf31c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ C) Every non-prime attribute is transitively dependent on key</p><p><strong>Explanation:</strong></p><p><br></p><p>In <strong>3NF</strong>, all <strong>transitive dependencies</strong> must be removed. That means no non-prime attribute should be transitively dependent on the primary key.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "159913aa-103d-45d2-8173-a9eb36ca20c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is true for a relation in 2NF?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>It must be in 1NF and have no transitive dependencies</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>It must be in 1NF and every non-prime attribute fully functionally dependent on the primary key</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>It must be in 1NF and each attribute is atomic</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>It must be in 1NF and all attributes functionally depend on each other</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7fef929e-2f39-4798-abb6-2ba92ea9efb8",
+                    "questionID": "159913aa-103d-45d2-8173-a9eb36ca20c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ B) It must be in 1NF and every non-prime attribute fully functionally dependent on the primary key</p><p><strong>Explanation:</strong></p><p><br></p><p>2NF = 1NF + No <strong>partial dependencies</strong> (i.e., non-prime attributes should not depend on part of a composite key).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "15b4910c-f496-4421-af37-fec34c151482",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following violates First Normal Form (1NF)?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Atomic values only</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Repeating groups in a column</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Unique rows</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Primary key defined</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e691e026-947e-4a97-949c-071f961a9717",
+                    "questionID": "15b4910c-f496-4421-af37-fec34c151482",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ B) Repeating groups in a column</p><p><strong>Explanation:</strong></p><p><br></p><p>1NF requires <strong>atomic (indivisible)</strong> values. If a column contains a list or set of values (e.g., multiple phone numbers in one field), it violates 1NF.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c92540a0-4f37-4de3-8e97-e384f49a0033",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following anomalies is most likely to occur in an unnormalized relation with repeated groups?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Insertion Anomaly</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Deletion Anomaly</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>update Anomaly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>All of the above</p><p><br></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "da076d4e-345e-4f4e-830c-592828f451ea",
+                    "questionID": "c92540a0-4f37-4de3-8e97-e384f49a0033",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> ✅ D) All of the above</p><p><br></p><p><strong>Explanation:</strong></p><p><br></p><p>Unnormalized relations (with multi-valued/repeating groups) can cause:</p><ul><li><br></li><li><br></li><li><strong>Insertion Anomaly</strong>: Cannot insert data unless all columns have values.</li><li><br></li><li><br></li><li><br></li><li><strong>Deletion Anomaly</strong>: Deleting one data item may remove related data.</li><li><br></li><li><br></li><li><br></li><li><strong>Update Anomaly</strong>: Repeating data must be updated in multiple places.</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "712cc8a6-d7f7-4679-9fc4-5e152042f802",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is a <strong>transitive dependency</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A → B, B → C implies A → C</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p> A → B and B is a key</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>A → C directly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>C → A and A → B</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6caf2f69-2233-422a-9374-b35fdc56cdd2",
+                    "questionID": "712cc8a6-d7f7-4679-9fc4-5e152042f802",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: A</strong></p><p><strong>Explanation</strong>: A <strong>transitive dependency</strong> occurs when <strong>A → B and B → C</strong>, so <strong>A → C</strong> indirectly. This is an undesirable situation in 3NF.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a158f3ae-a999-42af-a8e1-5dcbcc39cd0e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Consider a relation R(A, B, C, D) with dependencies: A → B, B → C, C → D. Which of the following is a correct functional dependency?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A → C only</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A → D only</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>A → B, A → C, A → D</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>All of the above</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "aa9b7308-d93e-4a71-aa2d-f4862c6c18f1",
+                    "questionID": "a158f3ae-a999-42af-a8e1-5dcbcc39cd0e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: D</strong></p><p><br></p><p><strong>Explanation</strong>: From A → B and B → C and C → D, we can derive:</p><ul><li><br></li><li><br></li><li>A → C (via B),</li><li><br></li><li><br></li><li><br></li><li>A → D (via B and C),</li><li><br></li><li>So all three are correct and <strong>transitive dependencies</strong>.</li></ul><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ad7c9384-d567-470d-8f69-e6dfb27052cb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a table, EmpID → DeptID and DeptID → DeptName, What kind of dependency is EmpID → DeptName?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Direct dependency</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Partial dependency</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Transitive dependency</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Multivalued dependency</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "69db7926-73c8-4ed0-994a-5d73b793ee3b",
+                    "questionID": "ad7c9384-d567-470d-8f69-e6dfb27052cb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: C</strong></p><p><strong>Explanation</strong>: Since EmpID → DeptID and DeptID → DeptName,</p><p><br></p><p>by transitivity: <strong>EmpID → DeptName</strong>, making it a <strong>transitive dependency</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "928962f3-8526-4957-984e-10866675fd28",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following violates <strong>3rd Normal Form (3NF)</strong>?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Every non-prime attribute depends only on the key</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A transitive dependency exists on a non-key attribute</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Every non-key attribute is functionally dependent on a part of a candidate key</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Each table has only one candidate key</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "491710cf-2698-4f20-90d8-de50c40e9b79",
+                    "questionID": "928962f3-8526-4957-984e-10866675fd28",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: B</strong></p><p><strong>Explanation</strong>: 3NF is violated if a <strong>transitive dependency</strong> exists on a <strong>non-prime attribute</strong> (an attribute not part of any candidate key). This can lead to data anomalies.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bac22130-015d-46ac-91a4-c78e1c73da34",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does a functional dependency A → B mean?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>B is a primary key of A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A functionally determines B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>B functionally determines A</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>A and B are independent</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2998176e-3da9-4f0d-8e84-fd2f2a618b6e",
+                    "questionID": "bac22130-015d-46ac-91a4-c78e1c73da34",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>✅ <strong>Correct Answer: B</strong></p><p><strong>Explanation</strong>: <strong>A → B</strong> means that the value of <strong>attribute A uniquely determines attribute B</strong>. That is, if two tuples have the same A value, they must have the same B value.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d73cd4ba-859a-4a46-b771-d8c26a16f73e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Anomalies are primarily caused by:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Normalized tables</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Use of foreign keys</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Unnormalized tables with repeated data</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Primary keys</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4d18b6d0-81b9-416b-a01e-590fad7c4eb0",
+                    "questionID": "d73cd4ba-859a-4a46-b771-d8c26a16f73e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Anomalies arise when data is <strong>not properly normalized</strong>, causing <strong>redundancy</strong> and <strong>dependency issues</strong> in the table.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f1c44637-b202-45aa-9808-caef23f60565",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A <strong>deletion anomaly</strong> occurs when:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Deleting a row causes loss of needed data </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Data gets corrupted during delete</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Keys are not properly set</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>The database size reduces</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "3a152e3d-8f62-47f2-a2bd-896ba02f0a34",
+                    "questionID": "f1c44637-b202-45aa-9808-caef23f60565",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>If deleting a row removes data that is still needed (e.g., losing customer info when removing an order), it’s a <strong>deletion anomaly</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3800f5eb-b69e-45a3-b27e-f2464769ca92",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>When updating one piece of information requires multiple updates across rows, it is called:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Deletion anomaly</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Update anomaly</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Insertion anomaly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Redundancy</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e7a525fa-d9f7-4eea-af3e-0d06563b8e59",
+                    "questionID": "3800f5eb-b69e-45a3-b27e-f2464769ca92",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Update anomaly</strong> happens when the same piece of data is duplicated in multiple rows, and updating it requires multiple operations to avoid inconsistency.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e4385881-bf79-45e6-8cfe-1070b95442cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>An <strong>insertion anomaly</strong> occurs when:</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Redundant data causes inconsistency</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>You cannot insert data without other unrelated data</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Data cannot be retrieved correctly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>A row is deleted accidentally</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8572de68-3a70-417e-a469-767fb3c9cdbe",
+                    "questionID": "e4385881-bf79-45e6-8cfe-1070b95442cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Insertion anomalies occur when a row cannot be added to the database without the presence of some other data — often because of improper design.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a1f62e4-5941-4230-94b1-1df809d2b164",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which of the following is <strong>NOT</strong> a type of anomaly in unnormalized relations?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Insertion anomaly</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Deletion anomaly</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Update anomaly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Join anomaly</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "DBMS"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "b1a7d94f-28e3-4ef2-bcaf-62220e5973c2",
+                    "questionID": "5a1f62e4-5941-4230-94b1-1df809d2b164",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Join anomaly</strong> is not typically listed as one of the three main anomalies. The main anomalies due to unnormalized data are: <strong>insertion</strong>, <strong>deletion</strong>, and <strong>update</strong> anomalies.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

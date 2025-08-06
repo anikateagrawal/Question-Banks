@@ -1,0 +1,2786 @@
+{
+    "bank_id": "52f0d26a-e5b7-452c-9302-ccbfcb905014",
+    "bank_name": "CN-Week-2-Immersion",
+    "questions": [
+        {
+            "id": "73a2c3a7-5bb3-4063-b311-a753a0bcfa4c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Selective Repeat, if the receiver&#39;s window size is 4 and the sender’s window is also 4, what should be the minimum number of sequence numbers (mod value)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4",
+                    "type": "A"
+                },
+                {
+                    "body": "5",
+                    "type": "B"
+                },
+                {
+                    "body": "6",
+                    "type": "C"
+                },
+                {
+                    "body": "8",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Selective Repeat"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "551c036e-bb09-4b9e-94c5-87ba56f08dbe",
+                    "questionID": "73a2c3a7-5bb3-4063-b311-a753a0bcfa4c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "To avoid ambiguity, in Selective Repeat, the modulus ? 2 × window size ? 2×4 = 8",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "41746445-bf61-430c-9875-13bca43fe9c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A generator polynomial G(x) = x? + x + 1 is used in CRC. What is its binary representation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10011",
+                    "type": "A"
+                },
+                {
+                    "body": "10101",
+                    "type": "B"
+                },
+                {
+                    "body": "10001",
+                    "type": "C"
+                },
+                {
+                    "body": "11001",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "25f03395-1d4c-4df1-a91c-57b53a74ad4b",
+                    "questionID": "41746445-bf61-430c-9875-13bca43fe9c8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "G(x) = x? + x + 1 ? binary: 1x? + 0x³ + 0x² + 1x¹ + 1 ? 10011",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fda7a6b9-204c-47e7-9c93-f69c3e9dbbf4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In CSMA/CA (used in Wi-Fi), what mechanism helps avoid collisions",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Backoff algorithm",
+                    "type": "A"
+                },
+                {
+                    "body": "RTS/CTS handshake",
+                    "type": "B"
+                },
+                {
+                    "body": "ACK frame",
+                    "type": "C"
+                },
+                {
+                    "body": "Random number generation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Request sending"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "adb25414-ee90-4130-b762-18c5e9e63e6e",
+                    "questionID": "fda7a6b9-204c-47e7-9c93-f69c3e9dbbf4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RTS/CTS (Request to Send / Clear to Send) helps reduce collisions by managing channel access before data is sent.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e637572-ae16-41a4-ac48-19fd86548f43",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field of the PPP frame indicates the protocol being used (e.g., IP, IPX)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Address field",
+                    "type": "A"
+                },
+                {
+                    "body": "Control field",
+                    "type": "B"
+                },
+                {
+                    "body": "Protocol field",
+                    "type": "C"
+                },
+                {
+                    "body": "FCS field",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1fcc6432-850b-43db-886a-7cf7c062996b",
+                    "questionID": "3e637572-ae16-41a4-ac48-19fd86548f43",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The protocol field in PPP specifies which network layer protocol (e.g., IPv4, IPv6) is encapsulated.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a10029b3-215a-4ed4-87a9-0c6079f6e7e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which MAC protocol divides time into equal slots and assigns them to users",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CSMA",
+                    "type": "A"
+                },
+                {
+                    "body": "TDMA",
+                    "type": "B"
+                },
+                {
+                    "body": "CDMA",
+                    "type": "C"
+                },
+                {
+                    "body": "Polling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Definitions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cd2d8410-e010-4cc2-9586-a1709ad41795",
+                    "questionID": "a10029b3-215a-4ed4-87a9-0c6079f6e7e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "TDMA (Time Division Multiple Access) avoids collision by giving each station a fixed time slot.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e5698f36-eadf-4a40-a07e-657024151dae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In HDLC, which frame type is used for flow and error control",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "I-Frame",
+                    "type": "A"
+                },
+                {
+                    "body": "S-Frame",
+                    "type": "B"
+                },
+                {
+                    "body": "U-Frame",
+                    "type": "C"
+                },
+                {
+                    "body": "P-Frame",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "frames"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "02afa75d-084c-4926-81a3-47ea5c3b4239",
+                    "questionID": "e5698f36-eadf-4a40-a07e-657024151dae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supervisory frames (S-frames) in HDLC are used for flow and error control (e.g., ACKs, REJ).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5bceb11c-658b-40f5-a15f-e5c262cfe439",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which error correction technique can correct a single-bit error and detect two-bit errors",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CRC",
+                    "type": "A"
+                },
+                {
+                    "body": "Hamming Code",
+                    "type": "B"
+                },
+                {
+                    "body": "Parity Check",
+                    "type": "C"
+                },
+                {
+                    "body": "Checksum",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Definitions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1321d268-6b6c-483a-8d70-ac4932a246a3",
+                    "questionID": "5bceb11c-658b-40f5-a15f-e5c262cfe439",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hamming codes are designed for single-bit correction and double-bit detection.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e286e3eb-8c0e-4ad7-ac26-8e723acf9cb5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a system uses even parity for error detection, which of the following sequences is invalid",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1011001",
+                    "type": "A"
+                },
+                {
+                    "body": "1100110",
+                    "type": "B"
+                },
+                {
+                    "body": "1110001",
+                    "type": "C"
+                },
+                {
+                    "body": "1001100",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9da2b9eb-924f-4ff1-8b17-923caa7db205",
+                    "questionID": "e286e3eb-8c0e-4ad7-ac26-8e723acf9cb5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1110001 has 5 ones (odd) — invalid for even parity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c9b6dda8-aaa2-4e9a-b712-e0152dad2a65",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the Stop-and-Wait protocol, what happens if the ACK is lost",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sender assumes frame is received",
+                    "type": "A"
+                },
+                {
+                    "body": "Receiver sends duplicate ACK",
+                    "type": "B"
+                },
+                {
+                    "body": "Sender resends the frame after timeout",
+                    "type": "C"
+                },
+                {
+                    "body": "Transmission ends",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6144cb0c-85a3-4bcf-aff4-b497a6b563e9",
+                    "questionID": "c9b6dda8-aaa2-4e9a-b712-e0152dad2a65",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In absence of ACK, timeout triggers retransmission in Stop-and-Wait.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3f57a940-358c-4051-83d2-8351b2bd5877",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the minimum number of bits required to represent sequence numbers if a sliding window protocol has a sender window size of 15",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3 bits",
+                    "type": "A"
+                },
+                {
+                    "body": "4 bits",
+                    "type": "B"
+                },
+                {
+                    "body": "5 bits",
+                    "type": "C"
+                },
+                {
+                    "body": "6 bits",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5a8a1164-f2e3-467b-b130-c3e3a2f9204b",
+                    "questionID": "3f57a940-358c-4051-83d2-8351b2bd5877",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For a window size of 15, we need at least 5 bits: 25=322^5 = 3225=32, which is enough to represent sequence numbers 0–31.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8de59eb-284b-4946-bf0c-06736538a4fd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these best describes error correction techniques",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Detection and retransmission",
+                    "type": "A"
+                },
+                {
+                    "body": "Use of checksum",
+                    "type": "B"
+                },
+                {
+                    "body": "Adding redundancy to reconstruct error",
+                    "type": "C"
+                },
+                {
+                    "body": "Removing errors after CRC",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3f800c4b-03c0-4633-923a-83fff7518b9a",
+                    "questionID": "e8de59eb-284b-4946-bf0c-06736538a4fd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Error correction (like Hamming) uses extra bits to detect and fix errors without retransmission.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "72e25ed5-0935-4be6-b884-e7b078bec175",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a Stop-and-Wait protocol, if bandwidth is 10 Mbps and RTT is 50 ms, max efficiency is approximately",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "100%",
+                    "type": "A"
+                },
+                {
+                    "body": "25%",
+                    "type": "B"
+                },
+                {
+                    "body": "5%",
+                    "type": "C"
+                },
+                {
+                    "body": "1%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "b78dba6c-d358-499b-aa8e-c2ea98fe9497",
+                    "questionID": "72e25ed5-0935-4be6-b884-e7b078bec175",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Efficiency = Frame transmission time / (RTT + transmission time). With large RTT, efficiency is very low.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9419d4ca-27a2-4d21-ab70-7b6eb2ffc8f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The max efficiency of Slotted ALOHA is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "18.4%",
+                    "type": "A"
+                },
+                {
+                    "body": "26%",
+                    "type": "B"
+                },
+                {
+                    "body": "36.8%",
+                    "type": "C"
+                },
+                {
+                    "body": "50%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Aloha"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2f1a616c-a0ad-4a59-94af-a52f4edf9f49",
+                    "questionID": "9419d4ca-27a2-4d21-ab70-7b6eb2ffc8f7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Efficiency of Slotted ALOHA = 1/e ? 0.368 or 36.8%",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "55a079ba-ce0b-405b-b738-716d54b60066",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Bit Stuffing, if a sequence “01111110” appears in data, what will be transmitted",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "01111110",
+                    "type": "A"
+                },
+                {
+                    "body": "011111010",
+                    "type": "B"
+                },
+                {
+                    "body": "011111110",
+                    "type": "C"
+                },
+                {
+                    "body": "01111101",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b0457718-e224-4513-a31e-383273d076b5",
+                    "questionID": "55a079ba-ce0b-405b-b738-716d54b60066",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "After five 1’s, a 0 is inserted ? 0111110 becomes 011111010 to avoid flag confusion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6e2a639a-4543-46c7-8cdf-7fcf1c73ef37",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If RTT is 20ms and bandwidth is 1 Mbps, what is the bandwidth-delay product (BDP)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "20 bits",
+                    "type": "A"
+                },
+                {
+                    "body": "10,000 bits",
+                    "type": "B"
+                },
+                {
+                    "body": "20,000 bits",
+                    "type": "C"
+                },
+                {
+                    "body": "2,000 bits",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Bandwith Delay Calculations"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d4b084e2-9766-4cf8-827a-907178781db5",
+                    "questionID": "6e2a639a-4543-46c7-8cdf-7fcf1c73ef37",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "BDP = bandwidth × RTT = 1 × 10? × 20 × 10?³ = 20,000 bits",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d95fe0a9-d28f-47b7-bd1c-c19bbf8fcf78",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If the bit error rate (BER) is 10??, the expected number of errors in a 1MB file is closest to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1\n[key=]\n8",
+                    "type": "A"
+                },
+                {
+                    "body": "10",
+                    "type": "C"
+                },
+                {
+                    "body": "80",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Bit Error Expected Number"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0669bfb0-a738-4570-838b-566d48f7c2cd",
+                    "questionID": "d95fe0a9-d28f-47b7-bd1c-c19bbf8fcf78",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "1MB = 8 × 10? bits. BER = 10?? ? Expected errors = 8 × 10? × 10?? = 8 errors.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a799b55-1e80-4b90-9bf6-24d501afb53a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A CRC generator polynomial is G(x) = x? + x + 1. What is the divisor in binary",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10110",
+                    "type": "A"
+                },
+                {
+                    "body": "10011",
+                    "type": "B"
+                },
+                {
+                    "body": "10010",
+                    "type": "C"
+                },
+                {
+                    "body": "11001",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cb34efcc-67cf-49fa-b08c-58789a3c3f41",
+                    "questionID": "5a799b55-1e80-4b90-9bf6-24d501afb53a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Convert the polynomial to binary: x? + x + 1 ? 1x? + 0x³ + 0x² + 1x¹ + 1 = 10011",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eb360662-6531-42e8-8a00-fc77007dfc50",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol has the best bandwidth utilization under high error conditions",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stop-and-Wait",
+                    "type": "A"
+                },
+                {
+                    "body": "Go-Back-N",
+                    "type": "B"
+                },
+                {
+                    "body": "Selective Repeat",
+                    "type": "C"
+                },
+                {
+                    "body": "ALOHA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e8bd39a3-a5fb-4ade-b647-1c8de2142405",
+                    "questionID": "eb360662-6531-42e8-8a00-fc77007dfc50",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Since only erroneous frames are resent, Selective Repeat is more efficient in error-prone environments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "29b8885d-3eda-4c76-a0ce-91ae7164a94a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the minimum frame size required in Ethernet to ensure collision detection",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "46 bytes",
+                    "type": "A"
+                },
+                {
+                    "body": "64 bytes",
+                    "type": "B"
+                },
+                {
+                    "body": "128 bytes",
+                    "type": "C"
+                },
+                {
+                    "body": "512 bytes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ethernet Collision"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "98ed6bc1-d156-443a-91b3-b853f9a91878",
+                    "questionID": "29b8885d-3eda-4c76-a0ce-91ae7164a94a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "To ensure collision detection, Ethernet requires a minimum frame size of 64 bytes (including header).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1c8010b4-27fb-4187-b9f1-aee8bdc48082",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which HDLC frame type is used to acknowledge frames and provide flow control",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "I-frame",
+                    "type": "A"
+                },
+                {
+                    "body": "U-frame",
+                    "type": "B"
+                },
+                {
+                    "body": "S-frame",
+                    "type": "C"
+                },
+                {
+                    "body": "Data-frame",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "frames"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c389516b-ce8d-416b-a7fc-b593dff1950f",
+                    "questionID": "1c8010b4-27fb-4187-b9f1-aee8bdc48082",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supervisory (S) frames are used for acknowledgments and control (like RR, RNR, REJ).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fb1889ff-f0fa-4c93-b150-7371331179f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main drawback of using character-count framing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Works only with binary data",
+                    "type": "A"
+                },
+                {
+                    "body": "Frame sync is lost if count field is corrupted",
+                    "type": "B"
+                },
+                {
+                    "body": "Can’t carry large data",
+                    "type": "C"
+                },
+                {
+                    "body": "Limited to wired networks",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Frames Sync"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "02a5b021-88b8-4eee-afbf-2dfa6d7a1a2e",
+                    "questionID": "fb1889ff-f0fa-4c93-b150-7371331179f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If the length field is wrong due to error, entire frame alignment gets lost — very risky in unreliable media.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a1445320-0ccf-4155-b3c0-3cb3f5cdab2c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of ARQ uses selective retransmission of only erroneous frames",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stop-and-Wait",
+                    "type": "A"
+                },
+                {
+                    "body": "Go-Back-N",
+                    "type": "B"
+                },
+                {
+                    "body": "Selective Repeat",
+                    "type": "C"
+                },
+                {
+                    "body": "Sliding Window",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c52cdc17-a9df-4c2a-b33f-18c167b62917",
+                    "questionID": "a1445320-0ccf-4155-b3c0-3cb3f5cdab2c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Selective Repeat improves efficiency by retransmitting only the specific frames that were corrupted.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0382709-f21b-4adf-93bc-4b08d29ae583",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Ethernet (IEEE 802.3), which access method is used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CDMA",
+                    "type": "A"
+                },
+                {
+                    "body": "CSMA/CA",
+                    "type": "B"
+                },
+                {
+                    "body": "CSMA/CD",
+                    "type": "C"
+                },
+                {
+                    "body": "TDMA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a7cb7f20-7df6-461d-a839-edf7a7bb96fd",
+                    "questionID": "f0382709-f21b-4adf-93bc-4b08d29ae583",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ethernet uses Carrier Sense Multiple Access with Collision Detection to manage shared channel access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "157ffecd-0fd0-4619-9147-2d738ae4d717",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the purpose of the &#39;start&#39; and &#39;end&#39; delimiters in character-count framing",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mark errors",
+                    "type": "A"
+                },
+                {
+                    "body": "Identify data type",
+                    "type": "B"
+                },
+                {
+                    "body": "Detect start and end of frame",
+                    "type": "C"
+                },
+                {
+                    "body": "Compress data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "frames"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "51c01575-2f0a-4ddc-87d2-5094e9b5be50",
+                    "questionID": "157ffecd-0fd0-4619-9147-2d738ae4d717",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Delimiters help receiver distinguish where each frame starts and ends, ensuring proper parsing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "538caaf1-ef7d-4dd6-878e-aa913818a46f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which protocol does not use acknowledgment for flow control",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stop-and-Wait",
+                    "type": "A"
+                },
+                {
+                    "body": "Go-Back-N",
+                    "type": "B"
+                },
+                {
+                    "body": "Selective Repeat",
+                    "type": "C"
+                },
+                {
+                    "body": "ALOHA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "52c72bd1-ce60-428a-9a83-53e1280ff4da",
+                    "questionID": "538caaf1-ef7d-4dd6-878e-aa913818a46f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ALOHA is a random access protocol with no ACK/NAK mechanism, unlike ARQ-based protocols.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "49126a11-2c07-422d-95c0-e277fa31e397",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement is false about CRC",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It uses binary division",
+                    "type": "A"
+                },
+                {
+                    "body": "It can correct errors",
+                    "type": "B"
+                },
+                {
+                    "body": "It can detect burst errors",
+                    "type": "C"
+                },
+                {
+                    "body": "It is faster than parity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7d7fa5d3-19ed-45e6-8990-d8c55c5670b0",
+                    "questionID": "49126a11-2c07-422d-95c0-e277fa31e397",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CRC is only for detection, not correction. Correction requires Hamming or similar codes.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b82a8657-6f58-4f8e-8b9b-95327a6c679c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a Go-Back-N protocol, if the sender&#39;s window size is N, the maximum number of unacknowledged frames is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "N",
+                    "type": "A"
+                },
+                {
+                    "body": "N+1",
+                    "type": "B"
+                },
+                {
+                    "body": "N–1",
+                    "type": "C"
+                },
+                {
+                    "body": "Unlimited",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "38c0d9fb-f6d9-410c-8a5c-d2ca253dcc58",
+                    "questionID": "b82a8657-6f58-4f8e-8b9b-95327a6c679c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sender can send up to N unacknowledged frames before stopping",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "43e81f36-baba-4458-86d7-e2cefb057bd5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of these is a byte-oriented protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "HDLC",
+                    "type": "A"
+                },
+                {
+                    "body": "PPP",
+                    "type": "B"
+                },
+                {
+                    "body": "Ethernet",
+                    "type": "C"
+                },
+                {
+                    "body": "Token Ring",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f4c644e5-0390-42bb-854e-2597d9ac02c9",
+                    "questionID": "43e81f36-baba-4458-86d7-e2cefb057bd5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "PPP is a byte-oriented protocol used for point-to-point links and uses byte stuffing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a527d3ee-7a1a-4d15-865d-d2b720a54e8e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true for Pure ALOHA",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Max efficiency = 18.4%",
+                    "type": "A"
+                },
+                {
+                    "body": "Max efficiency = 36.8%",
+                    "type": "B"
+                },
+                {
+                    "body": "No collisions occur",
+                    "type": "C"
+                },
+                {
+                    "body": "Synchronized transmissions",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "ec4756da-9ab9-4a2d-bfa7-b44d2b28071c",
+                    "questionID": "a527d3ee-7a1a-4d15-865d-d2b720a54e8e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Pure ALOHA’s efficiency is 12e?18.4%\\frac{1}{2e} \\approx 18.4\\%; it allows random transmission and suffers from collisions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e9b41e84-1c1d-4027-b3f6-c5a3484e2909",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the role of the Frame Check Sequence (FCS) in a data frame",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Identifies the sender",
+                    "type": "A"
+                },
+                {
+                    "body": "Specifies the destination",
+                    "type": "B"
+                },
+                {
+                    "body": "Performs error detection",
+                    "type": "C"
+                },
+                {
+                    "body": "Ensures data encryption",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "97f08989-fbb5-4327-ab2b-c811322edfe3",
+                    "questionID": "e9b41e84-1c1d-4027-b3f6-c5a3484e2909",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "FCS is part of the trailer and is used for error checking, often containing CRC results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3ec4cc98-c528-4566-9829-dbe8c774ee3a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Bit stuffing ensures that",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transmission errors are corrected",
+                    "type": "A"
+                },
+                {
+                    "body": "Framing flags are not misinterpreted",
+                    "type": "B"
+                },
+                {
+                    "body": "ACKs are delivered",
+                    "type": "C"
+                },
+                {
+                    "body": "CRC remains same",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Bit Stuffing"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8103fb3e-3b12-4212-8445-8189b4a91103",
+                    "questionID": "3ec4cc98-c528-4566-9829-dbe8c774ee3a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bit stuffing prevents the occurrence of flag patterns (like 01111110) in data by inserting a &#39;0&#39; after five 1s.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "da10ad2d-f33e-410e-b130-6e9b87380b6a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Selective Repeat, if receiver receives frame 5 before frame 4, it will",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Discard frame 5",
+                    "type": "A"
+                },
+                {
+                    "body": "Buffer frame 5 and wait for frame 4",
+                    "type": "B"
+                },
+                {
+                    "body": "Send NACK for frame 5",
+                    "type": "C"
+                },
+                {
+                    "body": "Skip frame 4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Bit Stuffing"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "926702b9-bef1-4c86-9933-f47187734fbd",
+                    "questionID": "da10ad2d-f33e-410e-b130-6e9b87380b6a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Selective Repeat allows out-of-order frames and buffers them until missing ones arrive.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e9999233-02c2-47c0-bf89-2e0fd6bee005",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which field in a frame is used to detect errors",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Header",
+                    "type": "A"
+                },
+                {
+                    "body": "Trailer",
+                    "type": "B"
+                },
+                {
+                    "body": "Data",
+                    "type": "C"
+                },
+                {
+                    "body": "Checksum/CRC field",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "42f474f2-c485-4840-bf3b-ef8108d07667",
+                    "questionID": "e9999233-02c2-47c0-bf89-2e0fd6bee005",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CRC or checksum fields are specifically used to detect errors in transmitted data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5e3ebb4a-4a7d-4c1c-82a9-94b33377afaa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main issue in using parity for error detection in large data blocks",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "High overhead",
+                    "type": "A"
+                },
+                {
+                    "body": "Cannot detect even number of bit errors",
+                    "type": "B"
+                },
+                {
+                    "body": "Difficult implementation",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot detect burst errors",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Definitions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c57209f2-4e98-41ea-b11d-c49b13a3abc8",
+                    "questionID": "5e3ebb4a-4a7d-4c1c-82a9-94b33377afaa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Simple parity can only detect odd number of bit errors. It fails on even-bit errors.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "060122bb-4cff-4fbf-bdec-7276c6cc12f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a Go-Back-N protocol with window size 3 and sequence numbers 0–7, if ACK 2 is lost, what happens",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transmission continues normally",
+                    "type": "A"
+                },
+                {
+                    "body": "Sender halts",
+                    "type": "B"
+                },
+                {
+                    "body": "All frames from 2 onwards are retransmitted after timeout",
+                    "type": "C"
+                },
+                {
+                    "body": "Only frame 2 is retransmitted",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Definitions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2d5f3bfe-f682-434a-82d3-c1a6ea114f79",
+                    "questionID": "060122bb-4cff-4fbf-bdec-7276c6cc12f9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Go-Back-N does not receive ACK 2, so on timeout, it resends all frames starting from 2.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2688aca1-919d-4394-85aa-d520f0151c19",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which MAC protocol avoids collisions by using time-slots assigned to stations",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ALOHA",
+                    "type": "A"
+                },
+                {
+                    "body": "CSMA",
+                    "type": "B"
+                },
+                {
+                    "body": "Polling",
+                    "type": "C"
+                },
+                {
+                    "body": "TDMA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Definitions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "016ef803-166a-4b92-8623-8897ff9303fa",
+                    "questionID": "2688aca1-919d-4394-85aa-d520f0151c19",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Time Division Multiple Access assigns time slots to users to avoid collision completely.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2c5f4e5d-89a7-4a01-bdef-000e93021e6c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Hamming code with 4 redundancy bits can protect how many data bits (maximum)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4",
+                    "type": "A"
+                },
+                {
+                    "body": "7",
+                    "type": "B"
+                },
+                {
+                    "body": "11",
+                    "type": "C"
+                },
+                {
+                    "body": "15",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0bdbd817-a3bf-4850-8719-c414206b6b3c",
+                    "questionID": "2c5f4e5d-89a7-4a01-bdef-000e93021e6c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hamming code rule: 2^r ? m + r + 1 ? r = 4 ? 2? = 16 ? m + 4 + 1 ? max m = 11.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e71355fb-5720-4557-91b7-a781b25d6f8f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about Stop-and-Wait protocol",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Utilization increases with propagation delay",
+                    "type": "A"
+                },
+                {
+                    "body": "Sender must wait for ACK before next frame",
+                    "type": "B"
+                },
+                {
+                    "body": "ACKs are not required",
+                    "type": "C"
+                },
+                {
+                    "body": "Sliding window is used",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b9cbb835-2398-4ce6-bb47-4c67fd8f0b96",
+                    "questionID": "e71355fb-5720-4557-91b7-a781b25d6f8f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In Stop-and-Wait, sender sends one frame and waits for acknowledgment before sending the next.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f11eca23-06a1-464a-91cf-57d83beb5171",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In CSMA/CD, if a collision is detected, what does the sender do",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Immediately resend",
+                    "type": "A"
+                },
+                {
+                    "body": "Stop transmission, wait a random time, and retry",
+                    "type": "B"
+                },
+                {
+                    "body": "Ignore the collision",
+                    "type": "C"
+                },
+                {
+                    "body": "Restart the entire session",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e91ae388-4499-462c-bdb1-cbe055950c2f",
+                    "questionID": "f11eca23-06a1-464a-91cf-57d83beb5171",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "After collision detection, CSMA/CD uses exponential backoff to avoid repeated collisions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a973628-74de-4072-9dce-ac501ac4e603",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In HDLC, which frame type is used to carry user data",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Supervisory (S-frame)",
+                    "type": "A"
+                },
+                {
+                    "body": "Unnumbered (U-frame)",
+                    "type": "B"
+                },
+                {
+                    "body": "Information (I-frame)",
+                    "type": "C"
+                },
+                {
+                    "body": "Control (C-frame)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "frames"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d3ec7c54-b97f-49b5-959e-0a39fb7c0a8e",
+                    "questionID": "5a973628-74de-4072-9dce-ac501ac4e603",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "I-frames carry actual user data. S-frames are for flow/error control; U-frames are used for link management.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2c4521f5-6ce3-4144-89fe-8379955d12d0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In bit stuffing, the pattern 0111110 is used as a flag. What is transmitted if the data is 011111",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0111110",
+                    "type": "A"
+                },
+                {
+                    "body": "01111110",
+                    "type": "B"
+                },
+                {
+                    "body": "01111110 (with stuffing)",
+                    "type": "C"
+                },
+                {
+                    "body": "01111101",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f1897f46-a0f5-43b6-81ca-eecd20a2db17",
+                    "questionID": "2c4521f5-6ce3-4144-89fe-8379955d12d0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A ‘0’ is inserted after five consecutive 1’s to avoid confusion with the delimiter ? becomes 01111101.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "472bf175-57e1-49f9-a8b1-942a0c36a580",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A 1000-byte frame has a 2-bit error. Which method can guarantee detection but not correction",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "CRC",
+                    "type": "A"
+                },
+                {
+                    "body": "Checksum",
+                    "type": "B"
+                },
+                {
+                    "body": "Hamming Code",
+                    "type": "C"
+                },
+                {
+                    "body": "Repetition Code",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a31d71d9-ed7b-44df-9d3e-a9348565bba4",
+                    "questionID": "472bf175-57e1-49f9-a8b1-942a0c36a580",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CRC can detect multi-bit errors, but cannot correct them — unlike Hamming, which can correct single-bit errors.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e50b896a-dd67-4f38-ac14-269ddcb9e11b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which framing technique uses character-level data with special start and end characters",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Bit Stuffing",
+                    "type": "A"
+                },
+                {
+                    "body": "Byte Stuffing",
+                    "type": "B"
+                },
+                {
+                    "body": "Physical Coding",
+                    "type": "C"
+                },
+                {
+                    "body": "Synchronization Framing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "frames"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e1254e66-2428-4682-a256-99fbf40096c5",
+                    "questionID": "e50b896a-dd67-4f38-ac14-269ddcb9e11b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Byte Stuffing uses special characters like ESC to differentiate control info from data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b2960ac-efdc-45e8-9ac9-e47e2c76a0ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a sliding window protocol, if sender’s window size is 4 and receiver’s window size is 1, which protocol is it",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stop-and-Wait",
+                    "type": "A"
+                },
+                {
+                    "body": "Go-Back-N",
+                    "type": "B"
+                },
+                {
+                    "body": "Selective Repeat",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "422daa60-d2cf-4fb7-b8fe-98388c75953f",
+                    "questionID": "3b2960ac-efdc-45e8-9ac9-e47e2c76a0ac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Go-Back-N allows multiple frames to be sent, but only 1 ACK at a time — thus receiver window = 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "12fa40fa-d18f-4220-8b19-1cf566210628",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A network uses CRC with a generator polynomial G(x) = x³ + x + 1. What is the binary form of the divisor",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1011",
+                    "type": "A"
+                },
+                {
+                    "body": "1101",
+                    "type": "B"
+                },
+                {
+                    "body": "1001",
+                    "type": "C"
+                },
+                {
+                    "body": "1110",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2414c78f-be55-4901-b00a-9d1b149428c2",
+                    "questionID": "12fa40fa-d18f-4220-8b19-1cf566210628",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "x³ + x + 1 = 1x³ + 0x² + 1x¹ + 1 = 1011.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d792b731-cf25-454b-a46c-8c1144258aae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the minimum number of redundancy bits required to detect and correct single-bit errors in a 7-bit message",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2",
+                    "type": "A"
+                },
+                {
+                    "body": "3",
+                    "type": "B"
+                },
+                {
+                    "body": "4",
+                    "type": "C"
+                },
+                {
+                    "body": "5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5c9c8112-b160-4e4e-8966-af6555e49b66",
+                    "questionID": "d792b731-cf25-454b-a46c-8c1144258aae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For Hamming code, the minimum r such that 2^r ? m + r + 1 ? for m=7 ? r=4.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e85f46cf-18af-4e7b-a998-7fc15dbea2b7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which error detection method can detect all single-bit and burst errors (less than the generator length)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Parity",
+                    "type": "A"
+                },
+                {
+                    "body": "Checksum",
+                    "type": "B"
+                },
+                {
+                    "body": "CRC",
+                    "type": "C"
+                },
+                {
+                    "body": "Hamming Code",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "29c1612c-605f-4971-a22a-2775327bef35",
+                    "questionID": "e85f46cf-18af-4e7b-a998-7fc15dbea2b7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CRC is powerful for detecting all single-bit errors and burst errors shorter than the polynomial length.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "38edce73-47e7-4bbc-a98a-0480bfc47ab0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Selective Repeat ARQ, to avoid ambiguity, the window size must be ? ___ if m bits are used for sequence numbers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2^m",
+                    "type": "A"
+                },
+                {
+                    "body": "2^(m–1)",
+                    "type": "B"
+                },
+                {
+                    "body": "2^(m+1)",
+                    "type": "C"
+                },
+                {
+                    "body": "2^(m–2)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6d44c867-abfa-4ced-8f26-8907e14849cf",
+                    "questionID": "38edce73-47e7-4bbc-a98a-0480bfc47ab0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "To avoid ambiguity between new and old frames, the window size must be ? half the sequence number space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e927da8d-3985-4bff-bb86-7ba45d9d839c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The window size in Go-Back-N ARQ is 7. What is the range of sequence numbers needed (modulo value)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "7",
+                    "type": "A"
+                },
+                {
+                    "body": "8",
+                    "type": "B"
+                },
+                {
+                    "body": "9",
+                    "type": "C"
+                },
+                {
+                    "body": "14",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5a354c05-bc77-4701-9c47-4d67a26b8bc7",
+                    "questionID": "e927da8d-3985-4bff-bb86-7ba45d9d839c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For Go-Back-N, maximum window size = N – 1. So, for a window size of 7, sequence numbers need 3 bits (mod 8).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3292bcb6-84c0-4560-be07-7d29a1a7b3db",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the Stop-and-Wait ARQ protocol, if the sender times out waiting for an ACK, it will",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Move to the next frame",
+                    "type": "A"
+                },
+                {
+                    "body": "Terminate the connection",
+                    "type": "B"
+                },
+                {
+                    "body": "Retransmit the same frame",
+                    "type": "C"
+                },
+                {
+                    "body": "Send a NACK",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ffe3224d-978d-40a4-9e66-1ba8de37590d",
+                    "questionID": "3292bcb6-84c0-4560-be07-7d29a1a7b3db",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Stop-and-Wait uses timeout and ACKs to ensure delivery. If ACK is not received in time, the same frame is resent.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1c5fac8c-f257-4599-af6e-b6e940a0196c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What resolves duplication or failure in Stop-and-Wait ARQ",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sequence numbers in header",
+                    "type": "A"
+                },
+                {
+                    "body": "Checksum",
+                    "type": "B"
+                },
+                {
+                    "body": "Both a &amp; b",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "024e965f-a70a-4f8b-ab67-fbb4f2abf993",
+                    "questionID": "1c5fac8c-f257-4599-af6e-b6e940a0196c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sequence numbers help receiver detect duplicate frames and prevent reprocessing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a8edf217-a28b-4d94-a0b8-1cd9c672e48d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which device operates at the Data Link Layer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hub",
+                    "type": "A"
+                },
+                {
+                    "body": "Switch",
+                    "type": "B"
+                },
+                {
+                    "body": "Router",
+                    "type": "C"
+                },
+                {
+                    "body": "Repeater",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Devices"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a39f723a-9c56-4b8a-bdd5-b6083f8f138a",
+                    "questionID": "a8edf217-a28b-4d94-a0b8-1cd9c672e48d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Switches use MAC addresses and operate at layer 2 (Data Link Layer) to forward frames.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7d564ba8-4175-4248-8a70-49725676fee1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which objectives does the Data Link Layer fulfill",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Frame synchronization",
+                    "type": "A"
+                },
+                {
+                    "body": "Error &amp; flow control",
+                    "type": "B"
+                },
+                {
+                    "body": "Both a &amp; b",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Layers"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6586d2ea-a123-44b4-b60e-ad36bfd78732",
+                    "questionID": "7d564ba8-4175-4248-8a70-49725676fee1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It handles frame synchronization, error control, and flow control — all are key responsibilities.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9374ef5c-ad94-4607-b167-23ce2269ca28",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A bit-stuffing framing protocol uses delimiter 01111110. If output is 01111100101, what’s the input",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0111110101",
+                    "type": "A"
+                },
+                {
+                    "body": "0111100101",
+                    "type": "B"
+                },
+                {
+                    "body": "01111100101",
+                    "type": "C"
+                },
+                {
+                    "body": "011111001001",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Protocals"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "073b76c4-2995-44ee-a101-79708f856d05",
+                    "questionID": "9374ef5c-ad94-4607-b167-23ce2269ca28",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A &#39;0&#39; is inserted after 5 consecutive 1’s. To recover input, remove the stuffed &#39;0&#39; ? gives 0111110101.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e9457bb-f332-42b5-83f5-b6205797c381",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "CRC uses polynomial division. Which statement is true",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Append (degree of divisor) zeros before division",
+                    "type": "A"
+                },
+                {
+                    "body": "Receiver multiplies incoming bits",
+                    "type": "B"
+                },
+                {
+                    "body": "CRC remainder is ignored",
+                    "type": "C"
+                },
+                {
+                    "body": "CRC can correct single-bit errors only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "8b23c4c0-3fbb-4517-8b13-cb3f87eb13f9",
+                    "questionID": "2e9457bb-f332-42b5-83f5-b6205797c381",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CRC generation involves appending zeros (based on divisor degree), then dividing to get the remainder.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c10a15bd-105a-4e4e-a747-8935daad2762",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In CRC, if the data unit is 100111001 and the divisor is 1011, what is the dividend at the receiver",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "100111001101",
+                    "type": "A"
+                },
+                {
+                    "body": "100111001011",
+                    "type": "B"
+                },
+                {
+                    "body": "100111001",
+                    "type": "C"
+                },
+                {
+                    "body": "100111001110",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7a9e4f59-f690-452c-8fd8-4328773cd6e0",
+                    "questionID": "c10a15bd-105a-4e4e-a747-8935daad2762",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The sender appends the CRC remainder (3 bits here) to the original data, forming the full frame.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6cd110ca-c912-4f9e-8cbc-5fe544bd8be1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which error detection method uses one&#39;s complement arithmetic",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Simple parity check",
+                    "type": "A"
+                },
+                {
+                    "body": "Two-dimensional parity check",
+                    "type": "B"
+                },
+                {
+                    "body": "CRC",
+                    "type": "C"
+                },
+                {
+                    "body": "Checksum",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "CRC"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c99ebb0c-77f6-4344-aa78-db0192d75aa0",
+                    "questionID": "6cd110ca-c912-4f9e-8cbc-5fe544bd8be1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In checksum, all data words are added using one’s complement, and the final sum’s complement is sent.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "18e8d969-a669-4c81-84f4-68c029732fb9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the disadvantage of burst errors compared to single-bit errors",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Difficult to correct",
+                    "type": "A"
+                },
+                {
+                    "body": "Difficult to detect",
+                    "type": "B"
+                },
+                {
+                    "body": "High error rate",
+                    "type": "C"
+                },
+                {
+                    "body": "Frequent occurrence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Bit"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9aafde0b-bed8-4d81-86ce-ef0822f93da6",
+                    "questionID": "18e8d969-a669-4c81-84f4-68c029732fb9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Burst errors affect multiple bits at once, making detection and correction more complex.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "54128ae4-bee8-43fc-85ff-0552e2a052ea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the Hamming distance between 1010101 and 1100110",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "4\n[key=]\n5",
+                    "type": "A"
+                },
+                {
+                    "body": "8",
+                    "type": "C"
+                },
+                {
+                    "body": "3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Hamming Code"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0c1b69c3-f775-44d7-836e-510da87bcd7d",
+                    "questionID": "54128ae4-bee8-43fc-85ff-0552e2a052ea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hamming distance = number of differing bit positions ? 4 bits differ.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a7135f69-5e95-4fd5-95f3-a823943a52b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which sublayer handles functions that are media-dependent",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "LLC (Logical Link Control)",
+                    "type": "A"
+                },
+                {
+                    "body": "MAC (Media Access Control)",
+                    "type": "B"
+                },
+                {
+                    "body": "Network Interface Control",
+                    "type": "C"
+                },
+                {
+                    "body": "Error Control sublayer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Layers"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6bc2b596-1df0-4b01-84fb-9b4322610530",
+                    "questionID": "a7135f69-5e95-4fd5-95f3-a823943a52b5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The MAC sublayer manages access to the physical medium, which depends on the transmission method (wired/wireless).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4bacb956-af0d-400a-af91-d5d1da2dd711",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which task is not performed by the data link layer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "framing",
+                    "type": "A"
+                },
+                {
+                    "body": "error control",
+                    "type": "B"
+                },
+                {
+                    "body": "flow control",
+                    "type": "C"
+                },
+                {
+                    "body": "channel coding",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Layers"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8aa9c77f-ae08-4543-9154-ac2cb6d1e038",
+                    "questionID": "4bacb956-af0d-400a-af91-d5d1da2dd711",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Channel coding (like modulation) is done at the physical layer, not the data link layer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9a231026-5117-423f-aaee-462963f61f26",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The data link layer takes the packets from ___ and encapsulates them into frames for transmission",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "transport layer",
+                    "type": "A"
+                },
+                {
+                    "body": "application layer",
+                    "type": "B"
+                },
+                {
+                    "body": "network layer",
+                    "type": "C"
+                },
+                {
+                    "body": "physical layer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Packet"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "59c3c4be-5a92-4e9f-8ec2-2d8384e0314a",
+                    "questionID": "9a231026-5117-423f-aaee-462963f61f26",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The network layer passes packets to the data link layer, which adds headers/trailers and creates frames.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

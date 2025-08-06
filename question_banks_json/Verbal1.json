@@ -1,0 +1,1574 @@
+{
+    "bank_id": "5cbac4d0-224f-42e0-a7c4-acdb3e46e520",
+    "bank_name": "Verbal1",
+    "questions": [
+        {
+            "id": "658b26d7-f5e2-4ed6-8804-233fcec44c79",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best replaces the bold part of the sentence to make it grammatically and contextually correct.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "4fe8ccbf-4040-478b-94cd-b2f412c4a3d7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the correct meaning of the idiom used in the sentence.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "09de9726-a4e0-4b54-a4e5-ef800c24d64d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the <strong>closest synonym or antonym</strong> of the word given in bold.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Vocabulary – Synonyms/Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "769ab711-1ea6-4fa6-9353-5abdf0c3207e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The four sentences (labelled P, Q, R, S) form a coherent paragraph when arranged properly. Choose the correct sequence.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "607a6def-596d-4443-a148-3a09cdb227cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A passage is given with blanks. Choose the best word to fill in each blank and complete the meaning appropriately.</p><p><br></p><p>In recent years, the demand for clean energy has grown rapidly. Governments across the world are now investing in renewable resources such as solar and wind energy. This shift is essential not only for reducing pollution but also for ______ (10) long-term energy security. However, the transition is not without its challenges. High initial costs and the need for advanced infrastructure often ______ (11) large-scale adoption. Nevertheless, experts believe that innovation and policy support can help ______ (12) these obstacles.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Cloze Test"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "102d96d6-1781-49a6-ad37-a5c95a3e7e63",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the most appropriate word or phrase to complete the sentence based on correct usage of <strong>prepositions,  onjunctions, articles, or verbs.</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "9debc64d-1164-4363-a6e3-f96ad4efcb3f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the most appropriate word or phrase to complete the sentence based on correct usage of <strong>prepositions, conjunctions, articles, or verbs.</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "a5a6a5ae-e067-4887-a375-3902f3265910",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains a grammatical or usage error. If there is no error, select “No error.”</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "5713ff99-0f80-4e3f-9a58-5b5575f22ec1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the passage carefully and answer the questions that follow, choosing the most appropriate option.</p><p><br></p><p>In the modern age of hyper-connectivity, many individuals struggle with balancing their online and offline lives. While technology allows for instant communication and access to information, it also contributes to shorter attention spans and increased anxiety. Experts suggest that establishing digital boundaries and engaging in offline hobbies can help restore mental well-being.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "6a7062c8-1c0f-4dfe-808d-d507ccd42c42",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the passage carefully and choose the word that best fits the blank in each sentence. Context and grammar must both be considered.</p><p><br></p><p>The ancient city was once a thriving hub of trade and culture, attracting merchants and travellers from across continents. Today, however, it lies in ruins, its grand architecture reduced to rubble. Efforts to ______ (Q11) the site are ongoing, led by a team of archaeologists and historians. These experts are carefully documenting the ______ (Q12) of the city's past, hoping to piece together its lost narrative. The process is painstaking and ______ (Q13), requiring not only tools but also tremendous patience. Much of the knowledge about the city was lost due to natural disasters and ______ (Q14) invasions, but the team remains hopeful. Their ultimate goal is to ______ (Q15) the city’s historical importance to the world.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Cloze Test"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "0f711da2-3435-4ea4-9a15-02d8bf62c2a2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the passage carefully and choose the word that best fits the blank in each sentence. Context and grammar must both be considered.</p><p><br></p><p>The ancient city was once a thriving hub of trade and culture, attracting merchants and travellers from across continents. Today, however, it lies in ruins, its grand architecture reduced to rubble. Efforts to ______ (Q11) the site are ongoing, led by a team of archaeologists and historians. These experts are carefully documenting the ______ (Q12) of the city's past, hoping to piece together its lost narrative. The process is painstaking and ______ (Q13), requiring not only tools but also tremendous patience. Much of the knowledge about the city was lost due to natural disasters and ______ (Q14) invasions, but the team remains hopeful. Their ultimate goal is to ______ (Q15) the city’s historical importance to the world.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Cloze Test"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "faf254f1-353f-4133-b868-7bc27d68756b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word that is <strong>closest in meaning (synonym)</strong> or <strong>most opposite in meaning (antonym)</strong> to the word in bold, as directed in the question.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Vocabulary (Synonyms/Antonyms)"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "d9205ba5-b98a-42db-9e02-703cd55cd67b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word that is <strong>closest in meaning (synonym)</strong> or <strong>most opposite in meaning (antonym)</strong> to the word in bold, as directed in the question.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Vocabulary (Synonyms/Antonyms)"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "bc144def-3531-4cc3-8ddc-b58f898be4d9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each sentence below contains a blank. Choose the word or phrase that best completes the sentence meaningfully and grammatically.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "f71a03fc-13e6-45e0-b322-e545c95dfc48",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question provides a word in bold. Choose the option that is the<strong> closest in meaning (synonym) or most opposite in meaning (antonym)</strong> to the given word, as directed.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Vocabulary – Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "71f2a664-e1fa-4c61-8378-953f81f30cb1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question provides a word in bold. Choose the option that is the <strong>closest in meaning (synonym) or most opposite in meaning (antonym)</strong> to the given word, as directed.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Vocabulary – Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "57f8810e-846d-42ec-9204-e5246fc2db4d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question consists of a sentence that may contain a grammatical or contextual error. Identify the <strong>part with the error.</strong> If the sentence is correct as it is, choose the option indicating “No error.”</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "72bb1cc7-fed5-4d7e-aa66-95b89a6b9fc8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question consists of a sentence that may contain a grammatical or contextual error. Identify the <strong>part with the error.</strong> If the sentence is correct as it is, choose the option indicating “No error.”</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "72b52232-0c5e-493f-81d6-09590a4a8e3b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains an idiom highlighted in context. Choose the option that best explains the meaning of the idiom as used in the sentence. Select the most appropriate answer from the given choices.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "e5ba4179-fac3-4140-9889-9ee510287d14",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains an idiom highlighted in context. Choose the option that best explains the meaning of the idiom as used in the sentence. Select the most appropriate answer from the given choices.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "57624afb-84a6-4d5d-86b9-049a8c351245",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each sentence contains a highlighted or bold phrase that may be grammatically or contextually incorrect. Choose the option that best replaces the given phrase to make the sentence clear, correct, and meaningful. If no change is required, choose the option indicating so (if provided).</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "1aa929a2-49cf-410f-9f34-a477112ccf31",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question includes a word in bold. Based on its meaning, choose the option that either most closely matches it <strong>(synonym)</strong> or is most opposite in meaning <strong>(antonym)</strong>, as specified in the question.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Vocabulary – Synonyms/Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "9d4695d8-6ea6-46ab-827c-eeba33c518b6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains four jumbled sentences (labeled P, Q, R, S) that together form a coherent paragraph. Choose the correct order of the sentences that logically and grammatically constructs a meaningful paragraph.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "28fa6598-d7f6-41c9-9a9e-0f690a20b53d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains four jumbled sentences (labeled P, Q, R, S) that together form a coherent paragraph. Choose the correct order of the sentences that logically and grammatically constructs a meaningful paragraph.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "56596ef4-7817-4185-8f8a-2e4a81a4c57c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains an idiom highlighted in context. Choose the option that best explains the meaning of the idiom as used in the sentence. Select the most appropriate answer from the given choices.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "798bfd8f-0655-4847-80d4-dfd4ac531a63",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains an idiom highlighted in context. Choose the option that best explains the meaning of the idiom as used in the sentence. Select the most appropriate answer from the given choices.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "32ce8234-eb46-4bb4-b0a1-22499ad520e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each sentence contains a highlighted or bold phrase that may be grammatically or contextually incorrect. Choose the option that best replaces the given phrase to make the sentence clear, correct, and meaningful. If no change is required, choose the option indicating so (if provided).</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "fc501474-090c-4ce9-979a-19a97a9da905",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question includes a word in bold. Based on its meaning, choose the option that either most closely matches it (synonym) or is most opposite in meaning (antonym), as specified in the question.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Vocabulary – Synonyms/Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "b70f4541-b4da-4a25-9cb6-4b3e6ca92968",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each question contains four jumbled sentences (labeled P, Q, R, S) that together form a coherent paragraph. Choose the correct order of the sentences that logically and grammatically constructs a meaningful paragraph.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "62b8a4b2-c034-45bf-9d17-9a1d7d1b11f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><em>Each question contains four jumbled sentences (labeled P, Q, R, S) that together form a coherent paragraph. Choose the correct order of the sentences that logically and grammatically constructs a meaningful paragraph.</em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "ac3049f2-896f-411a-a09b-58e64f53b4c4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><em>Each question contains an idiom highlighted in context. Choose the option that best explains the </em><strong>meaning</strong><em> of the idiom as used in the sentence. Select the most appropriate answer from the given choices.</em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "c42f4d73-edb4-4589-855e-230401aa2cd7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><em>Each question contains an idiom highlighted in context. Choose the option that best explains the </em><strong>meaning</strong><em> of the idiom as used in the sentence. Select the most appropriate answer from the given choices.</em></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "045b51f9-cf07-4965-ad5d-d968731c2ced",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the antonym for <em>meticulous</em>.</p><p><br></p><p>A) Negligent</p><p><br></p><p>B) Diligent</p><p><br></p><p>C) Cautious</p><p><br></p><p>D) Precise</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "55460ac2-1076-4ad9-8a78-71fd12bc0265",
+                    "questionID": "045b51f9-cf07-4965-ad5d-d968731c2ced",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Meticulous” means very careful — its antonym is</p><p>careless or negligent.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "578b11da-1565-4d02-a95f-7a4382b3bd23",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Which word is opposite in meaning to <em>candour</em>?</p><p><br></p><p>A) Transparency</p><p><br></p><p>B) Evasiveness</p><p><br></p><p>C) Sincerity</p><p><br></p><p>D) Clarity</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ba90df00-f2ef-4909-acd6-cac5690e98e7",
+                    "questionID": "578b11da-1565-4d02-a95f-7a4382b3bd23",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Candour” = openness and honesty; opposite =</p><p>avoidance or vagueness.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eab672a5-0ecb-47ce-bf86-210f7c590f69",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the most appropriate synonym for ‘<em><u>platitudes’</u></em>.</p><p><br></p><p>A) Inspiring ideas</p><p><br></p><p>B) Meaningless statements</p><p><br></p><p>C) Scientific data</p><p><br></p><p>D) Provocative insights</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09e4b253-ec74-41a7-bbc9-2636402ef991",
+                    "questionID": "eab672a5-0ecb-47ce-bf86-210f7c590f69",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Platitudes are empty, overused statements lacking</p><p>original thought.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5e628d89-8502-46d4-9038-8394964620c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the nearest synonym of ‘<em><u>vitriolic</u></em>’?</p><p><br></p><p>A) Encouraging</p><p><br></p><p>B) Mild</p><p><br></p><p>C) Bitter</p><p><br></p><p>D) Sympathetic</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "92e8e67c-66ba-4d9a-800f-075e9084247e",
+                    "questionID": "5e628d89-8502-46d4-9038-8394964620c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Vitriolic” = filled with malice or harsh criticism.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e16dff17-f0d6-4465-b469-ca8b19ec90b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Fill in each blank with the most suitable word from the options.</p><p><br></p><p>In an increasingly digital world, the ability to think critically and analyze information has become more crucial than ever. The internet provides access to an overwhelming amount of data, much of which is either misleading or entirely false. Therefore, individuals must develop a set of cognitive tools to ______(7) what is factual and what is fabricated. Educational institutions, recognizing this urgent need, are beginning to ______(8) courses focused on digital literacy. These programs aim to make students more discerning consumers of information and better communicators in an age of misinformation. However, critics argue that without standardized frameworks, such initiatives can be ______(9) and inconsistent. They emphasize that media literacy should not be an elective but an academic ______(10), given the pervasiveness of online content. To ensure widespread impact, digital literacy programs must be integrated across disciplines, supported by educators trained to ______(11) misinformation, bias, and manipulation.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Cloze Test"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "c10f174b-84e6-472c-a9aa-7058051176a1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Fill in each blank with the most suitable word from the options.</p><p><br></p><p>In an increasingly digital world, the ability to think critically and analyze information has become more crucial than ever. The internet provides access to an overwhelming amount of data, much of which is either misleading or entirely false. Therefore, individuals must develop a set of cognitive tools to ______(7) what is factual and what is fabricated. Educational institutions, recognizing this urgent need, are beginning to ______(8) courses focused on digital literacy. These programs aim to make students more discerning consumers of information and better communicators in an age of misinformation. However, critics argue that without standardized frameworks, such initiatives can be ______(9) and inconsistent. They emphasize that media literacy should not be an elective but an academic ______(10), given the pervasiveness of online content. To ensure widespread impact, digital literacy programs must be integrated across disciplines, supported by educators trained to ______(11) misinformation, bias, and manipulation.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Cloze Test"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "e92aee52-bd2b-4dc4-8cf4-e84463d68ad4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose a suitable option to <strong>fill in the blank</strong>.</p><p>The proposal was rejected not because it lacked merit, ______ because it failed to address the practical constraints of</p><p>implementation.</p><p><br></p><p>A) but</p><p><br></p><p>B) and</p><p><br></p><p>C) or</p><p><br></p><p>D) for</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "6f0df079-e647-41ce-9bf0-8274880e752b",
+                    "questionID": "e92aee52-bd2b-4dc4-8cf4-e84463d68ad4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: \"Not because... but because...\" is the</p><p>correct correlative conjunction pair.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c71c2508-7713-4b73-b925-5dd3886893ef",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose a suitable option to <strong>fill in the blank</strong>.</p><p>The athlete, ______ performance had been under scrutiny due to doping allegations, chose to retire rather than appeal the suspension.</p><p><br></p><p>A) who</p><p><br></p><p>B) whom</p><p><br></p><p>C) whose</p><p><br></p><p>D) that</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0eb91e0a-15c6-489f-a84a-9d6dc0bc1db5",
+                    "questionID": "c71c2508-7713-4b73-b925-5dd3886893ef",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: \"Whose\" shows possession (whose</p><p>performance).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e8db2b9c-eedf-4e19-a1c7-7ac8d9d7fe92",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose a suitable option to <strong>fill in the blank</strong>.</p><p>The committee is expected to present its findings in a report, ______ will be circulated to all departments for review and feedback.</p><p><br></p><p>A) that</p><p><br></p><p>B) where</p><p><br></p><p>C) which</p><p><br></p><p>D) whom</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d760a23f-8237-45fd-92dd-f9e69628b852",
+                    "questionID": "e8db2b9c-eedf-4e19-a1c7-7ac8d9d7fe92",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Which” refers to the entire preceding clause “its</p><p>findings in a report.”</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0a278cdc-397b-4e79-9f29-746b9ab443c9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose a suitable option to <strong>fill in the blank</strong>.</p><p>No sooner ______ the announcement made than the employees began protesting against the revised wage structure.</p><p><br></p><p>A) was</p><p><br></p><p>B) had</p><p><br></p><p>C) has</p><p><br></p><p>D) were</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4e3551f0-83f5-46c1-a640-19a1e26ac2df",
+                    "questionID": "0a278cdc-397b-4e79-9f29-746b9ab443c9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “No sooner” constructions require inversion:</p><p>\"No sooner had + subject + past participle.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "afe39ae2-917a-4369-9984-d0cb5de49fbf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose a suitable option to <strong>fill in the blank</strong></p><p>The director’s remarks, ______ at a private gathering, sparked controversy once leaked to the press.</p><p><br></p><p>A) making</p><p><br></p><p>B) made</p><p><br></p><p>C) having made</p><p><br></p><p>D) were made</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b1b8a789-65db-4a2a-90f3-f753515b4969",
+                    "questionID": "afe39ae2-917a-4369-9984-d0cb5de49fbf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Use the past participle “made” to function</p><p>adjectivally for “remarks.”</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "46b7b678-43b9-4572-be21-1b97de5a316f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose a suitable option to <strong>fill in the blank</strong>.</p><p>Although the CEO had publicly promised transparency, the internal investigation revealed that several key documents ______ deliberately withheld from the audit committee.</p><p><br></p><p>A) had been</p><p><br></p><p>B) have been</p><p><br></p><p>C) were being</p><p><br></p><p>D) has been</p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d76c0a66-c051-472c-b0a9-5a53165763f7",
+                    "questionID": "46b7b678-43b9-4572-be21-1b97de5a316f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Use past perfect passive to indicate an earlier</p><p>action before another past action.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d31b653f-3518-4752-9912-4937144655e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains a grammatical error.</p><p><br></p><p>If the weather will be <strong>(A)</strong> pleasant tomorrow, we can plan <strong>(B)</strong> a short trip to the hills <strong>(C)</strong> to unwind. <strong>(D)</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d8ab21e1-1159-4c37-b11e-a0403175803b",
+                    "questionID": "d31b653f-3518-4752-9912-4937144655e0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"color: black;\">Hint:</strong><span style=\"color: black;\"> In conditional sentences, we</span></p><p><span style=\"color: black;\">use </span><strong style=\"color: black;\">simple present</strong><span style=\"color: black;\"> in the “if” clause: </span><strong style=\"color: black;\">“If the weather is pleasant…”</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "163c12d8-0cb2-4771-864b-6e3914df9671",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains a grammatical error.</p><p><br></p><p>No sooner did she arrive <strong>(A)</strong> at the station, the train <strong>(B)</strong> departed without giving her a chance <strong>(C)</strong>  to board. <strong>(D)</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "47945c9d-73da-4d17-8634-6153c280b089",
+                    "questionID": "163c12d8-0cb2-4771-864b-6e3914df9671",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “No sooner did...<strong>than</strong>”</p><p>is the correct structure. “Than the train departed,” not “the train departed”.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a668ffb1-39ad-4a8b-a0b0-c7270c8e6cc9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains a grammatical error.</p><p>Each of the students <strong>(A)</strong> must submit their <strong>(B) </strong>assignment before the deadline <strong>(C)</strong> to avoid penalties. <strong>(D)</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c6eb0aa8-7553-4c94-be59-b2046859f5ae",
+                    "questionID": "a668ffb1-39ad-4a8b-a0b0-c7270c8e6cc9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Each” is</p><p>singular, so it should be <strong>“his or her”</strong> assignment, not “their”.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7667c590-2b0e-4797-8d5e-3d78d2790dd3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Identify the part of the sentence that contains a grammatical error.</p><p>Neither the manager <strong>(A)</strong> nor the team members <strong>(B)</strong> was willing to accept <strong>(C)</strong> responsibility for the delay. <strong>(D)</strong></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Error Detection"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a8328e52-047b-4746-b68f-02a4874d7736",
+                    "questionID": "7667c590-2b0e-4797-8d5e-3d78d2790dd3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong style=\"color: black;\">Hint:</strong><span style=\"color: black;\"> When using “neither…nor”, the</span></p><p><span style=\"color: black;\">verb should agree with the </span><strong style=\"color: black;\">nearest subject</strong><span style=\"color: black;\"> (“team members” → plural →</span></p><p><span style=\"color: black;\">“were”).</span></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2d8c4f0d-6bba-4389-8484-8bf11071a999",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<pre class=\"ql-syntax\" spellcheck=\"false\">Choose the synonym for the underlined word in the sentence.\n</pre><p><br></p><p>The detective’s <strong><u>astute</u></strong> observations often led to breakthroughs in seemingly unsolvable cases.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>dull</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>naive</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>&nbsp;sharp</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>&nbsp;obscure</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "47c3083a-11f1-4a7f-89cc-2a5eb91470cd",
+                    "questionID": "2d8c4f0d-6bba-4389-8484-8bf11071a999",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Astute” means</p><p>clever, keen, or <strong>sharp-minded</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c8d8aeff-05a7-48bb-adbd-747aa1d4794c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the <strong>Antonym </strong>for the underlined word in the sentence.</p><p><br></p><p>His writing is praised for its <strong><u>lucidity</u></strong>, making complex topics accessible even to beginners.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>clarity</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>brilliance</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>obscurity</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>simplicity</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c7fffa8d-60db-4ae0-ab22-89ad06ed2c80",
+                    "questionID": "c8d8aeff-05a7-48bb-adbd-747aa1d4794c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> The opposite of <strong>clear/lucid</strong></p><p>is <strong>obscure/confusing</strong>.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "64101eda-1022-4e4c-b4c9-514cb8e67435",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the <strong>synonym </strong>for the underlined word in the sentence.</p><p><br></p><p>The charity received <strong><u>copious</u></strong> donations following the viral social media campaign.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>sparse</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>abundant</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>&nbsp;hesitant</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>calculated</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f129374a-d0b2-46c4-83c9-d3490a0565ba",
+                    "questionID": "64101eda-1022-4e4c-b4c9-514cb8e67435",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Copious” = <strong>plentiful</strong>,</p><p>in large quantity.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "52d223bc-33a2-4b99-8549-e8a19348f50b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences to form a meaningful</p><p><br></p><p>A. These values act as an internal compass during moral dilemmas.</p><p><br></p><p>B. The development of strong ethical principles begins in childhood.</p><p><br></p><p>C. Parents and educators play a crucial role in shaping these values.</p><p><br></p><p>D. Children observe, imitate, and internalize behaviors they see around them.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>BDCA</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>BCDA</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>DCBA</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>CABD</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "406a81a4-6200-411a-9703-281420730a07",
+                    "questionID": "52d223bc-33a2-4b99-8549-e8a19348f50b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Start with moral</p><p>development (B), role of adults (C), process (D), conclusion (A).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ba41214-0fe8-453b-bcba-58f572a0cd36",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences to form a meaningful</p><p><br></p><p>A. Yet, despite its potential, AI adoption in education is still uneven.</p><p><br></p><p>B. Artificial Intelligence is revolutionizing learning experiences.</p><p><br></p><p>C. From personalized feedback to adaptive learning paths, its applications are numerous.</p><p><br></p><p>D. Many institutions lack infrastructure or training to implement it effectively.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>BCAD</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>&nbsp;CBAD</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>&nbsp;BACD</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>&nbsp;ABCD</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "f909cdf5-d5ff-4ab4-8780-76e1b61e2e9a",
+                    "questionID": "6ba41214-0fe8-453b-bcba-58f572a0cd36",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Start with the</p><p>broad change (B), then list examples (C), contrast it (A), explain the reason</p><p>(D).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8cde0fd1-f8ab-4a97-8271-04d6b85b2db3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences to form a meaningful</p><p><br></p><p>A. Creativity is not a mystical force but a process that can be cultivated.</p><p><br></p><p>B. It requires discipline, perseverance, and the willingness to fail.</p><p><br></p><p>C. Many people assume creativity is an inborn talent.</p><p><br></p><p>D. However, this belief overlooks the effort involved in creative breakthroughs.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>CADB</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>CBDA</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>ACDB</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>DCBA</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "PARA JUMBLES"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "66a189d4-2630-4542-b259-2b3683a26b00",
+                    "questionID": "8cde0fd1-f8ab-4a97-8271-04d6b85b2db3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Start with the</p><p>misconception (C), contradict it (D), state the truth (A), support it (B).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "222f54cf-5a2e-435b-b1fd-bbb2b4165b48",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the passage below and answer the questions that follow:</p><p><br></p><p>In today’s hyper connected digital age, the value of solitude is often overlooked. While society tends to associate productivity with constant interaction and visibility, psychological research increasingly emphasizes the benefits of intentional solitude. Being alone, contrary to popular belief, does not equate to loneliness. It allows individuals to recharge, reflect, and engage in deeper creative processes. However, the compulsion to remain perpetually connected through social media, email, and messaging apps has created a culture in which solitude is often stigmatized. In this context, learning to be alone without feeling lonely is becoming a critical life skill.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "3d9930b9-e7ec-4565-9e3b-193cbfa668dd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Read the passage below and answer the questions that follow:</p><p><br></p><p>In today’s hyper connected digital age, the value of solitude is often overlooked. While society tends to associate productivity with constant interaction and visibility, psychological research increasingly emphasizes the benefits of intentional solitude. Being alone, contrary to popular belief, does not equate to loneliness. It allows individuals to recharge, reflect, and engage in deeper creative processes. However, the compulsion to remain perpetually connected through social media, email, and messaging apps has created a culture in which solitude is often stigmatized. In this context, learning to be alone without feeling lonely is becoming a critical life skill.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        }
+    ]
+}

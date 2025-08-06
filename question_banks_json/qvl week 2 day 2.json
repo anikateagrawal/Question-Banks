@@ -1,0 +1,938 @@
+{
+    "bank_id": "3d458f18-a21c-4370-961b-04cb4d3e3067",
+    "bank_name": "qvl week 2 day 2",
+    "questions": [
+        {
+            "id": "546951de-8aae-445d-b22f-e18202e9c8c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Please read the passage carefully and answer the questions that follow: </p><p>For an economy that is tottering, a big bang announcement from the government can sometimes work to turn around sentiment. The unveiling by</p><p>Finance Minister Nirmala Sitharaman on Tuesday of a mega push to infrastructure investment adding up to 102 lakh crore over the next five years belongs in this category. Projects in energy, roads, railways and urban infrastructure under the National Infrastructure Pipeline (NIP) have been identified by a task</p><p>force. About 42% of such identified projects are already under implementation, 19% are under development and 31% are at the conceptual stage. The NIP task</p><p>force appears to have gone project-by-project, assessing each for viability and relevance in consultation with the States. Considering that the NIP will be</p><p>like a window to the future, a constant review becomes paramount if this is not to degenerate into a mere collation and listing of projects. A periodic review,</p><p>as promised by the Finance Ministry, is necessary. The government’s push on infrastructure development will not only enable ease of living — such as metro</p><p>trains in cities and towns — but also create jobs and increase demand for primary commodities such as cement and steel. From this perspective, this push</p><p>to invest in infrastructure is welcome. Identifying the projects to be put on the pipeline is the easy part. Implementing and commissioning them will be the</p><p>more difficult one. There are a few hurdles that the NIP task force needs to watch out for. First, the financing plan assumes that the Centre and the States will</p><p>fund 39% each while the private sector will chip in with 22% of the outlay. Going by the present fiscal situation, it will be no small challenge for the</p><p>Centre to raise 39 lakh crore, even if it is over the next five years. The financial position of States is even more perilous. Second, the 22 lakh crore</p><p>expected from private investment also looks steep considering the lack of appetite for fresh investment by the private sector in the last few years. In</p><p>fact, this factor has been a major drag on economic growth. Given the scale of investment, debt will play an important role and it remains to be seen if banks</p><p>have gotten over their apprehensions on infrastructure financing as a major part of their bad loans originated there. Finally, cooperation from States</p><p>becomes very important in implementing infrastructure projects. The experience on this count has not been very happy till now. While these are genuine</p><p>obstacles that the task force needs to manage, these should not detract from the need for a concerted effort to invest in infrastructure. The key will be</p><p>following up and reviewing the pipeline at regular intervals.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "84ac4de5-b233-49bf-a2fc-989115d23729",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Right now, the concern is about banks not lowering their lending rates fast enough, _______________ the repo rate has been coming down.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>because</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>since</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>although</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>from</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a13fcfea-2aa8-46bf-bef2-f8558b16a7a6",
+                    "questionID": "84ac4de5-b233-49bf-a2fc-989115d23729",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:C</strong></p><p><br></p><p>Carefully studying the sentence fragments before and after</p><p>the blank, it can be concluded that they should be joined by a conjunction</p><p>which means in spite of the fact that. The conjunction ‘although’ makes the</p><p>sentence both grammatically and contextually correct. Option C is hence the</p><p>correct option.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "829c897c-4af3-4f9c-8e90-b244e0ca06de",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>It will make a bad economic situation marginally _______________ and, perhaps, even create a black market in certain articles. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>good</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>worse</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>better</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>weaker</p>",
+                    "type": "D"
+                },
+                {
+                    "body": "<p>stronger</p>",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3f3a0685-7697-4829-844e-468e6dbabe92",
+                    "questionID": "829c897c-4af3-4f9c-8e90-b244e0ca06de",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B</strong></p><p><br></p><p>The presence of a ‘bad economic situation’ indicates that</p><p>the statement has a negative tone. Further, the word ‘marginally’ before the</p><p>blank indicates that the answer should be in comparative form. The word ‘worse’</p><p>makes the sentence both grammatically and contextually correct . Option B is</p><p>hence the correct option</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3730d74a-5597-41eb-88bf-534d2828c109",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The positions of two of these words may be incorrect and need to be exchanged to make the sentence correct. Find the two words which need to be exchanged. </p><p>Over the last 25 years, psychologists have found that personalities (1) <u>varying</u> around five basic (2) <u>openness</u>, dubbed the Big Five; everyone can be described as having (3)<u> coalesce </u>levels of agreeableness, conscientiousness, neuroticism, extroversion and (4) <u>traits</u> to experience. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>1-2 and 3-4 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1-3 and 2-4 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1-3</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1-2</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0399b48f-1e11-4b73-9571-4c2193c6d808",
+                    "questionID": "3730d74a-5597-41eb-88bf-534d2828c109",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANSWER:B</strong></p><p><br></p><p>The usage of ‘varying’ and ‘coalesce’ is erroneous. Their</p><p>usage would be correct if they are interchanged. Similarly, the usage of</p><p>‘openness’ and ‘traits’ is also erroneous. Their usage would be correct if they</p><p>are interchanged. Over the last 25 years, psychologists have found that</p><p>personalities coalesce around five basic traits, dubbed the Big Five; everyone</p><p>can be described as having varying levels of agreeableness, conscientiousness,</p><p>neuroticism, extroversion and openness to experience. Hence, option B is the</p><p>correct answer.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "111e8a44-4ab5-4e1a-8d61-bff49f9f8054",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Single-use plastic refers to the entire class of items that are used once and then _______________ of. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>thought</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>excluded</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>abandoned</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>disposed</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "verbal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "24c52db6-f89e-4311-9e46-32dfe2d465b4",
+                    "questionID": "111e8a44-4ab5-4e1a-8d61-bff49f9f8054",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:D</strong></p><p><br></p><p>The presence of the preposition ‘of’ after the</p><p>blank eliminates options B, C and E. Option A is contextually incorrect.</p><p>‘Disposed of’ makes the sentence correct both grammatically and contextually.</p><p>Option D is hence the correct option</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a6d1e983-f071-43e2-aff3-62be6a682709",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A and B are cycling on a circular track of radius 441m. The speeds of A and B are in the ratio 7:4, and A alone can complete one round of the track in 99 seconds. A starts from a point P in clockwise direction and B starts from point Q in anti-clockwise direction and they meet after 55 seconds at point R. What is the length of the minor arc PQ on the track?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>172 m </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">168 m </span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p><span style=\"color: rgba(0, 0, 0, 0.9);\">176 m </span></p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>352 m</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "18d54627-fbf6-4e97-b1ad-9117050fb0a6",
+                    "questionID": "a6d1e983-f071-43e2-aff3-62be6a682709",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Length of the track = 2 × 22/7 × 441 = 2772m </p><p><br></p><p>&nbsp;A completes one round</p><p>in 99 seconds So, speed of A = 2772/99 = 28 m/sec&nbsp; </p><p><br></p><p>Ratio of speed of A : B = 7 : 4 So, speed of B = 16 m/s As</p><p>they run towards each other, their relative speed will be (28 + 16) = 44 m/s</p><p>They meet after 55 sec The distance covered by them in these 55 seconds = 44 ×</p><p>55 = 2420 m So, the length of major arc PRQ = 2420 m and therefore length of</p><p>minor arc PQ = (2772 – 2420) = 352 m Hence, option D is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f72a67f-8d97-472b-a7ed-b3eed81ba97c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A father distributed some chocolates among his four children and kept some with him. The eldest three children got chocolates in the ratio 3 : 11 : 7. The total number of chocolates with father and youngest child is three times the total chocolates with the three eldest children. The ratio of chocolates with father and that with all the children is 3 : 4. Find the total number of chocolates if the youngest child has 81 chocolates with him? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>273</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>252</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>278</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>303</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "39bdc74d-f50a-46a4-a42c-14791056a8a9",
+                    "questionID": "1f72a67f-8d97-472b-a7ed-b3eed81ba97c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B</strong></p><p><br></p><p>Let the children be P, Q, R and S and Father be F Chocolates</p><p>with P : Q : R= 3 : 7 : 11 Let the number of chocolates be 3k, 7k and 11k Total</p><p>chocolates with three eldest children = 21k Chocolate with F and S = 3 × 21k =</p><p>63k Total chocolates = (21k + 63k) = 84k Chocolate with F : (P + Q + R + S) = 3</p><p>: 4 Total 7 units of chocolate = 84 k 1 unit = 12k Chocolate with F = 3 × 12k =</p><p>36k Chocolate with S = (63k – 36k) = 27k 27 k = 81 → k=3 Total number of</p><p>chocolates = 84k = 84 × 3 = 252 Hence, option B is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba6e1e0d-9c22-4869-a86f-f1a34e8a9625",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Three children took part in racing competition in their school with their respective probabilities to reach the finishing point being 1/3, 1/5 and 1/4 respectively. What is the probability that at least one of them will finish the race? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>𝟐/ 𝟓 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>3/ 𝟓 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1/ 𝟓 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1/ 4</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "fd19cf71-c615-4850-b6a5-c63e0ff8d552",
+                    "questionID": "ba6e1e0d-9c22-4869-a86f-f1a34e8a9625",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B</strong></p><p><br></p><p>Let the names of children be x, y and</p><p>z. The probabilities of the three children to finish the race are 1/3, 1/5 and</p><p>1/4 respectively. It may be noted that one reaching the finishing point is</p><p>independent of other reaching. If P(x), P(y) and P(z) denotes the</p><p>probabilities. The probability of at least one of them reaching the finishing</p><p>point = 1 – P (none of them finishing the race)</p><p>&nbsp;= 1 – ( 2/3 )( 4/5 )( 3/4 ) = 3/ 5</p><p><br></p><p>&nbsp;Hence, option B is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b233af1c-8fd1-4b7f-95f9-b474112c8730",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A child paints the six faces of a cube with six different colors red, blue, pink, yellow, green and orange. What is the probability that red, pink and blue faces share a common corner? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>𝟏/ 𝟔 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>𝟏/ 20</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>𝟏/ 𝟏𝟎 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>𝟏/ 5</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "45fea864-f13c-44ba-a122-032619451629",
+                    "questionID": "b233af1c-8fd1-4b7f-95f9-b474112c8730",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:D</strong></p><p><br></p><p>We fix the red face and to its left</p><p>pink face and bottom face as blue The number of ways to arrange the other three</p><p>colors = 3! Total ways of painting the six colors First we fix any one color on</p><p>any one face, let’s say red color. The number of ways five color can be painted</p><p>= 5!</p><p>Eliminating the repeated possibilities</p><p>= 5!/4 = 5 × 3! </p><p><br></p><p>We divide by four to eliminate the</p><p>repeated possibilities as shown in the figure below. These possibilities are</p><p>counted as different but don’t give us a different arrangement. The arrangement</p><p>in all four is same. </p><p>Probability (Red, pink and blue share</p><p>a common corner)= 3!/ 5 × 3!= 1 /5</p><p><br></p><p>&nbsp;Hence, option D is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "641eeb55-5a8a-4f6b-9b16-800e893af112",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Ram went to a shop to buy some Cosco and Plastic balls. Cosco balls cost Rs 300 each while Plastic balls cost Rs.400 each. Ram spent a total</p><p>of Rs.3600 on the balls. If he had bought as many Plastic balls as the number of Cosco balls he actually bought and vice versa, he would have saved an amount equal to half the cost of one ball of one of the two types. Find the total number of balls he actually bought. </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>15</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>20</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>25</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f1f8663f-266b-4a22-8be2-03fe47f4fa9d",
+                    "questionID": "641eeb55-5a8a-4f6b-9b16-800e893af112",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Let Ram buy x Cosco balls and y Plastic balls.</p><p><br></p><p>Given: 300x + 400y = 3600 …(1) and if x and y are swapped, the cost difference</p><p>is ₹200 (half of ₹400).</p><p><br></p><p>So, 100(y − x) = 200 → y − x = 2 → y = x + 2 …(2)</p><p><br></p><p>Substitute into (1): 300x + 400(x + 2) = 3600 → 700x = 2800 → x = 4, y = 6</p><p><br></p><p>Total balls = x + y = <strong>10</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3d26e3df-a340-4783-b9ed-d2a07b2ae73b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>How many litres of water should be added to a 35-litre mixture of milk and water containing milk and water in the ratio of 4 : 3 such that the resultant mixture has 60% water in it?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>12</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>10</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>21</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>15</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "44fb7137-8fa4-4c77-8167-308a05a6c4d9",
+                    "questionID": "3d26e3df-a340-4783-b9ed-d2a07b2ae73b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:</strong></p><p><br></p><p>The quantity of milk in the mixture =</p><p>35 × (4/7) = 20 litres </p><p><br></p><p>&nbsp;The quantity of water in the mixture = 35 – 20</p><p>= 15 litres </p><p><br></p><p>Now, let the quantity of water added</p><p>to the mixture be x litres. Then water becomes 60% of the total quantity of</p><p>mixture. </p><p>∴ Required % of water in mixture</p><p><br></p><p>&nbsp;= Total quantity of water /Total quantity of</p><p>mixture= 60%</p><p><br></p><p>(15 + x) / (35 + x )= 3/5 </p><p><br></p><p>⇒ 75 + 5x = 105 + 3x </p><p><br></p><p>⇒ 2x = 30 </p><p><br></p><p>∴ x = 15 litres.</p><p><br></p><p>&nbsp;Hence, option D is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "470dad82-6205-45de-9c5b-ba1a4da5331c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A solution of ‘THANDA SHARBAT’ has 15% sugar. Another solution has 5% sugar. How many liters’ of the second solution must be added to the 20L of first solution to make a solution of 10 % sugar? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>10L</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>5L</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>15L</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>20L</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "c6617a33-c205-4a6f-a4bf-55bd7c16d862",
+                    "questionID": "470dad82-6205-45de-9c5b-ba1a4da5331c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:D</strong></p><p><br></p><p>Let required</p><p>amount of second solution to be added = a L </p><p><br></p><p>Then (15 ×</p><p>20 + 5a) /(20 + a ) = 10 </p><p><br></p><p>⇒ 300 + 5a = 200 + 10a </p><p><br></p><p>⇒ 5a = 100 </p><p><br></p><p>⇒ a = 20 </p><p><br></p><p>Hence,</p><p>option (D) is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "777b252c-a94d-4c2e-800a-e75081c144e2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>A man saves Rs.20,000 at the beginning of each year and puts the money in a bank that pays 10% interest per year, interest being compounded annually. What would be the total savings of the man at the end of 6 years?</p><p>&nbsp;</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Rs. 196840 </p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Rs. 169840 </p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Rs. 189480 </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Rs. 199480</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2730155c-c36a-4937-b709-cead2b154df8",
+                    "questionID": "777b252c-a94d-4c2e-800a-e75081c144e2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>ANS:B&nbsp; </strong></p><p><br></p><p>The first</p><p>Rs. 20000 would become 20000(1.1)6 after 6 years, the second will become</p><p>20000(1.1)5 .the third will become 20000 (1.1)4 , the fourth will become 20000</p><p>(1.1)3 , the fifth will become 20000(1.1)2 and the sixth will become 20000</p><p>(1.1). Total amount = 20000 [(1.1) + (1.1)2 + (1.1)3 + (1.1)4 + (1.1)5 + (1.1)6</p><p>]</p><p>Hence,</p><p>option B is correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "42caf3e6-25c0-4f8b-8d54-c690a4955ecc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(51, 51, 51);\">In CAT 2007 there were 75 questions. Each correct answer was rewarded by 4 marks and each wrong answer was penalized by 1 mark. In how many different combination of correct and wrong answer is a score of 50 possible?</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>14</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>15</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>16</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p><span style=\"color: rgb(51, 51, 51);\">None of these</span></p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "30162f19-11ed-445f-a529-801e0d224497",
+                    "questionID": "42caf3e6-25c0-4f8b-8d54-c690a4955ecc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: rgb(51, 51, 51);\">Correct (c) + Wrong (w) + Not</span></p><p><span style=\"color: rgb(51, 51, 51);\">attempted (n) = 75</span></p><p><br></p><p><br></p><p><br></p><p><span style=\"color: rgb(51, 51, 51);\">4c –</span></p><p><span style=\"color: rgb(51, 51, 51);\">w + 0n= 50</span></p><p><br></p><p><span style=\"color: rgb(51, 51, 51);\">Adding</span></p><p><span style=\"color: rgb(51, 51, 51);\">the two equations we get</span></p><p><br></p><p><span style=\"color: rgb(51, 51, 51);\">5c + n = 125</span></p><p><br></p><p><span style=\"color: rgb(51, 51, 51);\">Values of both c &amp; n will be whole numbers</span></p><p><span style=\"color: rgb(51, 51, 51);\">in the range [0, 50]</span></p><p><br></p><p><span style=\"color: rgb(51, 51, 51);\">c (max) = 25; when n = 0</span></p><p><br></p><p><span style=\"color: rgb(51, 51, 51);\">c (min) = 13; when n = 60 {Smallest value of ‘c’</span></p><p><span style=\"color: rgb(51, 51, 51);\">which will take the marks from correct questions greater than or equal to 50}</span></p><p><br></p><p><span style=\"color: rgb(51, 51, 51);\">No. of valid combinations will be for all value</span></p><p><span style=\"color: rgb(51, 51, 51);\">of ‘c’ from 13 to 25 =&nbsp;</span><strong style=\"color: rgb(51, 51, 51);\">13</strong></p><p><strong style=\"color: rgb(51, 51, 51);\">Option D</strong></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b61b4cd4-0ef7-4537-a468-c35e4c885f62",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The ages of two persons differ by 16 years. Six years ago, the elder was three times as old as the younger. What are their present ages?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>30 years and 14 years</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>28 years and 12 years</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>32 years and 16 years</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>36 years and 20 years</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "quant"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "57dd32e4-80fd-4e14-9d73-feadb61f66cc",
+                    "questionID": "b61b4cd4-0ef7-4537-a468-c35e4c885f62",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Sol. <strong>A</strong> </p><p><br></p><p>Let the age</p><p>of the younger person be x years.&nbsp; Then,</p><p>age of the elder person = (x + 16) years.&nbsp;</p><p>:. 3 (x - 6) = (x + 16 - 6)  3x -18 = x + 10  2x = 28 x = 14.&nbsp; Hence, their present ages are 14 years and 30</p><p>years.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a05596cc-bfe9-40b7-bb08-62335921da3f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In each question given below are given three statements followed by four conclusions numbered (I), (II), (III), and (IV). You have to take the given statements to be true even if they seem to be at variance with commonly known facts and judge the conclusions on the basis of it. Choose the options based on the conclusions chosen.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "b0013cca-ed69-484e-b8b9-80f3f0840630",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>8, 12, 10, 16, 12, ______________</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>10</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>20</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>30</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>40</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1dcde35e-c144-4fa0-9a45-1015038e4bb0",
+                    "questionID": "b0013cca-ed69-484e-b8b9-80f3f0840630",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Given sequence: 8, 12, 10, 16, 12, ?</p><p><br></p><p>Odd positions: 8, 10, 12 → increasing by 2  </p><p>Even positions: 12, 16 → increasing by 4  </p><p><br></p><p>Next even position: 16 + 4 = 20</p><p><br></p><p>So, the missing number is 20.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dc8aa43b-a474-48ad-9121-34e92dd9d7da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>In a class, there are 36 very tall boys. If these constitute three-fourths of the boys and the total number of boys is two-thirds of the total number of students</p><p>in the class, what is the total number of girls in the class? </p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>36</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>72</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>24</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>48</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "20e32856-71c0-4263-83bb-12a045a3c46e",
+                    "questionID": "dc8aa43b-a474-48ad-9121-34e92dd9d7da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Given number of tall boys = 36 Let the</p><p>number of boys be x, Now, according to the question, 3x/4 = 36 X = (36 X 4)/3 =</p><p>48 Total number of students = (48 X 3)/2 = 72 Now, the total number of girls =</p><p>72 - 48 = 24 Hence, the correct answer is option C</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a8386637-08bf-4abd-b39a-5f05c283f5ab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If CLOUD is coded as DMPVE, how is SUN coded?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>TVO</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>TVP</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>UVO</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>TWP</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2a4f1047-1ccd-4153-9c72-9d7ed04ee623",
+                    "questionID": "a8386637-08bf-4abd-b39a-5f05c283f5ab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Answer: A Solution:</p><p>Each letter is shifted forward by 1</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b244beb9-3d78-4af3-a4c9-a872d3cab751",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>If a clock gains 5 minutes every hour, how much will it gain in a day?</p><p><br></p><p><br></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>2 hours</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>1 hour</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>1 hr 20 min</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>1 hr 30 min</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "e968cc14-787b-4afc-b8e5-16ff26b7f7e0",
+                    "questionID": "b244beb9-3d78-4af3-a4c9-a872d3cab751",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Answer: A</p><p><br></p><p>Solution:</p><p><br></p><p>5 min/hour × 24 hours = 120 min = 2 hours.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d9f97244-db38-444c-9eec-9d06d9aaa29f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>On 8<sup>th</sup>&nbsp;Feb, 2005 it was Tuesday. What was the day of the week on 8<sup>th</sup>&nbsp;Feb, 2004?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p><span style=\"color: black;\">Tuesday</span></p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p><span style=\"color: black;\">Monday</span></p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Sunday</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Friday</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "773d99cf-c9bc-4239-86ec-d4483c1d99ab",
+                    "questionID": "d9f97244-db38-444c-9eec-9d06d9aaa29f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span style=\"color: black;\">Answer:C</span></p><p><br></p><p><span style=\"color: black;\">From 8th Feb 2004 to 8th Feb 2005 is</span></p><p><span style=\"color: black;\">exactly 1 year.</span></p><p><br></p><p><span style=\"color: black;\">2004 was a </span><strong style=\"color: black;\">leap</strong></p><p><strong>year</strong><span style=\"color: black;\">, so it had </span><strong style=\"color: black;\">2 odd days</strong><span style=\"color: black;\">.</span></p><p><br></p><p>Going 2 days back from Tuesday gives: Monday → Sunday <span style=\"color: black;\">.</span></p><p>&nbsp;</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "790ade47-e326-43ca-ad10-5d762bb2c875",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Study the following information carefully and answer the questions given beside.</p><p><br></p><p>&nbsp;'A @ B' means 'A is the son of B.</p><p><br></p><p>' 'A * B'&nbsp;&nbsp; means 'B is the sister of A.</p><p><br></p><p>' 'A # B'&nbsp; means 'A is the husband of B.</p><p><br></p><p>' 'A / B'&nbsp;&nbsp; means 'A is the father of B.</p><p><br></p><p>' 'A $ B'&nbsp; means 'B is the brother of A.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Logical"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": null,
+            "solution": []
+        }
+    ]
+}

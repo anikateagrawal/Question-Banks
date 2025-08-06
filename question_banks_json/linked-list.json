@@ -1,0 +1,686 @@
+{
+    "bank_id": "ebff0ecd-cfd5-4a37-9270-ac6727a6049c",
+    "bank_name": "linked-list",
+    "questions": [
+        {
+            "id": "b4d6e76e-ec08-4430-b758-5c0cce3f44f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In circular doubly linked list, the previous of head points to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "NULL",
+                    "type": "A"
+                },
+                {
+                    "body": "First node",
+                    "type": "B"
+                },
+                {
+                    "body": "Last node",
+                    "type": "C"
+                },
+                {
+                    "body": "Next node",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "96acffa0-ce90-4f0e-aa06-9fa042267252",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a major drawback of circular linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Insertion is hard",
+                    "type": "A"
+                },
+                {
+                    "body": "Deletion is slow",
+                    "type": "B"
+                },
+                {
+                    "body": "Hard to detect end",
+                    "type": "C"
+                },
+                {
+                    "body": "Can&#39;t add new nodes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "e31a2d72-8833-4f36-ac7f-8362583cceb9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you stop infinite traversal in a circular linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Count nodes",
+                    "type": "A"
+                },
+                {
+                    "body": "Use sentinel node",
+                    "type": "B"
+                },
+                {
+                    "body": "Check if current == head",
+                    "type": "C"
+                },
+                {
+                    "body": "Use NULL check",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "e7113911-5da8-4908-bccc-a2dee9019580",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is an advantage of circular linked list over linear list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Requires less space",
+                    "type": "A"
+                },
+                {
+                    "body": "Avoids NULL",
+                    "type": "B"
+                },
+                {
+                    "body": "Easily loops through list",
+                    "type": "C"
+                },
+                {
+                    "body": "Better memory access",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "ebcb97eb-9815-4d31-969c-dbd8f5f26487",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which condition identifies a circular list during traversal",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Next is NULL",
+                    "type": "A"
+                },
+                {
+                    "body": "Next is -1",
+                    "type": "B"
+                },
+                {
+                    "body": "Next is Head again",
+                    "type": "C"
+                },
+                {
+                    "body": "Memory overflow",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "a59ae827-8bf6-4ac4-b292-d778f3f6d6cb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a circular singly linked list, the last node points to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Itself",
+                    "type": "A"
+                },
+                {
+                    "body": "NULL",
+                    "type": "B"
+                },
+                {
+                    "body": "Head",
+                    "type": "C"
+                },
+                {
+                    "body": "Next node",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "73529cdc-1411-4a65-a1b6-e1fac8521bba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which application uses doubly linked lists",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Undo-redo systems",
+                    "type": "A"
+                },
+                {
+                    "body": "Stack",
+                    "type": "B"
+                },
+                {
+                    "body": "Matrix multiplication",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting arrays",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "7c644a19-a272-43a3-af81-1e17b408ce42",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is required to reverse a doubly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Change next pointers",
+                    "type": "A"
+                },
+                {
+                    "body": "Change previous pointers",
+                    "type": "B"
+                },
+                {
+                    "body": "Swap both next and previous",
+                    "type": "C"
+                },
+                {
+                    "body": "Only change data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "15e69970-d2d1-4ad8-8272-1079279a29f6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which direction can you traverse in a doubly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only forward",
+                    "type": "A"
+                },
+                {
+                    "body": "Only backward",
+                    "type": "B"
+                },
+                {
+                    "body": "Both",
+                    "type": "C"
+                },
+                {
+                    "body": "Neither",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "f0d4a134-420d-4215-aac2-8b25aa0d1797",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which is more efficient for deletion — singly or doubly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Singly",
+                    "type": "A"
+                },
+                {
+                    "body": "Doubly",
+                    "type": "B"
+                },
+                {
+                    "body": "Same",
+                    "type": "C"
+                },
+                {
+                    "body": "Array",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "f8169218-3706-4514-a17a-964cbb64172e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Each node in a doubly linked list contains",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "One pointer",
+                    "type": "A"
+                },
+                {
+                    "body": "Two pointers",
+                    "type": "B"
+                },
+                {
+                    "body": "Three pointers",
+                    "type": "C"
+                },
+                {
+                    "body": "No pointer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "43663a1f-65e4-4b9c-b92f-f25cf1f2dde5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity for deletion in a doubly linked list (given the node)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(1)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "70029b38-75e8-4356-8aa5-78405938c295",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is not true for singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Each node contains data and next pointer",
+                    "type": "A"
+                },
+                {
+                    "body": "Deletion is easy at head",
+                    "type": "B"
+                },
+                {
+                    "body": "Random access is efficient",
+                    "type": "C"
+                },
+                {
+                    "body": "Traversal is one-directional",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "01aa751f-8e13-4116-9ec3-4fa6bf45de7f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Deleting the head node in a singly linked list requires",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Changing last pointer",
+                    "type": "A"
+                },
+                {
+                    "body": "Changing next of head",
+                    "type": "B"
+                },
+                {
+                    "body": "Reassigning head",
+                    "type": "C"
+                },
+                {
+                    "body": "Traversing entire list",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "434e4b7f-c45d-4b3e-b0e0-35d43f92160a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the minimum number of pointers required in a node of a singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "0",
+                    "type": "A"
+                },
+                {
+                    "body": "1",
+                    "type": "B"
+                },
+                {
+                    "body": "2",
+                    "type": "C"
+                },
+                {
+                    "body": "3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "582ea6fc-6913-459a-9eef-53efc7e8e9ce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following can’t be implemented using singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stack",
+                    "type": "A"
+                },
+                {
+                    "body": "Queue",
+                    "type": "B"
+                },
+                {
+                    "body": "Tree",
+                    "type": "C"
+                },
+                {
+                    "body": "Binary Search in O(log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "499061a2-74d4-4cfc-9607-a8428f917619",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which operation takes the longest time in a singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Insertion at start",
+                    "type": "A"
+                },
+                {
+                    "body": "Insertion at end",
+                    "type": "B"
+                },
+                {
+                    "body": "Traversal",
+                    "type": "C"
+                },
+                {
+                    "body": "Insertion in middle",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "4b4a5d79-2b79-4e32-92c8-c7a33bd834cb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens when you traverse a singly linked list beyond the last node",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It loops back",
+                    "type": "A"
+                },
+                {
+                    "body": "Causes segmentation fault",
+                    "type": "B"
+                },
+                {
+                    "body": "Returns to first node",
+                    "type": "C"
+                },
+                {
+                    "body": "Becomes doubly linked",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "db6f3075-81c5-4adf-a7e6-12343f3e9609",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a singly linked list, which node’s link is set to NULL",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "First node",
+                    "type": "A"
+                },
+                {
+                    "body": "Middle node",
+                    "type": "B"
+                },
+                {
+                    "body": "Last node",
+                    "type": "C"
+                },
+                {
+                    "body": "None",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "3aba9aa2-cdbd-48d4-8a1b-f0d4fd6565b5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity to insert a node at the beginning of a singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Our own"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        }
+    ]
+}

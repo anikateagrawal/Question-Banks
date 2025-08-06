@@ -1,0 +1,1117 @@
+{
+    "bank_id": "1937168e-c811-4d22-a983-ee6c8ce970fe",
+    "bank_name": "qva set 2",
+    "questions": [
+        {
+            "id": "cb1b7158-8bc4-471a-a08a-3621ff85d30a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How often do the hands of a clock coincide in a day",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "11",
+                    "type": "A"
+                },
+                {
+                    "body": "22",
+                    "type": "B"
+                },
+                {
+                    "body": "24",
+                    "type": "C"
+                },
+                {
+                    "body": " 44",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Clock"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "023ff696-699c-45f7-ab70-1bd1b55f7767",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "At 10:15, what is the angle between the hour and minute hands",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "172.5�",
+                    "type": "A"
+                },
+                {
+                    "body": "180�",
+                    "type": "B"
+                },
+                {
+                    "body": "175�",
+                    "type": "C"
+                },
+                {
+                    "body": "NOTA",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Clock"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "249288c4-4165-4e47-9c7b-8e7c0263135b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "On 8th Feb, 2005 it was Tuesday. What was the day of the week on 8th Feb, 2004",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Tuesday",
+                    "type": "A"
+                },
+                {
+                    "body": "Monday",
+                    "type": "B"
+                },
+                {
+                    "body": "Sunday",
+                    "type": "C"
+                },
+                {
+                    "body": "Wednesday",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Calendar"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "51cae77b-ae3a-4b0d-af6a-afee3af34402",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The last day of a century cannot be",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Monday",
+                    "type": "A"
+                },
+                {
+                    "body": "Wednesday",
+                    "type": "B"
+                },
+                {
+                    "body": "Tuesday",
+                    "type": "C"
+                },
+                {
+                    "body": "Friday",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Calendar"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "b9c7c5a2-c3b2-4a6d-8175-f0b7955b7bb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A man walks 10 m towards North, then turns left and walks 6 m. Then he turns right and walks 8 m. What is his distance from the starting point",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "10 m",
+                    "type": "A"
+                },
+                {
+                    "body": "12 m",
+                    "type": "B"
+                },
+                {
+                    "body": "14 m",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "c5b85edc-d872-47b7-a908-df6d37e1c8f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If Sun rises in the East, a shadow will fall towards:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "East",
+                    "type": "A"
+                },
+                {
+                    "body": "West",
+                    "type": "B"
+                },
+                {
+                    "body": "North",
+                    "type": "C"
+                },
+                {
+                    "body": "South",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "73d10587-e4f2-40be-88f1-60f98e21c7bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Statement:  \nT &lt; D &gt; G, P &lt; F = T\nConclusion:  \nI. P &lt; G \nII. G &gt; T",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only I follow",
+                    "type": "A"
+                },
+                {
+                    "body": "Only II follow",
+                    "type": "B"
+                },
+                {
+                    "body": "Both I and II follow",
+                    "type": "C"
+                },
+                {
+                    "body": "Either I or II follow",
+                    "type": "D"
+                },
+                {
+                    "body": " Neither I nor II follows",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "satatement and conclusion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": []
+        },
+        {
+            "id": "4b478b97-dc2b-409a-8810-6be54239ba82",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the question, assuming the given statements to be true, find which of the conclusions among given two conclusions is/are definitely true, and then give your answer according to it. \nStatement: \nC = T ? V ? U\nConclusion:\nI. C &gt; U\nII. T = U",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Only conclusion I follow ",
+                    "type": "A"
+                },
+                {
+                    "body": "Either conclusion I or II follow ",
+                    "type": "B"
+                },
+                {
+                    "body": "Only conclusion II follow",
+                    "type": "C"
+                },
+                {
+                    "body": "None Follows ",
+                    "type": "D"
+                },
+                {
+                    "body": "Both conclusion I and II follow",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "satatement and conclusion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "23f82d7c-6513-4614-b3f7-6000bc090f98",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following �colour of tie-companyperson� combinations is correct",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Green-R-Nilesh ",
+                    "type": "A"
+                },
+                {
+                    "body": "Brown-S-Lokesh ",
+                    "type": "B"
+                },
+                {
+                    "body": "Red-T-Dinesh ",
+                    "type": "C"
+                },
+                {
+                    "body": "Yellow-R-Shailesh",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Passage"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "f9ac698b-56fc-4376-9c44-217622f025b7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions 1 to 2: \nRead the following passage and solve the questions based on it. \nSix men�Rajesh, Dinesh, Lokesh, Nilesh, Shailesh and Himesh work in different companies,  namely, P, Q, R, S, T and U, and each one wears a company-sponsored different coloured tie, i.e., Brown, Green, Pink, Yellow, Purple and Red, though not necessarily in the same order. \n(ii) The one wearing a Brown tie works in company S and the one wearing a Green tie works in company P.\n (iii) Himesh does not work in company R or T.\n (iv) Rajesh wears a Pink tie and works in company Q. \n(v) Nilesh does not work in company T and a purple colour tie is not given by the company R. (vi) Shailesh works in company U and neither Nilesh nor Dinesh works in the company S.\n(vii) Company T does not sponsor Purple or Yellow coloured ties and Lokesh works in company P. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which colour tie is given by the Company R",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Cannot be determined  ",
+                    "type": "A"
+                },
+                {
+                    "body": "Brown ",
+                    "type": "B"
+                },
+                {
+                    "body": "Green ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Passage"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "0eb4136a-ebd1-48c8-b8e6-51c20bf10481",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Each student of class 10 contributed some money for a picnic .The money contributed by each student was equal to the cube of the total number of students. If the total collected amount was 29791, then find the total number of students.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "15    ",
+                    "type": "A"
+                },
+                {
+                    "body": "27    ",
+                    "type": "B"
+                },
+                {
+                    "body": " 31    ",
+                    "type": "C"
+                },
+                {
+                    "body": "34",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "combinations"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "90520a0f-b8f7-42cd-915c-31313b5fcdae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the least number to be added to 8200 to make it a perfect square",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "81 ",
+                    "type": "A"
+                },
+                {
+                    "body": "100",
+                    "type": "B"
+                },
+                {
+                    "body": "264 ",
+                    "type": "C"
+                },
+                {
+                    "body": "154",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "probabilit"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "e818c0c1-fef9-4442-85d2-cb51234eaffe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A seller uses 920 g in place of one kg to sell his goods. When he sells his article at 15% gain on cost price, the actual percentage of profit is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "20%      ",
+                    "type": "A"
+                },
+                {
+                    "body": "15%     ",
+                    "type": "B"
+                },
+                {
+                    "body": "25%     ",
+                    "type": "C"
+                },
+                {
+                    "body": " 30%",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Profit and Loss"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "aa471926-6060-431d-afd4-8fca1fe62408",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a certain school, the ratio of boys to girls is 7 : 5. If there are 2400 students in the school, then how many girls are there in the school",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "500        ",
+                    "type": "A"
+                },
+                {
+                    "body": "700       ",
+                    "type": "B"
+                },
+                {
+                    "body": "800      ",
+                    "type": "C"
+                },
+                {
+                    "body": "1000",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Ratio"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        },
+        {
+            "id": "d13e8311-971c-4474-9f01-cb3db5bf8d0d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A and B together can do a piece of work in 12 days, while B alone can finish it in 30 days. A alone can finish the work in",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "15 days            ",
+                    "type": "A"
+                },
+                {
+                    "body": "18 days           ",
+                    "type": "B"
+                },
+                {
+                    "body": "20 days            ",
+                    "type": "C"
+                },
+                {
+                    "body": "25 days",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time and works"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "05a63bb4-7768-4a0f-b8b4-d8acc9355e9b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two cars are moving in the same direction with their respective speeds of 9km/h and 5km/h. Find the relative speed of 1st car with respect of 2nd.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 km/h     ",
+                    "type": "A"
+                },
+                {
+                    "body": "4 km/h    ",
+                    "type": "B"
+                },
+                {
+                    "body": "8 km/h     ",
+                    "type": "C"
+                },
+                {
+                    "body": "6 km/h",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "speeds"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "819763e4-d3d7-4097-98f3-f36c9d1d4bb1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two stations P and Q are at a distance of 160 km. Two trains start moving from P and Q to Q and P respectively and meet each other after 4 h. If speed of the train strating from P is more than that of other train by 6 km/h, then find the speeds of both the trains, respectively.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "19 km/h, 13 km/h",
+                    "type": "A"
+                },
+                {
+                    "body": "13 km/h, 9 km/h ",
+                    "type": "B"
+                },
+                {
+                    "body": "17 km/h, 23 km/h",
+                    "type": "C"
+                },
+                {
+                    "body": "16 km/h, 10 km/h",
+                    "type": "D"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "speeds"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "1fe7f699-4105-4eac-977d-e6435f284de1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Two stations A and B, 100 km far away to each other. Two trains starts at the same time from station A and station B. The train starts from station A is running with the speed of 50 km/h to station B. The train starts from station B is running with the speed of 75 km/h to station A. At what distance both the trains meet with each other from station A",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "40 km    ",
+                    "type": "A"
+                },
+                {
+                    "body": "20 km   ",
+                    "type": "B"
+                },
+                {
+                    "body": "30 km   ",
+                    "type": "C"
+                },
+                {
+                    "body": "None of these",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "speeds"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "ecdde6ff-624b-4ec7-93a9-b8ea6f067d7c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A boat running upstream takes 528 min to cover a certain distance, while it takes 240 min to cover the samedistancerunningdownstream.Whatistheratiobetweenthespeedoftheboatandspeedofthewater current, respectively",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 : 1     ",
+                    "type": "A"
+                },
+                {
+                    "body": "3 : 2    ",
+                    "type": "B"
+                },
+                {
+                    "body": "8 : 3   ",
+                    "type": "C"
+                },
+                {
+                    "body": "Couldn&#39;t be determined",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "speeds"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "08d1108f-6bd7-4cc2-b1d6-62e1c1988b80",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a race of 150 m,A gives B a start of 20 m. What distance will be covered by B",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "100 m   ",
+                    "type": "A"
+                },
+                {
+                    "body": "130 m   ",
+                    "type": "B"
+                },
+                {
+                    "body": "170 m    ",
+                    "type": "C"
+                },
+                {
+                    "body": "160 m",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "speeds"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "5de585e3-4dd7-4c34-a48d-d45f599cd2bf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions: Some words have been given below along with a statement where they have been used in a certain context. You have to find the word from the options which is the most opposite to the given context and mark that as your answer. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "ANTAGONIZE: Canada has decided to not antagonize India in spite of its dismal human rights record.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Placate   ",
+                    "type": "A"
+                },
+                {
+                    "body": "Estrange   ",
+                    "type": "B"
+                },
+                {
+                    "body": "Hostile   ",
+                    "type": "C"
+                },
+                {
+                    "body": "Provoke   ",
+                    "type": "D"
+                },
+                {
+                    "body": "All are incorrect",
+                    "type": "E"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "f8decc5d-cad7-4ca4-b86d-b2255492a5a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions: Some words have been given below along with a statement where they have been used in a certain context. You have to find the word from the options which is the most opposite to the given context and mark that as your answer. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "INADVERTENT: The company argued the breach was inadvertent and it was unaware of the court order when the automatically generated email went out.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Unintended   ",
+                    "type": "A"
+                },
+                {
+                    "body": "Deliberate   ",
+                    "type": "B"
+                },
+                {
+                    "body": "Unpremeditated   ",
+                    "type": "C"
+                },
+                {
+                    "body": "Unwitting ",
+                    "type": "D"
+                },
+                {
+                    "body": "All are incorrect",
+                    "type": "E"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "21230af5-2834-4fad-9229-6faa23fd4c4b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which among the following is similar in meaning to the word Eclectic as used in the passage",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Single-handed ",
+                    "type": "A"
+                },
+                {
+                    "body": "Heterogeneous ",
+                    "type": "B"
+                },
+                {
+                    "body": "Laxity ",
+                    "type": "C"
+                },
+                {
+                    "body": "Lacunae ",
+                    "type": "D"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "E"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "1c47bf63-29c4-43e4-b31a-30c6330ba201",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions (4-8) : Please read the passage carefully and answer the questions that follow: There was a time when Pete Sampras�s tally of 14 Grand Slam singles titles � the last of which came at the U.S. Open in 2002 � seemed like the acme of sporting achievement in men�s tennis. Little did anybody expect that in the next 16 years, across 64 Majors, not one or two but three players would stand shoulder to shoulder with the American great. On Sunday, Novak Djokovic became that third man, defeating Argentine Juan Martin del Potro, for his third U.S. Open title at Flushing Meadows. The 31-year-old Serb has never been considered a once-in-a-generation talent, as have Roger Federer and Rafael Nadal, the ones above him in the trophy count. But nobody represents the modern-day game as well as Djokovic. He is the ultimate practitioner of the attrition-based baseline tennis, and at his best, with his supremely efficient patrolling of the court, is near invincible. Over two weeks in New York he hit this high many times over. In fact, the 95-minute second set in the final was a microcosm of Djokovic�s last two years. It was long and weary as fortunes swung back and forth. But adversity energised him, and he found a level which his opponent couldn�t match. Coming after his triumphant return at Wimbledon in July, the latest success is evidence enough that technically, tactically and physically Djokovic is back to his best. If it was about the restoration of the old order on the men�s side, it was the continuation of the new in the women�s section. There has been a first-time winner in four of the past six Grand Slam tournaments, and 20-year-old Naomi Osaka added to the eclectic mix by becoming the first Japanese to win a Major. In Serena Williams, the winner of 23 singles Slams, the most by any player in the Open Era, Osaka faced the ultimate challenge. It was also an inter-generational battle like none other. The 16-year age gap between Williams and Osaka was the second biggest in the Open Era for a women�s final, next only to Monica Seles (17) vs. Martina Navratilova (34) at the 1991 U.S. Open. To her immense credit, Osaka wasn�t awed by the stage. While growing up, she had revered Williams. After all, this is someone who chose Williams as her subject for a school essay in third grade. On Saturday she played like she knew the 36-year-old�s game like the back of her hand, absorbing everything the American threw at her, and redirecting them with much more panache. The magnitude of her achievement was nearly drowned out by the chaos in the aftermath of Williams�s tirade against the chair umpire. Yet, the manner in which Osaka, at an impressionable young age, closed out the match with a cold relentlessness showed she is here to stay.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which among the following is true regarding Naomi Osaka that made everyone believe that �she is here to stay�",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Naomi Osaka had a lot of backing from the international organizations and everybody wants her to succeed at any cost.",
+                    "type": "A"
+                },
+                {
+                    "body": "Naomi Osaka is a rare talent and the International Tennis Federation wants that she should be given all the facilities required. ",
+                    "type": "B"
+                },
+                {
+                    "body": "Naomi could keep her cool during a high voltage match against Serena Williams and could win it showing her nerves. ",
+                    "type": "C"
+                },
+                {
+                    "body": "Naomi is a special talent and she is from Asia where tennis is not given that much importance.",
+                    "type": "D"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": []
+        },
+        {
+            "id": "7fa790aa-128b-4289-989b-485bf36c4c67",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions (4-8) : Please read the passage carefully and answer the questions that follow: There was a time when Pete Sampras�s tally of 14 Grand Slam singles titles � the last of which came at the U.S. Open in 2002 � seemed like the acme of sporting achievement in men�s tennis. Little did anybody expect that in the next 16 years, across 64 Majors, not one or two but three players would stand shoulder to shoulder with the American great. On Sunday, Novak Djokovic became that third man, defeating Argentine Juan Martin del Potro, for his third U.S. Open title at Flushing Meadows. The 31-year-old Serb has never been considered a once-in-a-generation talent, as have Roger Federer and Rafael Nadal, the ones above him in the trophy count. But nobody represents the modern-day game as well as Djokovic. He is the ultimate practitioner of the attrition-based baseline tennis, and at his best, with his supremely efficient patrolling of the court, is near invincible. Over two weeks in New York he hit this high many times over. In fact, the 95-minute second set in the final was a microcosm of Djokovic�s last two years. It was long and weary as fortunes swung back and forth. But adversity energised him, and he found a level which his opponent couldn�t match. Coming after his triumphant return at Wimbledon in July, the latest success is evidence enough that technically, tactically and physically Djokovic is back to his best. If it was about the restoration of the old order on the men�s side, it was the continuation of the new in the women�s section. There has been a first-time winner in four of the past six Grand Slam tournaments, and 20-year-old Naomi Osaka added to the eclectic mix by becoming the first Japanese to win a Major. In Serena Williams, the winner of 23 singles Slams, the most by any player in the Open Era, Osaka faced the ultimate challenge. It was also an inter-generational battle like none other. The 16-year age gap between Williams and Osaka was the second biggest in the Open Era for a women�s final, next only to Monica Seles (17) vs. Martina Navratilova (34) at the 1991 U.S. Open. To her immense credit, Osaka wasn�t awed by the stage. While growing up, she had revered Williams. After all, this is someone who chose Williams as her subject for a school essay in third grade. On Saturday she played like she knew the 36-year-old�s game like the back of her hand, absorbing everything the American threw at her, and redirecting them with much more panache. The magnitude of her achievement was nearly drowned out by the chaos in the aftermath of Williams�s tirade against the chair umpire. Yet, the manner in which Osaka, at an impressionable young age, closed out the match with a cold relentlessness showed she is here to stay.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which among the following is true regarding the women�s singles final in the US Open in the year 2018",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The final carried forward the tradition that there are new talents coming up in women�s singles in most of the grand slam tournaments in the last few years. ",
+                    "type": "A"
+                },
+                {
+                    "body": "The US Open Final was the ultimate test of form for the young Naomi Osaka since she faced the biggest challenge of her life in Serena Williams.",
+                    "type": "B"
+                },
+                {
+                    "body": "The US Open Final was a battle between two generations since the age gap between the two players was second highest in the history of the tournament ",
+                    "type": "C"
+                },
+                {
+                    "body": "Both A and B",
+                    "type": "D"
+                },
+                {
+                    "body": "All A, B and C",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": []
+        },
+        {
+            "id": "55311f79-39ca-4b1f-8a99-0abd01ad960e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions (4-8) : Please read the passage carefully and answer the questions that follow: There was a time when Pete Sampras�s tally of 14 Grand Slam singles titles � the last of which came at the U.S. Open in 2002 � seemed like the acme of sporting achievement in men�s tennis. Little did anybody expect that in the next 16 years, across 64 Majors, not one or two but three players would stand shoulder to shoulder with the American great. On Sunday, Novak Djokovic became that third man, defeating Argentine Juan Martin del Potro, for his third U.S. Open title at Flushing Meadows. The 31-year-old Serb has never been considered a once-in-a-generation talent, as have Roger Federer and Rafael Nadal, the ones above him in the trophy count. But nobody represents the modern-day game as well as Djokovic. He is the ultimate practitioner of the attrition-based baseline tennis, and at his best, with his supremely efficient patrolling of the court, is near invincible. Over two weeks in New York he hit this high many times over. In fact, the 95-minute second set in the final was a microcosm of Djokovic�s last two years. It was long and weary as fortunes swung back and forth. But adversity energised him, and he found a level which his opponent couldn�t match. Coming after his triumphant return at Wimbledon in July, the latest success is evidence enough that technically, tactically and physically Djokovic is back to his best. If it was about the restoration of the old order on the men�s side, it was the continuation of the new in the women�s section. There has been a first-time winner in four of the past six Grand Slam tournaments, and 20-year-old Naomi Osaka added to the eclectic mix by becoming the first Japanese to win a Major. In Serena Williams, the winner of 23 singles Slams, the most by any player in the Open Era, Osaka faced the ultimate challenge. It was also an inter-generational battle like none other. The 16-year age gap between Williams and Osaka was the second biggest in the Open Era for a women�s final, next only to Monica Seles (17) vs. Martina Navratilova (34) at the 1991 U.S. Open. To her immense credit, Osaka wasn�t awed by the stage. While growing up, she had revered Williams. After all, this is someone who chose Williams as her subject for a school essay in third grade. On Saturday she played like she knew the 36-year-old�s game like the back of her hand, absorbing everything the American threw at her, and redirecting them with much more panache. The magnitude of her achievement was nearly drowned out by the chaos in the aftermath of Williams�s tirade against the chair umpire. Yet, the manner in which Osaka, at an impressionable young age, closed out the match with a cold relentlessness showed she is here to stay.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Why is the success of Novak Djokovic considered as his statement that he is back again in the court",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Novak Djokovic could not win many titles last year though he tried his best to win and at last lost with his injury torturing him all the time. ",
+                    "type": "A"
+                },
+                {
+                    "body": "Novak Djokovic got married last year and everybody thought that marriage would be the end of his professional tennis career. ",
+                    "type": "B"
+                },
+                {
+                    "body": "Novak did not have enough resources at his disposal to practice to stay fit for the highest level of tennis and that is why he was written off. ",
+                    "type": "C"
+                },
+                {
+                    "body": "Novak did not understand what it takes to succeed in real life and that is why he left tennis in search of the meaning of lifec. ",
+                    "type": "D"
+                },
+                {
+                    "body": "Novak tried his best but his luck has not always been with him regarding his performance though he has always made his full-fledged efforts and this victory has proved that he still has the stamina to make it big in the big stage",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "E",
+            "solution": []
+        },
+        {
+            "id": "d3e033ba-f5c1-46d4-abca-deaa52fb8132",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions (4-8) : Please read the passage carefully and answer the questions that follow: There was a time when Pete Sampras�s tally of 14 Grand Slam singles titles � the last of which came at the U.S. Open in 2002 � seemed like the acme of sporting achievement in men�s tennis. Little did anybody expect that in the next 16 years, across 64 Majors, not one or two but three players would stand shoulder to shoulder with the American great. On Sunday, Novak Djokovic became that third man, defeating Argentine Juan Martin del Potro, for his third U.S. Open title at Flushing Meadows. The 31-year-old Serb has never been considered a once-in-a-generation talent, as have Roger Federer and Rafael Nadal, the ones above him in the trophy count. But nobody represents the modern-day game as well as Djokovic. He is the ultimate practitioner of the attrition-based baseline tennis, and at his best, with his supremely efficient patrolling of the court, is near invincible. Over two weeks in New York he hit this high many times over. In fact, the 95-minute second set in the final was a microcosm of Djokovic�s last two years. It was long and weary as fortunes swung back and forth. But adversity energised him, and he found a level which his opponent couldn�t match. Coming after his triumphant return at Wimbledon in July, the latest success is evidence enough that technically, tactically and physically Djokovic is back to his best. If it was about the restoration of the old order on the men�s side, it was the continuation of the new in the women�s section. There has been a first-time winner in four of the past six Grand Slam tournaments, and 20-year-old Naomi Osaka added to the eclectic mix by becoming the first Japanese to win a Major. In Serena Williams, the winner of 23 singles Slams, the most by any player in the Open Era, Osaka faced the ultimate challenge. It was also an inter-generational battle like none other. The 16-year age gap between Williams and Osaka was the second biggest in the Open Era for a women�s final, next only to Monica Seles (17) vs. Martina Navratilova (34) at the 1991 U.S. Open. To her immense credit, Osaka wasn�t awed by the stage. While growing up, she had revered Williams. After all, this is someone who chose Williams as her subject for a school essay in third grade. On Saturday she played like she knew the 36-year-old�s game like the back of her hand, absorbing everything the American threw at her, and redirecting them with much more panache. The magnitude of her achievement was nearly drowned out by the chaos in the aftermath of Williams�s tirade against the chair umpire. Yet, the manner in which Osaka, at an impressionable young age, closed out the match with a cold relentlessness showed she is here to stay.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Consider the following statements. I. The achievement of Novak Djokovic is not as good as that of Pete Sampras because the competition was tougher at that time. II. Nobody would ever think that the record set by Pete Sampras could be broken by anybody in the years to come. III. Novak Djokovic is not a very talented player but he can win the match with his dedication and technique Which among the above statements is/ are true according to the passage",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Both I and III ",
+                    "type": "A"
+                },
+                {
+                    "body": "Both II and III",
+                    "type": "B"
+                },
+                {
+                    "body": "Only III",
+                    "type": "C"
+                },
+                {
+                    "body": "Only II ",
+                    "type": "D"
+                },
+                {
+                    "body": "All I, II and III",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "PUZZLE"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "b1c1574d-e4da-49dd-ae6a-df69e129643e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Over the last 25 years, psychologists have found that personalities (1) varying around five basic (2) openness, dubbed the Big Five; everyone can be described as having (3) coalesce levels of agreeableness, conscientiousness, neuroticism, extroversion and (4) traits to experience.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1-2 and 3-4 ",
+                    "type": "A"
+                },
+                {
+                    "body": "1-3 and 2-4 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1-3",
+                    "type": "C"
+                },
+                {
+                    "body": "1-2 ",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Age"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": []
+        },
+        {
+            "id": "d35abb6d-9315-4ac5-b4b7-331dd18fae0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: In the given question, four words are printed in bold and are numbered 1, 2, 3 and 4. Of these, the positions of two of these words may be incorrect and need to be exchanged to make the sentence correct. Find the two words which need to be exchanged. In case the given sentence is correct, your answer is (E), i.e., &#39;No correction required&#39;. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "But (1) inclusive we have gender-responsive (2) plans for urban transport in (3) place; our cities will be far from (4) unless.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1-4 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2-3 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1-2 and 3-4 ",
+                    "type": "C"
+                },
+                {
+                    "body": "1-3 and 2-4",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Arragement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": []
+        },
+        {
+            "id": "4324b4b1-2289-42a8-a7c8-7b29fa11a63d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: In the given question, four words are printed in bold and are numbered 1, 2, 3 and 4. Of these, the positions of two of these words may be incorrect and need to be exchanged to make the sentence correct. Find the two words which need to be exchanged. In case the given sentence is correct, your answer is (E), i.e., &#39;No correction required&#39;. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "While the Bill does point out (1) recall of road safety, much-needed (2) heftier fines for errant drivers, vehicle (3) issues norms, there�s no mention of better roads or infrastructure (4) development.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1-2 and 3-4",
+                    "type": "A"
+                },
+                {
+                    "body": "1-3 and 2-4",
+                    "type": "B"
+                },
+                {
+                    "body": "2-3",
+                    "type": "C"
+                },
+                {
+                    "body": "1-3",
+                    "type": "D"
+                },
+                {
+                    "body": "No correction required",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "Arragement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": []
+        }
+    ]
+}

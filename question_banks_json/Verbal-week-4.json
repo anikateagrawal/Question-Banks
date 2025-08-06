@@ -1,0 +1,438 @@
+{
+    "bank_id": "9dd5c556-b277-4614-9c3d-3e55b1f8b2e1",
+    "bank_name": "Verbal-week-4",
+    "questions": [
+        {
+            "id": "18f89885-2b04-4306-b087-753a005ec7cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Direction: Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.</p><p><br></p><p>A. When this extra water vapour condenses into precipitation, it results in heavier rain - or, if it's cold enough, heavier snow.</p><p>B. The atmosphere can store an additional 4% of water vapour for every additional 1°F of warming.</p><p>C. More water evaporates from soils, plants, lakes and seas as the atmosphere warms.</p><p>D. One of the most obvious indications of climate change is heavier rainfall.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>CBDA</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>DCBA</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p> ACDB</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>BCAD</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "45d60767-e461-4e44-beae-9f29c1e6d0a2",
+                    "questionID": "18f89885-2b04-4306-b087-753a005ec7cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Sentence D should be first sentence as it seems to be an introduction sentence which mentions about the most obvious indication of climate change.</p><p>The second sentence should be sentence C which says about the evaporation process which begins when the atmosphere warms.</p><p>Sentence B should come next in sequence which speaks further that the atmosphere can store additional 4% of water vapour.</p><p>The last sentence should be sentence A which says about the ultimate result of water vapour condensation that is, heavy rain.</p><p>Thus, the correct option is option 2.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "55d1edc6-6598-4c0d-87f9-6ded30949791",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does the phrase “reading between the lines” imply in communication?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Ignoring the message</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Taking the message literally</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Understanding the hidden or implied meaning</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Focusing only on grammar</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "idioms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "784754e0-5d8c-4ab8-b371-16b1fd63ba2a",
+                    "questionID": "55d1edc6-6598-4c0d-87f9-6ded30949791",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C</strong></p><p><br></p><p><strong>Explanation:</strong></p><p><br></p><p>“<strong>Reading between the lines</strong>” means <strong>understanding the implied or unspoken meaning</strong> in a conversation or text, often requiring critical thinking or intuition.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "537cf122-4c4b-4adc-bc13-b68f01e17547",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What does the term “moving the goalposts” mean in workplace communication?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Achieving a fixed target</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Making things easier</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Changing the rules or expectations unfairly</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Setting short-term goals</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Jargons"
+            ],
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c51d8108-9634-4cd1-b153-0452f7c85b96",
+                    "questionID": "537cf122-4c4b-4adc-bc13-b68f01e17547",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer: C</strong></p><p><br></p><p><strong>Explanation:</strong></p><p><br></p><p>“<strong>Moving the goalposts</strong>” refers to <strong>changing expectations or requirements after a task has started</strong>, making success harder to achieve — often viewed as unfair.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "27fd1399-b00c-4ec7-a59e-b74f5b39d669",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Surgeon : Scalpel :: Writer : ?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Keyboard</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Book</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Pen</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Table</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a1bb33c0-6062-451b-b02f-737d033fdf94",
+                    "questionID": "27fd1399-b00c-4ec7-a59e-b74f5b39d669",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (c) Pen</p><p><br></p><p><strong>Hint:</strong> Tool of the trade.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "30471741-6f8b-4293-9310-5c143e71fc62",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Canvas : Painter :: Stage : ?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Play</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Actor</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Curtain</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Theatre</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1a045f7c-b792-4b27-8af7-a0de5fef480e",
+                    "questionID": "30471741-6f8b-4293-9310-5c143e71fc62",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (b) Actor</p><p><br></p><p><strong>Hint:</strong> Place/tool for</p><p>performance.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "23d7652c-acb3-425a-b16f-6a59fdb4c445",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Botanist : Plants :: Zoologist : ?</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>Bacteria</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>Insects</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>Animals</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>Bones</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3fb8c31e-f641-4d98-8a64-8e9d544904a9",
+                    "questionID": "23d7652c-acb3-425a-b16f-6a59fdb4c445",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Answer:</strong> (c)</p><p>Animals</p><p><br></p><p><strong>Hint:</strong> Area of study relationship.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "92230a16-2678-4bac-a329-d16c88087d17",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(39, 50, 57);\">The following 4 sentences are jumbled. Arrange them in the correct order to form a meaningful paragraph.</span></p><p><br></p><p><span style=\"color: rgb(39, 50, 57);\"><span class=\"ql-cursor\">﻿</span>A) The festival is celebrated with colorful decorations and music.</span></p><p><span style=\"color: rgb(39, 50, 57);\">B) People from different communities come together during this event.</span></p><p><span style=\"color: rgb(39, 50, 57);\">C) It marks the beginning of the harvest season in many regions.</span></p><p><span style=\"color: rgb(39, 50, 57);\">D) Traditional dances and food add to the festive atmosphere.</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>B → C → A → D</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A → C → B → D</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C → A → D → B</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>C → B → A → D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "3fe12591-29b4-4505-a4d5-4f7c527bf75b",
+                    "questionID": "92230a16-2678-4bac-a329-d16c88087d17",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Correct Option: 1) C → B → A → D</p><p><br></p><p>Explanation: The festival begins with harvest (C), gathers people (B), is celebrated colorfully (A), and includes dance and food (D).</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d5f31a97-b7bb-412a-9908-1855f1a7193a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(39, 50, 57);\">The following 4 sentences are jumbled. Arrange them in the correct order to form a meaningful paragraph.</span></p><p><br></p><p><span style=\"color: rgb(39, 50, 57);\">A) Modern smartphones combine many functions into a single device.</span></p><p><span style=\"color: rgb(39, 50, 57);\">B) From communication to entertainment, they have changed how we live.</span></p><p><span style=\"color: rgb(39, 50, 57);\">C) This integration has made daily tasks more convenient and faster.</span></p><p><span style=\"color: rgb(39, 50, 57);\">D) However, it also means we depend heavily on these gadgets.</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A → B → C → D</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B → A → C → D</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>A → C → B → D</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D → C → B → A</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "bd1a8cae-b3e9-45d8-9390-d0bc4f4d4cb9",
+                    "questionID": "d5f31a97-b7bb-412a-9908-1855f1a7193a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Correct Option: 1) A → B → C → D</p><p><br></p><p>Explanation: Smartphones combine features (A), impact lifestyle (B), add convenience (C), but also create dependence (D).</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d81fdd8e-06a8-4d1b-9906-c5b72d6a1bbd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(39, 50, 57);\">The following 4 sentences are jumbled. Arrange them in the correct order to form a meaningful paragraph.</span></p><p><span style=\"color: rgb(39, 50, 57);\">A) Scientists study animal behavior to understand ecosystems better.</span></p><p><span style=\"color: rgb(39, 50, 57);\">B) Observations help identify how species interact with each other.</span></p><p><span style=\"color: rgb(39, 50, 57);\">C) This knowledge supports conservation efforts worldwide.</span></p><p><span style=\"color: rgb(39, 50, 57);\">D) Many animals display complex social behaviors that surprise researchers.</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A → B → D → C</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B → A → D → C</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>D → B → A → C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>A → D → B → C</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f61fcd15-e4c5-4c50-8ef9-ecd084a37985",
+                    "questionID": "d81fdd8e-06a8-4d1b-9906-c5b72d6a1bbd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Correct Option: A → D → B → C</p><p><br></p><p>Explanation: Scientists study behavior (A), observe surprising behaviors (D), use observations to analyze interactions (B), and apply findings to conservation (C).</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dcb970c3-f510-45ea-a187-3d3525efb3e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the word most similar in meaning to the given word.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        }
+    ]
+}

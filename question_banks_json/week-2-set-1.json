@@ -1,0 +1,1487 @@
+{
+    "bank_id": "85bc9a33-45f0-48ef-8261-fc94149b681d",
+    "bank_name": "week-2-set-1",
+    "questions": [
+        {
+            "id": "ed6a5689-630b-49a0-b17d-b00644599386",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Direction: Read each sentence given below and find out whether there is an error in it the error, if any will be one of the parts of the sentence which are marked as a, b, c and d.</p>",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Several high street European (a)/ banks have hit the market (b)/ in the past few weeks to sell (c)/ some of its foreign currency loans to Indian firms (d)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "C",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "cbade01f-c425-4828-a591-bb8e28a3f598",
+                    "questionID": "ed6a5689-630b-49a0-b17d-b00644599386",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Change ‘its’ into ‘their’",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86e22d9b-1d05-46b5-ba25-8981dccc9d37",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Direction: Read each sentence given below and find out whether there is an error in it the error, if any will be one of the parts of the sentence which are marked as a, b, c and d.</p>",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "The government plans (a)/ to bring IFCI under its direct (b)/control with converting (c)/ its loans into equity (d).",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "C",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a9d88e64-05f4-489d-ac49-ad765e789fad",
+                    "questionID": "86e22d9b-1d05-46b5-ba25-8981dccc9d37",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Change ‘with’ into ‘by’",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e4996f77-fe51-485a-8c95-ad6aa073b97e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: Please read the passage carefully and answer the questions that follow: Employment by a big company is, perhaps, the best job a young educated aspirant would look forward to. Government jobs are preferred, in general, to private sector jobs. Large companies are usually considered to be the best employers. A <strong>proxy</strong> for growth in headcount would be the growth in what the companies spend on compensation to employees. Growth in this would reflect a growth in the headcount and the growth in wages paid. We find that this growth rate has been falling. CMIE’s Prowess database shows a steady fall in the rate of growth of compensation paid by companies to employees since 2013-14. The database includes performance information on a large sample of listed and unlisted companies of all sizes and industries. Compensation to employees grew by 25 per cent in 2013-14. The growth rate halved to 12 per cent in 2014-15 and then it fell further to 11 per cent in 2016-17. In 2017- 18, the growth rate fell to 8.4 per cent. From this, it wouldn’t be entirely wrong to infer that the corporate sector’s appetite for new hiring has been declining quite sharply. 2017-18 saw the slowest growth in the past eight years, or since the year after the Lehman crisis of 2008 when the compensation to employees grew by only 7.7 per cent. The Prowess database also shows that the corporate sector registered a fall in growth in fixed assets to 6.9 per cent in 2017-18. Growth of investments into the job-creating plant and machinery part of fixed assets was even lower at 5.9 per cent. Both were the lowest since 2004- 05. Evidently, the two declines in growth rates — plant and machinery and wages go hand-in-hand. The lack of investments into fresh capacities is hurting growth in employment. We see the same fall in investments in another dataset — capex and the same fall in employment in yet another dataset — the Consumer Pyramids Household Survey. The evidence of falling growth in investments and employment during the recent past is therefore overwhelming. Some of the growth in compensation to employees can be explained as a consequence of inflation and given that inflation has been much lower in recent years compared to the past, it would be good to correct the growth numbers for inflation. We do this using the consumer price index for recent years and the consumer price index for industrial workers for earlier years. Now we see inflation-adjusted compensation to employees grow by only 4.6 per cent in 2017-18. This is lower than the already-low average growth of 5.5 per cent seen in the preceding three years. The average real compensation to employees grew at the rate of 5.3 per cent per annum in the four years between 2014-15 and 2017-18. The industry-wise distribution of this growth in inflation-adjusted compensation to employees shows some sharp variations between major sectors. The services sector has seen a very small growth in compensation to employees in 2017-18. Compared to the overall growth of 4.6 per cent, the services sector saw a growth of only 2.2 per cent.</p>",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which of the following words is nearly similar in meaning to &#39;proxy&#39; as written in bold",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Subsidiary",
+                    "type": "A"
+                },
+                {
+                    "body": "Something used to represent something else",
+                    "type": "B"
+                },
+                {
+                    "body": "Proximity",
+                    "type": "C"
+                },
+                {
+                    "body": "Prowl",
+                    "type": "D"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "47a82485-907e-4f93-b348-30b9affc1ab7",
+                    "questionID": "e4996f77-fe51-485a-8c95-ad6aa073b97e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Subsdiary means &#39;less important than but related or supplementary to something&#39;. Proxy means &#39;a figure that can be used to represent the value of something in a calculation&#39;. Proximity means &#39;nearness in space, time, or relationship&#39;. Prowl means &#39;moving quietly and carefully while hunting&#39;. Clearly, option B is the correct answer",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a276702f-e8d8-46f3-97fa-6d2479708bfd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions: Please read the passage carefully and answer the questions that follow: Employment by a big company is, perhaps, the best job a young educated aspirant would look forward to. Government jobs are preferred, in general, to private sector jobs. Large companies are usually considered to be the best employers. A proxy for growth in headcount would be the growth in what the companies spend on compensation to employees. Growth in this would reflect a growth in the headcount and the growth in wages paid. We find that this growth rate has been falling. CMIE’s Prowess database shows a steady fall in the rate of growth of compensation paid by companies to employees since 2013-14. The database includes performance information on a large sample of listed and unlisted companies of all sizes and industries. Compensation to employees grew by 25 per cent in 2013-14. The growth rate halved to 12 per cent in 2014-15 and then it fell further to 11 per cent in 2016-17. In 2017- 18, the growth rate fell to 8.4 per cent. From this, it wouldn’t be entirely wrong to infer that the corporate sector’s appetite for new hiring has been declining quite sharply. 2017-18 saw the slowest growth in the past eight years, or since the year after the Lehman crisis of 2008 when the compensation to employees grew by only 7.7 per cent. The Prowess database also shows that the corporate sector registered a fall in growth in fixed assets to 6.9 per cent in 2017-18. Growth of investments into the job-creating plant and machinery part of fixed assets was even lower at 5.9 per cent. Both were the lowest since 2004- 05. Evidently, the two declines in growth rates — plant and machinery and wages go hand-in-hand. The lack of investments into fresh capacities is hurting growth in employment. We see the same fall in investments in another dataset — capex and the same fall in employment in yet another dataset — the Consumer Pyramids Household Survey. The evidence of falling growth in investments and employment during the recent past is therefore overwhelming. Some of the growth in compensation to employees can be explained as a consequence of inflation and given that inflation has been much lower in recent years compared to the past, it would be good to correct the growth numbers for inflation. We do this using the consumer price index for recent years and the consumer price index for industrial workers for earlier years. Now we see inflation-adjusted compensation to employees grow by only 4.6 per cent in 2017-18. This is lower than the already-low average growth of 5.5 per cent seen in the preceding three years. The average real compensation to employees grew at the rate of 5.3 per cent per annum in the four years between 2014-15 and 2017-18. The industry-wise distribution of this growth in inflation-adjusted compensation to employees shows some sharp variations between major sectors. The services sector has seen a very small growth in compensation to employees in 2017-18. Compared to the overall growth of 4.6 per cent, the services sector saw a growth of only 2.2 per cent.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": " Which of the following statements is/are true according to the CMIE Prowess dataset",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Rate of growth of compensation paid by companies to employees has registered deceleration since 2013- 14. ",
+                    "type": "A"
+                },
+                {
+                    "body": "Compensation to employees grew by 35 per cent in 2013-14. ",
+                    "type": "B"
+                },
+                {
+                    "body": "Corporate sector’s appetite for new hiring has been enhancing. ",
+                    "type": "C"
+                },
+                {
+                    "body": "Year 2014-15 witnessed the slowest growth rate in compensation to employees since the Lehman crisis of 2008. ",
+                    "type": "D"
+                },
+                {
+                    "body": "All of the above are true.",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "67aba8f3-1694-4848-a0c4-ac6a328cf82d",
+                    "questionID": "a276702f-e8d8-46f3-97fa-6d2479708bfd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "CMIE’s Prowess database shows a steady fall in the rate of growth of compensation paid by companies to employees since 2013-14. The sentence above echos what&#39;s been stated in the statement given as option A. Now, we need not check the other statements as we have already got the correct option. However, if you go through the 1st paragraph of the passage, you can infer that whatever has been said in the statement given in option B, C or D, is distorted and not true. Option B. Compensation to employees grew by 35 per cent in 2017-18. The correct percentage is 25 per cent. Option C. Corporate sector’s appetite for new hiring has been enhancing. Exactly opposite has been said here. Option D. Year 2014-15 witnessed the slowest growth rate in compensation to employees since the Lehman crisis of 2008. It was actually 2017-18 that witnessed the slowest growth. Evidently, option A is the correct answer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95dd0f96-934f-47ad-9d85-181699b8f8e1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: Read each sentence given below and find out whether there is an error in it the error, if any will be one of the parts of the sentence which are marked as 1, 2, 3 and 4.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Direction:Rearrange the following six sentences (A), (B), (C), (D), (E), and (F) in the proper sequence to form a meaningful paragraph and then answer the questions given below.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(A)Just like history has witnessed many forms of government.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(B)Government may take several forms.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(C)If these normal forms are perverted, monarchy becomes tyranny, aristocracy becomes oligarchy and polity becomes democracy.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(D)Aristotle had given a six-fold classification of governments-three normal and three perverted forms of government.\n [type=text]\n(E)Thus, Aristotle regarded democracy as the worst form of government, but he felt that the potential capacity of the citizens for sound collective judgements could assure the success of this form.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": " (F) The three normal types of government are monarchy, rule by one person; aristocracy, rule by a few; polity, rule by the many. \n\n\n\nWhich of the following should be the FIRST sentence after rearrangement",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "B ",
+                    "type": "A"
+                },
+                {
+                    "body": "C ",
+                    "type": "B"
+                },
+                {
+                    "body": "D ",
+                    "type": "C"
+                },
+                {
+                    "body": "E ",
+                    "type": "D"
+                },
+                {
+                    "body": "F",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "483e9f32-829b-442f-962d-6c51b9edee9f",
+                    "questionID": "95dd0f96-934f-47ad-9d85-181699b8f8e1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The proper sequence of sentences to form a meaningful paragraph will be BADFCE",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dfc0a5d1-0edf-4b5a-92f8-bb517080cc61",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: Read each sentence given below and find out whether there is an error in it the error, if any will be one of the parts of the sentence which are marked as 1, 2, 3 and 4.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Direction:Rearrange the following six sentences (A), (B), (C), (D), (E), and (F) in the proper sequence to form a meaningful paragraph and then answer the questions given below.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(A)Just like history has witnessed many forms of government.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(B)Government may take several forms.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(C)If these normal forms are perverted, monarchy becomes tyranny, aristocracy becomes oligarchy and polity becomes democracy.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(D)Aristotle had given a six-fold classification of governments-three normal and three perverted forms of government.\n [type=text]\n(E)Thus, Aristotle regarded democracy as the worst form of government, but he felt that the potential capacity of the citizens for sound collective judgements could assure the success of this form.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": " (F) The three normal types of government are monarchy, rule by one person; aristocracy, rule by a few; polity, rule by the many. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which of the following should be the LAST (SIXTH) sentence after rearrangement",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "F ",
+                    "type": "A"
+                },
+                {
+                    "body": "E ",
+                    "type": "B"
+                },
+                {
+                    "body": "B ",
+                    "type": "C"
+                },
+                {
+                    "body": "D ",
+                    "type": "D"
+                },
+                {
+                    "body": "C",
+                    "type": "E"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "efe583b6-8ae2-4e2e-aaaf-81dd5518372e",
+                    "questionID": "dfc0a5d1-0edf-4b5a-92f8-bb517080cc61",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The proper sequence of sentences to form a meaningful paragraph will be BADFCE",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "80b14f48-b3c2-4d7c-833c-35741788b624",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: Read each sentence given below and find out whether there is an error in it the error, if any will be one of the parts of the sentence which are marked as 1, 2, 3 and 4.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Direction:Rearrange the following six sentences (A), (B), (C), (D), (E), and (F) in the proper sequence to form a meaningful paragraph and then answer the questions given below.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(A)Just like history has witnessed many forms of government.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(B)Government may take several forms.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(C)If these normal forms are perverted, monarchy becomes tyranny, aristocracy becomes oligarchy and polity becomes democracy.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "(D)Aristotle had given a six-fold classification of governments-three normal and three perverted forms of government.\n [type=text]\n(E)Thus, Aristotle regarded democracy as the worst form of government, but he felt that the potential capacity of the citizens for sound collective judgements could assure the success of this form.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": " (F) The three normal types of government are monarchy, rule by one person; aristocracy, rule by a few; polity, rule by the many. ",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which of the following should be the THIRD sentence after rearrangement",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "D",
+                    "type": "C"
+                },
+                {
+                    "body": "E",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1fb57ccd-049a-4c8a-a707-edadcdd1928a",
+                    "questionID": "80b14f48-b3c2-4d7c-833c-35741788b624",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The proper sequence of sentences to form a meaningful paragraph will be BADFCE",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "be7efc3c-d586-47fb-af00-c21d3d36e7f3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Direction: Read each sentence given below and find out whether there is an error in it the error, if any will be one of the parts of the sentence which are marked as 1, 2, 3 and 4.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which time (a)/ do you have to (b) / go to (c) / the dentist tomorrow (d)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "C",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "9d557c08-5c44-43d4-93a3-745f450cb94f",
+                    "questionID": "be7efc3c-d586-47fb-af00-c21d3d36e7f3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Which time’ should be replaced by ‘when’  \n\n  (F) The three normal types of government are monarchy, rule by one person; aristocracy, rule by a few; polity, rule by the many.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "262861a1-6a3e-47dc-9d1c-571bc83eceb2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read each sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "The industry (a)/has the potential of (b)/attaining $34bn export(c)/earnings till the year 2010 (d)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "C",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "bb281aad-992a-453a-89a6-88052378d567",
+                    "questionID": "262861a1-6a3e-47dc-9d1c-571bc83eceb2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The error is in part (d) of the sentence. ‘till’ should be replaced by ‘by’ “By” is used to describe an action or event that happens on or before a particular moment. “Until” is used to describe a state or situation in the period of time up to a particular moment.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c7fca12d-9ccf-4f1c-88f6-e5f0d49ad937",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Read each sentence to find out whether there is any grammatical or idiomatic error in it. The error, if any, will be in one part of the sentence. The number of that part is the answer.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "She did not let the (a)/grief of her loss effect the (b)/kingdom administration (c)/and the lives of her people. (d)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A",
+                    "type": "A"
+                },
+                {
+                    "body": "B",
+                    "type": "B"
+                },
+                {
+                    "body": "C",
+                    "type": "C"
+                },
+                {
+                    "body": "D",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sentence corrections"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d2dcdae3-5d69-4069-b7a9-420f2dc3b9db",
+                    "questionID": "c7fca12d-9ccf-4f1c-88f6-e5f0d49ad937",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The error is in part (b) of the sentence. ‘Affect’ should be replaced by ‘effect’. Effect-A change which is a result or consequence of an action or other cause. Affect-have an effect on; make a difference to.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "957a7bf9-e1f1-4d06-83fe-d0778053bf47",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "There was a 4-direction pole situated at a crossroad— with arrows pointing towards four directions East, West, South and North. Due to an accident that damaged the pole, east pointer is now towards South. Unfortunately, a man who wanted to go actually northwards took the help of this direction pole and started moving towards north as per the pole. Which direction is this man actually moving towards",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "West ",
+                    "type": "A"
+                },
+                {
+                    "body": "North ",
+                    "type": "B"
+                },
+                {
+                    "body": "South ",
+                    "type": "C"
+                },
+                {
+                    "body": "East",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Directions"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "646fc0a7-7e94-4458-a7bf-398fdd6f78e7",
+                    "questionID": "957a7bf9-e1f1-4d06-83fe-d0778053bf47",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "East pointer is now pointing South, which means the entire pole is rotated 90° clockwise.\nSo, actual directions become:\nEast → South\nNorth → East\nWest → North\nSouth → West\nThe man follows the North pointer, which is actually pointing East now.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ac21975c-afc5-4fda-b5f1-e008055414b9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "X introduces Y saying, He is the husband of the granddaughter of the father of my father. How is Y related to X",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Brother ",
+                    "type": "A"
+                },
+                {
+                    "body": "Son ",
+                    "type": "B"
+                },
+                {
+                    "body": "Brother-in-law ",
+                    "type": "C"
+                },
+                {
+                    "body": "Son-in-law",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "family"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6f7f0923-1d0a-4803-bd14-ea9288032bcb",
+                    "questionID": "ac21975c-afc5-4fda-b5f1-e008055414b9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The father of X’s father is his grandfather. Moreover, X and the granddaughter mentioned in the question are siblings. Hence her husband i.e. Y is the brother-in-law of X.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a35ac592-0053-4aec-8944-b5f4cb8fde77",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the next term : 123, 129, 141, _________, 159, 165",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "147 ",
+                    "type": "A"
+                },
+                {
+                    "body": "148 ",
+                    "type": "B"
+                },
+                {
+                    "body": "149",
+                    "type": "C"
+                },
+                {
+                    "body": "146",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5a3b7380-a68c-477a-b4b9-b0b9eb3ddae4",
+                    "questionID": "a35ac592-0053-4aec-8944-b5f4cb8fde77",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The common difference between consecutive terms is 6, 12, 6, 12 &amp; so on. So, the term next to 141 is 141 + 6 = 147",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ff8b9c84-5928-48ef-a2cb-b6b11c873e65",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the next term : 1, 5, 11, 19, 29, 41, 55, ___________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "68 ",
+                    "type": "A"
+                },
+                {
+                    "body": "70 ",
+                    "type": "B"
+                },
+                {
+                    "body": "82 ",
+                    "type": "C"
+                },
+                {
+                    "body": "71",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e86fcd29-2e9a-40e7-ab81-e8a13fe05648",
+                    "questionID": "ff8b9c84-5928-48ef-a2cb-b6b11c873e65",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The common difference between consecutive terms is increasing by 2. There is difference of 14 between 41 &amp; 55. So, the difference between 55 &amp; next term must be 16. So, next term is 55 + 16 = 71",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "10f9b87f-c46a-4604-881a-56ad57f20453",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions 3 to 5: Read the following passage and solve the questions based on it. An employee has been assigned the task of allotting offices to six of the staff members. The offices are numbered from 1 to 6. The offices are arranged in a row and a 6-foot high divider separates them from each other. Hence, voices, sounds and cigarette smoke flow easily from one office to the other. \nMs Robert needs to use the telephone quite often throughout the day. Mr Mike and Mr Brown need adjacent offices as they need to consult each other often while working. Ms Hardy is a senior employee and has to be allotted the office number 5 which has the biggest window. Mr Donald requires silence in the offices next to his.  Mr Tim, Mr Mike and Mr Donald are all smokers. Ms Hardy is allergic to tobacco smoke and consequently the offices next to her are to be occupied by non- smokers. Unless specifically stated, all the employees maintain an atmosphere of silence during the office hours.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Which would be the ideal office for Mr Mike",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2 ",
+                    "type": "A"
+                },
+                {
+                    "body": "6 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1 ",
+                    "type": "C"
+                },
+                {
+                    "body": "3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Puzzel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "44b969c1-d781-473c-9588-4e622e472f34",
+                    "questionID": "10f9b87f-c46a-4604-881a-56ad57f20453",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mr Mike and Mr Brown need adjacent offices. So, Mr Mike cannot be seated in the office numbers 1 and 6. Ms. Hardy is in office number S &amp; offices next to her i.e. 2 &amp; 4 must be occupied by non-smokers. So, Mr. Mike being a smoker cannot have office no. 2 or 4. The only possible office number for him is office number 3",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d9f4561-7f80-4875-84b0-937318e4a1c6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions 3 to 5: Read the following passage and solve the questions based on it. An employee has been assigned the task of allotting offices to six of the staff members. The offices are numbered from 1 to 6. The offices are arranged in a row and a 6-foot high divider separates them from each other. Hence, voices, sounds and cigarette smoke flow easily from one office to the other. \nMs Robert needs to use the telephone quite often throughout the day. Mr Mike and Mr Brown need adjacent offices as they need to consult each other often while working. Ms Hardy is a senior employee and has to be allotted the office number 5 which has the biggest window. Mr Donald requires silence in the offices next to his.  Mr Tim, Mr Mike and Mr Donald are all smokers. Ms Hardy is allergic to tobacco smoke and consequently the offices next to her are to be occupied by non- smokers. Unless specifically stated, all the employees maintain an atmosphere of silence during the office hours",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "The three employees who are smokers should be seated in which offices",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "1, 2 and 4 ",
+                    "type": "A"
+                },
+                {
+                    "body": "2, 3 and 6 ",
+                    "type": "B"
+                },
+                {
+                    "body": "1, 2 and 6 ",
+                    "type": "C"
+                },
+                {
+                    "body": "1, 2 and 3",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Puzzel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "68005abb-1a8a-49d4-98cc-42a38fab7e7d",
+                    "questionID": "4d9f4561-7f80-4875-84b0-937318e4a1c6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ms Hardy has to be allotted the office number 5 and she is allergic to tobacco smoke, so the offices next to her are to be occupied by non-smokers. Hence, smokers should be seated in the offices 1, 2 \n and 3.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "affe90f8-ab6a-4296-af41-9306647a1a56",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Directions for questions 3 to 5: Read the following passage and solve the questions based on it. An employee has been assigned the task of allotting offices to six of the staff members. The offices are numbered from 1 to 6. The offices are arranged in a row and a 6-foot high divider separates them from each other. Hence, voices, sounds and cigarette smoke flow easily from one office to the other. \nMs Robert needs to use the telephone quite often throughout the day. Mr Mike and Mr Brown need adjacent offices as they need to consult each other often while working. Ms Hardy is a senior employee and has to be allotted the office number 5 which has the biggest window. Mr Donald requires silence in the offices next to his.  Mr Tim, Mr Mike and Mr Donald are all smokers. Ms Hardy is allergic to tobacco smoke and consequently the offices next to her are to be occupied by non- smokers. Unless specifically stated, all the employees maintain an atmosphere of silence during the office hours.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Who would be the ideal candidate to occupy the office farthest from Mr Brown",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Ms Hardy ",
+                    "type": "A"
+                },
+                {
+                    "body": "Mr Mike ",
+                    "type": "B"
+                },
+                {
+                    "body": "Mr Tim ",
+                    "type": "C"
+                },
+                {
+                    "body": "Mr Donald",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Puzzel"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "36c14d5f-e70c-438a-9ef4-92b32940632d",
+                    "questionID": "affe90f8-ab6a-4296-af41-9306647a1a56",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mr Donald required silence in the offices next to his Mr Mike and Mr Brown need to consult each other while working. So, Mr Donald should occupy the office farthest from Mr Brown.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "49725bab-42b0-4711-a41c-2832191aff20",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "DIRECTION There are two types of people living in what is land—X type and Y type. The X type of inhabitants always speak the truth and the Y type of inhabitants always lie.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Chunmun says, According to Munu, I always speak the truth. Which of the following is a correct conclusion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Chunmun has to be of type X",
+                    "type": "A"
+                },
+                {
+                    "body": "Chunmun has to be of type Y  ",
+                    "type": "B"
+                },
+                {
+                    "body": "Munu has to be of type X",
+                    "type": "C"
+                },
+                {
+                    "body": "Munu has to be of type Y",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "seating"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "69d3a3ef-4b14-408e-b0d8-b2c227e998be",
+                    "questionID": "49725bab-42b0-4711-a41c-2832191aff20",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "We are given what Munu said about Chunmun. So, we should analyse it according to Chunmum being type X or type Y person. If Chunmun is type X person, then the statement given by Chunmun must be correct &amp; so Munu is also type X person. If Chunmun is type Y person then the statement given by Chunmun must be wrong, so it means then Munu must have said that Chunmun lies which again shows that Munu is type X person. So, in either case Munu must be type X person. So, we can conclude that Munu has to be of type X",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "42caf867-9985-48f2-abd6-f9acd1323214",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "DIRECTION There are two types of people living in what is land—X type and Y type. The X type of inhabitants always speak the truth and the Y type of inhabitants always lie.",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "text",
+                    "body": "Munu says,“ I always lie”. Which type of an inhabitant is she",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "X ",
+                    "type": "A"
+                },
+                {
+                    "body": " Y ",
+                    "type": "B"
+                },
+                {
+                    "body": "Either X or Y  ",
+                    "type": "C"
+                },
+                {
+                    "body": "given statement is infeasible",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "seating"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "58d53982-ce82-4261-bbf8-74f88ccb607c",
+                    "questionID": "42caf867-9985-48f2-abd6-f9acd1323214",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Munu cannot be X type person, as then her given statement would contradict it. If she is type Y person, then her statement is true which will prove that she is not type Y person. So, the given statement is infeasible",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26db87e2-1460-400e-98e5-6fbc9bc7c9f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Calculate the average of the cubes of first five natural numbers.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "55 ",
+                    "type": "A"
+                },
+                {
+                    "body": " 65 ",
+                    "type": "B"
+                },
+                {
+                    "body": "45 ",
+                    "type": "C"
+                },
+                {
+                    "body": "35",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Average"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fe226eea-d56c-4f19-9ea9-cd9d903f658f",
+                    "questionID": "26db87e2-1460-400e-98e5-6fbc9bc7c9f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cubes of first 5 natural numbers: 1³ = 1, 2³ = 8, 3³ = 27, 4³ = 64, 5³ = 125  \nSum = 1 + 8 + 27 + 64 + 125 = 225  \nAverage = 225 ÷ 5 = 45",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "00472194-6cec-4645-a7bf-9267e6afc419",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The sum of two positive numbers x and y is 2.5 times their difference. If the product of numbers is 84, then what is the sum of those two numbers",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "26 ",
+                    "type": "A"
+                },
+                {
+                    "body": " 24 ",
+                    "type": "B"
+                },
+                {
+                    "body": "22 ",
+                    "type": "C"
+                },
+                {
+                    "body": "20",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "6a7ea46d-dacb-41e1-916b-4338eb626e3f",
+                    "questionID": "00472194-6cec-4645-a7bf-9267e6afc419",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the five consecutive odd numbers be:\nx - 4, x - 2, x, x + 2, x + 4\n\nTheir sum = 5x = 175 ⇒ x = 35  \nSo the numbers are: 31, 33, 35, 37, 39  \n\nSecond largest = 37, smallest = 31  \nRequired sum = 37 + 31² = 37 + 961 = 998",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26bfc4c3-45e7-4093-b0c4-0b098c52077d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Mohan gets 3marks for each correct sumand loses 2 marks for each wrong sum.Heat tempts 30 sums and obtains 40 marks. The number of sums solved correctly is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "25 ",
+                    "type": "A"
+                },
+                {
+                    "body": "10 ",
+                    "type": "B"
+                },
+                {
+                    "body": "15 ",
+                    "type": "C"
+                },
+                {
+                    "body": "20",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "470cb480-ef15-4e0e-acef-8df102847417",
+                    "questionID": "26bfc4c3-45e7-4093-b0c4-0b098c52077d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the number of correct sums be x, so wrong sums = 30 – x.\nAccording to the question:\n3x – 2(30 – x) = 40\n→ 3x – 60 + 2x = 40\n→ 5x = 100 → x = 20",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b6ef623-0420-439d-8d3f-1e9e567cb329",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Sukhiram plants 15376 orange trees in his garden and arranges them, so that there are as many rows as there are orange trees in each row. Find the number of rows.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "125 ",
+                    "type": "A"
+                },
+                {
+                    "body": "124",
+                    "type": "B"
+                },
+                {
+                    "body": "128 ",
+                    "type": "C"
+                },
+                {
+                    "body": "135",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "21ee66c7-913a-49a1-8550-5415b7aa7b02",
+                    "questionID": "3b6ef623-0420-439d-8d3f-1e9e567cb329",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Let the number of rows = number of trees per row = x\nThen, total trees = x² → x² = 15376 → x = √15376 = 124\nSo, number of rows = 124",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "000198e7-e5d2-4551-b76f-b5d8f1226797",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the side of the largest possible square slabs which can be paved on the floor of a room 2m 50cm long and 1 m 50 cm broad. Also find the number of such slabs to pave the floor.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "25, 20 ",
+                    "type": "A"
+                },
+                {
+                    "body": " 30, 15",
+                    "type": "B"
+                },
+                {
+                    "body": "50, 15 ",
+                    "type": "C"
+                },
+                {
+                    "body": "55, 10",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "58973ce1-ff06-47e9-8ab7-f1d8a8260d9a",
+                    "questionID": "000198e7-e5d2-4551-b76f-b5d8f1226797",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Convert dimensions to cm: 2m 50cm = 250 cm, 1m 50cm = 150 cm\nFind HCF of 250 and 150 = 50 cm (side of largest square slab)\nNumber of slabs = (250 × 150) / (50 × 50) = 37500 / 2500 = 15 slabs",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1976e541-5376-4bd5-ab14-ffd24189db00",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "6 bells commence tolling together and toll of intervals are 2, 4, 6, 8, 10 and 12 s, respectively. In 1 h, how many times, do they toll together",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "16 ",
+                    "type": "A"
+                },
+                {
+                    "body": "32 ",
+                    "type": "B"
+                },
+                {
+                    "body": "21 ",
+                    "type": "C"
+                },
+                {
+                    "body": "NONE",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Probabilty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "b950cabc-a027-4f64-845b-1849b80dfa61",
+                    "questionID": "1976e541-5376-4bd5-ab14-ffd24189db00",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The bells toll together every LCM of (2, 4, 6, 8, 10, 12) seconds.\nLCM of 2, 4, 6, 8, 10, 12 = 120 seconds\nIn 1 hour = 3600 seconds, number of times they toll together = 3600 ÷ 120 + 1 = 30 + 1 = 31",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ddcd9b4a-244b-4f43-ade8-77c924dc4ef2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the missing term 1, 5, 11, 19, 29, ______________, 55",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "45 ",
+                    "type": "A"
+                },
+                {
+                    "body": "39 ",
+                    "type": "B"
+                },
+                {
+                    "body": "41 ",
+                    "type": "C"
+                },
+                {
+                    "body": "47",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "16c184f4-b605-4226-8a90-7fd6f3195a34",
+                    "questionID": "ddcd9b4a-244b-4f43-ade8-77c924dc4ef2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The terms are got by adding even numbers starting from 4 to the preceding term.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ceea1bbb-4a5a-45f2-8e8e-fc8ce46ef6c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the next term. \n2, 6, 12, 20, 30, ______________",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "32 ",
+                    "type": "A"
+                },
+                {
+                    "body": "42 ",
+                    "type": "B"
+                },
+                {
+                    "body": "52 ",
+                    "type": "C"
+                },
+                {
+                    "body": "62",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ff04d5ff-723a-4bd0-89b0-3a69c0214ed0",
+                    "questionID": "ceea1bbb-4a5a-45f2-8e8e-fc8ce46ef6c2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The numbers are alternately multiplied by 3 and divided by 2.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2f7c45be-ab7a-4cca-a1f0-e39cf6ebbd3b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "The product of four consecutive natural numbers plus one is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "a non-square",
+                    "type": "A"
+                },
+                {
+                    "body": "always sum of two square numbers",
+                    "type": "B"
+                },
+                {
+                    "body": "a square",
+                    "type": "C"
+                },
+                {
+                    "body": "None of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "87eaec93-5496-4e30-bd16-770c30dc0d64",
+                    "questionID": "2f7c45be-ab7a-4cca-a1f0-e39cf6ebbd3b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ProductoffourconsecutivenumbersplusoneisalwaysasquareIllustration1Letfourconsecutivenumbersbe3, 4, 5 and 6.\n= (3 x 4 x 5 x 6) +1= 361 = (19)2\nIllustration 2Let four consecutive numbers be 9, 10, 11 and 12.\n= (9 x 10 x 11 x 12) + 1\n= 11881 = (109)2",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c38c2284-7aff-40cb-b40a-f2a4fef69d16",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Find the sum of the first 84 even numbers.",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "7140 ",
+                    "type": "A"
+                },
+                {
+                    "body": "7540 ",
+                    "type": "B"
+                },
+                {
+                    "body": "6720 ",
+                    "type": "C"
+                },
+                {
+                    "body": "8832",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Number systems"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "54957dba-b7de-4f65-80dc-579d2e833d1b",
+                    "questionID": "c38c2284-7aff-40cb-b40a-f2a4fef69d16",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sum of firstneven numbers =n {n+ 1)\nGiven,n =84\nRequired sum = 84 (84 + 1)\n= 84 X 85= 7140",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

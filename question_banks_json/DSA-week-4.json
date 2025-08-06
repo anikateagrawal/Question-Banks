@@ -1,0 +1,3678 @@
+{
+    "bank_id": "7a4dc588-212f-4981-82a9-bcb54ffb53f4",
+    "bank_name": "DSA-week-4",
+    "questions": [
+        {
+            "id": "d648288c-c3f0-47ee-a141-abc83579084e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In this template, which line is responsible for backtracking",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"738\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | path.add(candsdatei[s]);</text>\n<text x=\"40\" y=\"60\" >2 | backtrack(s, target - candsdatei[s], path);</text>\n<text x=\"40\" y=\"80\" >v | path.remo3e(path.isze() - 1);</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "First line",
+                    "type": "A"
+                },
+                {
+                    "body": "Second line",
+                    "type": "B"
+                },
+                {
+                    "body": "Third line",
+                    "type": "C"
+                },
+                {
+                    "body": "No line",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "df5fde60-157f-45cd-9884-069e6b09a314",
+                    "questionID": "d648288c-c3f0-47ee-a141-abc83579084e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking removes the last decision to try the next option.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ad8085e5-c11f-495f-beeb-d40a7609a0af",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A person finds a solution by trying every path, and reverts whenever the current path is invalid. Which problem-solving strategy does this describe",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Greedy",
+                    "type": "A"
+                },
+                {
+                    "body": "BFS",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Divide and conquer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "48c0a75b-49d5-4559-ad8a-dfbc78f0f5af",
+                    "questionID": "ad8085e5-c11f-495f-beeb-d40a7609a0af",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Trying and reverting invalid paths is the core idea of backtracking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "dc907a24-f44a-47c3-a90b-0e0f8cf4fbc7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A climber ascends a staircase, taking 1 or 2 steps at a time. How many ways to reach the top Which recursion fits here",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Permutation",
+                    "type": "A"
+                },
+                {
+                    "body": "Subset",
+                    "type": "B"
+                },
+                {
+                    "body": "Fibonacci recursion",
+                    "type": "C"
+                },
+                {
+                    "body": "Combination sum",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e3a29c0f-05fd-45d9-933b-de4145f8a453",
+                    "questionID": "dc907a24-f44a-47c3-a90b-0e0f8cf4fbc7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This problem maps to Fibonacci recursion.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "42a0d2cf-2a44-4255-8488-fd3ed7c5f820",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A player fills a Sudoku board by checking if each digit fits before placing. If stuck, he erases and tries another. Which method is used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Recursion only",
+                    "type": "A"
+                },
+                {
+                    "body": "Greedy",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Hashing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fa878b0f-6ca0-4514-b1d4-eefee4b66956",
+                    "questionID": "42a0d2cf-2a44-4255-8488-fd3ed7c5f820",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sudoku solvers use recursion with backtracking to fill valid digits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "75d60a45-efa7-4ad4-815a-ad813ae9409d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A child builds a tower by stacking blocks one at a time, and undoes the last one to try a different color. What is this process",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Brute force",
+                    "type": "A"
+                },
+                {
+                    "body": "Dynamic programming",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "389a3581-8c04-44c4-89e4-e3e9d6e89e11",
+                    "questionID": "75d60a45-efa7-4ad4-815a-ad813ae9409d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The act of placing and removing represents recursive backtracking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "72579f56-66cf-4bea-972f-20587d2fbb34",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A painter has 3 colors and must color a board such that no two adjacent tiles are same. What approach will help",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Binary search",
+                    "type": "A"
+                },
+                {
+                    "body": "BFS",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking with recursion",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9b123277-5ff3-4b03-854a-9195dfa3978c",
+                    "questionID": "72579f56-66cf-4bea-972f-20587d2fbb34",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Trying every color and reverting on conflict is classic backtracking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "53835b3e-7f62-4398-ab13-443c8634325b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A queen on a chessboard threatens rows, columns, and diagonals. Placing N queens so no one attacks another is solved using",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Recursion + Backtracking",
+                    "type": "A"
+                },
+                {
+                    "body": "Graph",
+                    "type": "B"
+                },
+                {
+                    "body": "Brute force",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b341751c-908b-432f-93a8-eb71e6d5b8eb",
+                    "questionID": "53835b3e-7f62-4398-ab13-443c8634325b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The N-Queens problem is solved by placing queens recursively and backtracking on conflicts.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8376be3e-f238-43ff-b453-6af6c0ec8a38",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A teacher gives students all possible groupings of 3 questions from a list of 5. Which structure is he using",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Permutation",
+                    "type": "A"
+                },
+                {
+                    "body": "Subset",
+                    "type": "B"
+                },
+                {
+                    "body": "Combination",
+                    "type": "C"
+                },
+                {
+                    "body": "Factorial",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b7dd7a86-b411-405a-a052-c2c2079976a8",
+                    "questionID": "8376be3e-f238-43ff-b453-6af6c0ec8a38",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Choosing unique groupings of questions is combination logic.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bf99f778-df4a-46e6-9372-4e8a4b1dcf1c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A janitor visits rooms in a hotel recursively. He marks visited and backs up when no more paths. Which logic is this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DFS with recursion",
+                    "type": "A"
+                },
+                {
+                    "body": "BFS",
+                    "type": "B"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "C"
+                },
+                {
+                    "body": "Queue traversal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5e3174ff-037c-4bdc-a9af-fd88396e073e",
+                    "questionID": "bf99f778-df4a-46e6-9372-4e8a4b1dcf1c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursive DFS explores and backtracks, like the janitor.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c93ff0f8-188a-4f06-8b45-4eb86c58566f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a pyramid puzzle, every step depends on the two blocks below it. What famous recursive problem does this resemble",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Factorial",
+                    "type": "A"
+                },
+                {
+                    "body": "Permutations",
+                    "type": "B"
+                },
+                {
+                    "body": "Fibonacci",
+                    "type": "C"
+                },
+                {
+                    "body": "Subset",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8635f111-1b79-4ccd-b42e-c59afda841c8",
+                    "questionID": "c93ff0f8-188a-4f06-8b45-4eb86c58566f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Fibonacci depends on the sum of the two previous results.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "56584877-1866-4170-99b2-7acfc0d8c986",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A chef tries adding ingredients to a recipe, one by one, and removes the last if the taste goes wrong. This cooking process resembles",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Greedy",
+                    "type": "A"
+                },
+                {
+                    "body": "Brute force",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Memoization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4ed99540-1be2-4076-a46f-73482e93a7bb",
+                    "questionID": "56584877-1866-4170-99b2-7acfc0d8c986",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Adding/removing ingredients to test different outcomes mirrors backtracking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a46ef072-4a27-4a11-bbf9-7e5c7232a7f4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A person is selecting outfits. She can reuse items, and wants combinations that total a budget. What algorithm helps her",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Merge Sort",
+                    "type": "A"
+                },
+                {
+                    "body": "Greedy",
+                    "type": "B"
+                },
+                {
+                    "body": "Combination Sum",
+                    "type": "C"
+                },
+                {
+                    "body": "Permutation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "70e37c32-0b8b-4674-902e-0840dfbb0e65",
+                    "questionID": "a46ef072-4a27-4a11-bbf9-7e5c7232a7f4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Choosing combinations (with or without repetition) that total a value is Combination Sum.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d7513a9d-b70f-425d-87c4-b2eea1bcbec2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A robot explores all rooms in a house, ensuring it visits every unique combination of open/closed doors. What concept is this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sorting",
+                    "type": "A"
+                },
+                {
+                    "body": "Permutation",
+                    "type": "B"
+                },
+                {
+                    "body": "Subsets / Power Set",
+                    "type": "C"
+                },
+                {
+                    "body": "Binary search",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8a937515-d9b8-4adb-bed9-b0442dedc42e",
+                    "questionID": "d7513a9d-b70f-425d-87c4-b2eea1bcbec2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Exploring all open/close combinations of doors represents subsets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e7804c28-2e77-456b-a995-62d747496ccf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A magician picks cards and arranges them in every possible order. What concept is being used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Fibonacci",
+                    "type": "A"
+                },
+                {
+                    "body": "Subsets",
+                    "type": "B"
+                },
+                {
+                    "body": "Permutations",
+                    "type": "C"
+                },
+                {
+                    "body": "Stack",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3a1b6aa1-406d-4107-ac01-eaaa7fdd73a2",
+                    "questionID": "e7804c28-2e77-456b-a995-62d747496ccf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All possible orderings = permutations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "69860fd0-ae12-43f3-8fb8-924d5bb2ab7d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A snake eats food and grows by repeating its pattern. This growing body structure is like",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "ArrayList",
+                    "type": "A"
+                },
+                {
+                    "body": "HashMap",
+                    "type": "B"
+                },
+                {
+                    "body": "Recursion",
+                    "type": "C"
+                },
+                {
+                    "body": "Greedy algorithm",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2049f3fb-23b1-435a-a616-677a9d1f7d18",
+                    "questionID": "69860fd0-ae12-43f3-8fb8-924d5bb2ab7d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The snake growing by repeating parts is like recursive pattern building.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "83306e4c-21d0-4978-adf5-09b5d23ef215",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A librarian stacks books one over another. To find the first book, he must remove all above. Which data structure supports this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Queue",
+                    "type": "A"
+                },
+                {
+                    "body": "Stack",
+                    "type": "B"
+                },
+                {
+                    "body": "Array",
+                    "type": "C"
+                },
+                {
+                    "body": "Linked list",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cccffa5d-94c5-4521-b4d0-1fd2e0b98244",
+                    "questionID": "83306e4c-21d0-4978-adf5-09b5d23ef215",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Stack follows LIFO, and recursion uses the call stack in the same way.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "071c7a54-29d6-40a0-adaf-d99f0832ef7b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a maze, you try one path. If it fails, you backtrack and try another. What concept is this",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sorting",
+                    "type": "A"
+                },
+                {
+                    "body": "Dynamic programming",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Binary search",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "895654a1-edf1-4122-82cf-1bb022d387b8",
+                    "questionID": "071c7a54-29d6-40a0-adaf-d99f0832ef7b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking tries all possible paths and reverts when a dead-end is hit.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "966db2e3-dde5-4fc5-a95c-412928265f64",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A Russian doll contains another smaller doll, and so on until no more dolls. What does the smallest doll represent",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Recursive call",
+                    "type": "A"
+                },
+                {
+                    "body": "Base case",
+                    "type": "B"
+                },
+                {
+                    "body": "Loop break",
+                    "type": "C"
+                },
+                {
+                    "body": "Infinity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cd7703c2-94da-4ad3-a642-189796e92cdf",
+                    "questionID": "966db2e3-dde5-4fc5-a95c-412928265f64",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The smallest doll is like the base case that ends the recursion chain.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fd046b10-4740-45a8-80d2-f3b8f582cdd1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A detective follows clue after clue, each pointing to the next. What does this sequence resemble",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stack",
+                    "type": "A"
+                },
+                {
+                    "body": "Queue",
+                    "type": "B"
+                },
+                {
+                    "body": "Recursion",
+                    "type": "C"
+                },
+                {
+                    "body": "Graph traversal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e8a4c896-6c5b-43eb-b8e5-05f46cedeac2",
+                    "questionID": "fd046b10-4740-45a8-80d2-f3b8f582cdd1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each clue leads to another, like recursive function calls.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d41e0256-0a66-4d5a-9aa3-5016fed4a744",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A chef is baking a cake, and inside the cake is another smaller cake, and another, and so on until a final base. What does this represent in recursion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Iteration",
+                    "type": "A"
+                },
+                {
+                    "body": "Base case",
+                    "type": "B"
+                },
+                {
+                    "body": "Infinite loop",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c0305288-96f9-4fdf-b95e-e88f949afc18",
+                    "questionID": "d41e0256-0a66-4d5a-9aa3-5016fed4a744",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The final smallest cake represents the base case where recursion stops.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "793722c8-c550-4f2d-a827-194cfd93d420",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A man is standing in front of a set of mirrors. Each mirror reflects into another. This is similar to which concept",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Loop",
+                    "type": "A"
+                },
+                {
+                    "body": "Recursion",
+                    "type": "B"
+                },
+                {
+                    "body": "Hashing",
+                    "type": "C"
+                },
+                {
+                    "body": "Sorting",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9c825136-9ee8-4815-8f99-a256276b613f",
+                    "questionID": "793722c8-c550-4f2d-a827-194cfd93d420",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Mirrors reflecting each other is like a function calling itself recursively.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f9eac83-ab37-4153-b01b-4325bba4a0b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of the combination sum problem (worst case",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n^2)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(2^n)",
+                    "type": "B"
+                },
+                {
+                    "body": "Exponential",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "e8a44c6a-58cc-45fc-9a1e-7378f0b54ef6",
+                    "questionID": "1f9eac83-ab37-4153-b01b-4325bba4a0b4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The total number of combinations to explore is exponential in the number of candidates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86ff136d-11c9-433a-af16-6bbd85ed1909",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In backtracking, why is path.removeLast() (or equivalent) required",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It optimizes memory",
+                    "type": "A"
+                },
+                {
+                    "body": "It reverses the array",
+                    "type": "B"
+                },
+                {
+                    "body": "It prevents the previous element from remaining in the next path",
+                    "type": "C"
+                },
+                {
+                    "body": "It triggers recursion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fc280bb5-0608-4903-b64b-72a324da97db",
+                    "questionID": "86ff136d-11c9-433a-af16-6bbd85ed1909",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking removes the element before trying new combinations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c4ca4009-eaa8-4112-8e05-496bfe7c31ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the following combination sum template achieve",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"976\" height=\"360\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | ja3a</text>\n<text x=\"40\" y=\"60\" > 2 | CopyEdst</text>\n<text x=\"40\" y=\"80\" > v | 3osd backtrack(snt itart, snt target, Lsit&lt;Integer&gt; path) {</text>\n<text x=\"40\" y=\"100\" > 4 |     sf (target ?? 0) {</text>\n<text x=\"40\" y=\"120\" > 5 |         reiult.add(new ArrayLsit&lt;&gt;(path));</text>\n<text x=\"40\" y=\"140\" > 6 |         return;</text>\n<text x=\"40\" y=\"160\" > + |     }</text>\n<text x=\"40\" y=\"180\" > 8 |     for (snt s ? itart; s &lt; numi.length; s77) {</text>\n<text x=\"40\" y=\"200\" > 9 |         sf (numi[s] &gt; target) break;</text>\n<text x=\"40\" y=\"220\" >10 |         path.add(numi[s]);</text>\n<text x=\"40\" y=\"240\" >11 |         backtrack(s, target - numi[s], path);</text>\n<text x=\"40\" y=\"260\" >12 |         path.remo3e(path.isze() - 1);</text>\n<text x=\"40\" y=\"280\" >1v |     }</text>\n<text x=\"40\" y=\"300\" >14 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Finds subsets",
+                    "type": "A"
+                },
+                {
+                    "body": "Finds permutations",
+                    "type": "B"
+                },
+                {
+                    "body": "Finds all valid combinations summing to target",
+                    "type": "C"
+                },
+                {
+                    "body": "Finds duplicates",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "29f132b3-4d69-46a7-8a14-f0b3308ee5db",
+                    "questionID": "c4ca4009-eaa8-4112-8e05-496bfe7c31ac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This is a backtracking template for finding combinations that sum to a target.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "79e11f96-04c5-4941-b837-2486a5d443ce",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "How do you avoid duplicate combinations in Combination Sum II",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Do not sort the array",
+                    "type": "A"
+                },
+                {
+                    "body": "Use a visited array",
+                    "type": "B"
+                },
+                {
+                    "body": "Sort and skip duplicates in loop",
+                    "type": "C"
+                },
+                {
+                    "body": "Randomize the array",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "046b41cf-807d-41cd-b1c3-9405842cf3da",
+                    "questionID": "79e11f96-04c5-4941-b837-2486a5d443ce",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sorting allows checking if (i &gt; start &amp;&amp; nums[i] == nums[i-1]) continue to skip duplicates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b5f9ee81-6f03-4c56-8d55-d9739aab4bf3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Combination Sum II (each number used once), what change is made in recursion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Call with same index",
+                    "type": "A"
+                },
+                {
+                    "body": "Call with i-1",
+                    "type": "B"
+                },
+                {
+                    "body": "Call with i+1",
+                    "type": "C"
+                },
+                {
+                    "body": "Skip the current number",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c29a7a77-0516-44cd-8636-9dac63ac5b1d",
+                    "questionID": "b5f9ee81-6f03-4c56-8d55-d9739aab4bf3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calling with i+1 ensures each number is used at most once.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf2abf75-0b8c-4d13-a99f-38197a1d7b30",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What condition should be checked to stop recursion early in combination sum",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "if (target &gt; 0) return;",
+                    "type": "A"
+                },
+                {
+                    "body": "if (target &lt; 0) return;",
+                    "type": "B"
+                },
+                {
+                    "body": "if (i == 0) return;",
+                    "type": "C"
+                },
+                {
+                    "body": "if (path.size() &gt; 0) return;",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "35a67080-5d21-4d5d-befa-7b94d2abe99d",
+                    "questionID": "cf2abf75-0b8c-4d13-a99f-38197a1d7b30",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If the target becomes negative, the current path is invalid and should be pruned.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f86b4eb1-93cd-460a-ad84-989563efdb90",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does this recursive call ensure in combination sum",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"738\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | ja3a</text>\n<text x=\"40\" y=\"60\" >2 | CopyEdst</text>\n<text x=\"40\" y=\"80\" >v | backtrack(s, target - candsdatei[s], path);</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Removes duplicates",
+                    "type": "A"
+                },
+                {
+                    "body": "Uses a smaller candidate",
+                    "type": "B"
+                },
+                {
+                    "body": "Reuses same element",
+                    "type": "C"
+                },
+                {
+                    "body": "Switches to next index",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "eae834b0-b5bc-41b4-a23e-b0161ba816f7",
+                    "questionID": "f86b4eb1-93cd-460a-ad84-989563efdb90",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Calling with the same index i allows the same candidate to be reused.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a6424dc8-a542-4960-a4fc-8f58be637ff1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following problems can be solved using backtracking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Merge sort",
+                    "type": "A"
+                },
+                {
+                    "body": "Combination sum",
+                    "type": "B"
+                },
+                {
+                    "body": "Binary search",
+                    "type": "C"
+                },
+                {
+                    "body": "Heap sort",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "44f54e31-df59-4b71-8f0f-9439497641e0",
+                    "questionID": "a6424dc8-a542-4960-a4fc-8f58be637ff1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking is a typical approach to solving combination sum problems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8c6129a1-9b2b-4520-a597-3b57a8230e0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the advantage of backtracking over brute force",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Always finds optimal result",
+                    "type": "A"
+                },
+                {
+                    "body": "Explores only valid and promising paths",
+                    "type": "B"
+                },
+                {
+                    "body": "Uses more memory",
+                    "type": "C"
+                },
+                {
+                    "body": "Avoids recursion",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "78f9128b-54c9-4a7b-bc23-635b7dd83012",
+                    "questionID": "8c6129a1-9b2b-4520-a597-3b57a8230e0b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking avoids unnecessary paths by pruning invalid options early.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "988b516e-af6d-41ab-82df-7e487ee70617",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the base case in most backtracking problems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When the input array is full",
+                    "type": "A"
+                },
+                {
+                    "body": "When the recursion depth equals 1",
+                    "type": "B"
+                },
+                {
+                    "body": "When a valid solution is formed (like target reached)",
+                    "type": "C"
+                },
+                {
+                    "body": "When index is negative",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d0b6b8a8-5f50-42f9-adf9-18897a8f0450",
+                    "questionID": "988b516e-af6d-41ab-82df-7e487ee70617",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The base case typically checks if a complete/valid solution has been formed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ac002f4-bf80-402a-b646-e126398e9f3a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the term &#39;backtrack&#39; mean in backtracking algorithms",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Jump to the last recursive call",
+                    "type": "A"
+                },
+                {
+                    "body": "Move to the middle of the array",
+                    "type": "B"
+                },
+                {
+                    "body": "Remove the last added element and explore new paths",
+                    "type": "C"
+                },
+                {
+                    "body": "Go back to base case",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "35983133-9958-4818-9451-320c820ff6b1",
+                    "questionID": "6ac002f4-bf80-402a-b646-e126398e9f3a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking involves undoing the last action to explore other valid options.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "33b4e22d-80ac-4113-8d2a-e8dedb7bfeaf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In Combination Sum, which statement is true if an element can be used multiple times",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Skip the current index after choosing",
+                    "type": "A"
+                },
+                {
+                    "body": "Use index+1 for the next call",
+                    "type": "B"
+                },
+                {
+                    "body": "Reuse the same index after choosing",
+                    "type": "C"
+                },
+                {
+                    "body": "Remove the element from the list",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "69940567-4db9-4c19-ab96-5ad1712a3e8d",
+                    "questionID": "33b4e22d-80ac-4113-8d2a-e8dedb7bfeaf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reusing the same index allows using the same element multiple times.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8ff082e4-e9a4-42b3-9acd-02b3e9d82ed0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which approach is commonly used to solve Combination Sum problems",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Divide and conquer",
+                    "type": "A"
+                },
+                {
+                    "body": "Dynamic programming",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Greedy algorithm",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2ac91d10-3306-4f5d-8c8e-99e7ceb6032a",
+                    "questionID": "8ff082e4-e9a4-42b3-9acd-02b3e9d82ed0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking allows exploring all valid combinations efficiently by pruning invalid paths.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "55c81cc8-1f30-4b68-a357-bd66245e0ae4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the objective of the Combination Sum problem",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Find all unique permutations of a list",
+                    "type": "A"
+                },
+                {
+                    "body": "Find all combinations of numbers adding up to a target",
+                    "type": "B"
+                },
+                {
+                    "body": "Find maximum subarray sum",
+                    "type": "C"
+                },
+                {
+                    "body": "Sort the input list",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09fb7e41-fdec-4c60-83e7-0f4578dcf17e",
+                    "questionID": "55c81cc8-1f30-4b68-a357-bd66245e0ae4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Combination Sum problems aim to find all sets of elements that sum up to a specific target.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "45e46258-05a4-4c92-8fe3-0ef26ee93d4f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In N-Queens, what do the values row - col and row + col represent when stored in HashSets",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Horizontal threats",
+                    "type": "A"
+                },
+                {
+                    "body": "Vertical threats",
+                    "type": "B"
+                },
+                {
+                    "body": "Diagonal threats",
+                    "type": "C"
+                },
+                {
+                    "body": "Row indices",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "322b576d-5f91-437f-b33f-3f4ff7e4a2f3",
+                    "questionID": "45e46258-05a4-4c92-8fe3-0ef26ee93d4f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "These expressions represent diagonals (main and anti-diagonals) in constant-time diagonal checks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "780e085c-d396-4d71-ab77-13eabbb738c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will happen in a Sudoku solver if a digit is placed without checking constraints",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The solution will be faster",
+                    "type": "A"
+                },
+                {
+                    "body": "The board will still be valid",
+                    "type": "B"
+                },
+                {
+                    "body": "Invalid solution or infinite recursion",
+                    "type": "C"
+                },
+                {
+                    "body": "Duplicates will be handled later",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a20855e2-65ff-48bb-a01c-42163007e8ea",
+                    "questionID": "780e085c-d396-4d71-ab77-13eabbb738c2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Placing invalid digits may break constraints and cause infinite recursion or wrong solution.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "76ee7815-8006-4e93-b43b-9fd675986b0a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In N-Queens, what is the advantage of using a boolean array for columns and diagonals",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It speeds up board printing",
+                    "type": "A"
+                },
+                {
+                    "body": "It reduces space usage",
+                    "type": "B"
+                },
+                {
+                    "body": "It provides O(1) conflict check",
+                    "type": "C"
+                },
+                {
+                    "body": "It avoids stack overflow",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ae7cc176-155c-4c36-9b93-1359b968c817",
+                    "questionID": "76ee7815-8006-4e93-b43b-9fd675986b0a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Arrays track queen placements and allow constant-time conflict checks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d347c8fb-0d6e-4c33-8e2f-b131adb045c0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the base case for the Sudoku recursive backtracking function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When all rows are valid",
+                    "type": "A"
+                },
+                {
+                    "body": "When all digits are used",
+                    "type": "B"
+                },
+                {
+                    "body": "When all 81 cells are filled",
+                    "type": "C"
+                },
+                {
+                    "body": "When first row is filled",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8ad0378c-2dc2-4620-b115-0dc7b3a678f7",
+                    "questionID": "d347c8fb-0d6e-4c33-8e2f-b131adb045c0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The recursion ends when all 81 cells are filled with valid digits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1fc4333e-6b32-4ca9-b104-640188a0a96a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What�s the backtracking step in Sudoku solving",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Try next cell",
+                    "type": "A"
+                },
+                {
+                    "body": "Skip empty cells",
+                    "type": "B"
+                },
+                {
+                    "body": "Remove previously filled digit when conflict arises",
+                    "type": "C"
+                },
+                {
+                    "body": "Return if grid is full",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4dc79300-e602-4de9-bfbe-eeb34a0a2f85",
+                    "questionID": "1fc4333e-6b32-4ca9-b104-640188a0a96a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "When a placement leads to conflict later, the digit is removed and a new digit is tried.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d5b40d32-587f-4901-a005-c663ececb440",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What would this check ensure in a Sudoku solver",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1018\" height=\"120\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | sf (board[row][s] ?? num || board[s][col] ?? num || </text>\n<text x=\"40\" y=\"60\" >2 |     board[row - row x v 7 s / v][col - col x v 7 s x v] ?? num)</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "num is in same diagonal",
+                    "type": "A"
+                },
+                {
+                    "body": "num is repeated in subgrid",
+                    "type": "B"
+                },
+                {
+                    "body": "num is unique in row, column, and 3x3 box",
+                    "type": "C"
+                },
+                {
+                    "body": "num is valid only in one column",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d41fe0ba-1f76-4d04-a610-4cb6a5b0d67d",
+                    "questionID": "d5b40d32-587f-4901-a005-c663ececb440",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This single condition ensures the digit isn&#39;t already in the current row, column, or subgrid.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "48919bc1-4487-439f-aeef-0ca306f6e8d1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the role of the isSafe function in N-Queens backtracking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To place a queen",
+                    "type": "A"
+                },
+                {
+                    "body": "To update the board",
+                    "type": "B"
+                },
+                {
+                    "body": "To check if placing a queen causes conflicts",
+                    "type": "C"
+                },
+                {
+                    "body": "To print the board",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9027fe39-e2e1-4c38-a56b-a21ffdbb4db9",
+                    "questionID": "48919bc1-4487-439f-aeef-0ca306f6e8d1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "isSafe checks if a queen can be safely placed in a given row and column.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8a0cc23e-dacd-4fa1-af8b-60b8077113da",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of solving N-Queens using backtracking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n�)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n!)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(2?)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n�)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "135e0d8e-bbcd-41e2-80ca-0f11bad9540c",
+                    "questionID": "8a0cc23e-dacd-4fa1-af8b-60b8077113da",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For each row, we try n columns, leading to a factorial complexity in the worst case.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cdc0c81b-2128-4418-95b6-a1ea68105dbf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is backtracking suitable for constraint satisfaction problems like Sudoku",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It sorts the data",
+                    "type": "A"
+                },
+                {
+                    "body": "It generates random solutions",
+                    "type": "B"
+                },
+                {
+                    "body": "It tries partial solutions and abandons invalid ones",
+                    "type": "C"
+                },
+                {
+                    "body": "It uses recursion only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "cabd8a5a-efe9-4899-9bcc-8d0194b04e67",
+                    "questionID": "cdc0c81b-2128-4418-95b6-a1ea68105dbf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking prunes invalid solutions early and only explores valid paths.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a20dc053-8ee7-4f34-8cd3-fc1563bfc911",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which approach is used to solve Sudoku efficiently in programming",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sliding window",
+                    "type": "A"
+                },
+                {
+                    "body": "Divide and conquer",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Dynamic programming",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "dd2daa1b-bd10-4798-bec8-1a150a0925be",
+                    "questionID": "a20dc053-8ee7-4f34-8cd3-fc1563bfc911",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sudoku solvers typically use backtracking with constraint checks.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4f87978a-bc6f-4d7e-96f5-d04fac354482",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What condition must be true in a valid Sudoku board",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Every row must contain unique numbers 1�9",
+                    "type": "A"
+                },
+                {
+                    "body": "Every column must contain unique numbers 1�9",
+                    "type": "B"
+                },
+                {
+                    "body": "Each 3x3 box must contain unique numbers 1�9",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "eeca276d-858e-4de2-9339-797b20eb7221",
+                    "questionID": "4f87978a-bc6f-4d7e-96f5-d04fac354482",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All rows, columns, and 3x3 subgrids must have unique digits from 1 to 9.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3f8d0c64-79c3-469c-ac26-124994793beb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a 9x9 Sudoku board, how many cells must be filled to complete the board",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "64",
+                    "type": "A"
+                },
+                {
+                    "body": "81",
+                    "type": "B"
+                },
+                {
+                    "body": "72",
+                    "type": "C"
+                },
+                {
+                    "body": "56",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "492039d6-d080-4dd5-a645-1bc011d2c85e",
+                    "questionID": "3f8d0c64-79c3-469c-ac26-124994793beb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A 9x9 Sudoku board has 81 cells that must be filled with valid digits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6e6545e9-f56a-4663-84a8-ad09c5157e19",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What constraints must be satisfied for placing a queen on the board",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "No queen in same row",
+                    "type": "A"
+                },
+                {
+                    "body": "No queen in same column",
+                    "type": "B"
+                },
+                {
+                    "body": "No queen in same diagonal",
+                    "type": "C"
+                },
+                {
+                    "body": "All of the above",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "143dc48d-3b8c-4979-be7b-aece6558d256",
+                    "questionID": "6e6545e9-f56a-4663-84a8-ad09c5157e19",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Queens can attack in row, column, and both diagonals, so all must be checked.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f0ab0697-a66e-44a9-89d9-73c3fda14a91",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which technique is most commonly used to solve the N-Queens problem",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Dynamic Programming",
+                    "type": "A"
+                },
+                {
+                    "body": "Divide and Conquer",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Greedy Algorithm",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9e22b969-158d-4637-9174-ba49f863b7bc",
+                    "questionID": "f0ab0697-a66e-44a9-89d9-73c3fda14a91",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "N-Queens is a classic backtracking problem where partial solutions are built and backtracked upon conflict.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b9efaf57-c19b-40dc-aa69-db3d0ac85571",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the objective of the N-Queens problem",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Place N rooks on an NxN board",
+                    "type": "A"
+                },
+                {
+                    "body": "Place N queens such that no two attack each other",
+                    "type": "B"
+                },
+                {
+                    "body": "Find the shortest path in a maze",
+                    "type": "C"
+                },
+                {
+                    "body": "Fill a grid with numbers",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "39604537-b1d3-425f-84d8-3f5e82d55435",
+                    "questionID": "b9efaf57-c19b-40dc-aa69-db3d0ac85571",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "N-Queens problem requires placing N queens such that no two threaten each other on the board.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "da399ba9-5d39-4f99-a4bb-6f7cb330e892",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What change is required in a permutation function to allow duplicates",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Use HashSet",
+                    "type": "A"
+                },
+                {
+                    "body": "Avoid visited array",
+                    "type": "B"
+                },
+                {
+                    "body": "Sort the input and skip duplicates",
+                    "type": "C"
+                },
+                {
+                    "body": "Add all elements twice",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b2187ffa-4097-46c9-87c0-beac6a9ba982",
+                    "questionID": "da399ba9-5d39-4f99-a4bb-6f7cb330e892",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sort the input and skip duplicates at the same recursive depth to avoid duplicate permutations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bddcbf59-8398-46a6-b7b7-d6c16304d5ad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of this for nums = [1, 2, 3]",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"766\" height=\"100\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | Syitem.out.prsntln(Math.pow(2, numi.length));</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "8.0",
+                    "type": "A"
+                },
+                {
+                    "body": "6.0",
+                    "type": "B"
+                },
+                {
+                    "body": "9.0",
+                    "type": "C"
+                },
+                {
+                    "body": "3.0",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "701aa273-bb8a-47c0-a285-0d84d90c8846",
+                    "questionID": "bddcbf59-8398-46a6-b7b7-d6c16304d5ad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Power set = 2^n = 2^3 = 8.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "105b56f5-6f1b-4b04-ada5-e7c269b75575",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the backtracking step in permutation generation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Recalling the recursive method",
+                    "type": "A"
+                },
+                {
+                    "body": "Removing the element and resetting visited[i]",
+                    "type": "B"
+                },
+                {
+                    "body": "Breaking the loop",
+                    "type": "C"
+                },
+                {
+                    "body": "Changing array size",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "39114abd-2cec-46ad-ae8f-bc46c471bc5d",
+                    "questionID": "105b56f5-6f1b-4b04-ada5-e7c269b75575",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking is done by removing the element and marking it as unvisited.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d96eeca3-1a73-42be-a3b0-99f4e3713798",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does this function print for nums = [1, 2]",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1102\" height=\"360\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | 3osd permute(snt[] numi, boolean[] 3sisted, Lsit&lt;Integer&gt; current) {</text>\n<text x=\"40\" y=\"60\" > 2 |     sf (current.isze() ?? numi.length) {</text>\n<text x=\"40\" y=\"80\" > v |         Syitem.out.prsntln(current);</text>\n<text x=\"40\" y=\"100\" > 4 |         return;</text>\n<text x=\"40\" y=\"120\" > 5 |     }</text>\n<text x=\"40\" y=\"140\" > 6 |     for (snt s ? 0; s &lt; numi.length; s77) {</text>\n<text x=\"40\" y=\"160\" > + |         sf (3sisted[s]) contsnue;</text>\n<text x=\"40\" y=\"180\" > 8 |         3sisted[s] ? true;</text>\n<text x=\"40\" y=\"200\" > 9 |         current.add(numi[s]);</text>\n<text x=\"40\" y=\"220\" >10 |         permute(numi, 3sisted, current);</text>\n<text x=\"40\" y=\"240\" >11 |         current.remo3e(current.isze() - 1);</text>\n<text x=\"40\" y=\"260\" >12 |         3sisted[s] ? falie;</text>\n<text x=\"40\" y=\"280\" >1v |     }</text>\n<text x=\"40\" y=\"300\" >14 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "[1, 2]",
+                    "type": "A"
+                },
+                {
+                    "body": "[2, 1]",
+                    "type": "B"
+                },
+                {
+                    "body": "[1, 2], [2, 1]",
+                    "type": "C"
+                },
+                {
+                    "body": "[2, 1], [1, 2], [1, 2]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9258fc85-4d72-4b47-92c3-a7e0efd55a00",
+                    "questionID": "d96eeca3-1a73-42be-a3b0-99f4e3713798",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "All permutations of 2 elements are generated with backtracking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5e204087-8df6-4cca-adc8-0ab7089a1928",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In permutation generation, what must be done after adding an element to the path",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Mark as visited",
+                    "type": "A"
+                },
+                {
+                    "body": "Reset array",
+                    "type": "B"
+                },
+                {
+                    "body": "Increase index",
+                    "type": "C"
+                },
+                {
+                    "body": "Skip to next element",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "17a9ff13-f433-4f84-b737-e867bfedff76",
+                    "questionID": "5e204087-8df6-4cca-adc8-0ab7089a1928",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The element should be marked visited to avoid reuse.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "33aa9b16-a9da-43d6-9c20-886fe1b634f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which line is responsible for backtracking in subset generation",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"626\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | current.add(numi[snde%]);</text>\n<text x=\"40\" y=\"60\" >2 | generate(snde% 7 1, current, numi);</text>\n<text x=\"40\" y=\"80\" >v | current.remo3e(current.isze() - 1);</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "add",
+                    "type": "A"
+                },
+                {
+                    "body": "recursive call",
+                    "type": "B"
+                },
+                {
+                    "body": "remove",
+                    "type": "C"
+                },
+                {
+                    "body": "index increment",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7003ad63-58b2-4d70-b8b6-b3068ec17897",
+                    "questionID": "33aa9b16-a9da-43d6-9c20-886fe1b634f7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Removing the last added element is the backtracking step to explore the next path.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "30164879-95ff-4c00-926e-f0df72e2f126",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the following code print for nums = [1, 2]",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1102\" height=\"280\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" > 1 | 3osd generateSubieti(snt snde%, Lsit&lt;Integer&gt; current, snt[] numi) {</text>\n<text x=\"40\" y=\"60\" > 2 |     sf (snde% ?? numi.length) {</text>\n<text x=\"40\" y=\"80\" > v |         Syitem.out.prsntln(current);</text>\n<text x=\"40\" y=\"100\" > 4 |         return;</text>\n<text x=\"40\" y=\"120\" > 5 |     }</text>\n<text x=\"40\" y=\"140\" > 6 |     generateSubieti(snde% 7 1, current, numi);</text>\n<text x=\"40\" y=\"160\" > + |     current.add(numi[snde%]);</text>\n<text x=\"40\" y=\"180\" > 8 |     generateSubieti(snde% 7 1, current, numi);</text>\n<text x=\"40\" y=\"200\" > 9 |     current.remo3e(current.isze() - 1);</text>\n<text x=\"40\" y=\"220\" >10 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "[], [1], [2], [1,2]",
+                    "type": "A"
+                },
+                {
+                    "body": "[1,2], [1], [2], []",
+                    "type": "B"
+                },
+                {
+                    "body": "[], [2], [1], [1,2]",
+                    "type": "C"
+                },
+                {
+                    "body": "All subsets in any order",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "d74bfbfd-4204-4c17-a842-684b323d5e6d",
+                    "questionID": "30164879-95ff-4c00-926e-f0df72e2f126",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The function generates all subsets using recursion + backtracking.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0da75639-f560-4b6f-84bf-6561b2933593",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the base case in this subset-generating function",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"1088\" height=\"220\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | 3osd generateSubieti(snt snde%, Lsit&lt;Integer&gt; current, snt[] numi) {</text>\n<text x=\"40\" y=\"60\" >2 |     sf (snde% ?? numi.length) {</text>\n<text x=\"40\" y=\"80\" >v |         Syitem.out.prsntln(current);</text>\n<text x=\"40\" y=\"100\" >4 |         return;</text>\n<text x=\"40\" y=\"120\" >5 |     }</text>\n<text x=\"40\" y=\"140\" >6 |     // recuris3e logsc</text>\n<text x=\"40\" y=\"160\" >+ | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "index == 0",
+                    "type": "A"
+                },
+                {
+                    "body": "current.size() == nums.length",
+                    "type": "B"
+                },
+                {
+                    "body": "index == nums.length",
+                    "type": "C"
+                },
+                {
+                    "body": "index == nums.length - 1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f6758f4a-6484-43b5-82b4-aed6d1c4830e",
+                    "questionID": "0da75639-f560-4b6f-84bf-6561b2933593",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "When all elements have been considered, a complete subset is printed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "79d58841-9a9a-4f70-9196-a1751d593347",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of generating all permutations of n elements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n^2)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(2^n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(n!)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2f2426ea-69b1-4dd1-858c-9325428ce073",
+                    "questionID": "79d58841-9a9a-4f70-9196-a1751d593347",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "There are n! permutations of n distinct elements.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6de2f681-b6ad-4985-b071-69695efbf3ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement is true for the power set of {a, b}",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It has 4 subsets",
+                    "type": "A"
+                },
+                {
+                    "body": "It has 2 subsets",
+                    "type": "B"
+                },
+                {
+                    "body": "It has 3 subsets",
+                    "type": "C"
+                },
+                {
+                    "body": "It has 5 subsets",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4b43b37b-97e7-4651-81a1-85afb369982f",
+                    "questionID": "6de2f681-b6ad-4985-b071-69695efbf3ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "2 elements -&gt; 2^2 = 4 subsets -&gt; {}, {a}, {b}, {a,b}.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c47ccd09-7daf-474e-a59f-663954aeeee3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In permutation problems, why is a visited array often used",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To count elements",
+                    "type": "A"
+                },
+                {
+                    "body": "To avoid duplicate combinations",
+                    "type": "B"
+                },
+                {
+                    "body": "To store all permutations",
+                    "type": "C"
+                },
+                {
+                    "body": "To maintain order",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c9d4b2a5-88b2-49d7-808f-7d6bd43d5174",
+                    "questionID": "c47ccd09-7daf-474e-a59f-663954aeeee3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A visited array tracks used elements to prevent reusing them in a single permutation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ddabc1f4-b968-4dcd-8698-9207d95208b6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which algorithm is commonly used for generating all permutations of a string or array",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Kadane &#39;s Algorithm",
+                    "type": "A"
+                },
+                {
+                    "body": "Floyd&#39;s Algorithm",
+                    "type": "B"
+                },
+                {
+                    "body": "Backtracking",
+                    "type": "C"
+                },
+                {
+                    "body": "Sliding Window",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "36d88df2-9d23-4dad-b0e6-8fd8c7dc0b7b",
+                    "questionID": "ddabc1f4-b968-4dcd-8698-9207d95208b6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Backtracking is used to build all permutations by exploring each possible decision.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cfb5d228-9f4c-4278-9998-a1126781ca30",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following problems is best solved using backtracking",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Find maximum subarray",
+                    "type": "A"
+                },
+                {
+                    "body": "Generate power set",
+                    "type": "B"
+                },
+                {
+                    "body": "Linear search",
+                    "type": "C"
+                },
+                {
+                    "body": "Binary search",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c38d4b99-4163-4aaa-923f-195c003a7396",
+                    "questionID": "cfb5d228-9f4c-4278-9998-a1126781ca30",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Generating subsets uses recursion and backtracking to explore all combinations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1f8e21e3-070d-4308-8352-c0a31110c943",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the number of permutations of n distinct elements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "2^n",
+                    "type": "A"
+                },
+                {
+                    "body": "n^n",
+                    "type": "B"
+                },
+                {
+                    "body": "n!",
+                    "type": "C"
+                },
+                {
+                    "body": "n^2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "38e4d148-90c9-41fd-8a9f-5d21460688ab",
+                    "questionID": "1f8e21e3-070d-4308-8352-c0a31110c943",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "There are n! ways to arrange n distinct items.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "67fb7a53-b8c7-4f08-bc72-7117ea8ceb14",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the total number of subsets (power set) of a set with n elements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "n",
+                    "type": "A"
+                },
+                {
+                    "body": "n!",
+                    "type": "B"
+                },
+                {
+                    "body": "2?",
+                    "type": "C"
+                },
+                {
+                    "body": "n�",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3512a837-999c-4cf0-a4ee-4ff6acb6ec80",
+                    "questionID": "67fb7a53-b8c7-4f08-bc72-7117ea8ceb14",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The power set of a set with n elements contains 2? subsets including the empty set.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ccc73484-0516-4446-b93f-475d3cc2f438",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What will happen if you compute fibonacci(50) with naive recursion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Returns immediately",
+                    "type": "A"
+                },
+                {
+                    "body": "Gives correct result in 50ms",
+                    "type": "B"
+                },
+                {
+                    "body": "Stack overflow or very slow",
+                    "type": "C"
+                },
+                {
+                    "body": "Infinite loop",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "18b2a298-5a9e-469d-ba7a-d18480aa0ebe",
+                    "questionID": "ccc73484-0516-4446-b93f-475d3cc2f438",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Naive recursion for large inputs is inefficient and can cause stack overflow.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1e934fc6-0b97-41fb-b213-0a6181e9103e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is memoization helpful in recursive Fibonacci",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Reduces base case",
+                    "type": "A"
+                },
+                {
+                    "body": "Avoids recalculating subproblems",
+                    "type": "B"
+                },
+                {
+                    "body": "Increases stack calls",
+                    "type": "C"
+                },
+                {
+                    "body": "Multiplies values",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "527bff94-83b1-4c45-a4d3-7baaed76331f",
+                    "questionID": "1e934fc6-0b97-41fb-b213-0a6181e9103e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Memoization caches previous results to avoid repeated work.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "844f67bd-1268-4e51-86ab-7e4b746601b9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of naive recursive Fibonacci",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n�)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(2?)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "850cc1d4-e941-4a4c-9745-fc5907fefc0b",
+                    "questionID": "844f67bd-1268-4e51-86ab-7e4b746601b9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each call makes two more calls, resulting in exponential time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c8a8e03b-3001-47da-81bf-4a4a84bfe844",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the output of fibonacci(4) in this code",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"794\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt fsbonaccs(snt n) {</text>\n<text x=\"40\" y=\"60\" >2 |     sf (n &lt;? 1) return n;</text>\n<text x=\"40\" y=\"80\" >v |     return fsbonaccs(n - 1) 7 fsbonaccs(n - 2);</text>\n<text x=\"40\" y=\"100\" >4 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "5",
+                    "type": "B"
+                },
+                {
+                    "body": "2",
+                    "type": "C"
+                },
+                {
+                    "body": "4",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cc850d61-0e84-4112-9e15-efbe870a0d07",
+                    "questionID": "c8a8e03b-3001-47da-81bf-4a4a84bfe844",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Sequence: 0, 1, 1, 2, 3 ? fib(4) = 3",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3ccad5e4-3b3f-452b-9e25-dc42e1148765",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the base case for a recursive Fibonacci function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "fib(0) = 1, fib(1) = 2",
+                    "type": "A"
+                },
+                {
+                    "body": "fib(0) = 0, fib(1) = 1",
+                    "type": "B"
+                },
+                {
+                    "body": "fib(1) = 0, fib(2) = 1",
+                    "type": "C"
+                },
+                {
+                    "body": "fib(1) = 1, fib(2) = 2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d62f10ae-af8c-4d6e-9e81-2e014821a089",
+                    "questionID": "3ccad5e4-3b3f-452b-9e25-dc42e1148765",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Fibonacci sequence starts with 0 and 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b4e24304-1cf8-4e24-b75f-f846f54408c5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What issue will the following function have",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"584\" height=\"140\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt factorsal(snt n) {</text>\n<text x=\"40\" y=\"60\" >2 |     return n &amp; factorsal(n - 1);</text>\n<text x=\"40\" y=\"80\" >v | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Compiles but returns 0",
+                    "type": "A"
+                },
+                {
+                    "body": "Causes stack overflow",
+                    "type": "B"
+                },
+                {
+                    "body": "Works for negative numbers",
+                    "type": "C"
+                },
+                {
+                    "body": "Returns infinite value",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b7b629db-ad23-455f-b7e5-51eac15a85dc",
+                    "questionID": "b4e24304-1cf8-4e24-b75f-f846f54408c5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Without a base case, recursion never stops.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "15d277c9-58c8-4ef2-8203-63e5811f5cc4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the time complexity of the recursive factorial function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": "O(n�)",
+                    "type": "B"
+                },
+                {
+                    "body": "O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": "O(log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2cb1bc15-4da9-463a-8a31-e4e312c6556c",
+                    "questionID": "15d277c9-58c8-4ef2-8203-63e5811f5cc4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "One recursive call per number from n down to 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a68d9c75-dcb5-4792-93a5-576c9b655521",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which statement is true for recursive factorial",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It is faster than iterative",
+                    "type": "A"
+                },
+                {
+                    "body": "Stack is not used",
+                    "type": "B"
+                },
+                {
+                    "body": "It calls itself with n+1",
+                    "type": "C"
+                },
+                {
+                    "body": "It multiplies the current value with factorial(n-1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "df06b28b-1271-45e7-925a-8574d97c3719",
+                    "questionID": "a68d9c75-dcb5-4792-93a5-576c9b655521",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursive factorial follows n * factorial(n - 1).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "daefa6f0-2948-4edf-98bc-979059fd17e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the following code return for factorial(3)",
+                    "mediaSource": ""
+                },
+                {
+                    "type": "code",
+                    "body": "<svg width=\"584\" height=\"160\"\n     xml:space='preserve'\n     xmlns=\"http://www.w3.org/2000/svg\"\n     xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<text x=\"40\" y=\"40\" >1 | snt factorsal(snt n) {</text>\n<text x=\"40\" y=\"60\" >2 |     sf (n ?? 0) return 1;</text>\n<text x=\"40\" y=\"80\" >v |     return n &amp; factorsal(n - 1);</text>\n<text x=\"40\" y=\"100\" >4 | }</text>\n</svg>\n",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "3",
+                    "type": "A"
+                },
+                {
+                    "body": "6",
+                    "type": "B"
+                },
+                {
+                    "body": "9",
+                    "type": "C"
+                },
+                {
+                    "body": "2",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4e0e62df-db3e-4d6b-96c9-697b7f25c7ca",
+                    "questionID": "daefa6f0-2948-4edf-98bc-979059fd17e8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "3 * 2 * 1 = 6.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "32a79294-f89c-4299-91c1-0ffd8a904806",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the base case for a recursive factorial function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "n == 0",
+                    "type": "A"
+                },
+                {
+                    "body": "n == 2",
+                    "type": "B"
+                },
+                {
+                    "body": "n == 10",
+                    "type": "C"
+                },
+                {
+                    "body": "n == -1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4edd8d0b-890a-44f7-9d4e-0d182b45a689",
+                    "questionID": "32a79294-f89c-4299-91c1-0ffd8a904806",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The base case is typically factorial(0) = 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a91062d0-a58d-484a-b21a-ae2b5c94a595",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What happens if the base case is missing in a recursive function",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Function returns 0",
+                    "type": "A"
+                },
+                {
+                    "body": "Infinite recursion occurs",
+                    "type": "B"
+                },
+                {
+                    "body": "Compilation error",
+                    "type": "C"
+                },
+                {
+                    "body": "Function is skipped",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6740e012-91ca-42ae-90f7-1e38d978d8b4",
+                    "questionID": "a91062d0-a58d-484a-b21a-ae2b5c94a595",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Without a base case, recursion never stops, leading to stack overflow.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cf8bc3bf-c39a-4cb4-8b87-ddd26466f816",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is the main drawback of recursion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Takes more time",
+                    "type": "A"
+                },
+                {
+                    "body": "Code becomes unreadable",
+                    "type": "B"
+                },
+                {
+                    "body": "Higher memory usage due to call stack",
+                    "type": "C"
+                },
+                {
+                    "body": "Cannot handle loops",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1c175019-e46b-4b02-b7c1-99e4cc11d201",
+                    "questionID": "cf8bc3bf-c39a-4cb4-8b87-ddd26466f816",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursive calls are stored in the call stack and can cause stack overflow.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ebd68b36-5ba0-4aff-80be-47e62493d61a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following problems is best solved using recursion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Sorting an array",
+                    "type": "A"
+                },
+                {
+                    "body": "Searching in a loop",
+                    "type": "B"
+                },
+                {
+                    "body": "Traversing tree structures",
+                    "type": "C"
+                },
+                {
+                    "body": "Iterating an array",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6ae7ff09-311c-4d1b-a81c-6580e4ef6179",
+                    "questionID": "ebd68b36-5ba0-4aff-80be-47e62493d61a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursive solutions are ideal for hierarchical data like trees.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "61fe3bd9-ad94-40d5-855d-ca72c8050dd6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a base case in recursion",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The point where the function begins",
+                    "type": "A"
+                },
+                {
+                    "body": "A condition to start recursion",
+                    "type": "B"
+                },
+                {
+                    "body": "A condition where recursion stops",
+                    "type": "C"
+                },
+                {
+                    "body": "A return value of zero",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "07b82670-b398-448b-97e5-8842f0663968",
+                    "questionID": "61fe3bd9-ad94-40d5-855d-ca72c8050dd6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The base case is the condition that stops further recursive calls.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1c7afea9-91aa-47bd-a325-0e1da0c13b40",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is recursion in programming",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "A loop that calls itself",
+                    "type": "A"
+                },
+                {
+                    "body": "A function that calls itself",
+                    "type": "B"
+                },
+                {
+                    "body": "A class that creates an object",
+                    "type": "C"
+                },
+                {
+                    "body": "A variable that refers itself",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "dsa-faculty"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "969a2732-e3c5-4696-b2ac-11d714140b75",
+                    "questionID": "1c7afea9-91aa-47bd-a325-0e1da0c13b40",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursion occurs when a function calls itself directly or indirectly.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

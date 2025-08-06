@@ -1,0 +1,2706 @@
+{
+    "bank_id": "ed9c7205-4212-4ad2-9849-dd812d3678d3",
+    "bank_name": "DSA-Week-2-Immersion",
+    "questions": [
+        {
+            "id": "dd7fec46-e5a7-4f10-aeeb-7ed377727e22",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In recursion, the function call is managed using which data structure",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Queue",
+                    "type": "A"
+                },
+                {
+                    "body": " Stack",
+                    "type": "B"
+                },
+                {
+                    "body": " Heap",
+                    "type": "C"
+                },
+                {
+                    "body": " Graph",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "stack"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0252a5b9-7cb2-486b-92f7-86044acf94e8",
+                    "questionID": "dd7fec46-e5a7-4f10-aeeb-7ed377727e22",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Function calls follow LIFO order, and recursion is handled using the call stack.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "bdb2eb9b-0940-4c06-a31f-7f173c2f8ef0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is not true for a max-heap",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " It is a complete binary tree",
+                    "type": "A"
+                },
+                {
+                    "body": " Root node is greater than its children",
+                    "type": "B"
+                },
+                {
+                    "body": " Left child is always greater than right child",
+                    "type": "C"
+                },
+                {
+                    "body": " All leaves are at the same or one level apart",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Max-Heap"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c7480c5e-5822-4845-82b3-2589b13ff67d",
+                    "questionID": "bdb2eb9b-0940-4c06-a31f-7f173c2f8ef0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "There&#39;s no such condition in heaps regarding left vs right children.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4d9f49ff-f799-48d8-bca2-2ce66c6def6d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " What is the space complexity of recursive merge sort",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Space Complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "390bec90-c746-490e-b64f-4adf17ab3c2b",
+                    "questionID": "4d9f49ff-f799-48d8-bca2-2ce66c6def6d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Extra space is needed for the temporary array during merging.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "37d57936-ec86-45c4-a15f-8cf124c1166b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of the following sorting algorithms is not comparison-based",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Merge Sort",
+                    "type": "A"
+                },
+                {
+                    "body": " Quick Sort",
+                    "type": "B"
+                },
+                {
+                    "body": " Heap Sort",
+                    "type": "C"
+                },
+                {
+                    "body": " \n \n Radix Sort",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Radix Sort"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "863ea36e-b9b6-4e6b-8fce-9987cd18d705",
+                    "questionID": "37d57936-ec86-45c4-a15f-8cf124c1166b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Radix sort works on digit/character position rather than comparisons.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3454f425-c9dc-4b36-afad-bdfac4c12c8a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the time complexity of deleting a node from a singly linked list if a pointer to it is given",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(1)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "79f342e0-3ab4-4a5e-bc0e-a1dc1b32d714",
+                    "questionID": "3454f425-c9dc-4b36-afad-bdfac4c12c8a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "If you already have a pointer to the node and not to the previous, it can be done in O(1) by copying data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "30297db7-446b-44f6-ba92-3ea6db10572e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which data structure is best for implementing a priority queue",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Stack",
+                    "type": "A"
+                },
+                {
+                    "body": " Queue",
+                    "type": "B"
+                },
+                {
+                    "body": " Binary Heap",
+                    "type": "C"
+                },
+                {
+                    "body": " Linked List",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Queue"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "74704eb2-28cb-45fe-a1ce-d2c820187d4b",
+                    "questionID": "30297db7-446b-44f6-ba92-3ea6db10572e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Heaps provide efficient O(log n) insertions and deletions based on priority.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7ef003b8-dc3a-40bd-9c65-fa6ac837034a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the average case time complexity of searching in a Binary Search Tree (BST)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "152c0a74-7c2d-4825-a7c4-d4b6f25114fe",
+                    "questionID": "7ef003b8-dc3a-40bd-9c65-fa6ac837034a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In a balanced BST, the height is log n, and search follows tree height.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b006ed4a-bae1-4ce2-994d-4e17b583bb98",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n A binary tree has 5 leaf nodes. What is the minimum number of total nodes possible",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 9",
+                    "type": "A"
+                },
+                {
+                    "body": " 10",
+                    "type": "B"
+                },
+                {
+                    "body": " 7",
+                    "type": "C"
+                },
+                {
+                    "body": " 5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "number of node"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a32ba435-fcce-4489-955a-209377cf700a",
+                    "questionID": "b006ed4a-bae1-4ce2-994d-4e17b583bb98",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In a full binary tree, total nodes = 2L - 1 → 2×5 - 1 = 9.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e56b3eec-89d1-4da6-a882-b004941e25cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which case of quicksort leads to its worst-case time complexity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " When pivot is the median",
+                    "type": "A"
+                },
+                {
+                    "body": " When pivot always partitions array into equal halves",
+                    "type": "B"
+                },
+                {
+                    "body": " When pivot is the smallest/largest element",
+                    "type": "C"
+                },
+                {
+                    "body": " When input is random",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bc9e973e-6835-4b62-8a68-d3919401f69b",
+                    "questionID": "e56b3eec-89d1-4da6-a882-b004941e25cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "This leads to unbalanced partitions, increasing recursion depth to O(n).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2d96cb60-6cbe-4a2f-b4b8-34a77b7c4f43",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In a min-heap, which node contains the smallest element",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Leftmost leaf",
+                    "type": "A"
+                },
+                {
+                    "body": " Rightmost leaf",
+                    "type": "B"
+                },
+                {
+                    "body": " Root node",
+                    "type": "C"
+                },
+                {
+                    "body": " Any internal node",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4920264c-8763-4ff1-b8cc-3ffe3bd0f9e2",
+                    "questionID": "2d96cb60-6cbe-4a2f-b4b8-34a77b7c4f43",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "By definition, the root of a min-heap is the smallest.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3840929a-c36e-47c2-a7a1-3762e6c8cc52",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which tree traversal is used to delete a binary tree safely",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Inorder",
+                    "type": "A"
+                },
+                {
+                    "body": " Preorder",
+                    "type": "B"
+                },
+                {
+                    "body": " Postorder",
+                    "type": "C"
+                },
+                {
+                    "body": " Level order",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "17c27701-98b9-445b-abc2-e57d86a5e345",
+                    "questionID": "3840929a-c36e-47c2-a7a1-3762e6c8cc52",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In postorder, children are deleted before the node, preventing dangling pointers.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c72de172-5b4b-4a20-8719-3c474fbc6813",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In a max-heap, what is the time complexity to insert a new element",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "309a056a-2fb1-40cd-82f9-22217c34d6a3",
+                    "questionID": "c72de172-5b4b-4a20-8719-3c474fbc6813",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Insert at end, then heapify up (bubble up) → O(log n).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4cbb8f38-067d-4334-ab9b-e3c37fbb9a41",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In merge sort, how many levels of recursion are there for n elements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " log n",
+                    "type": "A"
+                },
+                {
+                    "body": " n",
+                    "type": "B"
+                },
+                {
+                    "body": " √n",
+                    "type": "C"
+                },
+                {
+                    "body": " log log n",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sorting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4b02c451-612d-4b0e-b77f-6e26465b4a85",
+                    "questionID": "4cbb8f38-067d-4334-ab9b-e3c37fbb9a41",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Data is split into halves each time → log₂n levels.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c26044a7-20a7-418b-a3dc-0f0c5c9679c3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the height of a complete binary tree with n nodes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " log n",
+                    "type": "A"
+                },
+                {
+                    "body": " n",
+                    "type": "B"
+                },
+                {
+                    "body": " ⌊log₂n⌋",
+                    "type": "C"
+                },
+                {
+                    "body": " ⌊n/2⌋",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Height BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "550a678c-b725-4c1d-bc20-fd1d49917ba5",
+                    "questionID": "c26044a7-20a7-418b-a3dc-0f0c5c9679c3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Complete binary tree has minimum height ⌊log₂n⌋.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0bcade51-289e-4746-b2f3-5275cbb3c031",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of the following does not apply to Binary Search Trees",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " All left descendants are smaller",
+                    "type": "A"
+                },
+                {
+                    "body": " All right descendants are larger",
+                    "type": "B"
+                },
+                {
+                    "body": " Inorder traversal gives sorted sequence",
+                    "type": "C"
+                },
+                {
+                    "body": " Preorder traversal gives sorted sequence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "f8ce06e8-a589-447b-bde7-3dba04b00c44",
+                    "questionID": "0bcade51-289e-4746-b2f3-5275cbb3c031",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Only inorder traversal gives sorted order for BST.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1507799a-e3d2-4a86-898f-aeacfbd9f204",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the best-case time complexity of QuickSort",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n²)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "03e60028-b00a-4b02-acd3-08e3014370d4",
+                    "questionID": "1507799a-e3d2-4a86-898f-aeacfbd9f204",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Balanced partition at every level gives O(n log n) even in best case.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ccd9e630-7447-43e2-b390-6e8ccf5777a2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the worst-case space complexity of recursive quicksort (excluding input)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4448e825-eee8-48e9-8334-ac28a94224e6",
+                    "questionID": "ccd9e630-7447-43e2-b390-6e8ccf5777a2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In worst case (unbalanced partitions), recursion depth = n.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "816c993d-5b6f-4499-8dea-bd1ace9d1f9c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Consider a complete binary tree with n nodes. What is the number of internal (non-leaf) nodes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " ⌊n/2⌋",
+                    "type": "A"
+                },
+                {
+                    "body": " n/2 + 1",
+                    "type": "B"
+                },
+                {
+                    "body": " ⌊log n⌋",
+                    "type": "C"
+                },
+                {
+                    "body": " n - 1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "number of node"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "d72683fe-fb28-4d11-9ef4-c717a271ac0e",
+                    "questionID": "816c993d-5b6f-4499-8dea-bd1ace9d1f9c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In a complete binary tree, internal nodes = ⌊n/2⌋",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "47bff34f-6fa0-44bd-b9bf-28cf6dbb3b7d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In a linked list, which operation requires traversal of the list in the worst case",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Insertion at head",
+                    "type": "A"
+                },
+                {
+                    "body": " Deletion from head",
+                    "type": "B"
+                },
+                {
+                    "body": " Search",
+                    "type": "C"
+                },
+                {
+                    "body": " Insertion at tail (when tail pointer is present)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Linked List"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b7817e54-31fe-4b5e-b35b-456c437404bd",
+                    "questionID": "47bff34f-6fa0-44bd-b9bf-28cf6dbb3b7d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "To search a specific element, you may need to traverse the entire list.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "98c1480a-dcdd-439a-a534-01cc5afc84bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the time complexity of building a max-heap from an unsorted array of n elements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n log n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n²)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b09ba4d0-43d2-452a-9cb5-5dc82668795c",
+                    "questionID": "98c1480a-dcdd-439a-a534-01cc5afc84bd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bottom-up heapify is O(n), not O(n log n) as often assumed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8d5491d3-b5b4-47f2-96da-665e42cd174a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which traversal can be used to clone a binary tree structure (without values)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Inorder",
+                    "type": "A"
+                },
+                {
+                    "body": " Preorder",
+                    "type": "B"
+                },
+                {
+                    "body": " Postorder",
+                    "type": "C"
+                },
+                {
+                    "body": " Any traversal",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "117bcb4d-22a1-4854-88f2-b058c3a26011",
+                    "questionID": "8d5491d3-b5b4-47f2-96da-665e42cd174a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Cloning structure only needs consistent traversal, any order will suffice.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "67394e9c-89da-4e52-b46a-a2d828a63b62",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the minimum number of comparisons needed to find both min and max in an array of n elements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 2n - 2",
+                    "type": "A"
+                },
+                {
+                    "body": " 1.5n - 2",
+                    "type": "B"
+                },
+                {
+                    "body": " n",
+                    "type": "C"
+                },
+                {
+                    "body": " n log n",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Searching"
+            ],
+            "complexityLevel": 70,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "29eb9fb6-c06c-46c2-808a-eaefce184a40",
+                    "questionID": "67394e9c-89da-4e52-b46a-a2d828a63b62",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Using divide-and-conquer in pairs minimizes total comparisons.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "675a358a-a265-4f95-af09-6570045402b7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which data structure supports both insertion and deletion at both ends in O(1)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Stack",
+                    "type": "A"
+                },
+                {
+                    "body": " Queue",
+                    "type": "B"
+                },
+                {
+                    "body": " Deque",
+                    "type": "C"
+                },
+                {
+                    "body": " Circular Queue",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Searching"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6f2d34bc-58ca-4e66-acfe-d6ca3fdbd8ea",
+                    "questionID": "675a358a-a265-4f95-af09-6570045402b7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Double-ended queue (deque) allows O(1) insertion/deletion at front &amp; rear.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b91a5713-44c1-4031-a9db-e1467b3b4459",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n A heap is built from an unsorted array of 8 elements. What is the maximum height",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 2",
+                    "type": "A"
+                },
+                {
+                    "body": " 3",
+                    "type": "B"
+                },
+                {
+                    "body": " 4",
+                    "type": "C"
+                },
+                {
+                    "body": " 5",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Heapify"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09356eec-7e30-476e-9613-42bc0366be91",
+                    "questionID": "b91a5713-44c1-4031-a9db-e1467b3b4459",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Height = ⌊log₂(n)⌋ → ⌊log₂8⌋ = 3",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "842b2835-2f4d-4dc8-8747-e8a1ef8a1dda",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which pointer is required in a circular singly linked list to delete the head node in O(1)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Head pointer",
+                    "type": "A"
+                },
+                {
+                    "body": " Tail pointer",
+                    "type": "B"
+                },
+                {
+                    "body": " Mid pointer",
+                    "type": "C"
+                },
+                {
+                    "body": " Prev pointer",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Searching"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a8cc8765-1eff-4d4d-be42-57a03bedeaf3",
+                    "questionID": "842b2835-2f4d-4dc8-8747-e8a1ef8a1dda",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "ail → next = head. Update tail-&gt;next to head-&gt;next to delete in O(1).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f599d4f3-f406-49b8-8a06-85fcf71260b6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the time complexity of finding the k-th largest element in a max-heap",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(k log n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(k log k)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(k)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Searching"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "31d74f0e-539c-451a-8795-39650d541f56",
+                    "questionID": "f599d4f3-f406-49b8-8a06-85fcf71260b6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use auxiliary heap to extract max k times.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "70e6163c-8449-46fa-915b-8dfe7eae0340",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which sorting algorithm is both divide-and-conquer and not in-place",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Merge Sort",
+                    "type": "A"
+                },
+                {
+                    "body": " Quick Sort",
+                    "type": "B"
+                },
+                {
+                    "body": " Selection Sort",
+                    "type": "C"
+                },
+                {
+                    "body": " Heap Sort",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Merge sort"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "64fdc4d9-4d80-43d5-a2e2-a5e3d96006c8",
+                    "questionID": "70e6163c-8449-46fa-915b-8dfe7eae0340",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Merge sort divides and merges using extra space.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1b2e5c30-3dc1-45c2-9ecc-ae361fe91edf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the maximum number of nodes in a binary heap of height h (0-based)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 2ʰ",
+                    "type": "A"
+                },
+                {
+                    "body": " 2ʰ⁺¹ − 1",
+                    "type": "B"
+                },
+                {
+                    "body": " 2ʰ⁺¹",
+                    "type": "C"
+                },
+                {
+                    "body": " h",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Heapify"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "440d8427-e8d7-4222-a621-880fe23a2d3b",
+                    "questionID": "1b2e5c30-3dc1-45c2-9ecc-ae361fe91edf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Complete binary tree with height h has max nodes = 2ʰ⁺¹ − 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8673dfca-33ac-4bfe-9334-169dd8b492ae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In a binary tree, which traversal gives prefix notation",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Inorder",
+                    "type": "A"
+                },
+                {
+                    "body": " Postorder",
+                    "type": "B"
+                },
+                {
+                    "body": " Preorder",
+                    "type": "C"
+                },
+                {
+                    "body": " Level-order",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c708ce16-efa1-441d-993a-b5323b06d0dc",
+                    "questionID": "8673dfca-33ac-4bfe-9334-169dd8b492ae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Prefix = Root, Left, Right = Preorder traversal.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d030f20d-5926-456c-beeb-4bf9a85fc3a2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of the following recursive functions has a logarithmic time complexity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " f(n) = f(n - 1) + 1",
+                    "type": "A"
+                },
+                {
+                    "body": " f(n) = 2*f(n/2)",
+                    "type": "B"
+                },
+                {
+                    "body": " f(n) = f(n/2) + 1",
+                    "type": "C"
+                },
+                {
+                    "body": " f(n) = f(n - 2) + 1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "ac269234-1708-48fd-8ddf-caca9209e316",
+                    "questionID": "d030f20d-5926-456c-beeb-4bf9a85fc3a2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursive halving leads to O(log n).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "345bdc29-6b35-426d-b5b3-2c83b18cfaab",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In a singly linked list, which operation is most efficient (O(1))",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Insert at head",
+                    "type": "A"
+                },
+                {
+                    "body": " Delete at tail",
+                    "type": "B"
+                },
+                {
+                    "body": " Search a node",
+                    "type": "C"
+                },
+                {
+                    "body": " Insert at end",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "operation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2ce4d8fa-abf9-4d88-a90c-0a658eeb2b7c",
+                    "questionID": "345bdc29-6b35-426d-b5b3-2c83b18cfaab",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Head pointer available; insert without traversal → O(1).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "87fd64ed-650e-4f44-b763-84f9727ae172",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the number of recursive calls in binary search on an array of size 16 (worst-case)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 2",
+                    "type": "A"
+                },
+                {
+                    "body": " 4",
+                    "type": "B"
+                },
+                {
+                    "body": " 5",
+                    "type": "C"
+                },
+                {
+                    "body": " 16",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Recursion"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8cbcd16a-8c03-4fe0-8cb5-4d13d6e689a0",
+                    "questionID": "87fd64ed-650e-4f44-b763-84f9727ae172",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "log₂16 = 4, but it makes up to 5 calls (including the last one with 1 element).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "880d0a38-dbb6-45f5-9a95-57a363e51c5e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which operation in a priority queue takes O(1) time in a binary heap",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Insert",
+                    "type": "A"
+                },
+                {
+                    "body": " Extract-Min",
+                    "type": "B"
+                },
+                {
+                    "body": " Find-Min",
+                    "type": "C"
+                },
+                {
+                    "body": " Decrease-Key",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Queue"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "46ced978-39f3-42df-84ae-007088a2c30e",
+                    "questionID": "880d0a38-dbb6-45f5-9a95-57a363e51c5e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In min-heap, the root is the minimum, accessible in constant time.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9e258009-0225-4573-82d1-7758f153d7ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n A full binary tree has 15 nodes. How many leaf nodes does it have",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 7",
+                    "type": "A"
+                },
+                {
+                    "body": " 8",
+                    "type": "B"
+                },
+                {
+                    "body": " 10",
+                    "type": "C"
+                },
+                {
+                    "body": " 15",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1039e336-1d41-4b08-8e3c-61e6acdbd8fe",
+                    "questionID": "9e258009-0225-4573-82d1-7758f153d7ac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In full binary tree: L = (n + 1) / 2 → (15+1)/2 = 8.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5f2de033-8928-4ef0-9bba-46472a640161",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What will be the result of the following code (pseudo)\n [type=code]\n int f(int n) {\n  if (n &lt;= 1) return n;\n  return f(n-1) + f(n-2);\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Factorial of n",
+                    "type": "A"
+                },
+                {
+                    "body": " Fibonacci of n",
+                    "type": "B"
+                },
+                {
+                    "body": " Sum of digits of n",
+                    "type": "C"
+                },
+                {
+                    "body": " GCD of n",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Pseudo"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f65ae4ec-b817-4247-8f17-1adb1f02e975",
+                    "questionID": "5f2de033-8928-4ef0-9bba-46472a640161",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Classic definition of Fibonacci.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "65380e57-bcba-4b87-b4b3-009bfc0e58b8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In a doubly linked list with n nodes, what is the worst-case time complexity to insert at the middle",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n/2)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Linked List"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "9fe11dcf-0d61-4481-852e-ffe16f3769c7",
+                    "questionID": "65380e57-bcba-4b87-b4b3-009bfc0e58b8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "You need to traverse to middle (O(n)), even though insertion is O(1) at node.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "716548be-bdd0-4378-8f09-836fe86c378b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of the following recursive relations defines the time for merge sort",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " T(n) = T(n−1) + n",
+                    "type": "A"
+                },
+                {
+                    "body": " T(n) = 2T(n/2) + n",
+                    "type": "B"
+                },
+                {
+                    "body": " T(n) = T(n/2) + 1",
+                    "type": "C"
+                },
+                {
+                    "body": " T(n) = T(n/2) + n",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c7f92359-5e3e-4ef6-ab9b-10e2471dce82",
+                    "questionID": "716548be-bdd0-4378-8f09-836fe86c378b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Two recursive calls on half data and linear merge step.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "988524c8-d772-4398-816c-ffbfedb7461c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the time complexity of heapify in a binary heap of size n",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Heapify"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "09d72295-0f2b-467f-842f-a7c2854c8d60",
+                    "questionID": "988524c8-d772-4398-816c-ffbfedb7461c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Heapify ensures heap property, and may move from root to leaf → O(log n).",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d9d45e43-9dd8-41d4-a1c8-c9d65d09b790",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which traversal is used to reconstruct a binary tree when given with preorder and inorder sequences",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Postorder",
+                    "type": "A"
+                },
+                {
+                    "body": " Level order",
+                    "type": "B"
+                },
+                {
+                    "body": " Inorder",
+                    "type": "C"
+                },
+                {
+                    "body": " Preorder",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "traversal"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "7025e65b-e6e0-4257-afbb-a7ff6e0458f9",
+                    "questionID": "d9d45e43-9dd8-41d4-a1c8-c9d65d09b790",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Preorder + Inorder = Unique tree; root from preorder, structure from inorder.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "89a3186f-c3ad-4efa-88f2-76f3395d25fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of the following is NOT a property of merge sort",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Stable sort",
+                    "type": "A"
+                },
+                {
+                    "body": " Uses divide and conquer",
+                    "type": "B"
+                },
+                {
+                    "body": " Worst case O(n log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " In-place sort",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "ca8e3172-45f5-4936-bbc3-f419fe9823fb",
+                    "questionID": "89a3186f-c3ad-4efa-88f2-76f3395d25fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Merge sort requires extra space; it is not in-place.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "69c5e70e-d267-4730-b366-97c80d50fc32",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of these is not true about max-heaps",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " They support deletion in O(log n)",
+                    "type": "A"
+                },
+                {
+                    "body": " Every level is fully filled",
+                    "type": "B"
+                },
+                {
+                    "body": " The largest element is always at the root",
+                    "type": "C"
+                },
+                {
+                    "body": " They can be implemented using arrays",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Implementation"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3fa0d7de-677a-4620-a097-bfd0b44c1716",
+                    "questionID": "69c5e70e-d267-4730-b366-97c80d50fc32",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Only complete binary trees have fully filled levels, not all heaps.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "96e9642d-ac0e-4a26-a1b1-f14900a9ae15",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Consider this recursive function\n [type=code]\n int foo(int n) {\n  if(n &lt;= 1) return 1;\n  return foo(n - 1) + foo(n - 1);\n }\n [type=text]\n \n What is the time complexity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(2^n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n^2)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b19de283-76b4-47ef-9dff-e549e4707154",
+                    "questionID": "96e9642d-ac0e-4a26-a1b1-f14900a9ae15",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each call makes 2 recursive calls → exponential tree of size 2^n.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "695bf7c6-ffa1-4b54-a633-5c2c676ad16c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n A complete binary tree of height h has how many nodes at level h",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 2^h",
+                    "type": "A"
+                },
+                {
+                    "body": " h",
+                    "type": "B"
+                },
+                {
+                    "body": " h^2",
+                    "type": "C"
+                },
+                {
+                    "body": " 2^(h - 1)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Height BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a2b857e6-9767-4bb5-9646-431d0edc4d18",
+                    "questionID": "695bf7c6-ffa1-4b54-a633-5c2c676ad16c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "In a complete binary tree, each level i has 2^i nodes. So level h has 2^h.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "de80dffa-4af6-4f2a-998a-ddfcd07a42ed",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n A linked list contains n nodes. What is the time complexity to delete the last node in a singly linked list",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "28d477f4-d1ab-4a48-b473-8ce44feed7df",
+                    "questionID": "de80dffa-4af6-4f2a-998a-ddfcd07a42ed",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "You need to traverse to the second last node to update the link.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ff9e3389-02aa-44f2-bc13-3ff216fc3816",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which traversal of a BST gives elements in sorted order",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Preorder",
+                    "type": "A"
+                },
+                {
+                    "body": " Postorder",
+                    "type": "B"
+                },
+                {
+                    "body": " Level-order",
+                    "type": "C"
+                },
+                {
+                    "body": " Inorder",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "0db812d1-cc29-4818-a084-cc4b45d00743",
+                    "questionID": "ff9e3389-02aa-44f2-bc13-3ff216fc3816",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Inorder traversal of BST always yields ascending sorted values.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f7ed5830-9aee-4a04-ab28-723ce96bf595",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n The number of NULL pointers in a binary tree with n nodes is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " n",
+                    "type": "A"
+                },
+                {
+                    "body": " n + 1",
+                    "type": "B"
+                },
+                {
+                    "body": " 2n",
+                    "type": "C"
+                },
+                {
+                    "body": " n - 1",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "BST"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "54da2694-015d-43d5-86f6-09a1b9d3d637",
+                    "questionID": "f7ed5830-9aee-4a04-ab28-723ce96bf595",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "For a binary tree, number of NULL links = number of nodes + 1.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1474ef3a-b314-4e62-9f84-8d9e7be2fb75",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n The recurrence relation T(n) = 2T(n/2) + n log n solves to",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n log²n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n²)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "a7fbd929-ff2d-4ff2-9f84-ca2f61707f35",
+                    "questionID": "1474ef3a-b314-4e62-9f84-8d9e7be2fb75",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use the Master Theorem: Here, a=2, b=2, f(n)=n log n, which matches Case 2 with extra log factor.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "713af7ac-430a-47ff-9574-dee9cf9e8f0b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of the following is not a characteristic of a priority queue",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Supports insertion",
+                    "type": "A"
+                },
+                {
+                    "body": " Supports sorting",
+                    "type": "B"
+                },
+                {
+                    "body": " Access based on priority",
+                    "type": "C"
+                },
+                {
+                    "body": " Can be implemented using heaps",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Queue"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7c6fb76a-db0a-47d9-89df-47d0e68c679c",
+                    "questionID": "713af7ac-430a-47ff-9574-dee9cf9e8f0b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Priority queues don&#39;t sort all elements; they only provide the next highest/lowest priority.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "42354ebe-0522-4988-bc72-97de23f20d53",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n In a min-heap, which node always has the smallest value",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Leftmost node",
+                    "type": "A"
+                },
+                {
+                    "body": " Rightmost node",
+                    "type": "B"
+                },
+                {
+                    "body": " Root node",
+                    "type": "C"
+                },
+                {
+                    "body": " Leaf node",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sorting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "70dceb0f-a98c-46e6-891b-704b5e2339fa",
+                    "questionID": "42354ebe-0522-4988-bc72-97de23f20d53",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The heap property ensures the minimum element is always at the root.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "828954a0-66b9-49f4-9f74-ccdc9c7e3673",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which of the following problems is best solved using Divide and Conquer",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Binary Search",
+                    "type": "A"
+                },
+                {
+                    "body": " In-order Traversal",
+                    "type": "B"
+                },
+                {
+                    "body": " Breadth-First Search",
+                    "type": "C"
+                },
+                {
+                    "body": " Linear Search",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "sorting"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "fc7d1da9-e561-4330-b758-6ac1ce28a8bf",
+                    "questionID": "828954a0-66b9-49f4-9f74-ccdc9c7e3673",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Binary Search splits input in halves recursively – classic Divide &amp; Conquer.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "90131ffb-a9cd-45f2-a3d6-6e24fe85c4e0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n A linked list queue uses head insertion and tail deletion. Enqueue = insert head; Dequeue = delete tail. Time complexity",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1), O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(1), O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n), O(1)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n), O(n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b4ad930f-0874-4d08-8f2b-05a4b96a3a43",
+                    "questionID": "90131ffb-a9cd-45f2-a3d6-6e24fe85c4e0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Insert at head is O(1); removing tail in singly linked lists is O(n",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "099f501c-2ec6-4b3d-8bb1-0dd415050e53",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Given preorder: 30, 20, 10, 15, 25, 23, 39, 35, 42 for a BST, the postorder traversal is",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " 10, 15, 25, 23, 20, 35, 42, 39, 30",
+                    "type": "A"
+                },
+                {
+                    "body": " 15, 10, 23, 25, 20, 35, 42, 39, 30",
+                    "type": "B"
+                },
+                {
+                    "body": " 10, 15, 23, 25, 20, 35, 42, 39, 30",
+                    "type": "C"
+                },
+                {
+                    "body": " 15, 10, 20, 23, 25, 39, 35, 42, 30",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Preorder"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f664098d-591a-4cb6-b947-bfbd17cfc32a",
+                    "questionID": "099f501c-2ec6-4b3d-8bb1-0dd415050e53",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Reconstruct BST and derive postorder sequence",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "566aa2f2-8d1d-44e1-a35e-f05cd37d2617",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n How many comparisons to find the maximum in a min-heap of size n",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Comparisons"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "aa5f4f52-7d69-4e65-870b-18f93e5172c1",
+                    "questionID": "566aa2f2-8d1d-44e1-a35e-f05cd37d2617",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Max must be found in leaves, which is Θ(n/2) in worst case .",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9e2240b2-935e-4592-8002-55811a9a7d95",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Worst-case time complexity to insert n items one-by-one into a balanced BST initially with n nodes",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n log n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n²)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "4d825085-9d13-4755-b84d-ac9aaf98dfed",
+                    "questionID": "9e2240b2-935e-4592-8002-55811a9a7d95",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Each of n inserts costs O(log n) in a balanced BST.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8769efd8-6c6a-4d9b-b079-c132305a8475",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What does the function f(p) check in a linked list\n [type=code]\n function f(p) {\n  return (\n  p === null ||\n  p.next === null ||\n  (p.data &lt;= p.next.data &amp;&amp; f(p.next))\n  );\n }",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Non-decreasing order",
+                    "type": "A"
+                },
+                {
+                    "body": " Contains duplicates",
+                    "type": "B"
+                },
+                {
+                    "body": " Palindrome",
+                    "type": "C"
+                },
+                {
+                    "body": " All equal elements",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "function"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "64fa3895-2382-4e24-adef-9ba056287139",
+                    "questionID": "8769efd8-6c6a-4d9b-b079-c132305a8475",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursively verifies current ≤ next",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "692b920d-a1c6-4c23-b10e-e5ee4fcd19ea",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In a priority queue implemented with a heap, what is the time complexity of EXTRACT-MAX for n elements",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(1)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(n log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Queue"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c1d72e86-a817-4c34-b565-94180405c924",
+                    "questionID": "692b920d-a1c6-4c23-b10e-e5ee4fcd19ea",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Removing the root and re-heapifying costs logarithmic time",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "663674e7-8718-4216-ac36-d0fcefc9e1a4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the time complexity to build a heap from an unsorted array of size n",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n log n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n²)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b2de44e7-007e-4220-a2ee-db95fb641e05",
+                    "questionID": "663674e7-8718-4216-ac36-d0fcefc9e1a4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Bottom-up heapify constructs heap in linear time .",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ac7f3637-f79f-4b46-9a2e-6fa5f69ebf48",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n A max-heap with level-order [10, 8, 5, 3, 2] inserts 1, then 7. What is the new heap",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "[10, 8, 7, 3, 2, 5, 1]",
+                    "type": "A"
+                },
+                {
+                    "body": "[10, 8, 5, 3, 2, 1, 7]",
+                    "type": "B"
+                },
+                {
+                    "body": "[10, 8, 5, 3, 2, 7, 1]",
+                    "type": "C"
+                },
+                {
+                    "body": "[10, 8, 7, 3, 2, 1, 5]",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Max-Heap"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "30ffa4a2-84f1-45e8-bca7-2437a2918431",
+                    "questionID": "ac7f3637-f79f-4b46-9a2e-6fa5f69ebf48",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Insert 1 at next spot, then 7, and percolate up in max-heap",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a13946ff-cf10-42e3-92b7-3fb0a0831b38",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n What is the worst-case time complexity of QuickSort (divide-and-conquer)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " O(n log n)",
+                    "type": "A"
+                },
+                {
+                    "body": " O(n²)",
+                    "type": "B"
+                },
+                {
+                    "body": " O(n)",
+                    "type": "C"
+                },
+                {
+                    "body": " O(log n)",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "time complexity"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8c17b891-b58d-4cf4-991a-3e1443586289",
+                    "questionID": "a13946ff-cf10-42e3-92b7-3fb0a0831b38",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Worst-case occurs when pivot choices lead to unbalanced splits.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "01205cdc-23aa-4cca-b504-40027f4b30ee",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " \n Which data structure best supports a recursive algorithm’s call stack",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Stack",
+                    "type": "A"
+                },
+                {
+                    "body": "Queue",
+                    "type": "B"
+                },
+                {
+                    "body": "Heap",
+                    "type": "C"
+                },
+                {
+                    "body": "Linked List",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "stack"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "1c5a8ef2-e8f5-4de1-b21b-867a53bdcd80",
+                    "questionID": "01205cdc-23aa-4cca-b504-40027f4b30ee",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Recursion follows LIFO order; a stack mirrors this behavior",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

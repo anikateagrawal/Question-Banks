@@ -1,0 +1,4306 @@
+{
+    "bank_id": "3ebf56bc-166e-40da-b451-7a095c16286e",
+    "bank_name": "Immersion-Dry-Run-test",
+    "questions": [
+        {
+            "id": "11655bf2-c4ea-4886-83ec-b7ab1cdb4f22",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is physical data independence critical in large-scale database systems?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " It improves query parsing",
+                    "type": "A"
+                },
+                {
+                    "body": "It allows changes to user views easily",
+                    "type": "B"
+                },
+                {
+                    "body": "It supports changing storage structures without modifying the conceptual schema",
+                    "type": "C"
+                },
+                {
+                    "body": "It lets users write physical storage code",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fe03be83-6cbf-457f-867d-ef665cd9759b",
+                    "questionID": "11655bf2-c4ea-4886-83ec-b7ab1cdb4f22",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Physical data independence ensures internal storage changes don&#39;t affect the logical model.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1750ac90-a66c-4b3f-8951-ccf1abd27f4e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which DBMS component maintains metadata such as table names, column types, and access permissions?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Query Processor",
+                    "type": "A"
+                },
+                {
+                    "body": "Data Dictionary",
+                    "type": "C"
+                },
+                {
+                    "body": "DML Compiler",
+                    "type": "B"
+                },
+                {
+                    "body": "Storage Manager",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "4c2c4534-d7bf-4218-a9d4-397484894aec",
+                    "questionID": "1750ac90-a66c-4b3f-8951-ccf1abd27f4e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Data Dictionary (or Catalog) stores metadata about database structure and schema.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4358b4d4-f50b-42cd-97f5-859bb9cd0e84",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What type of data independence allows a database administrator to add a new attribute to a table without changing user programs?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Physical Data Independence",
+                    "type": "A"
+                },
+                {
+                    "body": "Logical Data Independence",
+                    "type": "B"
+                },
+                {
+                    "body": "External Data Independence",
+                    "type": "C"
+                },
+                {
+                    "body": "Structural Data Independence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "33b74c23-6f3f-4b67-ba14-9d1b4f526c8c",
+                    "questionID": "4358b4d4-f50b-42cd-97f5-859bb9cd0e84",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Logical data independence allows changes to the logical schema without affecting user views.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "55ea0841-b0ad-4ac0-89af-91eadd7fb510",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which component of a DBMS interprets and executes database queries, optimizing them for performance?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Transaction Manager",
+                    "type": "A"
+                },
+                {
+                    "body": " Buffer Manager",
+                    "type": "B"
+                },
+                {
+                    "body": "Query Processor",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Dictionary",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b21dea50-8786-4ebf-b125-9fb9eb48a82f",
+                    "questionID": "55ea0841-b0ad-4ac0-89af-91eadd7fb510",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Query Processor parses, optimizes, and executes SQL queries efficiently.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26fa0684-e91f-4010-95bd-8f6d1716bcb8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which DBMS component is primarily responsible for ensuring that multiple users can access the database without conflicting updates?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DDL Compiler",
+                    "type": "A"
+                },
+                {
+                    "body": "Query Processor",
+                    "type": "B"
+                },
+                {
+                    "body": "Transaction Manager",
+                    "type": "C"
+                },
+                {
+                    "body": " File Manager",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "601cf11a-a6dc-479d-bb78-887bc5bfce11",
+                    "questionID": "26fa0684-e91f-4010-95bd-8f6d1716bcb8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The Transaction Manager handles concurrency control and ensures data consistency.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1486dcc1-d7fb-4a03-9e92-e55d62002c74",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "When a user sees a customized view of a database with restricted access to certain fields, which level is in effect?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Internal level",
+                    "type": "A"
+                },
+                {
+                    "body": "Conceptual level",
+                    "type": "B"
+                },
+                {
+                    "body": " Physical level",
+                    "type": "C"
+                },
+                {
+                    "body": "External level",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8d772008-dc62-4770-ac96-8077ce7c650c",
+                    "questionID": "1486dcc1-d7fb-4a03-9e92-e55d62002c74",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The external level provides user-specific views and access controls.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "df98be43-762f-4838-9d62-3dc84e248a0c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which level in the three-schema architecture includes data compression and indexing?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " External",
+                    "type": "A"
+                },
+                {
+                    "body": "Conceptual",
+                    "type": "B"
+                },
+                {
+                    "body": " Internal",
+                    "type": "C"
+                },
+                {
+                    "body": "View",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c74c41a8-7ad6-4b7a-b427-91dda23f1be0",
+                    "questionID": "df98be43-762f-4838-9d62-3dc84e248a0c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The internal level deals with the actual storage, indexing, and compression mechanisms.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b995e772-00af-4b67-970c-1570d667c4c2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes physical data independence?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Changing table names without affecting user queries",
+                    "type": "A"
+                },
+                {
+                    "body": " Modifying storage format without affecting the conceptual schema",
+                    "type": "B"
+                },
+                {
+                    "body": "Changing user views without altering logical structure",
+                    "type": "C"
+                },
+                {
+                    "body": "Modifying foreign keys without affecting storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "c95dec64-883e-49d1-b055-32eac0bad412",
+                    "questionID": "b995e772-00af-4b67-970c-1570d667c4c2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Physical data independence allows changes in storage without affecting the logical schema.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "142ad801-0dc6-4e54-bf95-0a52758a652e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In the three-schema architecture, what is the main responsibility of the conceptual level?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Managing indexes and storage devices",
+                    "type": "A"
+                },
+                {
+                    "body": "Providing user-specific data views",
+                    "type": "B"
+                },
+                {
+                    "body": "Defining logical structure and constraints of the entire database",
+                    "type": "C"
+                },
+                {
+                    "body": "Encrypting user credentials",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4e13a6ec-e75c-4921-b687-3ddd32b82037",
+                    "questionID": "142ad801-0dc6-4e54-bf95-0a52758a652e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The conceptual level defines the overall logical schema of the database.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "737763ce-45cb-4156-88dc-1def45312fdc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which level of the three-schema architecture is responsible for hiding the physical storage details from the user?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "External level",
+                    "type": "A"
+                },
+                {
+                    "body": "Conceptual level",
+                    "type": "B"
+                },
+                {
+                    "body": "Internal level",
+                    "type": "C"
+                },
+                {
+                    "body": "Logical level",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "5638b630-fb79-4762-806c-fed81be040a2",
+                    "questionID": "737763ce-45cb-4156-88dc-1def45312fdc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The external level abstracts physical details and presents customized user views.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7094984a-5b8a-4211-8ade-d3f3953ab8f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a fundamental difference between DBMS and RDBMS in terms of data structure?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " DBMS uses tables with foreign key constraints",
+                    "type": "A"
+                },
+                {
+                    "body": "RDBMS supports flat file storage only",
+                    "type": "B"
+                },
+                {
+                    "body": " DBMS stores data as files; RDBMS uses table-based structure with relations",
+                    "type": "C"
+                },
+                {
+                    "body": "RDBMS lacks data independence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "cc0ebb80-502f-4a46-a6b5-9567db5ce1c9",
+                    "questionID": "7094984a-5b8a-4211-8ade-d3f3953ab8f9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DBMS typically stores data as files, while RDBMS organizes data in related tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1e0d1ec9-976c-43e5-93e7-39172f2350a0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which scenario would a basic DBMS be preferred over an RDBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When managing highly related data",
+                    "type": "A"
+                },
+                {
+                    "body": "When enforcing complex data constraints",
+                    "type": "B"
+                },
+                {
+                    "body": "When managing flat, non-relational data with limited complexity",
+                    "type": "C"
+                },
+                {
+                    "body": " When requiring strong security mechanisms",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "21602a74-47e4-4704-ae6a-cf9be4bce7c7",
+                    "questionID": "1e0d1ec9-976c-43e5-93e7-39172f2350a0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A basic DBMS is suitable for simple, non-relational data with minimal structure.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ed050c4e-c7a6-45ce-a5e1-c895dfd086ff",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What makes RDBMS more suitable for enterprise-level applications than DBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Support for plain text files",
+                    "type": "A"
+                },
+                {
+                    "body": "Limited data structuring",
+                    "type": "B"
+                },
+                {
+                    "body": "Support for SQL and ACID transactions",
+                    "type": "C"
+                },
+                {
+                    "body": "Simpler architecture",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "1df9fd7b-8132-4d6a-8003-e906e3f8a694",
+                    "questionID": "ed050c4e-c7a6-45ce-a5e1-c895dfd086ff",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS provides SQL support and ACID properties, making it fit for critical enterprise systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "726c0192-57cd-4416-92be-11f07f37fb0f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following is not a valid reason to choose DBMS over RDBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Simpler application requirements",
+                    "type": "A"
+                },
+                {
+                    "body": "No need for relational constraints",
+                    "type": "B"
+                },
+                {
+                    "body": "Need for high data consistency and ACID compliance",
+                    "type": "C"
+                },
+                {
+                    "body": "Lower system overhead",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b579fdc4-5ce2-4c5b-8aea-4335456b39e5",
+                    "questionID": "726c0192-57cd-4416-92be-11f07f37fb0f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "High consistency and ACID compliance are strengths of RDBMS, not basic DBMS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0d52178b-5557-41e3-8834-aab9bdb31a95",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which feature is supported by RDBMS but not typically by a basic DBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Storage of large datasets",
+                    "type": "A"
+                },
+                {
+                    "body": "Use of primary and foreign keys for referential integrity",
+                    "type": "B"
+                },
+                {
+                    "body": "Data backup functionality",
+                    "type": "C"
+                },
+                {
+                    "body": "Basic CRUD operations",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "dbf2afd7-db3d-484f-96a5-176edb07825a",
+                    "questionID": "0d52178b-5557-41e3-8834-aab9bdb31a95",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS supports data relationships through primary and foreign keys, unlike basic DBMS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e0e7164f-43b2-465b-b7e9-278506bf131b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about NoSQL databases compared to RDBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " NoSQL does not support high scalability",
+                    "type": "A"
+                },
+                {
+                    "body": " NoSQL enforces strict schema definitions",
+                    "type": "B"
+                },
+                {
+                    "body": "NoSQL supports horizontal scaling and distributed architectures",
+                    "type": "C"
+                },
+                {
+                    "body": " NoSQL uses SQL for queries",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3ad759cb-ad0f-4cc9-ac53-4ccf8fba27e0",
+                    "questionID": "e0e7164f-43b2-465b-b7e9-278506bf131b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NoSQL is known for horizontal scalability and handling large-scale distributed data environments.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "079b6176-3dc8-495d-9358-d0fbe5bd84fe",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What fundamental concept does the relational DBMS model rely on?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Tree-based records",
+                    "type": "A"
+                },
+                {
+                    "body": "Object serialization",
+                    "type": "B"
+                },
+                {
+                    "body": "Data stored in tables with relationships via foreign keys",
+                    "type": "C"
+                },
+                {
+                    "body": " Key-value data storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b0bfd4a8-86aa-41ec-81bc-b861630dfe84",
+                    "questionID": "079b6176-3dc8-495d-9358-d0fbe5bd84fe",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Relational DBMS organizes data in tables and connects them using foreign keys for relationships.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d9e75a64-13b5-4e5c-a8d4-1090723a985d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which DBMS type is most suitable for applications requiring flexible schemas and unstructured or semi-structured data?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " NoSQL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "cc53c828-e439-4e13-9c7f-831d441f2926",
+                    "questionID": "d9e75a64-13b5-4e5c-a8d4-1090723a985d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "NoSQL databases are designed for flexible schemas and handling of unstructured/semi-structured data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5d878391-b51d-4b8a-8d45-f64df799e5a8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which DBMS type is data organized using records and sets with multiple parent-child relationships allowed?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Relational DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "NoSQL",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "5faf0cca-66aa-470b-9339-73c0064835c5",
+                    "questionID": "5d878391-b51d-4b8a-8d45-f64df799e5a8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Network DBMS uses a graph-like structure allowing many-to-many relationships through sets.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fae273bb-3252-4566-967b-cada8d8ed3b4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following best describes a key limitation of the hierarchical DBMS model?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It does not support data indexing",
+                    "type": "A"
+                },
+                {
+                    "body": "It cannot represent many-to-many relationships naturally",
+                    "type": "B"
+                },
+                {
+                    "body": "It lacks support for large data storage",
+                    "type": "C"
+                },
+                {
+                    "body": "It cannot enforce data integrity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 90,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b7a295b7-dbc0-4054-be45-0be58ac6d130",
+                    "questionID": "fae273bb-3252-4566-967b-cada8d8ed3b4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hierarchical DBMS follows a tree structure, making many-to-many relationships difficult to represent.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3da22305-8a3a-42ee-b97a-d341e88622e3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What does the conceptual schema in a three-tier architecture mainly define?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Physical storage structure",
+                    "type": "A"
+                },
+                {
+                    "body": "User-specific views of data",
+                    "type": "B"
+                },
+                {
+                    "body": "The overall logical structure of the database",
+                    "type": "C"
+                },
+                {
+                    "body": "File formats and access paths",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7246dc70-ae4f-4f68-bf82-02f0e91ad43c",
+                    "questionID": "3da22305-8a3a-42ee-b97a-d341e88622e3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The conceptual schema defines the logical structure of the entire database.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2e2eb667-3652-40af-a280-5ec406303d9c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A client system at Tech Mahindra needs to be migrated to a new storage format without altering application logic. This is an example of:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Logical Data Independence",
+                    "type": "A"
+                },
+                {
+                    "body": " Structural Data Redundancy",
+                    "type": "B"
+                },
+                {
+                    "body": "Physical Data Independence",
+                    "type": "C"
+                },
+                {
+                    "body": " External Schema Modification",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "d421df77-40a7-492c-a7a3-cd74f698be4d",
+                    "questionID": "2e2eb667-3652-40af-a280-5ec406303d9c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Physical data independence allows storage changes without impacting the application logic.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "961e9f70-caf6-4cf8-9974-c27bdc355bf7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In an interview, you&#39;re asked: &#34;Which of the following is not true about the three-level architecture?&#34;",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " It promotes data abstraction",
+                    "type": "A"
+                },
+                {
+                    "body": " It allows multiple user views",
+                    "type": "B"
+                },
+                {
+                    "body": "It eliminates the need for physical storage",
+                    "type": "C"
+                },
+                {
+                    "body": "It enables data independence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "42de1500-84d9-4989-ba4d-fd20d2c14971",
+                    "questionID": "961e9f70-caf6-4cf8-9974-c27bdc355bf7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Three-level architecture still requires physical storage; it doesn&#39;t eliminate it.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "83b1999b-69b9-4318-96f5-143361b75ab4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "During a technical round, you’re asked: Which of the following best explains logical data independence?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Changing storage media without altering external schema",
+                    "type": "A"
+                },
+                {
+                    "body": " Changing indexes and hashing mechanisms without affecting user queries",
+                    "type": "B"
+                },
+                {
+                    "body": " Modifying the conceptual schema without changing external views",
+                    "type": "C"
+                },
+                {
+                    "body": "Allowing direct access to physical storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "b8e06a37-99ae-480f-b9fc-0eb4a5a1d627",
+                    "questionID": "83b1999b-69b9-4318-96f5-143361b75ab4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Logical data independence refers to changing the conceptual schema without altering external views.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c6a2db07-ee37-440f-8b9f-d65d489f89e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " If a company wants to shield users from how data is stored internally but allow them to access it through custom interfaces, which two layers are involved? ( Accenture)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Conceptual and Physical",
+                    "type": "A"
+                },
+                {
+                    "body": "External and Conceptual",
+                    "type": "B"
+                },
+                {
+                    "body": " Internal and External",
+                    "type": "C"
+                },
+                {
+                    "body": "View and Storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "5020667b-31a7-4947-b7b2-751de890e5ae",
+                    "questionID": "c6a2db07-ee37-440f-8b9f-d65d489f89e8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "External and conceptual layers work together to abstract storage from users while allowing custom views.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0153f1bf-c542-401a-8cad-d7cd03b67d03",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which layer of the three-schema architecture handles indexes, data compression, and actual data storage? (Cognizant)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Internal Level",
+                    "type": "A"
+                },
+                {
+                    "body": "External Level",
+                    "type": "B"
+                },
+                {
+                    "body": "Conceptual Level",
+                    "type": "C"
+                },
+                {
+                    "body": " View Level",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "947862d9-fe63-46c6-9d3a-423188dd1d5b",
+                    "questionID": "0153f1bf-c542-401a-8cad-d7cd03b67d03",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The internal level manages storage, indexing, and compression of data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "81803647-10ec-4dc7-8560-59b1f6fa3e4c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What kind of data independence is provided when changes in the logical structure do not affect the user’s view of data, such as renaming a table or adding a field?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Physical Data Independence",
+                    "type": "A"
+                },
+                {
+                    "body": " Logical Data Independence",
+                    "type": "B"
+                },
+                {
+                    "body": "External Data Independence",
+                    "type": "C"
+                },
+                {
+                    "body": " Schema Independence",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ef1854f4-dd5c-4f93-ac68-edc3d4deb11d",
+                    "questionID": "81803647-10ec-4dc7-8560-59b1f6fa3e4c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Logical data independence allows modifying the logical schema without affecting user views.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5968edb4-f857-494c-a8c5-b3af3c719ed5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A software engineer is building a system that provides different views of data for HR, Finance, and Admin users. Which level of DBMS architecture is she working on?(TCS)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Internal Schema",
+                    "type": "A"
+                },
+                {
+                    "body": "Conceptual Schema",
+                    "type": "B"
+                },
+                {
+                    "body": "External Schema",
+                    "type": "C"
+                },
+                {
+                    "body": "Storage Schema",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bbaa9727-e137-4215-a727-7d123638f645",
+                    "questionID": "5968edb4-f857-494c-a8c5-b3af3c719ed5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "External schema defines customized views for different user roles.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "13d50051-051d-4cef-b5e6-3f6789211d54",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which level of the three-schema architecture acts as a middle layer and abstracts internal details from users?(TCS)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "External Level",
+                    "type": "A"
+                },
+                {
+                    "body": "Internal Level",
+                    "type": "B"
+                },
+                {
+                    "body": "Conceptual Level",
+                    "type": "C"
+                },
+                {
+                    "body": "View Level",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fb52c65e-25f0-44d8-8224-ac0f9727ca8e",
+                    "questionID": "13d50051-051d-4cef-b5e6-3f6789211d54",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "The conceptual level abstracts the internal schema from end-user views.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "10ab5bcc-58de-4ae5-8435-3742b6eabdf7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "During a database design , the team needs to ensure that changes in the physical storage of data do not affect how the data is viewed by end users. Which feature of the DBMS architecture helps achieve this?( Infosys)",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Logical Independence",
+                    "type": "A"
+                },
+                {
+                    "body": "Physical Independence",
+                    "type": "B"
+                },
+                {
+                    "body": "Data Redundancy",
+                    "type": "C"
+                },
+                {
+                    "body": "Data Normalization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1d01c75f-fd12-4b67-bbf0-ae340896c77d",
+                    "questionID": "10ab5bcc-58de-4ae5-8435-3742b6eabdf7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Physical independence allows data storage changes without affecting how data is accessed.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e0df0688-49dd-4d16-8f17-73c8e49c48f9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A logistics company is using a flat file system to store delivery routes, but now needs to track multiple routes, vehicles, and drivers, each having dynamic relationships. Which system should the company migrate to for better scalability and data integrity?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS - for easy management of files",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS - for better management of routes as objects",
+                    "type": "B"
+                },
+                {
+                    "body": " RDBMS - for handling complex relationships and ensuring referential integrity",
+                    "type": "C"
+                },
+                {
+                    "body": "NoSQL - for flexible data storage",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6c32e788-7753-46e9-a78f-9b9b4c15d4c8",
+                    "questionID": "e0df0688-49dd-4d16-8f17-73c8e49c48f9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS supports scalability and complex relationships through referential integrity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f6592363-e03c-4e02-8508-4ffabf355fbc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A bank needs to manage customer accounts and transaction histories, ensuring that data remains consistent even if multiple operations happen at once. Which of the following features makes RDBMS the best choice for this scenario?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RDBMS can support data integrity and transaction safety (ACID properties)",
+                    "type": "A"
+                },
+                {
+                    "body": " DBMS does not allow concurrent data access",
+                    "type": "B"
+                },
+                {
+                    "body": " RDBMS stores data in a non-tabular format",
+                    "type": "C"
+                },
+                {
+                    "body": "DBMS handles transactions better than RDBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cfaa0a0a-04cd-4338-b7ee-a5c3441b7bf2",
+                    "questionID": "f6592363-e03c-4e02-8508-4ffabf355fbc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS enforces ACID properties, ensuring transaction reliability and consistency.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "068bbad4-ac07-43a8-961a-7b022d882290",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "If a company needs to manage a large amount of data, but the data does not require strict relationships, which system is most suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RDBMS - because of its strong integrity features",
+                    "type": "A"
+                },
+                {
+                    "body": "DBMS - because it offers simplicity without enforcing relationships",
+                    "type": "B"
+                },
+                {
+                    "body": "NoSQL - for handling large unstructured data",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS - for handling complex object types",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9a635c8e-f032-48eb-aa77-68eeeff97ea2",
+                    "questionID": "068bbad4-ac07-43a8-961a-7b022d882290",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DBMS is ideal for large data without needing rigid relationships or relational overhead.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2585acbd-c475-4d1e-bf42-bf312368631a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a major limitation of a traditional DBMS compared to an RDBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS does not support SQL queries",
+                    "type": "A"
+                },
+                {
+                    "body": "DBMS cannot handle large amounts of data",
+                    "type": "B"
+                },
+                {
+                    "body": "DBMS lacks support for data relationships and integrity constraints",
+                    "type": "C"
+                },
+                {
+                    "body": "DBMS requires external programming for backup",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "76dce945-9f8e-4727-8152-c3d89420a12f",
+                    "questionID": "2585acbd-c475-4d1e-bf42-bf312368631a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Traditional DBMS lacks relational features and integrity constraints present in RDBMS.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "95694979-a86f-4fd0-b359-819c9f9021f8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "An online retailer tracks products, categories, and customer orders. The system needs to ensure data consistency and the ability to handle complex queries, such as retrieving all orders from a specific customer. Which system should they use?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS - for simpler and faster access",
+                    "type": "A"
+                },
+                {
+                    "body": "RDBMS - for relational data integrity and complex queries",
+                    "type": "B"
+                },
+                {
+                    "body": "Flat-file database - for ease of use",
+                    "type": "C"
+                },
+                {
+                    "body": " NoSQL - for handling unstructured data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d1699153-4870-455b-a233-b1402fbe32cf",
+                    "questionID": "95694979-a86f-4fd0-b359-819c9f9021f8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS ensures consistency and handles complex queries involving related tables.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a70f6cf-3aca-4baa-b539-dde735f5ea98",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a company’s inventory management system, each product belongs to multiple categories (e.g., electronics, home appliances). Which system is most appropriate for managing this many-to-many relationship?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS - as it doesn’t need complex relationships",
+                    "type": "A"
+                },
+                {
+                    "body": "NoSQL - because it doesn’t require relationships",
+                    "type": "B"
+                },
+                {
+                    "body": "RDBMS - because it can handle many-to-many relationships using join tables",
+                    "type": "C"
+                },
+                {
+                    "body": "File system - because it&#39;s simpler for product categorization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "70edd34a-5ff6-468c-82d4-5a39babbc450",
+                    "questionID": "6a70f6cf-3aca-4baa-b539-dde735f5ea98",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS can manage many-to-many relationships using join tables efficiently.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b54b0506-81b0-42d6-9b2c-266276672006",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A company is migrating from a DBMS that stores customer data in a flat file format to an RDBMS that uses tables with foreign key relationships. Which of the following is the primary benefit of this migration?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "The new system will be more difficult to scale",
+                    "type": "A"
+                },
+                {
+                    "body": " The new system will allow for better data integrity and more complex querying",
+                    "type": "B"
+                },
+                {
+                    "body": " The new system will increase redundancy in data storage",
+                    "type": "C"
+                },
+                {
+                    "body": " The new system will eliminate the need for any indexing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7cb9fc59-e5ac-4925-ab86-4d4e116ac60d",
+                    "questionID": "b54b0506-81b0-42d6-9b2c-266276672006",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Migration to RDBMS improves data integrity and supports more advanced querying.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d3d04c91-f23b-4aeb-844c-70803a02cfdf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following describes why RDBMS is typically preferred over a basic DBMS in enterprise applications like banking?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " RDBMS is less secure than DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "RDBMS supports table-based structures with complex relationships, ensuring data integrity and consistency",
+                    "type": "B"
+                },
+                {
+                    "body": " DBMS provides better security",
+                    "type": "C"
+                },
+                {
+                    "body": "RDBMS cannot support complex queries and transactions",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f18d65d9-e58e-4c20-8c6b-967c374cbc75",
+                    "questionID": "d3d04c91-f23b-4aeb-844c-70803a02cfdf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS supports data integrity, complex relationships, and structured queries ideal for enterprise use.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e53bb392-0593-4fbf-a3c4-2da1e0ebba41",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A manufacturing company needs a database system to track raw materials, suppliers, and inventory levels. The system requires the ability to maintain relationships between these entities (such as linking raw materials to specific suppliers). Which system should they choose?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS - for simpler operations",
+                    "type": "A"
+                },
+                {
+                    "body": "RDBMS - to establish relationships using foreign keys",
+                    "type": "B"
+                },
+                {
+                    "body": "Flat-file system - for ease of management",
+                    "type": "C"
+                },
+                {
+                    "body": "NoSQL - for faster querying",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ccb585d1-c783-4bbb-8de1-351c252cdfa2",
+                    "questionID": "e53bb392-0593-4fbf-a3c4-2da1e0ebba41",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS allows defining relationships using foreign keys to link related entities.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "40c05b82-db14-4b1e-a325-17d77bf79b3d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A company is implementing a new system to manage employee records, but the data structure involves no relationships between employees and departments. Which of the following is most suitable for this use case?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RDBMS - because it can handle data relationships",
+                    "type": "A"
+                },
+                {
+                    "body": "DBMS - because there are no relationships between data",
+                    "type": "B"
+                },
+                {
+                    "body": "NoSQL - because it is optimized for hierarchical data",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS - for handling behavior along with data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ce0ba7e9-d1db-421a-9b5e-a5cafe6d5f9c",
+                    "questionID": "40c05b82-db14-4b1e-a325-17d77bf79b3d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Use DBMS when no relationships exist between data entities, offering a simpler structure.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "94f0d395-4d6a-4b4a-b9a3-6588f8ab4471",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which feature of a Relational DBMS makes it scalable and reliable for handling real-world applications in companies like Amazon or PayPal?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data stored as objects",
+                    "type": "A"
+                },
+                {
+                    "body": "Supports unstructured data by default",
+                    "type": "B"
+                },
+                {
+                    "body": " SQL-based querying, normalization, and referential integrity",
+                    "type": "C"
+                },
+                {
+                    "body": "Strict parent-child data modeling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "2a2c3d89-11ad-483a-84f6-9dbd1c4b99aa",
+                    "questionID": "94f0d395-4d6a-4b4a-b9a3-6588f8ab4471",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supports large-scale, consistent data management in enterprises.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "75179314-20db-40e4-92cd-a02dd5484305",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A customer support software logs every interaction as an object containing audio, text, timestamps, and related methods. What DBMS model is best for storing this?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Relational",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented",
+                    "type": "B"
+                },
+                {
+                    "body": "Network",
+                    "type": "C"
+                },
+                {
+                    "body": " Flat File",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6d0e246a-59be-40f9-9c6a-19a7df1b42a0",
+                    "questionID": "75179314-20db-40e4-92cd-a02dd5484305",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ideal for storing objects with mixed media and behaviours.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a27a9636-9b0f-440d-b134-f487b8e02649",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which situation is a Relational DBMS not ideal for a company’s needs?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "When tabular data storage is required",
+                    "type": "A"
+                },
+                {
+                    "body": "When complex relationships are involved",
+                    "type": "B"
+                },
+                {
+                    "body": "When schema flexibility and scalability are top priorities",
+                    "type": "C"
+                },
+                {
+                    "body": "When transactional support is essential",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7680ce40-a2b8-4b02-969b-6bf84c7c8fd6",
+                    "questionID": "a27a9636-9b0f-440d-b134-f487b8e02649",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS is less flexible compared to schema-less systems like NoSQL.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8a408659-c65c-483f-ac58-cc13d357b36a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A traditional manufacturing firm still uses a system that connects parts to assemblies using fixed tree-like structures. What DBMS model is most likely in use?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2313f32d-a18f-4de7-bed8-5db21cce33c7",
+                    "questionID": "8a408659-c65c-483f-ac58-cc13d357b36a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Follows a fixed tree structure suitable for parts assemblies.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fda254d9-5161-4273-be5f-3afd98a3f500",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why is a Relational DBMS preferred by most companies over Hierarchical or Network DBMS for modern applications?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It is simpler but lacks query capability",
+                    "type": "A"
+                },
+                {
+                    "body": " It uses predefined object classes",
+                    "type": "B"
+                },
+                {
+                    "body": "It supports SQL, normalization, and easy data relationships",
+                    "type": "C"
+                },
+                {
+                    "body": " It allows data to be stored as plain text only",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6fd62e3c-8e3d-4af5-9c1c-5c345f2425af",
+                    "questionID": "fda254d9-5161-4273-be5f-3afd98a3f500",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS is scalable, structured, and widely supported.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "08fc4fac-6a37-4679-a75f-61f720c9764e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A DBMS is being designed for a car manufacturing company where each car object has attributes and associated methods (e.g., startEngine()). What DBMS approach is suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Relational",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented",
+                    "type": "B"
+                },
+                {
+                    "body": "Network",
+                    "type": "C"
+                },
+                {
+                    "body": " Hierarchical",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8b3915bf-0816-49d9-bb79-46d971e1aa79",
+                    "questionID": "08fc4fac-6a37-4679-a75f-61f720c9764e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Encapsulates data and behaviour for complex entities like cars.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e790ecd4-7053-4cba-92a4-c34bc545fa68",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A DBMS used by a hospital links patients, doctors, prescriptions, and appointments. Which DBMS type provides the most logical and efficient structure for such complex relationships?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": " Object-Oriented DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "72edfe7a-4441-4d92-856b-fbbd24efbde0",
+                    "questionID": "e790ecd4-7053-4cba-92a4-c34bc545fa68",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Efficiently handles interrelated healthcare records.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d592fe8c-70d0-4fa0-a686-295a44d6422d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a key drawback of using a Network DBMS in modern enterprise applications?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It cannot handle complex relationships",
+                    "type": "A"
+                },
+                {
+                    "body": "It does not support multiple parent-child paths ",
+                    "type": "B"
+                },
+                {
+                    "body": "It is difficult to maintain and requires navigational logic",
+                    "type": "C"
+                },
+                {
+                    "body": "It lacks support for data integrity",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e6fc928a-867e-4ed7-a51e-84c5bef1fbec",
+                    "questionID": "d592fe8c-70d0-4fa0-a686-295a44d6422d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Network DBMS is complex due to manual pointer navigation.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eeede904-4420-4166-9ad4-7b0400ad246b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a content streaming company (like Netflix), where video content is treated as objects with metadata and behaviors (e.g., play, pause, rate), which DBMS type fits best?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "0abc3f46-46ce-49ab-9205-ca0c170c1829",
+                    "questionID": "eeede904-4420-4166-9ad4-7b0400ad246b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Handles multimedia objects with associated behaviours.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ca5232be-1c99-4d28-8707-47121112af4a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A fintech startup wants to develop a flexible database that can scale horizontally and store user information without a fixed schema. Which DBMS type should they consider?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Relational DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "NoSQL DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fb662da7-d6ee-4fcd-9c9c-68b762a6523c",
+                    "questionID": "ca5232be-1c99-4d28-8707-47121112af4a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supports schema-less and horizontally scalable data models.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a2ff078-5a32-4b22-8e36-ba93e90b9994",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A company is upgrading its system from a flat file model to a DBMS that allows for better data reuse, reduced redundancy, and logical relationships. What type of DBMS are they most likely transitioning to?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f17a1b51-d21a-4de7-b0fd-fc44f256fdf5",
+                    "questionID": "6a2ff078-5a32-4b22-8e36-ba93e90b9994",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Improves structure, reduces redundancy, and supports relationships.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ef223a3-f310-470a-8f92-0bc08a362306",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A DBMS that uses schemas with strict data types and relationships defined through foreign keys is likely a:",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " NoSQL system",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "be26b21b-8542-4ff5-96da-29b769962713",
+                    "questionID": "6ef223a3-f310-470a-8f92-0bc08a362306",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Uses schemas with strict types and referential integrity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26c18457-bdfc-415f-9453-9a9d4fc54896",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which DBMS type would be most appropriate for a company developing simulation software that includes real-world entities with behaviors and states?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Relational",
+                    "type": "A"
+                },
+                {
+                    "body": "Hierarchical",
+                    "type": "B"
+                },
+                {
+                    "body": "Object-Oriented",
+                    "type": "C"
+                },
+                {
+                    "body": " Network",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8c6a8c3f-956a-47a3-89de-41bdc53d33e1",
+                    "questionID": "26c18457-bdfc-415f-9453-9a9d4fc54896",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Best for simulations with real-world object behaviour.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8ac2a8fd-eaa9-4daa-bccc-52ded2d6ff61",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In a legacy airline booking system, flight routes are stored in a fixed parent-child path (e.g., Country ? Airport ? Flights). Which DBMS type would likely be used here, and what’s a drawback?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical DBMS - but it lacks flexibility in handling cross-route connections",
+                    "type": "A"
+                },
+                {
+                    "body": "Network DBMS - but it’s too simple for modern needs",
+                    "type": "B"
+                },
+                {
+                    "body": " Relational DBMS - but it doesn’t support trees",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS - but it cannot store routes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "b0ba99f1-4951-4ece-993f-7c28d0dbe814",
+                    "questionID": "8ac2a8fd-eaa9-4daa-bccc-52ded2d6ff61",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rigid hierarchy makes dynamic routing complex.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1b671368-7a31-4bf8-842c-08ae67209024",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which is a key limitation of using an Object-Oriented DBMS in a typical company scenario?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Cannot represent hierarchical relationships",
+                    "type": "A"
+                },
+                {
+                    "body": " Poor support for real-world object modeling",
+                    "type": "B"
+                },
+                {
+                    "body": "Limited standardization and compatibility with SQL tools",
+                    "type": "C"
+                },
+                {
+                    "body": " Slow retrieval of simple tabular data",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "dd014fde-cf42-4934-935c-08377d582b17",
+                    "questionID": "1b671368-7a31-4bf8-842c-08ae67209024",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "OO-DBMS lacks wide tool support and SQL integration.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "24d8812c-e8e9-4d58-bb4d-32b75177d300",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A CRM system needs to access and update multiple related tables (customers, orders, payments) using foreign keys. What kind of DBMS should be used?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical",
+                    "type": "A"
+                },
+                {
+                    "body": "Network",
+                    "type": "B"
+                },
+                {
+                    "body": " Relational",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "49ed7ea7-b855-4202-a5ff-18513b34b49f",
+                    "questionID": "24d8812c-e8e9-4d58-bb4d-32b75177d300",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Best suited for interrelated tables using foreign keys.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0cc891b5-000f-4ca8-8642-7b353359d96c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In which scenario would a Hierarchical DBMS perform better than a Relational DBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Complex queries involving joins",
+                    "type": "A"
+                },
+                {
+                    "body": "Dynamic and frequent data updates",
+                    "type": "B"
+                },
+                {
+                    "body": " Strict tree-structured data like an organizational chart",
+                    "type": "C"
+                },
+                {
+                    "body": "Handling binary data types",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f8e1d035-9a84-4a87-b862-7417c2d24c5f",
+                    "questionID": "0cc891b5-000f-4ca8-8642-7b353359d96c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hierarchical DBMS excels in well-defined parent-child data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "919607dc-4f56-40ab-b9af-655d90964103",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A financial software company is designing a DBMS where each customer is an object with methods like calculateInterest() and generateReport(). Which DBMS model is most appropriate?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Flat file system",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "7fe199e0-515b-4b35-b5b4-7f1c8d0c1dd7",
+                    "questionID": "919607dc-4f56-40ab-b9af-655d90964103",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Models entities as objects with properties and behaviors.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8e2ace10-4af1-4d1b-95f4-3d68bf1edeac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A logistics company stores warehouse information using pointers to show multiple paths of product movements. Which DBMS model best supports such flexible connections?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "aac61868-9239-4580-a8a9-4a8ffb0c9499",
+                    "questionID": "8e2ace10-4af1-4d1b-95f4-3d68bf1edeac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supports multiple linkages between records, ideal for tracking movements.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a9d73792-1c28-4a5b-84a6-67d6e81ef0f0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A multinational insurance company requires its database to support real-time access across global offices with tight transactional consistency. Which DBMS type is most suitable, and why?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Object-Oriented DBMS - for better performance with complex objects",
+                    "type": "A"
+                },
+                {
+                    "body": "Hierarchical DBMS - for its simplicity and speed",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS - for strong ACID compliance and SQL support",
+                    "type": "C"
+                },
+                {
+                    "body": "Network DBMS - for better hierarchical representation",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 50,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "c32bbe65-567c-482c-a3b1-3aff9f0fbddd",
+                    "questionID": "a9d73792-1c28-4a5b-84a6-67d6e81ef0f0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ideal for global, real-time, and consistent data access.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c0ff45c7-2c36-4d53-9cc3-437561f3185f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A logistics firm needs to track shipments with reference to customer orders. Which system is ideal for linking such data?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Hierarchical system",
+                    "type": "B"
+                },
+                {
+                    "body": "RDBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " CSV-based system",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "34020d0a-5bd3-4262-9223-fb6087200aaf",
+                    "questionID": "c0ff45c7-2c36-4d53-9cc3-437561f3185f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Best for managing interconnected data like shipments and orders.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce5e140c-9939-4a56-8d5c-f1e7a4c57f3f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "What is a common disadvantage of using a basic DBMS in an enterprise setting?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Too much complexity for simple apps",
+                    "type": "A"
+                },
+                {
+                    "body": " Lacks security and relational integrity features",
+                    "type": "B"
+                },
+                {
+                    "body": "Difficult to create files",
+                    "type": "C"
+                },
+                {
+                    "body": "It always uses too much memory",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "45ab0c89-e49a-4e68-a2b1-1dc8cec5654f",
+                    "questionID": "ce5e140c-9939-4a56-8d5c-f1e7a4c57f3f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Basic DBMS doesn&#39;t enforce advanced integrity or security.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "19662a06-9728-4325-86c5-8c2d330dbda1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is true about RDBMS but not necessarily about DBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " It allows access to data using SQL",
+                    "type": "A"
+                },
+                {
+                    "body": "It ensures ACID (Atomicity, Consistency, Isolation, Durability) properties",
+                    "type": "B"
+                },
+                {
+                    "body": "It stores data in flat files",
+                    "type": "C"
+                },
+                {
+                    "body": " It doesn’t require normalization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "a1415985-bed0-462e-968e-5bd00605fa2f",
+                    "questionID": "19662a06-9728-4325-86c5-8c2d330dbda1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS guarantees reliable transactions and data integrity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5cdd4f44-931e-473f-9295-cc54181135d8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In which case would a company prefer a DBMS over an RDBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Managing large datasets with complex relationships",
+                    "type": "A"
+                },
+                {
+                    "body": "Ensuring referential integrity among tables",
+                    "type": "B"
+                },
+                {
+                    "body": " Creating a lightweight application with no relationships",
+                    "type": "C"
+                },
+                {
+                    "body": " Handling real-time transactional systems",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "81ddd75d-0313-4bf2-b184-1f57bda0a693",
+                    "questionID": "5cdd4f44-931e-473f-9295-cc54181135d8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DBMS suits basic apps that don’t require relational data handling.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "668a343d-c23b-4e66-ae5a-49bbeb3b8ddd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A hospital wants to enforce data integrity between patients and their prescriptions. Which system is more suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " DBMS - simpler to manage",
+                    "type": "A"
+                },
+                {
+                    "body": "RDBMS - due to relational constraints and normalization",
+                    "type": "B"
+                },
+                {
+                    "body": "Flat-file system - easy to scale",
+                    "type": "C"
+                },
+                {
+                    "body": " Spreadsheet - minimal maintenance",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b771bdb9-110f-4334-a8d0-7bae35d83c68",
+                    "questionID": "668a343d-c23b-4e66-ae5a-49bbeb3b8ddd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ensures accurate linking between patients and prescriptions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cfda0799-4ee7-4d3a-96a6-77355900a78d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following features is only found in RDBMS and not in a basic DBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data storage in files",
+                    "type": "A"
+                },
+                {
+                    "body": "Use of indexes for fast search",
+                    "type": "B"
+                },
+                {
+                    "body": "Support for table-based data with constraints and relationships",
+                    "type": "C"
+                },
+                {
+                    "body": "User-defined data types",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "3e5c0bc5-8f7a-4389-9fd6-0e684a91df19",
+                    "questionID": "cfda0799-4ee7-4d3a-96a6-77355900a78d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS uniquely offers structured tables with defined relationships.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fd8ed130-0f26-4c52-a829-8a8800162bfa",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A startup is storing simple product lists without any relationships between data. Which system can they use with minimal overhead?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RDBMS",
+                    "type": "A"
+                },
+                {
+                    "body": " DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": " NoSQL",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "04651acd-c6dd-4e87-afbf-9c80725f95c4",
+                    "questionID": "fd8ed130-0f26-4c52-a829-8a8800162bfa",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ideal for simple, flat data without relational complexity or heavy processing.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b5019398-a8d7-4be2-b526-ed38760bbcad",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes the difference between a DBMS and an RDBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " DBMS supports only small-scale data while RDBMS is for large-scale",
+                    "type": "A"
+                },
+                {
+                    "body": "DBMS uses SQL while RDBMS does not",
+                    "type": "B"
+                },
+                {
+                    "body": "RDBMS enforces relationships through foreign keys; DBMS does not",
+                    "type": "C"
+                },
+                {
+                    "body": "RDBMS cannot handle large data volumes",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "0d29c24f-eb00-47f6-8b5d-9d6d9b99c7af",
+                    "questionID": "b5019398-a8d7-4be2-b526-ed38760bbcad",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS maintains data integrity using relationships and constraints.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "220fc20b-0542-4ee0-9585-c0aeea6d9989",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A cloud-based software company handles distributed, unstructured, and schema-less data. Which modern DBMS type is suitable here (outside traditional types)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Network DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "NoSQL (Not Only SQL) DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "7312adea-e31c-431f-b56b-2fa2a8d79036",
+                    "questionID": "220fc20b-0542-4ee0-9585-c0aeea6d9989",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Designed for handling unstructured, schema-less, and distributed cloud data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2c8be581-6973-4174-835f-f8070b2ceda3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A government organization with legacy systems uses a parent-child model to store departmental hierarchy. Which DBMS are they likely using?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "2623f064-a248-4fe7-a4ff-4a6af33015de",
+                    "questionID": "2c8be581-6973-4174-835f-f8070b2ceda3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Uses a tree-like structure suitable for parent-child relationships like department hierarchies.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7083ec18-728a-4d8b-90c1-74bf9c4c65c7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which DBMS type would best support a company that uses highly structured, tabular data and needs strong ACID compliance?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Relational DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": " Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "178aae49-bb0e-48a3-a864-fd9dd3cc704c",
+                    "questionID": "7083ec18-728a-4d8b-90c1-74bf9c4c65c7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Provides strong ACID properties and structured data management.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "59ef9355-3cf3-4d8e-ac6d-afea94218968",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A software firm uses a DBMS that allows the use of real-world modeling using objects. What feature must the DBMS support?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Flat file storage",
+                    "type": "A"
+                },
+                {
+                    "body": "Object inheritance and encapsulation",
+                    "type": "B"
+                },
+                {
+                    "body": " SQL commands only",
+                    "type": "C"
+                },
+                {
+                    "body": "Simple tabular structure",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "3bc6d270-2efe-4ccb-96fa-be222ab65688",
+                    "questionID": "59ef9355-3cf3-4d8e-ac6d-afea94218968",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supports real-world modeling using object-oriented principles.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "53ee3a22-b94a-4b92-9ead-29791f966917",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is a key disadvantage of Hierarchical DBMS in modern companies?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "It supports complex relationships",
+                    "type": "A"
+                },
+                {
+                    "body": "It allows multiple parent records",
+                    "type": "B"
+                },
+                {
+                    "body": "It is not flexible for many-to-many relationships",
+                    "type": "C"
+                },
+                {
+                    "body": "It supports SQL for querying",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "21655643-85a7-4814-81b4-3d293509658d",
+                    "questionID": "53ee3a22-b94a-4b92-9ead-29791f966917",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Hierarchical DBMS struggles with non-hierarchical data models.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce9405ec-4533-425c-9613-5d67439bedae",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a logistics company where orders can be connected to multiple suppliers, and suppliers can handle multiple orders, which DBMS type handles such relationships best?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": " Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "File-based System",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "20366e2d-321a-473f-8264-326e57537165",
+                    "questionID": "ce9405ec-4533-425c-9613-5d67439bedae",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Efficiently handles many-to-many relationships between entities.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e5adbc30-5427-4dd5-93c7-59c59c62a754",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A video game development company needs to store user-defined objects like player profiles, achievements, and avatars. Which DBMS would be most appropriate?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "341f8ef4-bc81-45cf-b0fc-e38b7ca0b82d",
+                    "questionID": "e5adbc30-5427-4dd5-93c7-59c59c62a754",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Best suited for managing custom objects in game development.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "331d8875-8990-44e6-978e-ec8305a5b02e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following DBMS types is generally not used for modern business applications due to its rigid structure and difficulty in maintaining relationships?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Relational DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "71dac0b6-349f-4347-a0ac-c901a72214ad",
+                    "questionID": "331d8875-8990-44e6-978e-ec8305a5b02e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Outdated structure makes it less suitable for modern business needs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "436e175e-a893-482d-884e-0222dd9ea79e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which DBMS type is known for representing data using classes, inheritance, and objects, making it ideal for software engineering companies?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": " Object-Oriented DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " Relational DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "834cd9a4-9a70-422e-9bca-0fa3e429feac",
+                    "questionID": "436e175e-a893-482d-884e-0222dd9ea79e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Uses object principles like inheritance for complex applications.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6a5da133-3748-41d3-adac-38f41af33542",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A banking company needs to maintain transactional consistency and complex table relationships. Which DBMS type is most suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": " Relational DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " File-based DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8b804d32-414f-4a08-b92d-64914ed6124f",
+                    "questionID": "6a5da133-3748-41d3-adac-38f41af33542",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ideal for maintaining complex relationships and transaction accuracy.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f7cbebcf-b87e-4bc1-a138-5233b1d289cc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following DBMS types is the least flexible for handling many-to-many relationships in a business application?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Network DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "806e48e6-7007-4e69-9e09-ed489fe13a42",
+                    "questionID": "f7cbebcf-b87e-4bc1-a138-5233b1d289cc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Rigid tree structure makes handling many-to-many links difficult.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1e9bd75b-34d0-4d89-ac1e-938648ee01a9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why do most enterprise-level applications prefer RDBMS over Hierarchical DBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "RDBMS is slower",
+                    "type": "A"
+                },
+                {
+                    "body": "RDBMS is easier to scale and supports complex queries",
+                    "type": "B"
+                },
+                {
+                    "body": "Hierarchical DBMS supports better UIs",
+                    "type": "C"
+                },
+                {
+                    "body": " RDBMS lacks normalization features",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6abf5a43-4023-49c4-b259-55e39e51d38d",
+                    "questionID": "1e9bd75b-34d0-4d89-ac1e-938648ee01a9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Enterprises favour RDBMS for flexibility and query power.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2c516fc4-3f98-4c0d-be84-625f52c27cbf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following best describes a Relational DBMS (RDBMS)?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Stores data in form of JSON documents",
+                    "type": "A"
+                },
+                {
+                    "body": " Uses tables to store data and supports SQL",
+                    "type": "B"
+                },
+                {
+                    "body": "Stores data in a parent-child format",
+                    "type": "C"
+                },
+                {
+                    "body": " Uses navigational pointers for data retrieval",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "41151524-90c0-4c29-a7b7-0d00f5d0fba1",
+                    "questionID": "2c516fc4-3f98-4c0d-be84-625f52c27cbf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "RDBMS organizes data in tables with powerful querying via SQL.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6e550081-ab33-4b65-a72f-040abfbe2025",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a supply chain company, products can be linked to multiple suppliers and vice versa. Which DBMS model best represents these many-to-many relationships?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": " Network DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "be2d7c9e-f1ac-4ea6-8890-18d655ccc8ef",
+                    "questionID": "6e550081-ab33-4b65-a72f-040abfbe2025",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Supports many-to-many relationships through graph-like connections.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d12f8d55-4bd5-4ed5-9097-02c8eb68beca",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A social media company that deals with complex data types like videos, images, and custom objects is likely to use which DBMS?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8a11db8e-1448-43e5-8f1b-fe3ab6315e5a",
+                    "questionID": "d12f8d55-4bd5-4ed5-9097-02c8eb68beca",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Handles multimedia and complex data using object modeling.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3b4d1554-e64f-45c9-aff6-07a568c24aa7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which type of DBMS is most commonly used by companies for managing structured data with tables and SQL?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": " File-based System",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b3056830-6ff6-4a1c-84b4-067be75aeb73",
+                    "questionID": "3b4d1554-e64f-45c9-aff6-07a568c24aa7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Uses tables and SQL to manage structured data efficiently.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2d4d10d6-9d9a-4dff-8843-b79d84b034b2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A telecom company stores call logs in a tree-like structure with parent-child relationships. Which DBMS type is most suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Relational DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": "Object-Oriented DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Network DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Hierarchical DBMS",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "710b34fd-2919-4ed1-ab0a-5431b5c32318",
+                    "questionID": "2d4d10d6-9d9a-4dff-8843-b79d84b034b2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Best for organizing data in parent-child tree structures.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "788f16e7-4993-49f6-b4e1-ac859dc66816",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Why would a company normalize its database?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Backup system",
+                    "type": "A"
+                },
+                {
+                    "body": "Data warehousing",
+                    "type": "B"
+                },
+                {
+                    "body": "Concurrency control and transaction management",
+                    "type": "C"
+                },
+                {
+                    "body": "Data definition",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "fbb678e8-787e-4148-8348-b8a094d183e9",
+                    "questionID": "788f16e7-4993-49f6-b4e1-ac859dc66816",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Prevents conflicts when multiple users access or modify the same data.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a506549c-3e5d-4287-b71a-e2f04f4528fb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "                             Why would a company normalize its database?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "To increase data redundancy",
+                    "type": "A"
+                },
+                {
+                    "body": " To eliminate data integrity",
+                    "type": "B"
+                },
+                {
+                    "body": "To minimize duplicate data and improve structure",
+                    "type": "C"
+                },
+                {
+                    "body": " To make it more complex",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4543d750-ba60-4527-801a-09448b6f9078",
+                    "questionID": "a506549c-3e5d-4287-b71a-e2f04f4528fb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Normalization organizes data to reduce redundancy and improve efficiency.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8120e5e6-0ac7-4774-bc23-2c6e97fcacb1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A company uses a DBMS to automatically update stock levels after each sale. What feature is being used?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Triggers",
+                    "type": "A"
+                },
+                {
+                    "body": "Reports",
+                    "type": "B"
+                },
+                {
+                    "body": "Indexes",
+                    "type": "C"
+                },
+                {
+                    "body": "Views",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "2de8015e-31a0-4ea3-97b1-6126a9d7ba08",
+                    "questionID": "8120e5e6-0ac7-4774-bc23-2c6e97fcacb1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Automatically perform actions like updating stock in response to events.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1edf4187-56b0-4377-9368-b2f744bbc265",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " In a multinational company, different branches access the same central database. What is the DBMS term for this capability?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Distributed DBMS",
+                    "type": "A"
+                },
+                {
+                    "body": " Flat DBMS",
+                    "type": "B"
+                },
+                {
+                    "body": "Decentralized control",
+                    "type": "C"
+                },
+                {
+                    "body": "Cloud backup",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "97c96fe1-781a-4dfb-8a3e-0998a4582610",
+                    "questionID": "1edf4187-56b0-4377-9368-b2f744bbc265",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Allows data access across multiple locations using a unified system.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b7d69b03-9f95-455a-bdc8-5d9b4feaa736",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " An e-commerce company needs to back up its order database daily. Which DBMS functionality ensures that recent changes are not lost during a crash?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Data independence",
+                    "type": "A"
+                },
+                {
+                    "body": "Concurrency",
+                    "type": "B"
+                },
+                {
+                    "body": "Recovery system",
+                    "type": "C"
+                },
+                {
+                    "body": "Normalization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "4b7c9d90-3f21-4624-b8b7-4c79420e72b3",
+                    "questionID": "b7d69b03-9f95-455a-bdc8-5d9b4feaa736",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Ensures data is restored after crashes using backup and logs.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7544bea7-ed84-4e66-aecd-136b1b1e4e0e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A company wants to analyze customer buying patterns. Which DBMS component helps in retrieving specific information efficiently?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data model",
+                    "type": "A"
+                },
+                {
+                    "body": " SQL queries",
+                    "type": "B"
+                },
+                {
+                    "body": " File storage",
+                    "type": "C"
+                },
+                {
+                    "body": " Transaction logs",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "dcc086d1-4d94-4233-ba44-68771664cad3",
+                    "questionID": "7544bea7-ed84-4e66-aecd-136b1b1e4e0e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "SQL queries allow efficient retrieval and analysis of specific data from large databases.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ce725b01-cd6c-4a61-9e20-6e21a05ebd4b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A banking company stores customer data and transaction history. What type of database system is most suitable?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Hierarchical database",
+                    "type": "A"
+                },
+                {
+                    "body": "Flat file system",
+                    "type": "B"
+                },
+                {
+                    "body": "Relational DBMS",
+                    "type": "C"
+                },
+                {
+                    "body": "Document-based system",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "6fa086a9-c21e-4380-af14-0a724ab8dd09",
+                    "questionID": "ce725b01-cd6c-4a61-9e20-6e21a05ebd4b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Relational databases efficiently handle structured data like customer details and transactions.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "113da5f7-c27d-4925-86df-37aadd7d30de",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a logistics company, what is the main advantage of using a centralized DBMS for inventory management?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Increased hardware cost",
+                    "type": "A"
+                },
+                {
+                    "body": "Duplicate inventory entries",
+                    "type": "B"
+                },
+                {
+                    "body": "Real-time access and consistency across branches",
+                    "type": "C"
+                },
+                {
+                    "body": "Slower access speed",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e8d6c7dd-f2d6-4e78-92c0-a3beeda475ce",
+                    "questionID": "113da5f7-c27d-4925-86df-37aadd7d30de",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A centralized DBMS ensures up-to-date and uniform data across all company locations.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "c9b67485-8767-45b1-96e7-eb99f32e3b8a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " A company wants to ensure that customer records are not accidentally deleted by junior staff. What DBMS feature can help enforce this?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Data mining",
+                    "type": "A"
+                },
+                {
+                    "body": "Views and permissions",
+                    "type": "B"
+                },
+                {
+                    "body": "Backup and restore",
+                    "type": "C"
+                },
+                {
+                    "body": "Normalization",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "842e3216-49b4-46d8-9725-672c9f2dc8ae",
+                    "questionID": "c9b67485-8767-45b1-96e7-eb99f32e3b8a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Views and permissions control access, preventing unauthorized or accidental data modifications.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "98b064fb-7759-45e3-9f33-d1810b7b8d1c",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": " Which of the following best describes the role of a DBMS in a company’s customer relationship management (CRM) system?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Visualizing customer behaviour",
+                    "type": "A"
+                },
+                {
+                    "body": "Securely storing and managing customer data",
+                    "type": "B"
+                },
+                {
+                    "body": "Designing website content",
+                    "type": "C"
+                },
+                {
+                    "body": "Managing employee schedules",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "b59f059e-26c9-4c76-9321-d050e45bbb75",
+                    "questionID": "98b064fb-7759-45e3-9f33-d1810b7b8d1c",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A DBMS ensures safe and efficient handling of customer information in CRM systems.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "84f159dc-7efa-4cd4-bfd9-832df3795a10",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a company database, employees&#39; data is updated frequently. Which DBMS characteristic ensures that only authorized staff can update data?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " Data model",
+                    "type": "A"
+                },
+                {
+                    "body": " Authorization control",
+                    "type": "B"
+                },
+                {
+                    "body": "Indexing",
+                    "type": "C"
+                },
+                {
+                    "body": "Backup and recovery",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bf46e59c-bb2a-456c-84e0-66c800efacd3",
+                    "questionID": "84f159dc-7efa-4cd4-bfd9-832df3795a10",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "Authorization control restricts data access to only approved users, ensuring security during updates.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "1e8b8bd4-1184-4ecc-86c1-5ab2679e3e6d",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Which of the following is NOT a typical advantage of using a DBMS in a company?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data consistency",
+                    "type": "A"
+                },
+                {
+                    "body": "High security",
+                    "type": "B"
+                },
+                {
+                    "body": "Less storage space",
+                    "type": "C"
+                },
+                {
+                    "body": "Data sharing",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a217ecac-20d9-4ef8-9dbd-ccbf761dfba0",
+                    "questionID": "1e8b8bd4-1184-4ecc-86c1-5ab2679e3e6d",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "DBMSs often require more storage due to metadata and indexing, so reduced storage is not a typical advantage.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4ea62b87-234c-4111-be51-622e5aa9e81a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "A retail company uses a DBMS to track customer orders. Which of the following best describes this usage?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Data processing",
+                    "type": "A"
+                },
+                {
+                    "body": "Transaction management",
+                    "type": "B"
+                },
+                {
+                    "body": "File handling",
+                    "type": "C"
+                },
+                {
+                    "body": "Query scheduling",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "567d9adc-81b1-42da-9b15-afc32a04f63f",
+                    "questionID": "4ea62b87-234c-4111-be51-622e5aa9e81a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It ensures that customer orders are processed reliably and consistently, handling multiple transactions efficiently.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e9cc5a81-b137-4899-943c-6e49ea304f25",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "In a company, the HR department stores employee records. What DBMS feature helps prevent two departments from modifying the same record at the same time?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "Backup",
+                    "type": "A"
+                },
+                {
+                    "body": "Normalization",
+                    "type": "B"
+                },
+                {
+                    "body": "Concurrency control",
+                    "type": "C"
+                },
+                {
+                    "body": "Data replication",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "19a1b3e4-e186-4753-8a1d-634cbe98721b",
+                    "questionID": "e9cc5a81-b137-4899-943c-6e49ea304f25",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "It ensures that multiple users or departments cannot simultaneously modify the same record, maintaining data integrity.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "b336ef76-a8fe-4560-b5fc-21175de7c261",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "Why would a company prefer using a DBMS over traditional file systems?",
+                    "mediaSource": ""
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": " DBMS is cheaper than file systems",
+                    "type": "A"
+                },
+                {
+                    "body": "DBMS provides data redundancy",
+                    "type": "B"
+                },
+                {
+                    "body": "DBMS ensures data integrity and reduces redundancy",
+                    "type": "C"
+                },
+                {
+                    "body": "DBMS requires no technical knowledge",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f7a2c96e-ac92-42ab-927a-4c5eb775165a",
+                    "questionID": "b336ef76-a8fe-4560-b5fc-21175de7c261",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "A company would prefer using a DBMS over traditional file systems for improved data integrity, security, scalability, and efficient data management.",
+                    "description": null,
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}

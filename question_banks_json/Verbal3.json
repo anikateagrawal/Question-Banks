@@ -1,0 +1,2438 @@
+{
+    "bank_id": "d3b7437d-69d6-4790-80de-2a6c9bb8d419",
+    "bank_name": "Verbal3",
+    "questions": [
+        {
+            "id": "ca3f0403-54ff-43ec-8e4b-7d5d5c274305",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences (A–D) to form a coherent paragraph. Choose the correct order from the options.</p><p>A. Philosophers have long debated whether morality is a product of culture or an innate human instinct.</p><p>B. These debates often intersect with questions about free will, societal norms, and the nature of good and evil.</p><p>C. Some argue that morality evolves as societies become more complex.</p><p>D. Others insist that moral reasoning is hardwired into the brain from birth.</p><p>What is the correct sequence?</p><p>A) ABCD</p><p>B) ACDB</p><p>C) ADCB</p><p>D) ABDC</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "e0180e98-5c44-4c25-b68b-9baddab0ef89",
+                    "questionID": "ca3f0403-54ff-43ec-8e4b-7d5d5c274305",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: General intro (A), contrasting views (C and D), followed by a summary (B).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5aac13b6-c798-4cbe-82ad-19773a2471a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the <strong>nearest synonym</strong> of ‘<strong><em><u>Trenchant</u>’</em></strong>?</p><p>A) Bland</p><p>B) Unclear</p><p>C) Incisive</p><p>D) Detached</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "62d03a46-c115-442b-bcf6-3e197fdad75a",
+                    "questionID": "5aac13b6-c798-4cbe-82ad-19773a2471a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Trenchant” implies sharp, forceful, and penetrating in expression or style — often used in the context of criticism or observation.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "18797db4-d081-48bf-846f-49a37465c6bb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the <strong>closest meaning</strong> of ‘<strong><em><u>Mendacious</u>’</em></strong>?</p><p>A) Forgetful</p><p>B) Untruthful</p><p>C) Mysterious</p><p>D) Inexperienced</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "cd27d450-bad8-4f14-b31d-8975a8b87f1a",
+                    "questionID": "18797db4-d081-48bf-846f-49a37465c6bb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Mendacious” means habitually lying or dishonest.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5950e1bf-a26f-4bdd-bb0a-c25d4a0c7f61",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the <strong>antonym</strong> of ‘<strong><em><u>Sangfroid</u>’</em></strong>.</p><p>A) Composure</p><p>B) Agitation</p><p>C) Alertness</p><p>D) Indifference</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "84497f28-412c-4650-9be8-5ee15ca53eec",
+                    "questionID": "5950e1bf-a26f-4bdd-bb0a-c25d4a0c7f61",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Sangfroid” means coolness under pressure; its opposite is nervous excitement.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f3808f99-9653-4cdf-b822-4070b75d17b1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the <strong>most appropriate synonym</strong> for ‘<strong><em><u>Recondite</u>’</em></strong>.</p><p>A) Simplistic</p><p>B) Controversial</p><p>C) Abstruse</p><p>D) Humorous</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "45985f99-868c-4d0d-9a88-41b324e58d5f",
+                    "questionID": "f3808f99-9653-4cdf-b822-4070b75d17b1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Recondite” means difficult to understand; scholarly or obscure.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "df3c36d2-fe35-4242-a80b-c11718f8f4b1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>What is the <strong>nearest synonym</strong> of ‘<strong><em><u>Insidious</u>’</em></strong>?</p><p>A) Transparent</p><p>B) Treacherous</p><p>C) Impulsive</p><p>D) Honest</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": null,
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "387a2091-d5cd-4836-ab6e-ed6c130d878e",
+                    "questionID": "df3c36d2-fe35-4242-a80b-c11718f8f4b1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Insidious” refers to something harmful that</p><p>proceeds subtly or stealthily, often with a hidden agenda.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "26d15e2c-5dd6-4d32-9e80-23a3afca07d4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best explains the meaning of the idiom/phrase used in the sentence.</span></p><p><br></p><p>After failing three interviews, she decided to <strong><u>throw in the towel</u></strong> and try a different career path.</p><p>A) Take time off</p><p>B) Accept defeat and stop trying</p><p>C) Become aggressive</p><p>D) Ask for advice</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6384b8dd-b28b-423d-95fa-ffa5e37ce136",
+                    "questionID": "26d15e2c-5dd6-4d32-9e80-23a3afca07d4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> From boxing: “throw in the towel” = give up.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "fd944a9b-b148-463f-b015-fa60e9592bba",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best explains the meaning of the idiom/phrase used in the sentence.</span></p><p><br></p><p>The teacher’s sudden praise caught him <strong><u>off guard</u></strong>, and he stumbled in embarrassment.</p><p>A) Shocked and unprepared</p><p>B) Arrogant and defensive</p><p>C) Quiet and reserved</p><p>D) Secretive</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "cd19194c-8864-4a2a-bf6a-c4a71326418e",
+                    "questionID": "fd944a9b-b148-463f-b015-fa60e9592bba",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Off guard” = surprised or not ready.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d82c58b6-ee2a-497c-8222-f3b1efd9d0e8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best explains the meaning of the idiom/phrase used in the sentence.</span></p><p><br></p><p>The negotiator tried to <strong><u>drive a hard bargain</u></strong> during the contract discussions.</p><p>A) Was difficult to deal with</p><p>B) Offered excessive discounts</p><p>C) Negotiated with tough, favourable terms for themselves</p><p>D) Refused to negotiate</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "598a1a9f-971b-4c78-8232-1e970679b947",
+                    "questionID": "d82c58b6-ee2a-497c-8222-f3b1efd9d0e8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Drive a hard bargain” means negotiating for maximum benefit.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "6ca5bffa-7c47-4dd9-9336-703d25eb24cd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best explains the meaning of the idiom/phrase used in the sentence.</span></p><p><br></p><p>Her explanation for missing the deadline was clearly <strong><u>a cock and bull story</u>.</strong></p><p>A) A well-documented excuse</p><p>B) A fabricated and unbelievable tale</p><p>C) A legal justification</p><p>D) A confidential story</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "bc5049d6-c7a9-4079-ad5d-e0864a8fe558",
+                    "questionID": "6ca5bffa-7c47-4dd9-9336-703d25eb24cd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Cock and bull story” = an absurd or false excuse.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "31a736cf-42e2-4174-b6d7-4900543d9389",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best explains the meaning of the idiom/phrase used in the sentence.</p><p><br></p><p>When the company’s stock prices fell, the CEO was accused of <strong><u>passing the buck</u></strong> to his subordinates.</p><p>A) Delegating fairly</p><p>B) Taking all the blame</p><p>C) Avoiding responsibility by blaming others</p><p>D) Cutting costs excessively</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "181618b5-642f-4280-b154-ea763a14ed9b",
+                    "questionID": "31a736cf-42e2-4174-b6d7-4900543d9389",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Passing the buck” means shifting responsibility.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a6779f12-6896-444f-a155-c38c41cd8710",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>Even though the research paper was thoroughly reviewed and formatted<u>, </u><strong>it was submitted several hours after the</strong></p><p><strong>deadline had passed, <u>and the journal editor rejects it.</u></strong></p><p>A) and the journal editor rejects it</p><p>B) yet the journal editor had rejected it</p><p>C) but the journal editor rejected it</p><p>D) but the editor of the journal is rejecting it</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "aa5a132d-a002-4746-ad96-f9f6a457c0ba",
+                    "questionID": "a6779f12-6896-444f-a155-c38c41cd8710",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Use past tense “rejected” for consistency with “was submitted.” </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "ba2da8bf-6139-4c61-ab75-9da8aee0779f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>The chairperson emphasized that all members must comply strictly <strong><u>by the guidelines set forth in the revised</u></strong></p><p><strong><u>organizational policy </u>to </strong>avoid disciplinary action.</p><p>A) by the guidelines set forth in the revised organizational policy</p><p>B) with the guidelines which were set out under the revised policy of the organization</p><p>C) with the revised organizational policy’s guidelines as clearly laid down</p><p>D) with the guidelines set forth in the revised organizational policy</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "233a37b5-c0d3-4d10-b22d-1ec1f81ae7d6",
+                    "questionID": "ba2da8bf-6139-4c61-ab75-9da8aee0779f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> “Comply with” is the correct preposition-verb </p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "8d0ffd24-c2c9-45ef-b1aa-abfaba6073f7",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>The NGO’s recent outreach program, which targeted rural schools across multiple districts, <strong><u>is having significantly increased enrolment and improved community engagement metrics.</u></strong></p><p>A) is having significantly increased enrolment and improved community engagement metrics</p><p>B) has significantly increased enrolment and also improved community engagement metrics</p><p>C) have shown significant increase in enrolment and improving metrics of engagement </p><p>D) was having positive impact over school enrolment and community awareness generation metrics</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "2b9ffc64-2a45-4219-afea-5eede282b743",
+                    "questionID": "8d0ffd24-c2c9-45ef-b1aa-abfaba6073f7",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Present perfect (“has increased and improved”) suits a recent program with present consequences.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e70bc607-ded2-48bc-b980-c756a6910d12",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>The government’s investment plan was not only ambitious in terms of the scale of infrastructure proposed <strong><u>but failed in addressing the fundamental issues of accountability and timely execution.</u></strong></p><p>A) but failed in addressing the fundamental issues of accountability and timely execution</p><p>B) but also failed to address the fundamental issues related to accountability and timely execution</p><p>C) and also failed in addressing basic questions relating with accountability and the promptness of work</p><p>D) while it failed to address the main issue of accountability and the time-bound delivery of infrastructure</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "483f63e7-fcb1-447f-b333-dc42fa97290e",
+                    "questionID": "e70bc607-ded2-48bc-b980-c756a6910d12",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Proper correlative pair: <em>not only... but also.</em> Use “failed to address,” not “failed</p><p>in addressing.”</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7f1bc385-eec9-4e05-b085-41a5340e13c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>By the time the government announced its revised policy on import tariffs, <strong><u>the majority of exporters already suffered significant financial setbacks due to unpredictability in trade regulations.</u></strong></p><p>A) the majority of exporters already suffered significant financial setbacks due to unpredictability in trade regulations</p><p>B) the majority of exporters had already been suffering due to financial losses resulting from trade uncertainty</p><p>C) most exporters had already suffered considerable financial losses owing to the inconsistency in trade regulations</p><p>D) most exporters already suffer from losses related to trade unpredictability and lack of tariff clarity</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "358db7d1-e24e-4363-8a10-26d625a7fed6",
+                    "questionID": "7f1bc385-eec9-4e05-b085-41a5340e13c8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Use past perfect “had already suffered” to show the action occurred before the government’s announcement.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7c0f9ab3-ab4f-46e7-a77e-69d5a0a8b8c8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>In response to increasing customer complaints, the service department launched a new initiative <strong><u>with the goal of reducing waiting times, improving communication protocols, and ensure faster problem resolution.</u></strong></p><p>A) with the goal of reducing waiting times, improving communication protocols, and ensure faster</p><p>problem resolution</p><p>B) aiming to reduce the waiting duration, better the communication systems, and ensure the resolution of complaints</p><p>C) intended to reduce waiting times, improve communication mechanisms, and to ensure faster problem-solving</p><p>D) to reduce waiting times, to improve communication protocols, and to ensure faster resolution of problems</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "57ab9e79-dd31-4490-b394-90f5ad9be4f5",
+                    "questionID": "7c0f9ab3-ab4f-46e7-a77e-69d5a0a8b8c8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Maintain parallel structure with the infinitive form “to + verb”: <em>to</em></p><p><em>reduce… to improve… to ensure.</em></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a7422f39-7edf-473d-9d75-7cb4f63094e6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best improves or replaces the <strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>Unless the policymakers had considered the long-term environmental effects more thoroughly, <strong><u>they would not had implemented the industrial expansion projects with such haste and limited scrutiny.</u></strong></p><p>A) they would not had implemented the industrial expansion projects with such haste and limited scrutiny</p><p>B) they would not have implemented the industrial expansion projects with such urgency and lack of oversight</p><p>C) they would have never implement such projects which were so hasty and unexamined by relevant agencies</p><p>D) they should not have implemented any industrial expansion policy before studying its environmental implications</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6a46a305-56e6-4f77-904d-91f6e628d5dd",
+                    "questionID": "a7422f39-7edf-473d-9d75-7cb4f63094e6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> Correct form is “would not have implemented,” not “would not had.”</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "690f6099-85f3-442f-befc-bd653651ae65",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>Many senior employees at the firm expressed frustration because they <strong><u>had been consistently overlooked for promotions in spite of their being fulfilling every required performance benchmark.</u></strong></p><p>A) had been consistently overlooked for promotions in spite of their being fulfilling every</p><p>required performance benchmark</p><p>B) have been overlooked consistently for promotion despite fulfilling all the necessary benchmarks in their performances</p><p>C) were being consistently overlooked despite they fulfilling each performance requirement expected of them</p><p>D) had been consistently overlooked for promotions despite fulfilling every required performance benchmark</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "499b95d9-0e0c-42c3-b949-b1652587d392",
+                    "questionID": "690f6099-85f3-442f-befc-bd653651ae65",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> \"Despite + gerund\" is correct: <em>despite fulfilling</em>, not \"their being fulfilling.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f6bc24e1-cc8b-4157-aeac-89e8ceb881e2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><span style=\"color: rgb(68, 68, 68);\">Choose the option that best improves or replaces the </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p>He was determined to present his findings at the conference, <strong><u>neither taking into account the reviewer’s objections nor considering the implications of his flawed methodology.</u></strong></p><p>A) neither taking into account the reviewer’s objections nor considering the implications of his flawed methodology</p><p>B) and did not take the reviewers' objections into account or considered the consequences of flawed methodology</p><p>C) taking neither the objections of the reviewers into account nor had considered the consequences of using flawed methodology</p><p>D) neither took into account the reviewers' objections nor did he consider the implications of the flawed methodology</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "8010f6d5-ef98-4015-a6a1-0d3c4be9e31c",
+                    "questionID": "f6bc24e1-cc8b-4157-aeac-89e8ceb881e2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> The “neither... nor...” construction must maintain parallel tense and syntax: <em>took... nor did he consider.</em></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2d687484-4c48-4185-aa8d-5d8c41f27c4b",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best improves or replaces the <strong style=\"color: rgba(0, 0, 0, 0.9);\">underlined</strong><span style=\"color: rgba(0, 0, 0, 0.9);\"> part. If no change is needed, select </span><strong style=\"color: rgba(0, 0, 0, 0.9);\">Option A</strong><span style=\"color: rgba(0, 0, 0, 0.9);\">.</span></p><p><br></p><p><span style=\"color: rgb(13, 13, 13);\">Although the organization had promised transparency in its internal operations, its senior executives </span><strong style=\"color: rgb(13, 13, 13);\"><u>was consistently failed to disclose the minutes of high-level meetings to the stakeholders over the last fiscal year.</u></strong></p><p><br></p><p><span style=\"color: rgb(13, 13, 13);\">A) was consistently failed to disclose the minutes of high-level meetings to the stakeholders over the last fiscal year</span></p><p><span style=\"color: rgb(13, 13, 13);\">B) have consistently failed in disclosing the minutes of all important meetings to stakeholders throughout the past fiscal year</span></p><p><span style=\"color: rgb(13, 13, 13);\">C) have consistently failed to disclose the minutes of high-level meetings to stakeholders during the last fiscal year</span></p><p><span style=\"color: rgb(13, 13, 13);\">D) has consistently failed in disclosing the meeting minutes of all internal discussions to the concerned stakeholders for the past year</span></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Sentence Improvement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "746a7d7b-bbbc-4fc2-bfa0-b9415b1896ea",
+                    "questionID": "2d687484-4c48-4185-aa8d-5d8c41f27c4b",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><strong>Hint:</strong> The plural subject “executives” requires “have.” Also, \"failed to disclose\" is the correct verb phrase, not \"failed in disclosing.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "0c0135c7-1482-43dc-9d81-b202a89cdde1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the option that best improves or replaces the <strong>underlined</strong> part. If no change is needed, select <strong>Option A</strong>.</p><p><br></p><p><span style=\"color: rgb(13, 13, 13);\">Although the organization had promised transparency in its internal operations, its senior executives </span><strong style=\"color: rgb(13, 13, 13);\"><u>was consistently failed to disclose the minutes of high-level </u></strong><strong><u>meetings to the stakeholders over the last fiscal year.</u></strong></p><p><span style=\"color: rgb(13, 13, 13);\">A) was consistently failed to disclose the minutes of high-level meetings to the stakeholders over the</span></p><p><span style=\"color: rgb(13, 13, 13);\">last fiscal year</span></p><p><span style=\"color: rgb(13, 13, 13);\">B) have consistently failed in disclosing the minutes of all important meetings to stakeholders throughout the past fiscal year</span></p><p><span style=\"color: rgb(13, 13, 13);\">C) have consistently failed to disclose the minutes of high-level meetings to stakeholders during the last fiscal year</span></p><p><span style=\"color: rgb(13, 13, 13);\">D) has consistently failed in disclosing the meeting minutes of all internal discussions to the concerned stakeholders for the past year</span></p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": null,
+            "complexityLevel": null,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "1e19a5e0-079e-4eb0-b329-74e4cff7173a",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>It was clear from his sudden silence that the manager had been <em>caught off guard</em> by the employee’s question.</p><p><br></p><p>What does <strong><em>caught off guard</em></strong> mean?</p><p>A) Encouraged</p><p>B) Shocked and unprepared</p><p>C) Emotionally detached</p><p>D) Taken seriously</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d77fcdf4-94e9-4802-a564-019222641cfd",
+                    "questionID": "1e19a5e0-079e-4eb0-b329-74e4cff7173a",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: The idiom implies being surprised and not ready to respond.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "cd480688-51f2-4388-8ebb-e70fe32a76d3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The politician tried to <em>muddy the waters</em> by bringing up unrelated scandals during the debate.</p><p><br></p><p>What does <strong><em>muddy the waters</em></strong> mean?</p><p>A) Clarify a situation</p><p>B) Confuse an issue</p><p>C) Clean up a mess</p><p>D) Change the subject</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "469255c9-3ace-41f0-b064-719929e3a4ac",
+                    "questionID": "cd480688-51f2-4388-8ebb-e70fe32a76d3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Muddy the waters” means to make things unclear on purpose.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "57d0a07c-81c3-4900-81e5-b93e62e349b3",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The lawyer was so articulate and prepared that she <em>left no stone unturned</em> in defending her client.</p><p><br></p><p>What does <strong><em>leave no stone unturned</em></strong> mean?</p><p>A) Ignore small issues</p><p>B) Search thoroughly and exhaustively</p><p>C) Speak convincingly</p><p>D) Reveal all secrets</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f32b14b1-9b55-4ad7-9da1-8454013abb30",
+                    "questionID": "57d0a07c-81c3-4900-81e5-b93e62e349b3",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: The idiom implies extreme thoroughness.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d1548eea-dc4e-4868-ac2d-2e741eec3ca9",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>After working 80-hour weeks for three months straight, Riya was finally <em>burned out </em>and had to take a sabbatical.</p><p><br></p><p>What does <strong><em>burned out</em> </strong>mean?</p><p>A) Fired from work</p><p>B) Exhausted due to overwork</p><p>C) Upset with a colleague</p><p>D) Rejected for promotion</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Idioms & Phrases"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6aaf7fd3-a176-4b47-a661-1811748565b5",
+                    "questionID": "d1548eea-dc4e-4868-ac2d-2e741eec3ca9",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: \"Burned out\" refers to mental or emotional exhaustion.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "97dcbb8f-bce0-429f-b225-4437ba913368",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The diplomat’s speech was filled with <em>equanimity,</em> even when provoked with hostile questions.</p><p><br></p><p>Choose the synonym of <strong><em>equanimity</em></strong>.</p><p>A) Anxiety</p><p>B) Composure</p><p>C) Bitterness</p><p>D) Dishonesty</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary – Synonyms and Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "88ed148a-dbeb-4f78-84be-1ab961a45a6e",
+                    "questionID": "97dcbb8f-bce0-429f-b225-4437ba913368",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Equanimity means calmness under pressure.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "86515aaa-ae72-4fa7-a80f-e522a95c2d79",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The scientist’s findings were so <em>incontrovertible</em> that even long-time skeptics were forced to accept them.</p><p><br></p><p>Choose the antonym of <strong><em>incontrovertible</em></strong>.</p><p>A) Undeniable</p><p>B) Unassailable</p><p>C) Debatable</p><p>D) Factual</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary – Synonyms and Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "a87edc63-8397-4a3b-87e6-2c864df704af",
+                    "questionID": "86515aaa-ae72-4fa7-a80f-e522a95c2d79",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Incontrovertible = unquestionable.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "302c6606-eec2-436f-b572-a40eeedb8222",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The speaker’s tone was <em>bombastic,</em> filled with grandiose phrases and empty declarations that lacked substance.</p><p><br></p><p>What is the nearest synonym of <strong><em>bombastic</em></strong>?</p><p>A) Measured</p><p>B) Pompous</p><p>C) Reserved</p><p>D) Subtle</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary – Synonyms and Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "f67f4de7-6b23-40b2-85dd-a1c0a3d566f2",
+                    "questionID": "302c6606-eec2-436f-b572-a40eeedb8222",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Bombastic speech is inflated and showy.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "f88a671f-e33e-455e-9f27-71f2497794a6",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Despite facing considerable pressure, the athlete remained <em>unflappable</em>, calmly answering every provocative question thrown at him.</p><p><br></p><p>Choose the antonym of <strong><em>unflappable</em>.</strong></p><p>A) Composed</p><p>B) Agitated</p><p>C) Resilient</p><p>D) Disciplined</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary – Synonyms and Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "11fe7fbc-5dfe-4bed-bded-76cc2c6a1a00",
+                    "questionID": "f88a671f-e33e-455e-9f27-71f2497794a6",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Unflappable” means not easily upset.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "eb222ce5-2ab8-4e18-a6ce-612313772458",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>The manager’s instructions were so <em>ambiguous</em> that the team members ended up interpreting them in entirely different ways.</p><p><br></p><p>Choose the synonym of <strong><em>ambiguous</em></strong>.</p><p>A) Clear</p><p>B) Vague</p><p>C) Concise</p><p>D) Informative</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Vocabulary – Synonyms and Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "9b2b2e81-b8f5-4783-94b1-587015089267",
+                    "questionID": "eb222ce5-2ab8-4e18-a6ce-612313772458",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Ambiguous” means unclear or having more than one meaning.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e312baf9-65fe-450b-95f3-0eb87f5deec4",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences (A–D) to form a coherent paragraph. Choose the correct order from the options.</p><p>A. The journalist was detained for questioning the official narrative.</p><p>B. Global watchdogs condemned the arrest, citing freedom of the press.</p><p>C. The government, however, claimed the detention was unrelated to his publications.</p><p>D. A wave of protests erupted, with people demanding his immediate release.</p><p>What is the correct sequence?</p><p>A) ACBD</p><p>B) ABCD</p><p>C) CABD</p><p>D) ABDC</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "94331bc1-e054-4dfe-98c9-0dfdc1d4d588",
+                    "questionID": "e312baf9-65fe-450b-95f3-0eb87f5deec4",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Begin with the event, then reactions, and finally the government's defence.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e6b1b1a8-a8cb-48ae-be86-dec80691711f",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences (A–D) to form a coherent paragraph. Choose the correct order from the options.</p><p>A. Yet, without conscious effort, that creativity can be dulled by routine and repetition.</p><p>B. Creativity is not a rare gift but a skill that resides in everyone.</p><p>C. Like any other ability, it requires nurturing and occasional risk-taking.</p><p>D. Schools and workplaces often suppress creativity in pursuit of efficiency.</p><p>What is the correct sequence?</p><p>A) BDAC</p><p>B) BACD</p><p>C) BCAD</p><p>D) DACB</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8907086e-2d79-4504-9dba-d845f351193c",
+                    "questionID": "e6b1b1a8-a8cb-48ae-be86-dec80691711f",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Statement (B) makes a universal claim that sets up the rest.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "d8250fa9-09da-428c-a6eb-5ed1f487a579",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences (A–D) to form a coherent paragraph. Choose the correct order from the options.</p><p>A. At first, the villagers dismissed the rumours as mere superstition.</p><p>B. Soon, however, cattle began disappearing mysteriously from the farmlands.</p><p>C. Local legends spoke of a shadowy figure that haunted the outskirts of the village at night.</p><p>D. That was when people started locking their doors and whispering about curses.</p><p>What is the correct sequence?</p><p>A) CABD</p><p>B) ACBD</p><p>C) BCAD</p><p>D) CABC</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "0ea7d4fd-d3ec-4854-a5c1-5d9cbea6016a",
+                    "questionID": "d8250fa9-09da-428c-a6eb-5ed1f487a579",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Start with the legend (C), then the reaction (A), the events (B), and then consequences (D).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "550f9b92-5cf0-4b82-ade3-f7280ff7d9f5",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences (A–D) to form a coherent paragraph. Choose the correct order from the options.</p><p>A. While profits soared, ethical concerns about data privacy and monopoly behavior began to surface.</p><p>B. The rise of tech giants in the 21st century transformed not just markets, but the very structure of human interaction.</p><p>C. These companies grew at an unprecedented pace, becoming integral to daily life.</p><p>D. Governments around the world are now grappling with how to regulate their influence.</p><p><br></p><p>What is the correct sequence?</p><p>A) BCAD</p><p>B) CBAD</p><p>C) BACD</p><p>D) ACBD</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "773dbd9c-fcb9-4f9d-ae00-9337ee2c9ed8",
+                    "questionID": "550f9b92-5cf0-4b82-ade3-f7280ff7d9f5",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p><span class=\"ql-cursor\">﻿</span>Hint: Follow the logical flow: rise → growth → concerns → regulatory response.</p><p><br></p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5a49c798-1031-4a94-abfc-e256ad91e15e",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Rearrange the following sentences (A–D) to form a coherent paragraph. Choose the correct order from the options.</p><p>A. But over the past few decades, it has become the bedrock of nearly every modern industry.</p><p>B. Artificial Intelligence was once confined to academic theories and science fiction narratives.</p><p>C. Today, AI assists in healthcare diagnostics, powers recommendation engines, and even influences hiring decisions.</p><p>D. Its rapid growth has outpaced regulation, leading to debates about ethics and accountability.</p><p><br></p><p>What is the correct sequence?</p><p>A) BADC</p><p>B) BDAC</p><p>C) BACD</p><p>D) CBAD</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Para Jumble"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e70426ca-74ca-4ac4-af85-f83f33638f97",
+                    "questionID": "5a49c798-1031-4a94-abfc-e256ad91e15e",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Start with how AI was perceived in the past, then progress to the present.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "5c57010c-9fb2-4677-a081-1f7302ce1879",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>SYNONYM of “Intransigent”</strong></p><p>A) Flexible</p><p>B) Dogmatic</p><p>C) Yielding</p><p>D) Compliant</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "6ca1578e-55a8-46cc-bd62-c345ea8d45a3",
+                    "questionID": "5c57010c-9fb2-4677-a081-1f7302ce1879",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>“Intransigent” means refusing to change one's views.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a81d9750-64bf-48e4-a43a-f4f4c68699b0",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>ANTONYM of “Pernicious”</strong></p><p>A) Malevolent</p><p>B) Dangerous</p><p>C) Beneficial</p><p>D) Corrosive</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "bbd757d4-60f7-44a6-8faa-4bcc18aadbaa",
+                    "questionID": "a81d9750-64bf-48e4-a43a-f4f4c68699b0",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>“Pernicious” means harmful; opposite is helpful or beneficial.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7cff713a-607e-49de-b0e8-7dc483e72bd8",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>SYNONYM of “Ebullient”</strong></p><p>A) Mournful</p><p>B) Reserved</p><p>C) Enthusiastic</p><p>D) Passive</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "8a364ae7-23f1-46b1-b3bb-5a571078fd89",
+                    "questionID": "7cff713a-607e-49de-b0e8-7dc483e72bd8",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>“Ebullient” describes someone full of energy and cheerfulness.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "21f9c197-8fdf-4fd4-92df-78ed96a33d46",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>ANTONYM of “Obfuscate”</strong></p><p>A) Complicate</p><p>B) Clarify</p><p>C) Fabricate</p><p>D) Elude</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "d1a865f4-40f1-40eb-b360-8b5b5ff64ea4",
+                    "questionID": "21f9c197-8fdf-4fd4-92df-78ed96a33d46",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>“Obfuscate” means to make something unclear or confusing.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "16de53d0-493c-458b-988e-37222f849d16",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>SYNONYM of “Circumspect”</strong></p><p>A) Reckless</p><p>B) Indifferent</p><p>C) Cautious</p><p>D) Exuberant</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>A</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>B</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>C</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Synonyms & Antonyms"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "258b5f74-3d1a-4c36-bc45-a7103ace27f5",
+                    "questionID": "16de53d0-493c-458b-988e-37222f849d16",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>“Circumspect” refers to someone careful and prudent.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "53c3945a-9c85-4513-8c15-aedb31d1b342",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each sentence is divided into four parts: A, B, C, and D. <strong>Only one part</strong> of the sentence contains a grammatical or usage error. Identify the part <strong>that contains the error</strong> and mark the corresponding option.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "spot the error"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "01228d00-289f-4636-b3c8-40de108d1b57",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Each sentence is divided into four parts: A, B, C, and D. <strong>Only one part</strong> of the sentence contains a grammatical or usage error. Identify the part<strong> that contains the error</strong> and mark the corresponding option.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "spot the error"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "b48cfb3f-a83d-44d2-af70-45d73a6feafb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Read the given passage carefully and thoroughly. Choose the most appropriate option to answer the questions based on passage.</strong></p><p>As global economies evolve, the narrative of success is shifting from industrial expansion to technological innovation and sustainability. While traditional sectors like manufacturing and agriculture remain vital, policymakers are increasingly emphasizing eco-conscious growth models. The digital economy—spanning e-commerce, artificial intelligence, and data science—has created unprecedented opportunities for wealth generation. Yet, the divide between digitally literate and digitally deprived populations has widened. This has prompted international agencies to advocate for inclusive digital education, infrastructure investments, and ethical tech development. Nonetheless, critics argue that without equitable access and strong governance, technological growth may exacerbate societal inequalities rather than bridge them.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "57efe3d7-98d3-4a45-8bc0-c960827c0503",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Read the given passage carefully and thoroughly. Choose the most appropriate option to answer the questions based on passage.</strong></p><p>As global economies evolve, the narrative of success is shifting from industrial expansion to technological innovation and sustainability. While traditional sectors like manufacturing and agriculture remain vital, policymakers are increasingly emphasizing eco-conscious growth models. The digital economy—spanning e-commerce, artificial intelligence, and data science—has created unprecedented opportunities for wealth generation. Yet, the divide between digitally literate and digitally deprived populations has widened. This has prompted international agencies to advocate for inclusive digital education, infrastructure investments, and ethical tech development. Nonetheless, critics argue that without equitable access and strong governance, technological growth may exacerbate societal inequalities rather than bridge them.</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": null,
+            "questionTags": [
+                "Reading Comprehension"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": null,
+            "solution": []
+        },
+        {
+            "id": "a26c1945-f951-4c7d-8fc4-8e15761e3592",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Neither the professor nor the students objected ______ the proposed change in syllabus, although the timing of the announcement was unexpected.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>at</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>on</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>to</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>against</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "e4b42ee4-da69-41d7-902b-e838825942c5",
+                    "questionID": "a26c1945-f951-4c7d-8fc4-8e15761e3592",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: The verb \"object\" is always followed by \"to\" (e.g., object to</p><p>something). Also, “neither...nor” is correctly structured.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "55eb8aa7-50c5-4582-a6cb-82719e5a4af2",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>By the time the delegation arrives tomorrow, the documents ______ thoroughly reviewed and approved by the legal team.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>are</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>will have been</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>will be</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>have been</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "8144140f-2e61-461f-91c1-a1160cff40ef",
+                    "questionID": "55eb8aa7-50c5-4582-a6cb-82719e5a4af2",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Future Perfect Passive is required here because the action will be completed before another future action.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "4c511676-ddae-4f9a-8bc3-7cfdcec585ac",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>She has always dreamt of becoming ______ astronaut since childhood, inspired by stories of space exploration and scientific discovery.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>an</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>a</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>the</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>no article</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "A",
+            "solution": [
+                {
+                    "id": "c26dd75e-377d-4324-b198-d8c3337be2e9",
+                    "questionID": "4c511676-ddae-4f9a-8bc3-7cfdcec585ac",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: \"Astronaut\" starts with a vowel sound, so we use \"an\".</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "2d8ee219-5703-4ce3-b349-17986bc06afb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Only after the evidence was thoroughly reviewed ______ that the original verdict had been based on flawed assumptions.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>the judge realized</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>did the judge realize</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>the judge was realizing</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>has the judge realized</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "32eb0f1b-9717-4ce8-b459-c15d9b1b382c",
+                    "questionID": "2d8ee219-5703-4ce3-b349-17986bc06afb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: Inversion is used here. After \"Only</p><p>after...\", use \"did + subject</p><p>+ base verb.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "a5769c13-50fe-4eb1-869f-1c376c200172",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Choose the most suitable option to fill in the blank.</p><p>The CEO was deeply concerned ______ the sudden drop in quarterly profits and called for an emergency board meeting to reassess the company’s strategy.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>on</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>for</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>about</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>over</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "f9ebc407-f327-4fee-8266-6bda6b46a090",
+                    "questionID": "a5769c13-50fe-4eb1-869f-1c376c200172",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: The correct preposition after</p><p>\"concerned\" in this context (worried) is \"about.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e694eea7-f1ee-418d-a4d5-1d99cae676cf",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>While the researcher’s findings were certainly provocative, many critics questioned whether the evidence presented was <u>sufficient enough to warrant</u> such sweeping conclusions.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>enough sufficient to warrant</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>sufficiently warranted</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>sufficient to warrant</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>No improvement</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "C",
+            "solution": [
+                {
+                    "id": "21f04117-49d7-42c9-b656-75027f45b1f5",
+                    "questionID": "e694eea7-f1ee-418d-a4d5-1d99cae676cf",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Sufficient” and “enough” are redundant together. Use only</p><p>one — “sufficient to warrant” is concise and correct.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "3e77e319-7807-462a-8470-dc6f22d522bd",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Replace the underlined phrase with the most suitable option.</p><p><br></p><p>By the time the legal reforms were implemented, several communities <u>have  already been bearing the brunt </u>of the outdated policies for decades.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>were already bearing the brunt</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>had already borne the brunt</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>have already bore the brunt</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>No improvement</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "phrase replacement"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "1f87bfbc-59f6-4f3e-b40e-401544db4897",
+                    "questionID": "3e77e319-7807-462a-8470-dc6f22d522bd",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: The main clause is in past perfect (\"By the time...\"), so the action before that must also be in past perfect tense — \"had borne.\"</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "e9e642b7-9ad6-45d4-8688-ebcef88a60fc",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Choose the correct synonym of the word which is bold in sentence </strong>&nbsp;</p><p>The scientist’s explanation was so <strong><u>esoteric</u></strong> that only a handful of experts in the room could fully comprehend it.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>practical</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>obscure</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>universal</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>excessive</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "081647d7-dae4-4f19-ac2a-2b4d72b55073",
+                    "questionID": "e9e642b7-9ad6-45d4-8688-ebcef88a60fc",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: “Esoteric” refers to something intended for or understood by a small,</p><p>specialized group. A close synonym is obscure (not well known or difficult to understand).</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "af54baa5-f687-404e-b07a-cf2c78973cdb",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Choose the correct antonym for the word which is bold in sentence – </strong></p><p>Her reputation for being <strong><u>impeccable</u></strong> in her conduct was shattered after the leaked footage showed her behaving recklessly at a public event.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>flawless</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>imperfect</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>admirable</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>conscious</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "97e4bbed-d9b6-4a04-97a3-6f389a159601",
+                    "questionID": "af54baa5-f687-404e-b07a-cf2c78973cdb",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: \"Impeccable\" means without fault or error. Its direct opposite is imperfect, which implies flaws.\\</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "7683ae0f-61f6-41c2-b5ed-01da5ebb3d90",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p><strong>Choose the correct synonym for the word which is bold in sentence -&nbsp; </strong></p><p>Although his apology appeared heartfelt, it was ultimately dismissed as a <strong><u>contrived</u></strong> performance designed to manipulate public opinion.</p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>sincere</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>calculated</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>clumsy</p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>abrupt</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "vocab"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "B",
+            "solution": [
+                {
+                    "id": "ce45577f-721d-403a-be5d-a002e71c7374",
+                    "questionID": "7683ae0f-61f6-41c2-b5ed-01da5ebb3d90",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Hint: \"Contrived\" means artificial or deliberately planned —</p><p>not genuine. The synonym is calculated,</p><p>meaning pre-planned for effect.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        },
+        {
+            "id": "9d5b5c79-d604-4f72-b20f-acb7cfb43bc1",
+            "questionContent": [
+                {
+                    "type": "text",
+                    "body": "<p>Directions: In the questions given below a sentence is given with two blanks in each.</p><p>Corresponding to each question two columns are given with three words in each column.</p><p>Which combination of words from the two columns will perfectly fit into the blanks to make</p><p>the sentence contextually correct and meaningful.</p><p>Fill in the blanks Questions for SBI Clerk Mains, IBPS Clerk Mains,</p><p>RBI Grade B and RBI Assistant Exams.</p><p>Fill in the blanks Quiz 49</p><p>Directions: In the questions given below a sentence is given with two blanks in each.</p><p>Corresponding to each question two columns are given with three words in each column.</p><p>Which combination of words from the two columns will perfectly fit into the blanks to make</p><p>the sentence contextually correct and meaningful.</p><p>1. The World Health Organization has expressed ______________ over the speed at which</p><p>COVID-19 has spread in Iran, as well as it being ______________ from the country to</p><p>other countries including Lebanon.</p><p>Column I Column II</p><p>A. Elation D. Exported</p><p>B. Distress E. Imported</p><p>C. Concern F. Transmitted</p><p><br></p>",
+                    "mediaSource": "",
+                    "language": "plain-text"
+                }
+            ],
+            "questionOptions": [
+                {
+                    "body": "<p>B-D</p>",
+                    "type": "A"
+                },
+                {
+                    "body": "<p>A-F</p>",
+                    "type": "B"
+                },
+                {
+                    "body": "<p>A-E </p>",
+                    "type": "C"
+                },
+                {
+                    "body": "<p>B-F and C-D</p>",
+                    "type": "D"
+                }
+            ],
+            "questionTags": [
+                "Fill in the Blanks"
+            ],
+            "complexityLevel": 30,
+            "correctAnswer": "D",
+            "solution": [
+                {
+                    "id": "060457e2-61ae-40c3-9646-c3f854b00c51",
+                    "questionID": "9d5b5c79-d604-4f72-b20f-acb7cfb43bc1",
+                    "name": "Solution 1",
+                    "programmingLanguage": "",
+                    "details": "<p>Explanations:</p><p>1. Elation means ‘great happiness and exhilaration.’ It does not fit first blank contextually.</p><p>Thus, we can eliminate Options A and D.</p><p>Concern means anxiety or worry. Distress is its synonym. Thus, these two fit the first blank.</p><p>Exported and Transmitted – means ‘passed on from one place to another’. These two fit the second</p><p>blank.</p><p>Imported –means ‘bringing something from another place.’ It does not fit into second blank.</p><p>Hence, option E (B-F and C-D) is the correct answer.</p>",
+                    "description": "",
+                    "isBestSolution": true,
+                    "visibleToCandidate": true
+                }
+            ]
+        }
+    ]
+}
