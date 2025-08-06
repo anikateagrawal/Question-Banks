@@ -20,7 +20,7 @@
         const params = new URLSearchParams(window.location.search);
         const bankName = params.get("name");
 
-        fetch(`/question_banks_json/${encodeURIComponent(bankName)}`)
+        fetch(`question_banks_json/${encodeURIComponent(bankName)}`)
             .then(res => res.json())
             .then(bank => {
                 document.getElementById("bankTitle").textContent = bank.bank_name;

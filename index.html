@@ -13,7 +13,7 @@
     <div id="banks"></div>
 
     <script>
-        fetch("/question_banks_json/banks.json")
+        fetch("question_banks_json/banks.json")
             .then(res => res.json())
             .then(banks => {
                 const container = document.getElementById("banks");
